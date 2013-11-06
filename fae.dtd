@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT fae (id, refresh, current_fate_points, aspects, approaches, stunts, consequences, notes?)>
+<!ELEMENT fae (id, refresh, current_fate_points, aspects, approaches, stunts, consequences?)>
 
 <!ELEMENT id (charname, playername, description)>
 	<!ELEMENT charname (#PCDATA)>
@@ -30,12 +30,4 @@
 		<!ELEMENT consequence (#PCDATA)>
       <!ATTLIST consequence effect CDATA #IMPLIED>
       <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
-
-	<!ELEMENT notes (charhistory, charnotes, campaign)>
-		<!ELEMENT charhistory (#PCDATA)>
-		<!ELEMENT charnotes (#PCDATA)>
-		<!ELEMENT campaign (#PCDATA)>
-			<!ATTLIST campaign gm CDATA #REQUIRED>
-			<!ATTLIST campaign name CDATA #REQUIRED>
-			<!ATTLIST campaign year CDATA #REQUIRED>
 
