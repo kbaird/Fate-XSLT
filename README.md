@@ -1,10 +1,15 @@
 Fate-XSLT
 =========
 
-A character DTD for Evil Hat Productions' Fate Core &amp; Fate Accelerated (FAE) RPGs, along with XSLT sheets for rendering
+A character
+[DTD](http://www.w3.org/TR/xhtml1/dtds.html) for
+[Evil Hat Productions](http://evilhat.com/)'
+[Fate Core](http://www.evilhat.com/home/fate-core/) &amp;
+[Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE) RPGs, along with
+[XSLT](http://www.w3.org/TR/xslt) sheets for rendering to various output formats.
 
-- http://www.faterpg.com/
-- http://www.evilhat.com/
+Very much in progress.
 
 Other useful URLs:
+- http://www.faterpg.com/
 - http://fate-srd.com/
