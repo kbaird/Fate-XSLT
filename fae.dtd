@@ -20,6 +20,9 @@
 
 	<!ELEMENT stunts (stunt*)>
 		<!ELEMENT stunt (#PCDATA)>
+<!--
+     TODO: Think about stunt att name, with the base text being the effect, instead
+-->
       <!ATTLIST stunt effect CDATA #IMPLIED>
 
 <!--
