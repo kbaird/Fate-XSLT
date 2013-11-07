@@ -50,6 +50,7 @@ td.consequence {
 
 td.severity {
   font-weight: 700;
+  padding-right: 0.3em;
   text-align: right;
   width: 20%;
 }
