@@ -26,6 +26,11 @@ dl dd {
 
 h1, hr { display: none; }
 
+p#copyright {
+  font-size: 0.8em;
+  text-align: center;
+}
+
 table {
   border: 0px;
   padding: 0.3em;

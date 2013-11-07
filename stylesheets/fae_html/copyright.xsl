@@ -5,7 +5,7 @@
 <xsl:output method="html"/>
 
 <xsl:template name="copyright">
-<p>
+<p id="copyright">
 <acronym title="Fate Accelerated">FAE</acronym> Character Sheet ©2013 Evil Hat Productions, LLC.
 </p>
 </xsl:template>
