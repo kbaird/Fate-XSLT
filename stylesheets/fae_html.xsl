@@ -8,6 +8,7 @@
 <xsl:include href="fae_html/approaches.xsl"/>
 <xsl:include href="fae_html/aspects.xsl"/>
 <xsl:include href="fae_html/consequences.xsl"/>
+<xsl:include href="fae_html/copyright.xsl"/>
 <xsl:include href="fae_html/id.xsl"/>
 <xsl:include href="fae_html/stress.xsl"/>
 <xsl:include href="fae_html/stunts.xsl"/>

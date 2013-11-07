@@ -3,7 +3,7 @@ body {
  color: #111;
  margin: 0.1em 0.4em;
  padding: 0.2em;
- font: 8.0em ubuntu, verdana, arial, helvetica, sans-serif;
+ font: 1.0em ubuntu, verdana, arial, helvetica, sans-serif;
  }
 
 dl dt, dl dd {

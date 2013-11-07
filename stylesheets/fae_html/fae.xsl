@@ -73,6 +73,7 @@
     </table>
 
 <xsl:apply-templates select="notes"/>
+<xsl:call-template name="copyright"/>
 
   </body>
 </html>
