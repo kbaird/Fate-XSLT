@@ -6,28 +6,41 @@ body {
  font: 1.0em verdana, arial, helvetica, sans-serif;
  }
 
-h1 { display: none; }
-
-table {
-  border:0px;
-  padding: 0.3em;
-  text-align:center;
-  width:100%;
+dl dt, dl dd {
+  display: inline;
+  padding: 0.35em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-td, th { border: 0px; }
-
-.approach_name {
+dl.approaches dt {
   border: 0px;
   font-weight: bolder;
   text-transform: uppercase;
 }
+
+dl dd {
+  border: 2px solid black;
+  float: right;
+}
+
+h1, hr { display: none; }
+
+table {
+  border: 0px;
+  padding: 0.3em;
+  text-align: center;
+  width: 100%;
+}
+
+td, th { border: 0px; }
 
 .sectionheader {
   background-color: #000;
   border-bottom-right-radius: 0.9em;
   border-top-left-radius: 0.9em;
   color: #fff;
+  vertical-align: text-top;
 }
 
 #accelerated {

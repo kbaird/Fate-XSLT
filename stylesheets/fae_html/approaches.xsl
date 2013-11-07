@@ -6,18 +6,20 @@
 
 <xsl:template match="approaches">
 <table border="1">
-<tr>
-<th class="sectionheader" colspan="2">Approaches</th>
-</tr>
-<xsl:apply-templates select="approach"/>
+  <tr>
+    <th class="sectionheader" colspan="2">Approaches</th>
+  </tr>
+  <tr>
+    <td><xsl:apply-templates select="approach"/></td>
+  </tr>
 </table>
 </xsl:template>
 
 <xsl:template match="approach">
-<tr>
-<td class="approach_name"><xsl:value-of select="@name"/></td>
-<td><xsl:value-of select="."/></td>
-</tr>
+<dl class="approaches">
+  <dt><xsl:value-of select="@name"/></dt>
+  <dd><xsl:value-of select="."/></dd>
+</dl>
 </xsl:template>
 
 </xsl:stylesheet>

@@ -24,13 +24,25 @@
           <span id="accelerated">Accelerated</span>
           <table>
             <tr>
-              <td width="50%">Refresh: <xsl:value-of select="refresh"/></td>
-              <td width="50%">Current Fate Pts: <xsl:value-of select="current_fate_points"/></td>
+              <td>
+                <dl>
+                  <dt>Refresh:</dt>
+                  <dd class="box"><xsl:value-of select="refresh"/></dd>
+                </dl>
+              </td>
+              <td>
+                <dl>
+                  <dt>Current Fate Points:</dt>
+                  <dd class="box"><xsl:value-of select="current_fate_points"/></dd>
+                </dl>
+              </td>
             </tr>
           </table>
         </td>
       </tr>
     </table>
+
+    <hr />
 
     <table>
       <tr>
@@ -39,11 +51,15 @@
       </tr>
     </table>
 
+    <hr />
+
     <table>
       <tr>
         <td width="100%"><xsl:apply-templates select="stunts"/></td>
       </tr>
     </table>
+
+    <hr />
 
     <table>
       <tr>
