@@ -9,6 +9,7 @@
 <xsl:include href="fae_html/aspects.xsl"/>
 <xsl:include href="fae_html/consequences.xsl"/>
 <xsl:include href="fae_html/copyright.xsl"/>
+<xsl:include href="fae_html/current_fate_points.xsl"/>
 <xsl:include href="fae_html/id.xsl"/>
 <xsl:include href="fae_html/refresh.xsl"/>
 <xsl:include href="fae_html/stress.xsl"/>

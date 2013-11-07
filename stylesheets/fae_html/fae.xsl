@@ -25,12 +25,7 @@
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
-              <td>
-                <dl>
-                  <dt>Current <acronym title="Fate Points">FP</acronym>:</dt>
-                  <dd class="box"><xsl:value-of select="current_fate_points"/></dd>
-                </dl>
-              </td>
+              <xsl:call-template name="current_fate_points"/>
             </tr>
           </table>
         </td>
