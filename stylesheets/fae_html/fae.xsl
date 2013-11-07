@@ -11,7 +11,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
 <title><xsl:value-of select="charname"/></title>
 <style type="text/css">
-@import url(./characters.css);
+@import url(./fate.css);
 .alt { background-color:#ddd; color:#000; }
 .altc { background-color:#ddd; color:#000; text-align: center; }
 .approach_name { text-transform: uppercase; font-weight: bolder }
