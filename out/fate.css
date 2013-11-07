@@ -25,6 +25,8 @@ td, th { border: 0px; }
 
 .sectionheader {
   background-color: #000;
+  border-bottom-right-radius: 0.9em;
+  border-top-left-radius: 0.9em;
   color: #fff;
 }
 
