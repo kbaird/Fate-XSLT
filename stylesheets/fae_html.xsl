@@ -7,6 +7,7 @@
 <xsl:include href="fae_html/fae.xsl"/>
 <xsl:include href="fae_html/approaches.xsl"/>
 <xsl:include href="fae_html/aspects.xsl"/>
+<xsl:include href="fae_html/consequences.xsl"/>
 <xsl:include href="fae_html/id.xsl"/>
 <xsl:include href="fae_html/stunts.xsl"/>
 

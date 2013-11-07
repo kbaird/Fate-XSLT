@@ -63,8 +63,28 @@
 
     <table>
       <tr>
-        <td width="35%"><xsl:apply-templates select="stress"/></td>
-        <td width="65%"><xsl:apply-templates select="consequences"/></td>
+        <td width="35%">
+          <table border="1">
+            <tr>
+              <th class="sectionheader" colspan="2">Stress</th>
+            </tr>
+            <tr>
+              <td>
+                <dl class="stress">
+                  <dt></dt>
+                  <dd>3</dd>
+                  <dt></dt>
+                  <dd>2</dd>
+                  <dt></dt>
+                  <dd>1</dd>
+                </dl>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td width="65%">
+          <xsl:apply-templates select="consequences"/>
+        </td>
       </tr>
     </table>
 
