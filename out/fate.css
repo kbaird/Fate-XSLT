@@ -38,6 +38,17 @@ td, th {
   vertical-align: top;
 }
 
+td.consequence {
+  text-align: left;
+  width: 80%;
+}
+
+td.severity {
+  font-weight: 700;
+  text-align: right;
+  width: 20%;
+}
+
 .sectionheader {
   background-color: #000;
   border-bottom-right-radius: 0.9em;

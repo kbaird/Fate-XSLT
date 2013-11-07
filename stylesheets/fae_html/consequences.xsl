@@ -5,29 +5,28 @@
 <xsl:output method="html"/>
 
 <!--
-     TODO: show empty boxes even when no consequence elements in XML
+     TODO: shows empty boxes even when no consequence elements in XML,
+     but doesn't show values stored in XML. Do both.
 -->
-<xsl:template match="consequences">
+<xsl:template name="consequences">
 <table border="1">
 <tr><th colspan="2" class="sectionheader">Consequences</th></tr>
-<xsl:apply-templates select="consequence"/>
+<xsl:call-template name="consequence"/>
 </table>
 </xsl:template>
 
-<xsl:template match="consequence">
+<xsl:template name="consequence">
 <tr>
-<td>
-<xsl:if test="@severity = 'mild'">
-<strong>Mild (2)</strong>:
-</xsl:if>
-<xsl:if test="@severity = 'moderate'">
-<strong>Moderate (4)</strong>:
-</xsl:if>
-<xsl:if test="@severity = 'severe'">
-<strong>Severe (6)</strong>:
-</xsl:if>
-<xsl:value-of select="."/>
-</td>
+  <td class="severity">Mild (2):</td>
+  <td class="consequence"><xsl:value-of select="fae/consequences/consequence[severity='mild']"/></td>
+</tr>
+<tr>
+  <td class="severity">Moderate (4):</td>
+  <td class="consequence"><xsl:value-of select="fae/consequences/consequence[severity='moderate']"/></td>
+</tr>
+<tr>
+  <td class="severity">Severe (6):</td>
+  <td class="consequence"><xsl:value-of select="fae/consequences/consequence[severity='severe']"/></td>
 </tr>
 </xsl:template>
 

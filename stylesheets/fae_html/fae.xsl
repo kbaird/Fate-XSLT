@@ -67,7 +67,7 @@
           <xsl:call-template name="stress"/>
         </td>
         <td width="65%">
-          <xsl:apply-templates select="consequences"/>
+          <xsl:call-template name="consequences"/>
         </td>
       </tr>
     </table>
