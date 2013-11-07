@@ -43,8 +43,7 @@ td, th {
   border-bottom-right-radius: 0.9em;
   border-top-left-radius: 0.9em;
   color: #fff;
-  padding-bottom: 0.2em;
-  padding-top: 0.25em;
+  padding: 0.2em;
   text-transform: uppercase;
   vertical-align: text-top;
 }
