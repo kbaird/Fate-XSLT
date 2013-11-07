@@ -24,12 +24,7 @@
           <span id="accelerated">Accelerated</span>
           <table>
             <tr>
-              <td>
-                <dl>
-                  <dt>Refresh:</dt>
-                  <dd class="box"><xsl:value-of select="refresh"/></dd>
-                </dl>
-              </td>
+              <xsl:call-template name="refresh"/>
               <td>
                 <dl>
                   <dt>Current <acronym title="Fate Points">FP</acronym>:</dt>
