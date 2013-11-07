@@ -1,0 +1,95 @@
+acronym { font-size: 0.8em; }
+
+body {
+ color: #111;
+ background-color: #6b6;
+ margin: 0.1em 0.4em;
+ padding: 0.2em;
+ font: 1.0em verdana, arial, helvetica, sans-serif;
+ }
+
+h1 {
+ background-color: #fff;
+ border: 0.1em solid;
+ display:none;
+ font: bold 1.4em;
+ padding:0.2em;
+ text-align:center;
+ }
+
+p {
+ background-color: #fff;
+ margin-bottom: 0.5em; 
+ margin-top: 0.5em;
+ padding:0.4em;
+ }
+
+pre {
+ background-color: #fff;
+ border: 0.1em solid;
+ padding:0.4em;
+ }
+
+table {
+ background-color: #fff;
+ border: 0.1em solid;
+ margin-left: 0em;
+ margin-bottom: 0.5em;
+ padding:0.2em;
+ text-align: center;
+ vertical-align: top;
+ }
+
+td {
+ padding:0.2em;
+ text-align: center;
+ vertical-align: top;
+ }
+
+th {
+ padding:0.2em;
+ text-align: center;
+ vertical-align: top;
+ }
+
+.demographics { 
+ font-size: 0.9em;
+ text-align: left; 
+}
+
+.advances, .equipment, .feats, .left, .spells, .weapons, .wishlist {
+ text-align: left;
+}
+
+.itemdesc {
+ padding: 0.3em;
+ text-align: left;
+}
+
+.featnotes { 
+ font-size: 0.7em;
+ text-align: left; 
+}
+
+.advanced, .highlight { 
+  background-color: #ccc; 
+  color: #000;
+  font-style: italic; 
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+}
+
+.mem { color: #00c; }
+
+.sectionheader { background-color: #000; color: #fff; }
+
+.sm {
+ font-size: 0.7em;
+ text-align: center;
+ }
+
+.zeroranks {
+ font-size: 0.8em;
+ /* color: #f66; */
+ }
