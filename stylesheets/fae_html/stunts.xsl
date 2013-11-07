@@ -6,23 +6,15 @@
 
 <xsl:template match="stunts">
 <table border="1">
-<tr><th colspan="2" class="sectionheader">Stunts</th></tr>
-<tr>
-<th>Stunt</th>
-<th>Effect</th>
-</tr>
-<xsl:apply-templates select="stunt"/>
+  <tr><th colspan="2" class="sectionheader">Stunts</th></tr>
+  <xsl:apply-templates select="stunt"/>
 </table>
 </xsl:template>
 
 <xsl:template match="stunt">
 <tr>
-<td>
-<xsl:value-of select="."/>
-</td>
-<td>
-<xsl:value-of select="@effect"/>
-</td>
+  <td><strong><xsl:value-of select="."/></strong></td>
+  <td><xsl:value-of select="@effect"/></td>
 </tr>
 </xsl:template>
 

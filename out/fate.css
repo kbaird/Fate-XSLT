@@ -1,58 +1,38 @@
 
 body {
  color: #111;
- background-color: #6b6;
  margin: 0.1em 0.4em;
  padding: 0.2em;
  font: 1.0em verdana, arial, helvetica, sans-serif;
  }
 
-h1 {
- background-color: #fff;
- border: 0.1em solid;
- display:none;
- font: bold 1.4em;
- padding:0.2em;
- text-align:center;
- }
-
-p {
- background-color: #fff;
- margin-bottom: 0.5em; 
- margin-top: 0.5em;
- padding:0.4em;
- }
-
-pre {
- background-color: #fff;
- border: 0.1em solid;
- padding:0.4em;
- }
+h1 { display: none; }
 
 table {
- background-color: #fff;
- border: 0.1em solid;
- margin-left: 0em;
- margin-bottom: 0.5em;
- padding:0.2em;
- text-align: center;
- vertical-align: top;
- }
+  border:0px;
+  padding: 0.3em;
+  text-align:center;
+  width:100%;
+}
 
-td {
- padding:0.2em;
- text-align: center;
- vertical-align: top;
- }
+td, th { border: 0px; }
 
-th {
- padding:0.2em;
- text-align: center;
- vertical-align: top;
- }
+.approach_name {
+  border: 0px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
 
 .sectionheader {
   background-color: #000;
   color: #fff;
+}
+
+#accelerated {
+  font: small-caps x-large bolder;
+}
+
+#fate {
+  font: small-caps xx-large bolder;
 }
 

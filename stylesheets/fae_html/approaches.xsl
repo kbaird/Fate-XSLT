@@ -15,7 +15,7 @@
 
 <xsl:template match="approach">
 <tr>
-<td><strong class="approach_name"><xsl:value-of select="@name"/></strong></td>
+<td class="approach_name"><xsl:value-of select="@name"/></td>
 <td><xsl:value-of select="."/></td>
 </tr>
 </xsl:template>

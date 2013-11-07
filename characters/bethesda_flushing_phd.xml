@@ -18,12 +18,12 @@
     <aspect></aspect>
   </aspects>
   <approaches>
-    <approach name="careful">2</approach>
-    <approach name="clever">3</approach>
-    <approach name="flashy">1</approach>
-    <approach name="forceful">2</approach>
-    <approach name="quick">1</approach>
-    <approach name="sneaky">0</approach>
+    <approach name="careful">+2</approach>
+    <approach name="clever">+3</approach>
+    <approach name="flashy">+1</approach>
+    <approach name="forceful">+2</approach>
+    <approach name="quick">+1</approach>
+    <approach name="sneaky">+0</approach>
   </approaches>
   <stunts>
     <stunt effect="eliminate 1 situation aspect">Gadgeteer</stunt>
