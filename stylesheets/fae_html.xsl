@@ -9,6 +9,7 @@
 <xsl:include href="fae_html/aspects.xsl"/>
 <xsl:include href="fae_html/consequences.xsl"/>
 <xsl:include href="fae_html/id.xsl"/>
+<xsl:include href="fae_html/stress.xsl"/>
 <xsl:include href="fae_html/stunts.xsl"/>
 
 <xsl:template match="/">
