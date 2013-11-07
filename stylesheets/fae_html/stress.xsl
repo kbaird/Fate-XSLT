@@ -4,22 +4,18 @@
   version="1.0">
 <xsl:output method="html"/>
 
+<!--
+     TODO: variable stress from aspects
+-->
 <xsl:template name="stress">
 <table border="1">
   <tr>
-    <th class="sectionheader" colspan="2">Stress</th>
+    <th class="sectionheader" colspan="3">Stress</th>
   </tr>
-  <tr>
-    <td>
-      <dl class="stress">
-        <dt></dt>
-        <dd>3</dd>
-        <dt></dt>
-        <dd>2</dd>
-        <dt></dt>
-        <dd>1</dd>
-      </dl>
-    </td>
+  <tr id="stress">
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
   </tr>
 </table>
 </xsl:template>
