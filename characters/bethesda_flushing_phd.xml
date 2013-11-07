@@ -9,7 +9,7 @@
     </description>
   </id>
   <refresh>3</refresh>
-  <current_fate_points></current_fate_points>
+  <current_fate_points>3</current_fate_points>
   <aspects>
     <aspect type="high_concept">Chief Agent of IGEMA</aspect>
     <aspect type="trouble">I'll Get You, von Stendahl!</aspect>

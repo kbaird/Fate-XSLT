@@ -32,7 +32,7 @@
               </td>
               <td>
                 <dl>
-                  <dt>Current Fate Points:</dt>
+                  <dt>Current <acronym title="Fate Points">FP</acronym>:</dt>
                   <dd class="box"><xsl:value-of select="current_fate_points"/></dd>
                 </dl>
               </td>

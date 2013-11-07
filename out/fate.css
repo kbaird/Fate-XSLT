@@ -3,7 +3,7 @@ body {
  color: #111;
  margin: 0.1em 0.4em;
  padding: 0.2em;
- font: 1.0em verdana, arial, helvetica, sans-serif;
+ font: 8.0em ubuntu, verdana, arial, helvetica, sans-serif;
  }
 
 dl dt, dl dd {
@@ -15,7 +15,7 @@ dl dt, dl dd {
 
 dl.approaches dt {
   border: 0px;
-  font-weight: bolder;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -33,13 +33,19 @@ table {
   width: 100%;
 }
 
-td, th { border: 0px; }
+td, th {
+  border: 0px;
+  vertical-align: top;
+}
 
 .sectionheader {
   background-color: #000;
   border-bottom-right-radius: 0.9em;
   border-top-left-radius: 0.9em;
   color: #fff;
+  padding-bottom: 0.2em;
+  padding-top: 0.25em;
+  text-transform: uppercase;
   vertical-align: text-top;
 }
 
