@@ -72,10 +72,11 @@ tr#stress td {
 }
 
 #accelerated {
-  font: small-caps x-large bolder;
+  font: 2em bolder;
+  text-transform: uppercase;
 }
 
 #fate {
-  font: small-caps xx-large bolder;
+  font: small-caps 5em bolder;
 }
 
