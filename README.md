@@ -14,6 +14,7 @@ Store character files in characters, and execute via
 
     ./publish.sh some_character_file.xml
 
+Output (currently just HTML) is rendered into the `out` directory.
 Validation is also available:
 
     ./validate.sh some_character_file.xml
