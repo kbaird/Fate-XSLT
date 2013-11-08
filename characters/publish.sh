@@ -10,5 +10,5 @@ fi
 for file in $@; do
   bname=$(basename $file)
   base=${bname%.*}
-  xsltproc -o ../out/$base.html ../stylesheets/fae_html.xsl $file
+  xsltproc -o ../out/$base.html ../xslt/fae_html.xsl $file
 done
