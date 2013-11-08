@@ -11,6 +11,7 @@ Character
 Very much in progress.
 
 Store character files in characters, and execute via
+
     ./publish.sh some_character_file.xml
 
     ./validate.sh some_character_file.xml
