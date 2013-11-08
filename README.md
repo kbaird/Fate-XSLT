@@ -10,6 +10,13 @@ Character
 
 Very much in progress.
 
+Store character files in characters, and execute via
+    ./publish.sh some_character_file.xml
+
+    ./validate.sh some_character_file.xml
+
+is also available.
+
 Other useful URLs:
 - http://www.faterpg.com/
 - http://fate-srd.com/
