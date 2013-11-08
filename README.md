@@ -14,9 +14,9 @@ Store character files in characters, and execute via
 
     ./publish.sh some_character_file.xml
 
-    ./validate.sh some_character_file.xml
+Validation is also available:
 
-is also available.
+    ./validate.sh some_character_file.xml
 
 Other useful URLs:
 - http://www.faterpg.com/
