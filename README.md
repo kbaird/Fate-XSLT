@@ -1,8 +1,8 @@
 Fate-XSLT
 =========
 
-A character
-[DTD](http://www.w3.org/TR/xhtml1/dtds.html) for
+Character
+[DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for
 [Evil Hat Productions](http://evilhat.com/)'
 [Fate Core](http://www.evilhat.com/home/fate-core/) &amp;
 [Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE) RPGs, along with
