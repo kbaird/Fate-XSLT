@@ -71,12 +71,12 @@ tr#stress td {
   vertical-align: text-top;
 }
 
-#accelerated {
-  font: 2em bolder;
-  text-transform: uppercase;
-}
-
 #fate {
   font: small-caps 5em bolder;
+}
+
+#fate-subtitle {
+  font: 2em bolder;
+  text-transform: uppercase;
 }
 

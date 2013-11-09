@@ -4,11 +4,11 @@
   version="1.0">
 <xsl:output method="html"/>
 
-<xsl:template name="current_fate_points">
+<xsl:template name="current-fate-points">
 <td>
   <dl>
     <dt>Current <acronym title="Fate Points">FP</acronym>:</dt>
-    <dd class="box"><xsl:value-of select="current_fate_points"/></dd>
+    <dd class="box"><xsl:value-of select="current-fate-points"/></dd>
   </dl>
 </td>
 </xsl:template>

@@ -1,0 +1,45 @@
+<?xml version = '1.0'?>
+<!DOCTYPE fate-core SYSTEM "../fcs.dtd">
+<fcs>
+  <id>
+    <charname>Zird the Arcane</charname>
+    <playername>sample FATE Core character</playername>
+    <description>A sharp-featured scholar with a dark triangular beard.</description>
+  </id>
+  <refresh>2</refresh>
+  <current-fate-points>2</current-fate-points>
+  <aspects>
+    <aspect type="high_concept">Wizard for Hire</aspect>
+    <aspect type="trouble">Rivals in the Collegia Arcana</aspect>
+    <aspect>If I Haven't Been There, I've Read About It</aspect>
+    <aspect>Not The Face!</aspect>
+    <aspect>Doesn't Suffer Fools Gladly</aspect>
+  </aspects>
+  <skills>
+    <skill name="Lore">+4</skill>
+    <skill name="Rapport">+3</skill>
+    <skill name="Crafts">+3</skill>
+    <skill name="Athletics">+2</skill>
+    <skill name="Will">+2</skill>
+    <skill name="Investigate">+2</skill>
+    <skill name="Fight">+1</skill>
+    <skill name="Resources">+1</skill>
+    <skill name="Contacts">+1</skill>
+    <skill name="Notice">+1</skill>
+  </skills>
+  <extras>
+    <extra>Collegia Arcana Mage</extra>
+  </extras>
+  <stunts>
+    <stunt effect="Can make Physical Recovery attempts w/Lore">Scholar, Healer</stunt>
+  </stunts>
+  <stress>
+    <physical>2</physical>
+    <mental>3</mental>
+  </stress>
+  <consequences>
+    <consequence severity="mild">mild one</consequence>
+    <consequence severity="moderate">moderate one</consequence>
+    <consequence severity="severe">severe one</consequence>
+  </consequences>
+</fcs>

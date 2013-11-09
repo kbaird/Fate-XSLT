@@ -4,7 +4,7 @@
   version="1.0">
 <xsl:output method="html"/>
 
-<xsl:template match="fae">
+<xsl:template match="fcs">
 
 <html>
   <head>
@@ -21,7 +21,7 @@
         <td width="70%"><xsl:apply-templates select="id"/></td>
         <td width="30%" id="fate-logo">
           <span id="fate">Fate</span><br />
-          <span id="fate-subtitle">Accelerated</span>
+          <span id="fate-subtitle">Core System</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
@@ -36,8 +36,8 @@
 
     <table>
       <tr>
-        <td width="70%"><xsl:apply-templates select="aspects"/></td>
-        <td width="30%"><xsl:apply-templates select="approaches"/></td>
+        <td width="50%"><xsl:apply-templates select="aspects"/></td>
+        <td width="50%"><xsl:apply-templates select="skills"/></td>
       </tr>
     </table>
 
@@ -45,7 +45,8 @@
 
     <table>
       <tr>
-        <td width="100%"><xsl:apply-templates select="stunts"/></td>
+        <td width="50%"><xsl:apply-templates select="extras"/></td>
+        <td width="50%"><xsl:apply-templates select="stunts"/></td>
       </tr>
     </table>
 

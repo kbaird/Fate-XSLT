@@ -4,11 +4,6 @@
   version="1.0">
 <xsl:output method="html"/>
 
-<xsl:include href="html/fae/approaches.xsl"/>
-<xsl:include href="html/fae/copyright.xsl"/>
-<xsl:include href="html/fae/fae.xsl"/>
-<xsl:include href="html/fae/stress.xsl"/>
-
 <xsl:include href="html/fate-common/aspects.xsl"/>
 <xsl:include href="html/fate-common/consequences.xsl"/>
 <xsl:include href="html/fate-common/current-fate-points.xsl"/>
@@ -16,8 +11,14 @@
 <xsl:include href="html/fate-common/refresh.xsl"/>
 <xsl:include href="html/fate-common/stunts.xsl"/>
 
+<xsl:include href="html/fcs/copyright.xsl"/>
+<xsl:include href="html/fcs/extras.xsl"/>
+<xsl:include href="html/fcs/fcs.xsl"/>
+<xsl:include href="html/fcs/skills.xsl"/>
+<xsl:include href="html/fcs/stress.xsl"/>
+
 <xsl:template match="/">
-<xsl:apply-templates select="fae"/>
+<xsl:apply-templates select="fcs"/>
 </xsl:template>
 
 </xsl:stylesheet>

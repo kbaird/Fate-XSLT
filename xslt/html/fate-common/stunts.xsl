@@ -13,7 +13,7 @@
 
 <xsl:template match="stunt">
 <tr>
-  <td><strong><xsl:value-of select="."/></strong></td>
+  <th><xsl:value-of select="."/></th>
   <td><xsl:value-of select="@effect"/></td>
 </tr>
 </xsl:template>

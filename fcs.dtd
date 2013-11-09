@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT fae (id, refresh, current_fate_points, aspects, approaches, stunts, consequences?)>
+<!ELEMENT fcs (id, refresh, current_fate_points, aspects, skills, extras, stunts, stress, consequences?)>
 
 <!ELEMENT id (charname, playername, description)>
 	<!ELEMENT charname (#PCDATA)>
@@ -14,11 +14,14 @@
 		<!ELEMENT aspect (#PCDATA)>
 		<!ATTLIST aspect type (high_concept|trouble) #IMPLIED>
 
-	<!ELEMENT approaches (approach*)>
-    <!ELEMENT approach (#PCDATA)>
-		<!ATTLIST approach name (careful|clever|flashy|forceful|quick|sneaky) #REQUIRED>
+	<!ELEMENT skills (skill*)>
+    <!ELEMENT skill (#PCDATA)>
+		<!ATTLIST skill name CDATA #REQUIRED>
 
-	<!ELEMENT stunts (stunt*)>
+	<!ELEMENT extras (extra*)>
+    <!ELEMENT extra (#PCDATA)>
+
+  <!ELEMENT stunts (stunt*)>
 		<!ELEMENT stunt (#PCDATA)>
 <!--
      TODO: Think about stunt att name, with the base text being the effect, instead
@@ -28,6 +31,9 @@
 <!--
      TODO: stress entirely derivable from other data, or needs separate treatment?
 -->
+  <!ELEMENT stress (physical, mental)>
+		<!ELEMENT physical (#PCDATA)>
+		<!ELEMENT mental (#PCDATA)>
 
 	<!ELEMENT consequences (consequence*)>
 		<!ELEMENT consequence (#PCDATA)>

@@ -6,7 +6,7 @@
 
 <xsl:template name="copyright">
 <p id="copyright">
-<acronym title="Fate Accelerated">FAE</acronym> Character Sheet ©2013 Evil Hat Productions, LLC.
+<acronym title="Fate Accelerated">FATE Core</acronym> Character Sheet ©2013 Evil Hat Productions, LLC.
 </p>
 </xsl:template>
 
