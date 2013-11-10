@@ -19,12 +19,12 @@ dl dd {
 
 fieldset { text-align: left; }
 
-fieldset legend {
+h1, hr { display: none; }
+
+legend {
   color: #999;
   font: small-caps 1.3em bolder;
 }
-
-h1, hr { display: none; }
 
 p#copyright {
   font-size: 0.8em;
@@ -41,18 +41,6 @@ table {
 td, th {
   border: 0px;
   vertical-align: top;
-}
-
-td.consequence {
-  text-align: left;
-  width: 80%;
-}
-
-td.severity {
-  font-weight: 700;
-  padding-right: 0.3em;
-  text-align: right;
-  width: 20%;
 }
 
 tr#stress td {
