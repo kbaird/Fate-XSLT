@@ -7,23 +7,32 @@
 <xsl:template match="id">
 
 <table border="1">
-<tr>
-<th colspan="2" class="sectionheader">ID</th>
-</tr>
-<tr>
-<th>Name:</th>
-<td><xsl:value-of select="charname"/></td>
-</tr>
-<xsl:if test="charname/@nickname">
-<tr>
-<th>Nickname:</th>
-<td><q><xsl:value-of select="charname/@nickname"/></q></td>
-</tr>
-</xsl:if>
-<tr>
-<th>Description:</th>
-<td><xsl:value-of select="description"/></td>
-</tr>
+  <tr>
+    <th colspan="2" class="sectionheader">ID</th>
+  </tr>
+  <tr>
+    <td>
+      <fieldset>
+    <xsl:choose>
+      <xsl:when test="charname/@nickname">
+        <legend>Name (<q><xsl:value-of select="charname/@nickname"/></q>):</legend>
+      </xsl:when>
+      <xsl:otherwise>
+        <legend>Name:</legend>
+      </xsl:otherwise>
+    </xsl:choose>
+        <xsl:value-of select="charname"/>
+      </fieldset>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <fieldset>
+        <legend>Description:</legend>
+        <xsl:value-of select="description"/>
+      </fieldset>
+    </td>
+  </tr>
 </table>
 
 </xsl:template>

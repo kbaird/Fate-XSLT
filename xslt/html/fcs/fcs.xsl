@@ -10,7 +10,10 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
     <title><xsl:value-of select="charname"/></title>
-    <style type="text/css">@import url(./fate.css);</style>
+    <style type="text/css">
+      @import url(./fate.css);
+      @import url(./fcs.css);
+    </style>
   </head>
 
   <body>
