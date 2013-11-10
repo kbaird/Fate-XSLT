@@ -16,10 +16,10 @@
   <td>
     <fieldset>
     <xsl:if test="@type = 'high_concept'">
-      <legend>High Concept</legend>
+      <legend><span>High Concept</span></legend>
     </xsl:if>
     <xsl:if test="@type = 'trouble'">
-      <legend>Trouble</legend>
+      <legend><span>Trouble</span></legend>
     </xsl:if>
     <xsl:value-of select="."/>
     </fieldset>

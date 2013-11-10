@@ -15,19 +15,19 @@
 <tr>
   <td>
     <fieldset class="consequence">
-      <legend class="severity">Mild (2):</legend>
+      <legend class="severity"><span>Mild (2):</span></legend>
         <xsl:for-each select="/fae/consequences/consequence[@severity='mild']">
           <xsl:value-of select="."/>
         </xsl:for-each>
     </fieldset>
     <fieldset class="consequence">
-      <legend class="severity">Moderate (4):</legend>
+      <legend class="severity"><span>Moderate (4):</span></legend>
         <xsl:for-each select="/fae/consequences/consequence[@severity='moderate']">
           <xsl:value-of select="."/>
         </xsl:for-each>
     </fieldset>
     <fieldset class="consequence">
-      <legend class="severity">Severe (6):</legend>
+      <legend class="severity"><span>Severe (6):</span></legend>
         <xsl:for-each select="/fae/consequences/consequence[@severity='severe']">
           <xsl:value-of select="."/>
         </xsl:for-each>

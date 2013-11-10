@@ -17,13 +17,24 @@ dl dd {
   float: right;
 }
 
-fieldset { text-align: left; }
+fieldset {
+  padding-left: 10em;
+  position: relative;
+  text-align: left;
+}
 
 h1, hr { display: none; }
 
 legend {
   color: #999;
-  font: small-caps 1.3em bolder;
+  float: left;
+  font: oblique small-caps 1.3em bolder;
+}
+
+legend span {
+  position: absolute;
+  top: 0.1em;
+  left: 0.4em;
 }
 
 p#copyright {
