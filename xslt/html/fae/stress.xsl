@@ -4,9 +4,6 @@
   version="1.0">
 <xsl:output method="html"/>
 
-<!--
-     TODO: variable stress from aspects
--->
 <xsl:template name="stress">
 <table border="1">
   <tr>
