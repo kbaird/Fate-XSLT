@@ -22,3 +22,5 @@ Validation is also available:
 Other useful URLs:
 - http://www.faterpg.com/
 - http://fate-srd.com/
+
+I develop on a Lubuntu 13.10 system with `xmllint` and `xsltproc` executables available.
