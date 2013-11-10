@@ -18,17 +18,36 @@ dl dd {
 }
 
 fieldset {
-  padding-left: 10em;
+  padding-left: 9em;
   position: relative;
   text-align: left;
+}
+
+fieldset.aspect      legend,
+fieldset#description legend,
+fieldset#name        legend {
+  color: #999;
+  font: oblique small-caps 1.3em bolder;
+}
+
+fieldset.consequence legend {
+  color: #444;
+  font: small-caps 1.3em bolder;
+}
+
+fieldset.stunt {
+  text-align: right;
+}
+
+fieldset.stunt legend {
+  color: black;
+  font: small-caps 1.5em bolder;
 }
 
 h1, hr { display: none; }
 
 legend {
-  color: #999;
   float: left;
-  font: oblique small-caps 1.3em bolder;
 }
 
 legend span {

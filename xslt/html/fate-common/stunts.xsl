@@ -14,7 +14,7 @@
 <xsl:template match="stunt">
 <tr>
   <td>
-    <fieldset>
+    <fieldset class="stunt">
       <legend><span><xsl:value-of select="."/></span></legend>
       <xsl:value-of select="@effect"/>
     </fieldset>

@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td>
-      <fieldset>
+      <fieldset id="name">
     <xsl:choose>
       <xsl:when test="charname/@nickname">
         <legend><span>Name (<q><xsl:value-of select="charname/@nickname"/></q>)</span></legend>
@@ -27,7 +27,7 @@
   </tr>
   <tr>
     <td>
-      <fieldset>
+      <fieldset id="description">
         <legend><span>Description</span></legend>
         <xsl:value-of select="description"/>
       </fieldset>

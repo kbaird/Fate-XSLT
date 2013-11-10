@@ -14,7 +14,7 @@
 <xsl:template match="aspect">
 <tr>
   <td>
-    <fieldset>
+    <fieldset class="aspect">
     <xsl:if test="@type = 'high_concept'">
       <legend><span>High Concept</span></legend>
     </xsl:if>
