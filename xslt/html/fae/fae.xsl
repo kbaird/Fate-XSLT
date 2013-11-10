@@ -9,7 +9,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-    <title><xsl:value-of select="charname"/></title>
+    <title><xsl:value-of select="id/charname"/></title>
     <style type="text/css">
       @import url(./fate.css);
       @import url(./fae.css);
@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <h1><xsl:value-of select="charname"/></h1>
+    <h1><xsl:value-of select="id/charname"/></h1>
 
     <table>
       <tr>
