@@ -36,8 +36,8 @@
 
     <table>
       <tr>
-        <td width="50%"><xsl:apply-templates select="aspects"/></td>
-        <td width="50%"><xsl:apply-templates select="skills"/></td>
+        <td width="40%"><xsl:apply-templates select="aspects"/></td>
+        <td width="60%"><xsl:apply-templates select="skills"/></td>
       </tr>
     </table>
 
@@ -45,8 +45,8 @@
 
     <table>
       <tr>
-        <td width="50%"><xsl:apply-templates select="extras"/></td>
-        <td width="50%"><xsl:apply-templates select="stunts"/></td>
+        <td width="40%"><xsl:apply-templates select="extras"/></td>
+        <td width="60%"><xsl:apply-templates select="stunts"/></td>
       </tr>
     </table>
 
