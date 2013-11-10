@@ -34,6 +34,7 @@ fieldset.consequence {
   font-style: oblique;
   padding-left: 8.6em;
   text-align: right;
+  height: 1.1em;
 }
 
 fieldset.consequence legend {

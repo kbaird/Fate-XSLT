@@ -39,7 +39,5 @@
   </stress>
   <consequences>
     <consequence severity="mild">mild one</consequence>
-    <consequence severity="moderate">moderate one</consequence>
-    <consequence severity="severe">severe one</consequence>
   </consequences>
 </fcs>

@@ -34,7 +34,6 @@
     <stunt effect="eliminate 1 situation aspect">Gadgeteer</stunt>
   </stunts>
   <consequences>
-    <consequence severity="mild">mild one</consequence>
     <consequence severity="moderate">moderate one</consequence>
     <consequence severity="severe">severe one</consequence>
   </consequences>
