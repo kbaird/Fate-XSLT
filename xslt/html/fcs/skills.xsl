@@ -6,7 +6,7 @@
 
 <xsl:template match="skills">
 <table id="skills">
-<tr><th colspan="2" class="sectionheader">Skills</th></tr>
+<tr><th colspan="6" class="sectionheader">Skills</th></tr>
   <xsl:call-template name="skill">
     <xsl:with-param name="numericRating">5</xsl:with-param>
     <xsl:with-param name="textRating">Superb</xsl:with-param>
@@ -36,13 +36,9 @@
 <xsl:if test="/fcs/skills/skill[@rating=$numericRating]">
 <tr>
   <th class="rating"><xsl:value-of select="$textRating"/> (+<xsl:value-of select="$numericRating"/>)</th>
-  <td>
-    <ul class="skills">
 <xsl:for-each select="/fcs/skills/skill[@rating=$numericRating]">
-      <li><xsl:value-of select="@name"/></li>
+  <td><xsl:value-of select="@name"/></td>
 </xsl:for-each>
-    </ul>
-  </td>
 </tr>
 </xsl:if>
 </xsl:template>

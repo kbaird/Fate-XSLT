@@ -39,12 +39,16 @@ table {
 }
 
 table#skills tr th.rating {
-  border: 2px solid black;
-  padding-top: 0.9em;
+  border: 0px;
+  color: #999;
+  font-weight: bolder;
+  padding-right: 0.45em;
+  text-align: right;
 }
 
-table#skills tr td ul.skills {
-  margin-top: 1em;
+table#skills tr td {
+  border: 3px solid black;
+  font: oblique small-caps bold 1em arial, sans-serif;
 }
 
 td, th {
@@ -68,17 +72,6 @@ tr#stress td {
   border: 4px solid black;
   font: xx-large 900;
   padding: 1.2em;
-}
-
-ul.skills {
-  text-align: left;
-}
-
-ul.skills li {
-  border: 1px solid black;
-  display: inline;
-  margin-right: 0.35em;
-  padding: 0.7em;
 }
 
 .sectionheader {
