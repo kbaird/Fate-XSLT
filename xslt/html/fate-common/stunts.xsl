@@ -13,8 +13,12 @@
 
 <xsl:template match="stunt">
 <tr>
-  <th><xsl:value-of select="."/></th>
-  <td><xsl:value-of select="@effect"/></td>
+  <td>
+    <fieldset>
+      <legend><xsl:value-of select="."/></legend>
+      <xsl:value-of select="@effect"/>
+    </fieldset>
+  </td>
 </tr>
 </xsl:template>
 

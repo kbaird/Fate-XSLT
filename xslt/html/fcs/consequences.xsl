@@ -13,49 +13,43 @@
 
 <xsl:template name="consequence">
 <tr>
-  <td class="severity">Mild (2):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fcs/consequences/consequence[@severity='mild']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-  </td>
-</tr>
-<tr>
-  <td class="severity">Moderate (4):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fcs/consequences/consequence[@severity='moderate']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-  </td>
-</tr>
-<tr>
-  <td class="severity">Severe (6):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fcs/consequences/consequence[@severity='severe']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-  </td>
-</tr>
+  <td>
+    <fieldset class="consequence">
+      <legend class="severity">Mild (2):</legend>
+        <xsl:for-each select="/fcs/consequences/consequence[@severity='mild']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
+    <fieldset class="consequence">
+      <legend class="severity">Moderate (4):</legend>
+        <xsl:for-each select="/fcs/consequences/consequence[@severity='moderate']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
+    <fieldset class="consequence">
+      <legend class="severity">Severe (6):</legend>
+        <xsl:for-each select="/fcs/consequences/consequence[@severity='severe']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
 <xsl:if test="/fcs/skills/skill[@name='Physique']/@rating &gt; 4">
-<tr>
-  <td class="severity">Mild Physical (2):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fcs/consequences/consequence[@severity='mild-physical']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-  </td>
-</tr>
+    <fieldset class="consequence">
+      <legend class="severity">Mild Physical (2):</legend>
+        <xsl:for-each select="/fcs/consequences/consequence[@severity='mild-physical']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
 </xsl:if>
 <xsl:if test="/fcs/skills/skill[@name='Will']/@rating &gt; 4">
-<tr>
-  <td class="severity">Mild Mental (2):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fcs/consequences/consequence[@severity='mild-mental']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
+    <fieldset class="consequence">
+    <legend class="severity">Mild Mental (2):</legend>
+        <xsl:for-each select="/fcs/consequences/consequence[@severity='mild-mental']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
+</xsl:if>
   </td>
 </tr>
-</xsl:if>
 </xsl:template>
 
 </xsl:stylesheet>

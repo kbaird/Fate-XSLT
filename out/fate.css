@@ -1,8 +1,8 @@
 body {
- color: #111;
- margin: 0.1em 0.4em;
- padding: 0.2em;
- font: 1.0em ubuntu, verdana, arial, helvetica, sans-serif;
+  color: #111;
+  margin: 0.1em 0.4em;
+  padding: 0.2em;
+  font: 1.0em ubuntu, verdana, arial, helvetica, sans-serif;
  }
 
 dl dt, dl dd {
@@ -15,6 +15,13 @@ dl dt, dl dd {
 dl dd {
   border: 2px solid black;
   float: right;
+}
+
+fieldset { text-align: left; }
+
+fieldset legend {
+  color: #999;
+  font: small-caps 1.3em bolder;
 }
 
 h1, hr { display: none; }

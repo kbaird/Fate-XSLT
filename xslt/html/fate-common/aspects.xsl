@@ -13,15 +13,17 @@
 
 <xsl:template match="aspect">
 <tr>
-<td>
-<xsl:if test="@type = 'high_concept'">
-<strong>High Concept</strong>:
-</xsl:if>
-<xsl:if test="@type = 'trouble'">
-<strong>Trouble</strong>:
-</xsl:if>
-<xsl:value-of select="."/>
-</td>
+  <td>
+    <fieldset>
+    <xsl:if test="@type = 'high_concept'">
+      <legend>High Concept</legend>
+    </xsl:if>
+    <xsl:if test="@type = 'trouble'">
+      <legend>Trouble</legend>
+    </xsl:if>
+    <xsl:value-of select="."/>
+    </fieldset>
+  </td>
 </tr>
 </xsl:template>
 

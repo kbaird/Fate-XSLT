@@ -13,27 +13,25 @@
 
 <xsl:template name="consequence">
 <tr>
-  <td class="severity">Mild (2):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fae/consequences/consequence[@severity='mild']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-  </td>
-</tr>
-<tr>
-  <td class="severity">Moderate (4):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fae/consequences/consequence[@severity='moderate']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
-  </td>
-</tr>
-<tr>
-  <td class="severity">Severe (6):</td>
-  <td class="consequence">
-    <xsl:for-each select="/fae/consequences/consequence[@severity='severe']">
-      <xsl:value-of select="."/>
-    </xsl:for-each>
+  <td>
+    <fieldset class="consequence">
+      <legend class="severity">Mild (2):</legend>
+        <xsl:for-each select="/fae/consequences/consequence[@severity='mild']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
+    <fieldset class="consequence">
+      <legend class="severity">Moderate (4):</legend>
+        <xsl:for-each select="/fae/consequences/consequence[@severity='moderate']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
+    <fieldset class="consequence">
+      <legend class="severity">Severe (6):</legend>
+        <xsl:for-each select="/fae/consequences/consequence[@severity='severe']">
+          <xsl:value-of select="."/>
+        </xsl:for-each>
+    </fieldset>
   </td>
 </tr>
 </xsl:template>

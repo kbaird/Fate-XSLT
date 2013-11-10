@@ -15,10 +15,10 @@
       <fieldset>
     <xsl:choose>
       <xsl:when test="charname/@nickname">
-        <legend>Name (<q><xsl:value-of select="charname/@nickname"/></q>):</legend>
+        <legend>Name (<q><xsl:value-of select="charname/@nickname"/></q>)</legend>
       </xsl:when>
       <xsl:otherwise>
-        <legend>Name:</legend>
+        <legend>Name</legend>
       </xsl:otherwise>
     </xsl:choose>
         <xsl:value-of select="charname"/>
@@ -28,7 +28,7 @@
   <tr>
     <td>
       <fieldset>
-        <legend>Description:</legend>
+        <legend>Description</legend>
         <xsl:value-of select="description"/>
       </fieldset>
     </td>
