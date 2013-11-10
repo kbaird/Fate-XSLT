@@ -2,7 +2,9 @@ table#skills tr th.rating {
   border: 0px;
   color: #aaa;
   font-weight: bolder;
+  height: 2.3em;
   padding-right: 0.75em;
+  padding-top: 0.6em;
   text-align: right;
   width: 12.5%;
 }
@@ -10,6 +12,11 @@ table#skills tr th.rating {
 table#skills tr td {
   border: 3px solid black;
   font: oblique small-caps bold 1em arial, sans-serif;
+  height: 2.3em;
+  padding-top: 0.6em;
   width: 17.5%;
 }
 
+tr#stress td {
+  padding: 0.4em;
+}

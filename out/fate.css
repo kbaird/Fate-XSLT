@@ -23,6 +23,13 @@ fieldset {
   text-align: left;
 }
 
+fieldset.aspect,
+fieldset#name {
+  height: 1.1em;
+  padding-top: 0.5em;
+  vertical-align: text-bottom;
+}
+
 fieldset.aspect      legend,
 fieldset#description legend,
 fieldset#name        legend {
@@ -52,8 +59,8 @@ fieldset.stunt legend {
   font: small-caps 1.5em bolder;
 }
 
-fieldset.stunt legend span {
-  top: 0.05em;
+fieldset.stunt  legend span {
+  top: 0.08em;
 }
 
 h1, hr { display: none; }
@@ -88,7 +95,6 @@ td, th {
 tr#stress td {
   border: 4px solid black;
   font: xx-large 900;
-  padding: 1.2em;
 }
 
 .sectionheader {

@@ -4,3 +4,6 @@ dl.approaches dt {
   text-transform: uppercase;
 }
 
+tr#stress td {
+  padding: 1.8em;
+}
