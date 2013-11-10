@@ -18,7 +18,7 @@ dl dd {
 }
 
 fieldset {
-  padding-left: 9em;
+  padding-left: 8em;
   position: relative;
   text-align: left;
 }
@@ -30,18 +30,27 @@ fieldset#name        legend {
   font: oblique small-caps 1.3em bolder;
 }
 
+fieldset.consequence {
+  padding-left: 8.6em;
+}
+
 fieldset.consequence legend {
   color: #444;
   font: small-caps 1.3em bolder;
 }
 
 fieldset.stunt {
+  font-style: oblique;
   text-align: right;
 }
 
 fieldset.stunt legend {
   color: black;
   font: small-caps 1.5em bolder;
+}
+
+fieldset.stunt legend span {
+  top: 0.05em;
 }
 
 h1, hr { display: none; }
