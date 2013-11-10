@@ -16,16 +16,16 @@
     <aspect>Doesn't Suffer Fools Gladly</aspect>
   </aspects>
   <skills>
-    <skill name="Lore">+4</skill>
-    <skill name="Rapport">+3</skill>
-    <skill name="Crafts">+3</skill>
-    <skill name="Athletics">+2</skill>
-    <skill name="Will">+2</skill>
-    <skill name="Investigate">+2</skill>
-    <skill name="Fight">+1</skill>
-    <skill name="Resources">+1</skill>
-    <skill name="Contacts">+1</skill>
-    <skill name="Notice">+1</skill>
+    <skill rating="4" name="Lore"/>
+    <skill rating="3" name="Rapport"/>
+    <skill rating="3" name="Crafts"/>
+    <skill rating="2" name="Athletics"/>
+    <skill rating="2" name="Will"/>
+    <skill rating="2" name="Investigate"/>
+    <skill rating="1" name="Fight"/>
+    <skill rating="1" name="Resources"/>
+    <skill rating="1" name="Contacts"/>
+    <skill rating="1" name="Notice"/>
   </skills>
   <extras>
     <extra>Collegia Arcana Mage</extra>

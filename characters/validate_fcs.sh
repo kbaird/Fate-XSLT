@@ -8,5 +8,5 @@ if [ $# -eq 0 ] ; then
 fi
 
 for file in $@; do
-  xmllint --noout --dtdvalid ../fate-core.dtd $file
+  xmllint --noout --dtdvalid ../fcs.dtd $file
 done

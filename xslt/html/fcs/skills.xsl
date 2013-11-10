@@ -4,21 +4,47 @@
   version="1.0">
 <xsl:output method="html"/>
 
-<!--
-     TODO: Pyramid presentation or similar
--->
 <xsl:template match="skills">
-<table border="1">
+<table id="skills">
 <tr><th colspan="2" class="sectionheader">Skills</th></tr>
-<xsl:apply-templates name="skill"/>
+  <xsl:call-template name="skill">
+    <xsl:with-param name="numericRating">5</xsl:with-param>
+    <xsl:with-param name="textRating">Superb</xsl:with-param>
+  </xsl:call-template>
+  <xsl:call-template name="skill">
+    <xsl:with-param name="numericRating">4</xsl:with-param>
+    <xsl:with-param name="textRating">Great</xsl:with-param>
+  </xsl:call-template>
+  <xsl:call-template name="skill">
+    <xsl:with-param name="numericRating">3</xsl:with-param>
+    <xsl:with-param name="textRating">Good</xsl:with-param>
+  </xsl:call-template>
+  <xsl:call-template name="skill">
+    <xsl:with-param name="numericRating">2</xsl:with-param>
+    <xsl:with-param name="textRating">Fair</xsl:with-param>
+  </xsl:call-template>
+  <xsl:call-template name="skill">
+    <xsl:with-param name="numericRating">1</xsl:with-param>
+    <xsl:with-param name="textRating">Average</xsl:with-param>
+  </xsl:call-template>
 </table>
 </xsl:template>
 
-<xsl:template match="skill">
+<xsl:template name="skill">
+  <xsl:param name="numericRating"/>
+  <xsl:param name="textRating"/>
+<xsl:if test="/fcs/skills/skill[@rating=$numericRating]">
 <tr>
-  <th><xsl:value-of select="@name"/></th>
-  <td><xsl:value-of select="."/></td>
+  <th class="rating"><xsl:value-of select="$textRating"/> (+<xsl:value-of select="$numericRating"/>)</th>
+  <td>
+    <ul class="skills">
+<xsl:for-each select="/fcs/skills/skill[@rating=$numericRating]">
+      <li><xsl:value-of select="@name"/></li>
+</xsl:for-each>
+    </ul>
+  </td>
 </tr>
+</xsl:if>
 </xsl:template>
 
 </xsl:stylesheet>
