@@ -8,16 +8,21 @@ Character
 [Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE) RPGs, along with
 [XSLT](http://www.w3.org/TR/xslt) sheets for rendering to various output formats.
 
-Very much in progress.
+Store character files in the `characters` directory, and execute via
 
-Store character files in characters, and execute via
+    ./publish_fae.sh some_character_file.xml
 
-    ./publish.sh some_character_file.xml
+for a Fate Accelerated character, or
+
+    ./publish_fcs.sh some_character_file.xml
+
+for a Fate Core System character.
 
 Output (currently just HTML) is rendered into the `out` directory.
 Validation is also available:
 
-    ./validate.sh some_character_file.xml
+    ./validate_fae.sh some_character_file.xml
+    ./validate_fcs.sh some_character_file.xml
 
 Other useful URLs:
 - http://www.faterpg.com/
