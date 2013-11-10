@@ -4,18 +4,33 @@
   version="1.0">
 <xsl:output method="html"/>
 
-<!--
-     TODO: variable stress from aspects
--->
 <xsl:template name="stress">
 <table border="1">
   <tr>
-    <th class="sectionheader" colspan="3">Stress</th>
+    <th class="sectionheader" colspan="4">Physical Stress (Physique)</th>
   </tr>
   <tr id="stress">
     <td>1</td>
     <td>2</td>
+    <xsl:if test="/fcs/skills/skill[@name='Physique']/@rating &gt; 0">
     <td>3</td>
+    </xsl:if>
+    <xsl:if test="/fcs/skills/skill[@name='Physique']/@rating &gt; 2">
+    <td>4</td>
+    </xsl:if>
+  </tr>
+  <tr>
+    <th class="sectionheader" colspan="4">Mental Stress (Will)</th>
+  </tr>
+  <tr id="stress">
+    <td>1</td>
+    <td>2</td>
+    <xsl:if test="/fcs/skills/skill[@name='Will']/@rating &gt; 0">
+    <td>3</td>
+    </xsl:if>
+    <xsl:if test="/fcs/skills/skill[@name='Will']/@rating &gt; 2">
+    <td>4</td>
+    </xsl:if>
   </tr>
 </table>
 </xsl:template>

@@ -5,12 +5,12 @@
 <xsl:output method="html"/>
 
 <xsl:include href="html/fate-common/aspects.xsl"/>
-<xsl:include href="html/fate-common/consequences.xsl"/>
 <xsl:include href="html/fate-common/current-fate-points.xsl"/>
 <xsl:include href="html/fate-common/id.xsl"/>
 <xsl:include href="html/fate-common/refresh.xsl"/>
 <xsl:include href="html/fate-common/stunts.xsl"/>
 
+<xsl:include href="html/fcs/consequences.xsl"/>
 <xsl:include href="html/fcs/copyright.xsl"/>
 <xsl:include href="html/fcs/extras.xsl"/>
 <xsl:include href="html/fcs/fcs.xsl"/>

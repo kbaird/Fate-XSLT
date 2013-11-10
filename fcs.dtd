@@ -39,5 +39,5 @@
 	<!ELEMENT consequences (consequence*)>
 		<!ELEMENT consequence (#PCDATA)>
       <!ATTLIST consequence effect CDATA #IMPLIED>
-      <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
+      <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
 
