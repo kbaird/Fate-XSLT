@@ -4,12 +4,12 @@ table#skills tr th.rating {
   font-weight: bolder;
   padding-right: 0.75em;
   text-align: right;
-  width: 12.5%;
+  width: 10%;
 }
 
 table#skills tr td {
   border: 3px solid black;
   font: oblique small-caps bold 1em arial, sans-serif;
-  width: 17.5%;
+  width: 18%;
 }
 
