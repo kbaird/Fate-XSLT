@@ -43,7 +43,9 @@ table#conditions tr td p {
 }
 
 th.condition-type {
-  font: small-caps bold 1.4em arial, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1.4em;
   text-align: left;
 }
 

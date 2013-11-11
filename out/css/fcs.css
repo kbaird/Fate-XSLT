@@ -11,7 +11,10 @@ table#skills tr th.rating {
 
 table#skills tr td {
   border: 3px solid black;
-  font: oblique small-caps bold 1em arial, sans-serif;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 1em;
   height: 2.3em;
   padding-top: 0.6em;
   width: 17.5%;

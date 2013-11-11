@@ -10,6 +10,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
     <title><xsl:value-of select="id/charname"/></title>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
     <style type="text/css">
       @import url(./css/fate.css);
       @import url(./css/fae.css);
