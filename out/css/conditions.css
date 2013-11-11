@@ -22,15 +22,17 @@ dl.conditions dd.additional {
 dl.conditions dt {
   border: 0;
   float: left;
+  font-size: 1.25em;
+  height: 1em;
   margin: 0;
-  margin-left: 4em;
+  margin-left: 2.95em;
   padding: 0;
   text-align: left;
   width: 85%;
 }
 
 dl.conditions dt.severe {
-  margin-left: 7.3em;
+  margin-left: 5.7em;
 }
 
 table#conditions tr td p {
