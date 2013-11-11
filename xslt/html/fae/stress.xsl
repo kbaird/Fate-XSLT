@@ -5,11 +5,11 @@
 <xsl:output method="html"/>
 
 <xsl:template name="stress">
-<table border="1">
+<table border="1" id="stress">
   <tr>
     <th class="sectionheader" colspan="3">Stress</th>
   </tr>
-  <tr id="stress">
+  <tr>
     <td>1</td>
     <td>2</td>
     <td>3</td>

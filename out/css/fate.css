@@ -92,9 +92,10 @@ td, th {
   vertical-align: top;
 }
 
-tr#stress td {
+table#stress tr td {
   border: 4px solid black;
-  font: xx-large 900;
+  font-size: 1.4em;
+  font-weight: 900;
 }
 
 .sectionheader {
