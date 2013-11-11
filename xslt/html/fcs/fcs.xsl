@@ -13,6 +13,9 @@
     <style type="text/css">
       @import url(./fate.css);
       @import url(./fcs.css);
+    <xsl:if test="$useConditions='true'">
+      @import url(./conditions.css);
+    </xsl:if>
     </style>
   </head>
 
@@ -61,7 +64,14 @@
           <xsl:call-template name="stress"/>
         </td>
         <td width="65%">
-          <xsl:call-template name="consequences"/>
+          <xsl:choose>
+            <xsl:when test="$useConditions='true'">
+              <xsl:call-template name="conditions"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:call-template name="consequences"/>
+            </xsl:otherwise>
+          </xsl:choose>
         </td>
       </tr>
     </table>

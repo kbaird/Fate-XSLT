@@ -3,7 +3,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
 <xsl:output method="html"/>
-<xsl:variable name="useConditions">false</xsl:variable>
+<xsl:variable name="useConditions">true</xsl:variable>
 
 <xsl:include href="html/fate-common/aspects.xsl"/>
 <xsl:include href="html/fate-common/current-fate-points.xsl"/>
@@ -11,7 +11,7 @@
 <xsl:include href="html/fate-common/refresh.xsl"/>
 <xsl:include href="html/fate-common/stunts.xsl"/>
 
-<xsl:include href="html/fcs/consequences.xsl"/>
+<xsl:include href="html/fcs/conditions.xsl"/>
 <xsl:include href="html/fcs/copyright.xsl"/>
 <xsl:include href="html/fcs/extras.xsl"/>
 <xsl:include href="html/fcs/fcs.xsl"/>
