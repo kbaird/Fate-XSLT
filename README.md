@@ -16,7 +16,8 @@ for a Fate Accelerated character, or
 
     ./publish_fcs.sh some_character_file.xml
 
-for a Fate Core System character.
+for a Fate Core System character. Other publish scripts may be created for
+various alternative rule options from Fate System Toolkit or elsewhere.
 
 Output (currently just HTML) is rendered into the `out` directory.
 Validation is also available:
