@@ -15,6 +15,7 @@ dl dt, dl dd {
 dl dd {
   border: 2px solid black;
   float: right;
+  padding-top: -1em;
 }
 
 fieldset {

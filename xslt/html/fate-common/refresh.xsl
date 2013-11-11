@@ -6,7 +6,7 @@
 
 <xsl:template name="refresh">
 <td>
-  <dl>
+  <dl id="refresh">
     <dt>Refresh:</dt>
     <dd class="box"><xsl:value-of select="refresh"/></dd>
   </dl>
