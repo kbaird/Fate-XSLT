@@ -11,8 +11,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
     <title><xsl:value-of select="id/charname"/></title>
     <style type="text/css">
-      @import url(./fate.css);
-      @import url(./fae.css);
+      @import url(./css/fate.css);
+      @import url(./css/fae.css);
     </style>
   </head>
 

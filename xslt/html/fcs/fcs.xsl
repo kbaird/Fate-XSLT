@@ -11,10 +11,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
     <title><xsl:value-of select="id/charname"/></title>
     <style type="text/css">
-      @import url(./fate.css);
-      @import url(./fcs.css);
+      @import url(./css/fate.css);
+      @import url(./css/fcs.css);
     <xsl:if test="$useConditions='true'">
-      @import url(./conditions.css);
+      @import url(./css/conditions.css);
     </xsl:if>
     </style>
   </head>
