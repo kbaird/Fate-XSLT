@@ -29,9 +29,6 @@
 -->
       <!ATTLIST stunt effect CDATA #IMPLIED>
 
-<!--
-     TODO: stress entirely derivable from other data, or needs separate treatment?
--->
   <!ELEMENT stress (physical, mental)>
 		<!ELEMENT physical (#PCDATA)>
 		<!ELEMENT mental (#PCDATA)>

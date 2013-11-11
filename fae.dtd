@@ -25,10 +25,6 @@
 -->
       <!ATTLIST stunt effect CDATA #IMPLIED>
 
-<!--
-     TODO: stress entirely derivable from other data, or needs separate treatment?
--->
-
 	<!ELEMENT consequences (consequence*)>
 		<!ELEMENT consequence (#PCDATA)>
       <!ATTLIST consequence effect CDATA #IMPLIED>
