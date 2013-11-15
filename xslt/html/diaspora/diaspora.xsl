@@ -76,6 +76,7 @@
       </tr>
     </table>
 
+<xsl:apply-templates select="gear"/>
 <xsl:apply-templates select="notes"/>
 <xsl:call-template name="copyright"/>
 

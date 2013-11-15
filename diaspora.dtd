@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT fcs (id, refresh, current-fate-points, aspects, skills, extras, stunts, stress, consequences?)>
+<!ELEMENT fcs (id, refresh, current-fate-points, aspects, skills, extras, stunts, stress, consequences?, gear)>
 
 <!ELEMENT id (charname, playername, homeworld, cluster)>
 	<!ELEMENT charname (#PCDATA)>
@@ -39,3 +39,4 @@
       <!ATTLIST consequence effect CDATA #IMPLIED>
       <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
 
+	<!ELEMENT gear (#PCDATA)>

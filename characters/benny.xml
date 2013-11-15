@@ -46,4 +46,7 @@
   <consequences>
     <consequence severity="mild">mild one</consequence>
   </consequences>
+  <gear>
+    A little of this, a little of that
+  </gear>
 </diaspora>
