@@ -78,7 +78,7 @@
 
 <xsl:apply-templates select="gear"/>
 <xsl:apply-templates select="notes"/>
-<xsl:call-template name="copyright"/>
+<xsl:call-template name="diaspora_copyright"/>
 
   </body>
 </html>
