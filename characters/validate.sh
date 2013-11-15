@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# FIXME: Still needs DTD arg
+
 if [ $# -eq 0 ] ; then
   echo
   echo "Usage: $(basename $0) some_file(s).xml" >&2
