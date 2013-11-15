@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT fcs (id, refresh, current-fate-points, aspects, skills, extras, stunts, stress, consequences?, gear)>
+<!ELEMENT diaspora (id, refresh, current-fate-points, aspects, skills, stunts, consequences?, gear)>
 
 <!ELEMENT id (charname, playername, homeworld, cluster)>
 	<!ELEMENT charname (#PCDATA)>
@@ -19,9 +19,6 @@
     <!ELEMENT skill (#PCDATA)>
 		<!ATTLIST skill name   CDATA #REQUIRED>
 		<!ATTLIST skill rating CDATA #REQUIRED>
-
-	<!ELEMENT extras (extra*)>
-    <!ELEMENT extra (#PCDATA)>
 
   <!ELEMENT stunts (stunt*)>
 		<!ELEMENT stunt (#PCDATA)>

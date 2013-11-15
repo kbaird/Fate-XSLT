@@ -34,10 +34,6 @@
   <stunts>
     <stunt effect="Can make Physical Recovery attempts w/Lore">Scholar, Healer</stunt>
   </stunts>
-  <stress>
-    <physical>2</physical>
-    <mental>3</mental>
-  </stress>
   <consequences>
     <consequence severity="mild">mild one</consequence>
   </consequences>

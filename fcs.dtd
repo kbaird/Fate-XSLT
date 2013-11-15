@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT fcs (id, refresh, current-fate-points, aspects, skills, extras, stunts, stress, consequences?)>
+<!ELEMENT fcs (id, refresh, current-fate-points, aspects, skills, extras, stunts, consequences?)>
 
 <!ELEMENT id (charname, playername, description)>
 	<!ELEMENT charname (#PCDATA)>
@@ -28,10 +28,6 @@
      TODO: Think about stunt att name, with the base text being the effect, instead
 -->
       <!ATTLIST stunt effect CDATA #IMPLIED>
-
-  <!ELEMENT stress (physical, mental)>
-		<!ELEMENT physical (#PCDATA)>
-		<!ELEMENT mental (#PCDATA)>
 
 	<!ELEMENT consequences (consequence*)>
 		<!ELEMENT consequence (#PCDATA)>
