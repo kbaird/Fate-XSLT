@@ -6,6 +6,8 @@
 
 <xsl:template match="fcs">
 
+<xsl:variable name="useConditions">false</xsl:variable>
+
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>

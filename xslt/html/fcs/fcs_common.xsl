@@ -10,6 +10,8 @@
 <xsl:include href="../fate-common/refresh.xsl"/>
 <xsl:include href="../fate-common/stunts.xsl"/>
 
+<xsl:include href="conditions.xsl"/>
+<xsl:include href="consequences.xsl"/>
 <xsl:include href="copyright.xsl"/>
 <xsl:include href="extras.xsl"/>
 <xsl:include href="fcs.xsl"/>
