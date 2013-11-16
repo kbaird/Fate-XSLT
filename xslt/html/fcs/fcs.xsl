@@ -6,7 +6,12 @@
 
 <xsl:template match="fcs">
 
-<xsl:variable name="useConditions">false</xsl:variable>
+<xsl:variable name="useConditions">
+  <xsl:choose>
+    <xsl:when test="campaign/@conditions='true'">true</xsl:when>
+    <xsl:otherwise>false</xsl:otherwise>
+  </xsl:choose>
+</xsl:variable>
 
 <html>
   <head>
