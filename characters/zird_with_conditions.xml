@@ -34,5 +34,5 @@
   <stunts>
     <stunt effect="Can make Physical Recovery attempts w/Lore">Scholar, Healer</stunt>
   </stunts>
-  <campaign conditions="true" />
+  <hacks conditions="true" />
 </fcs>

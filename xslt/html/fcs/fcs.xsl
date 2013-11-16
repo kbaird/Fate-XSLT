@@ -8,7 +8,7 @@
 
 <xsl:variable name="useConditions">
   <xsl:choose>
-    <xsl:when test="campaign/@conditions='true'">true</xsl:when>
+    <xsl:when test="hacks/@conditions='true'">true</xsl:when>
     <xsl:otherwise>false</xsl:otherwise>
   </xsl:choose>
 </xsl:variable>
