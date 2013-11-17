@@ -2,17 +2,18 @@
 <xsl:stylesheet
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
-<xsl:output method="html"/>
-
-<xsl:template name="head">
+ <xsl:output method="html"/>
+ <xsl:template name="head">
   <xsl:param name="baseCSS"/>
   <xsl:param name="additionalCSS"/>
   <xsl:param name="useConditions"/>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-    <title><xsl:value-of select="id/charname"/></title>
-    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
-    <style type="text/css">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+   <title>
+    <xsl:value-of select="id/charname"/>
+   </title>
+   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
+   <style type="text/css">
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);
     <xsl:if test="$additionalCSS">
@@ -21,8 +22,7 @@
     <xsl:if test="$useConditions='true'">
       @import url(./css/conditions.css);
     </xsl:if>
-    </style>
+   </style>
   </head>
-</xsl:template>
-
+ </xsl:template>
 </xsl:stylesheet>

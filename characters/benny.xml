@@ -2,51 +2,51 @@
 <?xml-stylesheet type="text/xsl" href="../xslt/diaspora_html.xsl"?>
 <!DOCTYPE fate-core SYSTEM "../diaspora.dtd">
 <diaspora>
-  <id>
-    <charname>Benny</charname>
-    <playername>sample Diaspora character</playername>
-    <homeworld>Old Copenhagen</homeworld>
-    <cluster>TODO</cluster>
-  </id>
-  <refresh>2</refresh>
-  <current-fate-points>2</current-fate-points>
-  <aspects>
-    <aspect>I hate the outdoors</aspect>
-    <aspect>Natural mechanic</aspect>
-    <aspect>Radiation Sickness</aspect>
-    <aspect>Solution oriented</aspect>
-    <aspect>Only part man</aspect>
-    <aspect>Plug and play software</aspect>
-    <aspect>Internal strife</aspect>
-    <aspect>Sucks to be programmable</aspect>
-    <aspect>Never going to have a master again</aspect>
-    <aspect>Could always use another good program</aspect>
-  </aspects>
-  <skills>
-    <skill rating="5" name="Repair"/>
-    <skill rating="4" name="Bureaucracy"/>
-    <skill rating="4" name="Intimidation"/>
-    <skill rating="3" name="Tactics"/>
-    <skill rating="3" name="Charm"/>
-    <skill rating="3" name="Resolve"/>
-    <skill rating="2" name="Oratory"/>
-    <skill rating="2" name="Survival"/>
-    <skill rating="2" name="Science"/>
-    <skill rating="2" name="Vehicle"/>
-    <skill rating="1" name="Agility"/>
-    <skill rating="1" name="Profession: Farmer"/>
-    <skill rating="1" name="Alertness"/>
-    <skill rating="1" name="Profession: Teacher"/>
-    <skill rating="1" name="Stamina"/>
-  </skills>
-  <stunts>
-    <stunt effect="TODO">Programmable</stunt>
-    <stunt effect="TODO">Have a thing</stunt>
-  </stunts>
-  <consequences>
-    <consequence severity="mild">mild one</consequence>
-  </consequences>
-  <gear>
+ <id>
+  <charname>Benny</charname>
+  <playername>sample Diaspora character</playername>
+  <homeworld>Old Copenhagen</homeworld>
+  <cluster>TODO</cluster>
+ </id>
+ <refresh>2</refresh>
+ <current-fate-points>2</current-fate-points>
+ <aspects>
+  <aspect>I hate the outdoors</aspect>
+  <aspect>Natural mechanic</aspect>
+  <aspect>Radiation Sickness</aspect>
+  <aspect>Solution oriented</aspect>
+  <aspect>Only part man</aspect>
+  <aspect>Plug and play software</aspect>
+  <aspect>Internal strife</aspect>
+  <aspect>Sucks to be programmable</aspect>
+  <aspect>Never going to have a master again</aspect>
+  <aspect>Could always use another good program</aspect>
+ </aspects>
+ <skills>
+  <skill rating="5" name="Repair"/>
+  <skill rating="4" name="Bureaucracy"/>
+  <skill rating="4" name="Intimidation"/>
+  <skill rating="3" name="Tactics"/>
+  <skill rating="3" name="Charm"/>
+  <skill rating="3" name="Resolve"/>
+  <skill rating="2" name="Oratory"/>
+  <skill rating="2" name="Survival"/>
+  <skill rating="2" name="Science"/>
+  <skill rating="2" name="Vehicle"/>
+  <skill rating="1" name="Agility"/>
+  <skill rating="1" name="Profession: Farmer"/>
+  <skill rating="1" name="Alertness"/>
+  <skill rating="1" name="Profession: Teacher"/>
+  <skill rating="1" name="Stamina"/>
+ </skills>
+ <stunts>
+  <stunt effect="TODO">Programmable</stunt>
+  <stunt effect="TODO">Have a thing</stunt>
+ </stunts>
+ <consequences>
+  <consequence severity="mild">mild one</consequence>
+ </consequences>
+ <gear>
     A little of this, a little of that
   </gear>
 </diaspora>

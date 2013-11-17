@@ -2,53 +2,51 @@
 <xsl:stylesheet
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
-<xsl:output method="html"/>
-
-<xsl:template name="diaspora_stress">
-<table border="1" id="stress">
-  <tr>
+ <xsl:output method="html"/>
+ <xsl:template name="diaspora_stress">
+  <table border="1" id="stress">
+   <tr>
     <th class="sectionheader" colspan="5">Health</th>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>1</td>
     <td>2</td>
     <td>3</td>
     <xsl:if test="/diaspora/skills/skill[@name='Stamina']/@rating &gt; 0">
-    <td>4</td>
+     <td>4</td>
     </xsl:if>
     <xsl:if test="/diaspora/skills/skill[@name='Stamina']/@rating &gt; 2">
-    <td>5</td>
+     <td>5</td>
     </xsl:if>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <th class="sectionheader" colspan="5">Composure</th>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>1</td>
     <td>2</td>
     <td>3</td>
     <xsl:if test="/diaspora/skills/skill[@name='Resolve']/@rating &gt; 0">
-    <td>4</td>
+     <td>4</td>
     </xsl:if>
     <xsl:if test="/diaspora/skills/skill[@name='Resolve']/@rating &gt; 2">
-    <td>5</td>
+     <td>5</td>
     </xsl:if>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <th class="sectionheader" colspan="5">Wealth</th>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
     <td>1</td>
     <td>2</td>
     <td>3</td>
     <xsl:if test="/diaspora/skills/skill[@name='Assets']/@rating &gt; 0">
-    <td>4</td>
+     <td>4</td>
     </xsl:if>
     <xsl:if test="/diaspora/skills/skill[@name='Assets']/@rating &gt; 2">
-    <td>5</td>
+     <td>5</td>
     </xsl:if>
-  </tr>
-</table>
-</xsl:template>
-
+   </tr>
+  </table>
+ </xsl:template>
 </xsl:stylesheet>
