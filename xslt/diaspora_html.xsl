@@ -7,7 +7,6 @@
 <xsl:variable name="useConditions">false</xsl:variable>
 
 <xsl:include href="html/fcs/fcs_common.xsl"/>
-<xsl:include href="html/fcs/consequences.xsl"/>
 <xsl:include href="html/diaspora/copyright.xsl"/>
 <xsl:include href="html/diaspora/diaspora.xsl"/>
 <xsl:include href="html/diaspora/gear.xsl"/>
