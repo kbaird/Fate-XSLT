@@ -11,17 +11,10 @@ Character
 
 Store character files in the `characters` directory, and execute via
 
-    ./publish_fae.sh some_character_file.xml
+    ./publish.sh some_character_file.xml
 
-for a Fate Accelerated character, or
-
-    ./publish_fcs.sh some_character_file.xml
-
-for a Fate Core System character. Other publish scripts may be created for
-various alternative rule options from Fate System Toolkit or elsewhere, although
-I will try to push such determinations into the `<hacks>` element to the extent
-possible.  There is also a generic `publish.sh` that depends on a default XSL
-stylesheet being defined in the given XML document.
+which depends on a default XSL stylesheet being defined in the given XML document.
+The sample characters demonstrate this.
 
 Output (currently just HTML) is rendered into the `out` directory.
 Validation is also available:
