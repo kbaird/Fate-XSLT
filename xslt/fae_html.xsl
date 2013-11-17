@@ -8,6 +8,7 @@
 <xsl:include href="html/fae/consequences.xsl"/>
 <xsl:include href="html/fae/copyright.xsl"/>
 <xsl:include href="html/fae/fae.xsl"/>
+<xsl:include href="html/fae/head.xsl"/>
 <xsl:include href="html/fae/stress.xsl"/>
 
 <xsl:include href="html/fate-common/aspects.xsl"/>
