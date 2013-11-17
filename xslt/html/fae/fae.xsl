@@ -7,7 +7,10 @@
 <xsl:template match="fae">
 
 <html>
-  <xsl:call-template name="fae_head"/>
+  <xsl:call-template name="head">
+    <xsl:with-param name="baseCSS">fae</xsl:with-param>
+    <xsl:with-param name="useConditions">false</xsl:with-param>
+  </xsl:call-template>
 
   <body>
     <h1><xsl:value-of select="id/charname"/></h1>

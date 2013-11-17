@@ -14,7 +14,8 @@
 </xsl:variable>
 
 <html>
-  <xsl:call-template name="fcs_head">
+  <xsl:call-template name="head">
+    <xsl:with-param name="baseCSS">fcs</xsl:with-param>
     <xsl:with-param name="useConditions">
       <xsl:value-of select="$useConditions"/>
     </xsl:with-param>
