@@ -15,6 +15,7 @@
 <xsl:include href="copyright.xsl"/>
 <xsl:include href="extras.xsl"/>
 <xsl:include href="fcs.xsl"/>
+<xsl:include href="head.xsl"/>
 <xsl:include href="skills.xsl"/>
 <xsl:include href="stress.xsl"/>
 

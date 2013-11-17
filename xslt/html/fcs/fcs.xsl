@@ -14,18 +14,11 @@
 </xsl:variable>
 
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-    <title><xsl:value-of select="id/charname"/></title>
-    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
-    <style type="text/css">
-      @import url(./css/fate.css);
-      @import url(./css/fcs.css);
-    <xsl:if test="$useConditions='true'">
-      @import url(./css/conditions.css);
-    </xsl:if>
-    </style>
-  </head>
+  <xsl:call-template name="fcs_head">
+    <xsl:with-param name="useConditions">
+      <xsl:value-of select="$useConditions"/>
+    </xsl:with-param>
+  </xsl:call-template>
 
   <body>
     <h1><xsl:value-of select="id/charname"/></h1>
