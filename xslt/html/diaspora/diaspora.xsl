@@ -7,16 +7,10 @@
 <xsl:template match="diaspora">
 
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-    <title><xsl:value-of select="id/charname"/></title>
-    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
-    <style type="text/css">
-      @import url(./css/fate.css);
-      @import url(./css/fcs.css);
-      @import url(./css/diaspora.css);
-    </style>
-  </head>
+  <xsl:call-template name="head">
+    <xsl:with-param name="baseCSS">fcs</xsl:with-param>
+    <xsl:with-param name="additionalCSS">diaspora</xsl:with-param>
+  </xsl:call-template>
 
   <body>
     <h1><xsl:value-of select="id/charname"/></h1>

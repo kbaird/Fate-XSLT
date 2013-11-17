@@ -6,6 +6,7 @@
 
 <xsl:template name="head">
   <xsl:param name="baseCSS"/>
+  <xsl:param name="additionalCSS"/>
   <xsl:param name="useConditions"/>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
@@ -14,6 +15,9 @@
     <style type="text/css">
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);
+    <xsl:if test="$additionalCSS">
+      @import url(./css/<xsl:value-of select="$additionalCSS"/>.css);
+    </xsl:if>
     <xsl:if test="$useConditions='true'">
       @import url(./css/conditions.css);
     </xsl:if>
