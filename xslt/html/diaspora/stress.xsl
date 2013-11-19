@@ -12,10 +12,10 @@
     <td>1</td>
     <td>2</td>
     <td>3</td>
-    <xsl:if test="/diaspora/skills/skill[@name='Stamina']/@rating &gt; 0">
+    <xsl:if test="/character/skills/skill[@name='Stamina']/@rating &gt; 0">
      <td>4</td>
     </xsl:if>
-    <xsl:if test="/diaspora/skills/skill[@name='Stamina']/@rating &gt; 2">
+    <xsl:if test="/character/skills/skill[@name='Stamina']/@rating &gt; 2">
      <td>5</td>
     </xsl:if>
    </tr>
@@ -26,10 +26,10 @@
     <td>1</td>
     <td>2</td>
     <td>3</td>
-    <xsl:if test="/diaspora/skills/skill[@name='Resolve']/@rating &gt; 0">
+    <xsl:if test="/character/skills/skill[@name='Resolve']/@rating &gt; 0">
      <td>4</td>
     </xsl:if>
-    <xsl:if test="/diaspora/skills/skill[@name='Resolve']/@rating &gt; 2">
+    <xsl:if test="/character/skills/skill[@name='Resolve']/@rating &gt; 2">
      <td>5</td>
     </xsl:if>
    </tr>
@@ -40,10 +40,10 @@
     <td>1</td>
     <td>2</td>
     <td>3</td>
-    <xsl:if test="/diaspora/skills/skill[@name='Assets']/@rating &gt; 0">
+    <xsl:if test="/character/skills/skill[@name='Assets']/@rating &gt; 0">
      <td>4</td>
     </xsl:if>
-    <xsl:if test="/diaspora/skills/skill[@name='Assets']/@rating &gt; 2">
+    <xsl:if test="/character/skills/skill[@name='Assets']/@rating &gt; 2">
      <td>5</td>
     </xsl:if>
    </tr>

@@ -35,7 +35,7 @@
      <xsl:value-of select="$label"/>
     </span>
    </legend>
-   <xsl:for-each select="/fae/consequences/consequence[@severity=$severity]">
+   <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
     <xsl:value-of select="."/>
    </xsl:for-each>
   </fieldset>

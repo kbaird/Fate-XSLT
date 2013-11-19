@@ -36,22 +36,11 @@
 <!--
      FIXME: these 2 xsl:if blocks are a hack. Clean them up.
 -->
-  <xsl:if test="/diaspora/skills/skill[@rating=$numericRating]">
+  <xsl:if test="/character/skills/skill[@rating=$numericRating]">
    <tr>
     <th class="rating">
      <xsl:value-of select="$textRating"/> (+<xsl:value-of select="$numericRating"/>)</th>
-    <xsl:for-each select="/diaspora/skills/skill[@rating=$numericRating]">
-     <td>
-      <xsl:value-of select="@name"/>
-     </td>
-    </xsl:for-each>
-   </tr>
-  </xsl:if>
-  <xsl:if test="/fcs/skills/skill[@rating=$numericRating]">
-   <tr>
-    <th class="rating">
-     <xsl:value-of select="$textRating"/> (+<xsl:value-of select="$numericRating"/>)</th>
-    <xsl:for-each select="/fcs/skills/skill[@rating=$numericRating]">
+    <xsl:for-each select="/character/skills/skill[@rating=$numericRating]">
      <td>
       <xsl:value-of select="@name"/>
      </td>

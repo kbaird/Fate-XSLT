@@ -7,7 +7,7 @@
 <xsl:include href="html/fcs/fcs_common.xsl"/>
 
 <xsl:template match="/">
-<xsl:apply-templates select="fcs"/>
+<xsl:apply-templates select="character"/>
 </xsl:template>
 
 </xsl:stylesheet>

@@ -22,13 +22,13 @@
       <xsl:with-param name="label">Severe (6):</xsl:with-param>
       <xsl:with-param name="severity">severe</xsl:with-param>
      </xsl:call-template>
-     <xsl:if test="/fcs/skills/skill[@name='Physique']/@rating &gt; 4">
+     <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 4">
       <xsl:call-template name="consequence">
        <xsl:with-param name="label">Mild Physical (2):</xsl:with-param>
        <xsl:with-param name="severity">mild-physical</xsl:with-param>
       </xsl:call-template>
      </xsl:if>
-     <xsl:if test="/fcs/skills/skill[@name='Will']/@rating &gt; 4">
+     <xsl:if test="/character/skills/skill[@name='Will']/@rating &gt; 4">
       <xsl:call-template name="consequence">
        <xsl:with-param name="label">Mild Mental (2):</xsl:with-param>
        <xsl:with-param name="severity">mild-mental</xsl:with-param>
@@ -47,7 +47,7 @@
      <xsl:value-of select="$label"/>
     </span>
    </legend>
-   <xsl:for-each select="/fcs/consequences/consequence[@severity=$severity]">
+   <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
     <xsl:choose>
      <xsl:when test=".">
       <xsl:value-of select="."/>

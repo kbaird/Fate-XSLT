@@ -1,7 +1,7 @@
 <?xml version = '1.0'?>
 <?xml-stylesheet type="text/xsl" href="../xslt/fae_html.xsl"?>
 <!DOCTYPE fae SYSTEM "../fae.dtd">
-<fae>
+<character>
  <id>
   <charname>Bethesda Flushing, Ph.D.</charname>
   <playername>sample FAE character</playername>
@@ -41,4 +41,4 @@
 <!--
     Can take 1 more stunt without reducing refresh
   -->
-</fae>
+</character>

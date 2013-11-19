@@ -1,7 +1,7 @@
 <?xml version = '1.0'?>
 <?xml-stylesheet type="text/xsl" href="../xslt/fcs_html.xsl"?>
 <!DOCTYPE fate-core SYSTEM "../fcs.dtd">
-<fcs>
+<character>
  <id>
   <charname>Zird the Arcane</charname>
   <playername>sample FATE Core character</playername>
@@ -37,4 +37,4 @@
  <consequences>
   <consequence severity="mild">mild one</consequence>
  </consequences>
-</fcs>
+</character>

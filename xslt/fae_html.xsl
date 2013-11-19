@@ -7,7 +7,7 @@
 <xsl:include href="html/fae/fae_common.xsl"/>
 
 <xsl:template match="/">
-<xsl:apply-templates select="fae"/>
+<xsl:apply-templates select="character"/>
 </xsl:template>
 
 </xsl:stylesheet>

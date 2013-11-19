@@ -14,7 +14,7 @@
 <xsl:include href="html/diaspora/stress.xsl"/>
 
 <xsl:template match="/">
-<xsl:apply-templates select="diaspora"/>
+<xsl:apply-templates select="character"/>
 </xsl:template>
 
 </xsl:stylesheet>

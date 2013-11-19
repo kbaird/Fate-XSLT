@@ -3,7 +3,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
  <xsl:output method="html"/>
- <xsl:template match="fcs">
+ <xsl:template match="character">
   <xsl:variable name="useConditions">
    <xsl:choose>
     <xsl:when test="hacks/@conditions='true'">true</xsl:when>

@@ -11,10 +11,10 @@
    <tr>
     <td>1</td>
     <td>2</td>
-    <xsl:if test="/fcs/skills/skill[@name='Physique']/@rating &gt; 0">
+    <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 0">
      <td>3</td>
     </xsl:if>
-    <xsl:if test="/fcs/skills/skill[@name='Physique']/@rating &gt; 2">
+    <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 2">
      <td>4</td>
     </xsl:if>
    </tr>
@@ -24,10 +24,10 @@
    <tr>
     <td>1</td>
     <td>2</td>
-    <xsl:if test="/fcs/skills/skill[@name='Will']/@rating &gt; 0">
+    <xsl:if test="/character/skills/skill[@name='Will']/@rating &gt; 0">
      <td>3</td>
     </xsl:if>
-    <xsl:if test="/fcs/skills/skill[@name='Will']/@rating &gt; 2">
+    <xsl:if test="/character/skills/skill[@name='Will']/@rating &gt; 2">
      <td>4</td>
     </xsl:if>
    </tr>

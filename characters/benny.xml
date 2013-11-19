@@ -1,7 +1,7 @@
 <?xml version = '1.0'?>
 <?xml-stylesheet type="text/xsl" href="../xslt/diaspora_html.xsl"?>
-<!DOCTYPE fate-core SYSTEM "../diaspora.dtd">
-<diaspora>
+<!DOCTYPE diaspora SYSTEM "../diaspora.dtd">
+<character>
  <id>
   <charname>Benny</charname>
   <playername>sample Diaspora character</playername>
@@ -49,4 +49,4 @@
  <gear>
     A little of this, a little of that
   </gear>
-</diaspora>
+</character>
