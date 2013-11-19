@@ -1,56 +1,56 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, refresh, current-fate-points, aspects, skills, stunts, gadgets, consequences?, phases)>
 
-<!ELEMENT id (charname, concept, playername, archetype)>
-	<!ELEMENT charname (#PCDATA)>
-	<!ELEMENT concept  (#PCDATA)>
-  <!ELEMENT playername (#PCDATA)>
-		<!ATTLIST charname nickname CDATA #IMPLIED>
-	<!ELEMENT archetype (#PCDATA)>
+  <!ELEMENT id (charname, concept, playername, archetype)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ELEMENT concept  (#PCDATA)>
+    <!ELEMENT playername (#PCDATA)>
+      <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT archetype (#PCDATA)>
 
-	<!ELEMENT refresh (#PCDATA)>
-	<!ELEMENT current-fate-points (#PCDATA)>
+    <!ELEMENT refresh (#PCDATA)>
+    <!ELEMENT current-fate-points (#PCDATA)>
 
-  <!ELEMENT aspects (aspect*)>
-		<!ELEMENT aspect (#PCDATA)>
+    <!ELEMENT aspects (aspect*)>
+      <!ELEMENT aspect (#PCDATA)>
 
-	<!ELEMENT skills (skill*)>
-    <!ELEMENT skill (#PCDATA)>
-		<!ATTLIST skill name   CDATA #REQUIRED>
-		<!ATTLIST skill page   CDATA #REQUIRED>
-		<!ATTLIST skill rating CDATA #REQUIRED>
+    <!ELEMENT skills (skill*)>
+      <!ELEMENT skill (#PCDATA)>
+      <!ATTLIST skill name   CDATA #REQUIRED>
+      <!ATTLIST skill page   CDATA #REQUIRED>
+      <!ATTLIST skill rating CDATA #REQUIRED>
 
-  <!ELEMENT stunts (stunt*)>
-		<!ELEMENT stunt (#PCDATA)>
-    <!ATTLIST stunt effect CDATA #IMPLIED>
-		<!ATTLIST stunt page   CDATA #REQUIRED>
-		<!ATTLIST stunt skill  CDATA #REQUIRED>
+    <!ELEMENT stunts (stunt*)>
+      <!ELEMENT stunt (#PCDATA)>
+      <!ATTLIST stunt effect CDATA #IMPLIED>
+      <!ATTLIST stunt page   CDATA #REQUIRED>
+      <!ATTLIST stunt skill  CDATA #REQUIRED>
 <!--
      TODO: Think about stunt att name, with the base text being the effect, instead
 -->
 
-  <!ELEMENT gadgets (gadget*)>
-		<!ELEMENT gadget (#PCDATA)>
-		<!ATTLIST gadget page    CDATA #REQUIRED>
-		<!ATTLIST gadget upgrade CDATA #REQUIRED>
+    <!ELEMENT gadgets (gadget*)>
+      <!ELEMENT gadget (#PCDATA)>
+      <!ATTLIST gadget page    CDATA #REQUIRED>
+      <!ATTLIST gadget upgrade CDATA #REQUIRED>
 
-  <!ELEMENT consequences (consequence*)>
-		<!ELEMENT consequence (#PCDATA)>
-      <!ATTLIST consequence effect CDATA #IMPLIED>
-      <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
+    <!ELEMENT consequences (consequence*)>
+      <!ELEMENT consequence (#PCDATA)>
+        <!ATTLIST consequence effect CDATA #IMPLIED>
+        <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
 
-  <!ELEMENT phases (background, the-great-war, your-novel, phase4, phase5)>
-		<!ELEMENT background (events*, aspect1, aspect2)>
-      <!ELEMENT events  (#PCDATA)>
-      <!ELEMENT aspect1 (#PCDATA)>
-      <!ELEMENT aspect2 (#PCDATA)>
-		<!ELEMENT the-great-war (century-club-patron, events*, aspect1, aspect2)>
-      <!ELEMENT century-club-patron (#PCDATA)>
-		<!ELEMENT your-novel (guest-stars, events*, aspect1, aspect2)>
-      <!ATTLIST your-novel title CDATA #IMPLIED>
-      <!ELEMENT guest-stars (#PCDATA)>
-		<!ELEMENT phase4 (events*, aspect1, aspect2)>
-      <!ATTLIST phase4 title CDATA #IMPLIED>
-		<!ELEMENT phase5 (events*, aspect1, aspect2)>
-      <!ATTLIST phase5 title CDATA #IMPLIED>
+    <!ELEMENT phases (background, the-great-war, your-novel, phase4, phase5)>
+      <!ELEMENT background (events*, aspect1, aspect2)>
+        <!ELEMENT events  (#PCDATA)>
+        <!ELEMENT aspect1 (#PCDATA)>
+        <!ELEMENT aspect2 (#PCDATA)>
+      <!ELEMENT the-great-war (century-club-patron, events*, aspect1, aspect2)>
+        <!ELEMENT century-club-patron (#PCDATA)>
+      <!ELEMENT your-novel (guest-stars, events*, aspect1, aspect2)>
+        <!ATTLIST your-novel title CDATA #IMPLIED>
+        <!ELEMENT guest-stars (#PCDATA)>
+      <!ELEMENT phase4 (events*, aspect1, aspect2)>
+        <!ATTLIST phase4 title CDATA #IMPLIED>
+      <!ELEMENT phase5 (events*, aspect1, aspect2)>
+        <!ATTLIST phase5 title CDATA #IMPLIED>
 

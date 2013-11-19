@@ -1,38 +1,38 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, refresh, current-fate-points, aspects, skills, extras, stunts, consequences?, hacks?)>
 
-<!ELEMENT id (charname, playername, description)>
-	<!ELEMENT charname (#PCDATA)>
-  <!ELEMENT playername (#PCDATA)>
-		<!ATTLIST charname nickname CDATA #IMPLIED>
-	<!ELEMENT description (#PCDATA)>
+  <!ELEMENT id (charname, playername, description)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ELEMENT playername (#PCDATA)>
+      <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT description (#PCDATA)>
 
-	<!ELEMENT refresh (#PCDATA)>
-	<!ELEMENT current-fate-points (#PCDATA)>
+    <!ELEMENT refresh (#PCDATA)>
+    <!ELEMENT current-fate-points (#PCDATA)>
 
-  <!ELEMENT aspects (aspect*)>
-		<!ELEMENT aspect (#PCDATA)>
-		<!ATTLIST aspect type (high_concept|trouble) #IMPLIED>
+    <!ELEMENT aspects (aspect*)>
+      <!ELEMENT aspect (#PCDATA)>
+      <!ATTLIST aspect type (high_concept|trouble) #IMPLIED>
 
-	<!ELEMENT skills (skill*)>
-    <!ELEMENT skill (#PCDATA)>
-		<!ATTLIST skill name   CDATA #REQUIRED>
-		<!ATTLIST skill rating CDATA #REQUIRED>
+    <!ELEMENT skills (skill*)>
+      <!ELEMENT skill (#PCDATA)>
+      <!ATTLIST skill name   CDATA #REQUIRED>
+      <!ATTLIST skill rating CDATA #REQUIRED>
 
-	<!ELEMENT extras (extra*)>
-    <!ELEMENT extra (#PCDATA)>
+    <!ELEMENT extras (extra*)>
+      <!ELEMENT extra (#PCDATA)>
 
-  <!ELEMENT stunts (stunt*)>
-		<!ELEMENT stunt (#PCDATA)>
+    <!ELEMENT stunts (stunt*)>
+      <!ELEMENT stunt (#PCDATA)>
 <!--
      TODO: Think about stunt att name, with the base text being the effect, instead
 -->
       <!ATTLIST stunt effect CDATA #IMPLIED>
 
-	<!ELEMENT consequences (consequence*)>
-		<!ELEMENT consequence (#PCDATA)>
-      <!ATTLIST consequence effect CDATA #IMPLIED>
-      <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
+    <!ELEMENT consequences (consequence*)>
+      <!ELEMENT consequence (#PCDATA)>
+        <!ATTLIST consequence effect CDATA #IMPLIED>
+        <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
 
-	<!ELEMENT hacks (#PCDATA)>
-    <!ATTLIST hacks conditions (true|false) #IMPLIED>
+    <!ELEMENT hacks (#PCDATA)>
+      <!ATTLIST hacks conditions (true|false) #IMPLIED>
