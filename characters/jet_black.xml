@@ -1,0 +1,73 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../xslt/sotc_html.xsl"?>
+<!DOCTYPE spirit-of-the-century SYSTEM "../sotc.dtd">
+<character>
+ <id>
+  <charname>Jet Black</charname>
+  <concept>Gadget Guy</concept>
+  <playername>sample SotC character</playername>
+  <archetype>Spirit Centurion</archetype>
+ </id>
+ <refresh>10</refresh>
+ <current-fate-points>10</current-fate-points>
+ <aspects>
+  <aspect>Motorhead</aspect>
+  <aspect>Unspoken Love (Sally)</aspect>
+  <aspect>others</aspect>
+ </aspects>
+ <skills>
+  <skill page="xx" rating="5" name="Athletics"/>
+  <skill page="xx" rating="4" name="Engineering"/>
+  <skill page="xx" rating="3" name="Guns"/>
+  <skill page="xx" rating="3" name="Pilot"/>
+  <skill page="xx" rating="3" name="Stealth"/>
+  <skill page="xx" rating="3" name="Fists"/>
+  <skill page="xx" rating="2" name="Drive"/>
+  <skill page="xx" rating="2" name="Endurance"/>
+  <skill page="xx" rating="2" name="Resolve"/>
+  <skill page="xx" rating="2" name="Intimidation"/>
+  <skill page="xx" rating="1" name="Alertness"/>
+  <skill page="xx" rating="1" name="Science"/>
+  <skill page="xx" rating="1" name="Might"/>
+  <skill page="xx" rating="1" name="Rapport"/>
+  <skill page="xx" rating="1" name="Weapons"/>
+ </skills>
+ <stunts>
+  <stunt effect="blah" page="xx" skill="Engineering">The Amazing Jet Pack (Personal Gadget)</stunt>
+ </stunts>
+ <gadgets>
+  <gadget page="xx" upgrade="xx">The Amazing Jet Pack</gadget>
+ </gadgets>
+ <consequences>
+  <consequence severity="mild">mild one</consequence>
+ </consequences>
+ <phases>
+  <background>
+    <events>blah</events>
+    <aspect1>blah</aspect1>
+    <aspect2>blah</aspect2>
+  </background>
+  <the-great-war>
+    <century-club-patron>blah</century-club-patron>
+    <events>blah</events>
+    <aspect1>blah</aspect1>
+    <aspect2>blah</aspect2>
+  </the-great-war>
+  <your-novel title="Proper Noun and the Pulp Adventure!">
+    <guest-stars/>
+    <events>blah</events>
+    <aspect1>blah</aspect1>
+    <aspect2>blah</aspect2>
+  </your-novel>
+  <phase4 title="x">
+    <events>blah</events>
+    <aspect1>blah</aspect1>
+    <aspect2>blah</aspect2>
+  </phase4>
+  <phase5 title="x">
+    <events>blah</events>
+    <aspect1>blah</aspect1>
+    <aspect2>blah</aspect2>
+  </phase5>
+ </phases>
+</character>
