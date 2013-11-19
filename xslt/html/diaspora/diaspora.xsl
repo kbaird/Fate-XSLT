@@ -19,9 +19,7 @@
        <xsl:apply-templates select="id"/>
       </td>
       <td width="30%" id="fate-logo">
-       <span id="fate">Fate</span>
-       <br />
-       <span id="fate-subtitle">Core System</span>
+       <span id="diaspora-logo">Diaspora</span>
        <table>
         <tr>
          <xsl:call-template name="refresh"/>
