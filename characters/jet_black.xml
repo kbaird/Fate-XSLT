@@ -43,31 +43,31 @@
  </consequences>
  <phases>
   <background>
-    <events>blah</events>
-    <aspect1>blah</aspect1>
-    <aspect2>blah</aspect2>
+   <events>blah</events>
+   <aspect1>blah</aspect1>
+   <aspect2>blah</aspect2>
   </background>
   <the-great-war>
-    <century-club-patron>blah</century-club-patron>
-    <events>blah</events>
-    <aspect1>blah</aspect1>
-    <aspect2>blah</aspect2>
+   <century-club-patron>blah</century-club-patron>
+   <events>blah</events>
+   <aspect1>blah</aspect1>
+   <aspect2>blah</aspect2>
   </the-great-war>
   <your-novel title="Proper Noun and the Pulp Adventure!">
-    <guest-stars/>
-    <events>blah</events>
-    <aspect1>blah</aspect1>
-    <aspect2>blah</aspect2>
+   <guest-stars/>
+   <events>blah</events>
+   <aspect1>blah</aspect1>
+   <aspect2>blah</aspect2>
   </your-novel>
   <phase4 title="x">
-    <events>blah</events>
-    <aspect1>blah</aspect1>
-    <aspect2>blah</aspect2>
+   <events>blah</events>
+   <aspect1>blah</aspect1>
+   <aspect2>blah</aspect2>
   </phase4>
   <phase5 title="x">
-    <events>blah</events>
-    <aspect1>blah</aspect1>
-    <aspect2>blah</aspect2>
+   <events>blah</events>
+   <aspect1>blah</aspect1>
+   <aspect2>blah</aspect2>
   </phase5>
  </phases>
 </character>
