@@ -3,3 +3,7 @@ fieldset#homeworld legend {
   color: #999;
   font: oblique small-caps 1.3em bolder;
 }
+
+#diaspora-logo {
+  font: oblique small-caps 5em bolder;
+}

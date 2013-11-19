@@ -34,7 +34,5 @@
  <stunts>
   <stunt effect="Can make Physical Recovery attempts w/Lore">Scholar, Healer</stunt>
  </stunts>
- <consequences>
-  <consequence severity="mild">mild one</consequence>
- </consequences>
+ <hacks conditions="true" />
 </character>
