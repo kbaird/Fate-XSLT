@@ -17,22 +17,24 @@
     <fieldset class="aspect">
      <xsl:choose>
       <xsl:when test="@type">
-        <xsl:if test="@type = 'high_concept'">
-         <legend class="label">
-          <span>High Concept</span>
-         </legend>
+       <xsl:if test="@type = 'high_concept'">
+        <legend class="label">
+         <span>High Concept</span>
+        </legend>
         <xsl:value-of select="."/>
-         </xsl:if>
-         <xsl:if test="@type = 'trouble'">
-          <legend class="label">
-           <span>Trouble</span>
-          </legend>
-          <xsl:value-of select="."/>
-         </xsl:if>
-       </xsl:when>
-       <xsl:otherwise>
-        <span class="content"><xsl:value-of select="."/></span>
-       </xsl:otherwise>
+       </xsl:if>
+       <xsl:if test="@type = 'trouble'">
+        <legend class="label">
+         <span>Trouble</span>
+        </legend>
+        <xsl:value-of select="."/>
+       </xsl:if>
+      </xsl:when>
+      <xsl:otherwise>
+       <span class="content">
+        <xsl:value-of select="."/>
+       </span>
+      </xsl:otherwise>
      </xsl:choose>
     </fieldset>
    </td>
