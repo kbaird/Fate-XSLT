@@ -6,7 +6,7 @@
  <xsl:include href="../fate-common/stress.xsl"/>
  <xsl:template name="stress">
   <table border="1" id="stress">
-   <xsl:call-template name="pre-core-stress">
+   <xsl:call-template name="generic-stress">
     <xsl:with-param name="baseCount">3</xsl:with-param>
     <xsl:with-param name="colSpan">3</xsl:with-param>
     <xsl:with-param name="headerName">Stress</xsl:with-param>

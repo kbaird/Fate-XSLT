@@ -20,7 +20,7 @@
    </xsl:call-template>
   </xsl:if>
  </xsl:template>
- <xsl:template name="pre-core-stress">
+ <xsl:template name="generic-stress">
   <xsl:param name="baseCount"/>
   <xsl:param name="colSpan"/>
   <xsl:param name="headerName"/>

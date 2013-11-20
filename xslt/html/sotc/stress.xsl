@@ -6,13 +6,13 @@
  <xsl:include href="../fate-common/stress.xsl"/>
  <xsl:template name="sotc-stress">
   <table border="1" id="stress">
-   <xsl:call-template name="pre-core-stress">
+   <xsl:call-template name="generic-stress">
     <xsl:with-param name="baseCount">5</xsl:with-param>
     <xsl:with-param name="colSpan">9</xsl:with-param>
     <xsl:with-param name="headerName">Health</xsl:with-param>
     <xsl:with-param name="skillName">Endurance</xsl:with-param>
    </xsl:call-template>
-   <xsl:call-template name="pre-core-stress">
+   <xsl:call-template name="generic-stress">
     <xsl:with-param name="baseCount">5</xsl:with-param>
     <xsl:with-param name="colSpan">9</xsl:with-param>
     <xsl:with-param name="headerName">Composure</xsl:with-param>
