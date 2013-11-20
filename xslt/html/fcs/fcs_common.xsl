@@ -15,5 +15,4 @@
  <xsl:include href="extras.xsl"/>
  <xsl:include href="fcs.xsl"/>
  <xsl:include href="skills.xsl"/>
- <xsl:include href="stress.xsl"/>
 </xsl:stylesheet>

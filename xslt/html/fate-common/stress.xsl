@@ -40,20 +40,26 @@
      <xsl:value-of select="$baseCount"/>
     </xsl:with-param>
    </xsl:call-template>
-   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 0">
-    <td>
-     <xsl:value-of select="$baseCount + 1"/>
-    </td>
+   <xsl:if test="$baseCount &lt; $colSpan">
+    <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 0">
+     <td>
+      <xsl:value-of select="$baseCount + 1"/>
+     </td>
+    </xsl:if>
    </xsl:if>
-   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 2">
-    <td>
-     <xsl:value-of select="$baseCount + 2"/>
-    </td>
+   <xsl:if test="$baseCount + 1 &lt; $colSpan">
+    <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 2">
+     <td>
+      <xsl:value-of select="$baseCount + 2"/>
+     </td>
+    </xsl:if>
    </xsl:if>
-   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 4">
-    <td>
-     <xsl:value-of select="$colSpan + 3"/>
-    </td>
+   <xsl:if test="$baseCount + 2 &lt; $colSpan">
+    <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 4">
+     <td>
+      <xsl:value-of select="$baseCount + 3"/>
+     </td>
+    </xsl:if>
    </xsl:if>
   </tr>
  </xsl:template>

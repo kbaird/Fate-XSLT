@@ -1,39 +1,23 @@
 <?xml version="1.0" ?>
-<!--
-  OPTIMIZE: DRY up with other stress templates.
--->
 <xsl:stylesheet
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
  <xsl:output method="html"/>
+ <xsl:include href="../fate-common/stress.xsl"/>
  <xsl:template name="stress">
   <table border="1" id="stress">
-   <tr>
-    <th class="sectionheader" colspan="4">Physical Stress (Physique)</th>
-   </tr>
-   <tr>
-    <td>1</td>
-    <td>2</td>
-    <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 0">
-     <td>3</td>
-    </xsl:if>
-    <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 2">
-     <td>4</td>
-    </xsl:if>
-   </tr>
-   <tr>
-    <th class="sectionheader" colspan="4">Mental Stress (Will)</th>
-   </tr>
-   <tr>
-    <td>1</td>
-    <td>2</td>
-    <xsl:if test="/character/skills/skill[@name='Will']/@rating &gt; 0">
-     <td>3</td>
-    </xsl:if>
-    <xsl:if test="/character/skills/skill[@name='Will']/@rating &gt; 2">
-     <td>4</td>
-    </xsl:if>
-   </tr>
+   <xsl:call-template name="generic-stress">
+    <xsl:with-param name="baseCount">2</xsl:with-param>
+    <xsl:with-param name="colSpan">4</xsl:with-param>
+    <xsl:with-param name="headerName">Physical Stress (Physique)</xsl:with-param>
+    <xsl:with-param name="skillName">Physique</xsl:with-param>
+   </xsl:call-template>
+   <xsl:call-template name="generic-stress">
+    <xsl:with-param name="baseCount">2</xsl:with-param>
+    <xsl:with-param name="colSpan">4</xsl:with-param>
+    <xsl:with-param name="headerName">Mental Stress (Will)</xsl:with-param>
+    <xsl:with-param name="skillName">Will</xsl:with-param>
+   </xsl:call-template>
   </table>
  </xsl:template>
 </xsl:stylesheet>
