@@ -1,4 +1,9 @@
 <?xml version="1.0" ?>
+<!--
+  OPTIMIZE: DRY up along with pre-core stress
+  This one would be simplest, with just the base
+  and max integers as params.
+-->
 <xsl:stylesheet
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
