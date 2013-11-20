@@ -13,6 +13,7 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
+      <!ATTLIST aspect phase CDATA #IMPLIED>
 
     <!ELEMENT skills (skill*)>
       <!ELEMENT skill (#PCDATA)>
@@ -39,18 +40,13 @@
         <!ATTLIST consequence effect CDATA #IMPLIED>
         <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
 
-    <!ELEMENT phases (background, the-great-war, your-novel, phase4, phase5)>
-      <!ELEMENT background (events*, aspect1, aspect2)>
-        <!ELEMENT events  (#PCDATA)>
-        <!ELEMENT aspect1 (#PCDATA)>
-        <!ELEMENT aspect2 (#PCDATA)>
-      <!ELEMENT the-great-war (century-club-patron, events*, aspect1, aspect2)>
+    <!ELEMENT phases (phase*)>
+      <!ELEMENT phase (century-club-patron?, guest-stars?, events*)>
+        <!ATTLIST phase num   CDATA #REQUIRED>
+        <!ATTLIST phase type  CDATA #IMPLIED>
+        <!ATTLIST phase title CDATA #IMPLIED>
+
         <!ELEMENT century-club-patron (#PCDATA)>
-      <!ELEMENT your-novel (guest-stars, events*, aspect1, aspect2)>
-        <!ATTLIST your-novel title CDATA #IMPLIED>
-        <!ELEMENT guest-stars (#PCDATA)>
-      <!ELEMENT phase4 (events*, aspect1, aspect2)>
-        <!ATTLIST phase4 title CDATA #IMPLIED>
-      <!ELEMENT phase5 (events*, aspect1, aspect2)>
-        <!ATTLIST phase5 title CDATA #IMPLIED>
+        <!ELEMENT guest-stars         (#PCDATA)>
+        <!ELEMENT events              (#PCDATA)>
 

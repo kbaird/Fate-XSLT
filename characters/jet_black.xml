@@ -11,9 +11,10 @@
  <refresh>10</refresh>
  <current-fate-points>10</current-fate-points>
  <aspects>
-  <aspect>Motorhead</aspect>
-  <aspect>Unspoken Love (Sally)</aspect>
-  <aspect>others</aspect>
+  <aspect phase="1">Motorhead</aspect>
+  <aspect phase="1">Unspoken Love (Sally)</aspect>
+  <aspect phase="2">Over My Head</aspect>
+  <aspect phase="2">Amazing Jet Pack!</aspect>
  </aspects>
  <skills>
   <skill page="xx" rating="5" name="Athletics"/>
@@ -42,32 +43,22 @@
   <consequence severity="mild">mild one</consequence>
  </consequences>
  <phases>
-  <background>
-   <events>blah</events>
-   <aspect1>blah</aspect1>
-   <aspect2>blah</aspect2>
-  </background>
-  <the-great-war>
+  <phase num="1" type="background">
+   <events>Jet grew up with Sally Slick in a poor part of town.</events>
+  </phase>
+  <phase num="2" type="the-great-war">
    <century-club-patron>blah</century-club-patron>
    <events>blah</events>
-   <aspect1>blah</aspect1>
-   <aspect2>blah</aspect2>
-  </the-great-war>
-  <your-novel title="Proper Noun and the Pulp Adventure!">
+  </phase>
+  <phase num="3" type="your-novel" title="Proper Noun and the Pulp Adventure!">
    <guest-stars/>
    <events>blah</events>
-   <aspect1>blah</aspect1>
-   <aspect2>blah</aspect2>
-  </your-novel>
-  <phase4 title="x">
+  </phase>
+  <phase num="4" title="x">
    <events>blah</events>
-   <aspect1>blah</aspect1>
-   <aspect2>blah</aspect2>
-  </phase4>
-  <phase5 title="x">
+  </phase>
+  <phase num="5" title="x">
    <events>blah</events>
-   <aspect1>blah</aspect1>
-   <aspect2>blah</aspect2>
-  </phase5>
+  </phase>
  </phases>
 </character>
