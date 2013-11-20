@@ -1,0 +1,27 @@
+
+fieldset#archetype, fieldset#concept {
+  padding-left: 8em;
+  position: relative;
+  text-align: left;
+}
+
+fieldset.gadget {
+  text-align: right;
+}
+
+fieldset.gadget legend.label {
+  color #000;  
+  font: small-caps 1.3em bolder;
+  padding-right: 2em;
+}
+
+fieldset#archetype   legend.label,
+fieldset#concept     legend.label {
+  color: #999;
+  font: oblique small-caps 1.3em bolder;
+}
+
+.sectionheader {
+  font-family: Adventure;
+}
+

@@ -51,7 +51,7 @@
     <table>
      <tr>
       <td width="50%">
-       <xsl:call-template name="diaspora_stress"/>
+       <xsl:call-template name="pre-core-stress"/>
       </td>
       <td width="50%">
        <xsl:call-template name="consequences"/>
@@ -60,7 +60,7 @@
     </table>
     <xsl:apply-templates select="gear"/>
     <xsl:apply-templates select="notes"/>
-    <xsl:call-template name="diaspora_copyright"/>
+    <xsl:call-template name="diaspora-copyright"/>
    </body>
   </html>
  </xsl:template>

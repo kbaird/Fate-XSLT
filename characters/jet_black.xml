@@ -18,7 +18,7 @@
  <skills>
   <skill page="xx" rating="5" name="Athletics"/>
   <skill page="xx" rating="4" name="Engineering"/>
-  <skill page="xx" rating="3" name="Guns"/>
+  <skill page="xx" rating="4" name="Guns"/>
   <skill page="xx" rating="3" name="Pilot"/>
   <skill page="xx" rating="3" name="Stealth"/>
   <skill page="xx" rating="3" name="Fists"/>
@@ -36,7 +36,7 @@
   <stunt effect="blah" page="xx" skill="Engineering">The Amazing Jet Pack (Personal Gadget)</stunt>
  </stunts>
  <gadgets>
-  <gadget page="xx" upgrade="xx">The Amazing Jet Pack</gadget>
+  <gadget page="xx" name="The Amazing Jet Pack">various upgrades, more upgrades, etc.</gadget>
  </gadgets>
  <consequences>
   <consequence severity="mild">mild one</consequence>

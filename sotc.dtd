@@ -31,8 +31,8 @@
 
     <!ELEMENT gadgets (gadget*)>
       <!ELEMENT gadget (#PCDATA)>
-      <!ATTLIST gadget page    CDATA #REQUIRED>
-      <!ATTLIST gadget upgrade CDATA #REQUIRED>
+      <!ATTLIST gadget name CDATA #REQUIRED>
+      <!ATTLIST gadget page CDATA #REQUIRED>
 
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>

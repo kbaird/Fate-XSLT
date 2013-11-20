@@ -14,7 +14,9 @@
  <xsl:template match="extra">
   <tr>
    <td>
-    <xsl:value-of select="."/>
+    <fieldset>
+     <xsl:value-of select="."/>
+    </fieldset>
    </td>
   </tr>
  </xsl:template>
