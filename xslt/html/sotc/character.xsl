@@ -60,6 +60,8 @@
      </tr>
     </table>
     <xsl:apply-templates select="gear"/>
+    <hr />
+    <xsl:apply-templates select="phases"/>
     <xsl:apply-templates select="notes"/>
     <xsl:call-template name="sotc-copyright"/>
    </body>

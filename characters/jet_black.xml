@@ -47,18 +47,18 @@
    <events>Jet grew up with Sally Slick in a poor part of town.</events>
   </phase>
   <phase num="2" type="the-great-war">
-   <century-club-patron>blah</century-club-patron>
-   <events>blah</events>
+   <century-club-patron>The Patron</century-club-patron>
+   <events>The events</events>
   </phase>
-  <phase num="3" type="your-novel" title="Proper Noun and the Pulp Adventure!">
-   <guest-stars/>
-   <events>blah</events>
+  <phase num="3" type="your-novel" title="Jet Black in ... The Eternity Equation!">
+   <guest-stars>Sally Slick, Grey Ghost</guest-stars>
+   <events>The events</events>
   </phase>
-  <phase num="4" title="x">
-   <events>blah</events>
+  <phase num="4" title="Mack Silver and the Sky-Pirates of Araby">
+   <events>The events</events>
   </phase>
-  <phase num="5" title="x">
-   <events>blah</events>
+  <phase num="5" title="Sally Slick vs. The Giant Robot">
+   <events>The events</events>
   </phase>
  </phases>
 </character>

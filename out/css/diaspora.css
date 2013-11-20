@@ -7,7 +7,7 @@ fieldset#cluster, fieldset#homeworld {
 
 fieldset#cluster   legend.label,
 fieldset#homeworld legend.label {
-  color: #999;
+  color: #666;
   font: oblique small-caps 1.3em bolder;
 }
 

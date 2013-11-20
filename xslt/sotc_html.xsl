@@ -8,6 +8,7 @@
  <xsl:include href="html/sotc/copyright.xsl"/>
  <xsl:include href="html/sotc/gadgets.xsl"/>
  <xsl:include href="html/sotc/id.xsl"/>
+ <xsl:include href="html/sotc/phases.xsl"/>
  <xsl:include href="html/sotc/stress.xsl"/>
  <xsl:template match="/">
   <xsl:apply-templates select="character"/>

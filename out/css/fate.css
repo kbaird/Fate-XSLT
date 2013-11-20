@@ -22,6 +22,7 @@ fieldset#description,
 fieldset#name,
 fieldset.aspect,
 fieldset.consequence,
+fieldset.phase,
 fieldset.stunt
 {
   padding-left: 8em;
@@ -43,7 +44,7 @@ fieldset#name {
 fieldset.aspect      legend.label,
 fieldset#description legend.label,
 fieldset#name        legend.label {
-  color: #999;
+  color: #666;
   font: oblique small-caps 1.3em bolder;
 }
 
