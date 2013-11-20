@@ -3,7 +3,7 @@ Fate-XSLT
 
 Character
 [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for
-[Evil Hat Productions](http://evilhat.com/) and '
+[Evil Hat Productions](http://evilhat.com/) and
 [VSCA Publishing](http://vsca.ca/)'s
 [Fate Core](http://www.evilhat.com/home/fate-core/),
 [Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE),
