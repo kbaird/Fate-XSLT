@@ -6,7 +6,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
  <xsl:output method="html"/>
- <xsl:template name="pre-core-stress">
+ <xsl:template name="diaspora-stress">
   <table border="1" id="stress">
    <tr>
     <th class="sectionheader" colspan="5">Health</th>

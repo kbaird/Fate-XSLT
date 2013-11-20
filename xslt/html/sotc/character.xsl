@@ -52,7 +52,7 @@
     <table>
      <tr>
       <td width="50%">
-       <xsl:call-template name="pre-core-stress"/>
+       <xsl:call-template name="sotc-stress"/>
       </td>
       <td width="50%">
        <xsl:call-template name="consequences"/>
