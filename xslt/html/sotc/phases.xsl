@@ -37,7 +37,7 @@
        </xsl:if>
        <xsl:if test="@type = 'the-great-war'">
         <legend class="label">
-         <span class="phase-title">Phase 2: The Great War</span>
+         <span class="phase-title">Phase 2: The Great War and Entry Into the Club</span>
          <span id="century-club-patron">Century Club Patron: <xsl:value-of select="century-club-patron"/>
          </span>
          <xsl:call-template name="phase-aspects">
