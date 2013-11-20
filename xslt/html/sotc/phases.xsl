@@ -28,7 +28,7 @@
       <xsl:when test="@type">
        <xsl:if test="@type = 'background'">
         <legend class="label">
-         <span>Phase 1: Background</span>
+         <span class="phase-title">Phase 1: Background</span>
          <xsl:call-template name="phase-aspects">
           <xsl:with-param name="phase">1</xsl:with-param>
          </xsl:call-template>
@@ -37,7 +37,7 @@
        </xsl:if>
        <xsl:if test="@type = 'the-great-war'">
         <legend class="label">
-         <span>Phase 2: The Great War</span>
+         <span class="phase-title">Phase 2: The Great War</span>
          <span id="century-club-patron">Century Club Patron: <xsl:value-of select="century-club-patron"/>
          </span>
          <xsl:call-template name="phase-aspects">
@@ -48,7 +48,7 @@
        </xsl:if>
        <xsl:if test="@type = 'your-novel'">
         <legend class="label">
-         <span>Phase 3: <xsl:value-of select="@title"/>
+         <span class="phase-title">Phase 3: <xsl:value-of select="@title"/>
          </span>
          <span id="guest-stars">Guest-starring <xsl:value-of select="guest-stars"/>
          </span>
@@ -61,7 +61,7 @@
       </xsl:when>
       <xsl:otherwise>
        <legend class="label">
-        <span>Phase <xsl:value-of select="@num"/>: Other Adventures</span>
+        <span class="phase-title">Phase <xsl:value-of select="@num"/>: Other Adventures</span>
         <span id="guest-starring">Guest-starring in <xsl:value-of select="@title"/>
         </span>
         <xsl:call-template name="phase-aspects">

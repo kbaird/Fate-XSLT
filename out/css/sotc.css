@@ -20,7 +20,10 @@ fieldset#concept     legend.label,
 fieldset.phase       legend.label {
   color: #666;
   font: oblique small-caps 1.3em bolder;
-  height: 4em;
+}
+
+fieldset.phase legend.label {
+  height: 4.0em;
 }
 
 fieldset.phase {
@@ -33,15 +36,20 @@ fieldset.phase legend.label span#guest-starring,
 fieldset.phase legend.label span#guest-stars {
   color: #999;
   font: oblique small-caps 0.95em bolder;
-  padding-left: 1em;
-  padding-top: 1.3em;
+  padding-left: 1.0em;
+  padding-top: 1.8em;
 }
 
 fieldset.phase legend.label span.aspects {
   color: #999;
   font: oblique small-caps 0.95em bolder;
-  padding-left: 1em;
-  padding-top: 2.6em;
+  padding-left: 1.0em;
+  padding-top: 3.1em;
+}
+
+fieldset.phase legend.label span.phase-title {
+  color: #333;
+  font: oblique small-caps 1.4em bolder;
 }
 
 .sectionheader {
