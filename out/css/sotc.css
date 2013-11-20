@@ -20,13 +20,14 @@ fieldset#concept     legend.label,
 fieldset.phase       legend.label {
   color: #666;
   font: oblique small-caps 1.3em bolder;
-  height: 3em;
+  height: 4em;
 }
 
 fieldset.phase {
   text-align: right;
 }
 
+fieldset.phase legend.label span.aspects,
 fieldset.phase legend.label span#century-club-patron,
 fieldset.phase legend.label span#guest-starring,
 fieldset.phase legend.label span#guest-stars {
@@ -34,6 +35,13 @@ fieldset.phase legend.label span#guest-stars {
   font: oblique small-caps 0.95em bolder;
   padding-left: 1em;
   padding-top: 1.3em;
+}
+
+fieldset.phase legend.label span.aspects {
+  color: #999;
+  font: oblique small-caps 0.95em bolder;
+  padding-left: 1em;
+  padding-top: 2.6em;
 }
 
 .sectionheader {
