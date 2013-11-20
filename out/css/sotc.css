@@ -10,7 +10,7 @@ fieldset.gadget {
 }
 
 fieldset.gadget legend.label {
-  color #000;  
+  color #000;
   font: small-caps 1.3em bolder;
   padding-right: 2em;
 }
@@ -25,3 +25,7 @@ fieldset#concept     legend.label {
   font-family: Adventure;
 }
 
+#sotc-logo {
+  font-size: 3em;
+  font-family: Adventure;
+}
