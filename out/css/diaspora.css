@@ -1,6 +1,13 @@
-fieldset#cluster   legend,
-fieldset#homeworld legend {
-  color: #999;
+
+fieldset#cluster, fieldset#homeworld {
+  padding-left: 8em;
+  position: relative;
+  text-align: left;
+}
+
+fieldset#cluster   legend.label,
+fieldset#homeworld legend.label {
+  color: #666;
   font: oblique small-caps 1.3em bolder;
 }
 

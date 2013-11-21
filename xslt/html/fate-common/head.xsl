@@ -12,8 +12,8 @@
    <title>
     <xsl:value-of select="id/charname"/>
    </title>
-   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
    <style type="text/css">
+      @import url("http://fonts.googleapis.com/css?family=Montserrat");
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);
     <xsl:if test="$additionalCSS">

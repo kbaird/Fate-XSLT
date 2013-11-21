@@ -5,8 +5,8 @@
  <xsl:output method="html"/>
  <xsl:variable name="useConditions">false</xsl:variable>
  <xsl:include href="html/fcs/fcs_common.xsl"/>
+ <xsl:include href="html/diaspora/character.xsl"/>
  <xsl:include href="html/diaspora/copyright.xsl"/>
- <xsl:include href="html/diaspora/diaspora.xsl"/>
  <xsl:include href="html/diaspora/gear.xsl"/>
  <xsl:include href="html/diaspora/id.xsl"/>
  <xsl:include href="html/diaspora/stress.xsl"/>

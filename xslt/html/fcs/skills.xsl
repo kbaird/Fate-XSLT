@@ -33,9 +33,6 @@
  <xsl:template name="skill">
   <xsl:param name="numericRating"/>
   <xsl:param name="textRating"/>
-<!--
-     FIXME: these 2 xsl:if blocks are a hack. Clean them up.
--->
   <xsl:if test="/character/skills/skill[@rating=$numericRating]">
    <tr>
     <th class="rating">

@@ -3,9 +3,11 @@ Fate-XSLT
 
 Character
 [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for
-[Evil Hat Productions](http://evilhat.com/)'
+[Evil Hat Productions](http://evilhat.com/) and
+[VSCA Publishing](http://vsca.ca/)'s
 [Fate Core](http://www.evilhat.com/home/fate-core/),
-[Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE) &amp;
+[Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE),
+[Spirit of the Century](http://www.evilhat.com/home/spirit-of-the-century-2/) &amp;
 [Diaspora](http://www.vsca.ca/Diaspora/) RPGs, along with
 [XSLT](http://www.w3.org/TR/xslt) sheets for rendering to various output formats.
 

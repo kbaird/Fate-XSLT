@@ -6,6 +6,6 @@
  <xsl:template name="copyright">
   <p id="copyright">
    <acronym title="Fate Accelerated">FAE</acronym> Character Sheet ©2013 Evil Hat Productions, LLC.
-</p>
+  </p>
  </xsl:template>
 </xsl:stylesheet>

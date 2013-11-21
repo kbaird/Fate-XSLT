@@ -18,10 +18,20 @@ dl dd {
   padding-top: -1em;
 }
 
-fieldset {
+fieldset#description,
+fieldset#name,
+fieldset.aspect,
+fieldset.consequence,
+fieldset.phase,
+fieldset.stunt
+{
   padding-left: 8em;
   position: relative;
   text-align: left;
+}
+
+fieldset.aspect span.content {
+  margin-left: -7em;
 }
 
 fieldset.aspect,
@@ -31,10 +41,10 @@ fieldset#name {
   vertical-align: text-bottom;
 }
 
-fieldset.aspect      legend,
-fieldset#description legend,
-fieldset#name        legend {
-  color: #999;
+fieldset.aspect      legend.label,
+fieldset#description legend.label,
+fieldset#name        legend.label {
+  color: #666;
   font: oblique small-caps 1.3em bolder;
 }
 

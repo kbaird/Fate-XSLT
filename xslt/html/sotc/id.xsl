@@ -31,21 +31,21 @@
    </tr>
    <tr>
     <td>
-     <fieldset id="homeworld">
+     <fieldset id="concept">
       <legend class="label">
-       <span>Homeworld</span>
+       <span>Concept</span>
       </legend>
-      <xsl:value-of select="homeworld"/>
+      <xsl:value-of select="concept"/>
      </fieldset>
     </td>
    </tr>
    <tr>
     <td>
-     <fieldset id="cluster">
+     <fieldset id="archetype">
       <legend class="label">
-       <span>Cluster</span>
+       <span>Archetype</span>
       </legend>
-      <xsl:value-of select="cluster"/>
+      <xsl:value-of select="archetype"/>
      </fieldset>
     </td>
    </tr>
