@@ -48,7 +48,9 @@
        </xsl:if>
        <xsl:if test="@type = 'your-novel'">
         <legend class="label">
-         <span class="phase-title">Phase 3: <xsl:value-of select="@title"/>
+         <span class="phase-title">Phase 3: <em>
+           <xsl:value-of select="@title"/>
+          </em>
          </span>
          <span id="guest-stars">Guest-starring <xsl:value-of select="guest-stars"/>
          </span>
@@ -62,7 +64,9 @@
       <xsl:otherwise>
        <legend class="label">
         <span class="phase-title">Phase <xsl:value-of select="@num"/>: Other Adventures</span>
-        <span id="guest-starring">Guest-starring in <xsl:value-of select="@title"/>
+        <span id="guest-starring">Guest-starring in: <em>
+          <xsl:value-of select="@title"/>
+         </em>
         </span>
         <xsl:call-template name="phase-aspects">
          <xsl:with-param name="phase">
