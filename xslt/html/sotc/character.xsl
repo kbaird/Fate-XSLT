@@ -15,17 +15,17 @@
     </h1>
     <table>
      <tr>
-      <td width="70%">
+      <td width="55%">
        <xsl:apply-templates select="id"/>
-      </td>
-      <td width="30%" id="fate-logo">
-       <span id="sotc-logo">Spirit of the Century</span>
        <table>
         <tr>
          <xsl:call-template name="refresh"/>
          <xsl:call-template name="current-fate-points"/>
         </tr>
        </table>
+      </td>
+      <td width="45%" id="fate-logo">
+       <span id="sotc-logo">Spirit of the Century</span>
       </td>
      </tr>
     </table>
