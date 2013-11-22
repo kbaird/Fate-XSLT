@@ -25,13 +25,13 @@ fieldset.consequence,
 fieldset.phase,
 fieldset.stunt
 {
-  padding-left: 8em;
+  padding-left: 11em;
   position: relative;
   text-align: left;
 }
 
 fieldset.aspect span.content {
-  margin-left: -7em;
+  margin-left: -10em;
 }
 
 fieldset.aspect,
