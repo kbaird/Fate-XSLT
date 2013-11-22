@@ -57,6 +57,6 @@ fieldset.phase legend.label span.phase-title {
 }
 
 #sotc-logo {
-  font-size: 6em;
+  font: normal small-caps 6em bolder;
   font-family: Adventure;
 }
