@@ -8,7 +8,7 @@
   <table border="1" id="stress">
    <xsl:call-template name="generic-stress">
     <xsl:with-param name="baseCount">3</xsl:with-param>
-    <xsl:with-param name="colSpan">3</xsl:with-param>
+    <xsl:with-param name="maxCount">3</xsl:with-param>
     <xsl:with-param name="headerName">Stress</xsl:with-param>
    </xsl:call-template>
   </table>

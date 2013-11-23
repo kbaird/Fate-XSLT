@@ -22,13 +22,13 @@
  </xsl:template>
  <xsl:template name="generic-stress">
   <xsl:param name="baseCount"/>
-  <xsl:param name="colSpan"/>
+  <xsl:param name="maxCount"/>
   <xsl:param name="headerName"/>
   <xsl:param name="skillName"/>
   <tr>
    <th class="sectionheader">
     <xsl:attribute name="colspan">
-     <xsl:value-of select="$colSpan"/>
+     <xsl:value-of select="$maxCount"/>
     </xsl:attribute>
     <xsl:value-of select="$headerName"/>
    </th>
@@ -40,21 +40,21 @@
      <xsl:value-of select="$baseCount"/>
     </xsl:with-param>
    </xsl:call-template>
-   <xsl:if test="$baseCount &lt; $colSpan">
+   <xsl:if test="$baseCount &lt; $maxCount">
     <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 0">
      <td>
       <xsl:value-of select="$baseCount + 1"/>
      </td>
     </xsl:if>
    </xsl:if>
-   <xsl:if test="$baseCount + 1 &lt; $colSpan">
+   <xsl:if test="$baseCount + 1 &lt; $maxCount">
     <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 2">
      <td>
       <xsl:value-of select="$baseCount + 2"/>
      </td>
     </xsl:if>
    </xsl:if>
-   <xsl:if test="$baseCount + 2 &lt; $colSpan">
+   <xsl:if test="$baseCount + 2 &lt; $maxCount">
     <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 4">
      <td>
       <xsl:value-of select="$baseCount + 3"/>
