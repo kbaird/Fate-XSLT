@@ -16,16 +16,10 @@ fieldset.gadget legend.label {
   font: small-caps 1.3em bolder;
 }
 
-fieldset.phase {
-  margin-bottom: 0.3em;
-  text-align: right;
-}
-
 fieldset.phase legend.label {
   height: 2.8em;
 }
 
-fieldset.phase legend.label span.aspects,
 fieldset.phase legend.label span#century-club-patron,
 fieldset.phase legend.label span#guest-starring,
 fieldset.phase legend.label span#guest-stars {
@@ -35,11 +29,6 @@ fieldset.phase legend.label span#guest-stars {
 
 fieldset.phase legend.label span.aspects {
   padding-top: 2.7em;
-}
-
-fieldset.phase legend.label span.phase-title {
-  color: #000;
-  font: normal small-caps 1.15em bolder;
 }
 
 .sectionheader {
