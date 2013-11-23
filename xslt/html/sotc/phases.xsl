@@ -3,6 +3,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
  <xsl:output method="html"/>
+ <xsl:include href="../fate-common/phase-aspects.xsl"/>
  <xsl:template match="phases">
   <table border="1">
    <tr>
@@ -10,15 +11,6 @@
    </tr>
    <xsl:apply-templates select="phase"/>
   </table>
- </xsl:template>
- <xsl:template name="phase-aspects">
-  <xsl:param name="phase"/>
-  <span class="aspects">Aspects:
-          <xsl:for-each select="/character/aspects/aspect[@phase=$phase]">
-    <xsl:if test="position() &gt; 1">, </xsl:if>
-    <xsl:value-of select="."/>
-   </xsl:for-each>
-  </span>
  </xsl:template>
  <xsl:template match="phase">
   <tr>

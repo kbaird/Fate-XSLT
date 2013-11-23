@@ -11,16 +11,16 @@
  <refresh>10</refresh>
  <current-fate-points>10</current-fate-points>
  <aspects>
-  <aspect phase="1">Motorhead</aspect>
-  <aspect phase="1">Unspoken Love (Sally)</aspect>
-  <aspect phase="2">Over My Head</aspect>
-  <aspect phase="2">Amazing Jet Pack!</aspect>
-  <aspect phase="3">Nick of Time</aspect>
-  <aspect phase="3">Stop Dr. Methuselah</aspect>
-  <aspect phase="4">Seat of my Pants</aspect>
-  <aspect phase="4">Rocket Red Rivalry</aspect>
-  <aspect phase="5">First on the Scene</aspect>
-  <aspect phase="5">"Sally, Save Me!"</aspect>
+  <aspect phase-num="1">Motorhead</aspect>
+  <aspect phase-num="1">Unspoken Love (Sally)</aspect>
+  <aspect phase-num="2">Over My Head</aspect>
+  <aspect phase-num="2">Amazing Jet Pack!</aspect>
+  <aspect phase-num="3">Nick of Time</aspect>
+  <aspect phase-num="3">Stop Dr. Methuselah</aspect>
+  <aspect phase-num="4">Seat of my Pants</aspect>
+  <aspect phase-num="4">Rocket Red Rivalry</aspect>
+  <aspect phase-num="5">First on the Scene</aspect>
+  <aspect phase-num="5">"Sally, Save Me!"</aspect>
  </aspects>
  <skills>
   <skill page="xx" rating="5" name="Athletics"/>

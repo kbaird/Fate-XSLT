@@ -13,7 +13,7 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect phase CDATA #IMPLIED>
+      <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
     <!ELEMENT skills (skill*)>
       <!ELEMENT skill (#PCDATA)>
