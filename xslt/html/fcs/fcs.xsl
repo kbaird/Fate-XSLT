@@ -79,6 +79,7 @@
       </td>
      </tr>
     </table>
+    <xsl:apply-templates select="phase-trio"/>
     <xsl:apply-templates select="notes"/>
     <xsl:call-template name="copyright"/>
    </body>

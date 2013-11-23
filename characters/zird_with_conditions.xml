@@ -12,9 +12,9 @@
  <aspects>
   <aspect type="high_concept">Wizard for Hire</aspect>
   <aspect type="trouble">Rivals in the Collegia Arcana</aspect>
-  <aspect>If I Haven't Been There, I've Read About It</aspect>
-  <aspect>Not The Face!</aspect>
-  <aspect>Doesn't Suffer Fools Gladly</aspect>
+  <aspect phase-num="1">If I Haven't Been There, I've Read About It</aspect>
+  <aspect phase-num="2">Not The Face!</aspect>
+  <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
  </aspects>
  <skills>
   <skill rating="4" name="Lore"/>
@@ -35,4 +35,15 @@
   <stunt effect="Can make Physical Recovery attempts w/Lore">Scholar, Healer</stunt>
  </stunts>
  <hacks conditions="true" />
+ <phase-trio>
+  <phase num="1">
+   <events>Some events</events>
+  </phase>
+  <phase num="2">
+   <events>Some events</events>
+  </phase>
+  <phase num="3">
+   <events>Some events</events>
+  </phase>
+ </phase-trio>
 </character>

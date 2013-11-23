@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, extras, stunts, consequences?, hacks?)>
+<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, extras, stunts, consequences?, hacks?, phase-trio)>
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
@@ -13,6 +13,7 @@
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
       <!ATTLIST aspect type (high_concept|trouble) #IMPLIED>
+      <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
     <!ELEMENT skills (skill*)>
       <!ELEMENT skill (#PCDATA)>
@@ -36,3 +37,8 @@
 
     <!ELEMENT hacks (#PCDATA)>
       <!ATTLIST hacks conditions (true|false) #IMPLIED>
+
+    <!ELEMENT phase-trio (phase*)>
+      <!ELEMENT phase (events*)>
+        <!ATTLIST phase num CDATA #REQUIRED>
+        <!ELEMENT events (#PCDATA)>
