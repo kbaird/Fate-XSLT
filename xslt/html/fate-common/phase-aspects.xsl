@@ -4,12 +4,12 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template name="phase-aspects">
-   <xsl:param name="phase"/>
-   <span class="aspects">Aspects:
+  <xsl:param name="phase"/>
+  <span class="aspects">Aspects:
      <xsl:for-each select="/character/aspects/aspect[@phase-num=$phase]">
-     <xsl:if test="position() &gt; 1">, </xsl:if>
-     <xsl:value-of select="."/>
-    </xsl:for-each>
-   </span>
-  </xsl:template>
+    <xsl:if test="position() &gt; 1">, </xsl:if>
+    <xsl:value-of select="."/>
+   </xsl:for-each>
+  </span>
+ </xsl:template>
 </xsl:stylesheet>
