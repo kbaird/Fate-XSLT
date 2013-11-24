@@ -35,7 +35,7 @@
  <stunts>
   <stunt effect="+2 to Rapport when dealing with high society">Groomed for Nobility (House Sivis)</stunt>
   <stunt effect="Rapport in place of Contacts if well-liked. Prior justification or spend a Fate Point (see FateCore121).">Popular</stunt>
-  <stunt effect="When a House Sivis message station is available, spend a Fate Point to use Resources in place of Contacts, Investigate, Lore or some other roll where someone higher-ranked in House Sivis could conceivably help remotely. Requires some suitable delay.">Meschpukah</stunt>
+  <stunt effect="When a House Sivis message station is available, spend a Fate Point to use Resources in place of Contacts, Investigate, Lore or some other roll where long-distance assistance from someone higher-ranked in House Sivis could conceivably help. Requires some dramatically suitable delay.">Mishpocha</stunt>
  </stunts>
  <consequences/>
  <phase-trio>
