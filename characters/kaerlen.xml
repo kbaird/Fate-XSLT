@@ -1,0 +1,108 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../xslt/fcs_html.xsl"?>
+<!DOCTYPE fate-core SYSTEM "../fcs.dtd">
+<character>
+ <id>
+  <charname>Kaerlen Santor d'Sivis</charname>
+  <playername>Kevin C. Baird</playername>
+  <description>
+    A Gnome as dispassionate as Lorne Michaels with a blond ponytail &amp; close-cropped goattee.
+    3'7", 47lbs. 60 years old. Usually impeccably dressed in high-falutin' Clebdecher Glamerweave (Sharn55).
+  </description>
+ </id>
+ <refresh>3</refresh>
+ <current-fate-points>3</current-fate-points>
+ <aspects>
+  <aspect type="high_concept">Speaker's Guild Lawyer</aspect>
+  <aspect type="trouble">Keep [Jenn's PC] Out Of Trouble</aspect>
+  <aspect phase-num="1">Cozy up to the Goblinoids</aspect>
+  <aspect phase-num="2">Foreign Advisor Enjoys the Company of Talenta Ladies</aspect>
+  <aspect phase-num="3">Amoral Sharn Shyster</aspect>
+ </aspects>
+ <skills>
+  <skill rating="4" name="Rapport"/>
+  <skill rating="3" name="Deceive"/>
+  <skill rating="3" name="Resources"/>
+  <skill rating="2" name="Shoot"/>
+  <skill rating="2" name="Empathy"/>
+  <skill rating="2" name="Provoke"/>
+  <skill rating="1" name="Lore"/>
+  <skill rating="1" name="Contacts"/>
+  <skill rating="1" name="Notice"/>
+  <skill rating="1" name="Athletics"/>
+ </skills>
+ <extras/>
+ <stunts>
+  <stunt effect="+2 to Rapport when dealing with high society">Groomed for Nobility (House Sivis)</stunt>
+  <stunt effect="Rapport in place of Contacts if well-liked. Prior justification or spend a Fate Point (see FateCore121).">Popular</stunt>
+  <stunt effect="When a House Sivis message station is available, spend a Fate Point to use Resources in place of Contacts, Investigate, Lore or some other roll where someone higher-ranked in House Sivis could conceivably help remotely. Requires some suitable delay.">Meschpukah</stunt>
+ </stunts>
+ <consequences/>
+ <phase-trio>
+  <phase num="1">
+   <events>
+981YK: Kaerlen moves to Sharn and starts working as a House Sivis barrister on the staff of Josilian
+  Kan d'Tarlian (N Gnome Bard3/Expert3, Sharn53), frequently on behalf of the city's Goblinoids -
+  House Sivis elders wanted to establish a presence in Darguun, and Kaerlen is groomed for the role.
+  He lived in Highwater, Upper Dura (Sharn37/55), and Josilian's offices are in Clifftop, Upper Dura.
+990YK: Kaerlen is sent to Rhukaan Draal, Darguun as planned. His official role is as a minor legal
+  advisor to the Lhesh's court, but he also spies.
+   </events>
+  </phase>
+  <phase num="2">
+   <events>
+995YK: Kaerlen is relocated to Gatherhold, Talenta. Overall, his duties are similar in Talenta to
+  what they were in Darguun. While there, he enjoyed the company of a Talenta Hulrar named
+  Cyrrinda Errim (N Female Halfling Ranger3) who taught him the Halfling language and whose
+  first name means "Beautiful Defender" (Races of The Wild 60). The Hulrar tribe is the 2nd-strongest
+  tribe and the strongest voice for Talenta unification beyond the limited confederation preferred by
+  the dominant Abramams, and the dissolution favored by social Darwinist and traditionalist "Holy"
+  Uldra Sindrekel.
+996YK: The Last War ends with the Treaty of Thronehold (996-11-11).
+   </events>
+  </phase>
+  <phase num="3">
+   <events>
+997YK: Kaerlen served as [Jenn's PC]'s lawyer in Sharn, defending her on murder charges. He was unable to
+  obtain an acquital, but was able to get her deported rather than imprisoned or maimed. She was then
+  sent back to her home in Freeport on the condition that Kaerlen take responsibility for delivering
+  her successfully.
+   </events>
+  </phase>
+ </phase-trio>
+ <notes>
+938YK: Born in Korranberg (938-11-06).
+961YK: Boranel becomes King of Breland.
+962YK: Zilargo formally aligns with Breland.
+969YK: Soon-to-be Lhesh Haruuc leads the rebellion that forms Darguun.
+978YK: Reaches 40, the age of majority for Gnomes.
+981YK: Phase One, above.
+994YK: Cyre destroyed, becomes the Mournland.
+995YK: Phase Two, above.
+997YK: Phase Three, above.
+
+Kaerlen's name means &quot;Good Ruby&quot; (Races of Stone 49). He has a fondness for non-Gnomish women, especially
+Talenta Halflings. Not that he's averse to Gnomish women or &quot;tall ladies&quot; at all. He has met few Dwarven
+women.
+
+Member of House Sivis (ECS236) and its Speaker's Guild (DrM73), employed as needed for the campaign
+in public. Possibly working for House Sivis as an Agent (DrM14).
+
+Sivis members in good standing can use a Message Station for free, and other services at 50% cost.
+Sivis families are also prone to giving each other aid - not quite Favored in House, but helpful (DrM72).
+
+Folks Kaerlen knows:
+ 1) Cyrrinda Errim (N Female Halfling Ranger3), ex-lover, very friendly.
+  They might still be together if Kaerlen hadn't had to relocate.
+ 2) Dinagaera Owbaer, a Korranberg librarian (Female Gnome) - they hooked up a few times, friends.
+ 3) Corius Corralyn d'Sivis (LN Male Gnome Expert 6, DrM76)
+ 4) One or more Goblinoids in Sharn, perhaps former clients
+ 5) Josilian Kan d'Tarlian (Male Gnome, Sharn 53) - former employer in Sharn
+ 6) Solirion Torralyn d'Sivis (N Male Gnome, Sharn45) - head of the Speaker's Guild in Sharn
+ 7) Hellien Clamas Clebdecher (LN Female Gnome, Sharn55) - best Gnome tailoress in Highhold, Sharn
+  Clebdecher Glamerweave (Sharn55/158) costs 500+ gp and grants a +2 to Diplomacy
+ 8) Thurik Davandi (LN Male Gnome, Sharn 66) - Upper Menthis city councilor in Sharn, tailor
+ 9) Some minor courtier(s) in Rhukaan Draal, Darguun
+10) Some minor courtier(s) in Gatherhold, Talenta
+ </notes>
+</character>

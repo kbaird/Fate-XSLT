@@ -7,6 +7,7 @@
  <xsl:include href="../fate-common/current-fate-points.xsl"/>
  <xsl:include href="../fate-common/head.xsl"/>
  <xsl:include href="../fate-common/id.xsl"/>
+ <xsl:include href="../fate-common/notes.xsl"/>
  <xsl:include href="../fate-common/refresh.xsl"/>
  <xsl:include href="../fate-common/stunts.xsl"/>
  <xsl:include href="character.xsl"/>

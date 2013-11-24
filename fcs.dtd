@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, extras, stunts, consequences?, hacks?, phase-trio)>
+<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, extras, stunts, consequences?, hacks?, phase-trio, notes?)>
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
@@ -42,3 +42,5 @@
       <!ELEMENT phase (events*)>
         <!ATTLIST phase num CDATA #REQUIRED>
         <!ELEMENT events (#PCDATA)>
+
+    <!ELEMENT notes (#PCDATA)>
