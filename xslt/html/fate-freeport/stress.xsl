@@ -5,6 +5,7 @@
  <xsl:output method="html"/>
  <xsl:include href="../fate-common/stress.xsl"/>
  <xsl:template name="stress">
+  <xsl:param name="useCorruption"/>
   <table border="1" id="stress">
    <xsl:call-template name="generic-stress">
     <xsl:with-param name="baseCount">2</xsl:with-param>
@@ -18,16 +19,17 @@
     <xsl:with-param name="headerName">Mental Stress</xsl:with-param>
     <xsl:with-param name="skillName">Wisdom</xsl:with-param>
    </xsl:call-template>
-   <tr>
-    <!-- TODO optional boolean variable, like conditions -->
-    <th class="sectionheader" colspan="4">Corruption</th>
-   </tr>
-   <tr>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-   </tr>
+   <xsl:if test="$useCorruption='true'">
+     <tr>
+      <th class="sectionheader" colspan="4">Corruption</th>
+     </tr>
+     <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+     </tr>
+   </xsl:if>
   </table>
  </xsl:template>
 </xsl:stylesheet>

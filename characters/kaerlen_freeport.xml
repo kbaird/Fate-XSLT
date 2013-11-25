@@ -34,6 +34,7 @@
   <stunt effect="When a House Sivis message station is available, spend a Fate Point to use Resources in place of Contacts, Investigate, Lore or some other roll where someone higher-ranked in House Sivis could conceivably help remotely. Requires some suitable delay.">Meschpukah</stunt>
  </stunts>
  <consequences/>
+ <hacks corruption="true" />
  <phase-trio>
   <phase num="1">
    <events>
