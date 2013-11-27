@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ] ; then
   echo
-  echo "Usage: $(basename $0) some_file(s).xml" >&2
+  echo -e "\e[01;34mUsage\e[0m: \e[01;33m$(basename $0)\e[0m some_file(s).xml" >&2
   echo
   exit 1
 fi

@@ -36,7 +36,8 @@
         <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
 
     <!ELEMENT hacks (#PCDATA)>
-      <!ATTLIST hacks conditions (true|false) #IMPLIED>
+      <!ATTLIST hacks conditions (true|false) #IMPLIED> <!-- Fate System Toolkit -->
+      <!ATTLIST hacks corruption (true|false) #IMPLIED> <!-- Fate Freeport Companion -->
 
     <!ELEMENT phase-trio (phase*)>
       <!ELEMENT phase (events*)>
