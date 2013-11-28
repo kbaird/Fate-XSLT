@@ -4,6 +4,11 @@
 # descriptive die rolls for FUDGE/FATE, as per an idea developed
 # by Vincent Baker for his Jastenave game.
 # cf. https://twitter.com/lumpleygames/status/403556521579384832
+#
+# Also appeared later (and surely independently) in Pyramid Vol2
+# "Dice of Destiny" by Justin Bacon
+# http://www.sjgames.com/pyramid/sample.html?id=1686
+# http://thealexandrian.net/wordpress/2781/roleplaying-games/dice-of-destiny
 
 DESCRIPTIONS = %w(environment instinct training equipment)
 
