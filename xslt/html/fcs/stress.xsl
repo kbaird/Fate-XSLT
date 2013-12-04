@@ -5,14 +5,26 @@
  <xsl:output method="html"/>
  <xsl:include href="../fate-common/stress.xsl"/>
  <xsl:template name="stress">
+  <xsl:variable name="stressBaseCount">
+   <xsl:choose>
+    <xsl:when test="/character/hacks/@stress-base-count">
+     <xsl:value-of select="/character/hacks/@stress-base-count"/>
+    </xsl:when>
+    <xsl:otherwise>2</xsl:otherwise>
+   </xsl:choose>
+  </xsl:variable>
   <table border="1" id="stress">
    <xsl:call-template name="generic-stress">
-    <xsl:with-param name="baseCount">2</xsl:with-param>
+    <xsl:with-param name="baseCount">
+     <xsl:value-of select="$stressBaseCount"/>
+    </xsl:with-param>
     <xsl:with-param name="headerName">Physical Stress (Physique)</xsl:with-param>
     <xsl:with-param name="skillName">Physique</xsl:with-param>
    </xsl:call-template>
    <xsl:call-template name="generic-stress">
-    <xsl:with-param name="baseCount">2</xsl:with-param>
+    <xsl:with-param name="baseCount">
+     <xsl:value-of select="$stressBaseCount"/>
+    </xsl:with-param>
     <xsl:with-param name="headerName">Mental Stress (Will)</xsl:with-param>
     <xsl:with-param name="skillName">Will</xsl:with-param>
    </xsl:call-template>
