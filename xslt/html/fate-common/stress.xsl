@@ -22,7 +22,7 @@
  </xsl:template>
  <xsl:template name="generic-stress">
   <xsl:param name="baseCount"/>
-  <xsl:param name="maxCount"/>
+  <xsl:param name="maxCount" select="$baseCount + 2"/>
   <xsl:param name="headerName"/>
   <xsl:param name="skillName"/>
   <tr>
