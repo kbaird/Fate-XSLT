@@ -41,6 +41,7 @@ def roll(set)
   get_results = ->(memo,desc) { memo.merge(desc => roll_die) }
   results = DESCRIPTIONS[set].inject({}, &get_results)
   total   = results.map(&:last).inject(:+)
+  total   = (total > 0) ? "+#{total}" : total
   [total, format(results)]
 end
 
