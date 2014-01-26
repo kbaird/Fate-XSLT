@@ -1,3 +1,4 @@
+@import "borders"
 @import "colors"
 
 dl.conditions
@@ -7,14 +8,14 @@ dl.conditions
   width: 100%
   dd
     &.box
-      border: 3px solid black
+      +standard_border
       float: left
       margin: 0
       margin-top: -1.2em
       padding: 0
       width: 3em
     &.additional
-      border: 3px solid #ccc
+      +standard_border(#ccc)
       color: $label_color
   dt
     border: 0

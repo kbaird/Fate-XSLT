@@ -1,3 +1,5 @@
+@import "borders"
+
 fieldset.phase
   margin-bottom: 0.3em
   padding-top: 3.4em
@@ -26,7 +28,7 @@ table
       text-align: right
       width: 12.5%
     td
-      border: 3px solid black
+      +standard_border
       font: oblique small-caps 1em bold
       height: $height
       padding-top: $top_padding
