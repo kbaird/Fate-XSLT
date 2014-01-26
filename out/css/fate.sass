@@ -1,6 +1,7 @@
 @import "colors"
 @import "fieldsets"
 @import "fonts"
+@import "lists"
 
 body
   color: #111
@@ -10,15 +11,9 @@ body
 
 dl
   dt
-    display: inline
-    padding: 0.35em
-    padding-left: 0.5em
-    padding-right: 0.5em
+    +dl_item
   dd
-    display: inline
-    padding: 0.35em
-    padding-left: 0.5em
-    padding-right: 0.5em
+    +dl_item
     border: 2px solid black
     float: right
     padding-top: -1em
