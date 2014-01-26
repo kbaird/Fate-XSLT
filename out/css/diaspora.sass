@@ -1,4 +1,5 @@
 @import "colors"
+@import "fonts"
 
 fieldset
   &#cluster, &#homeworld
@@ -7,7 +8,7 @@ fieldset
     text-align: left
   &#cluster legend.label, &#homeworld legend.label
     color: $label_color
-    font: oblique small-caps 1.3em bolder
+    @include label_font
 
 #diaspora-logo
-  font: oblique small-caps 5em bolder
+  @include label_font(5em)
