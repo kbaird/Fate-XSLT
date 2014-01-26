@@ -1,0 +1,103 @@
+@import "colors"
+@import "fonts"
+
+body
+  color: #111
+  margin: 0.1em 0.4em
+  padding: 0.2em
+  font: 1em Montserrat, ubuntu, verdana, arial, helvetica, sans-serif
+
+dl
+  dt
+    display: inline
+    padding: 0.35em
+    padding-left: 0.5em
+    padding-right: 0.5em
+  dd
+    display: inline
+    padding: 0.35em
+    padding-left: 0.5em
+    padding-right: 0.5em
+    border: 2px solid black
+    float: right
+    padding-top: -1em
+
+fieldset
+  &#description, &#name, &.aspect, &.consequence, &.phase, &.stunt
+    padding-left: 11em
+    position: relative
+    text-align: left
+  &.aspect
+    span.content
+      margin-left: -10em
+    height: 1.1em
+    padding-top: 0.5em
+    vertical-align: text-bottom
+  &#name
+    height: 1.1em
+    padding-top: 0.5em
+    vertical-align: text-bottom
+  &.aspect legend.label, &#description legend.label, &#name legend.label
+    color: $label_color
+    +label_font
+  &.consequence
+    font-style: oblique
+    padding-left: 8.6em
+    text-align: right
+    height: 1.1em
+    legend
+      color: #444
+      font: small-caps 1.3em bolder
+  &.stunt
+    font-style: oblique
+    text-align: right
+    legend
+      color: black
+      font: small-caps 1.5em bolder
+      span
+        top: 0.08em
+
+h1, hr
+  display: none
+
+legend
+  float: left
+  span
+    position: absolute
+    top: 0.1em
+    left: 0.4em
+
+p#copyright
+  font-size: 0.8em
+  text-align: center
+
+table
+  border: 0px
+  padding: 0.3em
+  text-align: center
+  width: 100%
+
+td, th
+  border: 0px
+  vertical-align: top
+
+table#stress td
+  border: 4px solid black
+  font-size: 1.4em
+  font-weight: 900
+
+.sectionheader
+  background-color: #000
+  border-bottom-right-radius: 0.9em
+  border-top-left-radius: 0.9em
+  color: #fff
+  padding: 0.2em
+  text-transform: uppercase
+  vertical-align: text-top
+
+#fate
+  font: small-caps 5em bolder
+
+#fate-subtitle
+  font: 2em bolder
+  text-transform: uppercase

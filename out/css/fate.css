@@ -1,130 +1,98 @@
 body {
-  color: #111;
+  color: #111111;
   margin: 0.1em 0.4em;
   padding: 0.2em;
-  font: 1.0em Montserrat, ubuntu, verdana, arial, helvetica, sans-serif;
- }
+  font: 1em Montserrat, ubuntu, verdana, arial, helvetica, sans-serif; }
 
-dl dt, dl dd {
+dl dt {
+  display: inline;
+  padding: 0.35em;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+dl dd {
   display: inline;
   padding: 0.35em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-}
-
-dl dd {
   border: 2px solid black;
   float: right;
-  padding-top: -1em;
-}
+  padding-top: -1em; }
 
-fieldset#description,
-fieldset#name,
-fieldset.aspect,
-fieldset.consequence,
-fieldset.phase,
-fieldset.stunt
-{
+fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
   padding-left: 11em;
   position: relative;
-  text-align: left;
-}
-
+  text-align: left; }
+fieldset.aspect {
+  height: 1.1em;
+  padding-top: 0.5em;
+  vertical-align: text-bottom; }
 fieldset.aspect span.content {
-  margin-left: -10em;
-}
-
-fieldset.aspect,
+  margin-left: -10em; }
 fieldset#name {
   height: 1.1em;
   padding-top: 0.5em;
-  vertical-align: text-bottom;
-}
-
-fieldset.aspect      legend.label,
-fieldset#description legend.label,
-fieldset#name        legend.label {
-  color: #666;
-  font: oblique small-caps 1.3em bolder;
-}
-
+  vertical-align: text-bottom; }
+fieldset.aspect legend.label, fieldset#description legend.label, fieldset#name legend.label {
+  color: #666666;
+  font: oblique small-caps 1.3em bolder; }
 fieldset.consequence {
   font-style: oblique;
   padding-left: 8.6em;
   text-align: right;
-  height: 1.1em;
-}
-
+  height: 1.1em; }
 fieldset.consequence legend {
-  color: #444;
-  font: small-caps 1.3em bolder;
-}
-
+  color: #444444;
+  font: small-caps 1.3em bolder; }
 fieldset.stunt {
   font-style: oblique;
-  text-align: right;
-}
-
+  text-align: right; }
 fieldset.stunt legend {
   color: black;
-  font: small-caps 1.5em bolder;
-}
+  font: small-caps 1.5em bolder; }
+fieldset.stunt legend span {
+  top: 0.08em; }
 
-fieldset.stunt  legend span {
-  top: 0.08em;
-}
-
-h1, hr { display: none; }
+h1, hr {
+  display: none; }
 
 legend {
-  float: left;
-}
-
+  float: left; }
 legend span {
   position: absolute;
   top: 0.1em;
-  left: 0.4em;
-}
+  left: 0.4em; }
 
 p#copyright {
   font-size: 0.8em;
-  text-align: center;
-}
+  text-align: center; }
 
 table {
   border: 0px;
   padding: 0.3em;
   text-align: center;
-  width: 100%;
-}
+  width: 100%; }
 
 td, th {
   border: 0px;
-  vertical-align: top;
-}
+  vertical-align: top; }
 
-table#stress tr td {
+table#stress td {
   border: 4px solid black;
   font-size: 1.4em;
-  font-weight: 900;
-}
+  font-weight: 900; }
 
 .sectionheader {
-  background-color: #000;
+  background-color: black;
   border-bottom-right-radius: 0.9em;
   border-top-left-radius: 0.9em;
-  color: #fff;
+  color: white;
   padding: 0.2em;
   text-transform: uppercase;
-  vertical-align: text-top;
-}
+  vertical-align: text-top; }
 
 #fate {
-  font: small-caps 5em bolder;
-}
+  font: small-caps 5em bolder; }
 
 #fate-subtitle {
   font: 2em bolder;
-  text-transform: uppercase;
-}
-
+  text-transform: uppercase; }

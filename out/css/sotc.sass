@@ -1,0 +1,28 @@
+@import "colors"
+@import "fonts"
+
+fieldset
+  &#archetype, &#concept
+    padding-left: 11em
+    position: relative
+    text-align: left
+  &#archetype legend.label, &#concept legend.label
+    color: $label_color
+    +label_font
+  &.gadget legend.label
+    font: small-caps 1.3em bolder
+  &.phase legend.label
+    height: 2.8em
+    span
+      &#century-club-patron, &#guest-starring, &#guest-stars
+        font-size: 0.9em
+        padding-top: 1.5em
+      &.aspects
+        padding-top: 2.7em
+
+.sectionheader
+  font-family: Adventure
+
+#sotc-logo
+  font: normal small-caps 5.4em bolder
+  font-family: Adventure

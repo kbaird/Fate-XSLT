@@ -1,41 +1,23 @@
-
-fieldset#archetype,
-fieldset#concept {
+fieldset#archetype, fieldset#concept {
   padding-left: 11em;
   position: relative;
-  text-align: left;
-}
-
-fieldset#archetype legend.label,
-fieldset#concept   legend.label {
-  color: #666;
-  font: oblique small-caps 1.3em bolder;
-}
-
+  text-align: left; }
+fieldset#archetype legend.label, fieldset#concept legend.label {
+  color: #666666;
+  font: oblique small-caps 1.3em bolder; }
 fieldset.gadget legend.label {
-  font: small-caps 1.3em bolder;
-}
-
+  font: small-caps 1.3em bolder; }
 fieldset.phase legend.label {
-  height: 2.8em;
-}
-
-fieldset.phase legend.label span#century-club-patron,
-fieldset.phase legend.label span#guest-starring,
-fieldset.phase legend.label span#guest-stars {
+  height: 2.8em; }
+fieldset.phase legend.label span#century-club-patron, fieldset.phase legend.label span#guest-starring, fieldset.phase legend.label span#guest-stars {
   font-size: 0.9em;
-  padding-top: 1.5em;
-}
-
+  padding-top: 1.5em; }
 fieldset.phase legend.label span.aspects {
-  padding-top: 2.7em;
-}
+  padding-top: 2.7em; }
 
 .sectionheader {
-  font-family: Adventure;
-}
+  font-family: Adventure; }
 
 #sotc-logo {
   font: normal small-caps 5.4em bolder;
-  font-family: Adventure;
-}
+  font-family: Adventure; }
