@@ -1,0 +1,53 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE fate-core SYSTEM "../fcs.dtd">
+<character>
+ <id>
+  <charname>Atomic Robo</charname>
+  <playername>sample FATE Core character</playername>
+  <description>A sharp-featured scholar with a dark triangular beard.</description>
+ </id>
+ <refresh>2</refresh>
+ <current-fate-points>2</current-fate-points>
+ <aspects>
+  <aspect type="high_concept">Wizard for Hire</aspect>
+  <aspect type="trouble">Rivals in the Collegia Arcana</aspect>
+  <aspect phase-num="1">If I Haven't Been There, I've Read About It</aspect>
+  <aspect phase-num="2">Not The Face!</aspect>
+  <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
+ </aspects>
+ <skills>
+  <skill rating="4" name="Lore"/>
+  <skill rating="3" name="Rapport"/>
+  <skill rating="3" name="Crafts"/>
+  <skill rating="2" name="Athletics"/>
+  <skill rating="2" name="Will"/>
+  <skill rating="2" name="Investigate"/>
+  <skill rating="1" name="Fight"/>
+  <skill rating="1" name="Resources"/>
+  <skill rating="1" name="Contacts"/>
+  <skill rating="1" name="Notice"/>
+ </skills>
+ <extras>
+  <extra>Collegia Arcana Mage</extra>
+ </extras>
+ <stunts>
+  <stunt name="Scholar, Healer">
+    Can make Physical Recovery attempts w/Lore
+  </stunt>
+ </stunts>
+ <consequences>
+  <consequence severity="mild">mild one</consequence>
+ </consequences>
+ <phase-trio>
+  <phase num="1">
+   <events>Some events</events>
+  </phase>
+  <phase num="2">
+   <events>Some events</events>
+  </phase>
+  <phase num="3">
+   <events>Some events</events>
+  </phase>
+ </phase-trio>
+</character>
