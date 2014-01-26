@@ -29,13 +29,9 @@ fieldset
   &.aspect
     span.content
       margin-left: -10em
-    height: 1.1em
-    padding-top: 0.5em
-    vertical-align: text-bottom
+    +fieldset_innards
   &#name
-    height: 1.1em
-    padding-top: 0.5em
-    vertical-align: text-bottom
+    +fieldset_innards
   &.aspect legend.label, &#description legend.label, &#name legend.label
     color: $label_color
     +label_font
