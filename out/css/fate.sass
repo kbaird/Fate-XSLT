@@ -1,5 +1,7 @@
 @import "colors"
+@import "fieldsets"
 @import "fonts"
+@import "lists"
 
 body
   color: #111
@@ -9,34 +11,22 @@ body
 
 dl
   dt
-    display: inline
-    padding: 0.35em
-    padding-left: 0.5em
-    padding-right: 0.5em
+    +dl_item
   dd
-    display: inline
-    padding: 0.35em
-    padding-left: 0.5em
-    padding-right: 0.5em
+    +dl_item
     border: 2px solid black
     float: right
     padding-top: -1em
 
 fieldset
   &#description, &#name, &.aspect, &.consequence, &.phase, &.stunt
-    padding-left: 11em
-    position: relative
-    text-align: left
+    +fieldset_item
   &.aspect
     span.content
       margin-left: -10em
-    height: 1.1em
-    padding-top: 0.5em
-    vertical-align: text-bottom
+    +fieldset_innards
   &#name
-    height: 1.1em
-    padding-top: 0.5em
-    vertical-align: text-bottom
+    +fieldset_innards
   &.aspect legend.label, &#description legend.label, &#name legend.label
     color: $label_color
     +label_font
@@ -47,13 +37,13 @@ fieldset
     height: 1.1em
     legend
       color: #444
-      font: small-caps 1.3em bolder
+      +legend_font
   &.stunt
     font-style: oblique
     text-align: right
     legend
       color: black
-      font: small-caps 1.5em bolder
+      +legend_font(1.5em)
       span
         top: 0.08em
 
@@ -96,7 +86,7 @@ table#stress td
   vertical-align: text-top
 
 #fate
-  font: small-caps 5em bolder
+  +legend_font(5em)
 
 #fate-subtitle
   font: 2em bolder
