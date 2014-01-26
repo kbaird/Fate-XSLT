@@ -1,4 +1,5 @@
 @import "colors"
+@import "fieldsets"
 @import "fonts"
 
 body
@@ -24,9 +25,7 @@ dl
 
 fieldset
   &#description, &#name, &.aspect, &.consequence, &.phase, &.stunt
-    padding-left: 11em
-    position: relative
-    text-align: left
+    +fieldset_item
   &.aspect
     span.content
       margin-left: -10em

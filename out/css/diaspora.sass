@@ -1,11 +1,10 @@
 @import "colors"
+@import "fieldsets"
 @import "fonts"
 
 fieldset
   &#cluster, &#homeworld
-    padding-left: 11em
-    position: relative
-    text-align: left
+    +fieldset_item
   &#cluster legend.label, &#homeworld legend.label
     color: $label_color
     +label_font
