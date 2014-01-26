@@ -23,12 +23,9 @@
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt effect CDATA #IMPLIED>
-      <!ATTLIST stunt page   CDATA #REQUIRED>
-      <!ATTLIST stunt skill  CDATA #REQUIRED>
-<!--
-     TODO: Think about stunt att name, with the base text being the effect, instead
--->
+      <!ATTLIST stunt name  CDATA #IMPLIED>
+      <!ATTLIST stunt page  CDATA #REQUIRED>
+      <!ATTLIST stunt skill CDATA #REQUIRED>
 
     <!ELEMENT gadgets (gadget*)>
       <!ELEMENT gadget (#PCDATA)>

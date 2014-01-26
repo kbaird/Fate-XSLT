@@ -40,7 +40,9 @@
   <skill page="xx" rating="1" name="Weapons"/>
  </skills>
  <stunts>
-  <stunt effect="blah" page="xx" skill="Engineering">The Amazing Jet Pack (Personal Gadget)</stunt>
+  <stunt name="The Amazing Jet Pack (Personal Gadget)" page="xx" skill="Engineering">
+    blah
+  </stunt>
  </stunts>
  <gadgets>
   <gadget page="xx" name="The Amazing Jet Pack">various upgrades, more upgrades, etc.</gadget>

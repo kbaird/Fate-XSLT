@@ -31,8 +31,12 @@
   <approach name="sneaky">+0</approach>
  </approaches>
  <stunts>
-  <stunt effect="+2 to Quickly create advantage or overcome if flying useful">Experimental Helo Pack</stunt>
-  <stunt effect="eliminate 1 situation aspect">Gadgeteer</stunt>
+  <stunt name="Experimental Helo Pack">
+    +2 to Quickly create advantage or overcome if flying useful
+  </stunt>
+  <stunt name="Gadgeteer">
+    eliminate 1 situation aspect
+  </stunt>
  </stunts>
  <consequences>
   <consequence severity="moderate">moderate one</consequence>

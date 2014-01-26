@@ -32,7 +32,9 @@
   <extra>Collegia Arcana Mage</extra>
  </extras>
  <stunts>
-  <stunt effect="Can make Physical Recovery attempts w/Lore">Scholar, Healer</stunt>
+  <stunt name="Scholar, Healer">
+    Can make Physical Recovery attempts w/Lore
+  </stunt>
  </stunts>
  <hacks conditions="true" />
  <phase-trio>

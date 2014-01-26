@@ -17,10 +17,10 @@
     <fieldset class="stunt">
      <legend>
       <span>
-       <xsl:value-of select="."/>
+       <xsl:value-of select="@name"/>
       </span>
      </legend>
-     <xsl:value-of select="@effect"/>
+     <xsl:value-of select="."/>
     </fieldset>
    </td>
   </tr>

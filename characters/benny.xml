@@ -40,8 +40,12 @@
   <skill rating="1" name="Stamina"/>
  </skills>
  <stunts>
-  <stunt effect="TODO">Programmable</stunt>
-  <stunt effect="TODO">Have a thing</stunt>
+  <stunt name="Programmable">
+    TODO
+  </stunt>
+  <stunt name="Have a thing">
+    TODO
+  </stunt>
  </stunts>
  <consequences>
   <consequence severity="mild">mild one</consequence>
