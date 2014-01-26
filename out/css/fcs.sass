@@ -13,21 +13,23 @@ fieldset.phase
         font: normal small-caps 1.15em bolder
 
 table
+  $height: 2.3em
+  $top_padding: 0.6em
   &#skills tr
     th.rating
       border: 0px
       color: #aaa
       font-weight: bolder
-      height: 2.3em
+      height: $height
       padding-right: 0.75em
-      padding-top: 0.6em
+      padding-top: $top_padding
       text-align: right
       width: 12.5%
     td
       border: 3px solid black
       font: oblique small-caps 1em bold
-      height: 2.3em
-      padding-top: 0.6em
+      height: $height
+      padding-top: $top_padding
       width: 17.5%
   &#stress td
-    padding: 0.4em
+    padding: $top_padding * 2.0 / 3.0
