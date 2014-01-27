@@ -1,4 +1,5 @@
 @import "borders"
+@import "colors"
 
 fieldset.phase
   margin-bottom: 0.3em
@@ -11,7 +12,7 @@ fieldset.phase
         font-size: 0.9em
         padding-top: 1.5em
       &.phase-title
-        color: #000
+        color: $phase_label_color
         font: normal small-caps 1.15em bolder
 
 table
@@ -20,7 +21,7 @@ table
   &#skills tr
     th.rating
       border: 0px
-      color: #aaa
+      color: $skill_rating_color
       font-weight: bolder
       height: $height
       padding-right: 0.75em
