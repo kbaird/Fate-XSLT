@@ -5,7 +5,7 @@
 @import "lists"
 
 body
-  color: #111
+  color: $body_color
   margin: 0.1em 0.4em
   padding: 0.2em
   font: 1em Montserrat, ubuntu, verdana, arial, helvetica, sans-serif
@@ -37,13 +37,13 @@ fieldset
     text-align: right
     height: 1.1em
     legend
-      color: #444
+      color: $consequence_legend_color
       +legend_font
   &.stunt
     font-style: oblique
     text-align: right
     legend
-      color: black
+      color: $stunt_legend_color
       +legend_font(1.5em)
       span
         top: 0.08em
@@ -78,10 +78,10 @@ table#stress td
   font-weight: 900
 
 .sectionheader
-  background-color: #000
+  background-color: $section_header_bg_color
   border-bottom-right-radius: 0.9em
   border-top-left-radius: 0.9em
-  color: #fff
+  color: $section_header_fg_color
   padding: 0.2em
   text-transform: uppercase
   vertical-align: text-top
