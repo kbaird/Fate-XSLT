@@ -1,17 +1,21 @@
 @import "borders"
 @import "colors"
 
+$conditions_align: left
+
 dl.conditions
+  $dl_conditions_float: left
+  $dl_conditions_margin: 0
   $dl_conditions_padding: 0
   overflow: hidden
-  margin: 0
+  margin: $dl_conditions_margin
   padding: $dl_conditions_padding
   width: 100%
   dd
     &.box
       +standard_border
-      float: left
-      margin: 0
+      float: $dl_conditions_float
+      margin: $dl_conditions_margin
       margin-top: -1.2em
       padding: $dl_conditions_padding
       width: 3em
@@ -20,13 +24,13 @@ dl.conditions
       color: $label_color
   dt
     border: 0
-    float: left
+    float: $dl_conditions_float
     font-size: 1.25em
     height: 1em
-    margin: 0
+    margin: $dl_conditions_margin
     margin-left: 2.95em
     padding: $dl_conditions_padding
-    text-align: left
+    text-align: $conditions_align
     width: 85%
     &.severe
       margin-left: 5.7em
@@ -35,8 +39,8 @@ table#conditions p
   font-size: 0.85em
   font-style: italic
   margin-right: 2.5em
-  text-align: left
+  text-align: $conditions_align
 
 th.condition-type
   font: small-caps 1.4em bold
-  text-align: left
+  text-align: $conditions_align
