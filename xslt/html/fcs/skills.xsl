@@ -4,30 +4,43 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="skills">
+  <xsl:variable name="useSkillModes">
+   <xsl:choose>
+    <xsl:when test="/character/hacks/@skill-modes='true'">true</xsl:when>
+    <xsl:otherwise>false</xsl:otherwise>
+   </xsl:choose>
+  </xsl:variable>
   <table id="skills">
-   <tr>
-    <th colspan="6" class="sectionheader">Skills</th>
-   </tr>
-   <xsl:call-template name="skill">
-    <xsl:with-param name="numericRating">5</xsl:with-param>
-    <xsl:with-param name="textRating">Superb</xsl:with-param>
-   </xsl:call-template>
-   <xsl:call-template name="skill">
-    <xsl:with-param name="numericRating">4</xsl:with-param>
-    <xsl:with-param name="textRating">Great</xsl:with-param>
-   </xsl:call-template>
-   <xsl:call-template name="skill">
-    <xsl:with-param name="numericRating">3</xsl:with-param>
-    <xsl:with-param name="textRating">Good</xsl:with-param>
-   </xsl:call-template>
-   <xsl:call-template name="skill">
-    <xsl:with-param name="numericRating">2</xsl:with-param>
-    <xsl:with-param name="textRating">Fair</xsl:with-param>
-   </xsl:call-template>
-   <xsl:call-template name="skill">
-    <xsl:with-param name="numericRating">1</xsl:with-param>
-    <xsl:with-param name="textRating">Average</xsl:with-param>
-   </xsl:call-template>
+   <xsl:choose>
+    <xsl:when test="$useSkillModes='true'">
+     <p>Skill Modes</p>
+    </xsl:when>
+    <xsl:otherwise>
+     <tr>
+      <th colspan="6" class="sectionheader">Skills</th>
+     </tr>
+     <xsl:call-template name="skill">
+      <xsl:with-param name="numericRating">5</xsl:with-param>
+      <xsl:with-param name="textRating">Superb</xsl:with-param>
+     </xsl:call-template>
+     <xsl:call-template name="skill">
+      <xsl:with-param name="numericRating">4</xsl:with-param>
+      <xsl:with-param name="textRating">Great</xsl:with-param>
+     </xsl:call-template>
+     <xsl:call-template name="skill">
+      <xsl:with-param name="numericRating">3</xsl:with-param>
+      <xsl:with-param name="textRating">Good</xsl:with-param>
+     </xsl:call-template>
+     <xsl:call-template name="skill">
+      <xsl:with-param name="numericRating">2</xsl:with-param>
+      <xsl:with-param name="textRating">Fair</xsl:with-param>
+     </xsl:call-template>
+     <xsl:call-template name="skill">
+      <xsl:with-param name="numericRating">1</xsl:with-param>
+      <xsl:with-param name="textRating">Average</xsl:with-param>
+     </xsl:call-template>
+    </xsl:otherwise>
+   </xsl:choose>
   </table>
  </xsl:template>
  <xsl:template name="skill">
