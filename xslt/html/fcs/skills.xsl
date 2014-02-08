@@ -20,19 +20,19 @@
       <th colspan="6" class="sectionheader">Skills</th>
      </tr>
      <xsl:call-template name="skill">
-      <xsl:with-param name="rating">5</xsl:with-param>
+      <xsl:with-param name="rating" select="5"/>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="rating">4</xsl:with-param>
+      <xsl:with-param name="rating" select="4"/>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="rating">3</xsl:with-param>
+      <xsl:with-param name="rating" select="3"/>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="rating">2</xsl:with-param>
+      <xsl:with-param name="rating" select="2"/>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="rating">1</xsl:with-param>
+      <xsl:with-param name="rating" select="1"/>
      </xsl:call-template>
     </xsl:otherwise>
    </xsl:choose>
