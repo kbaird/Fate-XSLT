@@ -20,37 +20,36 @@
       <th colspan="6" class="sectionheader">Skills</th>
      </tr>
      <xsl:call-template name="skill">
-      <xsl:with-param name="numericRating">5</xsl:with-param>
-      <xsl:with-param name="textRating">Superb</xsl:with-param>
+      <xsl:with-param name="rating">5</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="numericRating">4</xsl:with-param>
-      <xsl:with-param name="textRating">Great</xsl:with-param>
+      <xsl:with-param name="rating">4</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="numericRating">3</xsl:with-param>
-      <xsl:with-param name="textRating">Good</xsl:with-param>
+      <xsl:with-param name="rating">3</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="numericRating">2</xsl:with-param>
-      <xsl:with-param name="textRating">Fair</xsl:with-param>
+      <xsl:with-param name="rating">2</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="skill">
-      <xsl:with-param name="numericRating">1</xsl:with-param>
-      <xsl:with-param name="textRating">Average</xsl:with-param>
+      <xsl:with-param name="rating">1</xsl:with-param>
      </xsl:call-template>
     </xsl:otherwise>
    </xsl:choose>
   </table>
  </xsl:template>
  <xsl:template name="skill">
-  <xsl:param name="numericRating"/>
-  <xsl:param name="textRating"/>
-  <xsl:if test="/character/skills/skill[@rating=$numericRating]">
+  <xsl:param name="rating"/>
+  <xsl:variable name="textRating">
+   <xsl:call-template name="name-of-rating">
+    <xsl:with-param name="rating" select="$rating"/>
+   </xsl:call-template>
+  </xsl:variable>
+  <xsl:if test="/character/skills/skill[@rating=$rating]">
    <tr>
     <th class="rating">
-     <xsl:value-of select="$textRating"/> (+<xsl:value-of select="$numericRating"/>)</th>
-    <xsl:for-each select="/character/skills/skill[@rating=$numericRating]">
+     <xsl:value-of select="$textRating"/> (+<xsl:value-of select="$rating"/>)</th>
+    <xsl:for-each select="/character/skills/skill[@rating=$rating]">
      <td>
       <xsl:value-of select="@name"/>
      </td>
