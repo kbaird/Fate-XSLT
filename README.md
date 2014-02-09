@@ -25,9 +25,9 @@ Validation is also available:
 
 Various rule variants are supported, via boolean attributes of the <hacks> element.
 Currently supported variants include
-- Conditions  (from Fate System Toolkit)
-- Corruption  (from Fate Freeport Companion)
-- Skill Modes (from Fate System Toolkit)
+- [Conditions](http://fate-srd.com/fate-system-toolkit/conditions) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
+- Corruption (from [Fate Freeport Companion](http://www.evilhat.com/home/fate-freeport-companionprinted-by-the-elves/))
+- [Skill Modes](http://fate-srd.com/fate-system-toolkit/skill-modes) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 
 Other useful URLs:
 - http://www.faterpg.com/
