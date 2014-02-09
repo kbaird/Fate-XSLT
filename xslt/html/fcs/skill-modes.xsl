@@ -37,20 +37,24 @@
     not(/character/skills/mode[@rating=$modeRating+1]/skill[@name=$skillName]) and
     not(/character/skills/mode[@rating=$modeRating+2]/skill[@name=$skillName])
   ">
-   <xsl:value-of select="$skillName"/>
+   <xsl:element name="li">
+    <xsl:value-of select="$skillName"/>
+   </xsl:element>
   </xsl:if>
  </xsl:template>
 
  <xsl:template name="skill-mode-tds">
   <xsl:param name="modeRating"/>
   <xsl:param name="skillRating"/>
-  <xsl:for-each select="/character/skills/mode[@rating=$modeRating]/skill">
-   <xsl:call-template name="skill-mode-td">
-    <xsl:with-param name="modeRating"  select="$modeRating"/>
-    <xsl:with-param name="skillRating" select="$skillRating"/>
-    <xsl:with-param name="skillName"   select="@name"/>
-   </xsl:call-template>
-  </xsl:for-each>
+  <xsl:element name="ul">
+   <xsl:for-each select="/character/skills/mode[@rating=$modeRating]/skill">
+    <xsl:call-template name="skill-mode-td">
+     <xsl:with-param name="modeRating"  select="$modeRating"/>
+     <xsl:with-param name="skillRating" select="$skillRating"/>
+     <xsl:with-param name="skillName"   select="@name"/>
+    </xsl:call-template>
+   </xsl:for-each>
+  </xsl:element>
  </xsl:template>
 
  <xsl:template name="skill-mode-th">
