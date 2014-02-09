@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
 
- <xsl:template name="skill-mode-tds">
+ <xsl:template name="skill-mode-td">
   <xsl:param name="modeRating"/>
   <xsl:param name="skillRating"/>
   <xsl:variable name="addRating">
@@ -12,7 +12,7 @@
   </xsl:variable>
   <xsl:choose>
    <xsl:when test="$addRating=0">
-    <xsl:for-each select="/character/skills/mode[@rating=$modeRating]/skill[not(@add)]">
+    <xsl:for-each select="mode[@rating=$modeRating]/skill[not(@add)]">
      <xsl:value-of select="@name"/>
      <xsl:if test="position() != last()">
       <xsl:text>,</xsl:text>
@@ -20,7 +20,7 @@
     </xsl:for-each>
    </xsl:when>
    <xsl:otherwise>
-    <xsl:for-each select="/character/skills/mode[@rating=$modeRating]/skill[@add=$addRating]">
+    <xsl:for-each select="mode[@rating=$modeRating]/skill[@add=$addRating]">
      <xsl:value-of select="@name"/>
      <xsl:if test="position() != last()">
       <xsl:text>,</xsl:text>
@@ -28,6 +28,17 @@
     </xsl:for-each>
    </xsl:otherwise>
   </xsl:choose>
+ </xsl:template>
+
+ <xsl:template name="skill-mode-tds">
+  <xsl:param name="modeRating"/>
+  <xsl:param name="skillRating"/>
+  <xsl:for-each select="/character/skills">
+   <xsl:call-template name="skill-mode-td">
+    <xsl:with-param name="modeRating"  select="$modeRating"/>
+    <xsl:with-param name="skillRating" select="$skillRating"/>
+   </xsl:call-template>
+  </xsl:for-each>
  </xsl:template>
 
  <xsl:template name="skill-mode-th">
