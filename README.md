@@ -23,6 +23,12 @@ Validation is also available:
 
     ./validate.sh some_file.dtd some_character_file.xml other_character_file.xml
 
+Various rule variants are supported, via boolean attributes of the <hacks> element.
+Currently supported variants include
+- [Conditions](http://fate-srd.com/fate-system-toolkit/conditions) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
+- Corruption (from [Fate Freeport Companion](http://www.evilhat.com/home/fate-freeport-companionprinted-by-the-elves/))
+- [Skill Modes](http://fate-srd.com/fate-system-toolkit/skill-modes) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
+
 Other useful URLs:
 - http://www.faterpg.com/
 - http://fate-srd.com/

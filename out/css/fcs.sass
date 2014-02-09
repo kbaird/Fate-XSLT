@@ -18,15 +18,21 @@ fieldset.phase
 table
   $height: 2.3em
   $top_padding: 0.6em
+  =shared_th_rating
+    border: 0px
+    color: $skill_rating_color
+    font-weight: bolder
+    height: $height
+    padding-right: 0.75em
+    padding-top: $top_padding
+    text-align: right
+
   &#skills tr
+    th.mode-rating
+      +shared_th_rating
+      width: 4%
     th.rating
-      border: 0px
-      color: $skill_rating_color
-      font-weight: bolder
-      height: $height
-      padding-right: 0.75em
-      padding-top: $top_padding
-      text-align: right
+      +shared_th_rating
       width: 12.5%
     td
       +standard_border
@@ -34,5 +40,10 @@ table
       height: $height
       padding-top: $top_padding
       width: 17.5%
+      ul
+        li
+          display: inline
+        li + li:before
+          content: ", "
   &#stress td
     padding: $top_padding * 2.0 / 3.0

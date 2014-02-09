@@ -7,7 +7,7 @@
   <html>
    <xsl:call-template name="head">
     <xsl:with-param name="baseCSS">fcs</xsl:with-param>
-    <xsl:with-param name="additionalCSS">sotc</xsl:with-param>
+    <xsl:with-param name="moreCSS">sotc</xsl:with-param>
    </xsl:call-template>
    <body>
     <h1>

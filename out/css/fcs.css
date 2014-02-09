@@ -2,15 +2,24 @@ fieldset.phase {
   margin-bottom: 0.3em;
   padding-top: 3.4em;
   text-align: left; }
-fieldset.phase legend.label {
-  height: 2em; }
-fieldset.phase legend.label span.aspects {
-  font-size: 0.9em;
-  padding-top: 1.5em; }
-fieldset.phase legend.label span.phase-title {
-  color: black;
-  font: normal small-caps 1.15em bolder; }
+  fieldset.phase legend.label {
+    height: 2em; }
+    fieldset.phase legend.label span.aspects {
+      font-size: 0.9em;
+      padding-top: 1.5em; }
+    fieldset.phase legend.label span.phase-title {
+      color: black;
+      font: normal small-caps 1.15em bolder; }
 
+table#skills tr th.mode-rating {
+  border: 0px;
+  color: #aaaaaa;
+  font-weight: bolder;
+  height: 2.3em;
+  padding-right: 0.75em;
+  padding-top: 0.6em;
+  text-align: right;
+  width: 4%; }
 table#skills tr th.rating {
   border: 0px;
   color: #aaaaaa;
@@ -26,5 +35,9 @@ table#skills tr td {
   height: 2.3em;
   padding-top: 0.6em;
   width: 17.5%; }
+  table#skills tr td ul li {
+    display: inline; }
+  table#skills tr td ul li + li:before {
+    content: ", "; }
 table#stress td {
   padding: 0.4em; }

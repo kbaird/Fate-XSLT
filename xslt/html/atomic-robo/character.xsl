@@ -10,6 +10,7 @@
     <xsl:otherwise>false</xsl:otherwise>
    </xsl:choose>
   </xsl:variable>
+  <xsl:variable name="useSkillModes">true</xsl:variable>
   <html>
    <xsl:call-template name="head">
     <xsl:with-param name="baseCSS">fcs</xsl:with-param>
@@ -51,10 +52,7 @@
     <hr />
     <table>
      <tr>
-      <td width="40%">
-       <xsl:apply-templates select="extras"/>
-      </td>
-      <td width="60%">
+      <td width="100%">
        <xsl:apply-templates select="stunts"/>
       </td>
      </tr>
@@ -77,9 +75,8 @@
       </td>
      </tr>
     </table>
-    <xsl:apply-templates select="phase-trio"/>
     <xsl:apply-templates select="notes"/>
-    <xsl:call-template name="copyright"/>
+    <xsl:call-template name="atomic-robo-copyright"/>
    </body>
   </html>
  </xsl:template>

@@ -1,19 +1,18 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, extras, stunts, consequences?, hacks?, phase-trio, notes?)>
+<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, stunts, consequences?, hacks?, notes?)>
 
-  <!ELEMENT id (charname, playername, description)>
+  <!ELEMENT id (charname, playername, affiliation)>
     <!ELEMENT charname (#PCDATA)>
     <!ELEMENT playername (#PCDATA)>
       <!ATTLIST charname nickname CDATA #IMPLIED>
-    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT affiliation (#PCDATA)>
 
     <!ELEMENT refresh (#PCDATA)>
     <!ELEMENT current-fate-points (#PCDATA)>
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (high_concept|trouble) #IMPLIED>
-      <!ATTLIST aspect phase-num CDATA #IMPLIED>
+      <!ATTLIST aspect type (concept|science_mode|banter_mode|action_mode|omega) #REQUIRED>
 
     <!ELEMENT skills (mode*, skill*)>
       <!ELEMENT mode (skill*)>
@@ -23,9 +22,6 @@
       <!ATTLIST skill name   CDATA #REQUIRED>
       <!ATTLIST skill rating CDATA #IMPLIED>
       <!ATTLIST skill add    CDATA #IMPLIED>
-
-    <!ELEMENT extras (extra*)>
-      <!ELEMENT extra (#PCDATA)>
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
@@ -40,10 +36,5 @@
       <!ATTLIST hacks conditions  (true|false) #IMPLIED> <!-- Fate System Toolkit     -->
       <!ATTLIST hacks corruption  (true|false) #IMPLIED> <!-- Fate Freeport Companion -->
       <!ATTLIST hacks skill-modes (true|false) #IMPLIED> <!-- Fate System Toolkit     -->
-
-    <!ELEMENT phase-trio (phase*)>
-      <!ELEMENT phase (events*)>
-        <!ATTLIST phase num CDATA #REQUIRED>
-        <!ELEMENT events (#PCDATA)>
 
     <!ELEMENT notes (#PCDATA)>

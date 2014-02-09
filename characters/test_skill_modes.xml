@@ -1,0 +1,74 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../xslt/fcs_html.xsl"?>
+<!DOCTYPE fate-core SYSTEM "../fcs.dtd">
+<character>
+ <id>
+  <charname>Zird the Arcane</charname>
+  <playername>sample FATE Core character</playername>
+  <description>A sharp-featured scholar with a dark triangular beard.</description>
+ </id>
+ <refresh>2</refresh>
+ <current-fate-points>2</current-fate-points>
+ <aspects>
+  <aspect type="high_concept">Wizard for Hire</aspect>
+  <aspect type="trouble">Rivals in the Collegia Arcana</aspect>
+  <aspect phase-num="1">If I Haven't Been There, I've Read About It</aspect>
+  <aspect phase-num="2">Not The Face!</aspect>
+  <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
+ </aspects>
+ <skills>
+  <mode rating="3" name="Thievery">
+   <!-- FIXME:
+    Think about mode option that includes a file name so the specific skills
+    don't have to be repeated here.
+   -->
+   <skill name="Athletics"/>
+   <skill name="Burglary"/>
+   <skill name="Deceit"/>
+   <skill name="Notice"/>
+   <!-- FIXME:
+    @add is not consistent with either the # of points required for improvement
+    or the "trained", "focused", "specialized" terminology.
+   -->
+   <skill name="Stealth" add="2"/>
+  </mode>
+  <mode rating="2" name="Talk">
+   <skill name="Contacts" add="1"/>
+   <skill name="Deceit"/>
+   <skill name="Empathy"/>
+   <skill name="Rapport"/>
+   <skill name="Will"/>
+  </mode>
+  <mode rating="1" name="Battle">
+   <skill name="Athletics"/>
+   <skill name="Intimidation"/>
+   <!-- FIXME:
+    @add is not consistent with either the # of points required for improvement
+    or the "trained", "focused", "specialized" terminology.
+   -->
+   <skill name="Melee" add="2"/>
+   <skill name="Missile"/>
+   <skill name="Physique"/>
+  </mode>
+ </skills>
+ <extras>
+  <extra>Collegia Arcana Mage</extra>
+ </extras>
+ <stunts>
+  <stunt name="Scholar, Healer">
+    Can make Physical Recovery attempts w/Lore
+  </stunt>
+ </stunts>
+ <hacks conditions="true" skill-modes="true" />
+ <phase-trio>
+  <phase num="1">
+   <events>Some events</events>
+  </phase>
+  <phase num="2">
+   <events>Some events</events>
+  </phase>
+  <phase num="3">
+   <events>Some events</events>
+  </phase>
+ </phase-trio>
+</character>
