@@ -26,14 +26,18 @@
  <xsl:template name="skill-mode-td">
   <xsl:param name="modeRating"/>
   <xsl:param name="skillRating"/>
+  <xsl:param name="skillName"/>
   <xsl:variable name="actualRating">
    <xsl:call-template name="skill-rating-by-name">
-    <xsl:with-param name="skillName"  select="@name"/>
+    <xsl:with-param name="skillName"  select="$skillName"/>
     <xsl:with-param name="modeRating" select="$modeRating"/>
    </xsl:call-template>
   </xsl:variable>
-  <xsl:if test="$actualRating = $skillRating">
-   <xsl:value-of select="@name"/>
+  <xsl:if test="($actualRating = $skillRating) and
+    not(/character/skills/mode[@rating=$modeRating+1]/skill[@name=$skillName]) and
+    not(/character/skills/mode[@rating=$modeRating+2]/skill[@name=$skillName])
+  ">
+   <xsl:value-of select="$skillName"/>
   </xsl:if>
  </xsl:template>
 
@@ -44,6 +48,7 @@
    <xsl:call-template name="skill-mode-td">
     <xsl:with-param name="modeRating"  select="$modeRating"/>
     <xsl:with-param name="skillRating" select="$skillRating"/>
+    <xsl:with-param name="skillName"   select="@name"/>
    </xsl:call-template>
   </xsl:for-each>
  </xsl:template>
