@@ -18,10 +18,6 @@
  </aspects>
  <skills>
   <mode rating="3" name="Thievery">
-   <!-- FIXME:
-    Think about mode option that includes a file name so the specific skills
-    don't have to be repeated here.
-   -->
    <skill name="Athletics"/>
    <skill name="Burglary"/>
    <skill name="Deceit"/>
@@ -42,10 +38,6 @@
   <mode rating="1" name="Battle">
    <skill name="Athletics"/>
    <skill name="Intimidation"/>
-   <!-- FIXME:
-    @add is not consistent with either the # of points required for improvement
-    or the "trained", "focused", "specialized" terminology.
-   -->
    <skill name="Melee" add="2"/>
    <skill name="Missile"/>
    <skill name="Physique"/>
