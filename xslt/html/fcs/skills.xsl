@@ -42,8 +42,8 @@
         <xsl:with-param name="skillRating" select="5"/>
        </xsl:call-template>
       </td>
-      <td>x</td>
-      <td>x</td>
+      <td/>
+      <td/>
      </tr>
      <tr>
       <th>+4</th>
@@ -59,7 +59,7 @@
         <xsl:with-param name="skillRating" select="4"/>
        </xsl:call-template>
       </td>
-      <td>x</td>
+      <td/>
      </tr>
      <tr>
       <th>+3</th>
@@ -84,7 +84,7 @@
      </tr>
      <tr>
       <th>+2</th>
-      <td>x</td>
+      <td/>
       <td>
        <xsl:call-template name="skill-mode-tds">
         <xsl:with-param name="modeRating"  select="2"/>
@@ -100,8 +100,8 @@
      </tr>
      <tr>
       <th>+1</th>
-      <td>x</td>
-      <td>x</td>
+      <td/>
+      <td/>
       <td>
        <xsl:call-template name="skill-mode-tds">
         <xsl:with-param name="modeRating"  select="1"/>
