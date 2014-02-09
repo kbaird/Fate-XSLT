@@ -6,7 +6,10 @@
 
  <xsl:template name="skill-mode-tds">
   <xsl:param name="modeRating"/>
-  <xsl:param name="addRating"/>
+  <xsl:param name="skillRating"/>
+  <xsl:variable name="addRating">
+   <xsl:value-of select="$skillRating - $modeRating"/>
+  </xsl:variable>
   <xsl:choose>
    <xsl:when test="$addRating=0">
     <xsl:for-each select="/character/skills/mode[@rating=$modeRating]/skill[not(@add)]">
@@ -71,8 +74,8 @@
       <th>+5</th>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="3"/>
-        <xsl:with-param name="addRating"  select="2"/>
+        <xsl:with-param name="modeRating"  select="3"/>
+        <xsl:with-param name="skillRating" select="5"/>
        </xsl:call-template>
       </td>
       <td>x</td>
@@ -82,14 +85,14 @@
       <th>+4</th>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="3"/>
-        <xsl:with-param name="addRating"  select="1"/>
+        <xsl:with-param name="modeRating"  select="3"/>
+        <xsl:with-param name="skillRating" select="4"/>
        </xsl:call-template>
       </td>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="2"/>
-        <xsl:with-param name="addRating"  select="2"/>
+        <xsl:with-param name="modeRating"  select="2"/>
+        <xsl:with-param name="skillRating" select="4"/>
        </xsl:call-template>
       </td>
       <td>x</td>
@@ -98,20 +101,20 @@
       <th>+3</th>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="3"/>
-        <xsl:with-param name="addRating"  select="0"/>
+        <xsl:with-param name="modeRating"  select="3"/>
+        <xsl:with-param name="skillRating" select="3"/>
        </xsl:call-template>
       </td>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="2"/>
-        <xsl:with-param name="addRating"  select="1"/>
+        <xsl:with-param name="modeRating"  select="2"/>
+        <xsl:with-param name="skillRating" select="3"/>
        </xsl:call-template>
       </td>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="1"/>
-        <xsl:with-param name="addRating"  select="2"/>
+        <xsl:with-param name="modeRating"  select="1"/>
+        <xsl:with-param name="skillRating" select="3"/>
        </xsl:call-template>
       </td>
      </tr>
@@ -120,14 +123,14 @@
       <td>x</td>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="2"/>
-        <xsl:with-param name="addRating"  select="0"/>
+        <xsl:with-param name="modeRating"  select="2"/>
+        <xsl:with-param name="skillRating" select="2"/>
        </xsl:call-template>
       </td>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="1"/>
-        <xsl:with-param name="addRating"  select="1"/>
+        <xsl:with-param name="modeRating"  select="1"/>
+        <xsl:with-param name="skillRating" select="2"/>
        </xsl:call-template>
       </td>
      </tr>
@@ -137,8 +140,8 @@
       <td>x</td>
       <td>
        <xsl:call-template name="skill-mode-tds">
-        <xsl:with-param name="modeRating" select="1"/>
-        <xsl:with-param name="addRating"  select="0"/>
+        <xsl:with-param name="modeRating"  select="1"/>
+        <xsl:with-param name="skillRating" select="1"/>
        </xsl:call-template>
       </td>
      </tr>
