@@ -15,10 +15,14 @@
       <!ATTLIST aspect type (high_concept|trouble) #IMPLIED>
       <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
-    <!ELEMENT skills (skill*)>
+    <!ELEMENT skills (mode*, skill*)>
+      <!ELEMENT mode (skill*)>
+      <!ATTLIST mode name   CDATA #REQUIRED>
+      <!ATTLIST mode rating CDATA #REQUIRED>
       <!ELEMENT skill (#PCDATA)>
       <!ATTLIST skill name   CDATA #REQUIRED>
-      <!ATTLIST skill rating CDATA #REQUIRED>
+      <!ATTLIST skill rating CDATA #IMPLIED>
+      <!ATTLIST skill add    CDATA #IMPLIED>
 
     <!ELEMENT extras (extra*)>
       <!ELEMENT extra (#PCDATA)>
@@ -33,8 +37,9 @@
         <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
 
     <!ELEMENT hacks (#PCDATA)>
-      <!ATTLIST hacks conditions (true|false) #IMPLIED> <!-- Fate System Toolkit -->
-      <!ATTLIST hacks corruption (true|false) #IMPLIED> <!-- Fate Freeport Companion -->
+      <!ATTLIST hacks conditions  (true|false) #IMPLIED> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks corruption  (true|false) #IMPLIED> <!-- Fate Freeport Companion -->
+      <!ATTLIST hacks skill-modes (true|false) #IMPLIED> <!-- Fate System Toolkit     -->
 
     <!ELEMENT phase-trio (phase*)>
       <!ELEMENT phase (events*)>
