@@ -37,5 +37,7 @@ table#skills tr td {
   width: 17.5%; }
   table#skills tr td ul li {
     display: inline; }
+  table#skills tr td ul li + li:before {
+    content: ", "; }
 table#stress td {
   padding: 0.4em; }
