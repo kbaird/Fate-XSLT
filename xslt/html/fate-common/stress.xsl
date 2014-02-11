@@ -40,6 +40,9 @@
      <xsl:value-of select="$baseCount"/>
     </xsl:with-param>
    </xsl:call-template>
+   <!--
+    FIXME: Make this template aware of skills via modes
+   -->
    <xsl:if test="$baseCount &lt; $maxCount">
     <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 0">
      <td>
