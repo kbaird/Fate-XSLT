@@ -15,7 +15,7 @@
   <table id="skills">
    <xsl:choose>
     <xsl:when test="$useSkillModes='true'">
-     <tr><th colspan="4" class="sectionheader">Skills</th></tr>
+     <tr><th colspan="4" class="sectionheader">Modes and Skills</th></tr>
      <tr>
       <th/>
       <th>
