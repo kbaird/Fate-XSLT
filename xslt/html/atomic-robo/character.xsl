@@ -45,7 +45,11 @@
        <xsl:apply-templates select="aspects"/>
       </td>
       <td width="60%">
-       <xsl:apply-templates select="skills"/>
+       <xsl:apply-templates select="skills">
+        <xsl:with-param name="useSkillModes">
+         <xsl:value-of select="$useSkillModes"/>
+        </xsl:with-param>
+       </xsl:apply-templates>
       </td>
      </tr>
     </table>

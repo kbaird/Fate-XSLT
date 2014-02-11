@@ -38,6 +38,9 @@
       <td width="60%">
        <xsl:apply-templates select="skills">
         <xsl:with-param name="rootElement">diaspora</xsl:with-param>
+        <xsl:with-param name="useSkillModes">
+         <xsl:value-of select="false"/>
+        </xsl:with-param>
        </xsl:apply-templates>
       </td>
      </tr>

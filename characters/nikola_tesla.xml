@@ -45,7 +45,6 @@
     Master of Lightning (invoke once for free, compel at two fate points instead of one)
   </stunt>
  </stunts>
- <hacks skill-modes="true"/>
  <consequences>
   <consequence severity="mild">mild one</consequence>
  </consequences>
