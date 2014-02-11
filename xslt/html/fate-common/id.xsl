@@ -31,12 +31,22 @@
    </tr>
    <tr>
     <td>
-     <fieldset id="description">
-      <legend class="label">
-       <span>Description</span>
-      </legend>
-      <xsl:value-of select="description"/>
-     </fieldset>
+     <xsl:if test="affiliation">
+      <fieldset id="description">
+       <legend class="label">
+        <span>Affiliation</span>
+       </legend>
+       <xsl:value-of select="affiliation"/>
+      </fieldset>
+     </xsl:if>
+     <xsl:if test="description">
+      <fieldset id="description">
+       <legend class="label">
+        <span>Description</span>
+       </legend>
+       <xsl:value-of select="description"/>
+      </fieldset>
+     </xsl:if>
     </td>
    </tr>
   </table>
