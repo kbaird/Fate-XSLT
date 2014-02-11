@@ -6,12 +6,7 @@
  <xsl:include href="skill-modes.xsl"/>
 
  <xsl:template match="skills">
-  <xsl:variable name="useSkillModes">
-   <xsl:choose>
-    <xsl:when test="/character/hacks/@skill-modes='true'">true</xsl:when>
-    <xsl:otherwise>false</xsl:otherwise>
-   </xsl:choose>
-  </xsl:variable>
+  <xsl:param name="useSkillModes"/>
   <table id="skills">
    <xsl:choose>
     <xsl:when test="$useSkillModes='true'">

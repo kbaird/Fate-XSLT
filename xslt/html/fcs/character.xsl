@@ -16,6 +16,12 @@
     <xsl:otherwise>false</xsl:otherwise>
    </xsl:choose>
   </xsl:variable>
+  <xsl:variable name="useSkillModes">
+   <xsl:choose>
+    <xsl:when test="hacks/@skill-modes='true'">true</xsl:when>
+    <xsl:otherwise>false</xsl:otherwise>
+   </xsl:choose>
+  </xsl:variable>
   <html>
    <xsl:call-template name="head">
     <xsl:with-param name="baseCSS">fcs</xsl:with-param>
@@ -52,7 +58,11 @@
        <xsl:apply-templates select="aspects"/>
       </td>
       <td width="60%">
-       <xsl:apply-templates select="skills"/>
+       <xsl:apply-templates select="skills">
+        <xsl:with-param name="useSkillModes">
+         <xsl:value-of select="$useSkillModes"/>
+        </xsl:with-param>
+       </xsl:apply-templates>
       </td>
      </tr>
     </table>
