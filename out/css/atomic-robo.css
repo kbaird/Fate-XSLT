@@ -3,3 +3,6 @@
 
 fieldset.aspect {
   padding-left: 8.5em; }
+
+table#skills tbody tr td {
+  text-align: left; }
