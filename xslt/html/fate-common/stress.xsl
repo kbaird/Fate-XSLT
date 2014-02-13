@@ -40,30 +40,46 @@
      <xsl:value-of select="$baseCount"/>
     </xsl:with-param>
    </xsl:call-template>
-   <!--
+   <xsl:call-template name="more-stress-boxes">
+    <xsl:with-param name="baseCount">
+     <xsl:value-of select="$baseCount"/>
+    </xsl:with-param>
+    <xsl:with-param name="maxCount">
+     <xsl:value-of select="$maxCount"/>
+    </xsl:with-param>
+    <xsl:with-param name="skillName">
+     <xsl:value-of select="$skillName"/>
+    </xsl:with-param>
+   </xsl:call-template>
+  </tr>
+ </xsl:template>
+ <xsl:template name="more-stress-boxes">
+  <xsl:param name="baseCount"/>
+  <xsl:param name="maxCount"/>
+  <xsl:param name="skillName"/>
+<!--
     FIXME: Make this template aware of skills via modes
    -->
-   <xsl:if test="$baseCount &lt; $maxCount">
-    <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 0">
-     <td>
-      <xsl:value-of select="$baseCount + 1"/>
-     </td>
-    </xsl:if>
+  <xsl:if test="$baseCount &lt; $maxCount">
+   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 0">
+    <td>
+     <xsl:value-of select="$baseCount + 1"/>
+    </td>
    </xsl:if>
-   <xsl:if test="$baseCount + 1 &lt; $maxCount">
-    <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 2">
-     <td>
-      <xsl:value-of select="$baseCount + 2"/>
-     </td>
-    </xsl:if>
+  </xsl:if>
+  <xsl:if test="$baseCount + 1 &lt; $maxCount">
+   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 2">
+    <td>
+     <xsl:value-of select="$baseCount + 2"/>
+    </td>
    </xsl:if>
-   <xsl:if test="$baseCount + 2 &lt; $maxCount">
-    <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 4">
-     <td>
-      <xsl:value-of select="$baseCount + 3"/>
-     </td>
-    </xsl:if>
+  </xsl:if>
+  <xsl:if test="$baseCount + 2 &lt; $maxCount">
+   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 4">
+    <td>
+     <xsl:value-of select="$baseCount + 3"/>
+    </td>
    </xsl:if>
-  </tr>
+  </xsl:if>
  </xsl:template>
 </xsl:stylesheet>
