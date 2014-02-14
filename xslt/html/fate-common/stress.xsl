@@ -3,6 +3,18 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   version="1.0">
  <xsl:output method="html"/>
+ <xsl:template name="stress-header">
+  <xsl:param name="headerName"/>
+  <xsl:param name="maxCount"/>
+  <tr>
+   <th class="sectionheader">
+    <xsl:attribute name="colspan">
+     <xsl:value-of select="$maxCount"/>
+    </xsl:attribute>
+    <xsl:value-of select="$headerName"/>
+   </th>
+  </tr>
+ </xsl:template>
  <xsl:template name="base-stress-boxes">
   <xsl:param name="current"/>
   <xsl:param name="max"/>
@@ -24,14 +36,10 @@
   <xsl:param name="headerName"/>
   <xsl:param name="skillName"/>
   <xsl:param name="useSkillModes"/>
-  <tr>
-   <th class="sectionheader">
-    <xsl:attribute name="colspan">
-     <xsl:value-of select="$maxCount"/>
-    </xsl:attribute>
-    <xsl:value-of select="$headerName"/>
-   </th>
-  </tr>
+  <xsl:call-template name="stress-header">
+   <xsl:with-param name="headerName" select="$headerName"/>
+   <xsl:with-param name="maxCount"   select="$maxCount"/>
+  </xsl:call-template>
   <tr>
    <xsl:call-template name="base-stress-boxes">
     <xsl:with-param name="current">1</xsl:with-param>
