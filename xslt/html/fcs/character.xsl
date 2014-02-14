@@ -85,6 +85,9 @@
         <xsl:with-param name="useCorruption">
          <xsl:value-of select="$useCorruption"/>
         </xsl:with-param>
+        <xsl:with-param name="useSkillModes">
+         <xsl:value-of select="$useSkillModes"/>
+        </xsl:with-param>
        </xsl:call-template>
       </td>
       <td width="65%">

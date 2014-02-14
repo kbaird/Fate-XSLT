@@ -5,6 +5,7 @@
  <xsl:output method="html"/>
  <xsl:include href="../fate-common/stress.xsl"/>
  <xsl:template name="stress">
+  <xsl:param name="useSkillModes"/>
   <xsl:variable name="stressBaseCount">
    <xsl:choose>
     <xsl:when test="/character/hacks/@stress-base-count">
@@ -20,6 +21,9 @@
     </xsl:with-param>
     <xsl:with-param name="headerName">Physical Stress (Physique)</xsl:with-param>
     <xsl:with-param name="skillName">Physique</xsl:with-param>
+    <xsl:with-param name="useSkillModes">
+     <xsl:value-of select="$useSkillModes"/>
+    </xsl:with-param>
    </xsl:call-template>
    <xsl:call-template name="generic-stress">
     <xsl:with-param name="baseCount">
@@ -27,6 +31,9 @@
     </xsl:with-param>
     <xsl:with-param name="headerName">Mental Stress (Will)</xsl:with-param>
     <xsl:with-param name="skillName">Will</xsl:with-param>
+    <xsl:with-param name="useSkillModes">
+     <xsl:value-of select="$useSkillModes"/>
+    </xsl:with-param>
    </xsl:call-template>
   </table>
  </xsl:template>

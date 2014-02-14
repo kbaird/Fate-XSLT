@@ -53,6 +53,10 @@
         <xsl:with-param name="skillName">
          <xsl:value-of select="$skillName"/>
         </xsl:with-param>
+        <xsl:with-param name="modeRating">
+         <!-- FIXME -->
+         <xsl:value-of select="0"/>
+        </xsl:with-param>
        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
