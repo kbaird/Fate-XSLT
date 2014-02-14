@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, stunts, consequences?, hacks?, notes?)>
+<!ELEMENT character (id, refresh, current-fate-points, aspects, skills, stress?, stunts, consequences?, hacks?, notes?)>
 
   <!ELEMENT id (charname, playername, affiliation)>
     <!ELEMENT charname (#PCDATA)>
@@ -22,6 +22,14 @@
       <!ATTLIST skill name   CDATA #REQUIRED>
       <!ATTLIST skill rating CDATA #IMPLIED>
       <!ATTLIST skill add    CDATA #IMPLIED>
+
+    <!ELEMENT stress (#PCDATA)>
+      <!--
+        If we use Skill Modes, it gets very difficult to calculate stress boxes.
+        It might be MVP to just declare the box count in the XML & be done w/it.
+      -->
+      <!ATTLIST stress physical CDATA #REQUIRED>
+      <!ATTLIST stress mental   CDATA #REQUIRED>
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
