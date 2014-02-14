@@ -6,9 +6,7 @@
  <xsl:template name="base-stress-boxes">
   <xsl:param name="current"/>
   <xsl:param name="max"/>
-  <td>
-   <xsl:value-of select="$current"/>
-  </td>
+  <td><xsl:value-of select="$current"/></td>
   <xsl:if test="$current &lt; $max">
    <xsl:call-template name="base-stress-boxes">
     <xsl:with-param name="current">
@@ -48,10 +46,22 @@
      <xsl:value-of select="$maxCount"/>
     </xsl:with-param>
     <xsl:with-param name="skillRating">
-<!--
-    FIXME: Make this variable aware of skills via modes
-   -->
-     <xsl:value-of select="/character/skills/skill[@name=$skillName]/@rating"/>
+     <!--
+     <xsl:choose>
+      <xsl:when test="$useSkillModes='true'">
+       <xsl:call-template name="skill-rating-by-name">
+        <xsl:with-param name="skillName">
+         <xsl:value-of select="$skillName"/>
+        </xsl:with-param>
+       </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+     -->
+       <xsl:value-of select="/character/skills/skill[@name=$skillName]/@rating"/>
+     <!--
+      </xsl:otherwise>
+     </xsl:choose>
+     -->
     </xsl:with-param>
    </xsl:call-template>
   </tr>
