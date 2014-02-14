@@ -47,8 +47,11 @@
     <xsl:with-param name="maxCount">
      <xsl:value-of select="$maxCount"/>
     </xsl:with-param>
-    <xsl:with-param name="skillName">
-     <xsl:value-of select="$skillName"/>
+    <xsl:with-param name="skillRating">
+<!--
+    FIXME: Make this variable aware of skills via modes
+   -->
+     <xsl:value-of select="/character/skills/skill[@name=$skillName]/@rating"/>
     </xsl:with-param>
    </xsl:call-template>
   </tr>
@@ -56,29 +59,20 @@
  <xsl:template name="more-stress-boxes">
   <xsl:param name="baseCount"/>
   <xsl:param name="maxCount"/>
-  <xsl:param name="skillName"/>
-<!--
-    FIXME: Make this template aware of skills via modes
-   -->
+  <xsl:param name="skillRating"/>
   <xsl:if test="$baseCount &lt; $maxCount">
-   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 0">
-    <td>
-     <xsl:value-of select="$baseCount + 1"/>
-    </td>
+   <xsl:if test="$skillRating &gt; 0">
+    <td><xsl:value-of select="$baseCount + 1"/></td>
    </xsl:if>
   </xsl:if>
   <xsl:if test="$baseCount + 1 &lt; $maxCount">
-   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 2">
-    <td>
-     <xsl:value-of select="$baseCount + 2"/>
-    </td>
+   <xsl:if test="$skillRating &gt; 2">
+    <td><xsl:value-of select="$baseCount + 2"/></td>
    </xsl:if>
   </xsl:if>
   <xsl:if test="$baseCount + 2 &lt; $maxCount">
-   <xsl:if test="/character/skills/skill[@name=$skillName]/@rating &gt; 4">
-    <td>
-     <xsl:value-of select="$baseCount + 3"/>
-    </td>
+   <xsl:if test="$skillRating &gt; 4">
+    <td><xsl:value-of select="$baseCount + 3"/></td>
    </xsl:if>
   </xsl:if>
  </xsl:template>
