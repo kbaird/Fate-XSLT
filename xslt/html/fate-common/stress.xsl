@@ -23,6 +23,7 @@
   <xsl:param name="maxCount" select="$baseCount + 2"/>
   <xsl:param name="headerName"/>
   <xsl:param name="skillName"/>
+  <xsl:param name="useSkillModes"/>
   <tr>
    <th class="sectionheader">
     <xsl:attribute name="colspan">
@@ -46,7 +47,6 @@
      <xsl:value-of select="$maxCount"/>
     </xsl:with-param>
     <xsl:with-param name="skillRating">
-     <!--
      <xsl:choose>
       <xsl:when test="$useSkillModes='true'">
        <xsl:call-template name="skill-rating-by-name">
@@ -56,12 +56,9 @@
        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
-     -->
        <xsl:value-of select="/character/skills/skill[@name=$skillName]/@rating"/>
-     <!--
       </xsl:otherwise>
      </xsl:choose>
-     -->
     </xsl:with-param>
    </xsl:call-template>
   </tr>
