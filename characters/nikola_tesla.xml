@@ -40,6 +40,7 @@
    <skill name="Vehicles"/>
   </mode>
  </skills>
+ <stress physical="2" mental="5"/>
  <stunts>
   <stunt name="Signature Aspect">
     Master of Lightning (invoke once for free, compel at two fate points instead of one)

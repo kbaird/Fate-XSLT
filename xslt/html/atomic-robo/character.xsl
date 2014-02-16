@@ -65,11 +65,7 @@
     <table>
      <tr>
       <td width="35%">
-       <xsl:call-template name="stress">
-        <xsl:with-param name="useSkillModes">
-         <xsl:value-of select="$useSkillModes"/>
-        </xsl:with-param>
-       </xsl:call-template>
+       <xsl:call-template name="atomic-robo-stress"/>
       </td>
       <td width="65%">
        <xsl:choose>
