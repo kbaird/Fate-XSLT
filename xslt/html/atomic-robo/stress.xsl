@@ -44,8 +44,11 @@
    <xsl:with-param name="headerName" select="$headerName"/>
    <xsl:with-param name="maxCount"   select="$maxCount"/>
   </xsl:call-template>
+  <tr>
   <xsl:call-template name="base-stress-boxes">
-   <xsl:with-param name="current" select="$count"/>
+   <xsl:with-param name="current" select="1"/>
+   <xsl:with-param name="max"     select="$count"/>
   </xsl:call-template>
+  </tr>
  </xsl:template>
 </xsl:stylesheet>
