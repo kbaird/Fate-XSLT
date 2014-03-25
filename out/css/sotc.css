@@ -9,11 +9,11 @@ fieldset.gadget legend.label {
   font: small-caps 1.3em bolder; }
 fieldset.phase legend.label {
   height: 2.8em; }
-fieldset.phase legend.label span#century-club-patron, fieldset.phase legend.label span#guest-starring, fieldset.phase legend.label span#guest-stars {
-  font-size: 0.9em;
-  padding-top: 1.5em; }
-fieldset.phase legend.label span.aspects {
-  padding-top: 2.7em; }
+  fieldset.phase legend.label span#century-club-patron, fieldset.phase legend.label span#guest-starring, fieldset.phase legend.label span#guest-stars {
+    font-size: 0.9em;
+    padding-top: 1.5em; }
+  fieldset.phase legend.label span.aspects {
+    padding-top: 2.7em; }
 
 .sectionheader {
   font-family: Adventure; }

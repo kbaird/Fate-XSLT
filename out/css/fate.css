@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   color: #111111;
   margin: 0.1em 0.4em;
@@ -26,8 +27,8 @@ fieldset.aspect {
   height: 1.1em;
   padding-top: 0.5em;
   vertical-align: text-bottom; }
-fieldset.aspect span.content {
-  margin-left: -10em; }
+  fieldset.aspect span.content {
+    margin-left: -10em; }
 fieldset#name {
   height: 1.1em;
   padding-top: 0.5em;
@@ -40,27 +41,29 @@ fieldset.consequence {
   padding-left: 8.6em;
   text-align: right;
   height: 1.1em; }
-fieldset.consequence legend {
-  color: #444444;
-  font: small-caps 1.3em bolder; }
+  fieldset.consequence legend {
+    color: #444444;
+    font: small-caps 1.3em bolder; }
 fieldset.stunt {
+  font-size: 0.85em;
   font-style: oblique;
-  text-align: right; }
-fieldset.stunt legend {
-  color: black;
-  font: small-caps 1.5em bolder; }
-fieldset.stunt legend span {
-  top: 0.08em; }
+  text-align: right;
+  padding-left: 15em; }
+  fieldset.stunt legend {
+    color: black;
+    font: small-caps 1.5em bolder; }
+    fieldset.stunt legend span {
+      top: 0.08em; }
 
 h1, hr {
   display: none; }
 
 legend {
   float: left; }
-legend span {
-  position: absolute;
-  top: 0.1em;
-  left: 0.4em; }
+  legend span {
+    position: absolute;
+    top: 0.1em;
+    left: 0.4em; }
 
 p#copyright {
   font-size: 0.8em;
@@ -89,6 +92,9 @@ table#stress td {
   padding: 0.2em;
   text-transform: uppercase;
   vertical-align: text-top; }
+
+.中文 {
+  font-family: "AR PL Ukai CN", Kaiti; }
 
 #fate {
   font: small-caps 5em bolder; }

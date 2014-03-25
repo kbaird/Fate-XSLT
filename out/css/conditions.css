@@ -3,28 +3,28 @@ dl.conditions {
   margin: 0;
   padding: 0;
   width: 100%; }
-dl.conditions dd.box {
-  border: 3px solid black;
-  float: left;
-  margin: 0;
-  margin-top: -1.2em;
-  padding: 0;
-  width: 3em; }
-dl.conditions dd.additional {
-  border: 3px solid #cccccc;
-  color: #666666; }
-dl.conditions dt {
-  border: 0;
-  float: left;
-  font-size: 1.25em;
-  height: 1em;
-  margin: 0;
-  margin-left: 2.95em;
-  padding: 0;
-  text-align: left;
-  width: 85%; }
-dl.conditions dt.severe {
-  margin-left: 5.7em; }
+  dl.conditions dd.box {
+    border: 3px solid black;
+    float: left;
+    margin: 0;
+    margin-top: -1.2em;
+    padding: 0;
+    width: 3em; }
+  dl.conditions dd.additional {
+    border: 3px solid #cccccc;
+    color: #666666; }
+  dl.conditions dt {
+    border: 0;
+    float: left;
+    font-size: 1.25em;
+    height: 1em;
+    margin: 0;
+    margin-left: 2.95em;
+    padding: 0;
+    text-align: left;
+    width: 85%; }
+    dl.conditions dt.severe {
+      margin-left: 5.7em; }
 
 table#conditions p {
   font-size: 0.85em;
