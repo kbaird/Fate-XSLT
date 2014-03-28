@@ -94,7 +94,8 @@ table#stress td {
   vertical-align: text-top; }
 
 .中文 {
-  font-family: "AR PL Ukai CN", Kaiti; }
+  font-family: "AR PL Ukai CN", Kaiti;
+  font-size: 1.25em; }
 
 #fate {
   font: small-caps 5em bolder; }
