@@ -12,7 +12,8 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (concept|science_mode|banter_mode|action_mode|omega) #REQUIRED>
+      <!ATTLIST aspect type (concept|mode|omega) #REQUIRED>
+      <!ATTLIST aspect mode_name CDATA           #IMPLIED>
 
     <!ELEMENT skills (mode*, skill*)>
       <!ELEMENT mode (skill*)>
