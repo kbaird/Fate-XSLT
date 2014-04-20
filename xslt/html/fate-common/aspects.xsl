@@ -29,21 +29,9 @@
         </legend>
         <xsl:value-of select="."/>
        </xsl:if>
-       <xsl:if test="@type = 'action_mode'">
+       <xsl:if test="@type = 'mode'">
         <legend class="label">
-         <span>Action Mode</span>
-        </legend>
-        <xsl:value-of select="."/>
-       </xsl:if>
-       <xsl:if test="@type = 'banter_mode'">
-        <legend class="label">
-         <span>Banter Mode</span>
-        </legend>
-        <xsl:value-of select="."/>
-       </xsl:if>
-       <xsl:if test="@type = 'science_mode'">
-        <legend class="label">
-         <span>Science Mode</span>
+         <span><xsl:value-of select="@mode_name"/> Mode</span>
         </legend>
         <xsl:value-of select="."/>
        </xsl:if>
