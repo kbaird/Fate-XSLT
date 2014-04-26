@@ -9,6 +9,7 @@
  </id>
  <refresh>2</refresh>
  <current-fate-points>2</current-fate-points>
+ <experience-points>0</experience-points>
  <aspects>
   <aspect type="concept">Eccentric Inventor of Beautiful Apparatuses</aspect>
   <aspect type="mode" mode_name="Science">Master of Lightning*</aspect>
@@ -49,4 +50,9 @@
  <consequences>
   <consequence severity="mild">mild one</consequence>
  </consequences>
+ <experiences>
+  <experience>experience1</experience>
+  <experience>experience2</experience>
+  <experience>experience3</experience>
+ </experiences>
 </character>
