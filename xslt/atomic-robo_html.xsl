@@ -6,6 +6,8 @@
  <xsl:include href="html/fcs/fcs_common.xsl"/>
  <xsl:include href="html/atomic-robo/character.xsl"/>
  <xsl:include href="html/atomic-robo/copyright.xsl"/>
+ <xsl:include href="html/atomic-robo/experience_points.xsl"/>
+ <xsl:include href="html/atomic-robo/experiences.xsl"/>
  <xsl:include href="html/atomic-robo/stress.xsl"/>
  <xsl:template match="/">
   <xsl:apply-templates select="character"/>
