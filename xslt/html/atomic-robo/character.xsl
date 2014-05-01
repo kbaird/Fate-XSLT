@@ -33,6 +33,7 @@
         <tr>
          <xsl:call-template name="refresh"/>
          <xsl:call-template name="current-fate-points"/>
+         <xsl:call-template name="experience-points"/>
         </tr>
        </table>
       </td>
@@ -79,6 +80,7 @@
       </td>
      </tr>
     </table>
+    <xsl:apply-templates select="experiences"/>
     <xsl:apply-templates select="notes"/>
     <xsl:call-template name="atomic-robo-copyright"/>
    </body>
