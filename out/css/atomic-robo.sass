@@ -1,8 +1,23 @@
+@import "colors"
+@import "fieldsets"
+@import "fonts"
+
 #atomic-robo-logo
   height: 2em
 
 fieldset.aspect
   padding-left: 8.5em
+
+fieldset
+  &.experience
+    +fieldset_item
+  &.experience
+    span.content
+      margin-left: -10em
+    +fieldset_innards
+  &.experience legend.label
+    color: $label_color
+    +label_font
 
 table#skills
   tbody
