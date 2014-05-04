@@ -4,5 +4,19 @@
 fieldset.aspect {
   padding-left: 8.5em; }
 
+fieldset.experience {
+  padding-left: 11em;
+  position: relative;
+  text-align: left; }
+fieldset.experience {
+  height: 1.1em;
+  padding-top: 0.5em;
+  vertical-align: text-bottom; }
+  fieldset.experience span.content {
+    margin-left: -10em; }
+fieldset.experience legend.label {
+  color: #666666;
+  font: oblique small-caps 1.3em bolder; }
+
 table#skills tbody tr td {
   text-align: left; }
