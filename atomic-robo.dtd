@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, experience-points, aspects, skills, stress?, stunts, consequences?, hacks?, experiences?, notes?)>
+<!ELEMENT character (id, current-fate-points, experience-points, aspects, skills, stress?, stunts, consequences?, hacks?, experiences?, notes?)>
 
   <!ELEMENT id (charname, playername, affiliation)>
     <!ELEMENT charname (#PCDATA)>
@@ -7,7 +7,6 @@
     <!ELEMENT playername (#PCDATA)>
     <!ELEMENT affiliation (#PCDATA)>
 
-    <!ELEMENT refresh (#PCDATA)>
     <!ELEMENT current-fate-points (#PCDATA)>
     <!ELEMENT experience-points (#PCDATA)>
 
