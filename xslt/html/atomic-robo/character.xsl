@@ -31,7 +31,6 @@
        </span>
        <table>
         <tr>
-         <xsl:call-template name="refresh"/>
          <xsl:call-template name="current-fate-points"/>
          <xsl:call-template name="experience-points"/>
         </tr>
