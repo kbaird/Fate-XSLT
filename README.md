@@ -7,6 +7,7 @@ Character
 [VSCA Publishing](http://vsca.ca/)'s
 [Fate Core](http://www.evilhat.com/home/fate-core/),
 [Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE),
+[Atomic Robo](http://www.evilhat.com/home/atomic-robo/),
 [Spirit of the Century](http://www.evilhat.com/home/spirit-of-the-century-2/) &amp;
 [Diaspora](http://www.vsca.ca/Diaspora/) RPGs, along with
 [XSLT](http://www.w3.org/TR/xslt) sheets for rendering to various output formats.
@@ -33,6 +34,6 @@ Other useful URLs:
 - http://www.faterpg.com/
 - http://fate-srd.com/
 
-I develop on a Lubuntu 13.10 system with `xmllint` and `xsltproc` executables
+I develop on an Ubuntu 14.04 system with `xmllint` and `xsltproc` executables
 available. Those assumptions are reflected in the stock versions of the publish
 executables for now.
