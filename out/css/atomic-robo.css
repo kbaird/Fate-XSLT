@@ -2,7 +2,11 @@
   height: 2em; }
 
 fieldset.aspect {
+  height: 2.35em;
   padding-left: 8.5em; }
+
+fieldset.consequence {
+  height: 1.5em; }
 
 fieldset.experience {
   padding-left: 11em;
