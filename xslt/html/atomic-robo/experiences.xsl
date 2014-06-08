@@ -6,6 +6,11 @@
  <xsl:template match="experiences">
   <div id="experiences">
    <xsl:apply-templates select="experience"/>
+   <p>
+    Experiences are Boosts. After invoking an Experience, draw a line through it, but leave it on your character sheet.
+    <br />
+    When you erase three crossed-out Experiences, you reach a <strong>Major Milestone</strong> (cf. ARRPG pg227).
+   </p>
   </div>
  </xsl:template>
  <xsl:template match="experience">
