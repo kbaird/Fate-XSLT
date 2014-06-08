@@ -7,7 +7,10 @@ fieldset.aspect {
 fieldset.experience {
   padding-left: 11em;
   position: relative;
-  text-align: left; }
+  text-align: left;
+  clear: none;
+  float: left;
+  width: 18%; }
   fieldset.experience.used {
     text-decoration: line-through; }
 fieldset.experience {
@@ -21,6 +24,10 @@ fieldset.experience {
 fieldset.experience legend.label {
   color: #666666;
   font: oblique small-caps 1.3em bolder; }
+
+p#copyright {
+  clear: both;
+  float: none; }
 
 table#skills tbody tr td {
   text-align: left; }

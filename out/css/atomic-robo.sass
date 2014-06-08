@@ -11,6 +11,9 @@ fieldset.aspect
 fieldset
   &.experience
     +fieldset_item
+    clear: none
+    float: left
+    width: 18%
     &.used
       text-decoration: line-through
   &.experience
@@ -24,6 +27,10 @@ fieldset
   &.experience legend.label
     color: $label_color
     +label_font
+
+p#copyright
+  clear: both
+  float: none
 
 table#skills
   tbody
