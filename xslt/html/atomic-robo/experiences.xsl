@@ -10,6 +10,9 @@
  </xsl:template>
  <xsl:template match="experience">
   <fieldset class="experience">
+   <xsl:if test="@used='true'">
+    <xsl:attribute name="class">used experience</xsl:attribute>
+   </xsl:if>
    <legend class="label">
     <span>Experience</span>
    </legend>

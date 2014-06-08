@@ -11,9 +11,15 @@ fieldset.aspect
 fieldset
   &.experience
     +fieldset_item
+    &.used
+      text-decoration: line-through
   &.experience
-    span.content
-      margin-left: -10em
+    &.used
+      span
+        text-decoration: line-through
+    span
+      &.content
+        margin-left: -10em
     +fieldset_innards
   &.experience legend.label
     color: $label_color

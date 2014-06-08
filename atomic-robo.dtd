@@ -48,5 +48,6 @@
 
     <!ELEMENT experiences (experience*)>
       <!ELEMENT experience (#PCDATA)>
+      <!ATTLIST experience used (true|false) #IMPLIED>
 
     <!ELEMENT notes (#PCDATA)>

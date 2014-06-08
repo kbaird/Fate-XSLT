@@ -52,6 +52,6 @@
  <experiences>
   <experience>experience1</experience>
   <experience>experience2</experience>
-  <experience>experience3</experience>
+  <experience used="true">experience3</experience>
  </experiences>
 </character>
