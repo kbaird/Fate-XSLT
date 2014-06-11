@@ -45,6 +45,8 @@ fieldset.consequence {
   fieldset.consequence legend {
     color: #444444;
     font: small-caps 1.3em bolder; }
+fieldset.phase {
+  font-family: Montserrat; }
 fieldset.stunt {
   font-size: 0.85em;
   font-style: oblique;
@@ -67,6 +69,7 @@ legend {
     left: 0.4em; }
 
 p#copyright {
+  font-family: Montserrat;
   font-size: 0.8em;
   text-align: center; }
 
@@ -82,6 +85,7 @@ td, th {
 
 table#stress td {
   border: 4px solid black;
+  font-family: Montserrat;
   font-size: 1.4em;
   font-weight: 900; }
 

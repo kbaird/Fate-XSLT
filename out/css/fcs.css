@@ -1,3 +1,12 @@
+/* included in fcs instead of fae because of fate-freeport */
+dl.approaches dt {
+  border: 0px;
+  font-weight: 600;
+  text-transform: uppercase; }
+dl.approaches dd {
+  font-family: Montserrat;
+  width: 2.4em; }
+
 fieldset.phase {
   margin-bottom: 0.3em;
   padding-top: 3.4em;
@@ -12,6 +21,8 @@ fieldset.phase {
       color: black;
       font: normal small-caps 1.15em bolder Montserrat; }
 
+table td p {
+  font-family: Montserrat; }
 table#skills tr th.mode-rating {
   border: 0px;
   color: #aaaaaa;
