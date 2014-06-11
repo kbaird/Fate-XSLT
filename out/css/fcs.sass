@@ -1,5 +1,6 @@
 @import "borders"
 @import "colors"
+@import "fonts"
 
 fieldset.phase
   margin-bottom: 0.3em
@@ -9,12 +10,12 @@ fieldset.phase
     height: 2em
     span
       &.aspects
-        font-family: Montserrat
+        font-family: $basic_font
         font-size: 0.9em
         padding-top: 1.5em
       &.phase-title
         color: $phase_label_color
-        font: normal small-caps 1.15em bolder Montserrat
+        font: normal small-caps 1.15em bolder $basic_font
 
 table
   $height: 2.3em
@@ -22,7 +23,7 @@ table
   =shared_th_rating
     border: 0px
     color: $skill_rating_color
-    font-family: Montserrat
+    font-family: $basic_font
     font-weight: bolder
     height: $height
     padding-right: 0.75em
@@ -38,7 +39,7 @@ table
       width: 12.5%
     td
       +standard_border
-      font: oblique small-caps 1em bold "Walter Turncoat"
+      font: oblique small-caps 1em bold $handwriting_font
       height: $height
       padding-top: $top_padding
       width: 17.5%
