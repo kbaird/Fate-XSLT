@@ -5,15 +5,19 @@ fieldset.phase {
   fieldset.phase legend.label {
     height: 2em; }
     fieldset.phase legend.label span.aspects {
+      font-family: Montserrat;
       font-size: 0.9em;
       padding-top: 1.5em; }
     fieldset.phase legend.label span.phase-title {
       color: black;
-      font: normal small-caps 1.15em bolder; }
+      font: normal small-caps 1.15em bolder Montserrat; }
 
+table td p {
+  font-family: Montserrat; }
 table#skills tr th.mode-rating {
   border: 0px;
   color: #aaaaaa;
+  font-family: Montserrat;
   font-weight: bolder;
   height: 2.3em;
   padding-right: 0.75em;
@@ -23,6 +27,7 @@ table#skills tr th.mode-rating {
 table#skills tr th.rating {
   border: 0px;
   color: #aaaaaa;
+  font-family: Montserrat;
   font-weight: bolder;
   height: 2.3em;
   padding-right: 0.75em;
@@ -31,7 +36,7 @@ table#skills tr th.rating {
   width: 12.5%; }
 table#skills tr td {
   border: 3px solid black;
-  font: oblique small-caps 1em bold;
+  font: oblique small-caps 1em bold "Walter Turncoat";
   height: 2.3em;
   padding-top: 0.6em;
   width: 17.5%; }

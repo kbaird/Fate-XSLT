@@ -13,7 +13,7 @@
     <xsl:value-of select="id/charname"/>
    </title>
    <style type="text/css">
-      @import url("http://fonts.googleapis.com/css?family=Montserrat");
+      @import url("http://fonts.googleapis.com/css?family=Montserrat|Walter+Turncoat");
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);
     <xsl:if test="$moreCSS">
