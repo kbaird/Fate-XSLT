@@ -29,9 +29,11 @@ fieldset.experience legend.label {
   color: #666666;
   font: oblique small-caps 1.3em bolder; }
 
-p#copyright {
-  clear: both;
-  float: none; }
+p {
+  font-family: Montserrat; }
+  p #copyright {
+    clear: both;
+    float: none; }
 
 table#skills tbody tr td {
   text-align: left; }

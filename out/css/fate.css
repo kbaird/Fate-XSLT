@@ -3,9 +3,10 @@ body {
   color: #111111;
   margin: 0.1em 0.4em;
   padding: 0.2em;
-  font: 1em Montserrat, ubuntu, verdana, arial, helvetica, sans-serif; }
+  font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; }
 
 dl dt {
+  font-family: Montserrat;
   display: inline;
   padding: 0.35em;
   padding-left: 0.5em;
@@ -89,6 +90,7 @@ table#stress td {
   border-bottom-right-radius: 0.9em;
   border-top-left-radius: 0.9em;
   color: white;
+  font-family: Montserrat;
   padding: 0.2em;
   text-transform: uppercase;
   vertical-align: text-top; }
