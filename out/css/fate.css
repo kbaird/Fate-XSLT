@@ -5,20 +5,29 @@ body {
   padding: 0.2em;
   font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; }
 
-dl dt {
-  font-family: Montserrat;
-  display: inline;
-  padding: 0.35em;
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
-dl dd {
-  display: inline;
-  padding: 0.35em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  border: 2px solid black;
-  float: right;
-  padding-top: -1em; }
+dl {
+  /* included in fcs instead of fae because of fate-freeport */ }
+  dl dt {
+    font-family: Montserrat;
+    display: inline;
+    padding: 0.35em;
+    padding-left: 0.5em;
+    padding-right: 0.5em; }
+  dl dd {
+    display: inline;
+    padding: 0.35em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: 2px solid black;
+    float: right;
+    padding-top: -1em; }
+  dl.approaches dt {
+    border: 0px;
+    font-weight: 600;
+    text-transform: uppercase; }
+  dl.approaches dd {
+    font-family: Montserrat;
+    width: 2.4em; }
 
 fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
   padding-left: 11em;
