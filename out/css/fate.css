@@ -54,6 +54,8 @@ fieldset.consequence {
   fieldset.consequence legend {
     color: #444444;
     font: small-caps 1.3em bolder; }
+    fieldset.consequence legend span {
+      top: 0.37em; }
 fieldset.phase {
   font-family: Cabin, Padauk, Montserrat; }
 fieldset.stunt {
@@ -65,7 +67,7 @@ fieldset.stunt {
     color: black;
     font: small-caps 1.5em bolder; }
     fieldset.stunt legend span {
-      top: 0.08em; }
+      top: 0.2em; }
 
 h1, hr {
   display: none; }
@@ -74,7 +76,7 @@ legend {
   float: left; }
   legend span {
     position: absolute;
-    top: 0.1em;
+    top: 0.2em;
     left: 0.4em; }
 
 p#copyright {
