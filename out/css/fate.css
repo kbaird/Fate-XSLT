@@ -6,9 +6,9 @@ body {
   font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; }
 
 dl {
-  /* included in fcs instead of fae because of fate-freeport */ }
+  /* included in fate instead of fae because of fate-freeport */ }
   dl dt {
-    font-family: Montserrat;
+    font-family: Cabin, Padauk, Montserrat;
     display: inline;
     padding: 0.35em;
     padding-left: 0.5em;
@@ -20,13 +20,13 @@ dl {
     padding-right: 0.5em;
     border: 2px solid black;
     float: right;
+    font-family: Cabin, Padauk, Montserrat;
     padding-top: -1em; }
   dl.approaches dt {
     border: 0px;
     font-weight: 600;
     text-transform: uppercase; }
   dl.approaches dd {
-    font-family: Montserrat;
     width: 2.4em; }
 
 fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
@@ -55,7 +55,7 @@ fieldset.consequence {
     color: #444444;
     font: small-caps 1.3em bolder; }
 fieldset.phase {
-  font-family: Montserrat; }
+  font-family: Cabin, Padauk, Montserrat; }
 fieldset.stunt {
   font-size: 0.85em;
   font-style: oblique;
@@ -78,7 +78,7 @@ legend {
     left: 0.4em; }
 
 p#copyright {
-  font-family: Montserrat;
+  font-family: Cabin, Padauk, Montserrat;
   font-size: 0.8em;
   text-align: center; }
 
@@ -94,7 +94,7 @@ td, th {
 
 table#stress td {
   border: 4px solid black;
-  font-family: Montserrat;
+  font-family: Cabin, Padauk, Montserrat;
   font-size: 1.4em;
   font-weight: 900; }
 
@@ -103,7 +103,7 @@ table#stress td {
   border-bottom-right-radius: 0.9em;
   border-top-left-radius: 0.9em;
   color: white;
-  font-family: Montserrat;
+  font-family: Cabin, Padauk, Montserrat;
   padding: 0.2em;
   text-transform: uppercase;
   vertical-align: text-top; }

@@ -30,10 +30,12 @@ fieldset.experience legend.label {
   font: oblique small-caps 1.3em bolder; }
 
 p {
-  font-family: Montserrat; }
+  font-family: Cabin, Padauk, Montserrat; }
   p #copyright {
     clear: both;
     float: none; }
 
+table#skills tbody tr th {
+  font-family: Cabin, Padauk, Montserrat; }
 table#skills tbody tr td {
   text-align: left; }
