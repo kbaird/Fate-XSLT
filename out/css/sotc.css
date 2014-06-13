@@ -7,13 +7,15 @@ fieldset#archetype legend.label, fieldset#concept legend.label {
   font: oblique small-caps 1.3em bolder; }
 fieldset.gadget legend.label {
   font: small-caps 1.3em bolder; }
-fieldset.phase legend.label {
-  height: 2.8em; }
-  fieldset.phase legend.label span#century-club-patron, fieldset.phase legend.label span#guest-starring, fieldset.phase legend.label span#guest-stars {
+fieldset.phase {
+  padding-top: 4.5em; }
+  fieldset.phase legend.label {
+    height: 2.8em; }
+  fieldset.phase span#century-club-patron, fieldset.phase span#guest-starring, fieldset.phase span#guest-stars {
     font-size: 0.9em;
-    padding-top: 1.5em; }
-  fieldset.phase legend.label span.aspects {
-    padding-top: 2.7em; }
+    padding-top: 1.7em; }
+  fieldset.phase span.aspects {
+    margin-top: 1.4em; }
 fieldset legend span {
   top: 0.2em; }
 

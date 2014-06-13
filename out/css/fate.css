@@ -29,6 +29,8 @@ dl {
   dl.approaches dd {
     width: 2.4em; }
 
+fieldset#description {
+  line-height: 1.1em; }
 fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
   padding-left: 11em;
   position: relative;
@@ -62,7 +64,7 @@ fieldset.stunt {
   font-size: 0.85em;
   font-style: oblique;
   text-align: right;
-  padding-left: 15em; }
+  padding-left: 16em; }
   fieldset.stunt legend {
     color: black;
     font: small-caps 1.5em bolder; }
