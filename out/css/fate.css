@@ -29,6 +29,9 @@ dl {
   dl.approaches dd {
     width: 2.4em; }
 
+em.phase-aspect {
+  font: oblique small-caps 1.2em 900 Cabin, Padauk, Montserrat; }
+
 fieldset#description {
   line-height: 1.1em; }
 fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {

@@ -8,7 +8,7 @@
   <span class="aspects">Aspects:
      <xsl:for-each select="/character/aspects/aspect[@phase-num=$phase]">
     <xsl:if test="position() &gt; 1">, </xsl:if>
-    <xsl:value-of select="."/>
+    <em class="phase-aspect"><xsl:value-of select="."/></em>
    </xsl:for-each>
   </span>
  </xsl:template>
