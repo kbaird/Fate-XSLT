@@ -25,4 +25,5 @@ for file in $@; do
   perl -pi -e 's#Tarislar#<em>Tarislar</em>#g' ../out/$base.html
   perl -pi -e 's#Tír Tairngirenes#<em>Tír Tairngirenes</em>#g' ../out/$base.html
   perl -pi -e 's#Tír Tairngire#<em>Tír Tairngire</em>#g' ../out/$base.html
+  perl -pi -e "s#<title>Martin <em>Imiritish ke'Tolosa</em> Liú</title>#<title>Martin Imiritish ke'Tolosa Liú</title>#g" ../out/$base.html
 done
