@@ -4,6 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="character">
+  <xsl:param name="aspectWidth"/>
   <xsl:variable name="useConditions">
    <xsl:choose>
     <xsl:when test="hacks/@conditions='true'">true</xsl:when>
@@ -54,10 +55,16 @@
     <hr />
     <table>
      <tr>
-      <td width="40%">
+      <td>
+       <xsl:attribute name="width">
+        <xsl:value-of select="$aspectWidth"/>
+       </xsl:attribute>
        <xsl:apply-templates select="aspects"/>
       </td>
-      <td width="60%">
+      <td>
+       <xsl:attribute name="width">
+        <xsl:value-of select="100 - $aspectWidth"/>
+       </xsl:attribute>
        <xsl:apply-templates select="skills">
         <xsl:with-param name="useSkillModes">
          <xsl:value-of select="$useSkillModes"/>
