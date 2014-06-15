@@ -40,9 +40,9 @@
        <xsl:apply-templates select="id"/>
       </td>
       <td width="30%" id="fate-logo">
-       <span id="fate">Fate</span>
-       <br />
-       <span id="fate-subtitle">Core System</span>
+       <span id="fate">
+        <img alt="Powered By Fate" src="./powered_by_fate.svg"/>
+       </span>
        <table>
         <tr>
          <xsl:call-template name="refresh"/>
