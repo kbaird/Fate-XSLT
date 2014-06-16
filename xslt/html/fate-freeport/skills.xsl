@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="skills">
-  <table border="1">
+  <table border="1" id="freeport-skills">
    <tr>
     <th class="sectionheader" colspan="2">Skills</th>
    </tr>
