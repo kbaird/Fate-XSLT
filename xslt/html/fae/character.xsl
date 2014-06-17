@@ -18,8 +18,9 @@
        <xsl:apply-templates select="id"/>
       </td>
       <td width="30%" id="fate-logo">
-       <span id="fate">Fate</span>
-       <img alt="Powered By Fate" src="./powered_by_fate.svg"/>
+       <span id="fate">
+        <img alt="Powered By Fate" src="./powered_by_fate.svg"/>
+       </span>
        <br />
        <span id="fate-subtitle">Accelerated</span>
        <table>
