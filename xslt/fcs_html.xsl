@@ -7,6 +7,10 @@
  <xsl:include href="html/fcs/phase-trio.xsl"/>
  <xsl:include href="html/fcs/stress.xsl"/>
  <xsl:template match="/">
-  <xsl:apply-templates select="character"/>
+  <xsl:apply-templates select="character">
+   <xsl:with-param name="aspectWidth">
+    <xsl:value-of select="40"/>
+   </xsl:with-param>
+  </xsl:apply-templates>
  </xsl:template>
 </xsl:stylesheet>
