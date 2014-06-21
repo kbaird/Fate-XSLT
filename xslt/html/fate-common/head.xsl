@@ -12,7 +12,7 @@
    <title>
     <xsl:value-of select="id/charname"/>
    </title>
-   <style type="text/css">
+   <style type="text/css" media="all">
       @import url("http://fonts.googleapis.com/css?family=Montserrat|Walter+Turncoat");
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);
@@ -22,6 +22,7 @@
     <xsl:if test="$useConditions='true'">
       @import url(./css/conditions.css);
     </xsl:if>
+      @import url(./css/print.css) print;
    </style>
   </head>
  </xsl:template>
