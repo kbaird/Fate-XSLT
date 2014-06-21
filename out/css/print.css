@@ -11,6 +11,7 @@ fieldset.experience {
   width: 40px;
 }
 
+table#skills tbody tr td,
 table#skills tbody tr td ul {
   height: 8px;
   line-height: 7px;
