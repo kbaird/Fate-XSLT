@@ -55,7 +55,8 @@ fieldset
       color: $consequence_legend_color
       +legend_font
       span
-        top: 0.37em
+        padding-bottom: 3em
+        top: 0.1em
   &.phase
     font-family: $basic_font
   &.stunt
@@ -89,16 +90,23 @@ table
   padding: 0.3em
   text-align: center
   width: 100%
+  #freeport-skills
+    margin-right:  -4em
+    padding-right: -4em
+    tbody tr td dl.approaches
+      dt
+        font-size: 1.4em
+      dd
+        font-size: 1.0em
+  #stress td
+    +thick_border
+    font-family: $basic_font
+    font-size: 1.4em
+    font-weight: 900
 
 td, th
   border: 0px
   vertical-align: top
-
-table#stress td
-  +thick_border
-  font-family: $basic_font
-  font-size: 1.4em
-  font-weight: 900
 
 .sectionheader
   background-color: $section_header_bg_color
@@ -116,6 +124,8 @@ table#stress td
 
 #fate
   +legend_font(5em)
+  img
+    width: 4em
 
 #fate-subtitle
   font: 2em bolder
