@@ -57,7 +57,7 @@
     <table>
      <tr>
       <td width="100%">
-       <xsl:apply-templates select="stunts"/>
+       <xsl:apply-templates select="stunts" mode="atomic-robo"/>
       </td>
      </tr>
     </table>

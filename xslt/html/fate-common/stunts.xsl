@@ -5,9 +5,17 @@
  <xsl:output method="html"/>
  <xsl:template match="stunts">
   <table border="1">
-   <tr>
-    <th colspan="2" class="sectionheader">Stunts</th>
-   </tr>
+   <xsl:call-template name="stunts-header">
+    <xsl:with-param name="label">Stunts</xsl:with-param>
+   </xsl:call-template>
+   <xsl:apply-templates select="stunt"/>
+  </table>
+ </xsl:template>
+ <xsl:template match="stunts" mode="atomic-robo">
+  <table border="1">
+   <xsl:call-template name="stunts-header">
+    <xsl:with-param name="label">Stunts &amp; Mega-Stunts</xsl:with-param>
+   </xsl:call-template>
    <xsl:apply-templates select="stunt"/>
   </table>
  </xsl:template>
@@ -23,6 +31,14 @@
      <xsl:value-of select="."/>
     </fieldset>
    </td>
+  </tr>
+ </xsl:template>
+ <xsl:template name="stunts-header">
+  <xsl:param name="label"/>
+  <tr>
+   <th colspan="2" class="sectionheader">
+    <xsl:value-of select="$label"/>
+   </th>
   </tr>
  </xsl:template>
 </xsl:stylesheet>
