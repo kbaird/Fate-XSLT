@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, current-fate-points, experience-points, aspects, skills, stress?, stunts, consequences?, hacks?, experiences?, notes?)>
 
-  <!ELEMENT id (charname, playername, affiliation)>
+  <!ELEMENT id (charname, playername, affiliation, description?)>
     <!ELEMENT charname (#PCDATA)>
     <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT playername (#PCDATA)>
     <!ELEMENT affiliation (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
 
     <!ELEMENT current-fate-points (#PCDATA)>
     <!ELEMENT experience-points (#PCDATA)>
