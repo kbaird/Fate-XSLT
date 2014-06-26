@@ -1,9 +1,12 @@
+hr, table {
+  margin-top: -0.4em; }
+
 table tbody tr td table tbody tr td fieldset,
 table#skills tbody tr td ul li,
 body pre, dl dt, dl dd,
 table#stress tbody tr td,
 fieldset.experience, fieldset.phase, fieldset.stunt,
-fieldset legend span, div#experiences p {
+div#experiences p {
   font-size: 0.5em; }
 
 fieldset.experience {
