@@ -37,3 +37,5 @@ Other useful URLs:
 I develop on an Ubuntu 14.04 system with `xmllint` and `xsltproc` executables
 available. Those assumptions are reflected in the stock versions of the publish
 executables for now.
+
+Also, for [Diaspora](http://www.vsca.ca/Diaspora/), check out the [random cluster generator](http://www.aristobit.com/diaspora/randomcluster.html).
