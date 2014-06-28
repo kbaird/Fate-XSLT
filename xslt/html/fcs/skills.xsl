@@ -127,6 +127,13 @@
     </xsl:otherwise>
    </xsl:choose>
   </table>
+  <xsl:if test="$useSkillModes='true'">
+  <ul id="skill_explanation">
+   <li class="specialized">specialized</li>
+   <li class="focused">focused</li>
+   <li>trained</li>
+  </ul>
+  </xsl:if>
  </xsl:template>
  <xsl:template name="skill">
   <xsl:param name="rating"/>
