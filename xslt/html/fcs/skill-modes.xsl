@@ -4,6 +4,28 @@
   version="1.0">
  <xsl:output method="html"/>
 
+ <xsl:template name="add-skill-focusing">
+  <xsl:param name="skillName"/>
+  <xsl:param name="modeRating"/>
+  <xsl:choose>
+   <xsl:when test="/character/skills/mode[@rating=$modeRating]/skill[@name=$skillName]/@add = '2'">
+    <xsl:attribute name="class">
+     <xsl:text>specialized</xsl:text>
+    </xsl:attribute>
+   </xsl:when>
+   <xsl:when test="/character/skills/mode[@rating=$modeRating]/skill[@name=$skillName]/@add = '1'">
+    <xsl:attribute name="class">
+     <xsl:text>focused</xsl:text>
+    </xsl:attribute>
+   </xsl:when>
+   <xsl:otherwise>
+    <xsl:attribute name="class">
+     <xsl:text>trained</xsl:text>
+    </xsl:attribute>
+   </xsl:otherwise>
+  </xsl:choose>
+ </xsl:template>
+
  <xsl:template name="skill-rating-by-name">
   <xsl:param name="skillName"/>
   <xsl:param name="modeRating"/>
@@ -38,23 +60,10 @@
     not(/character/skills/mode[@rating=$modeRating+2]/skill[@name=$skillName])
   ">
    <xsl:element name="li">
-    <xsl:choose>
-     <xsl:when test="/character/skills/mode[@rating=$modeRating]/skill[@name=$skillName]/@add = '2'">
-      <xsl:attribute name="class">
-       <xsl:text>specialized</xsl:text>
-      </xsl:attribute>
-     </xsl:when>
-     <xsl:when test="/character/skills/mode[@rating=$modeRating]/skill[@name=$skillName]/@add = '1'">
-      <xsl:attribute name="class">
-       <xsl:text>focused</xsl:text>
-      </xsl:attribute>
-     </xsl:when>
-     <xsl:otherwise>
-      <xsl:attribute name="class">
-       <xsl:text>trained</xsl:text>
-      </xsl:attribute>
-     </xsl:otherwise>
-    </xsl:choose>
+    <xsl:call-template name="add-skill-focusing">
+     <xsl:with-param name="skillName"  select="$skillName"/>
+     <xsl:with-param name="modeRating" select="$modeRating"/>
+    </xsl:call-template>
     <xsl:value-of select="$skillName"/>
    </xsl:element>
   </xsl:if>
