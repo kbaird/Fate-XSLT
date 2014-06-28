@@ -1,3 +1,6 @@
+fieldset.experience {
+  width: 40px; }
+
 hr, table {
   margin-top: -0.4em; }
 
@@ -6,11 +9,8 @@ table#skills tbody tr td ul li,
 body pre, dl dt, dl dd,
 table#stress tbody tr td,
 fieldset.experience, fieldset.phase, fieldset.stunt,
-div#experiences p {
+div#experiences p, ul#skill_explanation {
   font-size: 0.5em; }
-
-fieldset.experience {
-  width: 40px; }
 
 table#skills tbody tr td,
 table#skills tbody tr td ul {
@@ -23,6 +23,9 @@ table#skills tbody tr td ul {
 th#sectionheader {
   margin: 0;
   padding: 0; }
+
+ul#skill_explanation {
+  margin: 0; }
 
 #fate-logo {
   height: 50px; }
