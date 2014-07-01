@@ -50,7 +50,7 @@ fieldset#name {
   vertical-align: text-bottom; }
 fieldset.aspect legend.label, fieldset#description legend.label, fieldset#name legend.label {
   color: #666666;
-  font: oblique small-caps 1.3em bolder; }
+  font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.consequence {
   font-style: oblique;
   padding-left: 8.6em;
@@ -58,9 +58,10 @@ fieldset.consequence {
   height: 1.1em; }
   fieldset.consequence legend {
     color: #444444;
-    font: small-caps 1.3em bolder; }
+    font: small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
     fieldset.consequence legend span {
-      top: 0.37em; }
+      padding-bottom: 3em;
+      top: 0.1em; }
 fieldset.phase {
   font-family: Cabin, Padauk, Montserrat; }
 fieldset.stunt {
@@ -70,7 +71,7 @@ fieldset.stunt {
   padding-left: 16em; }
   fieldset.stunt legend {
     color: black;
-    font: small-caps 1.5em bolder; }
+    font: small-caps 1.5em bolder Cabin, Padauk, Montserrat; }
     fieldset.stunt legend span {
       top: 0.2em; }
 
@@ -94,16 +95,22 @@ table {
   padding: 0.3em;
   text-align: center;
   width: 100%; }
+  table #freeport-skills {
+    margin-right: -4em;
+    padding-right: -4em; }
+    table #freeport-skills tbody tr td dl.approaches dt {
+      font-size: 1.4em; }
+    table #freeport-skills tbody tr td dl.approaches dd {
+      font-size: 1em; }
+  table #stress td {
+    border: 4px solid black;
+    font-family: Cabin, Padauk, Montserrat;
+    font-size: 1.4em;
+    font-weight: 900; }
 
 td, th {
   border: 0px;
   vertical-align: top; }
-
-table#stress td {
-  border: 4px solid black;
-  font-family: Cabin, Padauk, Montserrat;
-  font-size: 1.4em;
-  font-weight: 900; }
 
 .sectionheader {
   background-color: black;
@@ -120,7 +127,9 @@ table#stress td {
   font-size: 1.25em; }
 
 #fate {
-  font: small-caps 5em bolder; }
+  font: small-caps 5em bolder Cabin, Padauk, Montserrat; }
+  #fate img {
+    width: 4em; }
 
 #fate-subtitle {
   font: 2em bolder;
