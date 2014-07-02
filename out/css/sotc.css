@@ -4,9 +4,9 @@ fieldset#archetype, fieldset#concept {
   text-align: left; }
 fieldset#archetype legend.label, fieldset#concept legend.label {
   color: #666666;
-  font: oblique small-caps 1.3em bolder; }
+  font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.gadget legend.label {
-  font: small-caps 1.3em bolder; }
+  font: small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.phase {
   padding-top: 4.5em; }
   fieldset.phase legend.label {
