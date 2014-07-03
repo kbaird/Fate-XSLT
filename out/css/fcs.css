@@ -46,3 +46,12 @@ table#skills tr td {
     content: ", "; }
 table#stress td {
   padding: 0.4em; }
+
+ul#skill_explanation li {
+  display: inline; }
+ul#skill_explanation li + li:before {
+  content: ", "; }
+
+.Freeport {
+  color: blue;
+  font: oblique small-caps 1em bold TeXGyreGallega; }
