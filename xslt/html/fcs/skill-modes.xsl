@@ -7,13 +7,14 @@
  <xsl:template name="add-skill-focusing">
   <xsl:param name="skillName"/>
   <xsl:param name="modeRating"/>
+  <xsl:param name="skillRating"/>
   <xsl:choose>
-   <xsl:when test="/character/skills/mode[@rating=$modeRating]/skill[@name=$skillName]/@add = '2'">
+   <xsl:when test="$skillRating = $modeRating + 2">
     <xsl:attribute name="class">
      <xsl:text>specialized</xsl:text>
     </xsl:attribute>
    </xsl:when>
-   <xsl:when test="/character/skills/mode[@rating=$modeRating]/skill[@name=$skillName]/@add = '1'">
+   <xsl:when test="$skillRating = $modeRating + 1">
     <xsl:attribute name="class">
      <xsl:text>focused</xsl:text>
     </xsl:attribute>
@@ -61,8 +62,9 @@
   ">
    <xsl:element name="li">
     <xsl:call-template name="add-skill-focusing">
-     <xsl:with-param name="skillName"  select="$skillName"/>
-     <xsl:with-param name="modeRating" select="$modeRating"/>
+     <xsl:with-param name="skillName"   select="$skillName"/>
+     <xsl:with-param name="skillRating" select="$skillRating"/>
+     <xsl:with-param name="modeRating"  select="$modeRating"/>
     </xsl:call-template>
     <xsl:value-of select="$skillName"/>
    </xsl:element>
