@@ -38,7 +38,7 @@
  <stunts>
   <stunt name="Spellcaster">
     Can use Magic skill with logical justification &amp; limitations for described spell
-    (TODO: specific small set of spells, like Fate in Freeport? Drain? Can't repeat
+    (TBD: specific small set of spells, like Fate in Freeport? Drain? Can't repeat
       same spell in the same scene? Or get a Mental Stress if you do?)
     I figure a pretty loose definition of the stunt is OK, since it requires a completely
     new skill, burns a stunt in addition to the required Magician extra, AND requires 
