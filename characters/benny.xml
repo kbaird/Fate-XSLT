@@ -6,7 +6,7 @@
   <charname>Benny</charname>
   <playername>sample Diaspora character</playername>
   <homeworld>Old Copenhagen</homeworld>
-  <cluster>TODO</cluster>
+  <cluster>TBD</cluster>
  </id>
  <refresh>2</refresh>
  <current-fate-points>2</current-fate-points>
@@ -41,10 +41,8 @@
  </skills>
  <stunts>
   <stunt name="Programmable">
-    TODO
   </stunt>
   <stunt name="Have a thing">
-    TODO
   </stunt>
  </stunts>
  <consequences>
