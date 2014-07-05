@@ -1,0 +1,5 @@
+  If one of your modes is Science, however, choose one improvement from the Everyone list,
+  and also apply all of the following improvements:
+  * Specialize one trained skill.
+  * Focus one trained skill.
+  * Specialize one focused skill.
