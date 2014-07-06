@@ -41,7 +41,7 @@
       </td>
       <td width="30%" id="fate-logo">
        <span id="fate">
-        <img alt="Powered By Fate" src="./powered_by_fate.svg" height="100px"/>
+        <img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"/>
        </span>
        <table>
         <tr>
