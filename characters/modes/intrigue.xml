@@ -1,0 +1,8 @@
+  <mode rating="x" name="Intrigue">
+   <skill name="Athletics"/>
+   <skill name="Burglary"/>
+   <skill name="Contacts"/>
+   <skill name="Deceive"/>
+   <skill name="Notice"/>
+   <skill name="Stealth"/>
+  </mode>
