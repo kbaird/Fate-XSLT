@@ -8,8 +8,7 @@
    <xsl:apply-templates select="experience"/>
    <p>
     Experiences are Boosts. After invoking an Experience, draw a line through it, but leave it on your character sheet.
-    <br />
-    When you erase three crossed-out Experiences, you reach a <strong>Major Milestone</strong> (cf. ARRPG pg227).
+    When you erase 3 crossed-out Experiences, you reach a <strong>Major Milestone</strong> (ARRPG227).
    </p>
   </div>
  </xsl:template>
