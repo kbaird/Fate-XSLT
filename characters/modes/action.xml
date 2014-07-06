@@ -1,0 +1,8 @@
+  <mode rating="x" name="Action">
+   <skill name="Athletics"/>
+   <skill name="Combat"/>
+   <skill name="Notice"/>
+   <skill name="Physique"/>
+   <skill name="Provoke"/>
+   <skill name="Vehicles"/>
+  </mode>
