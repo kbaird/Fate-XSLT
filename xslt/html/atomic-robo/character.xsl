@@ -43,6 +43,7 @@
      <tr>
       <td width="40%">
        <xsl:apply-templates select="aspects"/>
+       <xsl:apply-templates select="experiences"/>
       </td>
       <td width="60%">
        <xsl:apply-templates select="skills">
@@ -79,7 +80,6 @@
       </td>
      </tr>
     </table>
-    <xsl:apply-templates select="experiences"/>
     <xsl:apply-templates select="notes"/>
     <xsl:call-template name="atomic-robo-copyright"/>
    </body>
