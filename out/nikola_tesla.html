@@ -2,13 +2,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Nikola Tesla</title>
-<style type="text/css">
+<style type="text/css" media="all">
       @import url("http://fonts.googleapis.com/css?family=Montserrat|Walter+Turncoat");
       @import url(./css/fate.css);
       @import url(./css/fcs.css);
     
       @import url(./css/atomic-robo.css);
-    </style>
+    
+      @import url(./css/print.css) print;
+   </style>
 </head>
 <body>
 <h1>Nikola Tesla</h1>
@@ -35,7 +37,8 @@
 </tr></table>
 <hr>
 <table><tr>
-<td width="40%"><table border="1">
+<td width="40%">
+<table border="1" id="aspects">
 <tr><th colspan="2" class="sectionheader">Aspects</th></tr>
 <tr><td><fieldset class="aspect">
 <legend class="label"><span>Concept</span></legend>Eccentric Inventor of Beautiful Apparatuses</fieldset></td></tr>
@@ -46,8 +49,18 @@
 <tr><td><fieldset class="aspect"><legend class="label"><span>Action Mode</span></legend></fieldset></td></tr>
 <tr><td><fieldset class="aspect">
 <legend class="label"><span>Omega</span></legend>My Method Is Different</fieldset></td></tr>
-</table></td>
-<td width="60%"><table id="skills">
+</table>
+<div id="experiences">
+<span class="sectionheader">Experiences</span><fieldset class="experience">
+<legend class="label"><span>Experience</span></legend>experience1</fieldset>
+<fieldset class="experience">
+<legend class="label"><span>Experience</span></legend>experience2</fieldset>
+<fieldset class="used experience">
+<legend class="label"><span>Experience</span></legend>experience3</fieldset>
+</div>
+</td>
+<td width="60%">
+<table id="skills">
 <tr><th colspan="4" class="sectionheader">Modes and Skills</th></tr>
 <tr>
 <th></th>
@@ -64,53 +77,64 @@
 <tr>
 <th class="mode-rating">+5</th>
 <td><ul>
-<li>Electrical Engineering</li>
-<li>Mechanical Engineering</li>
-<li>Physics</li>
-<li>Will</li>
+<li class="specialized">Electrical Engineering</li>
+<li class="specialized">Mechanical Engineering</li>
+<li class="specialized">Physics</li>
+<li class="specialized">Will</li>
 </ul></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <th class="mode-rating">+4</th>
-<td><ul><li>Notice</li></ul></td>
+<td><ul><li class="focused">Notice</li></ul></td>
 <td><ul></ul></td>
 <td></td>
 </tr>
 <tr>
 <th class="mode-rating">+3</th>
-<td><ul><li>(All other Sciences)</li></ul></td>
+<td><ul><li class="trained">(All other Sciences)</li></ul></td>
 <td><ul>
-<li>Contacts</li>
-<li>Provoke</li>
+<li class="focused">Contacts</li>
+<li class="focused">Provoke</li>
 </ul></td>
-<td><ul><li>Athletics</li></ul></td>
+<td><ul><li class="specialized">Athletics</li></ul></td>
 </tr>
 <tr>
 <th class="mode-rating">+2</th>
 <td></td>
 <td><ul>
-<li>Deceit</li>
-<li>Empathy</li>
-<li>Rapport</li>
+<li class="trained">Deceit</li>
+<li class="trained">Empathy</li>
+<li class="trained">Rapport</li>
 </ul></td>
-<td><ul><li>Combat</li></ul></td>
+<td><ul><li class="focused">Combat</li></ul></td>
 </tr>
 <tr>
 <th class="mode-rating">+1</th>
 <td></td>
 <td></td>
 <td><ul>
-<li>Physique</li>
-<li>Vehicles</li>
+<li class="trained">Physique</li>
+<li class="trained">Vehicles</li>
 </ul></td>
 </tr>
-</table></td>
+</table>
+<ul id="skill_explanation">
+<li class="specialized">specialized</li>
+<li class="focused">focused</li>
+<li>trained</li>
+</ul>
+</td>
 </tr></table>
 <hr>
+<p id="experiences_explanation">
+   Experiences are Boosts. After invoking an Experience, draw a line through it, but leave it on your character sheet.
+   When you erase 3 crossed-out Experiences, you reach a <strong>Major Milestone</strong> (ARRPG227).
+  </p>
+<hr>
 <table><tr><td width="100%"><table border="1">
-<tr><th colspan="2" class="sectionheader">Stunts</th></tr>
+<tr><th colspan="2" class="sectionheader">Stunts &amp; Mega-Stunts</th></tr>
 <tr><td><fieldset class="stunt">
 <legend><span>Signature Aspect</span></legend>
     Master of Lightning (invoke once for free, compel at two fate points instead of one)
@@ -143,19 +167,6 @@
 </td></tr>
 </table></td>
 </tr></table>
-<div id="experiences">
-<fieldset class="experience">
-<legend class="label"><span>Experience</span></legend>experience1</fieldset>
-<fieldset class="experience">
-<legend class="label"><span>Experience</span></legend>experience2</fieldset>
-<fieldset class="used experience">
-<legend class="label"><span>Experience</span></legend>experience3</fieldset>
-<p>
-    Experiences are Boosts. After invoking an Experience, draw a line through it, but leave it on your character sheet.
-    <br>
-    When you erase three crossed-out Experiences, you reach a <strong>Major Milestone</strong> (cf. ARRPG pg227).
-   </p>
-</div>
 <p id="copyright">
    Atomic Robo RPG Character Sheet ©2014 Evil Hat Productions, LLC.
   </p>
