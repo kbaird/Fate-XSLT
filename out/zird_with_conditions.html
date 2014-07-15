@@ -2,13 +2,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Zird the Arcane</title>
-<style type="text/css">
+<style type="text/css" media="all">
       @import url("http://fonts.googleapis.com/css?family=Montserrat|Walter+Turncoat");
       @import url(./css/fate.css);
       @import url(./css/fcs.css);
     
       @import url(./css/conditions.css);
-    </style>
+    
+      @import url(./css/print.css) print;
+   </style>
 </head>
 <body>
 <h1>Zird the Arcane</h1>
@@ -21,7 +23,7 @@
 <legend class="label"><span>Description</span></legend>A sharp-featured scholar with a dark triangular beard.</fieldset></td></tr>
 </table></td>
 <td width="30%" id="fate-logo">
-<span id="fate">Fate</span><br><span id="fate-subtitle">Core System</span><table><tr>
+<span id="fate"><img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"></span><table><tr>
 <td><dl id="refresh">
 <dt>Refresh:</dt>
 <dd class="box">2</dd>
@@ -35,7 +37,7 @@
 </tr></table>
 <hr>
 <table><tr>
-<td width="40%"><table border="1">
+<td width="40"><table border="1" id="aspects">
 <tr><th colspan="2" class="sectionheader">Aspects</th></tr>
 <tr><td><fieldset class="aspect">
 <legend class="label"><span>High Concept</span></legend>Wizard for Hire</fieldset></td></tr>
@@ -45,7 +47,7 @@
 <tr><td><fieldset class="aspect"><span class="content">Not The Face!</span></fieldset></td></tr>
 <tr><td><fieldset class="aspect"><span class="content">Doesn't Suffer Fools Gladly</span></fieldset></td></tr>
 </table></td>
-<td width="60%"><table id="skills">
+<td width="60"><table id="skills">
 <tr><th colspan="6" class="sectionheader">Skills</th></tr>
 <tr>
 <th class="rating">Great (+4)</th>
@@ -162,17 +164,17 @@
 <tr><td><fieldset class="phase">
 <legend class="label">
 <span class="phase-title">Phase 1: Your Adventure</span><span class="aspects">Aspects:
-     If I Haven't Been There, I've Read About It</span>
+     <em class="phase-aspect">If I Haven't Been There, I've Read About It</em></span>
 </legend>Some events</fieldset></td></tr>
 <tr><td><fieldset class="phase">
 <legend class="label">
 <span class="phase-title">Phase 2: Crossing Paths</span><span class="aspects">Aspects:
-     Not The Face!</span>
+     <em class="phase-aspect">Not The Face!</em></span>
 </legend>Some events</fieldset></td></tr>
 <tr><td><fieldset class="phase">
 <legend class="label">
 <span class="phase-title">Phase 3: Crossing Paths Again</span><span class="aspects">Aspects:
-     Doesn't Suffer Fools Gladly</span>
+     <em class="phase-aspect">Doesn't Suffer Fools Gladly</em></span>
 </legend>Some events</fieldset></td></tr>
 </table>
 <p id="copyright">
