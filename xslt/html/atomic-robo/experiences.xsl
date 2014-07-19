@@ -5,22 +5,28 @@
  <xsl:output method="html"/>
 
  <xsl:template match="experiences">
-  <div id="experiences">
-   <span class="sectionheader">Experiences</span>
+  <table border="1" id="experiences">
+   <tr>
+    <th colspan="2" class="sectionheader">Experiences</th>
+   </tr>
    <xsl:apply-templates select="experience"/>
-  </div>
+  </table>
  </xsl:template>
 
  <xsl:template match="experience">
-  <fieldset class="experience">
-   <xsl:if test="@used='true'">
-    <xsl:attribute name="class">used experience</xsl:attribute>
-   </xsl:if>
-   <legend class="label">
-    <span>Experience</span>
-   </legend>
-   <xsl:value-of select="."/>
-  </fieldset>
+  <tr>
+   <td>
+    <fieldset class="experience">
+     <xsl:if test="@used='true'">
+      <xsl:attribute name="class">used</xsl:attribute>
+     </xsl:if>
+     <legend class="label">
+      <span>Experience</span>
+     </legend>
+     <xsl:value-of select="."/>
+    </fieldset>
+   </td>
+  </tr>
  </xsl:template>
 
  <xsl:template name="experiences_explanation">
