@@ -17,36 +17,50 @@
     <fieldset class="aspect">
      <xsl:choose>
       <xsl:when test="@type">
-       <xsl:if test="@type = 'concept'">
-        <legend class="label">
-         <span>Concept</span>
-        </legend>
-        <xsl:value-of select="."/>
-       </xsl:if>
-       <xsl:if test="@type = 'high_concept'">
-        <legend class="label">
-         <span>High Concept</span>
-        </legend>
-        <xsl:value-of select="."/>
-       </xsl:if>
-       <xsl:if test="@type = 'mode'">
-        <legend class="label">
-         <span><xsl:value-of select="@mode_name"/> Mode</span>
-        </legend>
-        <xsl:value-of select="."/>
-       </xsl:if>
-       <xsl:if test="@type = 'omega'">
-        <legend class="label">
-         <span>Omega</span>
-        </legend>
-        <xsl:value-of select="."/>
-       </xsl:if>
-       <xsl:if test="@type = 'trouble'">
-        <legend class="label">
-         <span>Trouble</span>
-        </legend>
-        <xsl:value-of select="."/>
-       </xsl:if>
+       <xsl:choose>
+        <xsl:when test="@type = 'concept'">
+         <legend class="label">
+          <span>Concept</span>
+         </legend>
+         <xsl:value-of select="."/>
+        </xsl:when>
+        <xsl:when test="@type = 'high_concept'">
+         <legend class="label">
+          <span>High Concept</span>
+         </legend>
+         <xsl:value-of select="."/>
+        </xsl:when>
+        <xsl:when test="@type = 'inciting-incident'">
+         <legend class="label">
+          <span>inciting incident</span>
+         </legend>
+         <xsl:value-of select="."/>
+        </xsl:when>
+        <xsl:when test="@type = 'mode'">
+         <legend class="label">
+          <span><xsl:value-of select="@mode_name"/> Mode</span>
+         </legend>
+         <xsl:value-of select="."/>
+        </xsl:when>
+        <xsl:when test="@type = 'omega'">
+         <legend class="label">
+          <span>Omega</span>
+         </legend>
+         <xsl:value-of select="."/>
+        </xsl:when>
+        <xsl:when test="@type = 'trouble'">
+         <legend class="label">
+          <span>Trouble</span>
+         </legend>
+         <xsl:value-of select="."/>
+        </xsl:when>
+        <xsl:otherwise>
+         <legend class="label">
+          <span><xsl:value-of select="@type"/></span>
+         </legend>
+         <xsl:value-of select="."/>
+        </xsl:otherwise>
+       </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
        <span class="content">

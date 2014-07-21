@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!ELEMENT character (id, refresh, current-fate-points, aspects, professions, assets, consequences?, notes?)>
+
+  <!ELEMENT id (charname, playername, story)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT playername (#PCDATA)>
+    <!ELEMENT story (#PCDATA)>
+
+  <!ELEMENT refresh (#PCDATA)>
+  <!ELEMENT current-fate-points (#PCDATA)>
+
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect type (portrayal|background|inciting-incident|belief|trouble) #IMPLIED>
+
+  <!ELEMENT professions (profession*)>
+    <!ELEMENT profession (#PCDATA)>
+    <!ATTLIST profession name   CDATA #REQUIRED>
+    <!ATTLIST profession rating CDATA #IMPLIED>
+
+  <!ELEMENT assets (asset*)>
+    <!ELEMENT asset (features*, flaws*)>
+    <!ATTLIST asset cost           CDATA #IMPLIED>
+    <!ATTLIST asset function       CDATA #IMPLIED>
+    <!ATTLIST asset guiding-aspect CDATA #IMPLIED>
+    <!ATTLIST asset name           CDATA #IMPLIED>
+    <!ATTLIST asset type           CDATA #IMPLIED>
+
+    <!ELEMENT features (feature*)>
+      <!ELEMENT feature (#PCDATA)>
+      <!ATTLIST feature effect CDATA #IMPLIED>
+      <!ATTLIST feature type
+        (Aspect|Exceptional|Flexible|Focus|Harmful|Indepedent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
+      #REQUIRED>
+
+    <!ELEMENT flaws (flaw*)>
+      <!ELEMENT flaw (#PCDATA)>
+      <!ATTLIST flaw effect CDATA #IMPLIED>
+      <!ATTLIST flaw type (Consuming|Demanding|Limited|Situational|Troubling) #REQUIRED>
+
+  <!ELEMENT consequences (consequence*)>
+    <!ELEMENT consequence (#PCDATA)>
+      <!ATTLIST consequence effect CDATA #IMPLIED>
+      <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
+
+  <!ELEMENT notes (#PCDATA)>
