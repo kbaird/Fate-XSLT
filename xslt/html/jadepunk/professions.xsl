@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="professions">
-  <table border="1" id="skills">
+  <table border="1" id="professions">
    <tr>
     <th class="sectionheader" colspan="2">Professions</th>
    </tr>

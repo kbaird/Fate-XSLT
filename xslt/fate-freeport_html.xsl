@@ -10,7 +10,7 @@
  <xsl:template match="/">
   <xsl:apply-templates select="character">
    <xsl:with-param name="aspectWidth">
-    <xsl:value-of select="70"/>
+    <xsl:value-of select="40"/>
    </xsl:with-param>
    <xsl:with-param name="logoType">Freeport</xsl:with-param>
   </xsl:apply-templates>

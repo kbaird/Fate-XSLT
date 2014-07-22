@@ -95,12 +95,12 @@ table {
   padding: 0.3em;
   text-align: center;
   width: 100%; }
-  table #freeport-skills {
+  table #freeport-skills, table #professions {
     margin-right: -4em;
     padding-right: -4em; }
-    table #freeport-skills tbody tr td dl.approaches dt {
+    table #freeport-skills tbody tr td dl.approaches dt, table #professions tbody tr td dl.approaches dt {
       font-size: 1.4em; }
-    table #freeport-skills tbody tr td dl.approaches dd {
+    table #freeport-skills tbody tr td dl.approaches dd, table #professions tbody tr td dl.approaches dd {
       font-size: 1em; }
   table #stress td {
     border: 4px solid black;
