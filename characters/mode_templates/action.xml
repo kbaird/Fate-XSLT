@@ -1,4 +1,4 @@
-  <mode rating="x" name="Action">
+  <mode rating="x" name="Action"> <!-- ARRPG pg82 -->
    <skill name="Athletics"/>
    <skill name="Combat"/>
    <skill name="Notice"/>
