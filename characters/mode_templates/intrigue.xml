@@ -1,4 +1,4 @@
-  <mode rating="x" name="Intrigue">
+  <mode rating="x" name="Intrigue"> <!-- ARRPG pg84 -->
    <skill name="Athletics"/>
    <skill name="Burglary"/>
    <skill name="Contacts"/>
