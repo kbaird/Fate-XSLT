@@ -1,5 +1,10 @@
-  <mode rating="x" name="Science">
+  <mode rating="x" name="Science"> <!-- ARRPG pg85 -->
    <skill name="Notice"/>
    <skill name="Will"/>
    <skill name="(all other Sciences)"/>
   </mode>
+  <!--
+       Specialize one trained skill.
+       Focus one trained skill.
+       Specialize one focused skill.
+  -->
