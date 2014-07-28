@@ -1,0 +1,8 @@
+  <mode rating="x" name="Beast"> <!-- ARRPG pg87 -->
+   <skill name="Athletics"/>
+   <skill name="Notice"/>
+   <skill name="Physique"/>
+   <skill name="Provoke"/>
+   <skill name="Tooth &amp; Claw"/> <!-- ARRPG pg87 -->
+   <!-- Also Specialize 1 Trained Skill -->
+  </mode>
