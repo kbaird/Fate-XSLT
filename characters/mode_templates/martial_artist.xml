@@ -1,0 +1,8 @@
+  <mode rating="x" name="Martial Artist"> <!-- ARRPG pg88 -->
+   <skill name="Athletics"/>
+   <skill name="Combat"/>
+   <skill name="Notice"/>
+   <skill name="Physique"/>
+   <skill name="Stealth"/>
+   <skill name="Will"/>
+  </mode>
