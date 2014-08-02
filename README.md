@@ -36,10 +36,11 @@ Currently supported variants include
 - Corruption (from [Fate Freeport Companion](http://www.evilhat.com/home/fate-freeport-companionprinted-by-the-elves/))
 - [Skill Modes](http://fate-srd.com/fate-system-toolkit/skill-modes) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 
-Other useful URLs:
+### Other useful URLs
 - http://www.faterpg.com/
 - http://fate-srd.com/
 
+### Miscellanea
 I develop on an Ubuntu 14.04 system with `xmllint` and `xsltproc` executables
 available. Those assumptions are reflected in the stock versions of the publish
 executables for now.
