@@ -1,16 +1,22 @@
-Fate-XSLT
-=========
+# Fate-XSLT
 
-Character
-[DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for
-[Evil Hat Productions](http://evilhat.com/) and
-[VSCA Publishing](http://vsca.ca/)'s
-[Fate Core](http://www.evilhat.com/home/fate-core/),
-[Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE),
-[Atomic Robo](http://www.evilhat.com/home/atomic-robo/),
-[Spirit of the Century](http://www.evilhat.com/home/spirit-of-the-century-2/) &amp;
-[Diaspora](http://www.vsca.ca/Diaspora/) RPGs, along with
-[XSLT](http://www.w3.org/TR/xslt) sheets for rendering to various output formats.
+Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various Fate-based games, along with
+[XSLT](http://www.w3.org/TR/xslt) sheets for rendering to HTML (and potentially other formats).
+
+## Supported Systems
+
+[Fate Core](http://www.evilhat.com/home/fate-core/) |
+[Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE) |
+[Atomic Robo](http://www.evilhat.com/home/atomic-robo/) |
+[Spirit of the Century](http://www.evilhat.com/home/spirit-of-the-century-2/) from 
+[Evil Hat Productions](http://evilhat.com/)
+
+[Diaspora](http://www.vsca.ca/Diaspora/) from 
+[VSCA Publishing](http://vsca.ca/)
+
+Jadepunk from Reroll Productions
+
+## Usage
 
 Store character files in the `characters` directory, and execute via
 
