@@ -14,7 +14,7 @@ Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various Fate-based g
 [Diaspora](http://www.vsca.ca/Diaspora/) from 
 [VSCA Publishing](http://vsca.ca/)
 
-Jadepunk from Reroll Productions
+[Jadepunk](http://jadepunk.com/) from [Reroll Productions](http://rerollproductions.com/?project=jadepunk)
 
 ## Usage
 
