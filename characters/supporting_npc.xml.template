@@ -1,0 +1,58 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../atomic-robo.dtd">
+<character>
+ <id>
+  <charname>TBD</charname>
+  <playername>Supporting NPC</playername>
+  <affiliation>TBD</affiliation>
+  <description>
+    TBD
+  </description>
+ </id>
+ <current-fate-points>3</current-fate-points>
+ <experience-points>0</experience-points>
+ <aspects>
+  <aspect type="concept">TBD</aspect>
+  <aspect type="mode" mode_name="Mode1">TBD</aspect>
+  <aspect type="mode" mode_name="Mode2">TBD</aspect>
+  <aspect type="mode" mode_name="Mode3">TBD</aspect>
+  <aspect type="omega">TBD</aspect>
+ </aspects>
+ <skills>
+  Add MODES
+ </skills>
+ <stress physical="2" mental="2"/>
+ <stunts>
+ </stunts>
+ <consequences>
+ </consequences>
+ <experiences>
+  <experience/>
+  <experience/>
+  <experience/>
+ </experiences>
+ <notes>
+  Regardless of what modes you have, if they're all standard modes you get one of the following improvements:
+  * Specialize one trained skill.
+  * Focus one trained skill and specialize one focused skill.
+  * Focus three trained skills.
+
+  If one of your modes is Science, however, choose one improvement from the Everyone list,
+  and also apply all of the following improvements:
+  * Specialize one trained skill.
+  * Focus one trained skill.
+  * Specialize one focused skill.
+
+Modes with Athletics or Physique can give your character additional physical stress boxes, while modes with Provoke or Will can give
+your character additional mental stress boxes. A mode with one or more of these skills rated at Fair (+2) adds one box, while one
+rated at Good (+3) adds two boxes.
+
+If a mode has skills that apply to both types, the bonus boxes can apply to either one. For example, the Action mode has Athletics,
+Physique, and Provoke. If you've given it a rating of Good (+3), you could have two more physical stress boxes, two more mental stress
+boxes, or one in each.
+
+Bonus stress boxes from your Good (+3) and Fair (+2) modes are cumulative. So if you have Good (+3) Action and Fair (+2) Intrigue, both
+of which have the Athletics skill, you can get three more physical stress boxes—two from Action and one from Intrigue.
+ </notes>
+</character>
