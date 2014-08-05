@@ -16,8 +16,7 @@
       @import url("http://fonts.googleapis.com/css?family=Montserrat|Walter+Turncoat");
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);<xsl:if test="$moreCSS">
-      @import url(./css/<xsl:value-of select="$moreCSS"/>.css);
-    </xsl:if><xsl:if test="$useConditions='true'">  @import url(./css/conditions.css);</xsl:if>
+      @import url(./css/<xsl:value-of select="$moreCSS"/>.css);</xsl:if><xsl:if test="$useConditions='true'">  @import url(./css/conditions.css);</xsl:if>
       @import url(./css/print.css) print;
    </style>
   </head>
