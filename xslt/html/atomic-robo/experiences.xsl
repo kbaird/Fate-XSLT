@@ -18,7 +18,7 @@
    <td>
     <fieldset class="experience">
      <xsl:if test="@used='true'">
-      <xsl:attribute name="class">used</xsl:attribute>
+      <xsl:attribute name="class">experience used</xsl:attribute>
      </xsl:if>
      <legend class="label">
       <span>Experience</span>
