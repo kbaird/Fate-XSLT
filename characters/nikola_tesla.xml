@@ -50,7 +50,7 @@
   <consequence severity="mild">mild one</consequence>
  </consequences>
  <experiences>
-  <experience>experience1</experience>
+  <experience>experience1: this is longer than the others</experience>
   <experience>experience2</experience>
   <experience used="true">experience3</experience>
  </experiences>
