@@ -18,20 +18,17 @@ fieldset.consequence
 
 fieldset
   &.experience
+    +fieldset_innards
     +fieldset_item
     clear: none
     float: left
-    width: 60%
+    width: 215%
     &.used
+      color: $label_color
       text-decoration: line-through
-  &.experience
-    &.used
-      span
-        text-decoration: line-through
     span
       &.content
         margin-left: -10em
-    +fieldset_innards
   &.experience legend.label
     color: $label_color
     +label_font
