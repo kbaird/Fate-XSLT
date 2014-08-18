@@ -12,19 +12,17 @@ fieldset.consequence {
   height: 1.5em; }
 
 fieldset.experience {
+  height: 1.1em;
+  padding-top: 0.5em;
+  vertical-align: text-bottom;
   padding-left: 11em;
   position: relative;
   text-align: left;
   clear: none;
   float: left;
-  width: 60%; }
+  width: 215%; }
   fieldset.experience.used {
-    text-decoration: line-through; }
-fieldset.experience {
-  height: 1.1em;
-  padding-top: 0.5em;
-  vertical-align: text-bottom; }
-  fieldset.experience.used span {
+    color: #666666;
     text-decoration: line-through; }
   fieldset.experience span.content {
     margin-left: -10em; }
