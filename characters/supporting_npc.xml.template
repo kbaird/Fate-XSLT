@@ -14,9 +14,9 @@
  <experience-points>0</experience-points>
  <aspects>
   <aspect type="concept">TBD</aspect>
-  <aspect type="mode" mode_name="Mode1">TBD</aspect>
-  <aspect type="mode" mode_name="Mode2">TBD</aspect>
-  <aspect type="mode" mode_name="Mode3">TBD</aspect>
+  <aspect type="mode" mode-name="Mode1">TBD</aspect>
+  <aspect type="mode" mode-name="Mode2">TBD</aspect>
+  <aspect type="mode" mode-name="Mode3">TBD</aspect>
   <aspect type="omega">TBD</aspect>
  </aspects>
  <skills>
