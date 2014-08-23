@@ -47,9 +47,9 @@ table#skills tr td {
 table#stress td {
   padding: 0.4em; }
 
-ul#skill_explanation li {
+ul#skill-explanation li {
   display: inline; }
-ul#skill_explanation li + li:before {
+ul#skill-explanation li + li:before {
   content: ", "; }
 
 .Freeport {
