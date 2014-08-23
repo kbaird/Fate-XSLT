@@ -12,7 +12,7 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (high_concept|trouble) #IMPLIED>
+      <!ATTLIST aspect type (high-concept|trouble) #IMPLIED>
       <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
     <!ELEMENT skills (mode*, skill*)>
