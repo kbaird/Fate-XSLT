@@ -23,12 +23,12 @@
   <aspect>I Trust Dr. Alemieda's Genuis</aspect>
  </aspects>
  <approaches>
-  <approach name="careful">+2</approach>
-  <approach name="clever">+3</approach>
-  <approach name="flashy">+1</approach>
-  <approach name="forceful">+2</approach>
-  <approach name="quick">+1</approach>
-  <approach name="sneaky">+0</approach>
+  <approach rating="2" name="careful"/>
+  <approach rating="3" name="clever"/>
+  <approach rating="1" name="flashy"/>
+  <approach rating="2" name="forceful"/>
+  <approach rating="1" name="quick"/>
+  <approach rating="0" name="sneaky"/>
  </approaches>
  <stunts>
   <stunt name="Experimental Helo Pack">

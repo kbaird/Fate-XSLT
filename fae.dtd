@@ -17,6 +17,7 @@
     <!ELEMENT approaches (approach*)>
       <!ELEMENT approach (#PCDATA)>
       <!ATTLIST approach name (careful|clever|flashy|forceful|quick|sneaky) #REQUIRED>
+      <!ATTLIST approach rating CDATA #REQUIRED>
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>

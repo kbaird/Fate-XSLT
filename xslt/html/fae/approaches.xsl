@@ -21,7 +21,8 @@
     <xsl:value-of select="@name"/>
    </dt>
    <dd>
-    <xsl:value-of select="."/>
+    <xsl:text>+</xsl:text>
+    <xsl:value-of select="@rating"/>
    </dd>
   </dl>
  </xsl:template>
