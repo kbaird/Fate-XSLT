@@ -9,7 +9,7 @@ table tbody tr th,
 body pre, dl dt, dl dd,
 table#stress tbody tr td,
 fieldset.experience, fieldset.phase, fieldset.stunt,
-p#experiences_explanation, ul#skill_explanation,
+p#experiences-explanation, ul#skill-explanation,
 .sectionheader {
   font-size: 0.5em; }
 
@@ -28,7 +28,7 @@ table#skills tbody tr td ul {
   padding-left: -25px;
   padding-top: -10px; }
 
-ul#skill_explanation {
+ul#skill-explanation {
   margin: 0; }
 
 #fate-logo {

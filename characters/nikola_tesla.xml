@@ -11,9 +11,9 @@
  <experience-points>0</experience-points>
  <aspects>
   <aspect type="concept">Eccentric Inventor of Beautiful Apparatuses</aspect>
-  <aspect type="mode" mode_name="Science">Master of Lightning*</aspect>
-  <aspect type="mode" mode_name="Banter">Magnetic Charm</aspect>
-  <aspect type="mode" mode_name="Action"/>
+  <aspect type="mode" mode-name="Science">Master of Lightning*</aspect>
+  <aspect type="mode" mode-name="Banter">Magnetic Charm</aspect>
+  <aspect type="mode" mode-name="Action"/>
   <aspect type="omega">My Method Is Different</aspect>
  </aspects>
  <skills>

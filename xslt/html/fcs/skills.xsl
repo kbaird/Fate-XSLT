@@ -128,7 +128,7 @@
    </xsl:choose>
   </table>
   <xsl:if test="$useSkillModes='true'">
-  <ul id="skill_explanation">
+  <ul id="skill-explanation">
    <li class="specialized">specialized</li>
    <li class="focused">focused</li>
    <li>trained</li>

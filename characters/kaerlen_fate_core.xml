@@ -13,7 +13,7 @@
  <refresh>3</refresh>
  <current-fate-points>3</current-fate-points>
  <aspects>
-  <aspect type="high_concept">Speaker's Guild Lawyer</aspect>
+  <aspect type="high-concept">Speaker's Guild Lawyer</aspect>
   <aspect type="trouble">Keep [Jenn's PC] Out Of Trouble</aspect>
   <aspect phase-num="1">Cozy up to the Goblinoids</aspect>
   <aspect phase-num="2">Foreign Advisor Enjoys the Company of Talenta Ladies</aspect>
