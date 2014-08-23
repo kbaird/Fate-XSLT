@@ -24,7 +24,7 @@
          </legend>
          <xsl:value-of select="."/>
         </xsl:when>
-        <xsl:when test="@type = 'high_concept'">
+        <xsl:when test="@type = 'high-concept'">
          <legend class="label">
           <span>High Concept</span>
          </legend>
@@ -38,7 +38,7 @@
         </xsl:when>
         <xsl:when test="@type = 'mode'">
          <legend class="label">
-          <span><xsl:value-of select="@mode_name"/> Mode</span>
+          <span><xsl:value-of select="@mode-name"/> Mode</span>
          </legend>
          <xsl:value-of select="."/>
         </xsl:when>

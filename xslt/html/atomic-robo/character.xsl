@@ -55,7 +55,7 @@
      </tr>
     </table>
     <hr />
-     <xsl:call-template name="experiences_explanation"/>
+     <xsl:call-template name="experiences-explanation"/>
     <hr />
     <table>
      <tr>
