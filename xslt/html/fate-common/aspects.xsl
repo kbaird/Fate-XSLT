@@ -18,39 +18,21 @@
      <xsl:choose>
       <xsl:when test="@type">
        <xsl:choose>
-        <xsl:when test="@type = 'concept'">
-         <legend class="label">
-          <span>Concept</span>
-         </legend>
-         <xsl:value-of select="."/>
-        </xsl:when>
-        <xsl:when test="@type = 'high-concept'">
+        <xsl:when test="@type = 'High-Concept'">
          <legend class="label">
           <span>High Concept</span>
          </legend>
          <xsl:value-of select="."/>
         </xsl:when>
-        <xsl:when test="@type = 'inciting-incident'">
+        <xsl:when test="@type = 'Inciting-Incident'">
          <legend class="label">
-          <span>inciting incident</span>
+          <span>Inciting Incident</span>
          </legend>
          <xsl:value-of select="."/>
         </xsl:when>
-        <xsl:when test="@type = 'mode'">
+        <xsl:when test="@type = 'Mode'">
          <legend class="label">
           <span><xsl:value-of select="@mode-name"/> Mode</span>
-         </legend>
-         <xsl:value-of select="."/>
-        </xsl:when>
-        <xsl:when test="@type = 'omega'">
-         <legend class="label">
-          <span>Omega</span>
-         </legend>
-         <xsl:value-of select="."/>
-        </xsl:when>
-        <xsl:when test="@type = 'trouble'">
-         <legend class="label">
-          <span>Trouble</span>
          </legend>
          <xsl:value-of select="."/>
         </xsl:when>

@@ -13,7 +13,7 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (concept|mode|omega) #REQUIRED>
+      <!ATTLIST aspect type (Concept|Mode|Omega) #REQUIRED>
       <!ATTLIST aspect mode-name CDATA           #IMPLIED>
 
     <!ELEMENT skills (mode*, skill*)>
@@ -40,7 +40,7 @@
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
+        <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
     <!ELEMENT experiences (experience*)>
       <!ELEMENT experience (#PCDATA)>

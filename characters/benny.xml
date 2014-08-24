@@ -46,7 +46,7 @@
   </stunt>
  </stunts>
  <consequences>
-  <consequence severity="mild">mild one</consequence>
+  <consequence severity="Mild">mild one</consequence>
  </consequences>
  <gear>
     A little of this, a little of that

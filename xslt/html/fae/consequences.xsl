@@ -12,15 +12,15 @@
     <td>
      <xsl:call-template name="consequence">
       <xsl:with-param name="label">Mild (2):</xsl:with-param>
-      <xsl:with-param name="severity">mild</xsl:with-param>
+      <xsl:with-param name="severity">Mild</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="consequence">
       <xsl:with-param name="label">Moderate (4):</xsl:with-param>
-      <xsl:with-param name="severity">moderate</xsl:with-param>
+      <xsl:with-param name="severity">Moderate</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="consequence">
       <xsl:with-param name="label">Severe (6):</xsl:with-param>
-      <xsl:with-param name="severity">severe</xsl:with-param>
+      <xsl:with-param name="severity">Severe</xsl:with-param>
      </xsl:call-template>
     </td>
    </tr>

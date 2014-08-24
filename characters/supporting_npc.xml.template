@@ -13,11 +13,11 @@
  <current-fate-points>3</current-fate-points>
  <experience-points>0</experience-points>
  <aspects>
-  <aspect type="concept">TBD</aspect>
-  <aspect type="mode" mode-name="Mode1">TBD</aspect>
-  <aspect type="mode" mode-name="Mode2">TBD</aspect>
-  <aspect type="mode" mode-name="Mode3">TBD</aspect>
-  <aspect type="omega">TBD</aspect>
+  <aspect type="Concept">TBD</aspect>
+  <aspect type="Mode" mode-name="Mode1">TBD</aspect>
+  <aspect type="Mode" mode-name="Mode2">TBD</aspect>
+  <aspect type="Mode" mode-name="Mode3">TBD</aspect>
+  <aspect type="Omega">TBD</aspect>
  </aspects>
  <skills>
   Add MODES
@@ -33,13 +33,13 @@
   <experience/>
  </experiences>
  <notes>
-  Regardless of what modes you have, if they're all standard modes you get one of the following improvements:
+  Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
   * Specialize one trained skill.
   * Focus one trained skill and specialize one focused skill.
   * Focus three trained skills.
 
-  If one of your modes is Science, however, choose one improvement from the Everyone list,
-  and also apply all of the following improvements:
+  If one of your modes is Science, however, choose ONE improvement from the Everyone list,
+  and also apply ALL of the following improvements:
   * Specialize one trained skill.
   * Focus one trained skill.
   * Specialize one focused skill.

@@ -12,7 +12,7 @@
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
-    <!ATTLIST aspect type (portrayal|background|inciting-incident|belief|trouble) #IMPLIED>
+    <!ATTLIST aspect type (Portrayal|Background|Inciting-Incident|Belief|Trouble) #IMPLIED>
 
   <!ELEMENT professions (profession*)>
     <!ELEMENT profession (#PCDATA)>
@@ -42,6 +42,6 @@
   <!ELEMENT consequences (consequence*)>
     <!ELEMENT consequence (#PCDATA)>
       <!ATTLIST consequence effect CDATA #IMPLIED>
-      <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
+      <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
 
   <!ELEMENT notes (#PCDATA)>

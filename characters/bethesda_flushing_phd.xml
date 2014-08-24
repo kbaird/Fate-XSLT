@@ -16,19 +16,19 @@
  <refresh>3</refresh>
  <current-fate-points>3</current-fate-points>
  <aspects>
-  <aspect type="high-concept">Chief Agent of IGEMA</aspect>
-  <aspect type="trouble">I'll Get You, von Stendahl!</aspect>
+  <aspect type="High-Concept">Chief Agent of IGEMA</aspect>
+  <aspect type="Trouble">I'll Get You, von Stendahl!</aspect>
   <aspect>My Inventions Almost Always Work. Almost.</aspect>
   <aspect>My Grad Students Come Through, Just Not How I Expect Them To</aspect>
   <aspect>I Trust Dr. Alemieda's Genuis</aspect>
  </aspects>
  <approaches>
-  <approach rating="2" name="careful"/>
-  <approach rating="3" name="clever"/>
-  <approach rating="1" name="flashy"/>
-  <approach rating="2" name="forceful"/>
-  <approach rating="1" name="quick"/>
-  <approach rating="0" name="sneaky"/>
+  <approach rating="2" name="Careful"/>
+  <approach rating="3" name="Clever"/>
+  <approach rating="1" name="Flashy"/>
+  <approach rating="2" name="Forceful"/>
+  <approach rating="1" name="Quick"/>
+  <approach rating="0" name="Sneaky"/>
  </approaches>
  <stunts>
   <stunt name="Experimental Helo Pack">
@@ -39,8 +39,8 @@
   </stunt>
  </stunts>
  <consequences>
-  <consequence severity="moderate">moderate one</consequence>
-  <consequence severity="severe">severe one</consequence>
+  <consequence severity="Moderate">moderate one</consequence>
+  <consequence severity="Severe">severe one</consequence>
  </consequences>
 <!--
     Can take 1 more stunt without reducing refresh

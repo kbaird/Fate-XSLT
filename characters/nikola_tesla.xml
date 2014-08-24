@@ -10,11 +10,11 @@
  <current-fate-points>2</current-fate-points>
  <experience-points>0</experience-points>
  <aspects>
-  <aspect type="concept">Eccentric Inventor of Beautiful Apparatuses</aspect>
-  <aspect type="mode" mode-name="Science">Master of Lightning*</aspect>
-  <aspect type="mode" mode-name="Banter">Magnetic Charm</aspect>
-  <aspect type="mode" mode-name="Action"/>
-  <aspect type="omega">My Method Is Different</aspect>
+  <aspect type="Concept">Eccentric Inventor of Beautiful Apparatuses</aspect>
+  <aspect type="Mode" mode-name="Science">Master of Lightning*</aspect>
+  <aspect type="Mode" mode-name="Banter">Magnetic Charm</aspect>
+  <aspect type="Mode" mode-name="Action"/>
+  <aspect type="Omega">My Method Is Different</aspect>
  </aspects>
  <skills>
   <mode rating="3" name="Science">
@@ -47,7 +47,7 @@
   </stunt>
  </stunts>
  <consequences>
-  <consequence severity="mild">mild one</consequence>
+  <consequence severity="Mild">mild one</consequence>
  </consequences>
  <experiences>
   <experience>experience1: this is longer than the others</experience>
