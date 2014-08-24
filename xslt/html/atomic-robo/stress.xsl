@@ -8,10 +8,10 @@
  <xsl:template name="calculate-stress">
   <xsl:param name="stressType"/>
   <xsl:variable name="matchingModeCount">
-   <xsl:value-of select="count(/character/skills/mode[@stress-bonus=$stressType])"/>
+   <xsl:value-of select="count(/character/skills/mode[@stress-type=$stressType])"/>
   </xsl:variable>
   <xsl:variable name="matchingModeRatingsSum">
-   <xsl:value-of select="sum(/character/skills/mode[@stress-bonus=$stressType]/@rating)"/>
+   <xsl:value-of select="sum(/character/skills/mode[@stress-type=$stressType]/@rating)"/>
   </xsl:variable>
   <xsl:value-of select="2 + $matchingModeRatingsSum - $matchingModeCount"/>
  </xsl:template>
