@@ -20,7 +20,7 @@
       <!ELEMENT mode (skill*)>
       <!ATTLIST mode name   CDATA #REQUIRED>
       <!ATTLIST mode rating CDATA #REQUIRED>
-      <!ATTLIST mode stress-type (mental|physical) #IMPLIED>
+      <!ATTLIST mode stress-type (mental|physical|split) #IMPLIED>
         <!ELEMENT skill (#PCDATA)>
         <!ATTLIST skill name   CDATA #REQUIRED>
         <!ATTLIST skill rating CDATA #IMPLIED>

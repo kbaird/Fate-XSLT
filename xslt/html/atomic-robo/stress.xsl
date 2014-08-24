@@ -11,7 +11,13 @@
    <xsl:value-of select="count(/character/skills/mode[@stress-type=$stressType])"/>
   </xsl:variable>
   <xsl:variable name="matchingModeRatingsSum">
-   <xsl:value-of select="sum(/character/skills/mode[@stress-type=$stressType]/@rating)"/>
+   <xsl:variable name="matchingModeRatingsPure">
+    <xsl:value-of select="sum(/character/skills/mode[@stress-type=$stressType]/@rating)"/>
+   </xsl:variable>
+   <xsl:variable name="matchingModeRatingsSplit">
+    <xsl:value-of select="floor(sum(/character/skills/mode[@stress-type='split']/@rating) div 2)"/>
+   </xsl:variable>
+    <xsl:value-of select="$matchingModeRatingsPure + $matchingModeRatingsSplit"/>
   </xsl:variable>
   <xsl:value-of select="2 + $matchingModeRatingsSum - $matchingModeCount"/>
  </xsl:template>
