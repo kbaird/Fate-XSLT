@@ -20,18 +20,11 @@
       <!ELEMENT mode (skill*)>
       <!ATTLIST mode name   CDATA #REQUIRED>
       <!ATTLIST mode rating CDATA #REQUIRED>
-      <!ELEMENT skill (#PCDATA)>
-      <!ATTLIST skill name   CDATA #REQUIRED>
-      <!ATTLIST skill rating CDATA #IMPLIED>
-      <!ATTLIST skill add    CDATA #IMPLIED>
-
-    <!ELEMENT stress (#PCDATA)>
-      <!--
-        If we use Skill Modes, it gets very difficult to calculate stress boxes.
-        It might be MVP to just declare the box count in the XML & be done w/it.
-      -->
-      <!ATTLIST stress physical CDATA #REQUIRED>
-      <!ATTLIST stress mental   CDATA #REQUIRED>
+      <!ATTLIST mode stress-type (mental|physical) #IMPLIED>
+        <!ELEMENT skill (#PCDATA)>
+        <!ATTLIST skill name   CDATA #REQUIRED>
+        <!ATTLIST skill rating CDATA #IMPLIED>
+        <!ATTLIST skill add    CDATA #IMPLIED>
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
