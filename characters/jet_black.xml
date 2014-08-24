@@ -48,7 +48,7 @@
   <gadget page="xx" name="The Amazing Jet Pack">various upgrades, more upgrades, etc.</gadget>
  </gadgets>
  <consequences>
-  <consequence severity="mild">mild one</consequence>
+  <consequence severity="Mild">mild one</consequence>
  </consequences>
  <phases>
   <phase num="1" type="background">

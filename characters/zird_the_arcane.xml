@@ -10,8 +10,8 @@
  <refresh>2</refresh>
  <current-fate-points>2</current-fate-points>
  <aspects>
-  <aspect type="high-concept">Wizard for Hire</aspect>
-  <aspect type="trouble">Rivals in the Collegia Arcana</aspect>
+  <aspect type="High-Concept">Wizard for Hire</aspect>
+  <aspect type="Trouble">Rivals in the Collegia Arcana</aspect>
   <aspect phase-num="1">If I Haven't Been There, I've Read About It</aspect>
   <aspect phase-num="2">Not The Face!</aspect>
   <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
@@ -51,7 +51,7 @@
   </stunt>
  </stunts>
  <consequences>
-  <consequence severity="mild">mild one</consequence>
+  <consequence severity="Mild">mild one</consequence>
  </consequences>
  <phase-trio>
   <phase num="1">

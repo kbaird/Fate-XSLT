@@ -14,11 +14,11 @@
  <refresh>3</refresh>
  <current-fate-points>3</current-fate-points>
  <aspects>
-  <aspect type="portrayal">Youthful Martial Arts Master</aspect>
-  <aspect type="background">I Grew Up On the Streets of Kausao City</aspect>
-  <aspect type="inciting-incident">Witnessed a Martial Arts Duel</aspect>
-  <aspect type="belief">I Have Sacrificed Too Much to Stop Now</aspect>
-  <aspect type="trouble">Never Able to Cut Loose</aspect>
+  <aspect type="Portrayal">Youthful Martial Arts Master</aspect>
+  <aspect type="Background">I Grew Up On the Streets of Kausao City</aspect>
+  <aspect type="Inciting-Incident">Witnessed a Martial Arts Duel</aspect>
+  <aspect type="Belief">I Have Sacrificed Too Much to Stop Now</aspect>
+  <aspect type="Trouble">Never Able to Cut Loose</aspect>
  </aspects>
  <professions>
   <profession rating="0" name="Aristocrat"/>
@@ -46,7 +46,7 @@
     <flaw type="Troubling" effect="It's Illegal to Own a Guardsman's Blade"/>
    </flaws>
   </asset>
-  <asset cost="1" guiding-aspect="portrayal" name="Jirai Mastery" type="Technique">
+  <asset cost="1" guiding-aspect="Portrayal" name="Jirai Mastery" type="Technique">
    <features>
     <feature type="Focus" effect="Fighter +2"/>
    </features>
@@ -56,6 +56,6 @@
   </asset>
  </assets>
  <consequences>
-  <consequence severity="mild">mild one</consequence>
+  <consequence severity="Mild">mild one</consequence>
  </consequences>
 </character>
