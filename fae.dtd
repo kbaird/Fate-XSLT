@@ -12,11 +12,11 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (high-concept|trouble) #IMPLIED>
+      <!ATTLIST aspect type (High-Concept|Trouble) #IMPLIED>
 
     <!ELEMENT approaches (approach*)>
       <!ELEMENT approach (#PCDATA)>
-      <!ATTLIST approach name (careful|clever|flashy|forceful|quick|sneaky) #REQUIRED>
+      <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
       <!ATTLIST approach rating CDATA #REQUIRED>
 
     <!ELEMENT stunts (stunt*)>
@@ -26,5 +26,5 @@
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (mild|moderate|severe) #REQUIRED>
+        <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
 

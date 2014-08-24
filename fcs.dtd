@@ -12,7 +12,7 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (high-concept|trouble) #IMPLIED>
+      <!ATTLIST aspect type (High-Concept|Trouble) #IMPLIED>
       <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
     <!ELEMENT skills (mode*, skill*)>
@@ -34,7 +34,7 @@
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
+        <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
     <!ELEMENT hacks (#PCDATA)>
       <!ATTLIST hacks conditions  (true|false) #IMPLIED> <!-- Fate System Toolkit     -->

@@ -13,7 +13,7 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (high-concept|trouble) #IMPLIED>
+      <!ATTLIST aspect type (High-Concept|trouble) #IMPLIED>
 
     <!ELEMENT skills (skill*)>
       <!ELEMENT skill (#PCDATA)>
@@ -31,6 +31,6 @@
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (mild|moderate|severe|mild-physical|mild-mental) #REQUIRED>
+        <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
     <!ELEMENT gear (#PCDATA)>
