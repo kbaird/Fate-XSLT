@@ -54,3 +54,6 @@ table#skills tbody tr td {
   table#skills tbody tr td ul {
     line-height: 1.1em;
     margin-left: -1.9em; }
+    table#skills tbody tr td ul li {
+      margin-right: -0.2em;
+      padding-right: -0.2em; }
