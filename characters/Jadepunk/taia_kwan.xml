@@ -1,6 +1,6 @@
 <?xml version = '1.0'?>
-<?xml-stylesheet type="text/xsl" href="../xslt/jadepunk_html.xsl"?>
-<!DOCTYPE jadepunk SYSTEM "../jadepunk.dtd">
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE jadepunk SYSTEM "jadepunk.dtd">
 <character>
  <id>
   <charname>Taia Kwan</charname>

@@ -1,6 +1,6 @@
 <?xml version = '1.0'?>
-<?xml-stylesheet type="text/xsl" href="../xslt/sotc_html.xsl"?>
-<!DOCTYPE spirit-of-the-century SYSTEM "../sotc.dtd">
+<?xml-stylesheet type="text/xsl" href="../../xslt/sotc_html.xsl"?>
+<!DOCTYPE spirit-of-the-century SYSTEM "sotc.dtd">
 <character>
  <id>
   <charname>Jet Black</charname>

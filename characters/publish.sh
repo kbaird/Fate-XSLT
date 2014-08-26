@@ -9,6 +9,7 @@ fi
 
 for file in $@; do
   bname=$(basename $file)
+  dname=$(dirname $file)
   base=${bname%.*}
-  xsltproc -o ../out/$base.html $file
+  xsltproc -o ../out/$dname/$base.html $file
 done
