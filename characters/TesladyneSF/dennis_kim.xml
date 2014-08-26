@@ -1,6 +1,6 @@
 <?xml version = '1.0'?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
-<!DOCTYPE atomic-robo SYSTEM "../../atomic-robo.dtd">
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
  <id>
   <charname>Dennis Kim</charname>
