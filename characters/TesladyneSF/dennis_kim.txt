@@ -1,0 +1,47 @@
+Name: Dennis Kim
+Affiliation: Tesladyne
+Description: 22-year old, scruffy, Phish T-shirt, acoustic guitar
+  http://bigbangtheory.wikia.com/wiki/Dennis_Kim
+
+                      Aspects
+
+Concept:               Brilliant Stoner Resident Scientist
+Science Mode Aspect:   Literally Plays 11-Dimensional Chess
+Banter Mode Aspect:    Abrasive Boy Genius Who Mellowed Out (Mostly)
+Intrigue Mode Aspect:  Smuggled My Grandfather Out of North Korea
+Omega Aspect:          Youngest Recipient of the Stevenson Award
+
+
+Modes and Skills
+
+Good (+3) Science
+Specialized at +5
+* Higher-Dimensional Math
+* Notice
+* Theoretical Physics
+
+Focused at +4
+* Will
+
+Trained at +3
+* Pharmacology
+* (all other Sciences)
+
+Fair (+2) Banter
+Focused at +3
+* Contacts
+* Deceive
+* Provoke
+
+Trained at +2
+* Empathy
+* Rapport
+
+Average (+1) Intrigue
+Trained at +1
+* Athletics
+* Burglary
+* Stealth
+
+Physical Stress 2
+Mental Stress 5
