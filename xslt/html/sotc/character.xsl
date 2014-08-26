@@ -17,15 +17,15 @@
      <tr>
       <td width="55%">
        <xsl:apply-templates select="id"/>
+      </td>
+      <td width="45%" id="fate-logo">
+       <span id="sotc-logo">Spirit of the Century</span>
        <table>
         <tr>
          <xsl:call-template name="refresh"/>
          <xsl:call-template name="current-fate-points"/>
         </tr>
        </table>
-      </td>
-      <td width="45%" id="fate-logo">
-       <span id="sotc-logo">Spirit of the Century</span>
       </td>
      </tr>
     </table>
@@ -34,7 +34,6 @@
      <tr>
       <td rowspan="2" width="40%">
        <xsl:apply-templates select="aspects"/>
-       <xsl:apply-templates select="gadgets"/>
       </td>
       <td width="60%">
        <xsl:apply-templates select="skills">
@@ -43,11 +42,8 @@
          <xsl:value-of select="false"/>
         </xsl:with-param>
        </xsl:apply-templates>
-      </td>
-     </tr>
-     <tr>
-      <td width="60%">
        <xsl:apply-templates select="stunts"/>
+       <xsl:apply-templates select="gadgets"/>
       </td>
      </tr>
     </table>
