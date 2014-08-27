@@ -48,6 +48,19 @@
   </mode>
  </skills>
  <stunts>
+  <stunt name="Well-Earned Arrogance">
+   +2 to Attack with Provoke when belittling or insulting the target [ARRPG269]
+  </stunt>
+  <stunt name="String Theory is a Dead End">
+   +2 to Create an Advantage with Theoretical Physics when critiquing another's work
+  </stunt>
+  <stunt name="Wunderkind">
+   +2 when using Theoretical Physics during a Brainstorm
+  </stunt>
+  <stunt name="Dime Bag">
+   +2 to Create an Advantage with Contacts among stoners
+  </stunt>
+  <stunt name=" ">TBD</stunt>
  </stunts>
  <consequences>
  </consequences>
