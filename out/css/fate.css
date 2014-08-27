@@ -32,9 +32,9 @@ dl {
 em.phase-aspect {
   font: oblique small-caps 1.2em 900 Cabin, Padauk, Montserrat; }
 
-fieldset#affiliation, fieldset #description {
+fieldset#affiliation, fieldset#description {
   line-height: 1.1em; }
-fieldset#affiliation, fieldset #description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
+fieldset#affiliation, fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
   padding-left: 11em;
   position: relative;
   text-align: left; }
