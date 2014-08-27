@@ -24,7 +24,7 @@
  <skills>
   <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
    <skill name="Civil Engineering"      add="2"/> <!-- Spec 1 Trained from Science Mode -->
-   <skill name="Communications Systems" add="1"/> <!-- Focus 1 Trained from Science Mode -->
+   <skill name="Electrical Engineering" add="1"/> <!-- Focus 1 Trained from Science Mode -->
    <skill name="Notice"/>
    <skill name="Will"/>
    <skill name="(all other Sciences)"/>
