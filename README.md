@@ -20,12 +20,14 @@ Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various Fate-based g
 
 Store character files in the `characters` directory, and execute via
 
-    ./publish.sh some_character_file.xml
+    ./publish.sh some_path_to_a_character_file.xml
 
 which depends on a default XSL stylesheet being defined in the given XML document.
 The sample characters demonstrate this.
 
-Output (currently just HTML) is rendered into the `out` directory.
+Output (currently just HTML) is rendered into the `out` directory, preserving any
+subdirectories.
+
 Validation is also available:
 
     ./validate.sh some_file.dtd some_character_file.xml other_character_file.xml
