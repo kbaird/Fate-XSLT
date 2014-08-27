@@ -1,6 +1,6 @@
 <?xml version = '1.0'?>
-<?xml-stylesheet type="text/xsl" href="../xslt/atomic-robo_html.xsl"?>
-<!DOCTYPE atomic-robo SYSTEM "../atomic-robo.dtd">
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
  <id>
   <charname>TBD</charname>
@@ -23,6 +23,11 @@
   Add MODES
  </skills>
  <stunts>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
  </stunts>
  <consequences>
  </consequences>
