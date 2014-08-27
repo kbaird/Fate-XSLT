@@ -18,7 +18,7 @@
        <xsl:apply-templates select="id"/>
       </td>
       <td width="30%" id="fate-logo">
-       <span id="fate"><img src="./jadepunk.jpg"/></span>
+       <span id="fate"><img id="jadepunk-logo" src="./jadepunk.jpg"/></span>
        <table>
         <tr>
          <xsl:call-template name="refresh"/>
