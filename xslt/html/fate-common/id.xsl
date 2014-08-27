@@ -32,7 +32,7 @@
    <tr>
     <td>
      <xsl:if test="affiliation">
-      <fieldset id="description">
+      <fieldset id="affiliation">
        <legend class="label">
         <span>Affiliation</span>
        </legend>

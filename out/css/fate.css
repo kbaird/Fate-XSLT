@@ -32,9 +32,9 @@ dl {
 em.phase-aspect {
   font: oblique small-caps 1.2em 900 Cabin, Padauk, Montserrat; }
 
-fieldset#description {
+fieldset#affiliation, fieldset #description {
   line-height: 1.1em; }
-fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
+fieldset#affiliation, fieldset #description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt {
   padding-left: 11em;
   position: relative;
   text-align: left; }
@@ -48,7 +48,7 @@ fieldset#name {
   height: 1.1em;
   padding-top: 0.5em;
   vertical-align: text-bottom; }
-fieldset.aspect legend.label, fieldset#description legend.label, fieldset#name legend.label {
+fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#name legend.label {
   color: #666666;
   font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.consequence {

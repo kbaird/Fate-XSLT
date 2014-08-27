@@ -33,9 +33,9 @@ em.phase-aspect
   font: oblique small-caps 1.2em 900 $basic_font
 
 fieldset
-  &#description
+  &#affiliation, #description
     line-height: 1.1em
-  &#description, &#name, &.aspect, &.consequence, &.phase, &.stunt
+  &#affiliation, #description, &#name, &.aspect, &.consequence, &.phase, &.stunt
     +fieldset_item
   &.aspect
     span.content
@@ -43,7 +43,7 @@ fieldset
     +fieldset_innards
   &#name
     +fieldset_innards
-  &.aspect legend.label, &#description legend.label, &#name legend.label
+  &.aspect legend.label, &#affiliation legend.label, &#description legend.label, &#name legend.label
     color: $label_color
     +label_font
   &.consequence
