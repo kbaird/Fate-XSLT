@@ -5,7 +5,7 @@
  <id>
   <charname>Heather Dorsey</charname>
   <playername>Jennifer Cornish</playername>
-  <affiliation>Tesladyne's SF office</affiliation>
+  <affiliation>Tesladyne SF (Action Scientist PC)</affiliation>
   <description>
     TBD<!--
          I suggested to Jenn that Heather might've gone to the
@@ -46,6 +46,11 @@
   </mode>
  </skills>
  <stunts>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
  </stunts>
  <consequences>
  </consequences>
