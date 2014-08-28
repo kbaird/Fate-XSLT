@@ -5,7 +5,7 @@
  <id>
   <charname>Frank Rogers</charname>
   <playername>Michael Wood</playername>
-  <affiliation>Tesladyne's SF office</affiliation>
+  <affiliation>Tesladyne SF (Action Scientist PC)</affiliation>
   <description>
     TBD
   </description>
@@ -47,6 +47,11 @@
   </mode>
  </skills>
  <stunts>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">TBD</stunt>
  </stunts>
  <consequences>
  </consequences>
@@ -55,16 +60,5 @@
   <experience/>
   <experience/>
  </experiences>
- <notes>
-  Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
-  * Specialize one trained skill.
-  * Focus one trained skill and specialize one focused skill.
-  * Focus three trained skills.
-
-  If one of your modes is Science, however, choose ONE improvement from the Everyone list,
-  and also apply ALL of the following improvements:
-  * Specialize one trained skill.
-  * Focus one trained skill.
-  * Specialize one focused skill.
- </notes>
+ <notes/>
 </character>
