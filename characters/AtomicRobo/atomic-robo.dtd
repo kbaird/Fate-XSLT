@@ -25,6 +25,7 @@
         <!ATTLIST skill name   CDATA #REQUIRED>
         <!ATTLIST skill rating CDATA #IMPLIED>
         <!ATTLIST skill add    CDATA #IMPLIED>
+        <!ATTLIST skill cost   CDATA #IMPLIED> <!-- For Weird calculations -->
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
