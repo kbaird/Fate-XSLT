@@ -3,7 +3,7 @@
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
  <id>
-  <charname>Frank Rogers</charname>
+  <charname>Frank Rogers (Special Agent)</charname>
   <playername>Michael Wood</playername>
   <affiliation>Tesladyne SF (Action Scientist PC)</affiliation>
   <description>
@@ -16,8 +16,8 @@
   <aspect type="Concept">TBD</aspect>
   <aspect type="Mode" mode-name="Telepath">TBD</aspect>
   <aspect type="Mode" mode-name="Martial Artist">TBD</aspect>
-  <aspect type="Mode" mode-name="Action">The Batman of Human Resources</aspect>
-  <aspect type="Omega">TBD</aspect>
+  <aspect type="Mode" mode-name="Special Agent">TBD</aspect>
+  <aspect type="Omega">The Batman of Human Resources</aspect>
  </aspects>
  <skills>
   <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
@@ -37,21 +37,61 @@
    <skill name="Stealth"/>
    <skill name="Will"/>
   </mode>
-  <mode rating="1" name="Action">
-   <skill name="Athletics"/>
-   <skill name="Combat"/>
-   <skill name="Notice"/>
-   <skill name="Physique"/>
-   <skill name="Provoke"/>
-   <skill name="Vehicles"/>
+  <mode rating="1" name="Special Agent"> <!-- ARRPG pg276 -->
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+   <skill name="Vehicles"  cost="2"/>
+   <skill name="Will"      cost="1"/>
   </mode>
  </skills>
  <stunts>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
+  <stunt name="Biofeedback">
+   You are capable of using your psionic powers to enhance your physical
+   capabilities for a short time. You must make an Overcome roll to enter the
+   proper trance state for this power, and anyone who can reasonably disrupt
+   your concentration may oppose you. (Alternately, you may take a Mild
+   Consequence to automatically succeed.)
+   If you succeed, you may raise Athletics OR Physique by +2 for the remainder
+   of the scene, with all the benefits of doing so (which could mean more
+   stress boxes and whatnot). If you succeed with style, you may raise BOTH.
+   --DAR33
+  </stunt>
+  <stunt name="Borrowed Knowledge">
+   Pick another character (PC or NPC) who's in the scene with you. You can use
+   one of their skills for one roll in this scene, whether it's a skill you
+   already have or not. When you do this, pay that character a fate point.
+  </stunt>
+  <stunt name="Iron Robe Technique">
+   Armor: 2
+  </stunt>
+  <stunt name="Lightning Reflexes">
+   In a physical conflict, you always act first. If someone else in the
+   conflict has a stunt that gives them the same ability, make an Athletics
+   roll to see who goes first.
+  </stunt>
+  <stunt name="Mind Reader">
+   When you use Empathy to create an advantage by discovering another
+   character's aspects, you don't need to speak with them and it takes
+   virtually no time.
+  </stunt>
+  <stunt name="One With Everything">
+   Use Will to create an advantage through meditation or
+   focus when you have a moment to breathe and concentrate.
+  </stunt>
+  <stunt name="Remote Viewing">
+   Pick a character you’ve met (PC or NPC), whether or not they’re in the scene
+   with you. You can briefly perceive using their senses instead of your own.
+   The clarity of your perception will depend on the distance involved and how
+   well you know the other character. For example, if you’re seeing through the
+   eyes of your brother in the next room, it’ll be crystal clear. If you’re
+   seeing through the eyes of a Majestic 12 guard several miles away with whom
+   you spoke a few days ago, it’ll be blurry and unreliable.
+  </stunt>
+  <stunt name="Versatile Will">
+   Switch ANY skill with Will once per scene
+  </stunt>
  </stunts>
  <consequences>
  </consequences>
