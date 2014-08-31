@@ -1,4 +1,5 @@
-  Regardless of what modes you have, if they're all standard modes you get one of the following improvements:
+  Regardless of what modes you have, if they're all standard modes you get ONE
+  of the following improvements:
   * Specialize one trained skill.
   * Focus one trained skill and specialize one focused skill.
   * Focus three trained skills.

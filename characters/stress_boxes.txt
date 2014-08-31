@@ -1,10 +1,14 @@
-Modes with Athletics or Physique can give your character additional physical stress boxes, while modes with Provoke or Will can give
-your character additional mental stress boxes. A mode with one or more of these skills rated at Fair (+2) adds one box, while one
-rated at Good (+3) adds two boxes.
+Modes with Athletics or Physique can give your character additional physical
+stress boxes, while modes with Provoke or Will can give your character
+additional mental stress boxes. A mode with one or more of these skills rated
+at Fair (+2) adds one box, while one rated at Good (+3) adds two boxes.
 
-If a mode has skills that apply to both types, the bonus boxes can apply to either one. For example, the Action mode has Athletics,
-Physique, and Provoke. If you've given it a rating of Good (+3), you could have two more physical stress boxes, two more mental stress
-boxes, or one in each.
+If a mode has skills that apply to both types, the bonus boxes can apply to
+either one. For example, the Action mode has Athletics, Physique, and Provoke.
+If you've given it a rating of Good (+3), you could have two more physical
+stress boxes, two more mental stress boxes, or one in each.
 
-Bonus stress boxes from your Good (+3) and Fair (+2) modes are cumulative. So if you have Good (+3) Action and Fair (+2) Intrigue, both
-of which have the Athletics skill, you can get three more physical stress boxes—two from Action and one from Intrigue.
+Bonus stress boxes from your Good (+3) and Fair (+2) modes are cumulative. So
+if you have Good (+3) Action and Fair (+2) Intrigue, both of which have the
+  Athletics skill, you can get three more physical stress boxes—two from Action
+  and one from Intrigue.
