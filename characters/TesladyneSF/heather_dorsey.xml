@@ -23,26 +23,26 @@
   <aspect type="Omega">TBD</aspect>
  </aspects>
  <skills>
-  <mode rating="3" name="Science" stress-type="mental">
-   <skill name="Notice"/>
-   <skill name="Will"/>
-   <skill name="(all other Sciences)"/>
+  <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+   <skill name="Notice"               cost="1"/>
+   <skill name="Will"                 cost="1"/>
+   <skill name="(all other Sciences)" cost="1"/>
   </mode>
-  <mode rating="2" name="Intrigue" stress-type="physical">
-   <skill name="Athletics"/>
-   <skill name="Burglary"/>
-   <skill name="Contacts"/>
-   <skill name="Deceive"/>
-   <skill name="Notice"/>
-   <skill name="Stealth"/>
+  <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Burglary"  cost="1"/>
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Stealth"   cost="2"/>
   </mode>
-  <mode rating="1" name="Action">
-   <skill name="Athletics"/>
-   <skill name="Combat"/>
-   <skill name="Notice"/>
-   <skill name="Physique"/>
-   <skill name="Provoke"/>
-   <skill name="Vehicles"/>
+  <mode rating="1" name="Action"> <!-- ARRPG pg82 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+   <skill name="Provoke"   cost="1"/>
+   <skill name="Vehicles"  cost="2"/>
   </mode>
  </skills>
  <stunts>
