@@ -21,21 +21,21 @@
  </aspects>
  <skills>
   <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
-   <skill name="Deceive"/>
-   <skill name="Empathy"/>
+   <skill name="Deceive"        cost="2"/>
+   <skill name="Empathy"        cost="3"/>
+   <skill name="Hallucinations" cost="2"/>
    <!-- OR Focus 1 Trained Skill instead of Hallucinations -->
-   <skill name="Hallucinations"/>
-   <skill name="Provoke"/>
-   <skill name="Rapport"/>
-   <skill name="Will"/>
+   <skill name="Provoke"        cost="1"/>
+   <skill name="Rapport"        cost="1"/>
+   <skill name="Will"           cost="1"/>
   </mode>
   <mode rating="2" name="Martial Artist" stress-type="physical"> <!-- ARRPG pg88 -->
-   <skill name="Athletics"/>
-   <skill name="Combat"/>
-   <skill name="Notice"/>
-   <skill name="Physique"/>
-   <skill name="Stealth"/>
-   <skill name="Will"/>
+   <skill name="Athletics" cost="2"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+   <skill name="Will"      cost="1"/>
   </mode>
   <mode rating="1" name="Special Agent"> <!-- ARRPG pg276 -->
    <skill name="Contacts"  cost="1"/>
