@@ -41,11 +41,10 @@
     <hr />
     <table>
      <tr>
-      <td width="40%">
+      <td width="36%">
        <xsl:apply-templates select="aspects"/>
-       <xsl:apply-templates select="experiences"/>
       </td>
-      <td width="60%">
+      <td width="64%">
        <xsl:apply-templates select="skills">
         <xsl:with-param name="useSkillModes">
          <xsl:value-of select="$useSkillModes"/>
@@ -55,7 +54,8 @@
      </tr>
     </table>
     <hr />
-     <xsl:call-template name="experiences-explanation"/>
+    <xsl:apply-templates select="experiences"/>
+    <xsl:call-template name="experiences-explanation"/>
     <hr />
     <table>
      <tr>
