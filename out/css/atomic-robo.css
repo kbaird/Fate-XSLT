@@ -19,8 +19,7 @@ fieldset.experience {
   position: relative;
   text-align: left;
   clear: none;
-  float: left;
-  width: 215%; }
+  float: left; }
   fieldset.experience.used {
     color: #666666;
     text-decoration: line-through; }
