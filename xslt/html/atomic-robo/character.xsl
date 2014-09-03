@@ -41,10 +41,10 @@
     <hr />
     <table>
      <tr>
-      <td width="36%">
+      <td width="40%">
        <xsl:apply-templates select="aspects"/>
       </td>
-      <td width="64%">
+      <td width="60%">
        <xsl:apply-templates select="skills">
         <xsl:with-param name="useSkillModes">
          <xsl:value-of select="$useSkillModes"/>
