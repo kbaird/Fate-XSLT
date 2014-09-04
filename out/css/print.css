@@ -1,4 +1,4 @@
-@media print and (-webkit-min-device-pixel-ratio:0) {
+@media print and (-webkit-min-device-pixel-ratio: 0) {
   fieldset.experience {
     width: 70%; }
 
@@ -44,5 +44,4 @@
 
   .sectionheader {
     margin: 0;
-    padding: 0; }
-}
+    padding: 0; } }
