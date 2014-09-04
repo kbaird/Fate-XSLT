@@ -3,7 +3,7 @@
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
  <id>
-  <charname>Frank Rogers (Special Agent)</charname>
+  <charname>Frank Rogers (HR)</charname>
   <playername>Michael Wood</playername>
   <affiliation>Tesladyne SF (Action Scientist PC)</affiliation>
   <description>
@@ -16,8 +16,10 @@
   <aspect type="Concept">TBD</aspect>
   <aspect type="Mode" mode-name="Telepath">TBD</aspect>
   <aspect type="Mode" mode-name="Martial Artist">TBD</aspect>
-  <aspect type="Mode" mode-name="Special Agent">TBD</aspect>
-  <aspect type="Omega">The Batman of Human Resources</aspect>
+  <aspect type="Mode" mode-name="Human Resources">
+   The Batman of Human Resources
+  </aspect>
+  <aspect type="Omega">TBD</aspect>
  </aspects>
  <skills>
   <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
@@ -37,12 +39,12 @@
    <skill name="Stealth"   cost="2"/>
    <skill name="Will"      cost="1"/>
   </mode>
-  <mode rating="1" name="Special Agent"> <!-- ARRPG pg276 -->
+  <mode rating="1" name="Human Resources">
    <skill name="Contacts"  cost="1"/>
    <skill name="Deceive"   cost="2"/>
+   <skill name="Empathy"   cost="3"/>
    <skill name="Notice"    cost="1"/>
-   <skill name="Stealth"   cost="2"/>
-   <skill name="Vehicles"  cost="2"/>
+   <skill name="Rapport"   cost="2"/>
    <skill name="Will"      cost="1"/>
   </mode>
  </skills>
