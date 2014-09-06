@@ -9,10 +9,10 @@ div#id                    { float: left;  width: 70% }
 div#fate-logo             { float: right; width: 30% }
 div#aspects               { float: left;  width: 47% }
 div#skills                { float: right; width: 53% }
-div#stress                { float: left;  width: 40% }
-div#consequences          { float: right; width: 60% }
-table#experiences         { float: left;  width: 70% }
-p#experiences-explanation { float: right; width: 30% }
+div#stress                { float: left;  width: 30% }
+div#consequences          { float: right; width: 70% }
+table#experiences         { float: left;  width: 75% }
+p#experiences-explanation { float: right; width: 25% }
 div#notes                 { float: left; width: 100% }
 
 dl {
