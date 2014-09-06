@@ -22,30 +22,3 @@
 
   div#notes { font-size: 0.5em }
 
-/*
-  hr, table {
-    margin-top: -0.4em; }
-
-  table tbody tr td table tbody tr td fieldset,
-  table tbody tr th,
-  body pre, dl dt, dl dd,
-  table#stress tbody tr td,
-  table#freeport-skills tbody tr td dl.approaches dt, table#freeport-skills tbody tr td dl.approaches dd, table#professions tbody tr td dl.approaches dt, table#professions tbody tr td dl.approaches dd {
-    font-size: 0.5em; }
-
-  table#skills tbody tr td,
-  table#skills tbody tr td ul {
-    height: 8px;
-    line-height: 7px;
-    margin-top: -5px;
-    padding-bottom: 5px;
-    padding-left: -25px;
-    padding-top: -10px; }
-
-  ul#skill-explanation {
-    margin: 0; }
-
-  .sectionheader {
-    margin: 0;
-    padding: 0; } }
-*/
