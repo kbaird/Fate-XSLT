@@ -1,59 +1,18 @@
-fieldset.phase {
-  margin-bottom: 0.3em;
-  padding-top: 3.4em;
-  text-align: left; }
-  fieldset.phase legend.label {
-    height: 2em; }
-    fieldset.phase legend.label span.aspects {
-      font-family: Cabin, Padauk, Montserrat;
-      font-size: 0.9em;
-      padding-top: 1.5em; }
-    fieldset.phase legend.label span.phase-title {
-      color: black;
-      font: normal small-caps 1.15em bolder Cabin, Padauk, Montserrat; }
+fieldset.phase { margin-bottom: 0.3em; padding-top: 3.4em; text-align: left; }
+fieldset.phase legend.label { height: 2em; }
+fieldset.phase legend.label span.aspects { font-family: Cabin, Padauk, Montserrat; font-size: 0.9em; padding-top: 1.5em; }
+fieldset.phase legend.label span.phase-title { color: black; font: normal small-caps 1.15em bolder Cabin, Padauk, Montserrat; }
 
-table td p {
-  font-family: Cabin, Padauk, Montserrat; }
-table#skills tr th.mode-rating {
-  border: 0px;
-  color: #aaaaaa;
-  font-family: Cabin, Padauk, Montserrat;
-  font-weight: bolder;
-  height: 2.3em;
-  padding-right: 0.75em;
-  padding-top: 0.6em;
-  text-align: right;
-  width: 4%; }
-table#skills tr th.rating {
-  border: 0px;
-  color: #aaaaaa;
-  font-family: Cabin, Padauk, Montserrat;
-  font-weight: bolder;
-  height: 2.3em;
-  padding-right: 0.75em;
-  padding-top: 0.6em;
-  text-align: right;
-  width: 12.5%; }
-table#skills tr td {
-  border: 3px solid black;
-  font: oblique small-caps 1em bold "Walter Turncoat";
-  height: 2.3em;
-  padding-top: 0.36em;
-  width: 17.5%; }
-  table#skills tr td.unused {
-    border: 0; }
-  table#skills tr td ul li {
-    display: inline; }
-  table#skills tr td ul li + li:before {
-    content: ", "; }
-table#stress td {
-  padding: 0.4em; }
+table td p { font-family: Cabin, Padauk, Montserrat; }
+table#skills tr th.mode-rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 4%; }
+table#skills tr th.rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 12.5%; }
+table#skills tr td { border: 3px solid black; font: oblique small-caps 1em bold "Walter Turncoat"; height: 2.3em; padding-top: 0.36em; width: 17.5%; }
+table#skills tr td.unused { border: 0; }
+table#skills tr td ul li { display: inline; }
+table#skills tr td ul li + li:before { content: ", "; }
+table#stress td { padding: 0.4em; }
 
-ul#skill-explanation li {
-  display: inline; }
-ul#skill-explanation li + li:before {
-  content: ", "; }
+ul#skill-explanation li { display: inline; }
+ul#skill-explanation li + li:before { content: ", "; }
 
-.Freeport {
-  color: blue;
-  font: oblique small-caps 1em bold TeXGyreGallega; }
+.Freeport { color: blue; font: oblique small-caps 1em bold TeXGyreGallega; }

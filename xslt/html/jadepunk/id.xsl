@@ -9,7 +9,7 @@
     <th colspan="2" class="sectionheader">ID</th>
    </tr>
    <tr>
-    <td>
+    <td colspan="2">
      <fieldset id="name">
       <xsl:choose>
        <xsl:when test="charname/@nickname">
@@ -30,24 +30,18 @@
     </td>
    </tr>
    <tr>
-    <td>
-     <xsl:if test="affiliation">
-      <fieldset id="affiliation">
-       <legend class="label">
-        <span>Affiliation</span>
-       </legend>
-       <xsl:value-of select="affiliation"/>
-      </fieldset>
-     </xsl:if>
-     <xsl:if test="description">
-      <fieldset id="description">
-       <legend class="label">
-        <span>Description</span>
-       </legend>
-       <xsl:value-of select="description"/>
-      </fieldset>
-     </xsl:if>
+    <td colspan="2">
+     <fieldset id="description">
+      <legend class="label">
+       <span>Story</span>
+      </legend>
+      <xsl:value-of select="story"/>
+     </fieldset>
     </td>
+   </tr>
+   <tr>
+    <xsl:call-template name="refresh"/>
+    <xsl:call-template name="current-fate-points"/>
    </tr>
   </table>
  </xsl:template>

@@ -1,16 +1,7 @@
-fieldset.asset dl dt, fieldset.asset dl dd {
-  display: table-row;
-  float: left;
-  margin: 0;
-  padding: 0.2em; }
-fieldset.asset dl dt {
-  font-weight: bolder; }
-fieldset.asset dl dd {
-  border: 0;
-  padding-right: 2.5em; }
+fieldset.asset dl dt, fieldset.asset dl dd { display: table-row; float: left; margin: 0; padding: 0.2em; }
+fieldset.asset dl dt { font-weight: bolder; }
+fieldset.asset dl dd { border: 0; padding-right: 2.5em; }
 
-span#fate {
-  font-size: 3.5em; }
+span#fate { font-size: 3.5em; }
 
-span#fate-subtitle {
-  font-size: 0.8em; }
+span#fate-subtitle { font-size: 0.8em; }

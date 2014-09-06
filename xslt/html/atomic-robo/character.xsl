@@ -20,70 +20,56 @@
     <h1>
      <xsl:value-of select="id/charname"/>
     </h1>
-    <table>
-     <tr>
-      <td width="70%">
-       <xsl:apply-templates select="id"/>
-      </td>
-      <td width="30%" id="fate-logo">
-       <span id="atomic-robo-logo">
-        <img alt="Atomic Robo" src="robo_logo.gif"/>
-       </span>
-       <table>
-        <tr>
-         <xsl:call-template name="current-fate-points"/>
-         <xsl:call-template name="experience-points"/>
-        </tr>
-       </table>
-      </td>
-     </tr>
-    </table>
+    <div id="id">
+     <xsl:apply-templates select="id"/>
+    </div>
+    <div id="fate-logo">
+     <span id="atomic-robo-logo">
+      <img alt="Atomic Robo" src="robo_logo.gif"/>
+     </span>
+     <table>
+      <tr>
+       <xsl:call-template name="current-fate-points"/>
+       <xsl:call-template name="experience-points"/>
+      </tr>
+     </table>
+    </div>
     <hr />
-    <table>
-     <tr>
-      <td width="40%">
-       <xsl:apply-templates select="aspects"/>
-      </td>
-      <td width="60%">
-       <xsl:apply-templates select="skills">
-        <xsl:with-param name="useSkillModes">
-         <xsl:value-of select="$useSkillModes"/>
-        </xsl:with-param>
-       </xsl:apply-templates>
-      </td>
-     </tr>
-    </table>
+    <div id="aspects">
+     <xsl:apply-templates select="aspects"/>
+    </div>
+    <div id="skills">
+     <xsl:apply-templates select="skills">
+      <xsl:with-param name="useSkillModes">
+       <xsl:value-of select="$useSkillModes"/>
+      </xsl:with-param>
+     </xsl:apply-templates>
+    </div>
     <hr />
     <xsl:apply-templates select="experiences"/>
     <xsl:call-template name="experiences-explanation"/>
     <hr />
-    <table>
-     <tr>
-      <td width="100%">
-       <xsl:apply-templates select="stunts" mode="atomic-robo"/>
-      </td>
-     </tr>
-    </table>
+    <div id="stunts">
+     <xsl:apply-templates select="stunts" mode="atomic-robo"/>
+    </div>
     <hr />
-    <table>
-     <tr>
-      <td width="35%">
-       <xsl:call-template name="atomic-robo-stress"/>
-      </td>
-      <td width="65%">
-       <xsl:choose>
-        <xsl:when test="$useConditions='true'">
-         <xsl:call-template name="conditions"/>
-        </xsl:when>
-        <xsl:otherwise>
-         <xsl:call-template name="consequences"/>
-        </xsl:otherwise>
-       </xsl:choose>
-      </td>
-     </tr>
-    </table>
+    <div id="stress">
+     <xsl:call-template name="atomic-robo-stress"/>
+    </div>
+    <div id="consequences">
+     <xsl:choose>
+      <xsl:when test="$useConditions='true'">
+       <xsl:call-template name="conditions"/>
+      </xsl:when>
+      <xsl:otherwise>
+       <xsl:call-template name="consequences"/>
+      </xsl:otherwise>
+     </xsl:choose>
+    </div>
+    <hr />
+    <div id="notes">
     <xsl:apply-templates select="notes"/>
-    <xsl:call-template name="atomic-robo-copyright"/>
+    </div>
    </body>
   </html>
  </xsl:template>

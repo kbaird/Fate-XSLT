@@ -12,15 +12,14 @@
 </head>
 <body>
 <h1>Nikola Tesla</h1>
-<table><tr>
-<td width="70%"><table border="1">
+<div id="id"><table border="1">
 <tr><th colspan="2" class="sectionheader">ID</th></tr>
 <tr><td><fieldset id="name">
 <legend class="label"><span>Name</span></legend>Nikola Tesla</fieldset></td></tr>
 <tr><td><fieldset id="affiliation">
 <legend class="label"><span>Affiliation</span></legend>Westinghouse Electric</fieldset></td></tr>
-</table></td>
-<td width="30%" id="fate-logo">
+</table></div>
+<div id="fate-logo">
 <span id="atomic-robo-logo"><img alt="Atomic Robo" src="robo_logo.gif"></span><table><tr>
 <td><dl id="current-fate-points">
 <dt>Current <acronym title="Fate Points">FP</acronym>:</dt>
@@ -31,12 +30,9 @@
 <dd class="box">0</dd>
 </dl></td>
 </tr></table>
-</td>
-</tr></table>
+</div>
 <hr>
-<table><tr>
-<td width="40%">
-<table border="1" id="aspects">
+<div id="aspects"><table border="1" id="aspects">
 <tr><th colspan="2" class="sectionheader">Aspects</th></tr>
 <tr><td><fieldset class="aspect">
 <legend class="label"><span>Concept</span></legend>Eccentric Inventor of Beautiful Apparatuses</fieldset></td></tr>
@@ -47,19 +43,8 @@
 <tr><td><fieldset class="aspect"><legend class="label"><span>Action Mode</span></legend></fieldset></td></tr>
 <tr><td><fieldset class="aspect">
 <legend class="label"><span>Omega</span></legend>My Method Is Different</fieldset></td></tr>
-</table>
-<table border="1" id="experiences">
-<tr><th colspan="2" class="sectionheader">Experiences</th></tr>
-<tr><td><fieldset class="experience">
-<legend class="label"><span>Experience</span></legend>experience1: this is longer than the others</fieldset></td></tr>
-<tr><td><fieldset class="experience">
-<legend class="label"><span>Experience</span></legend>experience2</fieldset></td></tr>
-<tr><td><fieldset class="experience used">
-<legend class="label"><span>Experience</span></legend>experience3</fieldset></td></tr>
-</table>
-</td>
-<td width="60%">
-<table id="skills">
+</table></div>
+<div id="skills"><table id="skills">
 <tr><th colspan="4" class="sectionheader">Modes and Skills</th></tr>
 <tr>
 <th></th>
@@ -82,7 +67,11 @@
 <li class="specialized">Will</li>
 </ul></td>
 <td class="unused"></td>
-<td class="unused"></td>
+<td class="unused"><ul id="skill-explanation">
+<li class="specialized">specialized</li>
+<li class="focused">focused</li>
+<li>trained</li>
+</ul></td>
 </tr>
 <tr>
 <th class="mode-rating">+4</th>
@@ -118,30 +107,31 @@
 <li class="trained">Vehicles</li>
 </ul></td>
 </tr>
-</table>
-<ul id="skill-explanation">
-<li class="specialized">specialized</li>
-<li class="focused">focused</li>
-<li>trained</li>
-</ul>
-</td>
-</tr></table>
+</table></div>
 <hr>
+<table border="1" id="experiences">
+<tr><th colspan="2" class="sectionheader">Experiences</th></tr>
+<tr><td><fieldset class="experience">
+<legend class="label"><span>Experience</span></legend>experience1: this is longer than the others</fieldset></td></tr>
+<tr><td><fieldset class="experience">
+<legend class="label"><span>Experience</span></legend>experience2</fieldset></td></tr>
+<tr><td><fieldset class="experience used">
+<legend class="label"><span>Experience</span></legend>experience3</fieldset></td></tr>
+</table>
 <p id="experiences-explanation">
    Experiences are Boosts. After invoking an Experience, draw a line through it, but leave it on your character sheet.
    When you erase 3 crossed-out Experiences, you reach a <strong>Major Milestone</strong> (ARRPG227).
   </p>
 <hr>
-<table><tr><td width="100%"><table border="1">
+<div id="stunts"><table border="1">
 <tr><th colspan="2" class="sectionheader">Stunts &amp; Mega-Stunts</th></tr>
 <tr><td><fieldset class="stunt">
 <legend><span>Signature Aspect</span></legend>
     Master of Lightning (invoke once for free, compel at two fate points instead of one)
   </fieldset></td></tr>
-</table></td></tr></table>
+</table></div>
 <hr>
-<table><tr>
-<td width="35%"><table border="1" id="stress">
+<div id="stress"><table border="1" id="stress">
 <tr><th class="sectionheader" colspan="5">Physical Stress</th></tr>
 <tr>
 <td>1</td>
@@ -155,8 +145,8 @@
 <td>4</td>
 <td>5</td>
 </tr>
-</table></td>
-<td width="65%"><table border="1">
+</table></div>
+<div id="consequences"><table border="1">
 <tr><th colspan="2" class="sectionheader">Consequences</th></tr>
 <tr><td>
 <fieldset class="consequence">
@@ -164,10 +154,8 @@
 <fieldset class="consequence"><legend class="severity"><span>Moderate (4):</span></legend></fieldset>
 <fieldset class="consequence"><legend class="severity"><span>Severe (6):</span></legend></fieldset>
 </td></tr>
-</table></td>
-</tr></table>
-<p id="copyright">
-   Atomic Robo RPG Character Sheet ©2014 Evil Hat Productions, LLC.
-  </p>
+</table></div>
+<hr>
+<div id="notes"></div>
 </body>
 </html>
