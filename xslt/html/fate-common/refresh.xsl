@@ -8,7 +8,7 @@
    <dl id="refresh">
     <dt>Refresh:</dt>
     <dd class="box">
-     <xsl:value-of select="refresh"/>
+     <xsl:value-of select="/character/refresh"/>
     </dd>
    </dl>
   </td>

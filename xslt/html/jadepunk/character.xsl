@@ -17,12 +17,6 @@
     </div>
     <div id="fate-logo">
      <span id="fate"><img id="jadepunk-logo" src="./jadepunk.jpg"/></span>
-     <table>
-      <tr>
-       <xsl:call-template name="refresh"/>
-       <xsl:call-template name="current-fate-points"/>
-      </tr>
-     </table>
     </div>
     <hr />
     <div id="aspects">

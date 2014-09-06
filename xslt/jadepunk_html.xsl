@@ -14,8 +14,9 @@
  <xsl:include href="html/fcs/conditions.xsl"/>
  <xsl:include href="html/fcs/consequences.xsl"/>
  <xsl:include href="html/jadepunk/assets.xsl"/>
- <xsl:include href="html/jadepunk/professions.xsl"/>
  <xsl:include href="html/jadepunk/character.xsl"/>
+ <xsl:include href="html/jadepunk/id.xsl"/>
+ <xsl:include href="html/jadepunk/professions.xsl"/>
  <xsl:template match="/">
   <xsl:apply-templates select="character">
    <xsl:with-param name="aspectWidth">
