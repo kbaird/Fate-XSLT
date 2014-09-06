@@ -11,6 +11,8 @@
   span#atomic-robo-logo img { height: 50px; }
   div#notes { font-size: 0.5em; }
   html body div table#freeport-skills tbody tr td dl.approaches, html body div table#professions tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
-  html body div table#freeport-skills tbody tr td dl.approaches dt, html body div table#professions tbody tr td dl.approaches dt { float: left; }
-  html body div table#freeport-skills tbody tr td dl.approaches dd, html body div table#professions tbody tr td dl.approaches dd { float: right; }
-  table#conditions, table#professions { font-size: 0.8em; } }
+  html body div table#freeport-skills tbody tr td dl.approaches dt, html body div table#professions tbody tr td dl.approaches dt { float: left; margin-bottom: -1.3em; margin-top: 0.3em; }
+  html body div table#freeport-skills tbody tr td dl.approaches dd, html body div table#professions tbody tr td dl.approaches dd { float: right; margin-bottom: -1.3em; }
+  table#conditions { font-size: 0.8em; }
+  table#freeport-skills { font-size: 1.1em; }
+  table#professions { font-size: 1em; } }
