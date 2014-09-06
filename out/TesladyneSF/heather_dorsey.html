@@ -12,8 +12,7 @@
 </head>
 <body>
 <h1>Heather Dorsey</h1>
-<table><tr>
-<td width="70%"><table border="1">
+<div id="id"><table border="1">
 <tr><th colspan="2" class="sectionheader">ID</th></tr>
 <tr><td><fieldset id="name">
 <legend class="label"><span>Name</span></legend>Heather Dorsey</fieldset></td></tr>
@@ -25,8 +24,8 @@
     TBD
   </fieldset>
 </td></tr>
-</table></td>
-<td width="30%" id="fate-logo">
+</table></div>
+<div id="fate-logo">
 <span id="atomic-robo-logo"><img alt="Atomic Robo" src="robo_logo.gif"></span><table><tr>
 <td><dl id="current-fate-points">
 <dt>Current <acronym title="Fate Points">FP</acronym>:</dt>
@@ -37,12 +36,9 @@
 <dd class="box">0</dd>
 </dl></td>
 </tr></table>
-</td>
-</tr></table>
+</div>
 <hr>
-<table><tr>
-<td width="40%">
-<table border="1" id="aspects">
+<div id="aspects"><table border="1" id="aspects">
 <tr><th colspan="2" class="sectionheader">Aspects</th></tr>
 <tr><td><fieldset class="aspect">
 <legend class="label"><span>Concept</span></legend>"Black Widow for Greenpeace"?</fieldset></td></tr>
@@ -54,16 +50,8 @@
 <legend class="label"><span>Action Mode</span></legend>TBD</fieldset></td></tr>
 <tr><td><fieldset class="aspect">
 <legend class="label"><span>Omega</span></legend>TBD</fieldset></td></tr>
-</table>
-<table border="1" id="experiences">
-<tr><th colspan="2" class="sectionheader">Experiences</th></tr>
-<tr><td><fieldset class="experience"><legend class="label"><span>Experience</span></legend></fieldset></td></tr>
-<tr><td><fieldset class="experience"><legend class="label"><span>Experience</span></legend></fieldset></td></tr>
-<tr><td><fieldset class="experience"><legend class="label"><span>Experience</span></legend></fieldset></td></tr>
-</table>
-</td>
-<td width="60%">
-<table id="skills">
+</table></div>
+<div id="skills"><table id="skills">
 <tr><th colspan="4" class="sectionheader">Modes and Skills</th></tr>
 <tr>
 <th></th>
@@ -81,7 +69,11 @@
 <th class="mode-rating">+5</th>
 <td><ul><li class="specialized">Notice</li></ul></td>
 <td class="unused"></td>
-<td class="unused"></td>
+<td class="unused"><ul id="skill-explanation">
+<li class="specialized">specialized</li>
+<li class="focused">focused</li>
+<li>trained</li>
+</ul></td>
 </tr>
 <tr>
 <th class="mode-rating">+4</th>
@@ -120,21 +112,20 @@
 <li class="trained">Vehicles</li>
 </ul></td>
 </tr>
-</table>
-<ul id="skill-explanation">
-<li class="specialized">specialized</li>
-<li class="focused">focused</li>
-<li>trained</li>
-</ul>
-</td>
-</tr></table>
+</table></div>
 <hr>
+<table border="1" id="experiences">
+<tr><th colspan="2" class="sectionheader">Experiences</th></tr>
+<tr><td><fieldset class="experience"><legend class="label"><span>Experience</span></legend></fieldset></td></tr>
+<tr><td><fieldset class="experience"><legend class="label"><span>Experience</span></legend></fieldset></td></tr>
+<tr><td><fieldset class="experience"><legend class="label"><span>Experience</span></legend></fieldset></td></tr>
+</table>
 <p id="experiences-explanation">
    Experiences are Boosts. After invoking an Experience, draw a line through it, but leave it on your character sheet.
    When you erase 3 crossed-out Experiences, you reach a <strong>Major Milestone</strong> (ARRPG227).
   </p>
 <hr>
-<table><tr><td width="100%"><table border="1">
+<div id="stunts"><table border="1">
 <tr><th colspan="2" class="sectionheader">Stunts &amp; Mega-Stunts</th></tr>
 <tr><td><fieldset class="stunt">
 <legend><span> </span></legend>TBD</fieldset></td></tr>
@@ -146,10 +137,9 @@
 <legend><span> </span></legend>TBD</fieldset></td></tr>
 <tr><td><fieldset class="stunt">
 <legend><span> </span></legend>TBD</fieldset></td></tr>
-</table></td></tr></table>
+</table></div>
 <hr>
-<table><tr>
-<td width="35%"><table border="1" id="stress">
+<div id="stress"><table border="1" id="stress">
 <tr><th class="sectionheader" colspan="4">Physical Stress</th></tr>
 <tr>
 <td>1</td>
@@ -163,17 +153,17 @@
 <td>3</td>
 <td>4</td>
 </tr>
-</table></td>
-<td width="65%"><table border="1">
+</table></div>
+<div id="consequences"><table border="1">
 <tr><th colspan="2" class="sectionheader">Consequences</th></tr>
 <tr><td>
 <fieldset class="consequence"><legend class="severity"><span>Mild (2):</span></legend></fieldset>
 <fieldset class="consequence"><legend class="severity"><span>Moderate (4):</span></legend></fieldset>
 <fieldset class="consequence"><legend class="severity"><span>Severe (6):</span></legend></fieldset>
 </td></tr>
-</table></td>
-</tr></table>
-<pre>
+</table></div>
+<hr>
+<div id="notes"><pre>
   Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
   * Specialize one trained skill.
   * Focus one trained skill and specialize one focused skill.
@@ -185,9 +175,6 @@
   * Specialize one focused skill.
 
   Probably increase Ecology, Biology within Science
- </pre>
-<p id="copyright">
-   Atomic Robo RPG Character Sheet ©2014 Evil Hat Productions, LLC.
-  </p>
+ </pre></div>
 </body>
 </html>

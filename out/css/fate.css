@@ -5,6 +5,16 @@ body {
   padding: 0.2em;
   font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; }
 
+div#id                    { float: left;  width: 70% }
+div#fate-logo             { float: right; width: 30% }
+div#aspects               { float: left;  width: 47% }
+div#skills                { float: right; width: 53% }
+div#stress                { float: left;  width: 40% }
+div#consequences          { float: right; width: 60% }
+table#experiences         { float: left;  width: 70% }
+p#experiences-explanation { float: right; width: 30% }
+div#notes                 { float: left; width: 100% }
+
 dl {
   /* included in fate instead of fae because of fate-freeport */ }
   dl dt {
