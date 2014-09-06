@@ -13,7 +13,7 @@ div#notes { width: 100%; }
 
 dl { /* included in fate instead of fae because of fate-freeport */ }
 dl dt { font-family: Cabin, Padauk, Montserrat; display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; }
-dl dd { display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; border: 2px solid black; float: right; font-family: Cabin, Padauk, Montserrat; padding-top: -1em; }
+dl dd { display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; border: 2px solid black; float: right; font-family: Cabin, Padauk, Montserrat; }
 dl.approaches dt { border: 0px; font-weight: 600; text-transform: uppercase; }
 dl.approaches dd { width: 2.4em; }
 
@@ -41,7 +41,7 @@ legend span { position: absolute; top: 0.2em; left: 0.4em; }
 p#copyright { font-family: Cabin, Padauk, Montserrat; font-size: 0.8em; text-align: center; }
 
 table { border: 0px; padding: 0.3em; text-align: center; width: 100%; }
-table #freeport-skills, table #professions { margin-right: -4em; padding-right: -4em; }
+table #freeport-skills, table #professions { margin-right: -4em; }
 table #freeport-skills tbody tr td dl.approaches dt, table #professions tbody tr td dl.approaches dt { font-size: 1.4em; }
 table #freeport-skills tbody tr td dl.approaches dd, table #professions tbody tr td dl.approaches dd { font-size: 1em; }
 table #stress td { border: 4px solid black; font-family: Cabin, Padauk, Montserrat; font-size: 1.4em; font-weight: 900; }

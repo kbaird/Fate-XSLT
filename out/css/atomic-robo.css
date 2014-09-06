@@ -1,7 +1,6 @@
 #atomic-robo-logo { height: 2em; }
 
 fieldset.aspect { height: 1.25em; padding-left: 0.5em; padding-top: 2em; }
-fieldset.aspect legend span { padding-top: -2em; }
 
 fieldset.consequence { height: 1.5em; }
 
@@ -18,6 +17,6 @@ p { font-family: Cabin, Padauk, Montserrat; }
 p #copyright { clear: both; float: none; }
 
 table#skills tbody tr th { font-family: Cabin, Padauk, Montserrat; }
-table#skills tbody tr td { margin-bottom: -2em; padding-bottom: -1.5em; padding-top: 1em; text-align: left; }
+table#skills tbody tr td { margin-bottom: -2em; padding-top: 1em; text-align: left; }
 table#skills tbody tr td ul { line-height: 1.1em; margin-left: -1.9em; }
-table#skills tbody tr td ul li { margin-right: -0.2em; padding-right: -0.2em; }
+table#skills tbody tr td ul li { margin-right: -0.2em; }
