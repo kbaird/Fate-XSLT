@@ -20,3 +20,5 @@ table#skills tbody tr th { font-family: Cabin, Padauk, Montserrat; }
 table#skills tbody tr td { margin-bottom: -2em; padding-top: 1em; text-align: left; }
 table#skills tbody tr td ul { line-height: 1.1em; margin-left: -1.9em; }
 table#skills tbody tr td ul li { margin-right: -0.2em; }
+
+@media print and (-webkit-min-device-pixel-ratio: 0) { span#atomic-robo-logo img { height: 50px; } }

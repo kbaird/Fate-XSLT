@@ -5,3 +5,9 @@ fieldset.asset dl dd { border: 0; padding-right: 2.5em; }
 span#fate { font-size: 3.5em; }
 
 span#fate-subtitle { font-size: 0.8em; }
+
+@media print and (-webkit-min-device-pixel-ratio: 0) { #jadepunk-logo { height: 120px; width: 160px; }
+  table#professions { font-size: 1.7em; }
+  table#professions tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
+  table#professions tbody tr td dl.approaches dt { float: left; margin-bottom: -1.3em; margin-top: 0.3em; }
+  table#professions tbody tr td dl.approaches dd { float: right; margin-bottom: -1.3em; } }

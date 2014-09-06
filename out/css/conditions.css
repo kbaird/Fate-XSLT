@@ -7,3 +7,5 @@ dl.conditions dt.severe { margin-left: 5.7em; }
 table#conditions p { font-size: 0.85em; font-style: italic; margin-right: 2.5em; text-align: left; }
 
 th.condition-type { font: small-caps 1.4em bold; text-align: left; }
+
+@media print and (-webkit-min-device-pixel-ratio: 0) { table#conditions { font-size: 0.8em; } }

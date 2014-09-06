@@ -3,3 +3,5 @@ fieldset#cluster legend.label, fieldset#homeworld legend.label { color: #666666;
 fieldset legend span { top: 0.2em; }
 
 #diaspora-logo { font: oblique small-caps 5em bolder Cabin, Padauk, Montserrat; }
+
+@media print and (-webkit-min-device-pixel-ratio: 0) { #diaspora-logo { font-size: 2em; } }

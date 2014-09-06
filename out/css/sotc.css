@@ -10,3 +10,5 @@ fieldset legend span { top: 0.2em; }
 .sectionheader { font-family: Adventure; }
 
 #sotc-logo { font: normal small-caps 3.4em bolder; font-family: Adventure; }
+
+@media print and (-webkit-min-device-pixel-ratio: 0) { #sotc-logo { font-size: 2em; } }

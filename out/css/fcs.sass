@@ -65,3 +65,24 @@ ul#skill-explanation
 .Freeport
   color: blue
   font: oblique small-caps 1em bold TeXGyreGallega
+
+@media print and (-webkit-min-device-pixel-ratio:0)
+
+  html body div
+    table#freeport-skills
+      tbody tr td dl.approaches
+        clear: all
+        float: right
+        margin-bottom: 0
+        padding-bottom: 0
+        width: 100%
+        dt
+          float: left
+          margin-bottom: -1.3em
+          margin-top:     0.3em
+        dd
+          float: right
+          margin-bottom: -1.3em
+
+  table#freeport-skills
+    font-size: 1.8em
