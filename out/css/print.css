@@ -4,16 +4,11 @@
   table#skills tbody              { font-size: 0.5em }
   table#stress tbody tr td { border: 2px solid black }
 
-/*
-  table#stunts tbody       { font-size: 0.5em }
-  table#stress tbody tr td { border: 2px solid black; font-size: 0.5em }
-*/
-
   fieldset.experience { width: 75% }
-  fieldset.consequence, fieldset.experience, fieldset.phase, /* fieldset.stunt, */
-  p#experiences-explanation, ul#skill-explanation, .sectionheader { font-size: 0.5em }
+  fieldset.consequence, fieldset.experience, fieldset.phase
+  ul#skill-explanation, .sectionheader { font-size: 0.5em }
 
-  p#experiences-explanation { float: left; padding-top: 0.5em }
+  p#experiences-explanation { float: left; font-size: 0.5em; padding-top: 0.5em }
 
   #fate-logo     { height: 50px; }
   #jadepunk-logo { height: 120px; width: 160px; }
