@@ -1,6 +1,7 @@
 @media print and (-webkit-min-device-pixel-ratio: 0) { html body div table tbody tr td { font-size: 0.6em; }
   table#skills tbody { font-size: 0.5em; }
   table#stress tbody tr td { border: 2px solid black; }
+  fieldset.aspect { font-size: 0.9em; }
   fieldset.experience { width: 75%; }
   fieldset.experience, fieldset.phase, ul#skill-explanation, .sectionheader { font-size: 0.5em; }
   p#experiences-explanation { float: left; font-size: 0.5em; padding-top: 0.5em; }
@@ -12,4 +13,4 @@
   html body div table#freeport-skills tbody tr td dl.approaches, html body div table#professions tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
   html body div table#freeport-skills tbody tr td dl.approaches dt, html body div table#professions tbody tr td dl.approaches dt { float: left; }
   html body div table#freeport-skills tbody tr td dl.approaches dd, html body div table#professions tbody tr td dl.approaches dd { float: right; }
-  table#professions { font-size: 0.8em; } }
+  table#conditions, table#professions { font-size: 0.8em; } }
