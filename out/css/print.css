@@ -2,10 +2,14 @@
   table#skills tbody { font-size: 0.5em; }
   table#stress tbody tr td { border: 2px solid black; }
   fieldset.experience { width: 75%; }
-  fieldset.consequence, fieldset.experience, fieldset.phase, ul#skill-explanation, .sectionheader { font-size: 0.5em; }
+  fieldset.experience, fieldset.phase, ul#skill-explanation, .sectionheader { font-size: 0.5em; }
   p#experiences-explanation { float: left; font-size: 0.5em; padding-top: 0.5em; }
   #fate-logo { height: 50px; }
   #jadepunk-logo { height: 120px; width: 160px; }
   #diaspora-logo, #sotc-logo { font-size: 2em; }
   span#atomic-robo-logo img { height: 50px; }
-  div#notes { font-size: 0.5em; } }
+  div#notes { font-size: 0.5em; }
+  html body div table#freeport-skills tbody tr td dl.approaches, html body div table#professions tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
+  html body div table#freeport-skills tbody tr td dl.approaches dt, html body div table#professions tbody tr td dl.approaches dt { float: left; }
+  html body div table#freeport-skills tbody tr td dl.approaches dd, html body div table#professions tbody tr td dl.approaches dd { float: right; }
+  table#professions { font-size: 0.8em; } }
