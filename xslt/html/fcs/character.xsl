@@ -34,12 +34,10 @@
     <h1>
      <xsl:value-of select="id/charname"/>
     </h1>
-    <table>
-     <tr>
-      <td width="70%">
+      <div id="id">
        <xsl:apply-templates select="id"/>
-      </td>
-      <td width="30%" id="fate-logo">
+      </div>
+      <div id="fate-logo">
        <span id="fate">
         <img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"/>
        </span>
@@ -49,19 +47,15 @@
          <xsl:call-template name="current-fate-points"/>
         </tr>
        </table>
-      </td>
-     </tr>
-    </table>
+      </div>
     <hr />
-    <table>
-     <tr>
-      <td>
+      <div id="aspects">
        <xsl:attribute name="width">
         <xsl:value-of select="$aspectWidth"/>
        </xsl:attribute>
        <xsl:apply-templates select="aspects"/>
-      </td>
-      <td>
+      </div>
+      <div id="skills">
        <xsl:attribute name="width">
         <xsl:value-of select="100 - $aspectWidth"/>
        </xsl:attribute>
@@ -70,24 +64,16 @@
          <xsl:value-of select="$useSkillModes"/>
         </xsl:with-param>
        </xsl:apply-templates>
-      </td>
-     </tr>
-    </table>
+      </div>
     <hr />
-    <table>
-     <tr>
-      <td width="40%">
+      <div id="extras">
        <xsl:apply-templates select="extras"/>
-      </td>
-      <td width="60%">
+      </div>
+      <div id="stunts">
        <xsl:apply-templates select="stunts"/>
-      </td>
-     </tr>
-    </table>
+      </div>
     <hr />
-    <table>
-     <tr>
-      <td width="35%">
+      <div id="stress">
        <xsl:call-template name="stress">
         <xsl:with-param name="useCorruption">
          <xsl:value-of select="$useCorruption"/>
@@ -96,8 +82,8 @@
          <xsl:value-of select="$useSkillModes"/>
         </xsl:with-param>
        </xsl:call-template>
-      </td>
-      <td width="65%">
+      </div>
+      <div id="consequences">
        <xsl:choose>
         <xsl:when test="$useConditions='true'">
          <xsl:call-template name="conditions"/>
@@ -106,9 +92,7 @@
          <xsl:call-template name="consequences"/>
         </xsl:otherwise>
        </xsl:choose>
-      </td>
-     </tr>
-    </table>
+      </div>
     <xsl:apply-templates select="phase-trio"/>
     <xsl:apply-templates select="notes"/>
     <xsl:call-template name="copyright"/>

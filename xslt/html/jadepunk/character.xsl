@@ -12,52 +12,36 @@
     <h1>
      <xsl:value-of select="id/charname"/>
     </h1>
-    <table>
-     <tr>
-      <td width="70%">
-       <xsl:apply-templates select="id"/>
-      </td>
-      <td width="30%" id="fate-logo">
-       <span id="fate"><img id="jadepunk-logo" src="./jadepunk.jpg"/></span>
-       <table>
-        <tr>
-         <xsl:call-template name="refresh"/>
-         <xsl:call-template name="current-fate-points"/>
-        </tr>
-       </table>
-      </td>
-     </tr>
-    </table>
+    <div id="id">
+     <xsl:apply-templates select="id"/>
+    </div>
+    <div id="fate-logo">
+     <span id="fate"><img id="jadepunk-logo" src="./jadepunk.jpg"/></span>
+     <table>
+      <tr>
+       <xsl:call-template name="refresh"/>
+       <xsl:call-template name="current-fate-points"/>
+      </tr>
+     </table>
+    </div>
     <hr />
-    <table>
-     <tr>
-      <td width="70%">
-       <xsl:apply-templates select="aspects"/>
-      </td>
-      <td width="30%">
-       <xsl:apply-templates select="professions"/>
-      </td>
-     </tr>
-    </table>
+    <div id="aspects">
+     <xsl:apply-templates select="aspects"/>
+    </div>
+    <div id="skills">
+     <xsl:apply-templates select="professions"/>
+    </div>
     <hr />
-    <table>
-     <tr>
-      <td width="100%">
-       <xsl:apply-templates select="assets"/>
-      </td>
-     </tr>
-    </table>
+    <div id="assets">
+     <xsl:apply-templates select="assets"/>
+    </div>
     <hr />
-    <table>
-     <tr>
-      <td width="35%">
-       <xsl:call-template name="stress"/>
-      </td>
-      <td width="65%">
-       <xsl:call-template name="consequences"/>
-      </td>
-     </tr>
-    </table>
+    <div id="stress">
+     <xsl:call-template name="stress"/>
+    </div>
+    <div id="consequences">
+     <xsl:call-template name="consequences"/>
+    </div>
     <xsl:apply-templates select="notes"/>
    </body>
   </html>

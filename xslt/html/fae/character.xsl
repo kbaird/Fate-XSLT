@@ -12,26 +12,22 @@
     <h1>
      <xsl:value-of select="id/charname"/>
     </h1>
-    <table>
-     <tr>
-      <td width="70%">
-       <xsl:apply-templates select="id"/>
-      </td>
-      <td width="30%" id="fate-logo">
-       <span id="fate">
-        <img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"/>
-       </span>
-       <br />
-       <span id="fate-subtitle">Accelerated</span>
-       <table>
-        <tr>
-         <xsl:call-template name="refresh"/>
-         <xsl:call-template name="current-fate-points"/>
-        </tr>
-       </table>
-      </td>
-     </tr>
-    </table>
+    <div id="id">
+     <xsl:apply-templates select="id"/>
+    </div>
+    <div id="fate-logo">
+     <span id="fate">
+      <img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"/>
+     </span>
+     <br />
+     <span id="fate-subtitle">Accelerated</span>
+     <table>
+      <tr>
+       <xsl:call-template name="refresh"/>
+       <xsl:call-template name="current-fate-points"/>
+      </tr>
+     </table>
+    </div>
     <hr />
     <table>
      <tr>
