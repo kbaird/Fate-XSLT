@@ -1,58 +1,23 @@
-#atomic-robo-logo {
-  height: 2em; }
+#atomic-robo-logo { height: 2em; }
 
-fieldset.aspect {
-  height: 1.25em;
-  padding-left: 0.5em;
-  padding-top: 2em; }
-  fieldset.aspect legend span {
-    padding-top: -2em; }
+fieldset.aspect { height: 1.25em; padding-left: 0.5em; padding-top: 2em; }
+fieldset.aspect legend span { padding-top: -2em; }
 
-fieldset.consequence {
-  height: 1.5em; }
+fieldset.consequence { height: 1.5em; }
 
-fieldset.experience {
-  height: 1.1em;
-  padding-top: 0.5em;
-  vertical-align: text-bottom;
-  padding-left: 11em;
-  position: relative;
-  text-align: left;
-  clear: none;
-  float: left; }
-  fieldset.experience.used {
-    color: #666666;
-    text-decoration: line-through; }
-  fieldset.experience span.content {
-    margin-left: -10em; }
-fieldset.experience legend.label {
-  color: #666666;
-  font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
+fieldset.experience { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; padding-left: 11em; position: relative; text-align: left; clear: none; float: left; }
+fieldset.experience.used { color: #666666; text-decoration: line-through; }
+fieldset.experience span.content { margin-left: -10em; }
+fieldset.experience legend.label { color: #666666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 
-li.specialized {
-  color: red;
-  font-weight: bolder; }
+li.specialized { color: red; font-weight: bolder; }
 
-li.focused {
-  color: blue;
-  font-weight: bold; }
+li.focused { color: blue; font-weight: bold; }
 
-p {
-  font-family: Cabin, Padauk, Montserrat; }
-  p #copyright {
-    clear: both;
-    float: none; }
+p { font-family: Cabin, Padauk, Montserrat; }
+p #copyright { clear: both; float: none; }
 
-table#skills tbody tr th {
-  font-family: Cabin, Padauk, Montserrat; }
-table#skills tbody tr td {
-  margin-bottom: -2em;
-  padding-bottom: -1.5em;
-  padding-top: 1em;
-  text-align: left; }
-  table#skills tbody tr td ul {
-    line-height: 1.1em;
-    margin-left: -1.9em; }
-    table#skills tbody tr td ul li {
-      margin-right: -0.2em;
-      padding-right: -0.2em; }
+table#skills tbody tr th { font-family: Cabin, Padauk, Montserrat; }
+table#skills tbody tr td { margin-bottom: -2em; padding-bottom: -1.5em; padding-top: 1em; text-align: left; }
+table#skills tbody tr td ul { line-height: 1.1em; margin-left: -1.9em; }
+table#skills tbody tr td ul li { margin-right: -0.2em; padding-right: -0.2em; }

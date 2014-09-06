@@ -1,12 +1,5 @@
-fieldset#cluster, fieldset#homeworld {
-  padding-left: 11em;
-  position: relative;
-  text-align: left; }
-fieldset#cluster legend.label, fieldset#homeworld legend.label {
-  color: #666666;
-  font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
-fieldset legend span {
-  top: 0.2em; }
+fieldset#cluster, fieldset#homeworld { padding-left: 11em; position: relative; text-align: left; }
+fieldset#cluster legend.label, fieldset#homeworld legend.label { color: #666666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
+fieldset legend span { top: 0.2em; }
 
-#diaspora-logo {
-  font: oblique small-caps 5em bolder Cabin, Padauk, Montserrat; }
+#diaspora-logo { font: oblique small-caps 5em bolder Cabin, Padauk, Montserrat; }
