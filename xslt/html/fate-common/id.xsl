@@ -47,14 +47,6 @@
        <xsl:value-of select="description"/>
       </fieldset>
      </xsl:if>
-     <xsl:if test="story">
-      <fieldset id="description">
-       <legend class="label">
-        <span>Story</span>
-       </legend>
-       <xsl:value-of select="story"/>
-      </fieldset>
-     </xsl:if>
     </td>
    </tr>
   </table>
