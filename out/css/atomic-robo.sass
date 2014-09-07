@@ -1,3 +1,4 @@
+@import "borders"
 @import "colors"
 @import "fieldsets"
 @import "fonts"
@@ -62,3 +63,21 @@ table#skills
 
   span#atomic-robo-logo img
     height: 50px
+
+  table
+    &#aspects
+      padding-bottom: 0
+      padding-top: 0
+      tbody
+        tr
+          td
+            +standard_border($dd_conditions_color)
+            padding-top: 0.9em
+            padding-bottom: 0
+  fieldset.aspect
+    border: 0
+    font-size: 0.5em
+    padding-bottom: 0
+    legend.label span
+      margin-top: -1.6em
+      padding-top: 0
