@@ -12,9 +12,6 @@ table#skills tr td ul li { display: inline; }
 table#skills tr td ul li + li:before { content: ", "; }
 table#stress td { padding: 0.4em; }
 
-ul#skill-explanation li { display: inline; }
-ul#skill-explanation li + li:before { content: ", "; }
-
 @media print and (-webkit-min-device-pixel-ratio: 0) { table#freeport-skills { font-size: 1.7em; }
   table#freeport-skills tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
   table#freeport-skills tbody tr td dl.approaches dt { float: left; margin-bottom: -1.3em; margin-top: 0.3em; }
