@@ -1,10 +1,11 @@
+div#aspects { width: 65%; }
+div#skills { width: 35%; }
+
 fieldset legend span { top: 0.2em; }
 
 table#stress td { padding: 1.8em; }
 
-@media print and (-webkit-min-device-pixel-ratio: 0) { div#aspects { width: 65%; }
-  div#skills { width: 35%; }
-  table#approaches { font-size: 1.7em; }
+@media print and (-webkit-min-device-pixel-ratio: 0) { table#approaches { font-size: 1.7em; }
   table#approaches tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
   table#approaches tbody tr td dl.approaches dt { float: left; margin-bottom: -1.3em; margin-top: 0.3em; }
   table#approaches tbody tr td dl.approaches dd { float: right; margin-bottom: -1.3em; } }
