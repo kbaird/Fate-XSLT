@@ -2,6 +2,7 @@
 @import "colors"
 @import "fonts"
 @import "lists"
+@import "table_professions"
 
 body
   color: $body_color
@@ -55,12 +56,7 @@ table
   text-align: center
   width: 100%
   #freeport-skills, #professions
-    margin-right:  -4em
-    tbody tr td dl.approaches
-      dt
-        font-size: 1.4em
-      dd
-        font-size: 1.0em
+    +table_professions
   #stress td
     +thick_border
     font-family: $basic_font
