@@ -1,5 +1,8 @@
-@import "print_approaches"
 @import "approaches_widths"
+@import "print_approaches"
+@import "table_professions"
+
+@import "dl_approaches"
 
 fieldset
   legend
@@ -9,8 +12,10 @@ fieldset
 table#stress td
   padding: 1.8em
 
-@media print and (-webkit-min-device-pixel-ratio:0)
+table#approaches
+  +table_professions
 
+@media print and (-webkit-min-device-pixel-ratio:0)
 
   table#approaches
     +print_approaches

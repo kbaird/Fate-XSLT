@@ -1,5 +1,8 @@
-@import "print_approaches"
 @import "approaches_widths"
+@import "print_approaches"
+@import "table_professions"
+
+@import "dl_approaches"
 
 fieldset.asset dl
   dt, dd
@@ -18,6 +21,10 @@ span#fate
 
 span#fate-subtitle
   font-size: 0.8em
+
+table
+  #professions
+    +table_professions
 
 @media print and (-webkit-min-device-pixel-ratio:0)
 

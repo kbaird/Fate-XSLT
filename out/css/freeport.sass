@@ -1,0 +1,20 @@
+@import "print_approaches"
+@import "table_professions"
+
+div
+  &#aspects
+    width: 65%
+  &#skills
+    width: 35%
+
+@import "dl_approaches"
+
+table
+  #freeport-skills
+    +table_professions
+
+@media print and (-webkit-min-device-pixel-ratio:0)
+
+  table#freeport-skills
+    +print_approaches
+
