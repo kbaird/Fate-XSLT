@@ -21,7 +21,8 @@ table#skills tbody tr td { margin-bottom: -2em; padding-top: 1em; text-align: le
 table#skills tbody tr td ul { line-height: 1.1em; margin-left: -1.9em; }
 table#skills tbody tr td ul li { margin-right: -0.2em; }
 
-@media print and (-webkit-min-device-pixel-ratio: 0) { span#atomic-robo-logo img { height: 50px; }
+@media print and (-webkit-min-device-pixel-ratio: 0) { div#aspects, div#skills { width: 50%; }
+  span#atomic-robo-logo img { height: 50px; }
   fieldset.aspect { border: 0; font-size: 1em; margin: 0.2em; margin-top: 0.4em; padding: 0.2em; }
   fieldset.aspect legend.label span { margin: 0; margin-top: -1.6em; padding: 0; }
   th.mode-rating { font-size: 2em; padding-top: 0.3em; }
