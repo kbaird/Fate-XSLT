@@ -1,3 +1,5 @@
+@import "print_approaches"
+
 fieldset.asset dl
   dt, dd
     display: table-row
@@ -22,19 +24,5 @@ span#fate-subtitle
     height: 120px
     width:  160px
 
-  /* TODO: pull this and FAE into shared code
   table#professions
-    font-size: 1.7em
-    tbody tr td dl.approaches
-      clear: all
-      float: right
-      margin-bottom: 0
-      padding-bottom: 0
-      width: 100%
-      dt
-        float: left
-        margin-bottom: -1.3em
-        margin-top:     0.3em
-      dd
-        float: right
-        margin-bottom: -1.3em
+    +print_approaches
