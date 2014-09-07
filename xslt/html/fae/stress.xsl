@@ -5,7 +5,7 @@
  <xsl:output method="html"/>
  <xsl:include href="../fate-common/stress.xsl"/>
  <xsl:template name="stress">
-  <table border="1" id="stress">
+  <table id="stress">
    <xsl:call-template name="generic-stress">
     <xsl:with-param name="baseCount">3</xsl:with-param>
     <xsl:with-param name="maxCount">3</xsl:with-param>

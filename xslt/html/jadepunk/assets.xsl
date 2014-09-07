@@ -5,7 +5,7 @@
  <xsl:output method="html"/>
 
  <xsl:template match="assets">
-  <table border="1">
+  <table>
    <xsl:call-template name="assets-header">
     <xsl:with-param name="label">Assets</xsl:with-param>
    </xsl:call-template>

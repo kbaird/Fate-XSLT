@@ -46,7 +46,7 @@
     </xsl:otherwise>
    </xsl:choose>
   </xsl:variable>
-  <table border="1" id="stress">
+  <table id="stress">
    <xsl:call-template name="simple-stress">
     <xsl:with-param name="count">
      <xsl:value-of select="$physicalStress"/>

@@ -5,7 +5,7 @@
  <xsl:output method="html"/>
 
  <xsl:template match="experiences">
-  <table border="1" id="experiences">
+  <table id="experiences">
    <tr>
     <th colspan="2" class="sectionheader">Experiences</th>
    </tr>

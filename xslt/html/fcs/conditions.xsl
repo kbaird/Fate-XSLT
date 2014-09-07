@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template name="conditions">
-  <table border="1" id="conditions">
+  <table id="conditions">
    <tr>
     <th colspan="3" class="sectionheader">Conditions</th>
    </tr>

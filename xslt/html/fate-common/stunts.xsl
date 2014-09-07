@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="stunts">
-  <table border="1">
+  <table>
    <xsl:call-template name="stunts-header">
     <xsl:with-param name="label">Stunts</xsl:with-param>
    </xsl:call-template>
@@ -12,7 +12,7 @@
   </table>
  </xsl:template>
  <xsl:template match="stunts" mode="atomic-robo">
-  <table border="1">
+  <table>
    <xsl:call-template name="stunts-header">
     <xsl:with-param name="label">Stunts &amp; Mega-Stunts</xsl:with-param>
    </xsl:call-template>

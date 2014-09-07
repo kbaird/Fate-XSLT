@@ -5,7 +5,7 @@
  <xsl:output method="html"/>
  <xsl:include href="../fate-common/phase-aspects.xsl"/>
  <xsl:template match="phase-trio">
-  <table border="1">
+  <table>
    <tr>
     <th colspan="2" class="sectionheader">Phases</th>
    </tr>

@@ -4,7 +4,6 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="character">
-  <xsl:param name="moreCSS"/>
   <xsl:variable name="useConditions">
    <xsl:choose>
     <xsl:when test="hacks/@conditions='true'">true</xsl:when>
@@ -26,9 +25,6 @@
   <html>
    <xsl:call-template name="head">
     <xsl:with-param name="baseCSS">fcs</xsl:with-param>
-    <xsl:with-param name="moreCSS">
-     <xsl:value-of select="$moreCSS"/>
-    </xsl:with-param>
     <xsl:with-param name="useConditions">
      <xsl:value-of select="$useConditions"/>
     </xsl:with-param>

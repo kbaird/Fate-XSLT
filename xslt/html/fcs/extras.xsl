@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="extras">
-  <table border="1">
+  <table>
    <tr>
     <th colspan="1" class="sectionheader">Extras</th>
    </tr>

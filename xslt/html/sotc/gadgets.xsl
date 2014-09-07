@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template match="gadgets">
-  <table border="1">
+  <table>
    <tr>
     <th colspan="2" class="sectionheader">Gadgets</th>
    </tr>

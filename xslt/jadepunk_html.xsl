@@ -18,10 +18,6 @@
  <xsl:include href="html/jadepunk/id.xsl"/>
  <xsl:include href="html/jadepunk/professions.xsl"/>
  <xsl:template match="/">
-  <xsl:apply-templates select="character">
-   <xsl:with-param name="aspectWidth">
-    <xsl:value-of select="40"/>
-   </xsl:with-param>
-  </xsl:apply-templates>
+  <xsl:apply-templates select="character"/>
  </xsl:template>
 </xsl:stylesheet>

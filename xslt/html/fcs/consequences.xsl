@@ -4,7 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:template name="consequences">
-  <table border="1">
+  <table>
    <tr>
     <th colspan="2" class="sectionheader">Consequences</th>
    </tr>
