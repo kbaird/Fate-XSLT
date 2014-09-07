@@ -64,23 +64,42 @@ table#skills
   span#atomic-robo-logo img
     height: 50px
 
-  table
-    &#aspects
-      tbody
-        tr
-          th.sectionheader
-            line-height: 1em
-            font-size: 0.5em
-            margin: -1em
-            padding: 0
-          td
-            +standard_border($dd_conditions_color)
-            padding-top: 0.9em
-            padding-bottom: 0
   fieldset.aspect
     border: 0
     font-size: 0.5em
     padding-bottom: 0
     legend.label span
-      margin-top: -1.6em
+      margin-top: -1.8em
       padding-top: 0
+
+  th.mode-rating
+    font-size: 2em
+    padding-top: 0.3em
+
+  th.sectionheader
+    line-height: 1em
+    font-size: 0.5em
+    margin: -1em
+    padding: 0
+
+  table
+    &#aspects
+      tbody
+        tr
+          td
+            +standard_border($dd_conditions_color)
+            padding-top: 1.5em
+            padding-bottom: 0
+
+  table#skills
+    tbody
+      tr
+        th.sectionheader
+          line-height: 1em
+          font-size: 1em
+          margin: -1em
+          padding: 0
+        td
+          ul
+            margin-left:  0.7em
+            padding-left: 0.7em
