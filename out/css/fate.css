@@ -1,4 +1,6 @@
 @charset "UTF-8";
+body { color: #111111; margin: 0.1em 0.4em; padding: 0.2em; font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; }
+
 div#aspects, div#id, div#stress, div#experiences, div#notes { float: left; }
 div#fate-logo, div#skills, div#consequences, div#experiences-explanation { float: right; }
 div#id, div#consequences { width: 70%; }
@@ -8,8 +10,6 @@ div#fate-logo, div#stress { width: 30%; }
 div#experiences { width: 75%; }
 div#experiences-explanation { width: 25%; }
 div#notes { width: 100%; }
-
-body { color: #111111; margin: 0.1em 0.4em; padding: 0.2em; font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; }
 
 dl { /* included in fate instead of fae because of fate-freeport */ }
 dl dt { font-family: Cabin, Padauk, Montserrat; display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; }

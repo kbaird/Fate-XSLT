@@ -1,7 +1,5 @@
 @import "borders"
 @import "colors"
-@import "div_widths"
-@import "fieldsets"
 @import "fonts"
 @import "lists"
 
@@ -10,6 +8,8 @@ body
   margin: 0.1em 0.4em
   padding: 0.2em
   font: 1em $handwriting_font, ubuntu, verdana, arial, helvetica, sans-serif
+
+@import "div_widths"
 
 dl
   dt
@@ -32,43 +32,7 @@ dl
 em.phase-aspect
   font: oblique small-caps 1.2em 900 $basic_font
 
-fieldset
-  &#affiliation, &#description
-    line-height: 1.1em
-  &#affiliation, &#description, &#name, &.aspect, &.consequence, &.phase, &.stunt
-    +fieldset_item
-  &.aspect
-    span.content
-      margin-left: -10em
-    +fieldset_innards
-  &#name
-    +fieldset_innards
-  &.aspect legend.label, &#affiliation legend.label, &#description legend.label, &#name legend.label
-    color: $label_color
-    +label_font
-  &.consequence
-    font-style: oblique
-    padding-left: 8.6em
-    text-align: right
-    height: 1.1em
-    legend
-      color: $consequence_legend_color
-      +legend_font
-      span
-        padding-bottom: 3em
-        top: 0.1em
-  &.phase
-    font-family: $basic_font
-  &.stunt
-    font-size: 0.85em
-    font-style: oblique
-    text-align: right
-    padding-left: 16em
-    legend
-      color: $stunt_legend_color
-      +legend_font(1.5em)
-      span
-        top: 0.2em
+@import "fate_fieldset"
 
 h1, hr
   display: none
