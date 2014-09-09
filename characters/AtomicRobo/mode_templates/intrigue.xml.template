@@ -1,0 +1,8 @@
+  <mode rating="x" name="Intrigue"> <!-- ARRPG pg84 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Burglary"  cost="1"/>
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+  </mode>

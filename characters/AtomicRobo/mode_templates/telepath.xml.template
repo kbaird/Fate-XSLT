@@ -1,0 +1,9 @@
+  <mode rating="x" name="Telepath"> <!-- ARRPG pg92 -->
+   <skill name="Deceive"        cost="2"/>
+   <skill name="Empathy"        cost="3"/>
+   <skill name="Hallucinations" cost="2"/>
+   <!-- OR Focus 1 Trained Skill instead of Hallucinations -->
+   <skill name="Provoke"        cost="1"/>
+   <skill name="Rapport"        cost="1"/>
+   <skill name="Will"           cost="1"/>
+  </mode>

@@ -1,9 +1,0 @@
-  <mode rating="x" name="Telepath"> <!-- ARRPG pg92 -->
-   <skill name="Deceive"/>
-   <skill name="Empathy"/>
-   <!-- OR Focus 1 Trained Skill instead of Hallucinations -->
-   <skill name="Hallucinations"/>
-   <skill name="Provoke"/>
-   <skill name="Rapport"/>
-   <skill name="Will"/>
-  </mode>

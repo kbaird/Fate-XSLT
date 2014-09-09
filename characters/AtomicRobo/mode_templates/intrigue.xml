@@ -1,8 +1,0 @@
-  <mode rating="x" name="Intrigue"> <!-- ARRPG pg84 -->
-   <skill name="Athletics"/>
-   <skill name="Burglary"/>
-   <skill name="Contacts"/>
-   <skill name="Deceive"/>
-   <skill name="Notice"/>
-   <skill name="Stealth"/>
-  </mode>

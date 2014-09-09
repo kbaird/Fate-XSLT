@@ -1,7 +1,7 @@
   <mode rating="x" name="Science"> <!-- ARRPG pg85 -->
-   <skill name="Notice"/>
-   <skill name="Will"/>
-   <skill name="(all other Sciences)"/>
+   <skill name="Notice"               cost="1"/>
+   <skill name="Will"                 cost="1"/>
+   <skill name="(all other Sciences)" cost="1"/>
   </mode>
   <!--
        Specialize one trained skill.
