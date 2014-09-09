@@ -29,13 +29,11 @@ fieldset
     color: $label_color
     +label_font
 
-li.specialized
-  color: red
-  font-weight: bolder
-
-li.focused
-  color: blue
-  font-weight: bold
+li
+  &.focused
+    color: blue
+  &.specialized
+    color: red
 
 p
   font-family: $basic_font
@@ -59,6 +57,7 @@ table#skills
             margin-right: -0.2em
 
 ul#skill-explanation
+  font-size: 1em
   li
     display: inline
   li + li:before

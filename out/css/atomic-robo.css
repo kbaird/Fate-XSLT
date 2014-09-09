@@ -9,9 +9,8 @@ fieldset.experience.used { color: #666666; text-decoration: line-through; }
 fieldset.experience span.content { margin-left: -10em; }
 fieldset.experience legend.label { color: #666666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 
-li.specialized { color: red; font-weight: bolder; }
-
-li.focused { color: blue; font-weight: bold; }
+li.focused { color: blue; }
+li.specialized { color: red; }
 
 p { font-family: Cabin, Padauk, Montserrat; }
 p #copyright { clear: both; float: none; }
@@ -21,6 +20,7 @@ table#skills tbody tr td { margin-bottom: -2em; padding-top: 1em; text-align: le
 table#skills tbody tr td ul { line-height: 1.1em; margin-left: -1.9em; }
 table#skills tbody tr td ul li { margin-right: -0.2em; }
 
+ul#skill-explanation { font-size: 1em; }
 ul#skill-explanation li { display: inline; }
 ul#skill-explanation li + li:before { content: ", "; }
 
