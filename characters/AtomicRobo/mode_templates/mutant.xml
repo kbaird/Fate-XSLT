@@ -1,9 +1,0 @@
-  <mode rating="x" name="Mutant"> <!-- ARRPG pg88 -->
-   <!--
-        Specialize 2 Trained Skills
-        Specialize 1 Focused Skill
-        Focus      1 Trained Skill
-    However, it's probably easiest to just represent improvement as Mutant skills here
-   -->
-   <skill name="x"/>
-  </mode>
