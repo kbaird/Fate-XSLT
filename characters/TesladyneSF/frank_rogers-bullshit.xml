@@ -1,0 +1,66 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<character>
+ <id>
+  <charname>Frank Rogers (HR)</charname>
+  <playername>Michael Wood</playername>
+  <affiliation>Tesladyne SF (Action Scientist PC)</affiliation>
+  <description>
+    TBD
+  </description>
+ </id>
+ <current-fate-points>3</current-fate-points>
+ <experience-points>0</experience-points>
+ <aspects>
+  <aspect type="Concept">TBD</aspect>
+  <aspect type="Mode" mode-name="Banter">TBD</aspect>
+  <aspect type="Mode" mode-name="Martial Artist">TBD</aspect>
+  <aspect type="Mode" mode-name="Human Resources">
+   The Batman of Human Resources
+  </aspect>
+  <aspect type="Omega">TBD</aspect>
+ </aspects>
+ <skills>
+  <mode rating="3" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+   <skill name="Contacts" cost="1"/>
+   <skill name="Deceive"  cost="2"/>
+   <skill name="Empathy"  cost="3"/>
+   <skill name="Notice"   cost="1"/>
+   <skill name="Provoke"  cost="1"/>
+   <skill name="Rapport"  cost="1"/>
+   <skill name="Will"     cost="1"/>
+  </mode>
+  <mode rating="2" name="Martial Artist" stress-type="physical"> <!-- ARRPG pg88 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+   <skill name="Will"      cost="1"/>
+  </mode>
+  <mode rating="1" name="Human Resources">
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Empathy"   cost="3"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Rapport"   cost="2"/>
+   <skill name="Will"      cost="1"/>
+  </mode>
+ </skills>
+ <stunts>
+  <stunt name="TBD1">TBD1</stunt>
+  <stunt name="TBD2">TBD2</stunt>
+  <stunt name="TBD3">TBD3</stunt>
+  <stunt name="TBD4">TBD4</stunt>
+  <stunt name="TBD5">TBD5</stunt>
+ </stunts>
+ <consequences>
+ </consequences>
+ <experiences>
+  <experience/>
+  <experience/>
+  <experience/>
+ </experiences>
+ <notes/>
+</character>
