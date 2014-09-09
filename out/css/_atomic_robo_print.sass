@@ -4,8 +4,10 @@
   @import "colors"
 
   div
-    &#aspects, &#skills
-      width: 50%
+    &#aspects
+      width: 35%
+    &#skills
+      width: 65%
 
   span#atomic-robo-logo img
     height: 50px
@@ -22,7 +24,7 @@
       padding: 0
 
   th.mode-rating
-    font-size: 2em
+    font-size: 1.7em
     padding-top: 0.3em
 
   th.sectionheader
@@ -36,9 +38,9 @@
       tbody
         tr
           td
-            +standard_border($dd_conditions_color)
+            +thin_border($dd_conditions_color)
             padding-top:    1.0em
-            padding-bottom: 0.8em
+            padding-bottom: 1.2em
 
   table#skills
     tbody
@@ -49,6 +51,9 @@
           margin: -1em
           padding: 0
         td
+          margin:       0
+          margin-right: 0.1em
+          padding:      0.1em
           ul
             margin-left:  0.6em
             padding-left: 0.6em
