@@ -1,7 +1,7 @@
-div#aspects { width: 65%; }
-div#skills { width: 35%; }
+div#aspects { width: 60%; }
+div#skills { width: 40%; }
 
-dl.approaches dt { border: 0px; font-size: 1em; font-weight: 600; text-transform: uppercase; }
+dl.approaches dt { border: 0px; font-size: 1.2em; font-weight: 600; text-transform: uppercase; }
 dl.approaches dd { width: 2.4em; }
 
 fieldset legend span { top: 0.2em; }
