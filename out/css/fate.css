@@ -52,7 +52,7 @@ td, th { border: 0px; vertical-align: top; }
 #fate-subtitle { font: 2em bolder; text-transform: uppercase; }
 
 @media print and (-webkit-min-device-pixel-ratio: 0) { html body div table tbody tr td { font-size: 0.6em; }
-  table#skills tbody { font-size: 0.6em; }
+  table#skills tbody { font-size: 0.75em; }
   table#stress tbody tr td { border: 1px solid black; }
   fieldset.experience { width: 75%; }
   fieldset.experience, fieldset.phase, ul#skill-explanation, .sectionheader { font-size: 0.5em; }
