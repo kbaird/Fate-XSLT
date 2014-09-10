@@ -16,7 +16,7 @@
   <aspect type="Concept">TBD</aspect>
   <aspect type="Mode" mode-name="Telepath">TBD</aspect>
   <aspect type="Mode" mode-name="Martial Artist">TBD</aspect>
-  <aspect type="Mode" mode-name="Human Resources">
+  <aspect type="Mode" mode-name="Human&#160;Resources">
    The Batman of Human Resources
   </aspect>
   <aspect type="Omega">TBD</aspect>
@@ -39,7 +39,7 @@
    <skill name="Stealth"   cost="2"/>
    <skill name="Will"      cost="1"/>
   </mode>
-  <mode rating="1" name="Human Resources">
+  <mode rating="1" name="Human&#160;Resources">
    <skill name="Contacts"  cost="1"/>
    <skill name="Deceive"   cost="2"/>
    <skill name="Empathy"   cost="3"/>
