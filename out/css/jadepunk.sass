@@ -32,6 +32,22 @@ table
     height: 120px
     width:  160px
 
-  table#professions
-    +print_approaches
+  div
+    &#aspects
+      width: 60%
+    &#professions
+      width: 40%
+    &#consequences
+      width: 78%
+    &#stress
+      width: 22%
+
+  table
+    &#professions
+      +print_approaches
+    &#stress
+      tbody
+        tr
+          td
+            line-height: 3em
 
