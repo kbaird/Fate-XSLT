@@ -1,4 +1,4 @@
-  <mode rating="x" name="Martial Artist"> <!-- ARRPG pg88 -->
+  <mode rating="x" name="Martial&#160;Artist"> <!-- ARRPG pg88 -->
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
    <skill name="Notice"    cost="1"/>
