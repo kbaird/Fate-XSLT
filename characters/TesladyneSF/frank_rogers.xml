@@ -3,7 +3,7 @@
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
  <id>
-  <charname>Frank Rogers (HR)</charname>
+  <charname>Frank Rogers</charname>
   <playername>Michael Wood</playername>
   <affiliation>Tesladyne SF (Action Scientist PC)</affiliation>
   <description>
@@ -15,7 +15,7 @@
  <aspects>
   <aspect type="Concept">TBD</aspect>
   <aspect type="Mode" mode-name="Telepath">TBD</aspect>
-  <aspect type="Mode" mode-name="Martial Artist">TBD</aspect>
+  <aspect type="Mode" mode-name="Martial&#160;Artist">TBD</aspect>
   <aspect type="Mode" mode-name="Human&#160;Resources">
    The Batman of Human Resources
   </aspect>
@@ -31,7 +31,7 @@
    <skill name="Rapport"        cost="1"/>
    <skill name="Will"           cost="1"/>
   </mode>
-  <mode rating="2" name="Martial Artist" stress-type="physical"> <!-- ARRPG pg88 -->
+  <mode rating="2" name="Martial&#160;Artist" stress-type="physical"> <!-- ARRPG pg88 -->
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
    <skill name="Notice"    cost="1"/>
