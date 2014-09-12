@@ -16,9 +16,9 @@ p { font-family: Cabin, Padauk, Montserrat; }
 p #copyright { clear: both; float: none; }
 
 table#skills tbody tr th { font-family: Cabin, Padauk, Montserrat; }
-table#skills tbody tr td { margin-bottom: -2em; padding-top: 1em; text-align: left; }
-table#skills tbody tr td ul { line-height: 1.1em; margin-left: -1.9em; }
-table#skills tbody tr td ul li { margin-right: -0.2em; }
+table#skills tbody tr td { margin-left: 0; padding-left: 0; margin-bottom: -2em; padding-top: 1em; text-align: left; }
+table#skills tbody tr td ul { line-height: 1.1em; margin-left: 0.3em; padding-left: 0.4em; }
+table#skills tbody tr td ul li { margin-left: 0; padding-left: 0; margin-right: -0.2em; padding-right: 0; }
 
 ul#skill-explanation { font-size: 1em; }
 ul#skill-explanation li { display: inline; }
@@ -33,5 +33,4 @@ ul#skill-explanation li + li:before { content: ", "; }
   th.sectionheader { line-height: 1em; font-size: 0.5em; margin: -1em; padding: 0; }
   table#aspects tbody tr td { border: 2px solid #cccccc; padding-top: 1em; padding-bottom: 1.2em; }
   table#skills tbody tr th.sectionheader { line-height: 1em; font-size: 1em; margin: -1em; padding: 0; }
-  table#skills tbody tr td { margin: 0; margin-right: 0.1em; padding: 0.1em; }
-  table#skills tbody tr td ul { margin-left: 0.6em; padding-left: 0.6em; } }
+  table#skills tbody tr td { margin: 0; padding: 0; padding-top: 0.2em; /*margin-right: 0.1em */ /*padding:      0.1em */ /*ul */ /*  margin-left:  0.6em */ /*  padding-left: 0.6em */ } }
