@@ -10,23 +10,7 @@
    </tr>
    <tr>
     <td>
-     <fieldset id="name">
-      <xsl:choose>
-       <xsl:when test="charname/@nickname">
-        <legend class="label">
-         <span>Name (<q>
-           <xsl:value-of select="charname/@nickname"/>
-          </q>)</span>
-        </legend>
-       </xsl:when>
-       <xsl:otherwise>
-        <legend class="label">
-         <span>Name</span>
-        </legend>
-       </xsl:otherwise>
-      </xsl:choose>
-      <xsl:value-of select="charname"/>
-     </fieldset>
+     <xsl:call-template name="name"/>
     </td>
    </tr>
    <tr>
