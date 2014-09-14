@@ -4,138 +4,18 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:include href="skill-modes.xsl"/>
-
- <xsl:template name="skills_with_modes">
-  <tr><th colspan="4" class="sectionheader">Modes and Skills</th></tr>
-  <tr>
-   <th/>
-   <th>
-    <xsl:call-template name="skill-mode-th">
-     <xsl:with-param name="rating" select="3"/>
-    </xsl:call-template>
-   </th>
-   <th>
-    <xsl:call-template name="skill-mode-th">
-     <xsl:with-param name="rating" select="2"/>
-    </xsl:call-template>
-   </th>
-   <th>
-    <xsl:call-template name="skill-mode-th">
-     <xsl:with-param name="rating" select="1"/>
-    </xsl:call-template>
-   </th>
-  </tr>
-  <tr>
-   <th class="mode-rating">+5</th>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="3"/>
-     <xsl:with-param name="skillRating" select="5"/>
-    </xsl:call-template>
-   </td>
-   <td class="unused"/>
-   <td class="unused">
-    <ul id="skill-explanation">
-     <li class="specialized">specialized</li>
-     <li class="focused">focused</li>
-     <li>trained</li>
-    </ul>
-   </td>
-  </tr>
-  <tr>
-   <th class="mode-rating">+4</th>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="3"/>
-     <xsl:with-param name="skillRating" select="4"/>
-    </xsl:call-template>
-   </td>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="2"/>
-     <xsl:with-param name="skillRating" select="4"/>
-    </xsl:call-template>
-   </td>
-   <td class="unused"/>
-  </tr>
-  <tr>
-   <th class="mode-rating">+3</th>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="3"/>
-     <xsl:with-param name="skillRating" select="3"/>
-    </xsl:call-template>
-   </td>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="2"/>
-     <xsl:with-param name="skillRating" select="3"/>
-    </xsl:call-template>
-   </td>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="1"/>
-     <xsl:with-param name="skillRating" select="3"/>
-    </xsl:call-template>
-   </td>
-  </tr>
-  <tr>
-   <th class="mode-rating">+2</th>
-   <td class="unused"/>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="2"/>
-     <xsl:with-param name="skillRating" select="2"/>
-    </xsl:call-template>
-   </td>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="1"/>
-     <xsl:with-param name="skillRating" select="2"/>
-    </xsl:call-template>
-   </td>
-  </tr>
-  <tr>
-   <th class="mode-rating">+1</th>
-   <td class="unused"/>
-   <td class="unused"/>
-   <td>
-    <xsl:call-template name="skill-mode-tds">
-     <xsl:with-param name="modeRating"  select="1"/>
-     <xsl:with-param name="skillRating" select="1"/>
-    </xsl:call-template>
-   </td>
-  </tr>
- </xsl:template>
-
- <xsl:template name="skills_without_modes">
-  <tr><th colspan="6" class="sectionheader">Skills</th></tr>
-  <xsl:call-template name="skill">
-   <xsl:with-param name="rating" select="5"/>
-  </xsl:call-template>
-  <xsl:call-template name="skill">
-   <xsl:with-param name="rating" select="4"/>
-  </xsl:call-template>
-  <xsl:call-template name="skill">
-   <xsl:with-param name="rating" select="3"/>
-  </xsl:call-template>
-  <xsl:call-template name="skill">
-   <xsl:with-param name="rating" select="2"/>
-  </xsl:call-template>
-  <xsl:call-template name="skill">
-   <xsl:with-param name="rating" select="1"/>
-  </xsl:call-template>
- </xsl:template>
+ <xsl:include href="skills-with-modes.xsl"/>
+ <xsl:include href="skills-without-modes.xsl"/>
 
  <xsl:template match="skills">
   <xsl:param name="useSkillModes"/>
   <table id="skills">
    <xsl:choose>
     <xsl:when test="$useSkillModes='true'">
-     <xsl:call-template name="skills_with_modes"/>
+     <xsl:call-template name="skills-with-modes"/>
     </xsl:when>
     <xsl:otherwise>
-     <xsl:call-template name="skills_without_modes"/>
+     <xsl:call-template name="skills-without-modes"/>
     </xsl:otherwise>
    </xsl:choose>
   </table>
@@ -159,4 +39,5 @@
    </tr>
   </xsl:if>
  </xsl:template>
+
 </xsl:stylesheet>
