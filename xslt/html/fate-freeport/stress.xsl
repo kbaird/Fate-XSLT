@@ -20,16 +20,19 @@
     <xsl:with-param name="skillName">Wisdom</xsl:with-param>
    </xsl:call-template>
    <xsl:if test="$useCorruption='true'">
-     <tr>
-      <th class="sectionheader" colspan="4">Corruption</th>
-     </tr>
-     <tr>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-     </tr>
+    <xsl:call-template name="corruption-stress"/>
    </xsl:if>
   </table>
  </xsl:template>
+
+ <xsl:template name="corruption-stress">
+  <tr><th class="sectionheader" colspan="4">Corruption</th></tr>
+  <tr>
+   <td>1</td>
+   <td>1</td>
+   <td>1</td>
+   <td>1</td>
+  </tr>
+ </xsl:template>
+
 </xsl:stylesheet>

@@ -23,11 +23,7 @@
   <tr>
    <td>
     <fieldset class="stunt">
-     <legend>
-      <span>
-       <xsl:value-of select="@name"/>
-      </span>
-     </legend>
+     <legend><span><xsl:value-of select="@name"/></span></legend>
      <xsl:if test="@function or @flaw">
       <dl class="gear">
       <xsl:if test="@function">
