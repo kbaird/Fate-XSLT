@@ -29,7 +29,10 @@
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt name CDATA #IMPLIED>
+      <!ATTLIST stunt mega (true|false) #IMPLIED>
+      <!ATTLIST stunt name     CDATA    #IMPLIED>
+      <!ATTLIST stunt function CDATA    #IMPLIED>
+      <!ATTLIST stunt flaw     CDATA    #IMPLIED>
 
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
