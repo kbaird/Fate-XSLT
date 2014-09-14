@@ -10,7 +10,6 @@
  <xsl:include href="../fate-common/name-of-rating.xsl"/>
  <xsl:include href="../fate-common/notes.xsl"/>
  <xsl:include href="../fate-common/refresh.xsl"/>
- <xsl:include href="../fate-common/stunts.xsl"/>
  <xsl:include href="character.xsl"/>
  <xsl:include href="conditions.xsl"/>
  <xsl:include href="consequences.xsl"/>
