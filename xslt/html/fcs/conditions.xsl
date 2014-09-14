@@ -51,7 +51,7 @@
        <xsl:with-param name="severity">4</xsl:with-param>
       </xsl:call-template>
      </dl>
-     <p>Takes a recovery action to being removal. Second box may be checked only if the first isn't.</p>
+     <p>Takes a recovery action to begin removal. Second box may be checked only if the first isn't.</p>
     </td>
    </tr>
   </table>
@@ -65,13 +65,9 @@
    </xsl:if>
    <xsl:value-of select="$label"/>
   </dt>
-  <dd class="box">
-   <xsl:value-of select="$severity"/>
-  </dd>
+  <dd class="box"><xsl:value-of select="$severity"/></dd>
   <xsl:if test="$severity=4">
-   <dd class="box additional">
-    <xsl:value-of select="$severity"/>
-   </dd>
+   <dd class="box additional"><xsl:value-of select="$severity"/></dd>
   </xsl:if>
  </xsl:template>
 </xsl:stylesheet>
