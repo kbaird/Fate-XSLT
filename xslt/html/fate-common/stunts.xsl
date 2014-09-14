@@ -29,7 +29,7 @@
       </span>
      </legend>
      <xsl:if test="@function or @flaw">
-      <dl class="mega-stunt">
+      <dl class="gear">
       <xsl:if test="@function">
        <dt>Function:</dt>
        <dd><xsl:value-of select="@function"/></dd>
