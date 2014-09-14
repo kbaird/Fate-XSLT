@@ -24,18 +24,6 @@
    <td>
     <fieldset class="stunt">
      <legend><span><xsl:value-of select="@name"/></span></legend>
-     <xsl:if test="@function or @flaw">
-      <dl class="gear">
-      <xsl:if test="@function">
-       <dt>Function:</dt>
-       <dd><xsl:value-of select="@function"/></dd>
-      </xsl:if>
-      <xsl:if test="@flaw">
-       <dt>Flaw:</dt>
-       <dd><xsl:value-of select="@flaw"/></dd>
-      </xsl:if>
-      </dl>
-     </xsl:if>
      <xsl:value-of select="."/>
     </fieldset>
    </td>
