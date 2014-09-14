@@ -4,6 +4,7 @@
   version="1.0">
  <xsl:output method="html"/>
  <xsl:include href="html/fcs/fcs_common.xsl"/>
+ <xsl:include href="html/fate-common/stunts.xsl"/>
  <xsl:include href="html/sotc/character.xsl"/>
  <xsl:include href="html/sotc/copyright.xsl"/>
  <xsl:include href="html/sotc/gadgets.xsl"/>
