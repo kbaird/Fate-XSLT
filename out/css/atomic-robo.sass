@@ -2,6 +2,7 @@
 @import "colors"
 @import "fieldsets"
 @import "fonts"
+@import "_assets_and_hardware"
 
 #atomic-robo-logo
   height: 2em
@@ -18,14 +19,7 @@ dl.hardware
     &#function, &#flaw
       clear: none
   dd
-    +thin_border($hardware_details_color)
-    float: left
-    font: 1em $handwriting_font, ubuntu, verdana, arial, helvetica, sans-serif
-    margin-bottom: 0.5em
-    margin-left: 0
-    padding:       0.1em
-    padding-left:  0.2em
-    padding-right: 0.2em
+    +assets_and_hardware_dd
 
 fieldset.aspect
   height:      1.25em
