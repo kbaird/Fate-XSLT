@@ -11,6 +11,8 @@ div#experiences { width: 75%; }
 div#experiences-explanation { width: 25%; }
 div#notes { width: 100%; }
 
+dl.mega-stunt dt { float: left; font-weight: bolder; }
+dl.mega-stunt dd { float: left; margin-left: 0; }
 dl dt { font-family: Cabin, Padauk, Montserrat; display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; }
 dl dd { display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; border: 2px solid black; float: right; font-family: Cabin, Padauk, Montserrat; }
 
