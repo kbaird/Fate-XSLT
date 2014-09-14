@@ -1,0 +1,7 @@
+  <mode rating="x" name="Brains"> <!-- ARRPG pg268 -->
+   <skill name="Electrical Engineering" cost="0"/>
+   <skill name="Mechanics"              cost="0"/>
+   <skill name="Radio Communications"   cost="0"/>
+   <skill name="Will"                   cost="1"/>
+   <skill name="Underworld"             cost="0"/>
+  </mode>
