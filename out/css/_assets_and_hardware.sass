@@ -3,13 +3,15 @@
 @import "fonts"
 
 =assets_and_hardware_shared
-  float: left
+  display: table-row
+  float:   left
+  margin:  0.5em
+  padding: 0.2em
 
 =assets_and_hardware_dd
-  +thin_border($hardware_details_color)
   +assets_and_hardware_shared
+  +thin_border($hardware_details_color)
   font: 1em $handwriting_font, ubuntu, verdana, arial, helvetica, sans-serif
-  margin-bottom: 0.5em
   margin-left:   0
   margin-right:  1.5em
   padding:       0.1em
@@ -17,19 +19,18 @@
   padding-right: 0.2em
 
 =assets_and_hardware_dt
-  font-weight: bolder
+  font-variant: small-caps
+  font-weight:  bolder
+  margin-left:  0
+  margin-top:   0.5em
 
 =assets_shared
-  display: table-row
   +assets_and_hardware_shared
-  margin:  0
-  padding: 0.2em
 
 =hardware_dt
-  clear: both
+  +assets_and_hardware_dt
   +assets_and_hardware_shared
-  font-variant: small-caps
+  clear: both
   margin-right: 0
-  margin-top:   0
   &#function, &#flaw
     clear: none
