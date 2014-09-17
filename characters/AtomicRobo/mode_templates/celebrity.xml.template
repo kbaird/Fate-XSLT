@@ -1,0 +1,6 @@
+  <mode rating="x" name="Celebrity"> <!-- ARRPG pg269 -->
+   <skill name="Contacts" cost="1"/>
+   <skill name="Empathy"  cost="3"/>
+   <skill name="Rapport"  cost="1"/>
+   <!-- Improvement? -->
+  </mode>
