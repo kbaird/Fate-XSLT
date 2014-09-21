@@ -1,0 +1,8 @@
+  <mode rating="x" name="Fighter&#160;Pilot"> <!-- ARRPG pg296 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Vehicles"  cost="2"/>
+   <skill name="Will"      cost="1"/>
+   <!-- 2 pts of Improvements -->
+  </mode>
