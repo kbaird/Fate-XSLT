@@ -1,0 +1,9 @@
+  <mode rating="x" name="Gearhead"> <!-- ARRPG pg282 -->
+   <skill name="Aeronautical Engineering" cost="0"/>
+   <skill name="Electrical Engineering"   cost="0"/>
+   <skill name="Jet Propulsion"           cost="0"/>
+   <skill name="Mechanical Engineering"   cost="0"/>
+   <skill name="Vehicles"                 cost="2"/>
+   <skill name="Will"                     cost="1"/>
+   <!-- 7 pts of Improvements -->
+  </mode>
