@@ -43,11 +43,11 @@
      </legend>
      <dl class="hardware">
      <xsl:if test="@function">
-      <dt id="function">Function:</dt>
+      <dt id="function">Function Aspect:</dt>
       <dd><xsl:value-of select="@function"/></dd>
      </xsl:if>
      <xsl:if test="@flaw">
-      <dt id="flaw">Flaw:</dt>
+      <dt id="flaw">Flaw Aspect:</dt>
       <dd><xsl:value-of select="@flaw"/></dd>
      </xsl:if>
      <xsl:apply-templates select="benefits"/>
