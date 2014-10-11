@@ -1,0 +1,7 @@
+  <mode rating="x" name="Kaiju"> <!-- ARRPG pg296 -->
+   <skill name="Atomic Breath"    cost="1"/>
+   <skill name="Physique"         cost="1"/>
+   <skill name="Provoke"          cost="1"/>
+   <skill name="Tooth &amp; Claw" cost="1"/> <!-- ARRPG pg87 -->
+   <!-- 6 pts of Improvements -->
+  </mode>
