@@ -1,0 +1,9 @@
+  <mode rating="x" name="Pilot"> <!-- ARRPG pg89 -->
+   <skill name="Contacts" cost="1"/>
+   <skill name="Notice"   cost="1"/>
+   <skill name="Vehicles" cost="2"/>
+   <!--
+        Specialize 1 Trained Skill
+        Focus      2 Trained Skills
+   -->
+  </mode>
