@@ -1,0 +1,7 @@
+  <mode rating="x" name="Psychokinetic"> <!-- ARRPG pg89 -->
+   <skill name="Psychokinesis" cost="2"/>
+   <skill name="Will"          cost="1"/>
+   <!--
+        Specialize 2 Trained Skills
+   -->
+  </mode>
