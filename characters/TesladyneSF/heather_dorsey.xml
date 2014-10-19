@@ -46,7 +46,11 @@
   </mode>
  </skills>
  <stunts>
-  <stunt name=" ">TBD</stunt>
+   <stunt name="Master of Disguise">
+     As long as you're not being directly observed and there's a responsible
+     way to leave, you can disappear from a scene. Spend a Fate Point to appear
+     later in place of a pre-existing faceless NPC. (check exact phrasing)
+   </stunt>
   <stunt name=" ">TBD</stunt>
   <stunt name=" ">TBD</stunt>
   <stunt name=" ">TBD</stunt>
