@@ -22,31 +22,51 @@
          <legend class="label">
           <span>High Concept</span>
          </legend>
-         <xsl:value-of select="."/>
+         <xsl:call-template name="aspect-name">
+          <xsl:with-param name="aspect-name">
+           <xsl:value-of select="."/>
+          </xsl:with-param>
+         </xsl:call-template>
         </xsl:when>
         <xsl:when test="@type = 'Inciting-Incident'">
          <legend class="label">
           <span>Inciting Incident</span>
          </legend>
-         <xsl:value-of select="."/>
+         <xsl:call-template name="aspect-name">
+          <xsl:with-param name="aspect-name">
+           <xsl:value-of select="."/>
+          </xsl:with-param>
+         </xsl:call-template>
         </xsl:when>
         <xsl:when test="@type = 'Mode'">
          <legend class="label">
           <span><xsl:value-of select="@mode-name"/> Mode</span>
          </legend>
-         <xsl:value-of select="."/>
+         <xsl:call-template name="aspect-name">
+          <xsl:with-param name="aspect-name">
+           <xsl:value-of select="."/>
+          </xsl:with-param>
+         </xsl:call-template>
         </xsl:when>
         <xsl:otherwise>
          <legend class="label">
           <span><xsl:value-of select="@type"/></span>
          </legend>
-         <xsl:value-of select="."/>
+         <xsl:call-template name="aspect-name">
+          <xsl:with-param name="aspect-name">
+           <xsl:value-of select="."/>
+          </xsl:with-param>
+         </xsl:call-template>
         </xsl:otherwise>
        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
        <span class="content">
-        <xsl:value-of select="."/>
+         <xsl:call-template name="aspect-name">
+          <xsl:with-param name="aspect-name">
+           <xsl:value-of select="."/>
+          </xsl:with-param>
+         </xsl:call-template>
        </span>
       </xsl:otherwise>
      </xsl:choose>
@@ -54,4 +74,10 @@
    </td>
   </tr>
  </xsl:template>
+
+ <xsl:template name="aspect-name">
+  <xsl:param name="aspect-name"/>
+  <xsl:value-of select="$aspect-name"/>
+ </xsl:template>
+
 </xsl:stylesheet>
