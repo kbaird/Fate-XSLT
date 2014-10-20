@@ -6,7 +6,7 @@
  <xsl:template name="experience-points">
   <td>
    <dl id="experience-points">
-    <dt>XP:</dt>
+    <dt>Points:</dt>
     <dd class="box">
      <xsl:value-of select="experience-points"/>
     </dd>
