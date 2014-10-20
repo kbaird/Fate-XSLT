@@ -6,8 +6,12 @@
   div
     &#aspects
       width: 35%
+    &#consequences
+      width: 80%
     &#skills
       width: 65%
+    &#stress
+      width: 20%
 
   span#atomic-robo-logo img
     height: 50px
@@ -34,26 +38,22 @@
     padding: 0
 
   table
-    &#aspects
-      tbody
-        tr
-          td
-            +thin_border($dd_conditions_color)
-            padding-top:    1.0em
-            padding-bottom: 1.2em
-
-  table#skills
-    tbody
-      tr
-        th.sectionheader
-          line-height: 1em
-          font-size: 1em
-          margin: -1em
-          padding: 0
-        td
+    &#aspects tbody tr td
+      +thin_border($dd_conditions_color)
+      padding-top:    1.0em
+      padding-bottom: 1.2em
+    &#skills tbody tr
+      th.sectionheader
+        line-height: 1em
+        font-size: 1em
+        margin: -1em
+        padding: 0
+      td
+        padding: 0.1em
+        padding-top: 0.2em
+        padding-bottom: 0.2em
+        ul
+          margin:  0.1em
           padding: 0.1em
-          padding-top: 0.2em
-          padding-bottom: 0.2em
-          ul
-            margin:  0.1em
-            padding: 0.1em
+    &#stress tbody tr td
+      font-size: 0.5em
