@@ -47,9 +47,11 @@
  </skills>
  <stunts>
    <stunt name="Master of Disguise">
-     As long as you're not being directly observed and there's a responsible
-     way to leave, you can disappear from a scene. Spend a Fate Point to appear
-     later in place of a pre-existing faceless NPC. (check exact phrasing)
+    When you're in a situation where you're able to slip away unnoticed,
+    you have the option to temporarily drop out of the game altogether.
+    If you do, spend a Fate Point to reappear disguised as a faceless NPC
+    already in the scene (a security guard, a lab-coated scientist, a
+    DELPHI goon, etc.).
    </stunt>
   <stunt name=" ">TBD</stunt>
   <stunt name=" ">TBD</stunt>
