@@ -15,6 +15,7 @@
       <!ELEMENT aspect (#PCDATA)>
       <!ATTLIST aspect type (Concept|Mode|Omega) #REQUIRED>
       <!ATTLIST aspect mode-name CDATA           #IMPLIED>
+      <!ATTLIST aspect signature (true|false)    #IMPLIED>
 
     <!ELEMENT skills (mode*, skill*)>
       <!ELEMENT mode (skill*)>
