@@ -16,9 +16,27 @@
    <xsl:call-template name="stunts-header">
     <xsl:with-param name="label">Stunts &amp; Mega-Stunts</xsl:with-param>
    </xsl:call-template>
-   <xsl:apply-templates select="stunt"/>
+   <xsl:call-template   name="signature-aspect"/>
+   <xsl:apply-templates select="hardware"/>
    <xsl:apply-templates select="hardware"/>
   </table>
+ </xsl:template>
+
+ <xsl:template name="signature-aspect">
+  <xsl:for-each select="/character/aspects/aspect">
+   <xsl:if test="@signature='true'">
+    <tr>
+     <td>
+      <fieldset class="stunt">
+       <legend>
+        <span>Signature Aspect: <xsl:value-of select="."/> ☐</span>
+       </legend>
+       Invoke once for free, compel at two fate points instead of one
+      </fieldset>
+     </td>
+    </tr>
+   </xsl:if>
+  </xsl:for-each>
  </xsl:template>
 
  <xsl:template match="stunt">
