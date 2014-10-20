@@ -15,6 +15,7 @@
   <tr>
    <td>
     <fieldset>
+      <legend><xsl:value-of select="@name"/></legend>
      <xsl:value-of select="."/>
     </fieldset>
    </td>
