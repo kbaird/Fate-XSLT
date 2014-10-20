@@ -34,6 +34,7 @@
     <span>
      <xsl:value-of select="$label"/>
     </span>
+    <xsl:text>Recovering? ☐</xsl:text>
    </legend>
    <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
     <xsl:value-of select="."/>
