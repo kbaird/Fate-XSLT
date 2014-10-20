@@ -17,7 +17,7 @@
     <xsl:with-param name="label">Stunts &amp; Mega-Stunts</xsl:with-param>
    </xsl:call-template>
    <xsl:call-template   name="signature-aspect"/>
-   <xsl:apply-templates select="hardware"/>
+   <xsl:apply-templates select="stunt"/>
    <xsl:apply-templates select="hardware"/>
   </table>
  </xsl:template>
