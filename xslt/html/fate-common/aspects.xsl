@@ -78,6 +78,9 @@
  <xsl:template name="aspect-name">
   <xsl:param name="aspect-name"/>
   <xsl:value-of select="$aspect-name"/>
+  <xsl:if test="@signature='true'">
+   <xsl:text>*</xsl:text>
+  </xsl:if>
  </xsl:template>
 
 </xsl:stylesheet>
