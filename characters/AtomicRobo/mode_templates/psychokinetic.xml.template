@@ -1,4 +1,4 @@
-  <mode rating="x" name="Psychokinetic"> <!-- ARRPG pg89 -->
+  <mode rating="x" name="Psychokinetic" stress-type="mental"> <!-- ARRPG pg89 -->
    <skill name="Psychokinesis" cost="2"/>
    <skill name="Will"          cost="1"/>
    <!--

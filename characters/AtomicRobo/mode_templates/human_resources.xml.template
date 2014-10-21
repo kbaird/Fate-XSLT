@@ -1,4 +1,4 @@
-  <mode rating="1" name="Human&#160;Resources">
+  <mode rating="x" name="Human&#160;Resources" stress-type="mental">
    <skill name="Contacts" cost="1"/>
    <skill name="Deceive"  cost="2"/>
    <skill name="Empathy"  cost="3"/>

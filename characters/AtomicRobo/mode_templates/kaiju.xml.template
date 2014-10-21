@@ -1,4 +1,4 @@
-  <mode rating="x" name="Kaiju"> <!-- ARRPG pg296 -->
+  <mode rating="x" name="Kaiju" stress-type="split"> <!-- ARRPG pg296 -->
    <skill name="Atomic Breath"    cost="1"/>
    <skill name="Physique"         cost="1"/>
    <skill name="Provoke"          cost="1"/>

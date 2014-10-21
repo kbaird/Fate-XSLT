@@ -1,4 +1,4 @@
-  <mode rating="x" name="Commando"> <!-- ARRPG pg274 -->
+  <mode rating="x" name="Commando" stress-type="split"> <!-- ARRPG pg274 -->
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
    <skill name="Contacts"  cost="1"/>

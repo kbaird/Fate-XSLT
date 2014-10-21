@@ -1,4 +1,4 @@
-  <mode rating="x" name="Action"> <!-- ARRPG pg82 -->
+  <mode rating="x" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
    <skill name="Notice"    cost="1"/>

@@ -1,4 +1,4 @@
-  <mode rating="x" name="Intrigue"> <!-- ARRPG pg84 -->
+  <mode rating="x" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
    <skill name="Athletics" cost="2"/>
    <skill name="Burglary"  cost="1"/>
    <skill name="Contacts"  cost="1"/>

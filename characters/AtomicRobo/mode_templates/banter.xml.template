@@ -1,4 +1,4 @@
-  <mode rating="x" name="Banter"> <!-- ARRPG pg83 -->
+  <mode rating="x" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
    <skill name="Contacts" cost="1"/>
    <skill name="Deceive"  cost="2"/>
    <skill name="Empathy"  cost="3"/>

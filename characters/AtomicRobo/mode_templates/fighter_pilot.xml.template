@@ -1,4 +1,4 @@
-  <mode rating="x" name="Fighter&#160;Pilot"> <!-- ARRPG pg296 -->
+  <mode rating="x" name="Fighter&#160;Pilot" stress-type="split"> <!-- ARRPG pg296 -->
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
    <skill name="Notice"    cost="1"/>

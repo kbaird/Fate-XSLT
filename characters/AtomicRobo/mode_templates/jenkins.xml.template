@@ -1,4 +1,4 @@
-  <mode rating="x" name="Jenkins"> <!-- ARRPG pg256 -->
+  <mode rating="x" name="Jenkins" stress-type="split"> <!-- ARRPG pg256 -->
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
    <skill name="Notice"    cost="1"/>

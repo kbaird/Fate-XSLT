@@ -1,4 +1,4 @@
-  <mode rating="x" name="Commander"> <!-- ARRPG pg300 -->
+  <mode rating="x" name="Commander" stress-type="mental"> <!-- ARRPG pg300 -->
    <skill name="Deceive" cost="2"/>
    <skill name="Empathy" cost="3"/>
    <skill name="Notice"  cost="1"/>
