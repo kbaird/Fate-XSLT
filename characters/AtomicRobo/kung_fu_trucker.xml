@@ -5,9 +5,9 @@
  <id>
   <charname>Kung Fu Trucker</charname>
   <playername>NPC</playername>
-  <affiliation>Deadly Disco Kommisar</affiliation>
+  <affiliation>Deadly Disco Комиссар</affiliation>
   <description>
-    TBD
+    &#160;
   </description>
  </id>
  <current-fate-points>3</current-fate-points>
@@ -32,9 +32,8 @@
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
    <skill name="Notice"    cost="1"/>
-   <skill name="Vehicles"  cost="2"/>
+   <skill name="Vehicles"  cost="2" add="1"/>
    <skill name="Will"      cost="1"/>
-   <!-- 2 pts of Improvements -->
   </mode>
   <mode rating="1" name="Action"> <!-- ARRPG pg82 -->
    <skill name="Athletics" cost="2"/>

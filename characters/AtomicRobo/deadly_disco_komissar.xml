@@ -3,11 +3,12 @@
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
  <id>
-  <charname>Deadly Disco Kommisar</charname>
+  <charname>Deadly Disco Комиссар</charname>
   <playername>NPC</playername>
   <affiliation>U.S.S.R.</affiliation>
   <description>
-    TBD
+    Furry hat, Burt Reynolds moustache, shirt open, chest hair, gold medallion
+    with a hammer &amp; Sickle.
   </description>
  </id>
  <current-fate-points>3</current-fate-points>
