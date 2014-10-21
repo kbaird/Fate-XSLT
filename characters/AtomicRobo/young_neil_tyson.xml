@@ -7,7 +7,8 @@
   <playername>Supporting NPC</playername>
   <affiliation>Bronx Science</affiliation>
   <description>
-    TBD
+    You know what Neil looks like, right? That, but when he was a high school
+    wrestler in the 70s.
   </description>
  </id>
  <current-fate-points>3</current-fate-points>
@@ -23,7 +24,6 @@
   <mode rating="3" name="Athlete" stress-type="physical">
    <skill name="Athletics" cost="2"/>
    <skill name="Combat"    cost="2"/>
-   <skill name="Notice"    cost="1"/>
    <skill name="Physique"  cost="1"/>
    <skill name="Provoke"   cost="1"/>
    <skill name="Stealth"   cost="2"/>
@@ -50,11 +50,13 @@
   </mode>
  </skills>
  <stunts>
-  <stunt name="Stunt1">TBD</stunt>
-  <stunt name="Stunt2">TBD</stunt>
-  <stunt name="Stunt3">TBD</stunt>
-  <stunt name="Stunt4">TBD</stunt>
-  <stunt name="Stunt5">TBD</stunt>
+   <stunt name="Budding Scientist">
+     During a Brainstorm, Neil's player can invoke a Fact established by another player without that player's permission.
+   </stunt>
+  <stunt name="Teenager">+2 to Create an Advantage when using Rapport on someone younger than the rest of his team.</stunt>
+  <stunt name="&#160;">&#160;</stunt>
+  <stunt name="&#160;">&#160;</stunt>
+  <stunt name="&#160;">&#160;</stunt>
  </stunts>
  <consequences>
  </consequences>
