@@ -1,0 +1,73 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<character>
+ <id>
+  <charname>Young Neil Tyson</charname>
+  <playername>Supporting NPC</playername>
+  <affiliation>Bronx Science</affiliation>
+  <description>
+    TBD
+  </description>
+ </id>
+ <current-fate-points>3</current-fate-points>
+ <experience-points>0</experience-points>
+ <aspects>
+  <aspect type="Concept">Carl's Eventual Successor... IN TRAINING</aspect>
+  <aspect type="Mode" mode-name="Athlete">Captain of the Wrestling Team</aspect>
+  <aspect type="Mode" mode-name="Science">Ready For Discovery</aspect>
+  <aspect type="Mode" mode-name="Banter">Charming &amp; Boisterous</aspect>
+  <aspect type="Omega"></aspect>
+ </aspects>
+ <skills>
+  <mode rating="3" name="Athlete" stress-type="physical">
+   <skill name="Athletics" cost="2"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+   <skill name="Provoke"   cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+   <skill name="Will"      cost="1"/>
+  </mode>
+  <mode rating="2" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+   <skill name="Notice"               cost="1"/>
+   <skill name="Will"                 cost="1"/>
+   <skill name="(all other Sciences)" cost="1"/>
+  </mode>
+  <!--
+       Specialize one trained skill.
+       Focus one trained skill.
+       Specialize one focused skill.
+  -->
+  <mode rating="1" name="Banter"> <!-- ARRPG pg83 -->
+   <skill name="Contacts" cost="1"/>
+   <skill name="Deceive"  cost="2"/>
+   <skill name="Empathy"  cost="3"/>
+   <skill name="Notice"   cost="1"/>
+   <skill name="Provoke"  cost="1"/>
+   <skill name="Rapport"  cost="1"/>
+   <skill name="Will"     cost="1"/>
+  </mode>
+ </skills>
+ <stunts>
+  <stunt name="Stunt1">TBD</stunt>
+  <stunt name="Stunt2">TBD</stunt>
+  <stunt name="Stunt3">TBD</stunt>
+  <stunt name="Stunt4">TBD</stunt>
+  <stunt name="Stunt5">TBD</stunt>
+ </stunts>
+ <consequences>
+ </consequences>
+ <experiences>
+  <experience/>
+  <experience/>
+  <experience/>
+ </experiences>
+ <notes>
+  If one of your modes is Science, also apply ALL of the following
+  improvements:
+  * Specialize one trained skill.
+  * Focus one trained skill.
+  * Specialize one focused skill.
+ </notes>
+</character>
