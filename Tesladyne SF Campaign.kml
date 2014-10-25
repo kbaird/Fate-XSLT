@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Tesladyne SF Campaign</name>
+		<description><![CDATA[Locations for the ARRPG campaign run by Kevin set in the SF Bay Area]]></description>
+		<Folder>
+			<name>Tesladyne-specific Locations</name>
+			<Placemark>
+				<styleUrl>#icon-959-4186F0</styleUrl>
+				<name>Tesladyne (Latham Square Building)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[1611 Telegraph Avenue, Oakland, CA 94612]]></description>
+				<Point>
+					<coordinates>-122.27077500000001,37.8064815,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1037</styleUrl>
+				<name>Dennis Kim's Apartment Building</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Channing near Milvia, Berkeley, CA]]></description>
+				<Point>
+					<coordinates>-122.27084219999999,37.8652745,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1037</styleUrl>
+				<name>Karen Alazar's Apartment</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-122.25002289999999,37.8018836,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-959-4186F0</styleUrl>
+				<name>Tesladyne (alt location)</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-122.39670969999997,37.7884439,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>UC</name>
+			<Placemark>
+				<styleUrl>#icon-1123</styleUrl>
+				<name>Essig Museum-Entomology Research</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-122.26212800000002,37.871494000000006,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1127</styleUrl>
+				<name>Lawrence Berkeley National Laboratory</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-122.24646300000002,37.877016,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1201</styleUrl>
+				<name>Lawrence Berkeley Lab Library</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-122.250114,37.87582,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1205</styleUrl>
+				<name>Edward Chang, M.D.</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-122.45750299999996,37.763031,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Buzz About the New Cell Tower</name>
+			<Placemark>
+				<styleUrl>#icon-1197</styleUrl>
+				<name>Heritage High School</name>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-121.75562400000001,37.921772,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1209</styleUrl>
+				<name>Proposed Verizon Cell Tower</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Priya: "I Hope No One Else Gets Hurt", "Let's Just Get This Cleared Up Quickly", Gordon Frankie: "These Are Unusual Bees", "Colony Collapse Disorder?"]]></description>
+				<Point>
+					<coordinates>-121.753723,37.9197415,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1037</styleUrl>
+				<name>Deboarh Mearls' House</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA["I Cut the Wires, and I'd Do It Again", "Ron Paul REVOLution"]]></description>
+				<Point>
+					<coordinates>-121.74906669999999,37.9180234,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-1037</styleUrl>
+				<name>Uly Finch's House</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA["Stop the Bee Genocide!", "Nature's Justice", "Proud Graduate of the CA Holistic Institute for Groovy Studies"]]></description>
+				<Point>
+					<coordinates>-121.7476666,37.9141807,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1037'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1123'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1123-crisis-biohazard.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1127'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1127-crisis-chemical.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1197'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1197-fac-headquarters.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1201'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1201-fac-info-alt.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1205'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1205-fac-medical.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-1209'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1209-fac-phone.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='icon-959-4186F0'>
+			<IconStyle>
+				<color>ffF08641</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
