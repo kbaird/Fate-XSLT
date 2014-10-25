@@ -1,0 +1,80 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<character>
+ <id>
+  <charname>Melissa Daskalakis (Μελισσα Δασκαλακισ)</charname>
+  <playername>AR:RPG NPC</playername>
+  <affiliation>CA Governor's Office liaison to Tesladyne's SF office</affiliation>
+  <description>
+   An amiable, athletic, well-dressed woman of Greek descent.
+   Decorates her office with traditional Greek bull statues, as well as complex
+   abstract art, like mazes, Celtic knots, Sini script, and Islamic calligraphy.
+  </description>
+ </id>
+ <current-fate-points>3</current-fate-points>
+ <experience-points>0</experience-points>
+ <aspects>
+  <aspect type="Concept">Minoan Palatine (GURPS AT104)</aspect>
+  <aspect type="Mode" mode-name="Telepath">Psionics Are Beyond Good &amp; Evil</aspect>
+  <aspect type="Mode" mode-name="Intrigue">Trust Me, I’m Looking Out For Your Best Interests</aspect>
+  <aspect type="Mode" mode-name="Secret Agent">Help Tesladyne, It Will Become Useful To Us</aspect>
+  <aspect type="Omega">I’m Not The Bad Guy Here</aspect>
+ </aspects>
+ <skills>
+  <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
+   <skill name="Deceive"        cost="2"/>
+   <skill name="Empathy"        cost="3"/>
+   <skill name="Hallucinations" cost="2"/>
+   <skill name="Provoke"        cost="1"/>
+   <skill name="Rapport"        cost="1"/>
+   <skill name="Will"           cost="1"/>
+  </mode>
+  <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Burglary"  cost="1"/>
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+  </mode>
+  <mode rating="1" name="Secret Agent"> <!-- ARRPG pg91 -->
+   <skill name="Burglary" cost="1"/>
+   <skill name="Contacts" cost="1"/>
+   <skill name="Deceive"  cost="2"/>
+   <skill name="Notice"   cost="1"/>
+   <skill name="Stealth"  cost="2"/>
+   <skill name="Vehicles" cost="2"/>
+  </mode>
+ </skills>
+ <stunts>
+  <stunt name="Borrowed Knowledge">
+   Pick another character (PC or NPC) who’s in the scene with you. You can use
+   one of their skills for one roll in this scene, whether it’s a skill you
+   already have or not. When you do this, pay that character a fate point.
+  </stunt>
+  <stunt name="Cutting Words">
+   When you invoke one of a target’s aspects as part of creating an advantage
+   with Provoke, spend a fate point to also deal them a mental hit equal to the
+   number of shifts you obtain on the roll.
+  </stunt>
+  <stunt name="Deep Tesladyne Cover">
+   When operating undercover, you can use Deceive in place of Provoke or
+   Rapport, as long as you’re acting “in character.”
+  </stunt>
+  <stunt name="Mind Reader">
+   When you use Empathy to create an advantage by discovering another character’s
+   aspects, you don’t need to speak with them and it takes virtually no time.
+  </stunt>
+  <stunt name="Versatile Deceive">
+   Switch ANY skill with Deceive once per scene
+  </stunt>
+ </stunts>
+ <consequences>
+ </consequences>
+ <experiences>
+  <experience/>
+  <experience/>
+  <experience/>
+ </experiences>
+</character>
