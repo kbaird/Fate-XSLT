@@ -7,8 +7,7 @@
   <playername>Supporting NPC</playername>
   <affiliation>Bronx Science</affiliation>
   <description>
-    You know what Neil looks like, right? That, but when he was a high school
-    wrestler in the 70s.
+    You know what Neil looks like, right? That, but when he was in college.
   </description>
  </id>
  <current-fate-points>4</current-fate-points>
@@ -53,9 +52,15 @@
    <stunt name="Budding Scientist">
      During a Brainstorm, Neil's player can invoke a Fact established by another player without that player's permission.
    </stunt>
-  <stunt name="Teenager">+2 to Create an Advantage when using Rapport on someone younger than the rest of his team.</stunt>
-  <stunt name="&#160;">&#160;</stunt>
-  <stunt name="&#160;">&#160;</stunt>
+   <stunt name="The Young One">
+     +2 to Create an Advantage when using Rapport on someone younger than the rest of his team.
+   </stunt>
+   <stunt name="Dancing Fool">
+     +2 to Create an Advantage using Athletics when the narrative description is predicated on dancing.
+   </stunt>
+   <stunt name="Half Nelson">
+     +2 to Create the specific Advantage &quot;Grappled&quot; using Athletics.
+   </stunt>
   <stunt name="&#160;">&#160;</stunt>
  </stunts>
  <consequences>
