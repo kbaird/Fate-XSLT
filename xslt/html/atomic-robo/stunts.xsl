@@ -18,7 +18,7 @@
    </xsl:call-template>
    <xsl:call-template   name="signature-aspect"/>
    <xsl:apply-templates select="stunt"/>
-   <xsl:apply-templates select="hardware"/>
+   <xsl:apply-templates select="gadget"/>
   </table>
  </xsl:template>
 
@@ -52,14 +52,14 @@
   </tr>
  </xsl:template>
 
- <xsl:template match="hardware">
+ <xsl:template match="gadget">
   <tr>
    <td>
     <fieldset class="stunt">
      <legend>
       <span><xsl:value-of select="@name"/></span>
      </legend>
-     <dl class="hardware">
+     <dl class="gadget">
      <xsl:if test="@function">
       <dt id="function">Function Aspect:</dt>
       <dd><xsl:value-of select="@function"/></dd>
