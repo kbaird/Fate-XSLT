@@ -18,7 +18,7 @@
   <aspect type="Concept">Minoan Palatine (GURPS AT104)</aspect>
   <aspect type="Mode" mode-name="Telepath">Psionics Are Beyond Good &amp; Evil</aspect>
   <aspect type="Mode" mode-name="Intrigue">Trust Me, I’m Looking Out For Your Best Interests</aspect>
-  <aspect type="Mode" mode-name="Secret Agent">Help Tesladyne, It Will Become Useful To Us</aspect>
+  <aspect type="Mode" mode-name="Secret&#160;Agent">Help Tesladyne, It Will Become Useful To Us</aspect>
   <aspect type="Omega">I’m Not The Bad Guy Here</aspect>
  </aspects>
  <skills>
@@ -38,7 +38,7 @@
    <skill name="Notice"    cost="1"/>
    <skill name="Stealth"   cost="2"/>
   </mode>
-  <mode rating="1" name="Secret Agent"> <!-- ARRPG pg91 -->
+  <mode rating="1" name="Secret&#160;Agent"> <!-- ARRPG pg91 -->
    <skill name="Burglary" cost="1"/>
    <skill name="Contacts" cost="1"/>
    <skill name="Deceive"  cost="2"/>
