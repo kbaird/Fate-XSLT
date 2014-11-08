@@ -7,7 +7,7 @@
 			<name>Tesladyne-specific Locations</name>
 			<Placemark>
 				<styleUrl>#icon-959-4186F0</styleUrl>
-				<name>Tesladyne (Latham Square Building)</name>
+				<name>Tesladyne (alt, Latham Square Building)</name>
 				<ExtendedData>
 				</ExtendedData>
 				<description><![CDATA[1611 Telegraph Avenue, Oakland, CA 94612]]></description>
@@ -36,11 +36,21 @@
 			</Placemark>
 			<Placemark>
 				<styleUrl>#icon-959-4186F0</styleUrl>
-				<name>Tesladyne (alt location)</name>
+				<name>Tesladyne (alt SF location)</name>
 				<ExtendedData>
 				</ExtendedData>
 				<Point>
 					<coordinates>-122.39670969999997,37.7884439,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#icon-959-4186F0</styleUrl>
+				<name>Tesladyne Oakland</name>
+				<ExtendedData>
+				</ExtendedData>
+				<description><![CDATA[Trans Pacific Centre Building]]></description>
+				<Point>
+					<coordinates>-122.27187700000002,37.80174000000001,0.0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
@@ -106,7 +116,7 @@
 			</Placemark>
 			<Placemark>
 				<styleUrl>#icon-1037</styleUrl>
-				<name>Deboarh Mearls' House</name>
+				<name>Deborah Mearls' House</name>
 				<ExtendedData>
 				</ExtendedData>
 				<description><![CDATA["I Cut the Wires, and I'd Do It Again", "Ron Paul REVOLution"]]></description>
