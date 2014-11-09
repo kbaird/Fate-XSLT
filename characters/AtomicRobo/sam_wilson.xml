@@ -7,7 +7,7 @@
   <playername>Supporting NPC</playername>
   <affiliation>As presented in Cpt. America: the Winter Soldier</affiliation>
   <description>
-    TBD
+    &#160;
   </description>
  </id>
  <current-fate-points>5</current-fate-points>
@@ -60,8 +60,8 @@
   <stunt name="This Is My Rifle">
    +2 to Attack with Combat when using military-grade firearms.
   </stunt>
-  <stunt name=" ">TBD</stunt>
-  <hardware name="EXO-7 Falcon"
+  <stunt name=" ">&#160;</stunt>
+  <gadget name="EXO-7 Falcon"
     function="Fast and Maneuverable Flying"
     flaw="Wings Can Be Pulled Off">
    <benefits>
@@ -70,7 +70,7 @@
      when shaking a tail (missiles, pursuer, etc.)
     </benefit>
    </benefits>
-  </hardware>
+  </gadget>
  </stunts>
  <consequences>
  </consequences>
