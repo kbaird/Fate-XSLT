@@ -28,13 +28,13 @@
         <!ATTLIST skill add    CDATA #IMPLIED>
         <!ATTLIST skill cost   CDATA #IMPLIED> <!-- For Weird calculations -->
 
-    <!ELEMENT stunts (stunt*, hardware*)>
+    <!ELEMENT stunts (stunt*, gadget*)>
       <!ELEMENT stunt (#PCDATA)>
       <!ATTLIST stunt name     CDATA    #IMPLIED>
-      <!ELEMENT hardware (benefits*)>
-      <!ATTLIST hardware name     CDATA    #IMPLIED>
-      <!ATTLIST hardware function CDATA    #IMPLIED>
-      <!ATTLIST hardware flaw     CDATA    #IMPLIED>
+      <!ELEMENT gadget (benefits*)>
+      <!ATTLIST gadget name     CDATA    #IMPLIED>
+      <!ATTLIST gadget function CDATA    #IMPLIED>
+      <!ATTLIST gadget flaw     CDATA    #IMPLIED>
       <!ELEMENT benefits (benefit*)>
         <!ELEMENT benefit (#PCDATA)>
         <!ATTLIST benefit cost CDATA    #IMPLIED>

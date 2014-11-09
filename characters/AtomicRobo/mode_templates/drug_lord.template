@@ -1,0 +1,10 @@
+  <mode rating="x" name="Drug&#160;Lord" stress-type="mental">
+   <skill name="Burglary"  cost="1"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Provoke"   cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+   <skill name="Will"      cost="1"/>
+  </mode>

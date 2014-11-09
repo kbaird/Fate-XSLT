@@ -1,0 +1,7 @@
+  <mode rating="x" name="Russian" stress-type="split"> <!-- ARRPG pg283 -->
+   <skill name="Combat"   cost="2"/>
+   <skill name="Contacts" cost="1"/>
+   <skill name="Physique" cost="1"/>
+   <skill name="Provoke"  cost="1"/>
+   <!-- 5 pts of Improvements -->
+  </mode>
