@@ -7,7 +7,7 @@
   <playername>Jennifer Cornish</playername>
   <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
   <description>
-    TBD<!--
+    &#160;<!--
          I suggested to Jenn that Heather might've gone to the
          Institute for Social Ecology
     -->
@@ -17,10 +17,10 @@
  <experience-points>0</experience-points>
  <aspects>
   <aspect type="Concept">"Black Widow for Greenpeace"?</aspect>
-  <aspect type="Mode" mode-name="Science">TBD</aspect>
-  <aspect type="Mode" mode-name="Intrigue">TBD</aspect>
-  <aspect type="Mode" mode-name="Action">TBD</aspect>
-  <aspect type="Omega">TBD</aspect>
+  <aspect type="Mode" mode-name="Science">&#160;</aspect>
+  <aspect type="Mode" mode-name="Intrigue">&#160;</aspect>
+  <aspect type="Mode" mode-name="Action">&#160;</aspect>
+  <aspect type="Omega">&#160;</aspect>
  </aspects>
  <skills>
   <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
@@ -53,10 +53,10 @@
     already in the scene (a security guard, a lab-coated scientist, a
     DELPHI goon, etc.).
    </stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">&#160;</stunt>
+  <stunt name=" ">&#160;</stunt>
+  <stunt name=" ">&#160;</stunt>
+  <stunt name=" ">&#160;</stunt>
  </stunts>
  <consequences>
  </consequences>

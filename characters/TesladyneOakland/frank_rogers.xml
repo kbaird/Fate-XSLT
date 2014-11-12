@@ -6,20 +6,18 @@
   <charname>Frank Rogers</charname>
   <playername>Michael Wood</playername>
   <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
-  <description>
-    TBD
-  </description>
+  <description>&#160;</description>
  </id>
  <current-fate-points>1</current-fate-points>
  <experience-points>0</experience-points>
  <aspects>
-  <aspect type="Concept">TBD</aspect>
-  <aspect type="Mode" mode-name="Telepath">TBD</aspect>
-  <aspect type="Mode" mode-name="Martial&#160;Artist">TBD</aspect>
+  <aspect type="Concept">&#160;</aspect>
+  <aspect type="Mode" mode-name="Telepath">&#160;</aspect>
+  <aspect type="Mode" mode-name="Martial&#160;Artist">&#160;</aspect>
   <aspect type="Mode" mode-name="Human&#160;Resources">
    The Batman of Human Resources
   </aspect>
-  <aspect type="Omega">TBD</aspect>
+  <aspect type="Omega">&#160;</aspect>
  </aspects>
  <skills>
   <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->

@@ -17,7 +17,7 @@
   <aspect type="Mode" mode-name="Beast">Queen of the Hive</aspect>
   <aspect type="Mode" mode-name="Banter">Destined to Replace Humanity</aspect>
   <aspect type="Mode" mode-name="Mutant">Hybrid Vigor</aspect>
-  <aspect type="Omega">TBD</aspect>
+  <aspect type="Omega">&#160;</aspect>
  </aspects>
  <skills>
   <mode rating="3" name="Beast" stress-type="physical"> <!-- ARRPG pg87 -->
