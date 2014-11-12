@@ -1,0 +1,73 @@
+<?xml version = '1.0'?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "./atomic-robo.dtd">
+<character>
+ <id>
+  <charname>Sherlock Holmes</charname>
+  <playername>From the 2010- BBC series</playername>
+  <affiliation>Dr. John Watson; Baker St. Irregulars</affiliation>
+  <description>Tall, dark hair, clean shaven. Usually in a long black wool coat.</description>
+ </id>
+ <current-fate-points>5</current-fate-points>
+ <experience-points>0</experience-points>
+ <aspects>
+  <aspect type="Concept" signature="true">Consulting Detective</aspect>
+  <aspect type="Mode" mode-name="Consulting&#160;Detective">The Police Come To Me When They're Out Of Their Depth...Which Is Always</aspect>
+  <aspect type="Mode" mode-name="Action">Manic and Easily Bored</aspect>
+  <aspect type="Mode" mode-name="Science">Why Can't You People Just Observe?</aspect>
+  <aspect type="Omega">High-Functioning Sociopath</aspect>
+ </aspects>
+ <skills>
+  <mode rating="3" name="Consulting&#160;Detective" stress-type="mental">
+   <skill name="Burglary"  cost="1"/>
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Forensics" cost="0" add="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Provoke"   cost="1"/>
+   <skill name="Will"      cost="1" add="1"/> <!-- specialize one focused skill, pg34 -->
+  </mode>
+  <mode rating="2" name="Action" stress-type="physical">
+   <skill name="Athletics" cost="2" add="1"/> <!-- focus 1 trained, pg34 -->
+   <skill name="Combat"    cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+   <skill name="Provoke"   cost="1"/>
+   <skill name="Vehicles"  cost="2"/>
+  </mode>
+  <mode rating="1" name="Science">
+   <skill name="Notice"    cost="1"/>
+   <skill name="Will"      cost="1"/>
+   <skill name="(all other Sciences)"/>
+  </mode>
+ </skills>
+ <stunts>
+  <stunt name="Mind Palace">
+    Spend a Fate Point to make a suitable declaration predicated on eidetic memory.
+  </stunt>
+  <stunt name="The Science of Deduction">
+    Use Notice instead of Empathy to discover a person's aspects via Create an Advantage,
+      but only when doing so would further an investigation.
+    Use Notice instead of Empathy to discern lies and deceptions via Defend,
+      but only when doing so would further an investigation.
+    Both at a cost (typically offending people or not understanding emotional bonds).
+  </stunt>
+  <stunt name="&#160;">&#160;</stunt>
+  <stunt name="&#160;">&#160;</stunt>
+ </stunts>
+ <consequences>
+ </consequences>
+ <experiences>
+  <experience/>
+  <experience/>
+  <experience/>
+ </experiences>
+ <notes>
+ <!--
+  If one of your modes is Science, however, apply all of the following improvements:
+  * Specialize one trained skill. (Forensics w/in Science).
+  * Focus one trained skill (Athletics w/in Action).
+  * Specialize one focused skill (Will w/in Consulting Detective).
+ -->
+ </notes>
+</character>

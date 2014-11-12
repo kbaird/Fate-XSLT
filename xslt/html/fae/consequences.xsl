@@ -11,15 +11,15 @@
    <tr>
     <td>
      <xsl:call-template name="consequence">
-      <xsl:with-param name="label">Mild (2):</xsl:with-param>
+      <xsl:with-param name="label">Mild (2)</xsl:with-param>
       <xsl:with-param name="severity">Mild</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="consequence">
-      <xsl:with-param name="label">Moderate (4):</xsl:with-param>
+      <xsl:with-param name="label">Moderate (4)</xsl:with-param>
       <xsl:with-param name="severity">Moderate</xsl:with-param>
      </xsl:call-template>
      <xsl:call-template name="consequence">
-      <xsl:with-param name="label">Severe (6):</xsl:with-param>
+      <xsl:with-param name="label">Severe (6)</xsl:with-param>
       <xsl:with-param name="severity">Severe</xsl:with-param>
      </xsl:call-template>
     </td>
@@ -34,7 +34,7 @@
     <span>
      <xsl:value-of select="$label"/>
     </span>
-    <xsl:text>Recovering? ☐</xsl:text>
+    <xsl:text>Free ☐ / Recovering? ☐</xsl:text>
    </legend>
    <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
     <xsl:value-of select="."/>

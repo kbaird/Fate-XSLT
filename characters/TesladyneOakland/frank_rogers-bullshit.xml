@@ -5,21 +5,21 @@
  <id>
   <charname>Frank Rogers</charname>
   <playername>Michael Wood</playername>
-  <affiliation>Tesladyne SF (Action Scientist PC)</affiliation>
+  <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
   <description>
-    TBD
+    &#160;
   </description>
  </id>
  <current-fate-points>1</current-fate-points>
  <experience-points>0</experience-points>
  <aspects>
-  <aspect type="Concept">TBD</aspect>
-  <aspect type="Mode" mode-name="Banter">TBD</aspect>
-  <aspect type="Mode" mode-name="Martial&#160;Artist">TBD</aspect>
+  <aspect type="Concept">&#160;</aspect>
+  <aspect type="Mode" mode-name="Banter">&#160;</aspect>
+  <aspect type="Mode" mode-name="Martial&#160;Artist">&#160;</aspect>
   <aspect type="Mode" mode-name="Human&#160;Resources">
    The Batman of Human Resources
   </aspect>
-  <aspect type="Omega">TBD</aspect>
+  <aspect type="Omega">&#160;</aspect>
  </aspects>
  <skills>
   <mode rating="3" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
@@ -49,11 +49,11 @@
   </mode>
  </skills>
  <stunts>
-  <stunt name="TBD1">TBD1</stunt>
-  <stunt name="TBD2">TBD2</stunt>
-  <stunt name="TBD3">TBD3</stunt>
-  <stunt name="TBD4">TBD4</stunt>
-  <stunt name="TBD5">TBD5</stunt>
+  <stunt name="&#160;1">&#160;1</stunt>
+  <stunt name="&#160;2">&#160;2</stunt>
+  <stunt name="&#160;3">&#160;3</stunt>
+  <stunt name="&#160;4">&#160;4</stunt>
+  <stunt name="&#160;5">&#160;5</stunt>
  </stunts>
  <consequences>
  </consequences>
