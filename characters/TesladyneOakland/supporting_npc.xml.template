@@ -3,31 +3,31 @@
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
  <id>
-  <charname>TBD</charname>
+  <charname>&#160;</charname>
   <playername>Supporting NPC</playername>
-  <affiliation>Tesladyne SF (Resident Scientist NPC)</affiliation>
+  <affiliation>Tesladyne Oakland (Resident Scientist NPC)</affiliation>
   <description>
-    TBD
+    &#160;
   </description>
  </id>
- <current-fate-points>3</current-fate-points>
+ <current-fate-points>0</current-fate-points>
  <experience-points>0</experience-points>
  <aspects>
-  <aspect type="Concept">TBD</aspect>
-  <aspect type="Mode" mode-name="Mode1">TBD</aspect>
-  <aspect type="Mode" mode-name="Mode2">TBD</aspect>
-  <aspect type="Mode" mode-name="Mode3">TBD</aspect>
-  <aspect type="Omega">TBD</aspect>
+  <aspect type="Concept">&#160;</aspect>
+  <aspect type="Mode" mode-name="Mode1">&#160;</aspect>
+  <aspect type="Mode" mode-name="Mode2">&#160;</aspect>
+  <aspect type="Mode" mode-name="Mode3">&#160;</aspect>
+  <aspect type="Omega">&#160;</aspect>
  </aspects>
  <skills>
   Add MODES
  </skills>
  <stunts>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
-  <stunt name=" ">TBD</stunt>
+  <stunt name=" ">&#160;</stunt>
+  <stunt name=" ">&#160;</stunt>
+  <stunt name=" ">&#160;</stunt>
+  <stunt name=" ">&#160;</stunt>
+  <stunt name=" ">&#160;</stunt>
  </stunts>
  <consequences>
  </consequences>
