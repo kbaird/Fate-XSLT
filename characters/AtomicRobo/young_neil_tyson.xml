@@ -54,8 +54,8 @@
    <stunt name="Dancing Fool">
      +2 to Create an Advantage using Athletics when the narrative description is predicated on dancing.
    </stunt>
-   <stunt name="Half Nelson">
-     +2 to Create the specific Advantage &quot;Grappled&quot; using Athletics.
+   <stunt name="Grappler">
+     +2 to Physique rolls made to Create Advantages on an enemy by wrestling or grappling with them.
    </stunt>
    <stunt name="The Young One">
      +2 to Create an Advantage when using Rapport on someone younger than the rest of his team.
