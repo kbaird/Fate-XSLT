@@ -32,7 +32,6 @@
    <skill name="Contacts" cost="1"/>
    <skill name="Deceive"  cost="2"/>
    <skill name="Empathy"  cost="3" add="1"/> <!-- Mutant mods -->
-   <skill name="Notice"   cost="1"/>
    <skill name="Provoke"  cost="1"/>
    <skill name="Rapport"  cost="1"/>
    <skill name="Will"     cost="1" add="2"/> <!-- Mutant mods -->
@@ -42,6 +41,10 @@
         Specialize 2 Trained Skills
         Specialize 1 Focused Skill
         Focus      1 Trained Skill
+        Mutant Mode Improvements
+        X Specialize two trained skills: [Tooth and Claw, Will].
+        X Specialize one focused skill: [Provoke].
+        X Focus one trained skill: [Empathy].
    -->
   </mode>
  </skills>
@@ -61,12 +64,5 @@
   <experience/>
   <experience/>
  </experiences>
- <notes>
-  <!--
-  Mutant Mode Improvements
-  X Specialize two trained skills: [Tooth and Claw, Will].
-  X Specialize one focused skill: [Provoke].
-  X Focus one trained skill: [Empathy].
-  -->
- </notes>
+ <notes/>
 </character>
