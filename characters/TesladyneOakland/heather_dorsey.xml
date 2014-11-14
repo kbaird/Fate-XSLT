@@ -1,71 +1,73 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
- <id>
-  <charname>Heather Dorsey</charname>
-  <playername>Jennifer Cornish</playername>
-  <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
-  <description>
+  <id>
+    <charname>Heather Dorsey</charname>
+    <playername>Jennifer Cornish</playername>
+    <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
+    <description>
     &#160;<!--
          I suggested to Jenn that Heather might've gone to the
          Institute for Social Ecology
     -->
   </description>
- </id>
- <current-fate-points>1</current-fate-points>
- <experience-points>0</experience-points>
- <aspects>
-  <aspect type="Concept">"Black Widow for Greenpeace"?</aspect>
-  <aspect type="Mode" mode-name="Science">&#160;</aspect>
-  <aspect type="Mode" mode-name="Intrigue">&#160;</aspect>
-  <aspect type="Mode" mode-name="Action">&#160;</aspect>
-  <aspect type="Omega">&#160;</aspect>
- </aspects>
- <skills>
-  <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
-   <skill name="Notice"               cost="1"/>
-   <skill name="Will"                 cost="1"/>
-   <skill name="(all other Sciences)" cost="1"/>
-  </mode>
-  <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
-   <skill name="Athletics" cost="2"/>
-   <skill name="Burglary"  cost="1"/>
-   <skill name="Contacts"  cost="1"/>
-   <skill name="Deceive"   cost="2"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Stealth"   cost="2"/>
-  </mode>
-  <mode rating="1" name="Action"> <!-- ARRPG pg82 -->
-   <skill name="Athletics" cost="2"/>
-   <skill name="Combat"    cost="2"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Physique"  cost="1"/>
-   <skill name="Provoke"   cost="1"/>
-   <skill name="Vehicles"  cost="2"/>
-  </mode>
- </skills>
- <stunts>
-   <stunt name="Master of Disguise">
+  </id>
+  <current-fate-points>1</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">"Black Widow for Greenpeace"?</aspect>
+    <aspect type="Mode" mode-name="Science">&#160;</aspect>
+    <aspect type="Mode" mode-name="Intrigue">&#160;</aspect>
+    <aspect type="Mode" mode-name="Action">&#160;</aspect>
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental">
+      <!-- ARRPG pg85 -->
+      <skill name="Notice" cost="1"/>
+      <skill name="Will" cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <mode rating="2" name="Intrigue" stress-type="physical">
+      <!-- ARRPG pg84 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Burglary" cost="1"/>
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Stealth" cost="2"/>
+    </mode>
+    <mode rating="1" name="Action">
+      <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Provoke" cost="1"/>
+      <skill name="Vehicles" cost="2"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Master of Disguise">
     When you're in a situation where you're able to slip away unnoticed,
     you have the option to temporarily drop out of the game altogether.
     If you do, spend a Fate Point to reappear disguised as a faceless NPC
     already in the scene (a security guard, a lab-coated scientist, a
     DELPHI goon, etc.).
    </stunt>
-  <stunt name=" ">&#160;</stunt>
-  <stunt name=" ">&#160;</stunt>
-  <stunt name=" ">&#160;</stunt>
-  <stunt name=" ">&#160;</stunt>
- </stunts>
- <consequences>
- </consequences>
- <experiences>
-  <experience/>
-  <experience/>
-  <experience/>
- </experiences>
- <notes>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
   Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
   * Specialize one trained skill.
   * Focus one trained skill and specialize one focused skill.

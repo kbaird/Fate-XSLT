@@ -1,72 +1,72 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/sotc_html.xsl"?>
 <!DOCTYPE spirit-of-the-century SYSTEM "sotc.dtd">
 <character>
- <id>
-  <charname>Jet Black</charname>
-  <concept>Gadget Guy</concept>
-  <playername>sample SotC character</playername>
-  <archetype>Spirit Centurion</archetype>
- </id>
- <refresh>10</refresh>
- <current-fate-points>10</current-fate-points>
- <aspects>
-  <aspect phase-num="1">Motorhead</aspect>
-  <aspect phase-num="1">Unspoken Love (Sally)</aspect>
-  <aspect phase-num="2">Over My Head</aspect>
-  <aspect phase-num="2">Amazing Jet Pack!</aspect>
-  <aspect phase-num="3">Nick of Time</aspect>
-  <aspect phase-num="3">Stop Dr. Methuselah</aspect>
-  <aspect phase-num="4">Seat of my Pants</aspect>
-  <aspect phase-num="4">Rocket Red Rivalry</aspect>
-  <aspect phase-num="5">First on the Scene</aspect>
-  <aspect phase-num="5">"Sally, Save Me!"</aspect>
- </aspects>
- <skills>
-  <skill page="xx" rating="5" name="Athletics"/>
-  <skill page="xx" rating="4" name="Engineering"/>
-  <skill page="xx" rating="4" name="Guns"/>
-  <skill page="xx" rating="3" name="Pilot"/>
-  <skill page="xx" rating="3" name="Stealth"/>
-  <skill page="xx" rating="3" name="Fists"/>
-  <skill page="xx" rating="2" name="Drive"/>
-  <skill page="xx" rating="2" name="Endurance"/>
-  <skill page="xx" rating="2" name="Resolve"/>
-  <skill page="xx" rating="2" name="Intimidation"/>
-  <skill page="xx" rating="1" name="Alertness"/>
-  <skill page="xx" rating="1" name="Science"/>
-  <skill page="xx" rating="1" name="Might"/>
-  <skill page="xx" rating="1" name="Rapport"/>
-  <skill page="xx" rating="1" name="Weapons"/>
- </skills>
- <stunts>
-  <stunt name="The Amazing Jet Pack (Personal Gadget)" page="xx" skill="Engineering">
+  <id>
+    <charname>Jet Black</charname>
+    <concept>Gadget Guy</concept>
+    <playername>sample SotC character</playername>
+    <archetype>Spirit Centurion</archetype>
+  </id>
+  <refresh>10</refresh>
+  <current-fate-points>10</current-fate-points>
+  <aspects>
+    <aspect phase-num="1">Motorhead</aspect>
+    <aspect phase-num="1">Unspoken Love (Sally)</aspect>
+    <aspect phase-num="2">Over My Head</aspect>
+    <aspect phase-num="2">Amazing Jet Pack!</aspect>
+    <aspect phase-num="3">Nick of Time</aspect>
+    <aspect phase-num="3">Stop Dr. Methuselah</aspect>
+    <aspect phase-num="4">Seat of my Pants</aspect>
+    <aspect phase-num="4">Rocket Red Rivalry</aspect>
+    <aspect phase-num="5">First on the Scene</aspect>
+    <aspect phase-num="5">"Sally, Save Me!"</aspect>
+  </aspects>
+  <skills>
+    <skill page="xx" rating="5" name="Athletics"/>
+    <skill page="xx" rating="4" name="Engineering"/>
+    <skill page="xx" rating="4" name="Guns"/>
+    <skill page="xx" rating="3" name="Pilot"/>
+    <skill page="xx" rating="3" name="Stealth"/>
+    <skill page="xx" rating="3" name="Fists"/>
+    <skill page="xx" rating="2" name="Drive"/>
+    <skill page="xx" rating="2" name="Endurance"/>
+    <skill page="xx" rating="2" name="Resolve"/>
+    <skill page="xx" rating="2" name="Intimidation"/>
+    <skill page="xx" rating="1" name="Alertness"/>
+    <skill page="xx" rating="1" name="Science"/>
+    <skill page="xx" rating="1" name="Might"/>
+    <skill page="xx" rating="1" name="Rapport"/>
+    <skill page="xx" rating="1" name="Weapons"/>
+  </skills>
+  <stunts>
+    <stunt name="The Amazing Jet Pack (Personal Gadget)" page="xx" skill="Engineering">
     blah
   </stunt>
- </stunts>
- <gadgets>
-  <gadget page="xx" name="The Amazing Jet Pack">various upgrades, more upgrades, etc.</gadget>
- </gadgets>
- <consequences>
-  <consequence severity="Mild">mild one</consequence>
- </consequences>
- <phases>
-  <phase num="1" type="background">
-   <events>Jet grew up with Sally Slick in a poor part of town.</events>
-  </phase>
-  <phase num="2" type="the-great-war">
-   <century-club-patron>The Patron</century-club-patron>
-   <events>The events</events>
-  </phase>
-  <phase num="3" type="your-novel" title="Jet Black in ... The Eternity Equation!">
-   <guest-stars>Sally Slick, Grey Ghost</guest-stars>
-   <events>The events</events>
-  </phase>
-  <phase num="4" title="Mack Silver and the Sky-Pirates of Araby">
-   <events>The events</events>
-  </phase>
-  <phase num="5" title="Sally Slick vs. The Giant Robot">
-   <events>The events</events>
-  </phase>
- </phases>
+  </stunts>
+  <gadgets>
+    <gadget page="xx" name="The Amazing Jet Pack">various upgrades, more upgrades, etc.</gadget>
+  </gadgets>
+  <consequences>
+    <consequence severity="Mild">mild one</consequence>
+  </consequences>
+  <phases>
+    <phase num="1" type="background">
+      <events>Jet grew up with Sally Slick in a poor part of town.</events>
+    </phase>
+    <phase num="2" type="the-great-war">
+      <century-club-patron>The Patron</century-club-patron>
+      <events>The events</events>
+    </phase>
+    <phase num="3" type="your-novel" title="Jet Black in ... The Eternity Equation!">
+      <guest-stars>Sally Slick, Grey Ghost</guest-stars>
+      <events>The events</events>
+    </phase>
+    <phase num="4" title="Mack Silver and the Sky-Pirates of Araby">
+      <events>The events</events>
+    </phase>
+    <phase num="5" title="Sally Slick vs. The Giant Robot">
+      <events>The events</events>
+    </phase>
+  </phases>
 </character>
