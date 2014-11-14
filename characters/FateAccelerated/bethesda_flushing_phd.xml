@@ -1,48 +1,48 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/fae_html.xsl"?>
 <!DOCTYPE fae SYSTEM "fae.dtd">
 <character>
- <id>
-  <charname>Bethesda Flushing, Ph.D.</charname>
-  <playername>sample FAE character</playername>
-  <description>
+  <id>
+    <charname>Bethesda Flushing, Ph.D.</charname>
+    <playername>sample FAE character</playername>
+    <description>
       Dr. Flushing is a fellow at the Institute for Gravitical and Electro-Mechanical Advancement (IGEMA),
       and is one IGEMA's lead test engineers and field agents. IGEMA is frequently in conflict with agents
       of various international organizations who seek to steal their technology, take over the world, or both.
       Gustav von Stendahl, leader of a shadowy spy agency of uncertain affiliation, is frequently a thorn in
       her side. Dr. Flushing has bright red hair and is never without several gadgets, including her helicopter pack.
     </description>
- </id>
- <refresh>3</refresh>
- <current-fate-points>3</current-fate-points>
- <aspects>
-  <aspect type="High-Concept">Chief Agent of IGEMA</aspect>
-  <aspect type="Trouble">I'll Get You, von Stendahl!</aspect>
-  <aspect>My Inventions Almost Always Work. Almost.</aspect>
-  <aspect>My Grad Students Come Through, Just Not How I Expect Them To</aspect>
-  <aspect>I Trust Dr. Alemieda's Genuis</aspect>
- </aspects>
- <approaches>
-  <approach rating="2" name="Careful"/>
-  <approach rating="3" name="Clever"/>
-  <approach rating="1" name="Flashy"/>
-  <approach rating="2" name="Forceful"/>
-  <approach rating="1" name="Quick"/>
-  <approach rating="0" name="Sneaky"/>
- </approaches>
- <stunts>
-  <stunt name="Experimental Helo Pack">
+  </id>
+  <refresh>3</refresh>
+  <current-fate-points>3</current-fate-points>
+  <aspects>
+    <aspect type="High-Concept">Chief Agent of IGEMA</aspect>
+    <aspect type="Trouble">I'll Get You, von Stendahl!</aspect>
+    <aspect>My Inventions Almost Always Work. Almost.</aspect>
+    <aspect>My Grad Students Come Through, Just Not How I Expect Them To</aspect>
+    <aspect>I Trust Dr. Alemieda's Genuis</aspect>
+  </aspects>
+  <approaches>
+    <approach rating="2" name="Careful"/>
+    <approach rating="3" name="Clever"/>
+    <approach rating="1" name="Flashy"/>
+    <approach rating="2" name="Forceful"/>
+    <approach rating="1" name="Quick"/>
+    <approach rating="0" name="Sneaky"/>
+  </approaches>
+  <stunts>
+    <stunt name="Experimental Helo Pack">
     +2 to Quickly create advantage or overcome if flying useful
   </stunt>
-  <stunt name="Gadgeteer">
+    <stunt name="Gadgeteer">
     eliminate 1 situation aspect
   </stunt>
- </stunts>
- <consequences>
-  <consequence severity="Moderate">moderate one</consequence>
-  <consequence severity="Severe">severe one</consequence>
- </consequences>
-<!--
+  </stunts>
+  <consequences>
+    <consequence severity="Moderate">moderate one</consequence>
+    <consequence severity="Severe">severe one</consequence>
+  </consequences>
+  <!--
     Can take 1 more stunt without reducing refresh
   -->
 </character>

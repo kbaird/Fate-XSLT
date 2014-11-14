@@ -1,53 +1,55 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
- <id>
-  <charname>Frank Rogers</charname>
-  <playername>Michael Wood</playername>
-  <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
-  <description>&#160;</description>
- </id>
- <current-fate-points>1</current-fate-points>
- <experience-points>0</experience-points>
- <aspects>
-  <aspect type="Concept">&#160;</aspect>
-  <aspect type="Mode" mode-name="Telepath">&#160;</aspect>
-  <aspect type="Mode" mode-name="Martial&#160;Artist">&#160;</aspect>
-  <aspect type="Mode" mode-name="Human&#160;Resources">
+  <id>
+    <charname>Frank Rogers</charname>
+    <playername>Michael Wood</playername>
+    <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
+    <description>&#160;</description>
+  </id>
+  <current-fate-points>1</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">&#160;</aspect>
+    <aspect type="Mode" mode-name="Telepath">&#160;</aspect>
+    <aspect type="Mode" mode-name="Martial&#160;Artist">&#160;</aspect>
+    <aspect type="Mode" mode-name="Human&#160;Resources">
    The Batman of Human Resources
   </aspect>
-  <aspect type="Omega">&#160;</aspect>
- </aspects>
- <skills>
-  <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
-   <skill name="Deceive"        cost="2"/>
-   <skill name="Empathy"        cost="3"/>
-   <skill name="Hallucinations" cost="2"/>
-   <!-- OR Focus 1 Trained Skill instead of Hallucinations -->
-   <skill name="Provoke"        cost="1"/>
-   <skill name="Rapport"        cost="1"/>
-   <skill name="Will"           cost="1"/>
-  </mode>
-  <mode rating="2" name="Martial&#160;Artist" stress-type="physical"> <!-- ARRPG pg88 -->
-   <skill name="Athletics" cost="2"/>
-   <skill name="Combat"    cost="2"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Physique"  cost="1"/>
-   <skill name="Stealth"   cost="2"/>
-   <skill name="Will"      cost="1"/>
-  </mode>
-  <mode rating="1" name="Human&#160;Resources">
-   <skill name="Contacts"  cost="1"/>
-   <skill name="Deceive"   cost="2"/>
-   <skill name="Empathy"   cost="3"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Rapport"   cost="2"/>
-   <skill name="Will"      cost="1"/>
-  </mode>
- </skills>
- <stunts>
-  <stunt name="Biofeedback">
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Telepath" stress-type="mental">
+      <!-- ARRPG pg92 -->
+      <skill name="Deceive" cost="2"/>
+      <skill name="Empathy" cost="3"/>
+      <skill name="Hallucinations" cost="2"/>
+      <!-- OR Focus 1 Trained Skill instead of Hallucinations -->
+      <skill name="Provoke" cost="1"/>
+      <skill name="Rapport" cost="1"/>
+      <skill name="Will" cost="1"/>
+    </mode>
+    <mode rating="2" name="Martial&#160;Artist" stress-type="physical">
+      <!-- ARRPG pg88 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Stealth" cost="2"/>
+      <skill name="Will" cost="1"/>
+    </mode>
+    <mode rating="1" name="Human&#160;Resources">
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive" cost="2"/>
+      <skill name="Empathy" cost="3"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Rapport" cost="2"/>
+      <skill name="Will" cost="1"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Biofeedback">
    You are capable of using your psionic powers to enhance your physical
    capabilities for a short time. You must make an Overcome roll to enter the
    proper trance state for this power, and anyone who can reasonably disrupt
@@ -58,29 +60,29 @@
    stress boxes and whatnot). If you succeed with style, you may raise BOTH.
    --DAR33
   </stunt>
-  <stunt name="Borrowed Knowledge">
+    <stunt name="Borrowed Knowledge">
    Pick another character (PC or NPC) who's in the scene with you. You can use
    one of their skills for one roll in this scene, whether it's a skill you
    already have or not. When you do this, pay that character a fate point.
   </stunt>
-  <stunt name="Iron Robe Technique">
+    <stunt name="Iron Robe Technique">
    Armor: 2
   </stunt>
-  <stunt name="Lightning Reflexes">
+    <stunt name="Lightning Reflexes">
    In a physical conflict, you always act first. If someone else in the
    conflict has a stunt that gives them the same ability, make an Athletics
    roll to see who goes first.
   </stunt>
-  <stunt name="Mind Reader">
+    <stunt name="Mind Reader">
    When you use Empathy to create an advantage by discovering another
    character's aspects, you don't need to speak with them and it takes
    virtually no time.
   </stunt>
-  <stunt name="One With Everything">
+    <stunt name="One With Everything">
    Use Will to create an advantage through meditation or
    focus when you have a moment to breathe and concentrate.
   </stunt>
-  <stunt name="Remote Viewing">
+    <stunt name="Remote Viewing">
    Pick a character you’ve met (PC or NPC), whether or not they’re in the scene
    with you. You can briefly perceive using their senses instead of your own.
    The clarity of your perception will depend on the distance involved and how
@@ -89,16 +91,15 @@
    seeing through the eyes of a Majestic 12 guard several miles away with whom
    you spoke a few days ago, it’ll be blurry and unreliable.
   </stunt>
-  <stunt name="Versatile Will">
+    <stunt name="Versatile Will">
    Switch ANY skill with Will once per scene
   </stunt>
- </stunts>
- <consequences>
- </consequences>
- <experiences>
-  <experience/>
-  <experience/>
-  <experience/>
- </experiences>
- <notes/>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
 </character>

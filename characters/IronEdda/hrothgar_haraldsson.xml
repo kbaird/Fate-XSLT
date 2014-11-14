@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE fate-core SYSTEM "../FateCore/fcs.dtd">
+<character>
+  <id>
+    <charname>Hrothgar Haraldsson</charname>
+    <playername>Big Bad Con 2014 Iron Edda PC</playername>
+    <description>Boyish-looking young smith, formerly of the Clan of the Hammer (pre-rune).</description>
+  </id>
+  <refresh>2</refresh>
+  <current-fate-points>2</current-fate-points>
+  <aspects>
+    <aspect type="High-Concept">ᛚ-Runed Smith</aspect>
+    <aspect type="Trouble">Maybe We're the Bad Guys?</aspect>
+    <aspect phase-num="1">ᛚ (Laguz/Water) Runes on Each Inner Forearm</aspect>
+    <aspect phase-num="2">Teacher's Hammer: Anora Ketilsdottir</aspect>
+    <aspect phase-num="3">Aud &amp; I Were Childhood Friends</aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Crafts"/>
+    <skill rating="3" name="Physique"/>
+    <skill rating="3" name=" "/>
+    <skill rating="2" name="Will"/>
+    <skill rating="2" name=" "/>
+    <skill rating="2" name=" "/>
+    <skill rating="1" name=" "/>
+    <skill rating="1" name=" "/>
+    <skill rating="1" name=" "/>
+    <skill rating="1" name=" "/>
+  </skills>
+  <extras>
+    <extra name="ᛚ (Laguz/Water) Approach">Good (+3), Giant Scale</extra>
+    <extra name="Fluid Dodge">Because Water is slippery, I get a +2 when dodging fluidly</extra>
+  </extras>
+  <stunts/>
+  <consequences/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+      Hrothgar had been chosen by the Clan of the Hammer, which was
+      superceded by being marked with the ᛚ rune.
+    </events>
+    </phase>
+    <phase num="2">
+      <events>
+      Hrothgar apprenticed to Arnora Ketilsdottir, replacing her as
+      the Holdfast smith after her death.
+    </events>
+    </phase>
+    <phase num="3">
+      <events>Some events</events>
+    </phase>
+  </phase-trio>
+  <notes>
+  Iron Edda Phases:
+    Phase 1 is Clan/Rune/Bone Giant
+    Phase 2 is an item of importance
+    Phase 3 is a traditional crossing paths phase
+  (From Iron Edda game run by Morgan Ellis at BigBadCon 2014)
+</notes>
+</character>

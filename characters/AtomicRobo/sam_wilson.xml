@@ -1,82 +1,82 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
- <id>
-  <charname nickname="Falcon">Sam Wilson</charname>
-  <playername>Supporting NPC</playername>
-  <affiliation>As presented in Cpt. America: the Winter Soldier</affiliation>
-  <description>
+  <id>
+    <charname nickname="Falcon">Sam Wilson</charname>
+    <playername>Supporting NPC</playername>
+    <affiliation>As presented in Cpt. America: the Winter Soldier</affiliation>
+    <description>
     &#160;
   </description>
- </id>
- <current-fate-points>5</current-fate-points>
- <experience-points>0</experience-points>
- <aspects>
-  <aspect type="Concept">Troubled Pararescue Veteran Who Hasn't Given Up</aspect>
-  <aspect type="Mode" mode-name="Soldier">"Go Ahead. I Got This."</aspect>
-  <aspect type="Mode" mode-name="Banter">I Can Get You to Open Up</aspect>
-  <aspect type="Mode" mode-name="Fighter&#160;Pilot">Acrobat In The Sky</aspect>
-  <aspect type="Omega">"Everyone We Know Is Trying to Kill Us." "Not Everyone."</aspect>
- </aspects>
- <skills>
-  <mode rating="3" name="Soldier" stress-type="split"> <!-- ARRPG pg91 -->
-   <skill name="Athletics" cost="2"/>
-   <skill name="Combat"    cost="2"/>
-   <skill name="Contacts"  cost="1"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Physique"  cost="1"/>
-   <skill name="Tactics"   cost="0"/>
-   <skill name="Vehicles"  cost="2" add="1"/>
-   <!-- Specialize Focused Vehicles Skill w/2pts from Fighter Pilot -->
-   <skill name="Will"      cost="1"/>
-  </mode>
-  <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
-   <skill name="Contacts" cost="1"/>
-   <skill name="Deceive"  cost="2"/>
-   <skill name="Empathy"  cost="3"/>
-   <skill name="Provoke"  cost="1"/>
-   <skill name="Rapport"  cost="1"/>
-   <skill name="Will"     cost="1"/>
-  </mode>
-  <mode rating="1" name="Fighter&#160;Pilot"> <!-- ARRPG pg296 -->
-   <skill name="Athletics" cost="2"/>
-   <skill name="Combat"    cost="2"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Vehicles"  cost="2"/>
-   <!-- 2 pts of Improvements -->
-   <skill name="Will"      cost="1"/>
-  </mode>
- </skills>
- <stunts>
-  <stunt name="Breakneck Pilot">
+  </id>
+  <current-fate-points>5</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Troubled Pararescue Veteran Who Hasn't Given Up</aspect>
+    <aspect type="Mode" mode-name="Soldier">"Go Ahead. I Got This."</aspect>
+    <aspect type="Mode" mode-name="Banter">I Can Get You to Open Up</aspect>
+    <aspect type="Mode" mode-name="Fighter&#160;Pilot">Acrobat In The Sky</aspect>
+    <aspect type="Omega">"Everyone We Know Is Trying to Kill Us." "Not Everyone."</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Soldier" stress-type="split">
+      <!-- ARRPG pg91 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat" cost="2"/>
+      <skill name="Contacts" cost="1"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Tactics" cost="0"/>
+      <skill name="Vehicles" cost="2" add="1"/>
+      <!-- Specialize Focused Vehicles Skill w/2pts from Fighter Pilot -->
+      <skill name="Will" cost="1"/>
+    </mode>
+    <mode rating="2" name="Banter" stress-type="mental">
+      <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive" cost="2"/>
+      <skill name="Empathy" cost="3"/>
+      <skill name="Provoke" cost="1"/>
+      <skill name="Rapport" cost="1"/>
+      <skill name="Will" cost="1"/>
+    </mode>
+    <mode rating="1" name="Fighter&#160;Pilot">
+      <!-- ARRPG pg296 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Vehicles" cost="2"/>
+      <!-- 2 pts of Improvements -->
+      <skill name="Will" cost="1"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Breakneck Pilot">
    +2 to Overcome with Vehicles when involved in a chase.
   </stunt>
-  <stunt name="Remember Your Training">
+    <stunt name="Remember Your Training">
    When you Invoke one of an opponent's aspects or consequences
    in a physical conflict, you get a +3 bonus instead of +2.
   </stunt>
-  <stunt name="This Is My Rifle">
+    <stunt name="This Is My Rifle">
    +2 to Attack with Combat when using military-grade firearms.
   </stunt>
-  <stunt name=" ">&#160;</stunt>
-  <gadget name="EXO-7 Falcon"
-    function="Fast and Maneuverable Flying"
-    flaw="Wings Can Be Pulled Off">
-   <benefits>
-    <benefit cost="2" name="Thread the Needle">
+    <stunt name=" ">&#160;</stunt>
+    <gadget name="EXO-7 Falcon" function="Fast and Maneuverable Flying" flaw="Wings Can Be Pulled Off">
+      <benefits>
+        <benefit cost="2" name="Thread the Needle">
      +2 to Create an Advantage or Defend with Vehicles
      when shaking a tail (missiles, pursuer, etc.)
     </benefit>
-   </benefits>
-  </gadget>
- </stunts>
- <consequences>
- </consequences>
- <experiences>
-  <experience/>
-  <experience/>
-  <experience/>
- </experiences>
- <notes/>
+      </benefits>
+    </gadget>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
 </character>
