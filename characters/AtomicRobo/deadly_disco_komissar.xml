@@ -1,67 +1,68 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
- <id>
-  <charname>Deadly Disco Комиссар</charname>
-  <playername>NPC</playername>
-  <affiliation>U.S.S.R.</affiliation>
-  <description>
+  <id>
+    <charname>Deadly Disco Комиссар</charname>
+    <playername>NPC</playername>
+    <affiliation>U.S.S.R.</affiliation>
+    <description>
     Furry hat, Burt Reynolds moustache, shirt open, chest hair, gold medallion
     with a hammer &amp; Sickle.
   </description>
- </id>
- <current-fate-points>5</current-fate-points>
- <experience-points>0</experience-points>
- <aspects>
-  <aspect type="Concept">Soviet Usurper of America's Funk</aspect>
-  <aspect type="Mode" mode-name="Drug&#160;Lord">The Dark Side of Capitalism</aspect>
-  <aspect type="Mode" mode-name="Russian">Fearsome Bear</aspect>
-  <aspect type="Mode" mode-name="Secret&#160;Agent">Always Evade</aspect>
-  <aspect type="Omega">Corrupted Allies Everywhere</aspect>
- </aspects>
- <skills>
-  <mode rating="3" name="Drug&#160;Lord" stress-type="mental">
-   <skill name="Burglary"  cost="1"/>
-   <skill name="Combat"    cost="2"/>
-   <skill name="Contacts"  cost="1"/>
-   <skill name="Deceive"   cost="2"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Provoke"   cost="1"/>
-   <skill name="Stealth"   cost="2"/>
-   <skill name="Will"      cost="1"/>
-  </mode>
-  <mode rating="2" name="Russian" stress-type="physical"> <!-- ARRPG pg283 -->
-   <skill name="Combat"   cost="2"/>
-   <skill name="Contacts" cost="1"/>
-   <skill name="Physique" cost="1"/>
-   <skill name="Provoke"  cost="1"/>
-   <!-- 5 pts of Improvements -->
-  </mode>
-  <mode rating="1" name="Secret&#160;Agent"> <!-- ARRPG pg91 -->
-   <skill name="Burglary" cost="1"/>
-   <skill name="Contacts" cost="1"/>
-   <skill name="Deceive"  cost="2"/>
-   <skill name="Notice"   cost="1"/>
-   <skill name="Stealth"  cost="2"/>
-   <skill name="Vehicles" cost="2"/>
-  </mode>
- </skills>
- <stunts>
-  <stunt name="Stunt1">TBD</stunt>
-  <stunt name="Stunt2">TBD</stunt>
-  <stunt name="Stunt3">TBD</stunt>
-  <stunt name="Stunt4">TBD</stunt>
-  <stunt name="Stunt5">TBD</stunt>
- </stunts>
- <consequences>
- </consequences>
- <experiences>
-  <experience/>
-  <experience/>
-  <experience/>
- </experiences>
- <notes>
+  </id>
+  <current-fate-points>5</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Soviet Usurper of America's Funk</aspect>
+    <aspect type="Mode" mode-name="Drug&#160;Lord">The Dark Side of Capitalism</aspect>
+    <aspect type="Mode" mode-name="Russian">Fearsome Bear</aspect>
+    <aspect type="Mode" mode-name="Secret&#160;Agent">Always Evade</aspect>
+    <aspect type="Omega">Corrupted Allies Everywhere</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Drug&#160;Lord" stress-type="mental">
+      <skill name="Burglary" cost="1"/>
+      <skill name="Combat" cost="2"/>
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Provoke" cost="1"/>
+      <skill name="Stealth" cost="2"/>
+      <skill name="Will" cost="1"/>
+    </mode>
+    <mode rating="2" name="Russian" stress-type="physical">
+      <!-- ARRPG pg283 -->
+      <skill name="Combat" cost="2"/>
+      <skill name="Contacts" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Provoke" cost="1"/>
+      <!-- 5 pts of Improvements -->
+    </mode>
+    <mode rating="1" name="Secret&#160;Agent">
+      <!-- ARRPG pg91 -->
+      <skill name="Burglary" cost="1"/>
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Stealth" cost="2"/>
+      <skill name="Vehicles" cost="2"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Stunt1">TBD</stunt>
+    <stunt name="Stunt2">TBD</stunt>
+    <stunt name="Stunt3">TBD</stunt>
+    <stunt name="Stunt4">TBD</stunt>
+    <stunt name="Stunt5">TBD</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
   5 pts of Improvements from Russian mode
  </notes>
 </character>

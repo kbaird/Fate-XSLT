@@ -1,75 +1,76 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
- <id>
-  <charname>Young Neil Tyson</charname>
-  <playername>Pre-built PC</playername>
-  <affiliation>Harvard University (previously Bronx Science)</affiliation>
-  <description>
+  <id>
+    <charname>Young Neil Tyson</charname>
+    <playername>Pre-built PC</playername>
+    <affiliation>Harvard University (previously Bronx Science)</affiliation>
+    <description>
     You know what Neil looks like, right? That, but when he was in college.
   </description>
- </id>
- <current-fate-points>4</current-fate-points>
- <experience-points>0</experience-points>
- <aspects>
-  <aspect type="Concept">Carl's Eventual Successor... IN TRAINING</aspect>
-  <aspect type="Mode" mode-name="Athlete">On the Wrestling Team</aspect>
-  <aspect type="Mode" mode-name="Science">Ready For Discovery</aspect>
-  <aspect type="Mode" mode-name="Banter">Charming &amp; Boisterous</aspect>
-  <aspect type="Omega"></aspect>
- </aspects>
- <skills>
-  <mode rating="3" name="Athlete" stress-type="physical">
-   <skill name="Athletics" cost="2"/>
-   <skill name="Combat"    cost="2"/>
-   <skill name="Physique"  cost="1"/>
-   <skill name="Provoke"   cost="1"/>
-   <skill name="Stealth"   cost="2"/>
-   <skill name="Will"      cost="1"/>
-  </mode>
-  <mode rating="2" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
-   <skill name="Notice"               cost="1"/>
-   <skill name="Will"                 cost="1"/>
-   <skill name="(all other Sciences)" cost="1"/>
-  </mode>
-  <!--
+  </id>
+  <current-fate-points>4</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Carl's Eventual Successor... IN TRAINING</aspect>
+    <aspect type="Mode" mode-name="Athlete">On the Wrestling Team</aspect>
+    <aspect type="Mode" mode-name="Science">Ready For Discovery</aspect>
+    <aspect type="Mode" mode-name="Banter">Charming &amp; Boisterous</aspect>
+    <aspect type="Omega"/>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Athlete" stress-type="physical">
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat" cost="2"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Provoke" cost="1"/>
+      <skill name="Stealth" cost="2"/>
+      <skill name="Will" cost="1"/>
+    </mode>
+    <mode rating="2" name="Science" stress-type="mental">
+      <!-- ARRPG pg85 -->
+      <skill name="Notice" cost="1"/>
+      <skill name="Will" cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <!--
        Specialize one trained skill.
        Focus one trained skill.
        Specialize one focused skill.
   -->
-  <mode rating="1" name="Banter"> <!-- ARRPG pg83 -->
-   <skill name="Contacts" cost="1"/>
-   <skill name="Deceive"  cost="2"/>
-   <skill name="Empathy"  cost="3"/>
-   <skill name="Provoke"  cost="1"/>
-   <skill name="Rapport"  cost="1"/>
-   <skill name="Will"     cost="1"/>
-  </mode>
- </skills>
- <stunts>
-   <stunt name="Budding Scientist">
+    <mode rating="1" name="Banter">
+      <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive" cost="2"/>
+      <skill name="Empathy" cost="3"/>
+      <skill name="Provoke" cost="1"/>
+      <skill name="Rapport" cost="1"/>
+      <skill name="Will" cost="1"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Budding Scientist">
      During a Brainstorm, Neil's player can invoke a Fact established by another player without that player's permission.
    </stunt>
-   <stunt name="Dancing Fool">
+    <stunt name="Dancing Fool">
      +2 to Create an Advantage using Athletics when the narrative description is predicated on dancing.
    </stunt>
-   <stunt name="Grappler">
+    <stunt name="Grappler">
      +2 to Physique rolls made to Create Advantages on an enemy by wrestling or grappling with them.
    </stunt>
-   <stunt name="The Young One">
+    <stunt name="The Young One">
      +2 to Create an Advantage when using Rapport on someone younger than the rest of his team.
    </stunt>
-  <stunt name="&#160;">&#160;</stunt>
- </stunts>
- <consequences>
- </consequences>
- <experiences>
-  <experience/>
-  <experience/>
-  <experience/>
- </experiences>
- <notes>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
   If one of your modes is Science, also apply ALL of the following
   improvements:
   * Specialize one trained skill.
