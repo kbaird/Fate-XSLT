@@ -33,9 +33,7 @@
     <extra name="Fluid Dodge">Because Water is slippery, I get a +2 when dodging fluidly</extra>
   </extras>
   <stunts/>
-  <consequences>
-    <consequence severity="Mild">mild one</consequence>
-  </consequences>
+  <consequences/>
   <phase-trio>
     <phase num="1">
       <events>
