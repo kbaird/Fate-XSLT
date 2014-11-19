@@ -1,42 +1,41 @@
-<?xml version = '1.0'?>
+<?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
- <id>
-  <charname>&#160;</charname>
-  <playername>Supporting NPC</playername>
-  <affiliation>Tesladyne Oakland (Resident Scientist NPC)</affiliation>
-  <description>
+  <id>
+    <charname>&#160;</charname>
+    <playername>Supporting NPC</playername>
+    <affiliation>Tesladyne Oakland (Resident Scientist NPC)</affiliation>
+    <description>
     &#160;
   </description>
- </id>
- <current-fate-points>0</current-fate-points>
- <experience-points>0</experience-points>
- <aspects>
-  <aspect type="Concept">&#160;</aspect>
-  <aspect type="Mode" mode-name="Mode1">&#160;</aspect>
-  <aspect type="Mode" mode-name="Mode2">&#160;</aspect>
-  <aspect type="Mode" mode-name="Mode3">&#160;</aspect>
-  <aspect type="Omega">&#160;</aspect>
- </aspects>
- <skills>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">&#160;</aspect>
+    <aspect type="Mode" mode-name="Mode1">&#160;</aspect>
+    <aspect type="Mode" mode-name="Mode2">&#160;</aspect>
+    <aspect type="Mode" mode-name="Mode3">&#160;</aspect>
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
   Add MODES
  </skills>
- <stunts>
-  <stunt name=" ">&#160;</stunt>
-  <stunt name=" ">&#160;</stunt>
-  <stunt name=" ">&#160;</stunt>
-  <stunt name=" ">&#160;</stunt>
-  <stunt name=" ">&#160;</stunt>
- </stunts>
- <consequences>
- </consequences>
- <experiences>
-  <experience/>
-  <experience/>
-  <experience/>
- </experiences>
- <notes>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
   Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
   * Specialize one trained skill.
   * Focus one trained skill and specialize one focused skill.
