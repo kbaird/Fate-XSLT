@@ -58,10 +58,10 @@ td, th { border: 0px; vertical-align: top; }
   fieldset.experience, fieldset.phase, ul#skill-explanation, .sectionheader { font-size: 0.5em; }
   p#experiences-explanation { float: left; font-size: 0.5em; padding-top: 0.5em; }
   #fate-logo { height: 50px; }
-  div#aspects { width: 35%; }
+  div#aspects { width: 40%; }
   div#consequences { width: 80%; }
   div#notes { font-size: 0.5em; }
-  div#skills { width: 65%; }
+  div#skills { width: 60%; }
   div#stress { width: 20%; }
   fieldset.aspect { font-size: 1em; height: 2em; line-height: 1.3em; margin: 0.1em; padding-top: 0.1em; }
   fieldset.aspect legend.label { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
