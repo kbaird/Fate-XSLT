@@ -1,0 +1,8 @@
+  <mode rating="x" name="Special&#160;Agent" stress-type="mental"> <!-- ARRPG pg276 -->
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Deceive"   cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+   <skill name="Vehicles"  cost="2"/>
+   <skill name="Will"      cost="1"/>
+  </mode>
