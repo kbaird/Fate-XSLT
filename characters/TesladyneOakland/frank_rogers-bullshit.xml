@@ -50,7 +50,12 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="&#160;1">&#160;1</stunt>
+    <stunt name="Not a Threat">
+      When you Create an Advantage with Deceive to make yourself as
+      non-threatening or unobtrusive as possible, enemies will find other
+      targets for as long as that aspect exists. As soon as you successfully
+      attack someone, the aspect goes away.
+    </stunt>
     <stunt name="&#160;2">&#160;2</stunt>
     <stunt name="&#160;3">&#160;3</stunt>
     <stunt name="&#160;4">&#160;4</stunt>
