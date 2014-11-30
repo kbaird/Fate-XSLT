@@ -57,12 +57,15 @@
   </skills>
   <stunts>
     <stunt name="Healing Factor">
-   Once per scene, spend a fate point to reduce one of your consequences by one degree of severity
-   (severe to major, major to mild, mild to nothing).
-  </stunt>
+      Once per scene, spend a fate point to reduce one of your consequences by one degree of severity
+      (severe to major, major to mild, mild to nothing).
+    </stunt>
     <stunt name="Unnerving Presence">
-   +2 to Create an Advantage with Provoke when you rely on fear or awe.
-  </stunt>
+      +2 to Create an Advantage with Provoke when you rely on fear or awe.
+    </stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences/>
   <experiences>
