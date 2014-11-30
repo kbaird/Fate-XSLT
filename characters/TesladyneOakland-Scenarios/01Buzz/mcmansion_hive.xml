@@ -50,24 +50,25 @@
   </skills>
   <stunts>
     <stunt name="Flyer">
-   Use Athletics to fly; ignore all ground-based obstacles when you do.
-  </stunt>
-    <stunt name="Grow the Hive">
-   If a human (enough) character is Taken Out by stings, he/she gains (or replaces) a Severe Consequence of
-   "Mutating into a Human/Bee Hybrid" that needs to be dealt with narratively (and quickly) before it can be
-   recovered from. At a cost: weak against whatever the PCs brainstorm that makes sense.
-  </stunt>
+      Use Athletics to fly; ignore all ground-based obstacles when you do.
+    </stunt>
+    <stunt name="Infectious">
+      Any Consequence taken from a Tooth &amp; Claw Attack is called Infected; recovery is possible
+      only if treated with an Invention. For every week that goes by without such treatment, the
+      Consequence worsens one level. If it goes beyond Severe, the character begins to transform
+      into a human/bee hybrid, and will fully turn after another week.
+    </stunt>
     <stunt name="Hard to Kill a Swarm of Bees">
-   For any attack or advantage to have much effect, it must make sense for it to affect a swarm of bees.
-  </stunt>
+      For any attack or advantage to have much effect, it must make sense for it to affect a swarm of bees.
+    </stunt>
     <stunt name="Healing Factor">
-   Once per scene, spend a fate point to reduce one of your consequences by one degree of severity
-   (severe to major, major to mild, mild to nothing).
-  </stunt>
+      Once per scene, spend a fate point to reduce one of your Consequences by one degree of severity
+      (severe to major, major to mild, mild to nothing).
+    </stunt>
     <stunt name="Lightning Reflexes">
-   In a physical conflict, you always act first. If someone else in the conflict has a stunt that gives
-   them the same ability, make an Athletics roll to see who goes first.
-  </stunt>
+      In a physical conflict, you always act first. If someone else in the conflict has a stunt that gives
+      them the same ability, make an Athletics roll to see who goes first.
+    </stunt>
   </stunts>
   <consequences/>
   <experiences>
