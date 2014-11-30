@@ -13,6 +13,7 @@ for file in $@; do
   perl -pi -e 's#普通话#<span class="中文">普通话</span>#g' $file
   perl -pi -e 's#巫人#<span class="中文">巫人</span>#g' $file
   perl -pi -e 's#五行#<span class="中文">五行</span>#g' $file
+  perl -pi -e 's#江湖#<span class="中文">江湖</span>#g' $file
   perl -pi -e 's#bar mitzvah#<em>bar mitzvah</em>#g' $file
   perl -pi -e "s#Cara'Sir#<em>Cara'Sir</em>#g" $file
   perl -pi -e 's#Deireadh an Tuartheil#<em>Deireadh an Tuartheil</em>#g' $file
