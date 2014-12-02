@@ -1,0 +1,8 @@
+  <mode rating="x" name="Spirit" stress-type="mental"> <!-- ARRPG pg92 -->
+   <skill name="Hover"   cost="2"/>
+   <skill name="Provoke" cost="1"/>
+   <!--
+        Specialize 2 Trained Skills
+        Focus      3 Trained Skills
+   -->
+  </mode>
