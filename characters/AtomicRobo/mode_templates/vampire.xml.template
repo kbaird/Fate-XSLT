@@ -1,0 +1,7 @@
+  <mode rating="x" name="Vampire" stress-type="physical"> <!-- ARRPG pg291 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+  </mode>
+  <!-- 4 pts of Improvements -->
