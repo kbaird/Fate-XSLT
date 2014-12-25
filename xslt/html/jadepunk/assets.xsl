@@ -78,7 +78,15 @@
   <xsl:template match="flaw">
     <dt class="flaw"><xsl:value-of select="@type"/>:</dt>
     <dd>
-      <xsl:value-of select="@effect"/>
+      <xsl:choose>
+        <xsl:when test="@effect">
+          <xsl:value-of select="@effect"/>
+        </xsl:when>
+        <xsl:when test="@type='Consuming'">
+          <xsl:text>Costs 1 Fate Point to use</xsl:text>
+        </xsl:when>
+        <xsl:otherwise/>
+      </xsl:choose>
     </dd>
   </xsl:template>
 </xsl:stylesheet>
