@@ -37,15 +37,16 @@
   </extras>
   <stunts>
     <stunt name="Spellcaster">
-    Can use Magic skill with logical justification &amp; limitations for described spell.
-    See notes.
-  </stunt>
+      Can use Magic skill with logical justification &amp; limitations for described spell.
+      See notes.
+    </stunt>
     <stunt name="Spirit Summoner">
-    Can petition the Celestial Bureaucracy for magical favors, see notes.
-  </stunt>
-    <stunt name="Astrally Active">
-    Can Astrally perceive or project, as per SR rules.
-  </stunt>
+      Can use Magic skill with logical justification &amp; limitations for described spirit.
+      See notes.
+    </stunt>
+    <stunt name="Astrally Aware">
+      +2 to Create an Advantage with Notice when using Astral Perception or Projection.
+    </stunt>
   </stunts>
   <consequences/>
   <phase-trio>
@@ -107,20 +108,34 @@
     </phase>
   </phase-trio>
   <notes>
-    
-    
+
+
+
+
+
+
     Spellcaster notes:
-    (TBD: specific small set of spells, like Fate in Freeport? Drain? Can't
-    repeat same spell in the same scene? Or get a Mental Stress if you do?) I
-    figure a pretty loose definition of the stunt is OK, since it requires a
-    completely new skill, burns a stunt in addition to the required Magician
-    extra, AND requires in-game narrative justification from the player.
-    Alternatively, we could define the 五行 tradition as a character via the
-    Fate Fractal.
+    Keep it loose. Just do the Four Actions via the new Magic Skill, and give narrative
+    description according to the particular Shadowrun spell desired. I figure a pretty loose
+    definition of the stunt is OK, since it requires a completely new skill (Magic), burns a
+    Stunt in addition to the required Magician extra, AND requires in-game narrative
+    justification from the player.
+
+    The particulars of each spell will be largely up to the caster. Some specific patterns
+    (such as Attacks via mana spells being Opposed with Will; physical spells with Physique)
+    will be fairly typical.
+
     Spirit Summoner notes:
-    Can petition the Celestial Bureaucracy for magical favors (Keep consistent
-    with SR rules, or make up some narratively rich alternative?) Similar
-    pragmatic limits to Spellcaster, especially if it's kept close to SR spirit
-    types &amp; powers.
+    Can petition the Celestial Bureaucracy for magical favors. Again, keep it loose, and use
+    the new Magic Skill. Maybe start with Creating the "Owes Service to [me]" Advantage on a
+    specific Spirit that provides Active Opposition with its highest-rated Skill. Spending an
+    action to Create more Advantages simply adds more invocations (i.e., services). The
+    narrative particulars depend on the specific type of Spirit, etc.
+
+    Drain:
+    Use the options for Extra Effort and Extreme Effort from Fate System Toolkit, trading
+    stress and/or consequences for bonuses.
+
+    For even more detail, we could define the 五行 tradition as a character via the Fate Fractal.
  </notes>
 </character>
