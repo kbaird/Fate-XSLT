@@ -15,10 +15,10 @@
   <current-fate-points>3</current-fate-points>
   <aspects>
     <aspect type="High-Concept">Elven 巫人 expatriate from PDX</aspect>
-    <aspect type="Trouble">Disjunct Identity, Divided Loyalties</aspect>
-    <aspect phase-num="1">Chinese Elven Culture &amp; Heritage</aspect>
+    <aspect type="Trouble">Find a Clever Way to Minimize Harm</aspect>
+    <aspect phase-num="1">Chinese Diaspora</aspect>
     <aspect phase-num="2">SINner citizen (&amp; Border Patrol veteran) of Tír Tairngire</aspect>
-    <aspect phase-num="3">Find a Clever Way to Minimize Harm</aspect>
+    <aspect phase-num="3">My Country Should Liberalize While Remaining the Elven Homeland</aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Magic"/>
@@ -50,7 +50,7 @@
   </stunts>
   <consequences/>
   <phase-trio>
-    <phase num="1">
+    <phase num="1" title="Childhood">
       <events>
     2035: Tír Tairngire secedes from SSC; CFS kicked out of UCAS
     2036: TT invades northern CFS to Redding
@@ -73,7 +73,7 @@
     command of English.
    </events>
     </phase>
-    <phase num="2">
+    <phase num="2" title="Early Adulthood">
       <events>
     2064: Liu undergoes Rite of Passage [TT57]. For the Bridging portion, he
     went to Anthony Lakes, Whitman National Forest in Northeastern Tír
@@ -91,7 +91,7 @@
     [TT59].
    </events>
     </phase>
-    <phase num="3">
+    <phase num="3" title="The Near-Present">
       <events>
     2070: 2nd open TT elections, Zincan re-elected. Liu votes for him as High
     Prince again. Of the other Princes, he has spoken most approvingly of Jake
