@@ -90,6 +90,14 @@
     <dt class="flaw"><xsl:value-of select="@type"/>:</dt>
     <dd>
       <xsl:choose>
+        <xsl:when test="@type='Limited'">
+          <xsl:choose>
+            <xsl:when test="@effect='1'">
+              <xsl:text>☐ Once per Scene</xsl:text>
+            </xsl:when>
+            <xsl:otherwise/>
+          </xsl:choose>
+        </xsl:when>
         <xsl:when test="@effect">
           <xsl:value-of select="@effect"/>
         </xsl:when>
