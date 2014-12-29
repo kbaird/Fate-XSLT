@@ -95,6 +95,9 @@
             <xsl:when test="@effect='1'">
               <xsl:text>☐ Once per Scene</xsl:text>
             </xsl:when>
+            <xsl:when test="@effect='2'">
+              <xsl:text>☐ Once per Session</xsl:text>
+            </xsl:when>
             <xsl:otherwise/>
           </xsl:choose>
         </xsl:when>
