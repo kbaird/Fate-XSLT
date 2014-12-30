@@ -98,7 +98,9 @@
             <xsl:when test="@effect='2'">
               <xsl:text>☐ Once per Session</xsl:text>
             </xsl:when>
-            <xsl:otherwise/>
+            <xsl:otherwise>
+              <xsl:value-of select="@effect"/>
+            </xsl:otherwise>
           </xsl:choose>
         </xsl:when>
         <xsl:when test="@effect">
