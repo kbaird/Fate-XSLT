@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:include href="../fate-common/phase-aspects.xsl"/>
+  <xsl:include href="../fate-common/phase-title.xsl"/>
   <xsl:template match="phase-trio">
     <table>
       <tr>
@@ -16,7 +17,11 @@
         <fieldset class="phase">
           <xsl:if test="@num = '1'">
             <legend class="label">
-              <span class="phase-title">Phase 1: Your Adventure</span>
+              <span class="phase-title">
+                <xsl:call-template name="phase-title">
+                  <xsl:with-param name="phase">1</xsl:with-param>
+                </xsl:call-template>
+              </span>
               <xsl:call-template name="phase-aspects">
                 <xsl:with-param name="phase">1</xsl:with-param>
               </xsl:call-template>
@@ -25,7 +30,11 @@
           </xsl:if>
           <xsl:if test="@num = '2'">
             <legend class="label">
-              <span class="phase-title">Phase 2: Crossing Paths</span>
+              <span class="phase-title">
+                <xsl:call-template name="phase-title">
+                  <xsl:with-param name="phase">2</xsl:with-param>
+                </xsl:call-template>
+              </span>
               <xsl:call-template name="phase-aspects">
                 <xsl:with-param name="phase">2</xsl:with-param>
               </xsl:call-template>
@@ -34,7 +43,11 @@
           </xsl:if>
           <xsl:if test="@num = '3'">
             <legend class="label">
-              <span class="phase-title">Phase 3: Crossing Paths Again</span>
+              <span class="phase-title">
+                <xsl:call-template name="phase-title">
+                  <xsl:with-param name="phase">3</xsl:with-param>
+                </xsl:call-template>
+              </span>
               <xsl:call-template name="phase-aspects">
                 <xsl:with-param name="phase">3</xsl:with-param>
               </xsl:call-template>
