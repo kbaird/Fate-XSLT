@@ -43,7 +43,8 @@
 
     <!ELEMENT phase-trio (phase*)>
       <!ELEMENT phase (events*)>
-        <!ATTLIST phase num CDATA #REQUIRED>
+        <!ATTLIST phase num   CDATA #REQUIRED>
+        <!ATTLIST phase title CDATA #IMPLIED>
         <!ELEMENT events (#PCDATA)>
 
     <!ELEMENT notes (#PCDATA)>
