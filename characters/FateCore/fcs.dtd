@@ -24,8 +24,16 @@
       <!ATTLIST skill rating CDATA #IMPLIED>
       <!ATTLIST skill add    CDATA #IMPLIED>
 
-    <!ELEMENT extras (extra*)>
+    <!ELEMENT extras (extra*, gadget*)>
       <!ELEMENT extra (#PCDATA)>
+      <!ELEMENT gadget (aspects*, benefits*)>
+      <!ATTLIST gadget name     CDATA    #IMPLIED>
+      <!ATTLIST gadget function CDATA    #IMPLIED>
+      <!ATTLIST gadget flaw     CDATA    #IMPLIED>
+      <!ELEMENT benefits (benefit*)>
+        <!ELEMENT benefit (#PCDATA)>
+        <!ATTLIST benefit cost CDATA    #IMPLIED>
+        <!ATTLIST benefit name CDATA    #IMPLIED>
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
