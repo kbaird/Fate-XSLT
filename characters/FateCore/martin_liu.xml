@@ -34,6 +34,17 @@
   </skills>
   <extras>
     <extra>Magician: 巫人 (wū rén) in the 五行 (wŭ xíng) tradition</extra>
+    <gadget name="Talisman" function="Ox bone 麻将 (májiăng) tile bracelet" flaw="Suggests 五行 Tradition">
+      <aspects>
+        <aspect>Fake Gadget to Test XSLT rendering</aspect>
+      </aspects>
+      <benefits>
+        <!-- benefits instead of stunts for consistency w/ARRPG -->
+        <benefit cost="2" name="Spellcasting Power">
+          +2 to Create an Advantage with Magic when casting a spell
+        </benefit>
+      </benefits>
+    </gadget>
   </extras>
   <stunts>
     <stunt name="Spellcaster">
