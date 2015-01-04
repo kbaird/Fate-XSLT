@@ -22,24 +22,25 @@
             </span>
           </legend>
           <dl class="gadget">
-            <xsl:if test="@function">
-              <dt id="function">Function Aspect:</dt>
-              <dd>
-                <xsl:value-of select="@function"/>
-              </dd>
-            </xsl:if>
-            <xsl:if test="@flaw">
-              <dt id="flaw">Flaw Aspect:</dt>
-              <dd>
-                <xsl:value-of select="@flaw"/>
-              </dd>
-            </xsl:if>
+            <xsl:apply-templates select="function"/>
+            <xsl:apply-templates select="flaws"/>
             <xsl:apply-templates select="benefits"/>
             <xsl:apply-templates select="aspects" mode="gadget"/>
           </dl>
         </fieldset>
       </td>
     </tr>
+  </xsl:template>
+  <xsl:template match="function">
+    <dt id="function">Function Aspect:</dt>
+    <dd><xsl:value-of select="."/></dd>
+  </xsl:template>
+  <xsl:template match="flaw">
+    <dt id="flaw">Flaw Aspect:</dt>
+    <dd><xsl:value-of select="."/></dd>
+  </xsl:template>
+  <xsl:template match="flaws">
+    <xsl:apply-templates select="flaw"/>
   </xsl:template>
   <xsl:template match="benefits">
     <xsl:apply-templates select="benefit"/>
