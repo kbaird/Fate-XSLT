@@ -66,15 +66,19 @@
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
-    <gadget name="Cap's Shield" function="Made of Vibranium; Throwable" flaw="Have to Hold It or Throw, But Not Both">
+    <gadget name="Cap's Shield">
+      <function>Made of Vibranium; Throwable</function>
+      <flaws>
+        <flaw>Have to Hold It or Throw, But Not Both</flaw>
+      </flaws>
       <benefits>
         <benefit cost="1" name="Deflects a Machine Gun">
-     +2 to Defend with Combat when facing a single opponent
-    </benefit>
+          +2 to Defend with Combat when facing a single opponent
+        </benefit>
         <benefit cost="1" name="Swats a Grenade">
-      +2 to Create an Advantage with Athletics when the shield could be narrated as useful
-      (swatting a grenade, smashing through a door or window, etc.)
-    </benefit>
+          +2 to Create an Advantage with Athletics when the shield could be narrated as useful
+          (swatting a grenade, smashing through a door or window, etc.)
+        </benefit>
       </benefits>
     </gadget>
   </stunts>
