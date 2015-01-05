@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<character>
+  <id>
+    <charname>Oliver Queen</charname>
+    <playername>Proto-NPC</playername>
+    <affiliation>Arrow</affiliation>
+    <description>&#160;</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Billionaire Frat Boy Turned Vigilante</aspect>
+    <aspect type="Mode" mode-name="The&#160;Hood">Cleaning Up the Sins of the Queen Family</aspect>
+    <aspect type="Mode" mode-name="Intrigue">Comfortable In Many Skins</aspect>
+    <aspect type="Mode" mode-name="Survivor">That Which Doesn't Kill Me Makes Me More Fucked Up</aspect>
+    <aspect type="Omega">(Over?)Protective of WOMEN I Love</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="The&#160;Hood" stress-type="split"> <!-- Vigilante, ARRPG pg267 s/Notice/Deceive/ -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2" add="2"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Provoke"   cost="1" add="1"/>
+      <skill name="Vehicles"  cost="2"/>
+      <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Burglary"  cost="1"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Stealth"   cost="2"/>
+    </mode>
+    <mode rating="1" name="Survivor" stress-type="physical"> <!-- ARRPG pg256 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1" add="1"/>
+      <skill name="Will"      cost="1"/>
+      <!-- 5 pts of Improvements -->
+      <!-- 3 for Combat, 1 each for Provoke, Physique -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Archer">+2 to Attack with Combat when firing a bow</stunt>
+    <stunt name="Trick Arrows">+2 to Create an Advantage with Combat when firing a bow</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>
