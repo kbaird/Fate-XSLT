@@ -26,14 +26,16 @@
 
     <!ELEMENT extras (extra*, gadget*)>
       <!ELEMENT extra (#PCDATA)>
-      <!ELEMENT gadget (aspects*, benefits*)>
-      <!ATTLIST gadget name     CDATA    #IMPLIED>
-      <!ATTLIST gadget function CDATA    #IMPLIED>
-      <!ATTLIST gadget flaw     CDATA    #IMPLIED>
-      <!ELEMENT benefits (benefit*)>
-        <!ELEMENT benefit (#PCDATA)>
-        <!ATTLIST benefit cost CDATA    #IMPLIED>
-        <!ATTLIST benefit name CDATA    #IMPLIED>
+      <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
+      <!-- benefits instead of stunts for ease of integration with ARRPG -->
+      <!ATTLIST gadget name CDATA #IMPLIED>
+      <!ELEMENT function (#PCDATA)>
+        <!ELEMENT flaws (flaw*)>
+          <!ELEMENT flaw (#PCDATA)>
+        <!ELEMENT benefits (benefit*)>
+          <!ELEMENT benefit (#PCDATA)>
+          <!ATTLIST benefit cost CDATA #IMPLIED>
+          <!ATTLIST benefit name CDATA #IMPLIED>
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
