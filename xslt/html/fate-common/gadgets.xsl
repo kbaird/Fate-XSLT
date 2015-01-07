@@ -48,9 +48,12 @@
   <xsl:template match="benefit">
     <dt>
       <xsl:value-of select="@name"/>
-      <xsl:text> [</xsl:text>
-      <xsl:value-of select="@cost"/>
-      <xsl:text>]: </xsl:text>
+      <xsl:if test="@cost">
+        <xsl:text> [</xsl:text>
+        <xsl:value-of select="@cost"/>
+        <xsl:text>]</xsl:text>
+      </xsl:if>
+      <xsl:text>: </xsl:text>
     </dt>
     <dd>
       <xsl:value-of select="."/>
