@@ -35,17 +35,17 @@
   <extras>
     <extra>Magician: 巫人 (wū rén) in the 五行 (wŭ xíng) tradition</extra>
     <gadget name="Talisman">
-      <function>Ox bone 麻将 (májiăng) tile bracelet</function>
+      <function>Power Focus</function>
       <flaws>
+        <flaw>Geas: reduces Magical power when absent</flaw>
         <flaw>Suggests 五行 Tradition</flaw>
-        <flaw>Fake additional Flaw</flaw>
       </flaws>
       <aspects>
-        <aspect>Fake Gadget to Test XSLT rendering</aspect>
+        <aspect>Ox bone 麻将 (májiăng) tile bracelet</aspect>
       </aspects>
       <benefits>
-        <benefit name="Spellcasting Power">
-          +2 to Create an Advantage with Magic when casting a spell
+        <benefit name="Summoning Aid">
+          +2 to Create an Advantage with Magic when initially summoning a Spirit
         </benefit>
       </benefits>
     </gadget>
@@ -59,9 +59,7 @@
       Can use Magic skill with logical justification &amp; limitations for described spirit.
       See notes.
     </stunt>
-    <stunt name="Astrally Aware">
-      +2 to Create an Advantage with Notice when using Astral Perception or Projection.
-    </stunt>
+    <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences/>
   <phase-trio>
