@@ -39,8 +39,8 @@
                 </xsl:with-param>
               </xsl:call-template>
             </xsl:if>
-            <xsl:apply-templates select="features"/>
-            <xsl:apply-templates select="flaws"/>
+            <xsl:apply-templates select="features/feature"/>
+            <xsl:apply-templates select="flaws/flaw"/>
           </dl>
         </fieldset>
       </td>
@@ -63,9 +63,6 @@
       </th>
     </tr>
   </xsl:template>
-  <xsl:template match="features">
-    <xsl:apply-templates select="feature"/>
-  </xsl:template>
   <xsl:template match="feature">
     <dt class="feature"><xsl:value-of select="@type"/>:</dt>
     <dd>
@@ -82,9 +79,6 @@
         <xsl:otherwise/>
       </xsl:choose>
     </dd>
-  </xsl:template>
-  <xsl:template match="flaws">
-    <xsl:apply-templates select="flaw"/>
   </xsl:template>
   <xsl:template match="flaw">
     <dt class="flaw"><xsl:value-of select="@type"/>:</dt>
