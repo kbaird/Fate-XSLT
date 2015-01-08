@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:include href="assets-header.xsl"/>
+  <xsl:include href="feature.xsl"/>
+  <xsl:include href="flaw.xsl"/>
+  <xsl:include href="guiding-aspect.xsl"/>
   <xsl:template match="assets">
     <table>
       <xsl:call-template name="assets-header">
@@ -45,66 +49,5 @@
         </fieldset>
       </td>
     </tr>
-  </xsl:template>
-  <xsl:template name="guiding-aspect">
-    <xsl:param name="type"/>
-    <xsl:for-each select="/character/aspects/aspect[@type=$type]">
-      <dt>Guiding Aspect:</dt>
-      <dd>
-        <xsl:value-of select="."/>
-      </dd>
-    </xsl:for-each>
-  </xsl:template>
-  <xsl:template name="assets-header">
-    <xsl:param name="label"/>
-    <tr>
-      <th colspan="2" class="sectionheader">
-        <xsl:value-of select="$label"/>
-      </th>
-    </tr>
-  </xsl:template>
-  <xsl:template match="feature">
-    <dt class="feature"><xsl:value-of select="@type"/>:</dt>
-    <dd>
-      <xsl:choose>
-        <xsl:when test="@effect">
-          <xsl:value-of select="@effect"/>
-        </xsl:when>
-        <xsl:when test="@type='Independent'">
-          <xsl:text>Can act independently w/o the expenditure of a Fate Point</xsl:text>
-        </xsl:when>
-        <xsl:when test="@type='Resilient'">
-          <xsl:text>+1 Mild Consequence slot</xsl:text>
-        </xsl:when>
-        <xsl:otherwise/>
-      </xsl:choose>
-    </dd>
-  </xsl:template>
-  <xsl:template match="flaw">
-    <dt class="flaw"><xsl:value-of select="@type"/>:</dt>
-    <dd>
-      <xsl:choose>
-        <xsl:when test="@type='Limited'">
-          <xsl:choose>
-            <xsl:when test="@effect='1'">
-              <xsl:text>☐ Once per Scene</xsl:text>
-            </xsl:when>
-            <xsl:when test="@effect='2'">
-              <xsl:text>☐ Once per Session</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="@effect"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:when>
-        <xsl:when test="@effect">
-          <xsl:value-of select="@effect"/>
-        </xsl:when>
-        <xsl:when test="@type='Consuming'">
-          <xsl:text>Costs 1 Fate Point to use</xsl:text>
-        </xsl:when>
-        <xsl:otherwise/>
-      </xsl:choose>
-    </dd>
   </xsl:template>
 </xsl:stylesheet>
