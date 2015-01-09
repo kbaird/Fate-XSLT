@@ -1,7 +1,7 @@
 # Fate-XSLT
 
-Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various Fate-based games, along with
-[XSLT](http://www.w3.org/TR/xslt) sheets for rendering to HTML (and potentially other formats).
+Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various [Fate](http://www.faterpg.com/)-based
+games, along with [XSLT](http://www.w3.org/TR/xslt) sheets for rendering to HTML (and potentially other formats).
 
 ## Supported Systems
 
@@ -36,6 +36,7 @@ Various rule variants are supported, via boolean attributes of the <hacks> eleme
 Currently supported variants include
 - [Conditions](http://fate-srd.com/fate-system-toolkit/conditions) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 - Corruption (from [Fate Freeport Companion](http://www.evilhat.com/home/fate-freeport-companionprinted-by-the-elves/))
+- [Gadgets](http://fate-srd.com/fate-system-toolkit/gadgets-and-gear) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 - [Skill Modes](http://fate-srd.com/fate-system-toolkit/skill-modes) (from [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 
 ### Other useful URLs
