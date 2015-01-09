@@ -5,9 +5,7 @@
     <xsl:param name="type"/>
     <xsl:for-each select="/character/aspects/aspect[@type=$type]">
       <dt>Guiding Aspect:</dt>
-      <dd>
-        <xsl:value-of select="."/>
-      </dd>
+      <dd><xsl:value-of select="."/></dd>
     </xsl:for-each>
   </xsl:template>
 </xsl:stylesheet>

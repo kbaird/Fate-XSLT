@@ -3,8 +3,7 @@
   <xsl:output method="html"/>
   <xsl:template match="flaw">
     <dt class="flaw"><xsl:value-of select="@type"/>:</dt>
-    <dd>
-      <xsl:choose>
+    <dd><xsl:choose>
         <xsl:when test="@type='Limited'">
           <xsl:choose>
             <xsl:when test="@effect='1'">
@@ -25,7 +24,6 @@
           <xsl:text>Costs 1 Fate Point to use</xsl:text>
         </xsl:when>
         <xsl:otherwise/>
-      </xsl:choose>
-    </dd>
+      </xsl:choose></dd>
   </xsl:template>
 </xsl:stylesheet>
