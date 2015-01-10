@@ -23,7 +23,7 @@
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt name  CDATA #IMPLIED>
+      <!ATTLIST stunt name  CDATA #REQUIRED>
       <!ATTLIST stunt page  CDATA #REQUIRED>
       <!ATTLIST stunt skill CDATA #REQUIRED>
 
