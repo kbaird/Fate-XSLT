@@ -13,7 +13,6 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (High-Concept|trouble) #IMPLIED>
 
     <!ELEMENT skills (skill*)>
       <!ELEMENT skill (#PCDATA)>
@@ -22,7 +21,7 @@
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt name CDATA #IMPLIED>
+      <!ATTLIST stunt name CDATA #REQUIRED>
 
     <!ELEMENT stress (physical, mental)>
       <!ELEMENT physical (#PCDATA)>
