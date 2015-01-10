@@ -3,28 +3,28 @@
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
+    <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT playername (#PCDATA)>
-      <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT description (#PCDATA)>
 
-    <!ELEMENT refresh (#PCDATA)>
-    <!ELEMENT current-fate-points (#PCDATA)>
+  <!ELEMENT refresh (#PCDATA)>
+  <!ELEMENT current-fate-points (#PCDATA)>
 
-    <!ELEMENT aspects (aspect*)>
-      <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (High-Concept|Trouble) #IMPLIED>
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect type (High-Concept|Trouble) #IMPLIED>
 
-    <!ELEMENT approaches (approach*)>
-      <!ELEMENT approach (#PCDATA)>
-      <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
-      <!ATTLIST approach rating CDATA #REQUIRED>
+  <!ELEMENT approaches (approach*)>
+    <!ELEMENT approach (#PCDATA)>
+    <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
+    <!ATTLIST approach rating CDATA #REQUIRED>
 
-    <!ELEMENT stunts (stunt*)>
-      <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt name CDATA #IMPLIED>
+  <!ELEMENT stunts (stunt*)>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt name CDATA #REQUIRED>
 
-    <!ELEMENT consequences (consequence*)>
-      <!ELEMENT consequence (#PCDATA)>
-        <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
+  <!ELEMENT consequences (consequence*)>
+    <!ELEMENT consequence (#PCDATA)>
+      <!ATTLIST consequence effect CDATA #IMPLIED>
+      <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
 
