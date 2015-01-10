@@ -26,20 +26,21 @@
 
     <!ELEMENT extras (extra*, gadget*)>
       <!ELEMENT extra (#PCDATA)>
+        <!ATTLIST extra name CDATA #REQUIRED>
       <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
       <!-- benefits instead of stunts for ease of integration with ARRPG -->
-      <!ATTLIST gadget name CDATA #IMPLIED>
+      <!ATTLIST gadget name CDATA #REQUIRED>
       <!ELEMENT function (#PCDATA)>
         <!ELEMENT flaws (flaw*)>
           <!ELEMENT flaw (#PCDATA)>
         <!ELEMENT benefits (benefit*)>
           <!ELEMENT benefit (#PCDATA)>
           <!ATTLIST benefit cost CDATA #IMPLIED>
-          <!ATTLIST benefit name CDATA #IMPLIED>
+          <!ATTLIST benefit name CDATA #REQUIRED>
 
     <!ELEMENT stunts (stunt*)>
       <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt name CDATA #IMPLIED>
+      <!ATTLIST stunt name CDATA #REQUIRED>
 
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
@@ -47,9 +48,9 @@
         <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
     <!ELEMENT hacks (#PCDATA)>
-      <!ATTLIST hacks conditions  (true|false) #IMPLIED> <!-- Fate System Toolkit     -->
-      <!ATTLIST hacks corruption  (true|false) #IMPLIED> <!-- Fate Freeport Companion -->
-      <!ATTLIST hacks skill-modes (true|false) #IMPLIED> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks conditions  (true|false) "false"> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks corruption  (true|false) "false"> <!-- Fate Freeport Companion -->
+      <!ATTLIST hacks skill-modes (true|false) "false"> <!-- Fate System Toolkit     -->
 
     <!ELEMENT phase-trio (phase*)>
       <!ELEMENT phase (events*)>
