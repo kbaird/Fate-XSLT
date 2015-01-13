@@ -6,12 +6,12 @@
     <charname>Felicity Smoak</charname>
     <playername>Proto-NPC</playername>
     <affiliation>Arrow</affiliation>
-    <description>&#160;</description>
+    <description>Kind of looks like Emily Bett Rickards. With glasses.</description>
   </id>
   <current-fate-points>0</current-fate-points>
   <experience-points>0</experience-points>
   <aspects>
-    <aspect type="Concept">&#160;</aspect>
+    <aspect type="Concept">Adorkable Hacker</aspect>
     <aspect type="Mode" mode-name="Science">Computers are TV Magic</aspect>
     <aspect type="Mode" mode-name="Banter">Did I Really Just Say That?</aspect>
     <aspect type="Mode" mode-name="Action">Hostage Got the Drop on You</aspect>
@@ -47,8 +47,14 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name=" ">&#160;</stunt>
-    <stunt name=" ">&#160;</stunt>
+    <stunt name="Admin Access">
+      Use Computer Science instead of Burglary to overcome computerized security systems.
+    </stunt>
+    <stunt name="There's An Algorithm For That">
+      When using a technological device that has a computerized component - even a single microchip -
+      spend a fate point to operate it using Computer Science instead of whatever other skill would
+      normally apply until the end of the scene.
+    </stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
