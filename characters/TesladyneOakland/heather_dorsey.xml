@@ -23,39 +23,36 @@
     <aspect type="Omega">&#160;</aspect>
   </aspects>
   <skills>
-    <mode rating="3" name="Science" stress-type="mental">
-      <!-- ARRPG pg85 -->
-      <skill name="Notice" cost="1"/>
-      <skill name="Will" cost="1"/>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
       <skill name="(all other Sciences)" cost="1"/>
     </mode>
-    <mode rating="2" name="Intrigue" stress-type="physical">
-      <!-- ARRPG pg84 -->
+    <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
       <skill name="Athletics" cost="2"/>
-      <skill name="Burglary" cost="1"/>
-      <skill name="Contacts" cost="1"/>
-      <skill name="Deceive" cost="2"/>
-      <skill name="Notice" cost="1"/>
-      <skill name="Stealth" cost="2"/>
+      <skill name="Burglary"  cost="1"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Stealth"   cost="2"/>
     </mode>
-    <mode rating="1" name="Action">
-      <!-- ARRPG pg82 -->
+    <mode rating="1" name="Action"> <!-- ARRPG pg82 -->
       <skill name="Athletics" cost="2"/>
-      <skill name="Combat" cost="2"/>
-      <skill name="Notice" cost="1"/>
-      <skill name="Physique" cost="1"/>
-      <skill name="Provoke" cost="1"/>
-      <skill name="Vehicles" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
     </mode>
   </skills>
   <stunts>
     <stunt name="Master of Disguise">
-    When you're in a situation where you're able to slip away unnoticed,
-    you have the option to temporarily drop out of the game altogether.
-    If you do, spend a Fate Point to reappear disguised as a faceless NPC
-    already in the scene (a security guard, a lab-coated scientist, a
-    DELPHI goon, etc.).
-   </stunt>
+      When you're in a situation where you're able to slip away unnoticed,
+      you have the option to temporarily drop out of the game altogether.
+      If you do, spend a Fate Point to reappear disguised as a faceless NPC
+      already in the scene (a security guard, a lab-coated scientist, a
+      DELPHI goon, etc.).
+    </stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
