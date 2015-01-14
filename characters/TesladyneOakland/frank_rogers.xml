@@ -20,32 +20,30 @@
     <aspect type="Omega">&#160;</aspect>
   </aspects>
   <skills>
-    <mode rating="3" name="Telepath" stress-type="mental">
-      <!-- ARRPG pg92 -->
-      <skill name="Deceive" cost="2"/>
-      <skill name="Empathy" cost="3"/>
+    <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
+      <skill name="Deceive"        cost="2"/>
+      <skill name="Empathy"        cost="3"/>
       <skill name="Hallucinations" cost="2"/>
       <!-- OR Focus 1 Trained Skill instead of Hallucinations -->
-      <skill name="Provoke" cost="1"/>
-      <skill name="Rapport" cost="1"/>
-      <skill name="Will" cost="1"/>
+      <skill name="Provoke"        cost="1"/>
+      <skill name="Rapport"        cost="1"/>
+      <skill name="Will"           cost="1"/>
     </mode>
-    <mode rating="2" name="Martial&#160;Artist" stress-type="physical">
-      <!-- ARRPG pg88 -->
+    <mode rating="2" name="Martial&#160;Artist" stress-type="physical"> <!-- ARRPG pg88 -->
       <skill name="Athletics" cost="2"/>
-      <skill name="Combat" cost="2"/>
-      <skill name="Notice" cost="1"/>
-      <skill name="Physique" cost="1"/>
-      <skill name="Stealth" cost="2"/>
-      <skill name="Will" cost="1"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Stealth"   cost="2"/>
+      <skill name="Will"      cost="1"/>
     </mode>
     <mode rating="1" name="Human&#160;Resources">
       <skill name="Contacts" cost="1"/>
-      <skill name="Deceive" cost="2"/>
-      <skill name="Empathy" cost="3"/>
-      <skill name="Notice" cost="1"/>
-      <skill name="Rapport" cost="2"/>
-      <skill name="Will" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Notice"   cost="1"/>
+      <skill name="Rapport"  cost="2"/>
+      <skill name="Will"     cost="1"/>
     </mode>
   </skills>
   <stunts>

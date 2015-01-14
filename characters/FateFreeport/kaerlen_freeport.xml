@@ -27,7 +27,18 @@
     <skill rating="+2" name="Wisdom"/>
     <skill rating="+3" name="Charisma"/>
   </skills>
-  <extras/>
+  <extras>
+    <gadget name="Black Powder Sidearm">
+      <function>
+        When you attack with a sidearm, you deal 1 shift of extra stress if
+        you deal stress, and your attack completely ignores most armor.
+      </function>
+      <flaws>
+        <flaw>Loud and Unreliable</flaw>
+        <flaw>Takes 1 action to reload</flaw>
+      </flaws>
+    </gadget>
+  </extras>
   <stunts>
     <stunt name="Persuasion">
     Gain a +2 to Charisma-based overcome attempts to persuade an individual to see things your way.

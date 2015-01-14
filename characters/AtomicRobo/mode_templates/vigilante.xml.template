@@ -1,0 +1,9 @@
+  <mode rating="x" name="Vigilante" stress-type="split"> <!-- ARRPG pg267 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Combat"    cost="2"/>
+   <skill name="Contacts"  cost="1"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Provoke"   cost="1"/>
+   <skill name="Vehicles"  cost="2"/>
+   <skill name="Will"      cost="1"/>
+  </mode>

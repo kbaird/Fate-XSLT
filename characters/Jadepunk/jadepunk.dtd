@@ -12,26 +12,26 @@
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
-    <!ATTLIST aspect type (Portrayal|Background|Inciting-Incident|Belief|Trouble) #IMPLIED>
+    <!ATTLIST aspect type (Portrayal|Background|Inciting-Incident|Belief|Trouble) #REQUIRED>
 
   <!ELEMENT professions (profession*)>
     <!ELEMENT profession (#PCDATA)>
     <!ATTLIST profession name   CDATA #REQUIRED>
-    <!ATTLIST profession rating CDATA #IMPLIED>
+    <!ATTLIST profession rating CDATA #REQUIRED>
 
   <!ELEMENT assets (asset*)>
     <!ELEMENT asset (features*, flaws*)>
-    <!ATTLIST asset cost           CDATA #IMPLIED>
+    <!ATTLIST asset cost           CDATA #REQUIRED>
     <!ATTLIST asset function       CDATA #IMPLIED>
     <!ATTLIST asset guiding-aspect CDATA #IMPLIED>
-    <!ATTLIST asset name           CDATA #IMPLIED>
-    <!ATTLIST asset type           CDATA #IMPLIED>
+    <!ATTLIST asset name           CDATA #REQUIRED>
+    <!ATTLIST asset type           CDATA #REQUIRED>
 
     <!ELEMENT features (feature*)>
       <!ELEMENT feature (#PCDATA)>
       <!ATTLIST feature effect CDATA #IMPLIED>
       <!ATTLIST feature type
-        (Aspect|Exceptional|Flexible|Focus|Harmful|Indepedent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
+        (Aspect|Exceptional|Flexible|Focus|Harmful|Independent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
       #REQUIRED>
 
     <!ELEMENT flaws (flaw*)>

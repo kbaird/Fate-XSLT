@@ -36,7 +36,7 @@
       </features>
       <flaws>
         <flaw type="Consuming"/>
-        <flaw type="Demanding" effect="(requires a Fair [+2] Explorer roll to get a ship underway)"/>
+        <flaw type="Demanding" effect="Requires a Fair [+2] Explorer roll to get a ship underway"/>
       </flaws>
     </asset>
     <asset cost="1" guiding-aspect="Background" name="Councilor's Perks" type="Technique">

@@ -15,7 +15,7 @@
       <!ELEMENT aspect (#PCDATA)>
       <!ATTLIST aspect type (Concept|Mode|Omega) #REQUIRED>
       <!ATTLIST aspect mode-name CDATA           #IMPLIED>
-      <!ATTLIST aspect signature (true|false)    #IMPLIED>
+      <!ATTLIST aspect signature (true|false)    "false">
 
     <!ELEMENT skills (mode*, skill*)>
       <!ELEMENT mode (skill*)>
@@ -24,29 +24,29 @@
       <!ATTLIST mode stress-type (mental|physical|split) #IMPLIED>
         <!ELEMENT skill (#PCDATA)>
         <!ATTLIST skill name   CDATA #REQUIRED>
-        <!ATTLIST skill rating CDATA #IMPLIED>
         <!ATTLIST skill add    CDATA #IMPLIED>
         <!ATTLIST skill cost   CDATA #IMPLIED> <!-- For Weird calculations -->
 
     <!ELEMENT stunts (stunt*, gadget*)>
       <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt name     CDATA    #IMPLIED>
-      <!ELEMENT gadget (benefits*)>
-      <!ATTLIST gadget name     CDATA    #IMPLIED>
-      <!ATTLIST gadget function CDATA    #IMPLIED>
-      <!ATTLIST gadget flaw     CDATA    #IMPLIED>
-      <!ELEMENT benefits (benefit*)>
-        <!ELEMENT benefit (#PCDATA)>
-        <!ATTLIST benefit cost CDATA    #IMPLIED>
-        <!ATTLIST benefit name CDATA    #IMPLIED>
+      <!ATTLIST stunt name CDATA #REQUIRED>
+      <!ELEMENT gadget (function, flaws, benefits*)>
+      <!ATTLIST gadget name CDATA #REQUIRED>
+        <!ELEMENT function (#PCDATA)>
+        <!ELEMENT flaws (flaw*)>
+          <!ELEMENT flaw (#PCDATA)>
+        <!ELEMENT benefits (benefit*)>
+          <!ELEMENT benefit (#PCDATA)>
+          <!ATTLIST benefit cost CDATA #IMPLIED>
+          <!ATTLIST benefit name CDATA #REQUIRED>
 
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
+        <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
 
     <!ELEMENT experiences (experience*)>
       <!ELEMENT experience (#PCDATA)>
-      <!ATTLIST experience used (true|false) #IMPLIED>
+      <!ATTLIST experience used (true|false) "false">
 
     <!ELEMENT notes (#PCDATA)>
