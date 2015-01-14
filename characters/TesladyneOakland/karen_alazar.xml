@@ -7,11 +7,11 @@
     <playername>Supporting NPC</playername>
     <affiliation>Tesladyne Oakland (Action Scientist NPC)</affiliation>
     <description>
-    A stocky woman born in Los Angeles to Eritrean immigrant parents. Went to
-    Cal for Engineering, then the Air Force. currently lives in Oakland. Could
-    easily pass for a D&amp;D3.0 Forgotten Realms Gold Dwarf, both in
-    appearance and culture.
-  </description>
+      A stocky woman born in Los Angeles to Eritrean immigrant parents. Went to
+      Cal for Engineering, then the Air Force. currently lives in Oakland. Could
+      easily pass for a D&amp;D3.0 Forgotten Realms Gold Dwarf, both in
+      appearance and culture.
+    </description>
   </id>
   <current-fate-points>4</current-fate-points>
   <experience-points>0</experience-points>
@@ -20,60 +20,52 @@
     <aspect type="Mode" mode-name="Science">So Many Gadgets</aspect>
     <aspect type="Mode" mode-name="Soldier">USAF Veteran of Afghanistan and Iraq</aspect>
     <aspect type="Mode" mode-name="Action">"...and MY AXE."</aspect>
-    <aspect type="Omega">TBD</aspect>
+    <aspect type="Omega">&#160;</aspect>
   </aspects>
   <skills>
-    <mode rating="3" name="Science" stress-type="mental">
-      <!-- ARRPG pg85 -->
-      <skill name="Civil Engineering" add="2"/>
-      <!-- Spec 1 Trained from Science Mode -->
-      <skill name="Electrical Engineering" add="1"/>
-      <!-- Focus 1 Trained from Science Mode -->
-      <skill name="Notice" cost="1"/>
-      <skill name="Will" cost="1"/>
-      <skill name="(all other Sciences)" cost="1"/>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Civil Engineering"      add="2"/> <!-- Spec 1 Trained from Science Mode -->
+      <skill name="Electrical Engineering" add="1"/> <!-- Focus 1 Trained from Science Mode -->
+      <skill name="Notice"                 cost="1"/>
+      <skill name="Will"                   cost="1"/>
+      <skill name="(all other Sciences)"   cost="1"/>
     </mode>
-    <mode rating="2" name="Soldier" stress-type="mental">
-      <!-- ARRPG pg91 -->
+    <mode rating="2" name="Soldier" stress-type="mental"> <!-- ARRPG pg91 -->
       <skill name="Athletics" cost="2"/>
-      <skill name="Combat" cost="2"/>
-      <skill name="Contacts" cost="1"/>
-      <skill name="Notice" cost="1"/>
-      <skill name="Physique" cost="1"/>
-      <skill name="Tactics" cost="0"/>
-      <skill name="Vehicles" cost="2" add="1"/>
-      <!-- Spec 1 Focused from Science Mode -->
-      <skill name="Will" cost="1"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Tactics"   cost="0"/>
+      <skill name="Vehicles"  cost="2" add="1"/> <!-- Spec 1 Focused from Science Mode -->
+      <skill name="Will"      cost="1"/>
     </mode>
-    <mode rating="1" name="Action">
-      <!-- ARRPG pg82 -->
+    <mode rating="1" name="Action"> <!-- ARRPG pg82 -->
       <skill name="Athletics" cost="2"/>
-      <skill name="Combat" cost="2"/>
-      <skill name="Notice" cost="1"/>
-      <skill name="Physique" cost="1"/>
-      <skill name="Provoke" cost="1"/>
-      <skill name="Vehicles" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
     </mode>
   </skills>
   <stunts>
-    <stunt name="Breakneck Driver/Pilot">
-   +2 to Overcome with Vehicles when involved in a chase.
-  </stunt>
     <stunt name="Mind Over Matter">
-   Once per scene, when you take a physical hit, you may
-   check a mental stress box to absorb physical harm.
-  </stunt>
+      Once per scene, when you take a physical hit, you may
+      check a mental stress box to absorb physical harm.
+    </stunt>
     <stunt name="Remember Your Training">
-   When you Invoke one of an opponent's aspects or consequences
-   in a physical conflict, you get a +3 bonus instead of +2.
-  </stunt>
+      When you Invoke one of an opponent's aspects or consequences
+      in a physical conflict, you get a +3 bonus instead of +2.
+    </stunt>
     <stunt name="Shake It Off">
-   Once per scene, when you take a physical hit, you can check 2 physical
-   stress boxes and add their values together to absorb that many shifts of harm.
-  </stunt>
+      Once per scene, when you take a physical hit, you can check 2 physical
+      stress boxes and add their values together to absorb that many shifts of harm.
+    </stunt>
     <stunt name="This Is My Rifle">
-   +2 to Attack with Combat when using military-grade firearms.
-  </stunt>
+      +2 to Attack with Combat when using military-grade firearms.
+    </stunt>
+    <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences/>
   <experiences>

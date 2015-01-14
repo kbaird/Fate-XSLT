@@ -26,7 +26,7 @@ fieldset.consequence { font-style: oblique; padding-left: 8.6em; text-align: rig
 fieldset.consequence legend { color: #444444; font: small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.consequence legend span { padding-bottom: 3em; top: 0.1em; }
 fieldset.phase { font-family: Cabin, Padauk, Montserrat; }
-fieldset.stunt { font-size: 0.85em; font-style: oblique; text-align: right; padding-left: 16em; }
+fieldset.stunt { font-size: 0.85em; font-style: oblique; text-align: right; padding-left: 20em; }
 fieldset.stunt legend { color: black; font: small-caps 1.5em bolder Cabin, Padauk, Montserrat; }
 fieldset.stunt legend span { top: 0.2em; }
 

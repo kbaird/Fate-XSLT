@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE jadepunk SYSTEM "jadepunk.dtd">
+<character>
+  <id>
+    <charname>Gerard Cutting</charname>
+    <playername>sample Jadepunk character</playername>
+    <story>
+      A fresh-off-the-boat Aerish gunslinger, Gerard apprenticed as a Jadetech
+      engineer back in his homeland. He joined the Jianghu (江湖; lit.
+      "rivers and lakes") when he witnessed a Watchmen kill a man in cold blood.
+    </story>
+  </id>
+  <refresh>3</refresh>
+  <current-fate-points>3</current-fate-points>
+  <aspects>
+    <aspect type="Portrayal">Jadetech Gunslinger</aspect>
+    <aspect type="Background">Apprenticed on Kinardbal</aspect>
+    <aspect type="Inciting-Incident">Watchmen Kill in Cold Blood</aspect>
+    <aspect type="Belief">Respect is a Two-Way Street</aspect>
+    <aspect type="Trouble">Fresh Off the Boat</aspect>
+  </aspects>
+  <professions>
+    <profession rating="+1" name="Aristocrat"/>
+    <profession rating="+3" name="Engineer"/>
+    <profession rating="+2" name="Explorer"/>
+    <profession rating="+1" name="Fighter"/>
+    <profession rating="+2" name="Scholar"/>
+    <profession rating="0" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset cost="2" function="Red Jade Revolver" name="Clockwork Firearm" type="Device">
+      <features>
+        <feature effect="3" type="Harmful"/>
+        <feature effect="2" type="Numerous"/>
+        <!-- 2 revolvers -->
+      </features>
+      <flaws>
+        <flaw type="Demanding" effect="(requires an action to reload after a lot of shooting)"/>
+      </flaws>
+    </asset>
+    <asset cost="1" guiding-aspect="Portrayal" name="Crackshot" type="Technique">
+      <features>
+        <feature type="Focus" effect="Fighter +2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only with a Clockwork Firearm"/>
+      </flaws>
+    </asset>
+    <asset cost="1" guiding-aspect="Background" name="Jadetech Inventor" type="Technique">
+      <features>
+        <feature type="Focus" effect="Engineer +2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when creating temporary Device assets"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>

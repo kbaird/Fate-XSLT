@@ -53,22 +53,26 @@
   </skills>
   <stunts>
     <stunt name="Breakneck Pilot">
-   +2 to Overcome with Vehicles when involved in a chase.
-  </stunt>
+     +2 to Overcome with Vehicles when involved in a chase.
+    </stunt>
     <stunt name="Remember Your Training">
-   When you Invoke one of an opponent's aspects or consequences
-   in a physical conflict, you get a +3 bonus instead of +2.
-  </stunt>
+      When you Invoke one of an opponent's aspects or consequences
+      in a physical conflict, you get a +3 bonus instead of +2.
+    </stunt>
     <stunt name="This Is My Rifle">
-   +2 to Attack with Combat when using military-grade firearms.
-  </stunt>
+      +2 to Attack with Combat when using military-grade firearms.
+    </stunt>
     <stunt name=" ">&#160;</stunt>
-    <gadget name="EXO-7 Falcon" function="Fast and Maneuverable Flying" flaw="Wings Can Be Pulled Off">
+    <gadget name="EXO-7 Falcon">
+      <function>Fast and Maneuverable Flying</function>
+      <flaws>
+        <flaw>Wings Can Be Pulled Off</flaw>
+      </flaws>
       <benefits>
         <benefit cost="2" name="Thread the Needle">
-     +2 to Create an Advantage or Defend with Vehicles
-     when shaking a tail (missiles, pursuer, etc.)
-    </benefit>
+          +2 to Create an Advantage or Defend with Vehicles
+          when shaking a tail (missiles, pursuer, etc.)
+        </benefit>
       </benefits>
     </gadget>
   </stunts>

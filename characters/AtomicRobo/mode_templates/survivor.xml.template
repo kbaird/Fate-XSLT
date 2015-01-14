@@ -1,0 +1,7 @@
+  <mode rating="x" name="Survivor" stress-type="split"> <!-- ARRPG pg256 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+   <skill name="Will"      cost="1"/>
+   <!-- 5 pts of Improvements -->
+  </mode>

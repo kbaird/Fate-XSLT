@@ -55,7 +55,5 @@
       </flaws>
     </asset>
   </assets>
-  <consequences>
-    <consequence severity="Mild">mild one</consequence>
-  </consequences>
+  <consequences/>
 </character>

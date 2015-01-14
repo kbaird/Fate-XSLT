@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:include href="../fate-common/gadgets.xsl"/>
   <xsl:template match="extras">
     <table>
       <tr>
         <th colspan="1" class="sectionheader">Extras</th>
       </tr>
       <xsl:apply-templates select="extra"/>
+      <xsl:apply-templates select="gadget"/>
     </table>
   </xsl:template>
   <xsl:template match="extra">
