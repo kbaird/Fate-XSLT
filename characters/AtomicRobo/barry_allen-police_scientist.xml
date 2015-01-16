@@ -50,7 +50,7 @@
       Once per scene, spend a fate point to reduce one of your consequences by one
       degree of severity (severe to major, major to mild, mild to nothing).
     </stunt>
-    <stunt name="Super-Speed">
+    <stunt name="Super-Speed" mega="true">
       Absolutely faster than any human, but at a cost (typically underestimating danger due to overconfidence).
     </stunt>
     <stunt name="The Streak">

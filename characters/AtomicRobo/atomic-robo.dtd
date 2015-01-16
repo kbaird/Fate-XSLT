@@ -29,6 +29,7 @@
 
     <!ELEMENT stunts (stunt*, gadget*)>
       <!ELEMENT stunt (#PCDATA)>
+      <!ATTLIST stunt mega (true|false) "false">
       <!ATTLIST stunt name CDATA #REQUIRED>
       <!ELEMENT gadget (function, flaws, benefits*)>
       <!ATTLIST gadget name CDATA #REQUIRED>

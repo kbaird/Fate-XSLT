@@ -47,11 +47,38 @@
       </td>
     </tr>
   </xsl:template>
+  <xsl:template name="mega-stunts-cost">
+    <xsl:variable name="stuntsCost">
+      <xsl:value-of select="count(/character/stunts/stunt) + count(/character/stunts/stunt[@mega='true'])"/>
+    </xsl:variable>
+    <xsl:variable name="fatePointsToGm">
+      <xsl:value-of select="$stuntsCost - 5"/>
+    </xsl:variable>
+    <xsl:choose>
+      <!-- This is fugly. But xsl:text complains within variables inside. Fix it. -->
+      <xsl:when test="$stuntsCost = 6">
+        <xsl:text> (Total Benefits: 6 - 5 = 1 Fate Point added to the GM's reserve)</xsl:text>
+      </xsl:when>
+      <xsl:when test="$stuntsCost = 7">
+        <xsl:text> (Total Benefits: 7 - 5 = 2 Fate Points added to the GM's reserve)</xsl:text>
+      </xsl:when>
+      <xsl:when test="$stuntsCost = 8">
+        <xsl:text> (Total Benefits: 8 - 5 = 3 Fate Points added to the GM's reserve)</xsl:text>
+      </xsl:when>
+      <xsl:when test="$stuntsCost = 9">
+        <xsl:text> (Total Benefits: 9 - 5 = 4 Fate Points added to the GM's reserve)</xsl:text>
+      </xsl:when>
+      <xsl:when test="$stuntsCost = 10">
+        <xsl:text> (Total Benefits: 10 - 5 = 5 Fate Points added to the GM's reserve)</xsl:text>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
   <xsl:template name="stunts-header">
     <xsl:param name="label"/>
     <tr>
       <th colspan="2" class="sectionheader">
         <xsl:value-of select="$label"/>
+        <xsl:call-template name="mega-stunts-cost"/>
       </th>
     </tr>
   </xsl:template>
