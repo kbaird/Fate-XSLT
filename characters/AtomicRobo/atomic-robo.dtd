@@ -38,7 +38,7 @@
           <!ELEMENT flaw (#PCDATA)>
         <!ELEMENT benefits (benefit*)>
           <!ELEMENT benefit (#PCDATA)>
-          <!ATTLIST benefit cost CDATA #IMPLIED>
+          <!ATTLIST benefit cost CDATA #REQUIRED>
           <!ATTLIST benefit name CDATA #REQUIRED>
 
     <!ELEMENT consequences (consequence*)>

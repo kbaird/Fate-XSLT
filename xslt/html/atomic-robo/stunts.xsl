@@ -48,11 +48,30 @@
     </tr>
   </xsl:template>
   <xsl:template name="mega-stunts-cost">
+    <xsl:variable name="gadgetsCount">
+      <xsl:value-of select="count(/character/stunts/gadget)"/>
+    </xsl:variable>
+    <xsl:variable name="gadgetsBenefitsCount">
+      <xsl:value-of select="count(/character/stunts/gadget/benefits/benefit)"/>
+    </xsl:variable>
+    <xsl:variable name="gadgetsBenefitsAddCost">
+      <xsl:value-of select="count(/character/stunts/gadget/benefits/benefit[@cost='2'])"/>
+    </xsl:variable>
+    <xsl:variable name="gadgetsBenefitsCost">
+      <!-- FIXME sum the numeric costs to allow costs > 2 -->
+      <xsl:value-of select="$gadgetsBenefitsCount + $gadgetsBenefitsAddCost"/>
+    </xsl:variable>
     <xsl:variable name="gadgetsCost">
-      <xsl:value-of select="count(/character/stunts/gadget) + count(/character/stunts/gadget/benefits/benefit)"/>
+      <xsl:value-of select="$gadgetsCount + $gadgetsBenefitsCost"/>
+    </xsl:variable>
+    <xsl:variable name="stuntsCount">
+      <xsl:value-of select="count(/character/stunts/stunt)"/>
+    </xsl:variable>
+    <xsl:variable name="stuntsMegaCount">
+      <xsl:value-of select="count(/character/stunts/stunt[@mega='true'])"/>
     </xsl:variable>
     <xsl:variable name="stuntsCost">
-      <xsl:value-of select="count(/character/stunts/stunt) + count(/character/stunts/stunt[@mega='true']) + $gadgetsCost"/>
+      <xsl:value-of select="$stuntsCount + $stuntsMegaCount + $gadgetsCost"/>
     </xsl:variable>
     <xsl:variable name="fatePointsToGm">
       <xsl:value-of select="$stuntsCost - 5"/>
