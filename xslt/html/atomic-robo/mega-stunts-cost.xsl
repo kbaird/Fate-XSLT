@@ -6,15 +6,8 @@
     <xsl:variable name="gadgetsCount">
       <xsl:value-of select="count(/character/stunts/gadget)"/>
     </xsl:variable>
-    <xsl:variable name="gadgetsBenefitsCount">
-      <xsl:value-of select="count(/character/stunts/gadget/benefits/benefit)"/>
-    </xsl:variable>
-    <xsl:variable name="gadgetsBenefitsAddCost">
-      <xsl:value-of select="count(/character/stunts/gadget/benefits/benefit[@cost='2'])"/>
-    </xsl:variable>
     <xsl:variable name="gadgetsBenefitsCost">
-      <!-- FIXME sum the numeric costs to allow costs > 2 -->
-      <xsl:value-of select="$gadgetsBenefitsCount + $gadgetsBenefitsAddCost"/>
+      <xsl:value-of select="sum(/character/stunts/gadget/benefits/benefit/@cost)"/>
     </xsl:variable>
     <xsl:variable name="gadgetsCost">
       <xsl:value-of select="$gadgetsCount + $gadgetsBenefitsCost"/>
