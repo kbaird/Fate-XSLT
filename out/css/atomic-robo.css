@@ -1,5 +1,9 @@
 #atomic-robo-logo { height: 2em; }
 
+.focused { color: blue; }
+
+.specialized { color: red; }
+
 dl.gadget { margin-top: 0; }
 dl.gadget dt { font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; clear: both; }
 dl.gadget dt#function, dl.gadget dt#flaw { clear: none; }
@@ -13,9 +17,6 @@ fieldset.experience { height: 1.1em; padding-top: 0.5em; vertical-align: text-bo
 fieldset.experience.used { color: #666666; text-decoration: line-through; }
 fieldset.experience span.content { margin-left: -10em; }
 fieldset.experience legend.label { color: #666666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
-
-li.focused { color: blue; }
-li.specialized { color: red; }
 
 p { font-family: Cabin, Padauk, Montserrat; }
 p #copyright { clear: both; float: none; }
