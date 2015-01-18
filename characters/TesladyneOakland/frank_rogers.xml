@@ -45,17 +45,6 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="Biofeedback">
-      You are capable of using your psionic powers to enhance your physical
-      capabilities for a short time. You must make an Overcome roll to enter the
-      proper trance state for this power, and anyone who can reasonably disrupt
-      your concentration may oppose you. (Alternately, you may take a Mild
-      Consequence to automatically succeed.)
-      If you succeed, you may raise Athletics OR Physique by +2 for the remainder
-      of the scene, with all the benefits of doing so (which could mean more
-      stress boxes and whatnot). If you succeed with style, you may raise BOTH.
-      --DAR33
-    </stunt>
     <stunt name="Borrowed Knowledge">
       Pick another character (PC or NPC) who's in the scene with you. You can use
       one of their skills for one roll in this scene, whether it's a skill you
@@ -63,11 +52,6 @@
     </stunt>
     <stunt name="Iron Robe Technique">
       Armor: 2
-    </stunt>
-    <stunt name="Lightning Reflexes">
-      In a physical conflict, you always act first. If someone else in the
-      conflict has a stunt that gives them the same ability, make an Athletics
-      roll to see who goes first.
     </stunt>
     <stunt name="Mind Reader">
       When you use Empathy to create an advantage by discovering another
@@ -80,19 +64,7 @@
       targets for as long as that aspect exists. As soon as you successfully
       attack someone, the aspect goes away.
     </stunt>
-    <stunt name="One With Everything">
-      Use Will to create an advantage through meditation or
-      focus when you have a moment to breathe and concentrate.
-    </stunt>
-    <stunt name="Remote Viewing">
-      Pick a character you’ve met (PC or NPC), whether or not they’re in the scene
-      with you. You can briefly perceive using their senses instead of your own.
-      The clarity of your perception will depend on the distance involved and how
-      well you know the other character. For example, if you’re seeing through the
-      eyes of your brother in the next room, it’ll be crystal clear. If you’re
-      seeing through the eyes of a Majestic 12 guard several miles away with whom
-      you spoke a few days ago, it’ll be blurry and unreliable.
-    </stunt>
+    <stunt name="Scotch on the Rocks">&#160;</stunt>
     <stunt name="Versatile Will">
       Switch ANY skill with Will once per scene
     </stunt>
@@ -103,5 +75,5 @@
     <experience/>
     <experience/>
   </experiences>
-  <notes>"Scotch on the Rocks" stunt name</notes>
+  <notes/>
 </character>
