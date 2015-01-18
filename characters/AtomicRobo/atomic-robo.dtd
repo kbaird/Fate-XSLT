@@ -29,6 +29,7 @@
 
     <!ELEMENT stunts (stunt*, gadget*)>
       <!ELEMENT stunt (#PCDATA)>
+      <!ATTLIST stunt mega (true|false) "false">
       <!ATTLIST stunt name CDATA #REQUIRED>
       <!ELEMENT gadget (function, flaws, benefits*)>
       <!ATTLIST gadget name CDATA #REQUIRED>
@@ -37,7 +38,7 @@
           <!ELEMENT flaw (#PCDATA)>
         <!ELEMENT benefits (benefit*)>
           <!ELEMENT benefit (#PCDATA)>
-          <!ATTLIST benefit cost CDATA #IMPLIED>
+          <!ATTLIST benefit cost CDATA #REQUIRED>
           <!ATTLIST benefit name CDATA #REQUIRED>
 
     <!ELEMENT consequences (consequence*)>
