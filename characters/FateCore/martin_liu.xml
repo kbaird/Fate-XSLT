@@ -14,11 +14,11 @@
   <refresh>3</refresh>
   <current-fate-points>3</current-fate-points>
   <aspects>
-    <aspect type="High-Concept">Elven 巫人 expatriate from PDX</aspect>
+    <aspect type="High-Concept">Elven 巫人 Expat in Tarislar</aspect>
     <aspect type="Trouble">Find a Clever Way to Minimize Harm</aspect>
-    <aspect phase-num="1">Chinese Diaspora</aspect>
-    <aspect phase-num="2">SINner citizen (&amp; Border Patrol veteran) of Tír Tairngire</aspect>
-    <aspect phase-num="3">My Country Should Liberalize While Remaining the Elven Homeland</aspect>
+    <aspect phase-num="1">American-Born Chinese</aspect>
+    <aspect phase-num="2">Liberal Patriot from PDX</aspect>
+    <aspect phase-num="3">Tír Tairngire Border Patrol Lt. (Retired)</aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Magic"/>
@@ -34,6 +34,12 @@
   </skills>
   <extras>
     <extra>Magician: 巫人 (wū rén) in the 五行 (wŭ xíng) tradition</extra>
+    <gadget name="Cultured Bioware">
+      <function>Cerebral Booster</function>
+      <flaws>
+        <flaw>Reduces Essence</flaw>
+      </flaws>
+    </gadget>
     <gadget name="Talisman">
       <function>Power Focus</function>
       <flaws>
@@ -59,65 +65,64 @@
       Can use Magic skill with logical justification &amp; limitations for described spirit.
       See notes.
     </stunt>
-    <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences/>
   <phase-trio>
     <phase num="1" title="Childhood">
       <events>
-    2035: Tír Tairngire secedes from SSC; CFS kicked out of UCAS
-    2036: TT invades northern CFS to Redding
-    2041-2044: Nationalist War in China
-    2042: Liu's parents emigrate from Beijing to TT
-    2046-05-08 17:15:12 -0700: Liu born in Cara'Sir (Portland), TT
-    Both parents are 1st Generation Han Chinese Elves who emigrated from
-    greater Beijing to Tír Tairngire, motivated by the welcoming-to-metahumans
-    rhetoric of TT's founding and the unrest in China at that time.
+        2035: Tír Tairngire secedes from SSC; CFS kicked out of UCAS
+        2036: TT invades northern CFS to Redding
+        2041-2044: Nationalist War in China
+        2042: Liu's parents emigrate from Beijing to TT
+        2046-05-08 17:15:12 -0700: Liu born in Cara'Sir (Portland), TT
+        Both parents are 1st Generation Han Chinese Elves who emigrated from
+        greater Beijing to Tír Tairngire, motivated by the welcoming-to-metahumans
+        rhetoric of TT's founding and the unrest in China at that time.
 
-    Under Tír Tairngire's autocratic government, Martin was a member of the
-    Rinelle ke'Tesrae's moderate/liberal wing, favoring democratic elections
-    and a reduction/elimination of the formal caste system. Since the elections
-    of 2065, he eschews revolutionary action in favor of "within the system"
-    reforms. He has no particular admiration for the previous unelected
-    Princes, and adheres to no significant racism directed at either metatypes
-    or ethnic backgrounds, thereby opposing the Elf supremacist factions in the
-    Rinelle [LOP7-8/SofNA142-3]. His family spoke mainly 普通话 at home. His
-    true native language is now Sperethiel, and he has a strong non-native
-    command of English.
-   </events>
+        Under Tír Tairngire's autocratic government, Martin was a member of the
+        Rinelle ke'Tesrae's moderate/liberal wing, favoring democratic elections
+        and a reduction/elimination of the formal caste system. Since the elections
+        of 2065, he eschews revolutionary action in favor of "within the system"
+        reforms. He has no particular admiration for the previous unelected
+        Princes, and adheres to no significant racism directed at either metatypes
+        or ethnic backgrounds, thereby opposing the Elf supremacist factions in the
+        Rinelle [LOP7-8/SofNA142-3]. His family spoke mainly 普通话 at home. His
+        true native language is now Sperethiel, and he has a strong non-native
+        command of English.
+      </events>
     </phase>
     <phase num="2" title="Early Adulthood">
       <events>
-    2064: Liu undergoes Rite of Passage [TT57]. For the Bridging portion, he
-    went to Anthony Lakes, Whitman National Forest in Northeastern Tír
-    Tairngire. Tír Tairngirenes can be issued their standard Peace Force
-    survival knife before deferred military service so they can use it in the
-    Bridging, as Liu did. For the Naming portion, he chose to replace his birth
-    name Resperentish with Imiritish ke'Tolosa, and made appropriate democratic
-    reforms to the usual declarations of loyalty, cf. Reconstructionist Judaic
-    bar mitzvah.
-    2065: 1st open TT elections, Larry Zincan elected High Prince. Liu voted for him.
-    2067: PCC absorbs Ute nation w/much Ute unrest
-    2068: Martin gets B.A. in Applied Thaumaturgy from UTT in Serentaneyo
-    (Eugene), starts mandatory 2-year military service in Border Patrol. Liu
-    served as a Lt. in the Border Patrol due to his parents being Chivalry rank
-    [TT59].
-   </events>
+        2064: Liu undergoes Rite of Passage [TT57]. For the Bridging portion, he
+        went to Anthony Lakes, Whitman National Forest in Northeastern Tír
+        Tairngire. Tír Tairngirenes can be issued their standard Peace Force
+        survival knife before deferred military service so they can use it in the
+        Bridging, as Liu did. For the Naming portion, he chose to replace his birth
+        name Resperentish with Imiritish ke'Tolosa, and made appropriate democratic
+        reforms to the usual declarations of loyalty, cf. Reconstructionist Judaic
+        bar mitzvah.
+        2065: 1st open TT elections, Larry Zincan elected High Prince. Liu voted for him.
+        2067: PCC absorbs Ute nation w/much Ute unrest
+      </events>
     </phase>
     <phase num="3" title="The Near-Present">
       <events>
-    2070: 2nd open TT elections, Zincan re-elected. Liu votes for him as High
-    Prince again. Of the other Princes, he has spoken most approvingly of Jake
-    Foster &amp; Amy Joubert [LOP14], with some support as well for Conall
-    Taylor [LOP15]. 4th Rite of Progression held, Liu does not participate due
-    to extended wilderness/border assignments for his military service, which
-    he completes later that year.
+        2068: Martin gets B.A. in Applied Thaumaturgy from UTT in Serentaneyo
+        (Eugene), starts mandatory 2-year military service in Border Patrol. Liu
+        served as a Lt. in the Border Patrol due to his parents being Chivalry rank
+        [TT59].
+        2070: 2nd open TT elections, Zincan re-elected. Liu votes for him as High
+        Prince again. Of the other Princes, he has spoken most approvingly of Jake
+        Foster &amp; Amy Joubert [LOP14], with some support as well for Conall
+        Taylor [LOP15]. 4th Rite of Progression held, Liu does not participate due
+        to extended wilderness/border assignments for his military service, which
+        he completes later that year.
     
-    2072: M.A. in Applied Thaumaturgy from UTT in Serentaneyo (Eugene); Liu
-    moves to Tarislar, Puyallup [Seattle126]. Lives a Low lifestyle near the
-    hospital Deireadh an Tuartheil, "The End of the Song of the People/Tribe"
-    [Seattle128, SS:HSLL12-13], where he volunteers with Health spells.
-   </events>
+        2072: M.A. in Applied Thaumaturgy from UTT in Serentaneyo (Eugene); Liu
+        moves to Tarislar, Puyallup [Seattle126]. Lives a Low lifestyle near the
+        hospital Deireadh an Tuartheil, "The End of the Song of the People/Tribe"
+        [Seattle128, SS:HSLL12-13], where he volunteers with Health spells.
+      </events>
     </phase>
   </phase-trio>
   <notes>

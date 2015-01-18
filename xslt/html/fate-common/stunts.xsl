@@ -9,14 +9,6 @@
       <xsl:apply-templates select="stunt"/>
     </table>
   </xsl:template>
-  <xsl:template match="stunts" mode="atomic-robo">
-    <table>
-      <xsl:call-template name="stunts-header">
-        <xsl:with-param name="label">Stunts &amp; Mega-Stunts</xsl:with-param>
-      </xsl:call-template>
-      <xsl:apply-templates select="stunt"/>
-    </table>
-  </xsl:template>
   <xsl:template match="stunt">
     <tr>
       <td>

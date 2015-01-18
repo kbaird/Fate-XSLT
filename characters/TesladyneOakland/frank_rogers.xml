@@ -8,15 +8,13 @@
     <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
     <description>&#160;</description>
   </id>
-  <current-fate-points>1</current-fate-points>
+  <current-fate-points>3</current-fate-points>
   <experience-points>0</experience-points>
   <aspects>
     <aspect type="Concept">&#160;</aspect>
-    <aspect type="Mode" mode-name="Telepath">&#160;</aspect>
-    <aspect type="Mode" mode-name="Martial&#160;Artist">&#160;</aspect>
-    <aspect type="Mode" mode-name="Human&#160;Resources">
-   The Batman of Human Resources
-  </aspect>
+    <aspect type="Mode" mode-name="Telepath">10% of the Time, It Works EVERY Time, Only When Sober</aspect>
+    <aspect type="Mode" mode-name="Martial&#160;Artist">Secretly Drunken Master</aspect>
+    <aspect type="Mode" mode-name="Human&#160;Resources">The Batman of Human Resources</aspect>
     <aspect type="Omega">&#160;</aspect>
   </aspects>
   <skills>
@@ -105,5 +103,5 @@
     <experience/>
     <experience/>
   </experiences>
-  <notes/>
+  <notes>"Scotch on the Rocks" stunt name</notes>
 </character>
