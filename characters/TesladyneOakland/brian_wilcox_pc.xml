@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<character>
+  <id>
+    <charname>&#160;</charname>
+    <playername>Brian Wilcox</playername>
+    <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
+    <description>&#160;</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">&#160;</aspect>
+    <aspect type="Mode" mode-name="Mode1">&#160;</aspect>
+    <aspect type="Mode" mode-name="Mode2">&#160;</aspect>
+    <aspect type="Mode" mode-name="Mode3">&#160;</aspect>
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Gadgeteering?"        add="0"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+ </skills>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
+  Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
+  * Specialize one trained skill.
+  * Focus one trained skill and specialize one focused skill.
+  * Focus three trained skills.
+
+  If one of your modes is Science, also apply ALL of the following improvements:
+  * Specialize one trained skill.
+  * Focus one trained skill.
+  * Specialize one focused skill.
+
+Modes with Athletics or Physique can give your character additional physical stress boxes, while modes with Provoke or Will can give
+your character additional mental stress boxes. A mode with one or more of these skills rated at Fair (+2) adds one box, while one
+rated at Good (+3) adds two boxes.
+
+If a mode has skills that apply to both types, the bonus boxes can apply to either one. For example, the Action mode has Athletics,
+Physique, and Provoke. If you've given it a rating of Good (+3), you could have two more physical stress boxes, two more mental stress
+boxes, or one in each.
+
+Bonus stress boxes from your Good (+3) and Fair (+2) modes are cumulative. So if you have Good (+3) Action and Fair (+2) Intrigue, both
+of which have the Athletics skill, you can get three more physical stress boxes—two from Action and one from Intrigue.
+ </notes>
+</character>
