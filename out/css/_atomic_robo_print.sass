@@ -3,6 +3,8 @@
   @import "borders"
   @import "colors"
 
+  $base_sectionheader_size: 0.9em
+
   div#notes
     pre
       font-size: 1.6em
@@ -11,20 +13,25 @@
     font-size: 0.7em
     margin: 0
     padding: 0
+    padding-bottom: 1em
 
   span#atomic-robo-logo img
     height: 50px
 
-  fieldset.aspect
-    border: 0
-    font-size: 1em
-    margin:  0.2em
-    margin-top: 0.4em
-    padding: 0.2em
-    legend.label span
-      margin:  0
-      margin-top: -1.6em
-      padding: 0
+  fieldset
+    &.aspect
+      border: 0
+      font-size: 1em
+      margin:  0.2em
+      margin-top: 0.4em
+      padding: 0.2em
+      legend.label span
+        margin:  0
+        margin-top: -1.6em
+        padding: 0
+    &.consequence
+      legend.severity span
+        color: #000
 
   th.mode-rating
     font-size: 1.7em
@@ -33,7 +40,7 @@
   th.sectionheader
     color: #000
     line-height: 1em
-    font-size: 0.6em
+    font-size: $base_sectionheader_size
     font-weight: 900
     margin: -1em
     padding: 0
@@ -46,7 +53,7 @@
     &#skills tbody tr
       th.sectionheader
         line-height: 1em
-        font-size: 1em
+        font-size: $base_sectionheader_size * 1.6
         margin: -1em
         padding: 0
       td
@@ -56,3 +63,8 @@
         ul
           margin:  0.1em
           padding: 0.1em
+    &#stress tbody tr
+      th.sectionheader
+        padding-top: 0.5em
+      td
+        padding: 0.7em
