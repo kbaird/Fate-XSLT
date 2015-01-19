@@ -13,7 +13,7 @@
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
-    <!ATTLIST aspect type (High-Concept|Trouble|Background|Ship) #IMPLIED>
+    <!ATTLIST aspect type (High-Concept|Trouble|Background|Ship|Free) "Free">
 
   <!ELEMENT magic (dabbles-in, focuses-on)>
     <!ELEMENT dabbles-in (#PCDATA)>
