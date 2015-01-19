@@ -31,13 +31,16 @@ ul#skill-explanation li { display: inline; }
 ul#skill-explanation li:after + li { content: ", "; }
 
 @media print and (-webkit-min-device-pixel-ratio: 0) { div#notes pre { font-size: 1.6em; }
-  p#experiences-explanation { font-size: 0.7em; margin: 0; padding: 0; }
+  p#experiences-explanation { font-size: 0.7em; margin: 0; padding: 0; padding-bottom: 1em; }
   span#atomic-robo-logo img { height: 50px; }
   fieldset.aspect { border: 0; font-size: 1em; margin: 0.2em; margin-top: 0.4em; padding: 0.2em; }
   fieldset.aspect legend.label span { margin: 0; margin-top: -1.6em; padding: 0; }
+  fieldset.consequence legend.severity span { color: black; }
   th.mode-rating { font-size: 1.7em; padding-top: 0.3em; }
-  th.sectionheader { color: black; line-height: 1em; font-size: 0.6em; font-weight: 900; margin: -1em; padding: 0; }
+  th.sectionheader { color: black; line-height: 1em; font-size: 0.9em; font-weight: 900; margin: -1em; padding: 0; }
   table#aspects tbody tr td { border: 2px solid #cccccc; padding-top: 1em; padding-bottom: 1.2em; }
-  table#skills tbody tr th.sectionheader { line-height: 1em; font-size: 1em; margin: -1em; padding: 0; }
+  table#skills tbody tr th.sectionheader { line-height: 1em; font-size: 1.44em; margin: -1em; padding: 0; }
   table#skills tbody tr td { padding: 0.1em; padding-top: 0.2em; padding-bottom: 0.2em; }
-  table#skills tbody tr td ul { margin: 0.1em; padding: 0.1em; } }
+  table#skills tbody tr td ul { margin: 0.1em; padding: 0.1em; }
+  table#stress tbody tr th.sectionheader { padding-top: 0.5em; }
+  table#stress tbody tr td { padding: 0.7em; } }
