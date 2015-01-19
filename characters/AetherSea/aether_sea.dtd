@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, aspects, magic?, approaches, consequences?, notes?)>
+<!ELEMENT character (id, refresh, current-fate-points, aspects, magic?, approaches, stunts, consequences?, notes?)>
 
   <!ELEMENT id (charname, playername, species, description)>
     <!ELEMENT charname (#PCDATA)>
