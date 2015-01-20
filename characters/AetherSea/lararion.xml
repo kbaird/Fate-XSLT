@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/aether-sea_html.xsl"?>
+<!DOCTYPE aether_sea SYSTEM "aether_sea.dtd">
+<character>
+  <id>
+    <charname>Lararion of Verdanteye</charname>
+    <playername>sample Aether Sea character</playername>
+    <species>Elf</species>
+    <description>
+      Lararion is in her sixties, which is late-middle age for an elf. She grew
+      up on Verdanteye, and like the rest of her people she has no desire to leave.
+      Like the other colonists, she wears simple clothes of natural fibers and
+      is in incredible shape; Verdanteye is one of those colonies where folks still
+      climb from the forest floor to their treetop homes multiple times a day.
+    </description>
+  </id>
+  <refresh>3</refresh>
+  <current-fate-points>3</current-fate-points>
+  <aspects>
+    <aspect type="High-Concept">Habiforming Engineer</aspect>
+    <aspect type="Trouble">"Don't want no trouble on my planet."</aspect>
+    <aspect type="Background">Born and Raised on a Developing World</aspect>
+    <aspect>Passionate About Her Beliefs</aspect>
+    <aspect>Rich Elvish Traditions</aspect>
+  </aspects>
+  <magic>
+    <dabbles-in>Alteration</dabbles-in>
+    <focuses-on within="Alteration">habiforming</focuses-on>
+  </magic>
+  <approaches>
+    <!-- Each species has a favored approach (AS pg8). Just push that down into XSLT. -->
+    <approach rating="2" name="Careful"/>
+    <approach rating="3" name="Clever"/>
+    <approach rating="1" name="Flashy"/>
+    <approach rating="2" name="Forceful"/>
+    <approach rating="1" name="Quick"/>
+    <approach rating="0" name="Sneaky"/>
+  </approaches>
+  <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences>
+    <!--
+    <consequence severity="Mild">mild one</consequence>
+    <consequence severity="Moderate">moderate one</consequence>
+    <consequence severity="Severe">severe one</consequence>
+    -->
+  </consequences>
+</character>
