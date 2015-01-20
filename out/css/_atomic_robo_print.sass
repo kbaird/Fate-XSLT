@@ -3,8 +3,6 @@
   @import "borders"
   @import "colors"
 
-  $base_sectionheader_size: 0.9em
-
   div#notes
     pre
       font-size: 1.6em
@@ -37,32 +35,18 @@
     font-size: 1.7em
     padding-top: 0.3em
 
-  th.sectionheader
-    color: #000
-    line-height: 1em
-    font-size: $base_sectionheader_size
-    font-weight: 900
-    margin: -1em
-    padding: 0
-
   table
     &#aspects tbody tr td
       +thin_border($dd_conditions_color)
       padding-top:    1.0em
       padding-bottom: 1.2em
-    &#skills tbody tr
-      th.sectionheader
-        line-height: 1em
-        font-size: $base_sectionheader_size * 1.6
-        margin: -1em
-        padding: 0
-      td
+    &#skills tbody tr td
+      padding: 0.1em
+      padding-top: 0.2em
+      padding-bottom: 0.2em
+      ul
+        margin:  0.1em
         padding: 0.1em
-        padding-top: 0.2em
-        padding-bottom: 0.2em
-        ul
-          margin:  0.1em
-          padding: 0.1em
     &#stress tbody tr
       th.sectionheader
         padding-top: 0.5em

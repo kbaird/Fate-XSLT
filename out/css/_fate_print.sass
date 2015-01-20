@@ -1,5 +1,7 @@
 @media print and (-webkit-min-device-pixel-ratio:0)
 
+  $base_sectionheader_size: 0.9em
+
   html body div table tbody tr td
     font-size: 0.6em
   table#skills tbody
@@ -32,7 +34,6 @@
     &#stress
       width: 20%
 
-
   fieldset.aspect
     font-size: 1.0em
     height: 2.0em
@@ -50,5 +51,19 @@
       height: 1.6em
       line-height: 2.2em
       margin: 0.1em
+    &#skills tbody tr
+      th.sectionheader
+        line-height: 1em
+        font-size: $base_sectionheader_size * 1.5
+        margin: -1em
+        padding: 0
     &#stress tbody tr td
       font-size: 0.5em
+
+  th.sectionheader
+    color: #000
+    line-height: 1em
+    font-size: $base_sectionheader_size
+    font-weight: 900
+    margin: -1em
+    padding: 0
