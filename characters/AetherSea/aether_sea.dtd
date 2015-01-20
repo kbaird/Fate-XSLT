@@ -15,19 +15,17 @@
     <!ELEMENT aspect (#PCDATA)>
     <!ATTLIST aspect type (High-Concept|Trouble|Background|Ship|Free) "Free">
 
-  <!ELEMENT magic (dabbles-in, focuses-on)>
-    <!ELEMENT dabbles-in (#PCDATA)>
-    <!ELEMENT focuses-on (#PCDATA)>
-    <!ATTLIST focuses-on within (Alteration) #REQUIRED>
-
   <!ELEMENT approaches (approach*)>
     <!ELEMENT approach (#PCDATA)>
     <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
     <!ATTLIST approach rating CDATA #REQUIRED>
 
-  <!ELEMENT stunts (stunt*)>
+  <!ELEMENT stunts (dabbles-in?, focuses-on?, stunt*)>
     <!ELEMENT stunt (#PCDATA)>
     <!ATTLIST stunt name CDATA #REQUIRED>
+    <!ELEMENT dabbles-in (#PCDATA)> <!-- TODO: How to restrict to school list, as focuses-on/@within ? -->
+    <!ELEMENT focuses-on (#PCDATA)> <!-- requires a justifying Aspect -->
+    <!ATTLIST focuses-on within (Alteration|Animation|Evocation) #REQUIRED>
 
   <!ELEMENT consequences (consequence*)>
     <!ELEMENT consequence (#PCDATA)>
