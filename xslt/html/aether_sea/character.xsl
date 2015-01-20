@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:include href="./approaches.xsl"/>
   <xsl:include href="./stunts.xsl"/>
   <xsl:template match="character">
     <html>
@@ -25,7 +26,8 @@
           <xsl:apply-templates select="aspects"/>
         </div>
         <div id="skills">
-          <xsl:apply-templates select="approaches"/>
+          <xsl:apply-templates select="approaches" mode="aether-sea"/>
+          <p>The <span class="favored">Favored</span> Approach treats all final results &lt; 0 as 0.</p>
         </div>
         <hr/>
         <div id="stunts">
