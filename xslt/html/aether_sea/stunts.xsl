@@ -8,6 +8,7 @@
       </xsl:call-template>
       <xsl:apply-templates select="dabbles-in"/>
       <xsl:apply-templates select="focuses-on"/>
+      <xsl:apply-templates select="permanent-magic"/>
       <xsl:apply-templates select="stunt"/>
     </table>
   </xsl:template>
@@ -25,9 +26,17 @@
     <tr>
       <td>
         <fieldset class="stunt">
-          <legend>
-            <span>Focuses within <cite><xsl:value-of select="@within"/></cite> on:</span>
-          </legend>
+          <legend><span>Focuses within <cite><xsl:value-of select="@within"/></cite> on:</span></legend>
+          <xsl:value-of select="."/>
+        </fieldset>
+      </td>
+    </tr>
+  </xsl:template>
+  <xsl:template match="permanent-magic">
+    <tr>
+      <td>
+        <fieldset class="stunt">
+          <legend><span><xsl:value-of select="@name"/> [2]</span></legend>
           <xsl:value-of select="."/>
         </fieldset>
       </td>

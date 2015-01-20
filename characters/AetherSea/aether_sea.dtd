@@ -20,12 +20,14 @@
     <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
     <!ATTLIST approach rating CDATA #REQUIRED>
 
-  <!ELEMENT stunts (dabbles-in?, focuses-on?, stunt*)>
-    <!ELEMENT stunt (#PCDATA)>
-    <!ATTLIST stunt name CDATA #REQUIRED>
+  <!ELEMENT stunts (dabbles-in?, focuses-on?, permanent-magic?, stunt*)>
     <!ELEMENT dabbles-in (#PCDATA)> <!-- TODO: How to restrict to school list, as focuses-on/@within ? -->
     <!ELEMENT focuses-on (#PCDATA)> <!-- requires a justifying Aspect -->
     <!ATTLIST focuses-on within (Alteration|Animation|Evocation) #REQUIRED>
+    <!ELEMENT permanent-magic (#PCDATA)> <!-- requires a justifying Aspect -->
+    <!ATTLIST permanent-magic name CDATA #REQUIRED>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt name CDATA #REQUIRED>
 
   <!ELEMENT consequences (consequence*)>
     <!ELEMENT consequence (#PCDATA)>
