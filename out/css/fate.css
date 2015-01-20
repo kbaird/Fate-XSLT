@@ -66,4 +66,6 @@ td, th { border: 0px; vertical-align: top; }
   fieldset.aspect { font-size: 1em; height: 2em; line-height: 1.3em; margin: 0.1em; padding-top: 0.1em; }
   fieldset.aspect legend.label { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
   table#aspects { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
-  table#stress tbody tr td { font-size: 0.5em; } }
+  table#skills tbody tr th.sectionheader { line-height: 1em; font-size: 1.35em; margin: -1em; padding: 0; }
+  table#stress tbody tr td { font-size: 0.5em; }
+  th.sectionheader { color: black; line-height: 1em; font-size: 0.9em; font-weight: 900; margin: -1em; padding: 0; } }

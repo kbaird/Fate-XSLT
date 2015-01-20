@@ -16,3 +16,5 @@ table#skills tr td.unused { border: 0; }
 table#skills tr td ul li { display: inline; }
 table#skills tr td ul li + li:before { content: ", "; }
 table#stress td { padding: 0.4em; }
+
+@media print { table#skills tbody tr th.sectionheader { font-size: 1.5em; } }
