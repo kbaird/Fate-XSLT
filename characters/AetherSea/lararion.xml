@@ -33,11 +33,13 @@
     <approach rating="0" name="Sneaky"/>
   </approaches>
   <stunts>
-    <dabbles-in>Alteration</dabbles-in>
-    <focuses-on within="Alteration">habiforming</focuses-on>
-    <permanent-magic name="Trusty Old Wand of Fireball">
-      Toss a ball of flame at a single target in your zone, dealing a Good (+3) attack.
-    </permanent-magic>
+    <magic>
+      <dabbles-in>Alteration</dabbles-in>
+      <focuses-on within="Alteration">habiforming</focuses-on>
+      <permanent-magic name="Trusty Old Wand of Fireball">
+        Toss a ball of flame at a single target in your zone, dealing a Good (+3) attack.
+      </permanent-magic>
+    </magic>
     <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences>

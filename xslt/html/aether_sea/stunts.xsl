@@ -6,9 +6,9 @@
       <xsl:call-template name="stunts-header">
         <xsl:with-param name="label">Stunts</xsl:with-param>
       </xsl:call-template>
-      <xsl:apply-templates select="dabbles-in"/>
-      <xsl:apply-templates select="focuses-on"/>
-      <xsl:apply-templates select="permanent-magic"/>
+      <xsl:apply-templates select="magic/dabbles-in"/>
+      <xsl:apply-templates select="magic/focuses-on"/>
+      <xsl:apply-templates select="magic/permanent-magic"/>
       <xsl:apply-templates select="stunt"/>
     </table>
   </xsl:template>
@@ -16,7 +16,7 @@
     <tr>
       <td>
         <fieldset class="stunt">
-          <legend><span>Dabbles in:</span></legend>
+          <legend><span>Dabbles in</span></legend>
           <xsl:value-of select="."/>
         </fieldset>
       </td>
@@ -26,7 +26,7 @@
     <tr>
       <td>
         <fieldset class="stunt">
-          <legend><span>Focuses within <cite><xsl:value-of select="@within"/></cite> on:</span></legend>
+          <legend><span>Focuses within <cite><xsl:value-of select="@within"/></cite> on</span></legend>
           <xsl:value-of select="."/>
         </fieldset>
       </td>
