@@ -5,7 +5,7 @@
     <!ELEMENT charname (#PCDATA)>
     <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT playername (#PCDATA)>
-    <!ELEMENT species (#PCDATA)>
+    <!ELEMENT species (#PCDATA)> <!-- TODO: how to restrict to species list -->
     <!ELEMENT description (#PCDATA)>
 
   <!ELEMENT refresh (#PCDATA)>
