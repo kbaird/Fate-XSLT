@@ -12,9 +12,30 @@
     </table>
   </xsl:template>
   <xsl:template match="approach" mode="aether-sea">
+    <xsl:variable name="favoredApproach">
+      <xsl:choose>
+        <xsl:when test="/character/id/species='Dwarf'">
+          <xsl:text>Careful</xsl:text>
+        </xsl:when>
+        <xsl:when test="/character/id/species='Elf'">
+          <xsl:text>Clever</xsl:text>
+        </xsl:when>
+        <xsl:when test="/character/id/species='Goblin'">
+          <xsl:text>Sneaky</xsl:text>
+        </xsl:when>
+        <xsl:when test="/character/id/species='Human'">
+          <xsl:text>Flashy</xsl:text>
+        </xsl:when>
+        <xsl:when test="/character/id/species='Orc'">
+          <xsl:text>Quick</xsl:text>
+        </xsl:when>
+        <xsl:when test="/character/id/species='Troll'">
+          <xsl:text>Forceful</xsl:text>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
     <dl class="approaches">
-      <!-- FIXME: variable based on species -->
-      <xsl:if test="@name='Clever'">
+      <xsl:if test="@name = $favoredApproach">
         <xsl:attribute name="class">approaches favored</xsl:attribute>
       </xsl:if>
       <dt><xsl:value-of select="@name"/></dt>
