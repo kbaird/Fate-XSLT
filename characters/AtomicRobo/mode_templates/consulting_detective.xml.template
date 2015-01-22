@@ -1,0 +1,10 @@
+    <mode rating="x" name="Consulting&#160;Detective" stress-type="mental">
+      <skill name="Burglary"  cost="1"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Forensics" cost="0" add="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Will"      cost="1" add="1"/>
+      <!-- specialize one focused skill, pg34 -->
+    </mode>
