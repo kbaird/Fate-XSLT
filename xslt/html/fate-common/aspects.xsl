@@ -48,9 +48,7 @@
                 </xsl:when>
                 <xsl:otherwise>
                   <legend class="label">
-                    <span>
-                      <xsl:value-of select="@type"/>
-                    </span>
+                    <span><xsl:value-of select="@type"/></span>
                   </legend>
                   <xsl:call-template name="aspect-name">
                     <xsl:with-param name="aspect-name">
