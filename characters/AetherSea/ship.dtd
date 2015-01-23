@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!ELEMENT aethercraft (id, refresh, current-fate-points, aspects, approaches, stunts, consequences?, notes?)>
+  <!ATTLIST aethercraft size (Shuttle|Working|Major|Ultramassive) #REQUIRED>
+
+  <!ELEMENT id (name, description)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+  <!ELEMENT refresh (#PCDATA)>
+  <!ELEMENT current-fate-points (#PCDATA)>
+
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)> <!-- as many as there are crew members -->
+
+  <!ELEMENT approaches (approach*)>
+    <!ELEMENT approach (#PCDATA)>
+    <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
+    <!ATTLIST approach rating CDATA #REQUIRED>
+
+  <!ELEMENT stunts (stunt*)>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt name CDATA #REQUIRED>
+
+  <!-- Resources Stress Track (pg26) -->
+  <!-- Stations: Control, Communication, plus stunts (pg27) -->
+  <!ELEMENT consequences (consequence*)>
+    <!-- Extreme Consequences (pg29) -->
+    <!ELEMENT consequence (#PCDATA)>
+      <!ATTLIST consequence effect CDATA #IMPLIED>
+      <!ATTLIST consequence severity (Mild|Moderate|Severe|Extreme) #REQUIRED>
+
+  <!ELEMENT notes (#PCDATA)>
