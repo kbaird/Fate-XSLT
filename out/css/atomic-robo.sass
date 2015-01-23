@@ -7,6 +7,11 @@
 #atomic-robo-logo
   height: 2em
 
+.focused
+  color: blue
+.specialized
+  color: red
+
 dl.gadget
   margin-top: 0
   dt
@@ -15,15 +20,13 @@ dl.gadget
   dd
     +assets_and_gadget_dd
 
-fieldset.aspect
-  height:      1.25em
-  padding-left: 0.5em
-  padding-top:    2em
-
-fieldset.consequence
-  height: 1.5em
-
 fieldset
+  &.aspect
+    height:      1.25em
+    padding-left: 0.5em
+    padding-top:    2em
+  &.consequence
+    height: 1.5em
   &.experience
     +fieldset_innards
     +fieldset_item
@@ -38,12 +41,9 @@ fieldset
   &.experience legend.label
     color: $label_color
     +label_font
-
-li
-  &.focused
-    color: blue
-  &.specialized
-    color: red
+  &.mega legend span
+    color:       blue
+    font-weight: 900
 
 p
   font-family: $basic_font

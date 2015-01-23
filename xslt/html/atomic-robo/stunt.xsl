@@ -5,6 +5,9 @@
     <tr>
       <td>
         <fieldset class="stunt">
+          <xsl:if test="@mega='true'">
+            <xsl:attribute name="class">mega stunt</xsl:attribute>
+          </xsl:if>
           <legend><span><xsl:value-of select="@name"/></span></legend>
           <xsl:value-of select="."/>
         </fieldset>
