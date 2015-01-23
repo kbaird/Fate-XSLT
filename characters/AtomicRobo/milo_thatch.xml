@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<character>
+  <id>
+    <charname>Milo Thatch</charname>
+    <playername>Proto-NPC</playername>
+    <affiliation>Atlantis Expedition</affiliation>
+    <description>Kind of sounds like Michael J. Fox.</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Explorer, Just Like Grandpa</aspect>
+    <aspect type="Mode" mode-name="Science">I Will Find Atlantis</aspect>
+    <aspect type="Mode" mode-name="Banter">I Will Convince You to Do the Right Thing</aspect>
+    <aspect type="Mode" mode-name="Action">Not Afraid to Roll Up My Sleeves</aspect>
+    <aspect type="Omega">Your Low Expectations of Me Won't Last Forever</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Linguistics"          cost="0" add="2"/>
+      <skill name="Archaeology"          cost="0" add="2"/>
+      <skill name="History"              cost="0" add="1"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Steam Engines"        cost="0" add="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1" add="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>
+    <mode rating="1" name="Action" stress-type="physical"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="&quot;Root Dialect&quot;">
+      Spend a Fate Point to do some crazy cinematic thing with languages.
+    </stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
+  Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
+  X Focus 3 trained skills. Archaeology, History, Steam Engines
+
+  If one of your modes is Science, also apply ALL of the following improvements:
+  X Specialize one trained skill. Linguistics
+  X Focus one trained skill.      Rapport
+  X Specialize one focused skill. Archaeology
+ </notes>
+</character>
