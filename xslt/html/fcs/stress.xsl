@@ -17,7 +17,7 @@
         <xsl:with-param name="baseCount">
           <xsl:value-of select="$stressBaseCount"/>
         </xsl:with-param>
-        <xsl:with-param name="headerName">Physical Stress (Physique)</xsl:with-param>
+        <xsl:with-param name="headerName">Physical Stress</xsl:with-param>
         <xsl:with-param name="skillName">Physique</xsl:with-param>
         <xsl:with-param name="useSkillModes">
           <xsl:value-of select="$useSkillModes"/>
@@ -27,7 +27,7 @@
         <xsl:with-param name="baseCount">
           <xsl:value-of select="$stressBaseCount"/>
         </xsl:with-param>
-        <xsl:with-param name="headerName">Mental Stress (Will)</xsl:with-param>
+        <xsl:with-param name="headerName">Mental Stress</xsl:with-param>
         <xsl:with-param name="skillName">Will</xsl:with-param>
         <xsl:with-param name="useSkillModes">
           <xsl:value-of select="$useSkillModes"/>

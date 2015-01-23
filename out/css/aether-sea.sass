@@ -1,0 +1,36 @@
+@import "colors"
+@import "fieldsets"
+@import "fonts"
+@import "print_approaches"
+
+#aether-sea
+  font-family: $basic_font
+  font-size: 2.8em
+  font-style: oblique
+  font-variant: small-caps
+  font-weight: 900
+
+.favored
+  color: red
+
+div#skills p
+  font-family: $basic_font
+  font-size: 0.7em
+
+fieldset
+  &#species
+    +fieldset_item
+  &#species
+    +fieldset_innards
+  &#species legend.label
+    color: $label_color
+    +label_font
+
+@media print
+  table#approaches
+    +print_approaches
+    tbody tr td dl.approaches
+      dt
+        margin-top:    -0.4em
+      dd
+        margin-bottom: -1.6em
