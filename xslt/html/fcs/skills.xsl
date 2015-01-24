@@ -28,9 +28,7 @@
       <tr>
         <th class="rating"><xsl:value-of select="$textRating"/>&#160;(+<xsl:value-of select="$rating"/>)</th>
         <xsl:for-each select="/character/skills/skill[@rating=$rating]">
-          <td>
-            <xsl:value-of select="@name"/>
-          </td>
+          <td><xsl:value-of select="@name"/></td>
         </xsl:for-each>
       </tr>
     </xsl:if>
