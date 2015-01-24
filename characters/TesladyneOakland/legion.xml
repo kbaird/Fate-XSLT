@@ -23,6 +23,7 @@
       <skill name="Burglary"  cost="1"/>
       <skill name="Combat"    cost="2"/>
       <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
       <skill name="Stealth"   cost="2"/>
       <skill name="Will"      cost="1"/>
     </mode>
