@@ -3,12 +3,17 @@
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
 <character>
   <id>
-    <charname>Legion</charname>
+    <charname>Nima Shirazi</charname>
     <playername>sample weird NPC</playername>
     <affiliation>&#160;</affiliation>
-    <description>&#160;</description>
+    <description>
+      Originally an Iranian-American computer scientist and roboticist from Orange County, CA.
+      After contracting a terminal illness, successfully transferred consciousness into a small
+      (5ish) cadre of robotic insectoid bodies. Given the economics of micro-electronics
+      manufacturing, he's now mostly Chinese.
+    </description>
   </id>
-  <current-fate-points>3</current-fate-points>
+  <current-fate-points>4</current-fate-points>
   <experience-points>0</experience-points>
   <aspects>
     <aspect type="Concept">Braintape in Multiple Insectoid Robots</aspect>
