@@ -1,0 +1,8 @@
+  <mode rating="x" name="Escape&#160;Artist" stress-type="split"> <!-- Cf. Harry Houdini from Tesla's 5 of 7 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Burglary"  cost="1"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Physique"  cost="1"/>
+   <skill name="Stealth"   cost="2"/>
+   <skill name="Will"      cost="1"/>
+  </mode>

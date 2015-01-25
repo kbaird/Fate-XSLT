@@ -7,11 +7,9 @@
         <xsl:with-param name="baseCSS">fae</xsl:with-param>
       </xsl:call-template>
       <body>
-        <h1>
-          <xsl:value-of select="id/charname"/>
-        </h1>
+        <h1><xsl:value-of select="id/charname"/></h1>
         <div id="id">
-          <xsl:apply-templates select="id"/>
+          <xsl:apply-templates select="id" mode="fae"/>
         </div>
         <div id="fate-logo">
           <span id="fate">

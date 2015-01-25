@@ -19,7 +19,7 @@
           <xsl:value-of select="id/charname"/>
         </h1>
         <div id="id">
-          <xsl:apply-templates select="id"/>
+          <xsl:apply-templates select="id" mode="atomic-robo"/>
         </div>
         <div id="fate-logo">
           <span id="atomic-robo-logo">

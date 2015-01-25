@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<character>
+  <id>
+    <charname>Nima Shirazi</charname>
+    <playername>sample weird NPC</playername>
+    <affiliation>&#160;</affiliation>
+    <description>
+      Originally an Iranian-American computer scientist and roboticist from Orange County, CA.
+      After contracting a terminal illness, successfully transferred consciousness into a small
+      (5ish) cadre of robotic insectoid bodies. Given the economics of micro-electronics
+      manufacturing, he's now mostly Chinese.
+    </description>
+  </id>
+  <current-fate-points>4</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Braintape in Multiple Insectoid Robots</aspect>
+    <aspect type="Mode" mode-name="Science">Transhumanist Visionary</aspect>
+    <aspect type="Mode" mode-name="Combat&#160;Stealthbot">Wall-Crawling Infiltrator</aspect>
+    <aspect type="Mode" mode-name="Thief">Many Places at Once</aspect>
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Computer Science"     add="2"/>
+      <skill name="Robotics"             add="2"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <mode rating="2" name="Combat&#160;Stealthbot" stress-type="physical">
+      <skill name="Athletics" cost="2"/>
+      <skill name="Burglary"  cost="1"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Stealth"   cost="2"/>
+      <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="1" name="Thief" stress-type="physical"> <!-- ARRPG pg288 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Burglary"  cost="1"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Stealth"   cost="2"/>
+      <!-- 4 pts of Improvements -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
+   1 pt of Improvements from Thief mode
+   If one of your modes is Science, also apply ALL of the following improvements:
+  X Specialize one trained skill.
+  * Focus one trained skill.
+  * Specialize one focused skill.
+  </notes>
+</character>

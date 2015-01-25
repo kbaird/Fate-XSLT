@@ -5,9 +5,7 @@
     <table id="approaches">
       <tr><th class="sectionheader" colspan="2">Approaches</th></tr>
       <tr>
-        <td>
-          <xsl:apply-templates select="approach" mode="aether-sea"/>
-        </td>
+        <td><xsl:apply-templates select="approach" mode="aether-sea"/></td>
       </tr>
     </table>
   </xsl:template>

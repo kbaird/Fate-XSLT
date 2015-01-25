@@ -1,0 +1,9 @@
+    <mode rating="x" name="The&#160;Hood" stress-type="split"> <!-- Vigilante, ARRPG pg267 s/Notice/Deceive/ -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2" add="2"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Provoke"   cost="1" add="1"/>
+      <skill name="Vehicles"  cost="2"/>
+      <skill name="Will"      cost="1"/>
+    </mode>
