@@ -1,0 +1,8 @@
+  <mode rating="x" name="Physician" stress-type="mental"> <!-- Cf. Wong Kei-Ying from Tesla's 5 of 7 -->
+   <skill name="Contacts" cost="1"/>
+   <skill name="Empathy"  cost="3"/>
+   <skill name="Medicine" cost="1"/>
+   <skill name="Notice"   cost="1"/>
+   <skill name="Rapport"  cost="1"/>
+   <skill name="Will"     cost="1"/>
+  </mode>

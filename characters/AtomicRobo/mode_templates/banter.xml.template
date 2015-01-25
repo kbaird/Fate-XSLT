@@ -1,8 +1,8 @@
-  <mode rating="x" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
-   <skill name="Contacts" cost="1"/>
-   <skill name="Deceive"  cost="2"/>
-   <skill name="Empathy"  cost="3"/>
-   <skill name="Provoke"  cost="1"/>
-   <skill name="Rapport"  cost="1"/>
-   <skill name="Will"     cost="1"/>
-  </mode>
+    <mode rating="x" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>

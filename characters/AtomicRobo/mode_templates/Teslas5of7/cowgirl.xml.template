@@ -1,0 +1,7 @@
+  <mode rating="x" name="Cowgirl" stress-type="split"> <!-- Cf. Annie Oakley from Tesla's 5 of 7 -->
+   <skill name="Athletics" cost="2"/>
+   <skill name="Notice"    cost="1"/>
+   <skill name="Provoke"   cost="1"/>
+   <skill name="Ride"      cost="2"/>
+   <skill name="Shoot"     cost="2"/>
+  </mode>
