@@ -5,9 +5,8 @@
     <td>
       <dl id="refresh">
         <dt>Refresh:</dt>
-        <dd class="box">
-          <xsl:value-of select="/character/refresh"/>
-        </dd>
+        <!-- TODO: Calculate from stunts cost -->
+        <dd class="box"><xsl:value-of select="/character/refresh"/></dd>
       </dl>
     </td>
   </xsl:template>
