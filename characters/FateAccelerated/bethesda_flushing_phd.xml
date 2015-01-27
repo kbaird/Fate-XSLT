@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/fae_html.xsl"?>
-<!DOCTYPE fae SYSTEM "fae.dtd">
+<!DOCTYPE character SYSTEM "character.dtd">
 <character>
   <id>
     <charname>Bethesda Flushing, Ph.D.</charname>

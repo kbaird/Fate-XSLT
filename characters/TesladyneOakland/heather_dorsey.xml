@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
-<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
 <character>
   <id>
     <charname>Heather Dorsey</charname>
@@ -70,7 +70,7 @@
   X Focus three trained skills.   Burglary, Deceive, Stealth
 
   If one of your modes is Science, also apply ALL of the following improvements:
-  X Specialize one trained skill. Environmental Science 
+  X Specialize one trained skill. Environmental Science
   * Focus one trained skill.
   * Specialize one focused skill.
  </notes>
