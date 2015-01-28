@@ -29,9 +29,7 @@
     <xsl:param name="severity"/>
     <fieldset class="consequence">
       <legend class="severity">
-        <span>
-          <xsl:value-of select="$label"/>
-        </span>
+        <span><xsl:value-of select="$label"/></span>
         <xsl:text>Free ☐ / Recovering? ☐</xsl:text>
       </legend>
       <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">

@@ -14,9 +14,7 @@
       <td>
         <fieldset class="stunt">
           <legend>
-            <span>
-              <xsl:value-of select="@name"/>
-            </span>
+            <span><xsl:value-of select="@name"/></span>
           </legend>
           <xsl:value-of select="."/>
         </fieldset>

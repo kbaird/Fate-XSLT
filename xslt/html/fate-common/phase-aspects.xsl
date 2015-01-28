@@ -8,6 +8,6 @@
         <xsl:if test="position() &gt; 1">, </xsl:if>
         <em class="phase-aspect"><xsl:value-of select="."/></em>
       </xsl:for-each>
-  </span>
+    </span>
   </xsl:template>
 </xsl:stylesheet>

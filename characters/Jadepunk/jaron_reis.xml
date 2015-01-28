@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
-<!DOCTYPE jadepunk SYSTEM "jadepunk.dtd">
+<!DOCTYPE character SYSTEM "character.dtd">
 <character>
   <id>
     <charname>Jaron Reis</charname>

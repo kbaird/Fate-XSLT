@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/fate-freeport_html.xsl"?>
-<!DOCTYPE fate-core SYSTEM "../FateCore/fcs.dtd">
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
     <charname>Kaerlen Santor d'Sivis</charname>

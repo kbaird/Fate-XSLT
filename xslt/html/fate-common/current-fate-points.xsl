@@ -5,9 +5,7 @@
     <td>
       <dl id="current-fate-points">
         <dt>Current <acronym title="Fate Points">FP</acronym>:</dt>
-        <dd class="box">
-          <xsl:value-of select="/character/current-fate-points"/>
-        </dd>
+        <dd class="box"><xsl:value-of select="/character/current-fate-points"/></dd>
       </dl>
     </td>
   </xsl:template>
