@@ -4,9 +4,7 @@
   <xsl:template name="base-stress-boxes">
     <xsl:param name="current"/>
     <xsl:param name="max"/>
-    <td>
-      <xsl:value-of select="$current"/>
-    </td>
+    <td><xsl:value-of select="$current"/></td>
     <xsl:if test="$current &lt; $max">
       <xsl:call-template name="base-stress-boxes">
         <xsl:with-param name="current">

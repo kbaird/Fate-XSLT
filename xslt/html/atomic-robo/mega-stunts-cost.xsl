@@ -27,14 +27,14 @@
     <xsl:choose>
       <xsl:when test="$stuntsCost &lt; 6"/> <!-- no op -->
       <xsl:when test="$stuntsCost = 6">
-        <xsl:text> (Total Benefits: 6 - 5 = 1 Fate Point added to the GM's reserve)</xsl:text>
+        <xsl:text> (Total Benefits: 6 - 5 = +1 Fate Point to the GM's reserve)</xsl:text>
       </xsl:when>
       <xsl:when test="$stuntsCost &gt; 6">
         <xsl:text> (Total Benefits: </xsl:text>
         <xsl:value-of select="$stuntsCost"/>
-        <xsl:text> - 5 = </xsl:text>
+        <xsl:text> - 5 = +</xsl:text>
         <xsl:value-of select="$fatePointsToGm"/>
-        <xsl:text> Fate Points added to the GM's reserve)</xsl:text>
+        <xsl:text> Fate Points to the GM's reserve)</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text> (Total Benefits: </xsl:text>

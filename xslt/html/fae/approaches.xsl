@@ -7,17 +7,13 @@
         <th class="sectionheader" colspan="2">Approaches</th>
       </tr>
       <tr>
-        <td>
-          <xsl:apply-templates select="approach"/>
-        </td>
+        <td><xsl:apply-templates select="approach"/></td>
       </tr>
     </table>
   </xsl:template>
   <xsl:template match="approach">
     <dl class="approaches">
-      <dt>
-        <xsl:value-of select="@name"/>
-      </dt>
+      <dt><xsl:value-of select="@name"/></dt>
       <dd>
         <xsl:text>+</xsl:text>
         <xsl:value-of select="@rating"/>

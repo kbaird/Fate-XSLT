@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
-<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
 <character>
   <id>
     <charname>Milo Thatch</charname>

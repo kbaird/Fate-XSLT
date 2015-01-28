@@ -11,7 +11,7 @@
   <xsl:template match="gadget">
     <tr>
       <td>
-        <fieldset class="stunt">
+        <fieldset class="mega stunt">
           <legend><span><xsl:value-of select="@name"/></span></legend>
           <dl class="gadget">
             <xsl:apply-templates select="function"/>

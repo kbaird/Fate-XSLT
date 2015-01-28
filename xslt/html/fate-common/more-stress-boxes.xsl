@@ -7,23 +7,17 @@
     <xsl:param name="skillRating"/>
     <xsl:if test="$baseCount &lt; $maxCount">
       <xsl:if test="$skillRating &gt; 0">
-        <td>
-          <xsl:value-of select="$baseCount + 1"/>
-        </td>
+        <td><xsl:value-of select="$baseCount + 1"/></td>
       </xsl:if>
     </xsl:if>
     <xsl:if test="$baseCount + 1 &lt; $maxCount">
       <xsl:if test="$skillRating &gt; 2">
-        <td>
-          <xsl:value-of select="$baseCount + 2"/>
-        </td>
+        <td><xsl:value-of select="$baseCount + 2"/></td>
       </xsl:if>
     </xsl:if>
     <xsl:if test="$baseCount + 2 &lt; $maxCount">
       <xsl:if test="$skillRating &gt; 4">
-        <td>
-          <xsl:value-of select="$baseCount + 3"/>
-        </td>
+        <td><xsl:value-of select="$baseCount + 3"/></td>
       </xsl:if>
     </xsl:if>
   </xsl:template>

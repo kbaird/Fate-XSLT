@@ -7,9 +7,7 @@
     <xsl:param name="useConditions"/>
     <head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-      <title>
-        <xsl:value-of select="id/charname"/>
-      </title>
+      <title><xsl:value-of select="id/charname"/></title>
       <style type="text/css" media="all">
       @import url("http://fonts.googleapis.com/css?family=Montserrat|Walter+Turncoat");
       @import url(./css/fate.css);

@@ -9,9 +9,7 @@
       <xsl:value-of select="charname"/>
       <xsl:if test="charname/@nickname">
         <xsl:text> (</xsl:text>
-        <q>
-          <xsl:value-of select="charname/@nickname"/>
-        </q>
+        <q><xsl:value-of select="charname/@nickname"/></q>
         <xsl:text>)</xsl:text>
       </xsl:if>
     </fieldset>
