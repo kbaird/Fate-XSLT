@@ -28,9 +28,7 @@
         </xsl:with-param>
       </xsl:call-template>
       <body>
-        <h1>
-          <xsl:value-of select="id/charname"/>
-        </h1>
+        <h1><xsl:value-of select="id/charname"/></h1>
         <div id="id">
           <xsl:apply-templates select="id"/>
         </div>
