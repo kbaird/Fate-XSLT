@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/aether-sea-ship_html.xsl"?>
+<!DOCTYPE ship SYSTEM "ship.dtd">
+<ship size="Major">
+  <id>
+    <name>Royal Glory</name>
+    <description>
+      A standard Amethyst-class ship of the Royal Navy, albeit one
+      which has seen a few battles and slipshod repairs.
+    </description>
+  </id>
+</ship>

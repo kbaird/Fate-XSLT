@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/aether-sea-ship_html.xsl"?>
+<!DOCTYPE ship SYSTEM "ship.dtd">
+<ship size="Working">
+  <!-- Refresh and Stunts derived from Size, pg 25
+       Can be supplemented by PCs
+    -->
+  <id>
+    <name>Deeprunner Flagship, Mining Vessel #22</name>
+    <description>
+      Like many Deeprunner vessels, #22 is made out of hewn stone.
+      It resembles a cross between a ship and an ancient castle. And
+      like a castle, it’s meant to discourage attacks; the cargo bays
+      might be full of gold or other precious minerals, after all, so
+      appearing untouchable is advantageous.
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Impenetrable Fortress in the Sea</aspect>
+    <aspect type="Ship">When In Doubt, Smash It</aspect>
+  </aspects>
+  <components>
+    <component name="Landing Struts">Can land planetside on its own.</component>
+    <component name="Stone Armor">All stress dealt to this ship is reduced by 1.</component>
+  </components>
+  <!-- Resources stress track derived from Size, pg 26 -->
+  <!-- Starts with 2 Stations, pg 27 -->
+  <!-- Consequences, pg 29 -->
+</ship>
