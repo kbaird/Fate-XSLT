@@ -22,11 +22,11 @@
   </aspects>
   <professions>
     <profession rating="0" name="Aristocrat"/>
-    <profession rating="+1" name="Engineer"/>
-    <profession rating="+2" name="Explorer"/>
-    <profession rating="+3" name="Fighter"/>
-    <profession rating="+1" name="Scholar"/>
-    <profession rating="+2" name="Scoundrel"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="3" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
   </professions>
   <assets>
     <asset cost="2" function="Green Jade Tattoo of Protection" name="Jade Tattoo" type="Device">

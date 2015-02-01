@@ -20,12 +20,12 @@
     <aspect phase-num="3">Amoral Sharn Shyster</aspect>
   </aspects>
   <skills>
-    <skill rating="0"  name="Strength"/>
-    <skill rating="+1" name="Dexterity"/>
-    <skill rating="+1" name="Constitution"/>
-    <skill rating="+2" name="Intelligence"/>
-    <skill rating="+2" name="Wisdom"/>
-    <skill rating="+3" name="Charisma"/>
+    <skill rating="0" name="Strength"/>
+    <skill rating="1" name="Dexterity"/>
+    <skill rating="1" name="Constitution"/>
+    <skill rating="2" name="Intelligence"/>
+    <skill rating="2" name="Wisdom"/>
+    <skill rating="3" name="Charisma"/>
   </skills>
   <extras>
     <gadget name="Black Powder Sidearm">
