@@ -45,15 +45,15 @@
   </skills>
   <stunts>
     <stunt name="Mind Palace">
-    Spend a Fate Point to make a suitable declaration predicated on eidetic memory.
-  </stunt>
+      Spend a Fate Point to make a suitable declaration predicated on eidetic memory.
+    </stunt>
     <stunt name="The Science of Deduction">
-    Use Notice instead of Empathy to discover a person's aspects via Create an Advantage,
-      but only when doing so would further an investigation.
-    Use Notice instead of Empathy to discern lies and deceptions via Defend,
-      but only when doing so would further an investigation.
-    Both at a cost (typically offending people or not understanding emotional bonds).
-  </stunt>
+      Use Notice instead of Empathy to discover a person's aspects via Create an Advantage,
+        but only when doing so would further an investigation.
+      Use Notice instead of Empathy to discern lies and deceptions via Defend,
+        but only when doing so would further an investigation.
+      Both at a cost (typically offending people or not understanding emotional bonds).
+    </stunt>
     <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
   </stunts>
