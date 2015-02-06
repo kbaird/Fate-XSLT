@@ -27,7 +27,7 @@
           </span>
           <table>
             <tr>
-              <xsl:call-template name="current-fate-points"/>
+              <xsl:call-template name="fate-points" mode="atomic-robo"/>
               <xsl:call-template name="experience-points"/>
             </tr>
           </table>
