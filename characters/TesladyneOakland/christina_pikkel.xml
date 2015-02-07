@@ -12,9 +12,9 @@
   <experience-points>0</experience-points>
   <aspects>
     <aspect type="Concept">&#160;</aspect>
-    <aspect type="Mode" mode-name="Mode1">&#160;</aspect>
-    <aspect type="Mode" mode-name="Mode2">&#160;</aspect>
-    <aspect type="Mode" mode-name="Mode3">&#160;</aspect>
+    <aspect type="Mode" mode-name="Science">&#160;</aspect>
+    <aspect type="Mode" mode-name="Action">Floral-Print Suitcase Full of Guns</aspect>
+    <aspect type="Mode" mode-name="Intrigue">"How do I know that? Uh... internet?"</aspect>
     <aspect type="Omega">&#160;</aspect>
   </aspects>
   <skills>
@@ -23,6 +23,22 @@
       <skill name="Notice"               cost="1"/>
       <skill name="Will"                 cost="1"/>
       <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <mode rating="2" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+    <mode rating="1" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Burglary"  cost="1"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Stealth"   cost="2"/>
     </mode>
  </skills>
   <stunts>

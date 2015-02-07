@@ -4,9 +4,7 @@
   <xsl:template name="assets-header">
     <xsl:param name="label"/>
     <tr>
-      <th colspan="2" class="sectionheader">
-        <xsl:value-of select="$label"/>
-      </th>
+      <th colspan="2" class="sectionheader"><xsl:value-of select="$label"/></th>
     </tr>
   </xsl:template>
 </xsl:stylesheet>
