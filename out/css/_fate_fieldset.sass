@@ -23,19 +23,20 @@ fieldset
     height: 1.1em
     legend
       color: $consequence_legend_color
-      +legend_font
+      +consequence_font
       span
         padding-bottom: 3em
         top: 0.1em
   &.phase
     font-family: $basic_font
   &.stunt
-    font-size: 0.85em
+    font-family: $basic_font
+    font-size: 1em
     font-style: oblique
     text-align: right
     padding-left: 20em
     legend
       color: $stunt_legend_color
-      +legend_font(1.5em)
+      +legend_font(1.2em)
       span
         top: 0.2em

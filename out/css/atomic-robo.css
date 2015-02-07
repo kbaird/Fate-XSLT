@@ -7,8 +7,9 @@
 dl.gadget { margin-top: 0; }
 dl.gadget dt { font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; clear: both; }
 dl.gadget dt#function, dl.gadget dt#flaw { clear: none; }
-dl.gadget dd { display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; border: 2px solid #eeeeee; font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; margin-left: 0; margin-right: 1.5em; }
+dl.gadget dd { display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; border: 2px solid #eeeeee; font: 1em "Kalam", ubuntu, verdana, arial, helvetica, sans-serif; margin-left: 0; margin-right: 1.5em; }
 
+fieldset { font-size: 1.3em; }
 fieldset.aspect { height: 1.25em; padding-left: 0.5em; padding-top: 2em; }
 fieldset.consequence { height: 1.5em; }
 fieldset.experience { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; padding-left: 11em; position: relative; text-align: left; clear: none; float: left; }
