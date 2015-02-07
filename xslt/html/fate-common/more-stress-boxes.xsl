@@ -5,18 +5,19 @@
     <xsl:param name="baseCount"/>
     <xsl:param name="maxCount"/>
     <xsl:param name="skillRating"/>
+    <xsl:variable name="numericSkillRating" select="translate($skillRating, translate($skillRating,'0123456789',''), '')"/>
     <xsl:if test="$baseCount &lt; $maxCount">
-      <xsl:if test="$skillRating &gt; 0">
+      <xsl:if test="$numericSkillRating &gt; 0">
         <td><xsl:value-of select="$baseCount + 1"/></td>
       </xsl:if>
     </xsl:if>
     <xsl:if test="$baseCount + 1 &lt; $maxCount">
-      <xsl:if test="$skillRating &gt; 2">
+      <xsl:if test="$numericSkillRating &gt; 2">
         <td><xsl:value-of select="$baseCount + 2"/></td>
       </xsl:if>
     </xsl:if>
     <xsl:if test="$baseCount + 2 &lt; $maxCount">
-      <xsl:if test="$skillRating &gt; 4">
+      <xsl:if test="$numericSkillRating &gt; 4">
         <td><xsl:value-of select="$baseCount + 3"/></td>
       </xsl:if>
     </xsl:if>

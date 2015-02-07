@@ -7,20 +7,14 @@
         <th class="sectionheader" colspan="2">Skills</th>
       </tr>
       <tr>
-        <td>
-          <xsl:apply-templates select="skill"/>
-        </td>
+        <td><xsl:apply-templates select="skill"/></td>
       </tr>
     </table>
   </xsl:template>
   <xsl:template match="skill">
     <dl class="approaches">
-      <dt>
-        <xsl:value-of select="@name"/>
-      </dt>
-      <dd>
-        <xsl:value-of select="@rating"/>
-      </dd>
+      <dt><xsl:value-of select="@name"/></dt>
+      <dd>+<xsl:value-of select="@rating"/></dd>
     </dl>
   </xsl:template>
 </xsl:stylesheet>

@@ -21,11 +21,11 @@
     <aspect type="Trouble">Fresh Off the Boat</aspect>
   </aspects>
   <professions>
-    <profession rating="+1" name="Aristocrat"/>
-    <profession rating="+3" name="Engineer"/>
-    <profession rating="+2" name="Explorer"/>
-    <profession rating="+1" name="Fighter"/>
-    <profession rating="+2" name="Scholar"/>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="3" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="1" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
     <profession rating="0" name="Scoundrel"/>
   </professions>
   <assets>

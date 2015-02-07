@@ -19,22 +19,14 @@
         <fieldset class="asset">
           <dl>
             <dt>Refresh Cost:</dt>
-            <dd>
-              <xsl:value-of select="@cost"/>
-            </dd>
+            <dd><xsl:value-of select="@cost"/></dd>
             <dt>Name:</dt>
-            <dd>
-              <xsl:value-of select="@name"/>
-            </dd>
+            <dd><xsl:value-of select="@name"/></dd>
             <dt>Type:</dt>
-            <dd>
-              <xsl:value-of select="@type"/>
-            </dd>
+            <dd><xsl:value-of select="@type"/></dd>
             <xsl:if test="@function">
               <dt>Function:</dt>
-              <dd>
-                <xsl:value-of select="@function"/>
-              </dd>
+              <dd><xsl:value-of select="@function"/></dd>
             </xsl:if>
             <xsl:if test="@guiding-aspect">
               <xsl:call-template name="guiding-aspect">

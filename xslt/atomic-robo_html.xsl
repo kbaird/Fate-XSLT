@@ -6,6 +6,7 @@
   <xsl:include href="html/atomic-robo/copyright.xsl"/>
   <xsl:include href="html/atomic-robo/experience-points.xsl"/>
   <xsl:include href="html/atomic-robo/experiences.xsl"/>
+  <xsl:include href="html/atomic-robo/fate-points.xsl"/>
   <xsl:include href="html/atomic-robo/id.xsl"/>
   <xsl:include href="html/atomic-robo/stress.xsl"/>
   <xsl:include href="html/atomic-robo/stunts.xsl"/>

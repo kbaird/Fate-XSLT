@@ -1,21 +1,27 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT aethercraft (id, refresh, current-fate-points, aspects, approaches, stunts, consequences?, notes?)>
-  <!ATTLIST aethercraft size (Shuttle|Working|Major|Ultramassive) #REQUIRED>
+<!ELEMENT ship (id, aspects?, approaches?, skilled-at?, bad-at?, components?, stunts?, consequences?, notes?)>
+  <!ATTLIST ship size (Shuttle|Working|Major|Ultramassive) #REQUIRED>
 
   <!ELEMENT id (name, description)>
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
 
-  <!ELEMENT refresh (#PCDATA)>
-  <!ELEMENT current-fate-points (#PCDATA)>
-
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)> <!-- as many as there are crew members -->
+    <!ATTLIST aspect type (High-Concept|Trouble|Background|Ship|Free) "Free">
 
+  <!-- Also allow Skilled at / Bad at, cf. Royal Glory, pg 33 -->
   <!ELEMENT approaches (approach*)>
     <!ELEMENT approach (#PCDATA)>
     <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
     <!ATTLIST approach rating CDATA #REQUIRED>
+
+  <!ELEMENT skilled-at (#PCDATA)>
+  <!ELEMENT bad-at     (#PCDATA)>
+
+  <!ELEMENT components (component*)>
+    <!ELEMENT component (#PCDATA)>
+    <!ATTLIST component name CDATA #REQUIRED>
 
   <!ELEMENT stunts (stunt*)>
     <!ELEMENT stunt (#PCDATA)>

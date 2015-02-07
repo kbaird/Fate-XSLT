@@ -12,20 +12,18 @@
   <experience-points>0</experience-points>
   <aspects>
     <aspect type="Concept">
-    The Sentinel of Liberty
-  </aspect>
+      The Sentinel of Liberty
+    </aspect>
     <aspect type="Mode" mode-name="Super&#160;Soldier">
-    Just a Kid From Brooklyn
-  </aspect>
+      Just a Kid From Brooklyn
+    </aspect>
     <aspect type="Mode" mode-name="Soldier">
-    "I Don't Like Bullies. I Don't Care Where They're From."
-  </aspect>
+      "I Don't Like Bullies. I Don't Care Where They're From."
+    </aspect>
     <aspect type="Mode" mode-name="Action">
-    "I Can Do This All Day."
-  </aspect>
-    <aspect type="Omega">
-    &#160;
-  </aspect>
+      "I Can Do This All Day."
+    </aspect>
+    <aspect type="Omega"/>
   </aspects>
   <skills>
     <mode rating="3" name="Super&#160;Soldier" stress-type="physical">
