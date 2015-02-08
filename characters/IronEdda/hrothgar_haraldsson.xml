@@ -35,27 +35,23 @@
   <stunts/>
   <consequences/>
   <phase-trio>
-    <phase num="1">
+    <phase num="1" title="Clan/Rune/Bone&#160;Giant">
       <events>
       Hrothgar had been chosen by the Clan of the Hammer, which was
       superceded by being marked with the ᛚ rune.
     </events>
     </phase>
-    <phase num="2">
+    <phase num="2" title="Item of Importance">
       <events>
       Hrothgar apprenticed to Arnora Ketilsdottir, replacing her as
       the Holdfast smith after her death.
     </events>
     </phase>
-    <phase num="3">
+    <phase num="3" title="Crossing Paths">
       <events>Some events</events>
     </phase>
   </phase-trio>
   <notes>
-  Iron Edda Phases:
-    Phase 1 is Clan/Rune/Bone Giant
-    Phase 2 is an item of importance
-    Phase 3 is a traditional crossing paths phase
   (From Iron Edda game run by Morgan Ellis at BigBadCon 2014)
 </notes>
 </character>

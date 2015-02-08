@@ -2,8 +2,12 @@
   font: oblique small-caps $size bolder $basic_font
 
 =legend_font($size: 1.3em)
-  font: small-caps $size bolder $basic_font
+  font: small-caps $size bolder $handwriting_font
+
+=consequence_font($size: 1.3em)
+  +legend_font($size)
+  font-family: $basic_font
 
 $basic_font:       Cabin, Padauk, Montserrat
 $chinese_font:     "AR PL Ukai CN"
-$handwriting_font: "Walter Turncoat"
+$handwriting_font: "Kalam"

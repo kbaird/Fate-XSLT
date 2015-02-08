@@ -1,7 +1,7 @@
 dl.gadget { margin-top: 0; }
 dl.gadget dt { font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; clear: both; }
 dl.gadget dt#function, dl.gadget dt#flaw { clear: none; }
-dl.gadget dd { display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; border: 2px solid #eeeeee; font: 1em "Walter Turncoat", ubuntu, verdana, arial, helvetica, sans-serif; margin-left: 0; margin-right: 1.5em; }
+dl.gadget dd { display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; border: 2px solid #eeeeee; font: 1em "Kalam", ubuntu, verdana, arial, helvetica, sans-serif; margin-left: 0; margin-right: 1.5em; }
 
 fieldset.phase { margin-bottom: 0.3em; padding-top: 3.4em; text-align: left; }
 fieldset.phase legend.label { height: 2em; }
@@ -11,7 +11,7 @@ fieldset.phase legend.label span.phase-title { color: black; font: normal small-
 table td p { font-family: Cabin, Padauk, Montserrat; }
 table#skills tr th.mode-rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 4%; }
 table#skills tr th.rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 12.5%; }
-table#skills tr td { border: 3px solid black; font: oblique small-caps 1em bold "Walter Turncoat"; height: 2.3em; padding-top: 0.24em; width: 17.5%; }
+table#skills tr td { border: 3px solid black; font: oblique small-caps 1em bold "Kalam"; height: 2.3em; padding-top: 0.24em; width: 17.5%; }
 table#skills tr td.unused { border: 0; }
 table#skills tr td ul li { display: inline; }
 table#skills tr td ul li + li:before { content: ", "; }
