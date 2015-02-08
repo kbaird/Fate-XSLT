@@ -23,7 +23,7 @@
      <skill name="Notice"               cost="1"/>
      <skill name="Physics"              cost="0" add="1"/>
      <skill name="Will"                 cost="1"/>
-     <skill name="(all other Sciences)" cost="1"/>
+     <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
     </mode>
     <mode rating="2" name="Speedster" stress-type="physical"> <!-- Reskinned Martial Artist, ARRPG pg88 -->
       <skill name="Athletics" cost="2" add="1"/>
