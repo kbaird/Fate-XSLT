@@ -40,7 +40,7 @@
     <mode rating="1" name="Science">
       <skill name="Notice" cost="1"/>
       <skill name="Will" cost="1"/>
-      <skill name="(all other Sciences)"/>
+      <skill name="(All&#160;Other&#160;Sciences)"/>
     </mode>
   </skills>
   <stunts>
