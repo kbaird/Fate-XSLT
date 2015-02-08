@@ -52,9 +52,6 @@
     <stunt name="Flyer">
       Use Athletics to fly; ignore all ground-based obstacles when you do.
     </stunt>
-    <stunt name="Hard to Kill a Swarm of Bees">
-      For any attack or advantage to have much effect, it must make sense for it to affect a swarm of bees.
-    </stunt>
     <stunt name="Healing Factor">
       Once per scene, spend a fate point to reduce one of your Consequences by one degree of severity
       (severe to major, major to mild, mild to nothing).
@@ -63,12 +60,13 @@
       Any Consequence taken from a Tooth &amp; Claw Attack is called Infected; recovery is possible
       only if treated with an Invention. For every week that goes by without such treatment, the
       Consequence worsens one level. If it goes beyond Severe, the character begins to transform
-      into a human/bee hybrid, and will fully turn after another week.
+      into a human/bee hybrid, and will fully turn after another week. (Ghouls, DAR pg93)
     </stunt>
     <stunt name="Lightning Reflexes">
       In a physical conflict, you always act first. If someone else in the conflict has a stunt that gives
       them the same ability, make an Athletics roll to see who goes first.
     </stunt>
+    <stunt name="&#160;"/>
   </stunts>
   <consequences/>
   <experiences>
@@ -77,8 +75,6 @@
     <experience/>
   </experiences>
   <notes>
-Tooth and Claw is at ARRPG pg87
-Infectious Stunt is based on Ghouls DAR pg93
 <!--
 Modes with Athletics or Physique can give your character additional physical stress boxes, while modes with Provoke or Will can give
 your character additional mental stress boxes. A mode with one or more of these skills rated at Fair (+2) adds one box, while one
