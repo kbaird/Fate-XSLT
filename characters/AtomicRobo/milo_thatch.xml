@@ -25,7 +25,7 @@
       <skill name="Notice"               cost="1"/>
       <skill name="Steam Engines"        cost="0" add="1"/>
       <skill name="Will"                 cost="1"/>
-      <skill name="(all other Sciences)" cost="1"/>
+      <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
     </mode>
     <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
       <skill name="Contacts" cost="1"/>
@@ -59,13 +59,5 @@
     <experience/>
     <experience/>
   </experiences>
-  <notes>
-    Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
-    X Focus 3 trained skills. Archaeology, History, Steam Engines
-
-    If one of your modes is Science, also apply ALL of the following improvements:
-    X Specialize one trained skill. Linguistics
-    X Focus one trained skill.      Rapport
-    X Specialize one focused skill. Archaeology
- </notes>
+  <notes/>
 </character>
