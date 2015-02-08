@@ -42,7 +42,7 @@
     <mode rating="1" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
       <skill name="Notice"               cost="1"/>
       <skill name="Will"                 cost="1"/>
-      <skill name="(all other Sciences)" cost="1"/>
+      <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
     </mode>
   </skills>
   <stunts>
