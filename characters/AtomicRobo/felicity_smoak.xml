@@ -15,7 +15,7 @@
     <aspect type="Mode" mode-name="Science">Computers are TV Magic</aspect>
     <aspect type="Mode" mode-name="Banter">Did I Really Just Say That?</aspect>
     <aspect type="Mode" mode-name="Action">Hostage Got the Drop on You</aspect>
-    <aspect type="Omega">No, Actually, I'm Jewish</aspect>
+    <aspect type="&#937;">No, Actually, I'm Jewish</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
