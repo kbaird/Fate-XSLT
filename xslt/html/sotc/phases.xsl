@@ -28,8 +28,7 @@
               <xsl:if test="@type = 'the-great-war'">
                 <legend class="label">
                   <span class="phase-title">Phase 2: The Great War and Entry Into the Club</span>
-                  <span id="century-club-patron">Century Club Patron: <xsl:value-of select="century-club-patron"/>
-         </span>
+                  <span id="century-club-patron">Century Club Patron: <xsl:value-of select="century-club-patron"/></span>
                   <xsl:call-template name="phase-aspects">
                     <xsl:with-param name="phase">2</xsl:with-param>
                   </xsl:call-template>
@@ -38,10 +37,8 @@
               </xsl:if>
               <xsl:if test="@type = 'your-novel'">
                 <legend class="label">
-                  <span class="phase-title">Phase 3: <em><xsl:value-of select="@title"/></em>
-         </span>
-                  <span id="guest-stars">Guest-starring <xsl:value-of select="guest-stars"/>
-         </span>
+                  <span class="phase-title">Phase 3: <em><xsl:value-of select="@title"/></em></span>
+                  <span id="guest-stars">Guest-starring <xsl:value-of select="guest-stars"/></span>
                   <xsl:call-template name="phase-aspects">
                     <xsl:with-param name="phase">3</xsl:with-param>
                   </xsl:call-template>
@@ -52,8 +49,7 @@
             <xsl:otherwise>
               <legend class="label">
                 <span class="phase-title">Phase <xsl:value-of select="@num"/>: Other Adventures</span>
-                <span id="guest-starring">Guest-starring in: <em><xsl:value-of select="@title"/></em>
-        </span>
+                <span id="guest-starring">Guest-starring in: <em><xsl:value-of select="@title"/></em></span>
                 <xsl:call-template name="phase-aspects">
                   <xsl:with-param name="phase">
                     <xsl:value-of select="@num"/>
