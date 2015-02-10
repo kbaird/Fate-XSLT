@@ -14,7 +14,7 @@
     <aspect type="Mode" mode-name="Science" signature="true">Master of Lightning</aspect>
     <aspect type="Mode" mode-name="Banter">Magnetic Charm</aspect>
     <aspect type="Mode" mode-name="Action"/>
-    <aspect type="Omega">My Method Is Different</aspect>
+    <aspect type="&#937;">My Method Is Different</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Science" stress-type="mental">

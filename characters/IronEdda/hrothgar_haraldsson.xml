@@ -12,9 +12,9 @@
   <aspects>
     <aspect type="High-Concept">ᛚ-Runed Smith</aspect>
     <aspect type="Trouble">Maybe We're the Bad Guys?</aspect>
-    <aspect phase-num="1">ᛚ (Laguz/Water) Runes on Each Inner Forearm</aspect>
-    <aspect phase-num="2">Teacher's Hammer: Anora Ketilsdottir</aspect>
-    <aspect phase-num="3">Aud &amp; I Were Childhood Friends</aspect>
+    <aspect type="Rune" phase-num="1">ᛚ (Laguz/Water) Runes on Each Inner Forearm</aspect>
+    <aspect type="Item" phase-num="2">Teacher's Hammer: Anora Ketilsdottir</aspect>
+    <aspect type="Crossing Paths" phase-num="3">Aud &amp; I Were Childhood Friends</aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Crafts"/>

@@ -15,7 +15,7 @@
     <aspect type="Mode" mode-name="Science">I Will Find Atlantis</aspect>
     <aspect type="Mode" mode-name="Banter">I Will Convince You to Do the Right Thing</aspect>
     <aspect type="Mode" mode-name="Action">Not Afraid to Roll Up My Sleeves</aspect>
-    <aspect type="Omega">Your Low Expectations of Me Won't Last Forever</aspect>
+    <aspect type="&#937;">Your Low Expectations of Me Won't Last Forever</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
