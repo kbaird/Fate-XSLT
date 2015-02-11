@@ -15,7 +15,7 @@
     <aspect type="Mode" mode-name="Soldier">"Go Ahead. I Got This."</aspect>
     <aspect type="Mode" mode-name="Banter">I Can Get You to Open Up</aspect>
     <aspect type="Mode" mode-name="Fighter&#160;Pilot">Acrobat In The Sky</aspect>
-    <aspect type="Omega">"Everyone We Know Is Trying to Kill Us." "Not Everyone."</aspect>
+    <aspect type="&#937;">"Everyone We Know Is Trying to Kill Us." "Not Everyone."</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Soldier" stress-type="split">
