@@ -12,7 +12,7 @@
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
-    <!ATTLIST aspect type (High-Concept|Trouble) #IMPLIED>
+    <!ATTLIST aspect type CDATA #IMPLIED>
 
   <!ELEMENT approaches (approach*)>
     <!ELEMENT approach (#PCDATA)>
