@@ -20,7 +20,7 @@
     <aspect type="Mode" mode-name="Science">So Many Gadgets</aspect>
     <aspect type="Mode" mode-name="Soldier">USAF Veteran of Afghanistan and Iraq</aspect>
     <aspect type="Mode" mode-name="Action">"...and MY AXE."</aspect>
-    <aspect type="Omega">&#160;</aspect>
+    <aspect type="&#937;">&#160;</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
