@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
 <character>
   <id>
-    <charname nickname="Viktor Domnin">Ви́ктор Домнин, The Deadly Disco Комиссар</charname>
+    <charname>Viktor Domnin, The Deadly Disco Комиссар</charname>
     <playername>NPC</playername>
     <affiliation>U.S.S.R.</affiliation>
     <description>
@@ -50,11 +50,23 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="Armor of Fear: ☐ ">You can use Provoke to defend against Fight attacks, but only until the first time you’re dealt stress in a conflict. You can make your opponents hesitate to attack, but when someone shows them that you’re only human your advantage disappears.</stunt>
-    <stunt name="Contacts: ☐ ">Once per session, you may declare that you know exactly the right person to gain some information.</stunt>
-    <stunt name="The Proletariat are Strong and Steeled: ☐ ">Once per scene, you may call in Nameless NPC minions.</stunt>
-    <stunt name="Unapproachable">It’s difficult to try to manipulate someone when you’re constantly reminded of how scary they are. You may use Provoke instead of Will to provide defend against create advantage actions made with Deceive, Empathy, or Rapport.</stunt>
-    <stunt name="Vanguard">An ally of yours may erase any one Stress Box (mental or physical). You must then take an equal amount of Mental Stress yourself (you may check your own Stress boxes and/or take Consequences, but they must be mental).</stunt>
+    <stunt name="&#160; ">&#160;</stunt>
+    <stunt name="Contacts: ☐ ">
+      Once per session, you may declare that you know exactly the right person to gain some information.
+    </stunt>
+    <stunt name="The Proletariat are Strong and Steeled: ☐ ">
+      Once per scene, you may call in Nameless NPC minions.
+    </stunt>
+    <stunt name="Revolutionary Vanguard">
+      An ally of yours may erase any one Stress Box (mental or physical). You must then take an
+      equal amount of Mental Stress yourself (you may check your own Stress boxes and/or take
+      Consequences, but they must be mental).
+    </stunt>
+    <stunt name="Unapproachable">
+      It's difficult to try to manipulate someone when you're constantly reminded of how scary
+      they are. You may use Provoke instead of Will to defend against create advantage actions
+      made with Deceive, Empathy, or Rapport.
+    </stunt>
   </stunts>
   <consequences/>
   <experiences>
@@ -62,7 +74,5 @@
     <experience/>
     <experience/>
   </experiences>
-  <notes>
-  5 pts of Improvements from Russian mode
- </notes>
+  <notes/>
 </character>
