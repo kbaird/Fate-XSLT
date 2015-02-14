@@ -13,9 +13,7 @@
     <tr>
       <td>
         <fieldset class="gadget">
-          <legend class="label"><xsl:value-of select="@name"/>
-      (pg<xsl:value-of select="@page"/>)
-     </legend>
+          <legend class="label"><xsl:value-of select="@name"/> (pg<xsl:value-of select="@page"/>)</legend>
           <xsl:value-of select="."/>
         </fieldset>
       </td>

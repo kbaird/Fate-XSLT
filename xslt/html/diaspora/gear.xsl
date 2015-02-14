@@ -7,9 +7,7 @@
         <th class="sectionheader">Gear</th>
       </tr>
       <tr>
-        <td>
-          <xsl:value-of select="."/>
-        </td>
+        <td><xsl:value-of select="."/></td>
       </tr>
     </table>
   </xsl:template>
