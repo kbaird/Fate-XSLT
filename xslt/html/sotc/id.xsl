@@ -7,9 +7,7 @@
         <th colspan="2" class="sectionheader">ID</th>
       </tr>
       <tr>
-        <td>
-          <xsl:call-template name="name"/>
-        </td>
+        <td><xsl:call-template name="name"/></td>
       </tr>
       <tr>
         <td>
