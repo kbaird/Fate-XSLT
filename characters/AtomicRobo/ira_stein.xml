@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Ira Stein</charname>
+    <playername>&#160;</playername>
+    <affiliation>Tesladyne (Science Agent PC)</affiliation>
+    <description>
+A member of the American Interplanetary Society and the Institute for Advanced
+Study, Ira was one of the top "rocket men" in the United States at the onset of
+World War II. During the war, he maintained artillery tables and bomb sights as
+close to the front lines as possible to minimize equipment downtime. As the
+furthest-deployed Allied rocket scientist, Ira was selected to join Atomic
+Robo’s vanguard unit of Operation Paperclip. Ira would later join Robo as one
+of the original Science Agents of Tesladyne. His knowledge of advanced
+propulsion systems would prove to be invaluable in the aerospace firm’s early
+years.
+    </description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Straight-Laced Rocket Scientist</aspect>
+    <aspect type="Mode" mode-name="Science">Ignorance Cannot Dictate The Course Of Mankind!</aspect>
+    <aspect type="Mode" mode-name="Banter">&#160;</aspect>
+    <aspect type="Mode" mode-name="Action">&#160;</aspect>
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Rocket Science"        add="2"/>
+      <skill name="Aerospace Engineering" add="1"/>
+      <skill name="Propulsion Systems Engineering" add="1"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>
+    <mode rating="1" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="It's Not Exactly Rocket Science">
+      During a brainstorm, you may use Rocket Science instead of any other Science skill.
+    </stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>
