@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname nickname="Mac">Curtis MacDonald</charname>
+    <playername>&#160;</playername>
+    <affiliation>Tesladyne (Science Agent PC)</affiliation>
+    <description>
+Mac's cavalier disregard for paperwork, acumen behind the wheel, and fearlessness at the
+front lines allowed his team of tank mechanics to maintain the fastest turnover times in the
+European Theater. Mac's applied mechanical know-how and plainspoken demeanor made
+him an ideal representative for Tesladyne’s outlandish theories.
+    </description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Better a Good Solution Now than a Perfect One Later</aspect>
+    <aspect type="Mode" mode-name="Action">&#160;</aspect>
+    <aspect type="Mode" mode-name="Banter">Let Me Break It Down For You</aspect>
+    <aspect type="Mode" mode-name="Science">&#160;</aspect>
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Action" stress-type="physical"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2" add="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2" add="1"/>
+    </mode>
+    <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1" add="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>
+    <mode rating="1" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Mechanical Engineering" add="1"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <!--
+         Specialize one trained skill.
+         Focus one trained skill.
+         Specialize one focused skill.
+    -->
+  </skills>
+  <stunts>
+    <stunt name="Buckle Up">
+      +2 to create an advantage with Vehicles when operating a ground vehicle.
+    </stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>
