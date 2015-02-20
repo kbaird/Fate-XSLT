@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Sparrow II</charname>
+    <playername>&#160;</playername>
+    <affiliation>Section 13</affiliation>
+    <description>
+Daughter of Sparrow I, one of the few Sparrows to inherit the role while the
+previous Sparrow was still able-bodied, and the first Sparrow to benefit from
+the larger intelligence capability of Section 13. Sparrow II first encountered
+Atomic Robo while attempting to thwart Dr. Vanadis Valkyrie’s plot to begin
+World War 3 in 1968. She retired to head of Section 13 in 1995.
+    </description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept" signature="true">Britain's Top Agent</aspect>
+    <aspect type="Mode" mode-name="Action">Mistress of the Martial Arts</aspect>
+    <aspect type="Mode" mode-name="Science">A Keen and Inquisitive Mind</aspect>
+    <aspect type="Mode" mode-name="Banter">Rapier-Sharp Wit</aspect>
+    <aspect type="Omega">Underestimate Me At Your Peril</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Action" stress-type="physical"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1" add="2"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+    <mode rating="2" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Chemistry"            add="1"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <mode rating="1" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2" add="1"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Judo Black Belt">
+      When defending with Combat, on a success with style you may spend a fate point to deal a
+      3-shift physical hit to the attacker (instead of getting a boost).
+    </stunt>
+    <stunt name="Sword Umbrella" mega="true">
+      You often carry an umbrella that secretly serves as a sheath for a hidden and slender
+      sword blade. It's the 60s; none of this is quite as ridiculous as it sounds. The sword
+      has Weapon:2
+    </stunt>
+    <stunt name="Beauty And The Blade">
+      +2 to attack or create an advantage with Combat when wielding a sword.
+    </stunt>
+    <stunt name="Wreckless Driver">
+      Once per scene, when driving a car, you can reduce the harm dealt by an attack by up to 4
+      shifts by letting the attacker have a situation aspect with one free invocation.
+    </stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>
