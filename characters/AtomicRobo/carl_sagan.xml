@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Carl Sagan</charname>
+    <playername>&#160;</playername>
+    <affiliation>Cornell University, NASA</affiliation>
+    <description>
+Dr. Sagan's early work in astrophysics and the origins of life on Earth naturally led to
+investigating the possibility of life on other planets...
+Dr. Sagan contributed to many of NASA's robotic exploratory missions. He was perhaps best known
+for his efforts to popularize scientific interests and pursuits through mass media.
+    </description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">A Candle in the Dark</aspect>
+    <aspect type="Mode" mode-name="Science">Extraordinary Claims Require Extraordinary Evidence</aspect>
+    <aspect type="Mode" mode-name="Banter">America’s Foremost Science Communicator</aspect>
+    <aspect type="Mode" mode-name="Celebrity">Turtleneck-Clad Cultural Icon</aspect>
+    <aspect type="Omega">Know the Past to Understand the Present</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Astrophysics"         add="2"/>
+      <skill name="Cosmology"            add="2"/>
+      <skill name="Astronomy"            add="1"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1" add="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1" add="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3" add="1"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1" add="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>
+    <mode rating="1" name="Celebrity"> <!-- ARRPG pg269 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Rapport"  cost="1"/>
+      <!-- Improvement? -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="We Are Made Of Starstuff">
+      You are a compelling speaker, and may use Cosmology to create an advantage in social situations if you can make it about science somehow.
+    </stunt>
+    <stunt name="People Are Not Stupid">
+      +2 to overcome with Rapport when persuading someone in a way that respects their beliefs.
+    </stunt>
+    <stunt name="Confirmed Skeptic">
+      Use Will to see through a lie with a logical or scientific basis.
+    </stunt>
+    <stunt name="Friends in High Places: ☐">
+      Once per issue, when you have the time and opportunity to meet with your contacts in the
+      scientific community, you can spend a fate point to acquire a cutting-edge or top-notch
+      piece of technology. Once per volume, if done as part of creating an invention (page
+      139), this can satisfy a serious catch.
+    </stunt>
+    <stunt name="A Few Minor Adjustments">
+      Given almost enough time and serviceable tools, you can replace one (and only one) of a
+      hardware's stunts or mega-stunts with another of your choosing.  If this adds more stunt
+      benefits than it had before you messed with it, each additional one costs a fate point.
+      The new stunt or mega-stunt lasts until the end of the issue, then vanishes.
+    </stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>
