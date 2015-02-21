@@ -4,18 +4,13 @@
 
 .specialized { color: red; }
 
-dl.gadget { margin-top: 0; }
-dl.gadget dt { font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; clear: both; }
-dl.gadget dt#function, dl.gadget dt#flaw { clear: none; }
-dl.gadget dd { display: table-row; float: left; margin: 0.5em; padding: 0.1em; padding-left: 0.2em; padding-right: 0.2em; border: 2px solid #eeeeee; font: 1em "Kalam", ubuntu, verdana, arial, helvetica, sans-serif; margin-left: 0; margin-right: 1.5em; }
-
 fieldset { font-size: 1.3em; }
 fieldset.aspect { height: 1.25em; padding-left: 0.5em; padding-top: 2em; }
 fieldset.consequence { height: 1.5em; }
 fieldset.experience { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; padding-left: 11em; position: relative; text-align: left; clear: none; float: left; }
-fieldset.experience.used { color: #666666; text-decoration: line-through; }
+fieldset.experience.used { color: #666; text-decoration: line-through; }
 fieldset.experience span.content { margin-left: -10em; }
-fieldset.experience legend.label { color: #666666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
+fieldset.experience legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.mega legend span { color: blue; font-weight: 900; }
 
 p { font-family: Cabin, Padauk, Montserrat; }
@@ -36,10 +31,12 @@ ul#skill-explanation li:after + li { content: ", "; }
   span#neil-portrait img { float: right; height: 100px; }
   fieldset.aspect { border: 0; font-size: 1em; margin: 0.2em; margin-top: 0.4em; padding: 0.2em; }
   fieldset.aspect legend.label span { margin: 0; margin-top: -1.6em; padding: 0; }
-  fieldset.consequence legend.severity span { color: black; }
+  fieldset.consequence legend.severity span { color: #000; }
   th.mode-rating { font-size: 1.7em; padding-top: 0.3em; }
-  table#aspects tbody tr td { border: 2px solid #cccccc; padding-top: 1em; padding-bottom: 1.2em; }
+  table#aspects tbody tr td { border: 2px solid #ccc; padding-top: 1em; padding-bottom: 1.2em; }
   table#skills tbody tr td { padding: 0.1em; padding-top: 0.2em; padding-bottom: 0.2em; }
   table#skills tbody tr td ul { margin: 0.1em; padding: 0.1em; }
   table#stress tbody tr th.sectionheader { padding-top: 0.5em; }
   table#stress tbody tr td { padding: 0.7em; } }
+
+/*# sourceMappingURL=atomic-robo.css.map */
