@@ -15,7 +15,7 @@
     <aspect type="Mode" mode-name="Science">Quick Connections</aspect>
     <aspect type="Mode" mode-name="Speedster">The Fastest Man Alive</aspect>
     <aspect type="Mode" mode-name="Banter">Obsessed with Father's Innocence and Iris</aspect>
-    <aspect type="Omega">Tireless, Dedicated, Naive... Stubborn...</aspect>
+    <aspect type="&#937;">Tireless, Dedicated, Naive... Stubborn...</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->

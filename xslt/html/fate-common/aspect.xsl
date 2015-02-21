@@ -3,10 +3,16 @@
   <xsl:output method="html"/>
   <xsl:include href="./aspect-label.xsl"/>
   <xsl:include href="./aspect-name.xsl"/>
+  <xsl:include href="./pad-aspect.xsl"/>
   <xsl:template match="aspect">
     <tr>
       <td>
         <fieldset class="aspect">
+          <xsl:call-template name="pad-aspect">
+            <xsl:with-param name="name">
+              <xsl:value-of select="@type"/>
+            </xsl:with-param>
+          </xsl:call-template>
           <xsl:choose>
             <xsl:when test="@type">
               <xsl:call-template name="aspect-label">

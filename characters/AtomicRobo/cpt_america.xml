@@ -23,7 +23,7 @@
     <aspect type="Mode" mode-name="Action">
       "I Can Do This All Day."
     </aspect>
-    <aspect type="Omega"/>
+    <aspect type="&#937;"/>
   </aspects>
   <skills>
     <mode rating="3" name="Super&#160;Soldier" stress-type="physical">
@@ -74,8 +74,7 @@
           +2 to Defend with Combat against firearms
         </benefit>
         <benefit cost="1" name="Swats a Grenade">
-          +2 to Create an Advantage with Athletics when the shield could be narrated as useful
-          (swatting a grenade, smashing through a door or window, etc.)
+          +2 to Create an Advantage with Athletics when the shield is involved
         </benefit>
       </benefits>
     </gadget>

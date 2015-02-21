@@ -15,7 +15,7 @@
     <aspect type="Mode" mode-name="Action">Most Vicious Fighter on the West Coast</aspect>
     <aspect type="Mode" mode-name="Banter">Speaks Her Mind</aspect>
     <aspect type="Mode" mode-name="Intrigue">Sketchy Background, No Last Name</aspect>
-    <aspect type="Omega">&#160;</aspect>
+    <aspect type="&#937;">&#160;</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
