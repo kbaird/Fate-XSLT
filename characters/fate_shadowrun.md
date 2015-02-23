@@ -42,3 +42,7 @@ Allows **Conjuring** to no longer be a "slow pratice" or require a summoning cir
   Shamanic Conjuring from 1st Ed Shadowrun, as distinct from Hermetic, which follows the Storm
   Summoners model fairly well already).
 
+#### Drain:
+-   Use the **Extra Effort** option for [Stress](http://fate-srd.com/fate-system-toolkit/customized-tools#stress)
+-   Use the **Extreme Effort** option for
+[Consequences](http://fate-srd.com/fate-system-toolkit/consequences#alternate-uses-for-consequences)
