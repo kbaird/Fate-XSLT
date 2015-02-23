@@ -1,10 +1,8 @@
 Fate Shadowrun
 ==============
 
-Magic
------
-
-### Extra: Magicician
+Extra: Magician
+---------------
 
 (cf.
  [Collegia Arcane](http://fate-srd.com/fate-core/creating-extra#strong-extra-collegia-arcana-magic-strong))
@@ -15,7 +13,7 @@ Magic
 (For **Conjuring**, see
  [Storm Summoners](http://fate-srd.com/fate-system-toolkit/storm-summoners#the-30-second-version))
 
-#### Actions:
+### Actions:
 
 -   **Overcome**:
 Use **Spellcasting** to remove Aspects, whether through modifying the physical environment
@@ -36,13 +34,13 @@ Use **Spellcasting** to directly harm someone with Magic. Targets can defend wit
 -   **Defend**:
 Use **Spellcasting** to defened against hostile magical attacks or dispelling attempts.
 
-#### Stunts:
+### Stunts:
 -   **Quick Summoner**:
 Allows **Conjuring** to no longer be a "slow pratice" or require a summoning circle. (Models
   Shamanic Conjuring from 1st Ed Shadowrun, as distinct from Hermetic, which follows the Storm
   Summoners model fairly well already).
 
-#### Drain:
+### Drain:
 -   Use the **Extra Effort** option for [Stress](http://fate-srd.com/fate-system-toolkit/customized-tools#stress)
 -   Use the **Extreme Effort** option for
 [Consequences](http://fate-srd.com/fate-system-toolkit/consequences#alternate-uses-for-consequences)
