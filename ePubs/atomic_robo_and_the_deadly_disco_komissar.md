@@ -1,3 +1,12 @@
+---
+title:
+- type: main
+  text: Atomic Robo and The Deadly Disco Комиссар
+creator:
+- role: author
+  text: Kevin C. Baird
+...
+
 # Atomic Robo and The Deadly Disco Комиссар
 
 ## Pressures/Game Aspects:
