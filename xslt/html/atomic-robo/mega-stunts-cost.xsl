@@ -12,6 +12,9 @@
     <xsl:variable name="gadgetsCost">
       <xsl:value-of select="$gadgetsCount + $gadgetsBenefitsCost"/>
     </xsl:variable>
+    <xsl:variable name="signatureAspectCount">
+      <xsl:value-of select="count(/character/aspects/aspect[@signature='true'])"/>
+    </xsl:variable>
     <xsl:variable name="stuntsCount">
       <xsl:value-of select="count(/character/stunts/stunt)"/>
     </xsl:variable>
@@ -19,7 +22,7 @@
       <xsl:value-of select="count(/character/stunts/stunt[@mega='true'])"/>
     </xsl:variable>
     <xsl:variable name="stuntsCost">
-      <xsl:value-of select="$stuntsCount + $stuntsMegaCount + $gadgetsCost"/>
+      <xsl:value-of select="$stuntsCount + $stuntsMegaCount + $gadgetsCost + $signatureAspectCount"/>
     </xsl:variable>
     <xsl:variable name="fatePointsToGm">
       <xsl:value-of select="$stuntsCost - 5"/>
