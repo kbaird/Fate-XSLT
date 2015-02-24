@@ -1,3 +1,12 @@
+---
+title:
+- type: main
+  text: Fate Shadowrun
+creator:
+- role: author
+  text: Kevin C. Baird
+...
+
 Fate Shadowrun
 ==============
 
