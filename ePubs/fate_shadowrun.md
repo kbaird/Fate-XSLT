@@ -32,11 +32,11 @@ Use **Spellcasting** to directly harm someone with Magic. Targets can defend wit
   are also magically active.
 
 -   **Defend**:
-Use **Spellcasting** to defened against hostile magical attacks or dispelling attempts.
+Use **Spellcasting** to defend against hostile magical attacks or dispelling attempts.
 
 ### Stunts:
 -   **Quick Summoner**:
-Allows **Conjuring** to no longer be a "slow pratice" or require a summoning circle. (Models
+Allows **Conjuring** to no longer be a "slow practice" or require a summoning circle. (Models
   Shamanic Conjuring from 1st Ed Shadowrun, as distinct from Hermetic, which follows the Storm
   Summoners model fairly well already).
 
