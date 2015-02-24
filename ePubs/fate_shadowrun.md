@@ -24,28 +24,28 @@ Extra: Magician
 
 ### Actions:
 
--   **Overcome**:
-Use **Spellcasting** to remove Aspects, whether through modifying the physical environment
+**Overcome**
+: Use **Spellcasting** to remove Aspects, whether through modifying the physical environment
   directly or dispelling sustained magical effects. The initial caster of a sustained effect can
   defend against dispelling with **Spellcasting**. Use **Lore** for knowledge of magical topics.
 
--   **Create an Advantage**:
-Use **Spellcasting** to alter the environment with magic or place
+**Create an Advantage**
+: Use **Spellcasting** to alter the environment with magic or place
   mental and physical impediments on a target, such as _Slowed Movement_ or _A Foggy Head_.
   Characters can defend against this with **Will**. The **Magician** Extra also justifies
   observation by means of Astral Perception.
 
--   **Attack**:
-Use **Spellcasting** to directly harm someone with Magic. Targets can defend with
+**Attack**
+: Use **Spellcasting** to directly harm someone with Magic. Targets can defend with
   **Athletics** or **Will** depending on the nature of the attack, or **Spellcasting** if they
   are also magically active.
 
--   **Defend**:
-Use **Spellcasting** to defend against hostile magical attacks or dispelling attempts.
+**Defend**
+: Use **Spellcasting** to defend against hostile magical attacks or dispelling attempts.
 
 ### Stunts:
--   **Quick Summoner**:
-Allows **Conjuring** to no longer be a "slow practice" or require a summoning circle. (Models
+**Quick Summoner**
+: Allows **Conjuring** to no longer be a "slow practice" or require a summoning circle. (Models
   Shamanic Conjuring from 1st Ed Shadowrun, as distinct from Hermetic, which follows the Storm
   Summoners model fairly well already).
 
