@@ -74,8 +74,7 @@
           +2 to Defend with Combat against firearms
         </benefit>
         <benefit cost="1" name="Swats a Grenade">
-          +2 to Create an Advantage with Athletics when the shield could be narrated as useful
-          (swatting a grenade, smashing through a door or window, etc.)
+          +2 to Create an Advantage with Athletics when the shield is involved
         </benefit>
       </benefits>
     </gadget>

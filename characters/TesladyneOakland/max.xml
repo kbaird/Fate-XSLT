@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Max</charname>
+    <playername>Brian Wilcox</playername>
+    <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
+    <description>&#160;</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Crazy old gadgeteer who came with the building</aspect>
+    <aspect type="Mode" mode-name="Science">It just needs one more tweak</aspect>
+    <aspect type="Mode" mode-name="Intrigue">He's been here the whole time</aspect>
+    <aspect type="Mode" mode-name="Action">Surprisingly spry for his age</aspect>
+    <aspect type="&#937;">Live-in-the-now Amensiac</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Mechanical Engineering" add="2"/>
+      <skill name="Chemistry"              add="1"/>
+      <skill name="Notice"                 cost="1"/>
+      <skill name="Will"                   cost="1" add="1"/>
+      <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
+    </mode>
+    <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Burglary"  cost="1" add="1"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Stealth"   cost="2" add="2"/>
+    </mode>
+    <mode rating="1" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+ </skills>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name="Useful Little Things">
+      Your pockets are full of useful little things. Whenever you need something, you have it,
+      provided it’s not something too unusual (like a map to Jimmy Hoffa’s body) or too large
+      to fit in a pocket, belt pouch, or backpack. When you say you have something, the GM
+      should be likely to agree.
+    </stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
+Nobody in the Oakland office knows (or will, at least, admit to knowing) where
+he came from, including Max. Not that this seems to bother him. When the first
+members of the new team moved into HQ, he was already living there, surrounded
+by junk &amp; half-completed gadgets, having booby-trapped the place to the hilt.
+In his spare time, he performs building &amp; equipment maintenance, frequently
+ignoring the recommended specifications. He takes delight in a tendency to go
+unnoticed until he has something to contribute to the conversation—although
+that might not always be the same conversation everyone else is having at the
+time. He definitely gets along better with machines than people.
+  </notes>
+</character>
