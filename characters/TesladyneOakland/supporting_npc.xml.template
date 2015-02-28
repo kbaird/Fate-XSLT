@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
-<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/atomic-robo.dtd">
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
 <character>
   <id>
     <charname>&#160;</charname>
@@ -18,8 +18,8 @@
     <aspect type="&#937;">&#160;</aspect>
   </aspects>
   <skills>
-  Add MODES
- </skills>
+    Add MODES
+  </skills>
   <stunts>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
