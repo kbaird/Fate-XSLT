@@ -16,8 +16,8 @@
   <current-fate-points>1</current-fate-points>
   <experience-points>0</experience-points>
   <aspects>
-    <aspect type="Concept">"Black Widow for Greenpeace"?</aspect>
-    <aspect type="Mode" mode-name="Intrigue">&#160;</aspect>
+    <aspect type="Concept">Black Widow for Greenpeace</aspect>
+    <aspect type="Mode" mode-name="Intrigue">Was Retired from the CIA</aspect>
     <aspect type="Mode" mode-name="Science">&#160;</aspect>
     <aspect type="Mode" mode-name="Action">&#160;</aspect>
     <aspect type="&#937;">&#160;</aspect>
@@ -54,7 +54,10 @@
       already in the scene (a security guard, a lab-coated scientist, a
       DELPHI goon, etc.).
     </stunt>
-    <stunt name=" ">&#160;</stunt>
+    <stunt name="Not On My Watch">
+      Once per scene, you can take stress on behalf of someone you have
+      already declared is under your protection.
+    </stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
@@ -66,12 +69,14 @@
     <experience/>
   </experiences>
   <notes>
-  Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
-  X Focus three trained skills.   Burglary, Deceive, Stealth
+    Still has 1 Minor Milestone (ARRPG225) from rescuing Dmitri.
 
-  If one of your modes is Science, also apply ALL of the following improvements:
-  X Specialize one trained skill. Environmental Science
-  * Focus one trained skill.
-  * Specialize one focused skill.
+    Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
+    X Focus three trained skills.   Burglary, Deceive, Stealth
+
+    If one of your modes is Science, also apply ALL of the following improvements:
+    X Specialize one trained skill. Environmental Science
+    * Focus one trained skill.
+    * Specialize one focused skill.
  </notes>
 </character>
