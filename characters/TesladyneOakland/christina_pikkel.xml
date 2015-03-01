@@ -6,12 +6,12 @@
     <charname>Christina Pikkel</charname>
     <playername>Phil Bernard</playername>
     <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
-    <description>&#160;</description>
+    <description>Younger Filipina granny from Loonie Tunes.</description>
   </id>
   <current-fate-points>0</current-fate-points>
   <experience-points>0</experience-points>
   <aspects>
-    <aspect type="Concept">Spinster Librarian</aspect>
+    <aspect type="Concept">Library Crone ("Banshee")</aspect>
     <aspect type="Mode" mode-name="Science">I've read that dissertation.</aspect>
     <aspect type="Mode" mode-name="Action">Just let me find my shooting glasses.</aspect>
     <aspect type="Mode" mode-name="Intrigue">Due dates are not a suggestion</aspect>
@@ -25,11 +25,11 @@
       <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
     </mode>
     <mode rating="2" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
-      <skill name="Athletics" cost="2"/>
+      <skill name="Athletics" cost="2" add="-1"/>
       <skill name="Combat"    cost="2" add="2"/>
       <skill name="Notice"    cost="1"/>
       <skill name="Physique"  cost="1"/>
-      <skill name="Provoke"   cost="1"/>
+      <skill name="Provoke"   cost="1" add="1"/>
       <skill name="Vehicles"  cost="2"/>
     </mode>
     <mode rating="1" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
@@ -62,13 +62,14 @@
   </experiences>
   <notes>
     <!--  
-  Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
-  * Specialize one trained skill. Library Science
+    Minor Milestone from rescuing Dmitri: Athletics -1, Provoke +1
+    Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
+    * Specialize one trained skill. Library Science
 
-  If one of your modes is Science, also apply ALL of the following improvements:
-  * Specialize one trained skill. Combat
-  * Focus one trained skill.      Burglary
-  * Specialize one focused skill. Burglary
+    If one of your modes is Science, also apply ALL of the following improvements:
+    * Specialize one trained skill. Combat
+    * Focus one trained skill.      Burglary
+    * Specialize one focused skill. Burglary
     -->
  </notes>
 </character>
