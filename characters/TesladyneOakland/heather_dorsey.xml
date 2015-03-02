@@ -18,8 +18,8 @@
   <aspects>
     <aspect type="Concept">Black Widow for Greenpeace</aspect>
     <aspect type="Mode" mode-name="Intrigue">Was Retired from the CIA</aspect>
-    <aspect type="Mode" mode-name="Science">&#160;</aspect>
-    <aspect type="Mode" mode-name="Action">&#160;</aspect>
+    <aspect type="Mode" mode-name="Science">A Certain Moral Dedication</aspect>
+    <aspect type="Mode" mode-name="Action">A Certain Moral Flexibility</aspect>
     <aspect type="&#937;">&#160;</aspect>
   </aspects>
   <skills>
@@ -47,6 +47,10 @@
     </mode>
   </skills>
   <stunts>
+    <stunt name="Body Language Reader">
+      You can use Notice in place of Empathy to learn the aspects of a target
+      through observation (ARRPG pg64, FC pg117).
+    </stunt>
     <stunt name="Master of Disguise">
       When you're in a situation where you're able to slip away unnoticed,
       you have the option to temporarily drop out of the game altogether.
@@ -58,8 +62,9 @@
       Once per scene, you can take stress on behalf of someone you have
       already declared is under your protection.
     </stunt>
-    <stunt name=" ">&#160;</stunt>
-    <stunt name=" ">&#160;</stunt>
+    <stunt name="Notice Tell">
+      You can use Notice in place of Empathy to Defend against Deceive (ARRPG pg64).
+    </stunt>
     <stunt name=" ">&#160;</stunt>
   </stunts>
   <consequences/>
@@ -70,13 +75,14 @@
   </experiences>
   <notes>
     Still has 1 Minor Milestone (ARRPG225) from rescuing Dmitri.
+    <!--
+      Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
+      X Focus three trained skills.   Burglary, Deceive, Stealth
 
-    Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
-    X Focus three trained skills.   Burglary, Deceive, Stealth
-
-    If one of your modes is Science, also apply ALL of the following improvements:
-    X Specialize one trained skill. Environmental Science
-    * Focus one trained skill.
-    * Specialize one focused skill.
+      If one of your modes is Science, also apply ALL of the following improvements:
+      X Specialize one trained skill. Environmental Science
+      * Focus one trained skill.
+      * Specialize one focused skill.
+    -->
  </notes>
 </character>
