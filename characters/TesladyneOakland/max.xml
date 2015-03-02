@@ -15,7 +15,7 @@
     <aspect type="Mode" mode-name="Science">It just needs one more tweak</aspect>
     <aspect type="Mode" mode-name="Intrigue">He's been here the whole time</aspect>
     <aspect type="Mode" mode-name="Action">Surprisingly spry for his age</aspect>
-    <aspect type="&#937;">Live-in-the-now Amensiac</aspect>
+    <aspect type="&#937;">Live-in-the-now Amnesiac</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
