@@ -23,7 +23,7 @@
       <skill name="Chemistry"              add="1"/>
       <skill name="Notice"                 cost="1"/>
       <skill name="Will"                   cost="1" add="1"/>
-      <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
+      <skill name="(All Other Sciences)" cost="1"/>
     </mode>
     <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
       <skill name="Athletics" cost="2"/>

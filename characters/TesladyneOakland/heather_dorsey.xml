@@ -35,7 +35,7 @@
       <skill name="Environmental Science" add="2"/>
       <skill name="Notice"                cost="1"/>
       <skill name="Will"                  cost="1"/>
-      <skill name="(All&#160;Other&#160;Sciences)"  cost="1"/>
+      <skill name="(All Other Sciences)"  cost="1"/>
     </mode>
     <mode rating="1" name="Action"> <!-- ARRPG pg82 -->
       <skill name="Athletics" cost="2"/>
