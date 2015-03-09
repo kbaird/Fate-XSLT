@@ -15,7 +15,7 @@
     <aspect type="Mode" mode-name="Science">It just needs one more tweak</aspect>
     <aspect type="Mode" mode-name="Intrigue">He's been here the whole time</aspect>
     <aspect type="Mode" mode-name="Action">Surprisingly spry for his age</aspect>
-    <aspect type="&#937;">Live-in-the-now Amensiac</aspect>
+    <aspect type="&#937;">Live-in-the-now Amnesiac</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
@@ -23,7 +23,7 @@
       <skill name="Chemistry"              add="1"/>
       <skill name="Notice"                 cost="1"/>
       <skill name="Will"                   cost="1" add="1"/>
-      <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
+      <skill name="(All Other Sciences)" cost="1"/>
     </mode>
     <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
       <skill name="Athletics" cost="2"/>
@@ -61,6 +61,8 @@
     <experience/>
   </experiences>
   <notes>
+    Still has 1 Minor Milestone (ARRPG225) from rescuing Dmitri.
+
 Nobody in the Oakland office knows (or will, at least, admit to knowing) where
 he came from, including Max. Not that this seems to bother him. When the first
 members of the new team moved into HQ, he was already living there, surrounded

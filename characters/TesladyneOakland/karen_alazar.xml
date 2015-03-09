@@ -28,7 +28,7 @@
       <skill name="Electrical Engineering" add="1"/> <!-- Focus 1 Trained from Science Mode -->
       <skill name="Notice"                 cost="1"/>
       <skill name="Will"                   cost="1"/>
-      <skill name="(All&#160;Other&#160;Sciences)"   cost="1"/>
+      <skill name="(All Other Sciences)"   cost="1"/>
     </mode>
     <mode rating="2" name="Soldier" stress-type="mental"> <!-- ARRPG pg91 -->
       <skill name="Athletics" cost="2"/>

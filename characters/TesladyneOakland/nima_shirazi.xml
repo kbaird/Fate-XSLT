@@ -28,7 +28,7 @@
       <skill name="Robotics"             add="2"/>
       <skill name="Notice"               cost="1"/>
       <skill name="Will"                 cost="1"/>
-      <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
+      <skill name="(All Other Sciences)" cost="1"/>
     </mode>
     <mode rating="2" name="Combat&#160;Stealthbot" stress-type="physical">
       <skill name="Athletics" cost="2"/>

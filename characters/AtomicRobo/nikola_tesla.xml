@@ -23,7 +23,7 @@
       <skill name="Physics" add="2"/>
       <skill name="Will" add="1"/>
       <skill name="Notice" add="1"/>
-      <skill name="(All&#160;Other&#160;Sciences)"/>
+      <skill name="(All Other Sciences)"/>
     </mode>
     <mode rating="2" name="Banter" stress-type="mental">
       <skill name="Contacts" add="1"/>
