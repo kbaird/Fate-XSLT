@@ -21,14 +21,14 @@
     <aspect phase-num="3">Tír Tairngire Border Patrol Lt. (Retired)</aspect>
   </aspects>
   <skills>
-    <skill rating="4" name="Magic"/>
-    <skill rating="3" name="Rapport"/>
+    <skill rating="4" name="Spellcasting"/>
+    <skill rating="3" name="Conjuring"/>
     <skill rating="3" name="Will"/>
     <skill rating="2" name="Contacts"/>
     <skill rating="2" name="Lore"/>
     <skill rating="2" name="Physique"/>
     <skill rating="1" name="Athletics"/>
-    <skill rating="1" name="Resources"/>
+    <skill rating="1" name="Rapport"/>
     <skill rating="1" name="Empathy"/>
     <skill rating="1" name="Notice"/>
   </skills>
@@ -57,13 +57,8 @@
     </gadget>
   </extras>
   <stunts>
-    <stunt name="Spellcaster">
-      Can use Magic skill with logical justification &amp; limitations for described spell.
-      See notes.
-    </stunt>
-    <stunt name="Spirit Summoner">
-      Can use Magic skill with logical justification &amp; limitations for described spirit.
-      See notes.
+    <stunt name="Quick Summoner">
+      Allows Conjuring at will, rather than as a lengthy ritual that requires a summoning circle.
     </stunt>
   </stunts>
   <consequences/>
@@ -126,34 +121,6 @@
     </phase>
   </phase-trio>
   <notes>
-
-
-
-
-
-
-    Spellcaster notes:
-    Keep it loose. Just do the Four Actions via the new Magic Skill, and give narrative
-    description according to the particular Shadowrun spell desired. I figure a pretty loose
-    definition of the stunt is OK, since it requires a completely new skill (Magic), burns a
-    Stunt in addition to the required Magician extra, AND requires in-game narrative
-    justification from the player.
-
-    The particulars of each spell will be largely up to the caster. Some specific patterns
-    (such as Attacks via mana spells being Opposed with Will; physical spells with Physique)
-    will be fairly typical.
-
-    Spirit Summoner notes:
-    Can petition the Celestial Bureaucracy for magical favors. Again, keep it loose, and use
-    the new Magic Skill. Maybe start with Creating the "Owes Service to [me]" Advantage on a
-    specific Spirit that provides Active Opposition with its highest-rated Skill. Spending an
-    action to Create more Advantages simply adds more invocations (i.e., services). The
-    narrative particulars depend on the specific type of Spirit, etc.
-
-    Drain:
-    Use the options for Extra Effort and Extreme Effort from Fate System Toolkit, trading
-    stress and/or consequences for bonuses.
-
     For even more detail, we could define the 五行 tradition as a character via the Fate Fractal.
  </notes>
 </character>
