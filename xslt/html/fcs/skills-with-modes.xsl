@@ -3,17 +3,37 @@
   <xsl:output method="html"/>
   <xsl:include href="skills-with-modes-header-row.xsl"/>
   <xsl:include href="skills-with-modes-row.xsl"/>
-  <xsl:include href="skills-with-modes-plus5-row.xsl"/>
-  <xsl:include href="skills-with-modes-plus4-row.xsl"/>
-  <xsl:include href="skills-with-modes-plus3-row.xsl"/>
-  <xsl:include href="skills-with-modes-plus2-row.xsl"/>
-  <xsl:include href="skills-with-modes-plus1-row.xsl"/>
   <xsl:template name="skills-with-modes">
     <xsl:call-template name="skills-with-modes-header-row"/>
-    <xsl:call-template name="skills-with-modes-plus5-row"/>
-    <xsl:call-template name="skills-with-modes-plus4-row"/>
-    <xsl:call-template name="skills-with-modes-plus3-row"/>
-    <xsl:call-template name="skills-with-modes-plus2-row"/>
-    <xsl:call-template name="skills-with-modes-plus1-row"/>
+    <xsl:call-template name="skills-with-modes-row">
+      <xsl:with-param name="maxModeRating" select="3"/>
+      <xsl:with-param name="medModeRating" select="2"/>
+      <xsl:with-param name="minModeRating" select="1"/>
+      <xsl:with-param name="skillRating" select="5"/>
+    </xsl:call-template>
+    <xsl:call-template name="skills-with-modes-row">
+      <xsl:with-param name="maxModeRating" select="3"/>
+      <xsl:with-param name="medModeRating" select="2"/>
+      <xsl:with-param name="minModeRating" select="1"/>
+      <xsl:with-param name="skillRating" select="4"/>
+    </xsl:call-template>
+    <xsl:call-template name="skills-with-modes-row">
+      <xsl:with-param name="maxModeRating" select="3"/>
+      <xsl:with-param name="medModeRating" select="2"/>
+      <xsl:with-param name="minModeRating" select="1"/>
+      <xsl:with-param name="skillRating" select="3"/>
+    </xsl:call-template>
+    <xsl:call-template name="skills-with-modes-row">
+      <xsl:with-param name="maxModeRating" select="3"/>
+      <xsl:with-param name="medModeRating" select="2"/>
+      <xsl:with-param name="minModeRating" select="1"/>
+      <xsl:with-param name="skillRating" select="2"/>
+    </xsl:call-template>
+    <xsl:call-template name="skills-with-modes-row">
+      <xsl:with-param name="maxModeRating" select="3"/>
+      <xsl:with-param name="medModeRating" select="2"/>
+      <xsl:with-param name="minModeRating" select="1"/>
+      <xsl:with-param name="skillRating" select="1"/>
+    </xsl:call-template>
   </xsl:template>
 </xsl:stylesheet>
