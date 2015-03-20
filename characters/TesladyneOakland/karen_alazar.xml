@@ -50,7 +50,7 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="Mind Over Matter">
+    <stunt name="Mind Over Matter ☐">
       Once per scene, when you take a physical hit, you may
       check a mental stress box to absorb physical harm.
     </stunt>
@@ -58,7 +58,7 @@
       When you Invoke one of an opponent's aspects or consequences
       in a physical conflict, you get a +3 bonus instead of +2.
     </stunt>
-    <stunt name="Shake It Off">
+    <stunt name="Shake It Off ☐">
       Once per scene, when you take a physical hit, you can check 2 physical
       stress boxes and add their values together to absorb that many shifts of harm.
     </stunt>

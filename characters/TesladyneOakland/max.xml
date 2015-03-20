@@ -45,8 +45,12 @@
   <stunts>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
-    <stunt name=" ">&#160;</stunt>
-    <stunt name=" ">&#160;</stunt>
+    <stunt name="Deadly Gadgets">
+      You can Attack with Mechanical Engineering by setting traps or pulling gadgets out of your coat.
+    </stunt>
+    <stunt name="Tricky Gadgets">
+      You can Create an Advantage with Mechanical Engineering by setting traps or pulling gadgets out of your coat.
+    </stunt>
     <stunt name="Useful Little Things">
       Your pockets are full of useful little things. Whenever you need something, you have it,
       provided it’s not something too unusual (like a map to Jimmy Hoffa’s body) or too large
