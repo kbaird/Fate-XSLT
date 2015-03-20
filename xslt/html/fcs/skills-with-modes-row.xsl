@@ -3,26 +3,52 @@
   <xsl:output method="html"/>
   <xsl:template name="skills-with-modes-row">
     <xsl:param name="maxModeRating"/>
+    <xsl:param name="medModeRating"/>
+    <xsl:param name="minModeRating"/>
     <xsl:param name="skillRating"/>
     <tr>
-      <th class="mode-rating">+<xsl:value-of select="$maxModeRating"/></th>
+      <th class="mode-rating">+<xsl:value-of select="$skillRating"/></th>
       <td>
-        <xsl:call-template name="skill-mode-tds">
-          <xsl:with-param name="modeRating" select="$maxModeRating"/>
-          <xsl:with-param name="skillRating" select="$skillRating"/>
-        </xsl:call-template>
+        <xsl:choose>
+          <xsl:when test="$skillRating &lt; $maxModeRating">
+            <xsl:attribute name="class">unused</xsl:attribute>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="skill-mode-tds">
+              <xsl:with-param name="modeRating" select="$maxModeRating"/>
+              <xsl:with-param name="skillRating" select="$skillRating"/>
+            </xsl:call-template>
+          </xsl:otherwise>
+        </xsl:choose>
       </td>
       <td>
-        <xsl:call-template name="skill-mode-tds">
-          <xsl:with-param name="modeRating" select="$maxModeRating - 1"/>
-          <xsl:with-param name="skillRating" select="$skillRating"/>
-        </xsl:call-template>
+        <xsl:choose>
+          <xsl:when test="$skillRating &lt; $medModeRating">
+            <xsl:attribute name="class">unused</xsl:attribute>
+          </xsl:when>
+          <xsl:when test="$skillRating &gt; ($medModeRating + 2)">
+            <xsl:attribute name="class">unused</xsl:attribute>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="skill-mode-tds">
+              <xsl:with-param name="modeRating" select="$medModeRating"/>
+              <xsl:with-param name="skillRating" select="$skillRating"/>
+            </xsl:call-template>
+          </xsl:otherwise>
+        </xsl:choose>
       </td>
       <td>
-        <xsl:call-template name="skill-mode-tds">
-          <xsl:with-param name="modeRating" select="$maxModeRating - 2"/>
-          <xsl:with-param name="skillRating" select="$skillRating"/>
-        </xsl:call-template>
+        <xsl:choose>
+          <xsl:when test="$skillRating &gt; ($minModeRating + 2)">
+            <xsl:attribute name="class">unused</xsl:attribute>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="skill-mode-tds">
+              <xsl:with-param name="modeRating" select="$minModeRating"/>
+              <xsl:with-param name="skillRating" select="$skillRating"/>
+            </xsl:call-template>
+          </xsl:otherwise>
+        </xsl:choose>
       </td>
     </tr>
   </xsl:template>

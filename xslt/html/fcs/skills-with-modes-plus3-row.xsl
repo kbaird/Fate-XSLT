@@ -4,6 +4,8 @@
   <xsl:template name="skills-with-modes-plus3-row">
     <xsl:call-template name="skills-with-modes-row">
       <xsl:with-param name="maxModeRating" select="3"/>
+      <xsl:with-param name="medModeRating" select="2"/>
+      <xsl:with-param name="minModeRating" select="1"/>
       <xsl:with-param name="skillRating" select="3"/>
     </xsl:call-template>
   </xsl:template>
