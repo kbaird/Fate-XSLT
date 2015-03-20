@@ -44,9 +44,6 @@
           </xsl:apply-templates>
         </div>
         <hr/>
-        <xsl:apply-templates select="experiences"/>
-        <xsl:call-template name="experiences-explanation"/>
-        <hr/>
         <div id="stunts">
           <xsl:apply-templates select="stunts" mode="atomic-robo"/>
         </div>
@@ -64,6 +61,9 @@
             </xsl:otherwise>
           </xsl:choose>
         </div>
+        <hr/>
+        <xsl:apply-templates select="experiences"/>
+        <xsl:call-template name="experiences-explanation"/>
         <hr/>
         <div id="notes">
           <xsl:apply-templates select="notes"/>
