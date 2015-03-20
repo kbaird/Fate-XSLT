@@ -2,10 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:template name="skills-with-modes-row">
-    <xsl:param name="maxModeRating"/>
-    <xsl:param name="medModeRating"/>
-    <xsl:param name="minModeRating"/>
     <xsl:param name="skillRating"/>
+    <xsl:variable name="maxModeRating">3</xsl:variable>
+    <xsl:variable name="medModeRating">2</xsl:variable>
+    <xsl:variable name="minModeRating">1</xsl:variable>
     <tr>
       <th class="mode-rating">+<xsl:value-of select="$skillRating"/></th>
       <td>
