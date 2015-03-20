@@ -23,7 +23,7 @@
      <skill name="Notice"               cost="1"/>
      <skill name="Physics"              cost="0" add="1"/>
      <skill name="Will"                 cost="1"/>
-     <skill name="(All&#160;Other&#160;Sciences)" cost="1"/>
+     <skill name="(All Other Sciences)" cost="1"/>
     </mode>
     <mode rating="2" name="Speedster" stress-type="physical"> <!-- Reskinned Martial Artist, ARRPG pg88 -->
       <skill name="Athletics" cost="2" add="1"/>
@@ -43,7 +43,7 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="Healing Factor">
+    <stunt name="Healing Factor ☐">
       Once per scene, spend a fate point to reduce one of your consequences by one
       degree of severity (severe to major, major to mild, mild to nothing).
     </stunt>
