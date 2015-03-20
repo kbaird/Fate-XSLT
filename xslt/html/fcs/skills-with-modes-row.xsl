@@ -41,7 +41,7 @@
         <xsl:choose>
           <xsl:when test="$skillRating &gt; ($minModeRating + 2)">
             <xsl:attribute name="class">unused</xsl:attribute>
-              <xsl:if test="$skillRating &gt; ($minModeRating + 3)">
+              <xsl:if test="$skillRating = ($maxModeRating + 2)">
         <ul id="skill-explanation">
           <li class="specialized">specialized</li>
           <li class="focused">focused</li>
