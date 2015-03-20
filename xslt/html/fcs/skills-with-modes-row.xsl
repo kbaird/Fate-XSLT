@@ -3,9 +3,24 @@
   <xsl:output method="html"/>
   <xsl:template name="skills-with-modes-row">
     <xsl:param name="skillRating"/>
-    <xsl:variable name="maxModeRating">3</xsl:variable>
-    <xsl:variable name="medModeRating">2</xsl:variable>
-    <xsl:variable name="minModeRating">1</xsl:variable>
+    <xsl:variable name="maxModeRating">
+      <xsl:for-each select="/character/skills/mode/@rating">
+        <xsl:sort data-type="number" order="descending"/>
+        <xsl:if test="position()=1"><xsl:value-of select="."/></xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="medModeRating">
+      <xsl:for-each select="/character/skills/mode/@rating">
+        <xsl:sort data-type="number" order="descending"/>
+        <xsl:if test="position()=2"><xsl:value-of select="."/></xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="minModeRating">
+      <xsl:for-each select="/character/skills/mode/@rating">
+        <xsl:sort data-type="number" order="descending"/>
+        <xsl:if test="position()=3"><xsl:value-of select="."/></xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
     <tr>
       <th class="mode-rating">+<xsl:value-of select="$skillRating"/></th>
       <td>
