@@ -9,17 +9,17 @@
       <th/>
       <th>
         <xsl:call-template name="skill-mode-th">
-          <xsl:with-param name="rating" select="3"/>
+          <xsl:with-param name="rating" select="$maxModeRating"/>
         </xsl:call-template>
       </th>
       <th>
         <xsl:call-template name="skill-mode-th">
-          <xsl:with-param name="rating" select="2"/>
+          <xsl:with-param name="rating" select="$medModeRating"/>
         </xsl:call-template>
       </th>
       <th>
         <xsl:call-template name="skill-mode-th">
-          <xsl:with-param name="rating" select="1"/>
+          <xsl:with-param name="rating" select="$minModeRating"/>
         </xsl:call-template>
       </th>
     </tr>
