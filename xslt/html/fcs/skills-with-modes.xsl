@@ -4,13 +4,25 @@
   <xsl:include href="skills-with-modes-header-row.xsl"/>
   <xsl:include href="skills-with-modes-row.xsl"/>
 
+  <xsl:variable name="maxModeRating">
+    <xsl:for-each select="/character/skills/mode/@rating">
+      <xsl:sort data-type="number" order="descending"/>
+      <xsl:if test="position()=1"><xsl:value-of select="."/></xsl:if>
+    </xsl:for-each>
+  </xsl:variable>
+  <xsl:variable name="medModeRating">
+    <xsl:for-each select="/character/skills/mode/@rating">
+      <xsl:sort data-type="number" order="descending"/>
+      <xsl:if test="position()=2"><xsl:value-of select="."/></xsl:if>
+    </xsl:for-each>
+  </xsl:variable>
+  <xsl:variable name="minModeRating">
+    <xsl:for-each select="/character/skills/mode/@rating">
+      <xsl:sort data-type="number" order="descending"/>
+      <xsl:if test="position()=3"><xsl:value-of select="."/></xsl:if>
+    </xsl:for-each>
+  </xsl:variable>
   <xsl:variable name="maxSkillRating">
-    <xsl:variable name="maxModeRating">
-      <xsl:for-each select="/character/skills/mode/@rating">
-        <xsl:sort data-type="number" order="descending"/>
-        <xsl:if test="position()=1"><xsl:value-of select="."/></xsl:if>
-      </xsl:for-each>
-    </xsl:variable>
     <xsl:value-of select="$maxModeRating + 2"/>
   </xsl:variable>
 
