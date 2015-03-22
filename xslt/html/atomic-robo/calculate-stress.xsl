@@ -7,6 +7,14 @@
       <xsl:value-of select="count(/character/skills/mode[@stress-type=$stressType])"/>
     </xsl:variable>
     <xsl:variable name="matchingModeRatingsSum">
+      <xsl:variable name="superModeReduction">
+        <xsl:choose>
+          <xsl:when test="count(/character/skills/mode[@stress-type=$stressType][@rating &gt; 3]) &gt; 0">
+            <xsl:value-of select="$maxModeRating - 3"/>
+          </xsl:when>
+          <xsl:otherwise>0</xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
       <xsl:variable name="matchingModeRatingsPure">
         <xsl:value-of select="sum(/character/skills/mode[@stress-type=$stressType]/@rating)"/>
       </xsl:variable>
@@ -31,7 +39,7 @@
       </xsl:variable>
       <xsl:variable name="matchingModeRatingsSplit">
         <!-- A Split mode at rating 2 should only add to one stress type, not both. -->
-        <xsl:value-of select="$matchingModeRatingsSplitRaw - $splitModeDupeRemoval"/>
+        <xsl:value-of select="$matchingModeRatingsSplitRaw - $splitModeDupeRemoval - $superModeReduction"/>
       </xsl:variable>
       <xsl:value-of select="$matchingModeRatingsPure + $matchingModeRatingsSplit"/>
     </xsl:variable>
