@@ -18,7 +18,7 @@
     <aspect type="&#937;">No, Actually, I'm Jewish</aspect>
   </aspects>
   <skills>
-    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+    <mode rating="4" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
       <skill name="Computer Science"     cost="0" add="2"/>
       <skill name="Notice"               cost="1"/>
       <skill name="Will"                 cost="1"/>
