@@ -26,35 +26,7 @@
           <xsl:value-of select="$maxCount"/>
         </xsl:with-param>
         <xsl:with-param name="skillRating">
-          <xsl:choose>
-            <xsl:when test="$useSkillModes='true'">
-              <xsl:call-template name="skill-rating-by-name">
-                <xsl:with-param name="skillName">
-                  <xsl:value-of select="$skillName"/>
-                </xsl:with-param>
-                <xsl:with-param name="modeRating">
-                  <xsl:choose>
-                    <xsl:when test="$skillName='Physique'">
-                      <xsl:value-of select="/character/skills/mode[@name='Action']/@rating"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:choose>
-                        <xsl:when test="/character/skills/mode[@name='Banter']/@rating &gt; /character/skills/mode[@name='Science']/@rating">
-                          <xsl:value-of select="/character/skills/mode[@name='Banter']/@rating"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:value-of select="/character/skills/mode[@name='Science']/@rating"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:otherwise>
-                  </xsl:choose>
-                </xsl:with-param>
-              </xsl:call-template>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="/character/skills/skill[@name=$skillName]/@rating"/>
-            </xsl:otherwise>
-          </xsl:choose>
+          <xsl:value-of select="/character/skills/skill[@name=$skillName]/@rating"/>
         </xsl:with-param>
       </xsl:call-template>
     </tr>
