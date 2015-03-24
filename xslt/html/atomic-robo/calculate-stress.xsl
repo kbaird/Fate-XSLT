@@ -6,7 +6,7 @@
     <xsl:param name="stressType"/>
     <xsl:variable name="stressBoxAdditionsPure">
       <xsl:variable name="stressBoxAdditionsPureMax">
-        <xsl:call-template name="stressBoxAddition">
+        <xsl:call-template name="stress-box-addition">
           <xsl:with-param name="modeRating">
             <xsl:value-of select="/character/skills/mode[@stress-type=$stressType][@rating = $maxModeRating]/@rating"/>
           </xsl:with-param>
@@ -16,7 +16,7 @@
         </xsl:call-template>
       </xsl:variable>
       <xsl:variable name="stressBoxAdditionsPureMed">
-        <xsl:call-template name="stressBoxAddition">
+        <xsl:call-template name="stress-box-addition">
           <xsl:with-param name="modeRating">
             <xsl:value-of select="/character/skills/mode[@stress-type=$stressType][@rating = $medModeRating]/@rating"/>
           </xsl:with-param>
@@ -26,7 +26,7 @@
         </xsl:call-template>
       </xsl:variable>
       <xsl:variable name="stressBoxAdditionsPureMin">
-        <xsl:call-template name="stressBoxAddition">
+        <xsl:call-template name="stress-box-addition">
           <xsl:with-param name="modeRating">
             <xsl:value-of select="/character/skills/mode[@stress-type=$stressType][@rating = $minModeRating]/@rating"/>
           </xsl:with-param>
@@ -39,7 +39,7 @@
     </xsl:variable>
     <xsl:variable name="stressBoxAdditionsSplit">
       <xsl:variable name="stressBoxAdditionsSplitMax">
-        <xsl:call-template name="stressBoxAddition">
+        <xsl:call-template name="stress-box-addition">
           <xsl:with-param name="modeRating">
             <xsl:value-of select="/character/skills/mode[@stress-type='split'][@rating = $maxModeRating]/@rating"/>
           </xsl:with-param>
@@ -50,7 +50,7 @@
         </xsl:call-template>
       </xsl:variable>
       <xsl:variable name="stressBoxAdditionsSplitMed">
-        <xsl:call-template name="stressBoxAddition">
+        <xsl:call-template name="stress-box-addition">
           <xsl:with-param name="modeRating">
             <xsl:value-of select="/character/skills/mode[@stress-type='split'][@rating = $medModeRating]/@rating"/>
           </xsl:with-param>
@@ -61,7 +61,7 @@
         </xsl:call-template>
       </xsl:variable>
       <xsl:variable name="stressBoxAdditionsSplitMin">
-        <xsl:call-template name="stressBoxAddition">
+        <xsl:call-template name="stress-box-addition">
           <xsl:with-param name="modeRating">
             <xsl:value-of select="/character/skills/mode[@stress-type='split'][@rating = $minModeRating]/@rating"/>
           </xsl:with-param>
