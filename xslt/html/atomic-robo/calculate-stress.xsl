@@ -3,6 +3,23 @@
   <xsl:output method="html"/>
   <xsl:include href="stress-box-addition.xsl"/>
 
+  <xsl:template name="calculate-stress-by-rating">
+    <xsl:param name="modeType"/>
+    <xsl:param name="rating"/>
+    <xsl:param name="stressType"/>
+    <xsl:call-template name="stress-box-addition">
+      <xsl:with-param name="modeRating">
+        <xsl:value-of select="/character/skills/mode[@stress-type=$modeType][@rating = $rating]/@rating"/>
+      </xsl:with-param>
+      <xsl:with-param name="modeType">
+        <xsl:value-of select="$modeType"/>
+      </xsl:with-param>
+      <xsl:with-param name="stressType">
+        <xsl:value-of select="$stressType"/>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:template>
+
   <xsl:template name="calculate-pure-stress-by-rating">
     <xsl:param name="rating"/>
     <xsl:param name="stressType"/>
