@@ -31,7 +31,7 @@
     <xsl:call-template name="skills-with-modes-row">
       <xsl:with-param name="skillRating" select="$skillRating"/>
     </xsl:call-template>
-    <xsl:if test="$skillRating &gt; 1">
+    <xsl:if test="$skillRating &gt; $minModeRating">
       <xsl:call-template name="skills-with-modes-loop">
         <xsl:with-param name="skillRating" select="$skillRating - 1"/>
     </xsl:call-template>
