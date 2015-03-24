@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # roll.rb
 
-# descriptive die rolls for FUDGE/FATE, as per an idea developed
+# descriptive die rolls for FUDGE/Fate, as per an idea developed
 # by Vincent Baker for his Jastenave game.
 # cf. https://twitter.com/lumpleygames/status/403556521579384832
 #
