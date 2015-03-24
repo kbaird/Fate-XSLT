@@ -2,13 +2,25 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:include href="stress-box-addition.xsl"/>
+  <xsl:template name="calculate-pure-stress-by-rating">
+    <xsl:param name="rating"/>
+    <xsl:param name="stressType"/>
+    <xsl:call-template name="stress-box-addition">
+      <xsl:with-param name="modeRating">
+        <xsl:value-of select="/character/skills/mode[@stress-type=$stressType][@rating = $rating]/@rating"/>
+      </xsl:with-param>
+      <xsl:with-param name="stressType">
+        <xsl:value-of select="$stressType"/>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:template>
   <xsl:template name="calculate-stress">
     <xsl:param name="stressType"/>
     <xsl:variable name="stressBoxAdditionsPure">
       <xsl:variable name="stressBoxAdditionsPureMax">
-        <xsl:call-template name="stress-box-addition">
-          <xsl:with-param name="modeRating">
-            <xsl:value-of select="/character/skills/mode[@stress-type=$stressType][@rating = $maxModeRating]/@rating"/>
+        <xsl:call-template name="calculate-pure-stress-by-rating">
+          <xsl:with-param name="rating">
+            <xsl:value-of select="$maxModeRating"/>
           </xsl:with-param>
           <xsl:with-param name="stressType">
             <xsl:value-of select="$stressType"/>
@@ -16,9 +28,9 @@
         </xsl:call-template>
       </xsl:variable>
       <xsl:variable name="stressBoxAdditionsPureMed">
-        <xsl:call-template name="stress-box-addition">
-          <xsl:with-param name="modeRating">
-            <xsl:value-of select="/character/skills/mode[@stress-type=$stressType][@rating = $medModeRating]/@rating"/>
+        <xsl:call-template name="calculate-pure-stress-by-rating">
+          <xsl:with-param name="rating">
+            <xsl:value-of select="$medModeRating"/>
           </xsl:with-param>
           <xsl:with-param name="stressType">
             <xsl:value-of select="$stressType"/>
@@ -26,9 +38,9 @@
         </xsl:call-template>
       </xsl:variable>
       <xsl:variable name="stressBoxAdditionsPureMin">
-        <xsl:call-template name="stress-box-addition">
-          <xsl:with-param name="modeRating">
-            <xsl:value-of select="/character/skills/mode[@stress-type=$stressType][@rating = $minModeRating]/@rating"/>
+        <xsl:call-template name="calculate-pure-stress-by-rating">
+          <xsl:with-param name="rating">
+            <xsl:value-of select="$minModeRating"/>
           </xsl:with-param>
           <xsl:with-param name="stressType">
             <xsl:value-of select="$stressType"/>
