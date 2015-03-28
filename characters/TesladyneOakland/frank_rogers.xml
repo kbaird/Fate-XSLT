@@ -52,7 +52,9 @@
       Switch ANY skill with Will once per scene
     </stunt>
   </stunts>
-  <consequences/>
+  <consequences>
+    <consequence severity="Mild">Infected</consequence>
+  </consequences>
   <experiences>
     <experience/>
     <experience/>
