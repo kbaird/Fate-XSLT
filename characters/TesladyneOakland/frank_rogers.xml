@@ -45,6 +45,9 @@
     </mode>
   </skills>
   <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
     <stunt name="Scotch on the Rocks">
       +2 to Attack with Combat when having been drinking
     </stunt>
