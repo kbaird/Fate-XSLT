@@ -48,10 +48,8 @@
     <stunt name="Expert Markswoman">
       +1 to Attack or Create an Advantage with Combat when using a Firearm.
     </stunt>
-    <stunt name="I've Read About That">
-      Spend a Fate Point to use Library Science in place of any other skill for
-      one roll, provided you can justify it through having read something
-      applicable.
+    <stunt name="I've Read About That ☐">
+      Switch ANY skill with Library Science once per scene
     </stunt>
     <stunt name="Mark's First-Born">
       +1 to Attack with Combat (with this rifle), Weapon: 2 (a high-end rifle
