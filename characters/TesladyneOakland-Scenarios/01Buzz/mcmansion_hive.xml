@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>McMansion / Hive</charname>
+    <playername>NPC</playername>
+    <affiliation>Buzz About the New Cell Tower</affiliation>
+    <description>
+    2659 Torrey Pines Drive, Brentwood, CA -
+    Consider Swarms from Day After Ragnarok, pg 91 instead of this level of detail
+  </description>
+  </id>
+  <current-fate-points>5</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Relentless Cloud of Stings</aspect>
+    <aspect type="Mode" mode-name="Hive">We're EVERYWHERE</aspect>
+    <aspect type="Mode" mode-name="Beast">Eusocial Coordination</aspect>
+    <aspect type="Mode" mode-name="Mutant">Defend the Queen</aspect>
+    <aspect type="Omega">Not Scared of Bees? You Are Now.</aspect>
+  </aspects>
+  <skills>
+    <mode rating="4" name="Hive" stress-type="physical">
+      <skill name="Athletics" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Tooth &amp; Claw" cost="1"/>
+      <!-- ARRPG pg87 -->
+    </mode>
+    <mode rating="2" name="Beast" stress-type="physical">
+      <!-- ARRPG pg87 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Provoke" cost="1"/>
+      <skill name="Tooth &amp; Claw" cost="1" add="1"/>
+      <!-- ARRPG pg87 -->
+      <!-- Beast Improvement -->
+      <!-- Also Specialize 1 Trained Skill -->
+    </mode>
+    <mode rating="1" name="Mutant">
+      <!-- easiest to just represent improvement as native skills here -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Tooth &amp; Claw" cost="1"/>
+      <!-- ARRPG pg87 -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Flyer">
+      Use Athletics to fly; ignore all ground-based obstacles when you do.
+    </stunt>
+    <stunt name="Go For the Throat">
+      When you succeed with style on an attack with Tooth and Claw, spend a fate point to
+      prevent your target from checking a stress box to absorb harm.
+    </stunt>
+    <stunt name="Healing Factor: ☐">
+      Once per scene, spend a fate point to reduce one of your Consequences by one degree of severity
+      (severe to major, major to mild, mild to nothing).
+    </stunt>
+    <stunt name="Infectious">
+      Any Consequence taken from a Tooth &amp; Claw Attack is called Infected; recovery is possible
+      only if treated with an Invention. For every week that goes by without such treatment, the
+      Consequence worsens one level. If it goes beyond Severe, the character begins to transform
+      into a human/bee hybrid, and will fully turn after another week. (Ghouls, DAR pg93)
+    </stunt>
+    <stunt name="Lightning Reflexes">
+      In a physical conflict, you always act first. If someone else in the conflict has a stunt that gives
+      them the same ability, make an Athletics roll to see who goes first.
+    </stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes>
+<!--
+Modes with Athletics or Physique can give your character additional physical stress boxes, while modes with Provoke or Will can give
+your character additional mental stress boxes. A mode with one or more of these skills rated at Fair (+2) adds one box, while one
+rated at Good (+3) adds two boxes.
+
+If a mode has skills that apply to both types, the bonus boxes can apply to either one. For example, the Action mode has Athletics,
+Physique, and Provoke. If you've given it a rating of Good (+3), you could have two more physical stress boxes, two more mental stress
+boxes, or one in each.
+
+Bonus stress boxes from your Good (+3) and Fair (+2) modes are cumulative. So if you have Good (+3) Action and Fair (+2) Intrigue, both
+of which have the Athletics skill, you can get three more physical stress boxes—two from Action and one from Intrigue.
+-->
+ </notes>
+</character>
