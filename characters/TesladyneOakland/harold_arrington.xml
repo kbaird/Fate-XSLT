@@ -47,7 +47,9 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="It Says Right Here in the Field Guide">
+      +2 to Create an Advantage with Rapport on team members when quoting procedures.
+    </stunt>
     <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
@@ -63,5 +65,6 @@
     <!--
       Minor Milestone from rescuing Dmitri: Burglary +1, Notice -1
     -->
+    Still has 1 Minor Milestone (ARRPG225) from stopping the hybrid queen.
   </notes>
 </character>
