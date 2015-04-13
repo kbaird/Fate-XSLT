@@ -62,9 +62,11 @@
           </xsl:choose>
         </div>
         <hr/>
-        <xsl:apply-templates select="experiences"/>
-        <xsl:call-template name="experiences-explanation"/>
-        <hr/>
+        <xsl:if test="experiences/@suppress != 'true'">
+          <xsl:apply-templates select="experiences"/>
+          <xsl:call-template name="experiences-explanation"/>
+          <hr/>
+        </xsl:if>
         <div id="notes">
           <xsl:apply-templates select="notes"/>
         </div>
