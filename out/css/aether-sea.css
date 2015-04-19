@@ -3,7 +3,6 @@
 .favored { color: red; }
 
 div#skills p { font-family: Cabin, Padauk, Montserrat; font-size: 0.7em; }
-div#skills dl#simple dd, div#skills dt { clear: both; display: block; }
 
 fieldset#species { padding-left: 11em; position: relative; text-align: left; }
 fieldset#species { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
