@@ -1,9 +1,4 @@
-@import "approaches_widths"
-@import "print_approaches"
-@import "table_professions"
 @import "assets_and_gadget"
-
-@import "dl_approaches"
 
 fieldset.asset dl
   dt
@@ -18,10 +13,6 @@ span#fate
 
 span#fate-subtitle
   font-size: 0.8em
-
-table
-  #professions
-    +table_professions
 
 @media print and (-webkit-min-device-pixel-ratio:0)
 
@@ -40,10 +31,6 @@ table
       width: 22%
 
   table
-    &#professions
-      +print_approaches
-      tbody tr th.sectionheader
-        font-size: 0.7em
     &#stress tbody tr td
       line-height: 3em
 
