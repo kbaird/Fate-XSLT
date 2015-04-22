@@ -49,6 +49,7 @@
   <consequences>
     <consequence severity="Mild">mild one</consequence>
   </consequences>
+  <hacks stress-base-count="3"/>
   <phase-trio>
     <phase num="1">
       <events>Some events</events>
