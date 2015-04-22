@@ -17,12 +17,12 @@
     <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
   </aspects>
   <professions>
-    <profession rating="1" name="Aristocrat"/>
-    <profession rating="3" name="Engineer"/>
-    <profession rating="2" name="Explorer"/>
     <profession rating="1" name="Fighter"/>
-    <profession rating="2" name="Scholar"/>
-    <profession rating="0" name="Scoundrel"/>
+    <profession rating="3" name="Scholar"/>
+    <profession rating="0" name="Woodsman"/>
+    <profession rating="1" name="Thief"/>
+    <profession rating="2" name="Craftsman"/>
+    <profession rating="2" name="Diplomat"/>
   </professions>
   <extras>
     <extra name="Collegia Arcana Mage"/>
