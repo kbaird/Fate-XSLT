@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Zird the Arcane</charname>
+    <playername>sample Fate Core character</playername>
+    <description>A sharp-featured scholar with a dark triangular beard.</description>
+  </id>
+  <refresh>2</refresh>
+  <current-fate-points>2</current-fate-points>
+  <aspects>
+    <aspect type="High-Concept">Wizard for Hire</aspect>
+    <aspect type="Trouble">Rivals in the Collegia Arcana</aspect>
+    <aspect phase-num="1">If I Haven't Been There, I've Read About It</aspect>
+    <aspect phase-num="2">Not The Face!</aspect>
+    <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="3" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="1" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="0" name="Scoundrel"/>
+  </professions>
+  <extras>
+    <extra name="Collegia Arcana Mage"/>
+  </extras>
+  <stunts>
+    <stunt name="Scholar, Healer">
+    Can make Physical Recovery attempts w/Lore
+  </stunt>
+    <stunt name="Friendly Liar">
+    Can use Rapport in place of Deceive to Create Advantages predicated on a lie.
+  </stunt>
+    <stunt name="The Power of Deduction">
+    Once per scene you can spend a fate point (and a few minutes of observation) to make a
+    special Investigate roll representing your potent deductive faculties. For each shift
+    you make on this roll you discover or create an aspect, on either the scene or the target
+    of your observations, though you may only invoke one of them for free.
+  </stunt>
+    <stunt name="I've Read About That!">
+    You’ve read hundreds—if not thousands—of books on a wide variety of topics. You can spend
+    a fate point to use Lore in place of any other skill for one roll or exchange, provided
+    you can justify having read about the action you’re attempting.
+  </stunt>
+  </stunts>
+  <consequences>
+    <consequence severity="Mild">mild one</consequence>
+  </consequences>
+  <phase-trio>
+    <phase num="1">
+      <events>Some events</events>
+    </phase>
+    <phase num="2">
+      <events>Some events</events>
+    </phase>
+    <phase num="3">
+      <events>Some events</events>
+    </phase>
+  </phase-trio>
+</character>
