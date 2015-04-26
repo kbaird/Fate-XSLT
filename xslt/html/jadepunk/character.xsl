@@ -5,6 +5,7 @@
     <html>
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">jadepunk</xsl:with-param>
+        <xsl:with-param name="moreCSS">professions</xsl:with-param>
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
