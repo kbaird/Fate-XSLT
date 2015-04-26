@@ -40,10 +40,10 @@ class Roll
   end
 
   def format(results_h)
-    results_h.inject({}) do |h,pair|
+    results_h.inject({}) do |memo,pair|
       head, tail = *pair
       new_pair   = {head => tail}
-      h.merge(new_pair)
+      memo.merge(new_pair)
     end
   end
 

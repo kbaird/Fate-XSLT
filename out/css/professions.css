@@ -1,0 +1,16 @@
+div#aspects { width: 60%; }
+div#skills { width: 40%; }
+
+dl.approaches dt { border: 0px; font-size: 1.2em; font-weight: 600; text-transform: uppercase; }
+dl.approaches dd { width: 2.4em; }
+
+table #professions { margin-right: -4em; }
+table #professions tbody tr td dl.approaches dt { font-size: 1em; }
+table #professions tbody tr td dl.approaches dd { font-size: 1em; }
+
+@media print and (-webkit-min-device-pixel-ratio: 0) { div#aspects, div#skills { padding-top: 1em; }
+  table#professions { font-size: 1.7em; }
+  table#professions tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
+  table#professions tbody tr td dl.approaches dt { float: left; font-size: 1em; margin-bottom: -1.3em; margin-top: -0.1em; padding-bottom: -0.2em; }
+  table#professions tbody tr td dl.approaches dd { float: right; font-size: 0.8em; margin-bottom: -1.3em; }
+  table#professions tbody tr th.sectionheader { font-size: 0.7em; } }
