@@ -42,7 +42,23 @@
     <fieldset class="consequence">
       <legend class="severity">
         <span><xsl:value-of select="$label"/></span>
-        <xsl:text>Free ☐ / Recovering? ☐</xsl:text>
+        <xsl:choose>
+          <xsl:when test="@free and @free='false'">
+            <xsl:text>Free ☒</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>Free ☐</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:text> / </xsl:text>
+        <xsl:choose>
+          <xsl:when test="@recovering and @recovering='false'">
+            <xsl:text>Recovering? ☒</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>Recovering? ☐</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
       </legend>
       <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
         <xsl:choose>

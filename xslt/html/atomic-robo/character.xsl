@@ -62,11 +62,15 @@
           </xsl:choose>
         </div>
         <hr/>
-        <xsl:if test="experiences/@suppress != 'true'">
-          <xsl:apply-templates select="experiences"/>
-          <xsl:call-template name="experiences-explanation"/>
-          <hr/>
-        </xsl:if>
+        <xsl:choose>
+          <xsl:when test="experiences/@suppress and experiences/@suppress='true'">
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:apply-templates select="experiences"/>
+            <xsl:call-template name="experiences-explanation"/>
+            <hr/>
+          </xsl:otherwise>
+        </xsl:choose>
         <div id="notes">
           <xsl:apply-templates select="notes"/>
         </div>

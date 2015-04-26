@@ -44,10 +44,12 @@
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
+        <!ATTLIST consequence free (true|false) "true">
+        <!ATTLIST consequence recovering (true|false) "true">
         <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
 
     <!ELEMENT experiences (experience*)>
-      <!ATTLIST experience suppress (true|false) "false">
+      <!ATTLIST experiences suppress (true|false) "false">
       <!ELEMENT experience (#PCDATA)>
       <!ATTLIST experience used (true|false) "false">
 
