@@ -44,10 +44,12 @@
     </mode>
  </skills>
   <stunts>
+    <stunt name="Breakneck Driver">
+      +2 to Overcome with Vehicles when involved in a chase.
+    </stunt>
     <stunt name="Look Into My Eye">
       Use Provoke to defend against threats and other fear-based attacks that deal mental harm.
     </stunt>
-    <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
@@ -60,6 +62,7 @@
   </experiences>
   <notes>
     Still has 1 Minor Milestone (ARRPG225) from stopping the hybrid queen.
+    Still has 1 Minor Milestone (ARRPG225) from rescuing Dr. Chang from The Rock.
     Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
     * Specialize one trained skill.
     * Focus one trained skill and specialize one focused skill.
