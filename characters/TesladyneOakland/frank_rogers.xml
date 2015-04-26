@@ -56,7 +56,7 @@
     </stunt>
   </stunts>
   <consequences>
-    <consequence recovering="true" severity="Mild">Infected</consequence>
+    <consequence free="false" recovering="true" severity="Mild">Infected</consequence>
   </consequences>
   <experiences>
     <experience/>

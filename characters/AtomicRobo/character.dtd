@@ -45,7 +45,7 @@
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
         <!ATTLIST consequence free (true|false) "true">
-        <!ATTLIST consequence recovering (true|false) "true">
+        <!ATTLIST consequence recovering (true|false) "false">
         <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
 
     <!ELEMENT experiences (experience*)>
