@@ -21,6 +21,7 @@
       <!ATTLIST profession rating CDATA #REQUIRED>
 
     <!ELEMENT skills (mode*, skill*)>
+    <!ATTLIST skills shape (flat|pyramid) "pyramid">
       <!ELEMENT mode (skill*)>
       <!ATTLIST mode name   CDATA #REQUIRED>
       <!ATTLIST mode rating CDATA #REQUIRED>
@@ -31,7 +32,7 @@
 
     <!ELEMENT extras (extra*, gadget*)>
       <!ELEMENT extra (#PCDATA)>
-        <!ATTLIST extra name CDATA #REQUIRED>
+        <!ATTLIST extra name CDATA #IMPLIED>
       <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
       <!-- benefits instead of stunts for ease of integration with ARRPG -->
       <!ATTLIST gadget name CDATA #REQUIRED>
@@ -56,6 +57,7 @@
       <!ATTLIST hacks conditions  (true|false) "false"> <!-- Fate System Toolkit     -->
       <!ATTLIST hacks corruption  (true|false) "false"> <!-- Fate Freeport Companion -->
       <!ATTLIST hacks skill-modes (true|false) "false"> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks stress-base-count CDATA #IMPLIED>
 
     <!ELEMENT phase-trio (phase*)>
       <!ELEMENT phase (events*)>
