@@ -80,7 +80,7 @@
     </gadget>
   </stunts>
   <consequences/>
-  <experiences>
+  <experiences suppress="true">
     <experience/>
     <experience/>
     <experience/>
