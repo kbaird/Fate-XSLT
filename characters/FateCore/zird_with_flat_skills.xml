@@ -17,31 +17,31 @@
     <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
   </aspects>
   <skills shape="flat">
-    <skill rating="1" name="Fighter"/>
-    <skill rating="3" name="Scholar"/>
+    <skill rating="1" name="Fight"/>
+    <skill rating="3" name="Study"/>
     <skill rating="0" name="Woodsman"/>
-    <skill rating="1" name="Thief"/>
-    <skill rating="2" name="Craftsman"/>
-    <skill rating="2" name="Diplomat"/>
+    <skill rating="1" name="Thievery"/>
+    <skill rating="2" name="Crafts"/>
+    <skill rating="2" name="Diplomacy"/>
   </skills>
   <extras>
     <extra name="Collegia Arcana Mage">
-      Allows the use of Scholar for loosely-defined magical actions.
+      Allows the use of Study for loosely-defined magical actions.
     </extra>
   </extras>
   <stunts>
     <stunt name="Scholar, Healer">
-    Can make Physical Recovery attempts w/Scholar
+    Can make Physical Recovery attempts w/Study
   </stunt>
     <stunt name="The Power of Deduction">
     Once per scene you can spend a fate point (and a few minutes of observation) to make a
-    special Scholar roll representing your potent deductive faculties. For each shift
+    special Study roll representing your potent deductive faculties. For each shift
     you make on this roll you discover or create an aspect, on either the scene or the target
     of your observations, though you may only invoke one of them for free.
   </stunt>
     <stunt name="I've Read About That!">
     You’ve read hundreds—if not thousands—of books on a wide variety of topics. You can spend
-    a fate point to use Scholar in place of any other skill for one roll or exchange, provided
+    a fate point to use Study in place of any other skill for one roll or exchange, provided
     you can justify having read about the action you’re attempting.
   </stunt>
   </stunts>
