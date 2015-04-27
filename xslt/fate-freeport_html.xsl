@@ -4,7 +4,6 @@
   <xsl:include href="html/fcs/fcs_common.xsl"/>
   <xsl:include href="html/fate-common/stunts.xsl"/>
   <xsl:include href="html/fcs/phase-trio.xsl"/>
-  <xsl:include href="html/fate-freeport/skills.xsl"/>
   <xsl:include href="html/fate-freeport/stress.xsl"/>
   <xsl:template match="/">
     <xsl:apply-templates select="character">
