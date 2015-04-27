@@ -26,9 +26,9 @@
     <mode rating="3" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
       <skill name="Contacts" cost="1"/>
       <skill name="Deceive"  cost="2"/>
-      <skill name="Empathy"  cost="3" add="2"/>
+      <skill name="Empathy"  cost="3" add="1"/>
       <skill name="Provoke"  cost="1"/>
-      <skill name="Rapport"  cost="1" add="1"/>
+      <skill name="Rapport"  cost="1" add="2"/>
       <skill name="Will"     cost="1"/>
     </mode>
     <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
@@ -64,7 +64,8 @@
   <notes>
     <!--
       Minor Milestone from rescuing Dmitri: Burglary +1, Notice -1
+      Minor Milestone from stopping the Hybrid Queen: Rapport +1, Empathy -1
     -->
-    Still has 1 Minor Milestone (ARRPG225) from stopping the hybrid queen.
+    Still has 1 Minor Milestone (ARRPG225) from rescuing Dr. Chang from The Rock.
   </notes>
 </character>
