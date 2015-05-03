@@ -8,7 +8,7 @@
   <xsl:template match="/">
     <xsl:apply-templates select="character">
       <xsl:with-param name="moreCSS">
-        <xsl:if test="/character/professions">professions</xsl:if>
+        <xsl:if test="/character/professions or /character/skills/@shape='flat'">professions</xsl:if>
       </xsl:with-param>
     </xsl:apply-templates>
   </xsl:template>

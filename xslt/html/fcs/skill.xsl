@@ -17,4 +17,10 @@
       </tr>
     </xsl:if>
   </xsl:template>
+  <xsl:template match="skill" mode="flat">
+    <dl class="approaches">
+      <dt><xsl:value-of select="@name"/></dt>
+      <dd>+<xsl:value-of select="@rating"/></dd>
+    </dl>
+  </xsl:template>
 </xsl:stylesheet>
