@@ -31,9 +31,8 @@
   <assets>
     <asset function="Red Jade Revolver" name="Clockwork Firearm" type="Device">
       <features>
-        <feature effect="3" type="Harmful"/>
-        <feature effect="2" type="Numerous"/>
-        <!-- 2 revolvers -->
+        <feature type="Harmful"  value="3"/>
+        <feature type="Numerous" effect="2 revolvers"/>
       </features>
       <flaws>
         <flaw type="Demanding" effect="(requires an action to reload after a lot of shooting)"/>

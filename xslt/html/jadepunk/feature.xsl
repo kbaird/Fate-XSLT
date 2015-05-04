@@ -12,6 +12,9 @@
         <xsl:text> +</xsl:text>
         <xsl:value-of select="@value"/>
       </xsl:when>
+      <xsl:when test="@type='Harmful'">
+        <xsl:value-of select="@value"/>
+      </xsl:when>
       <xsl:when test="@type='Independent'">
         <xsl:text>Can act independently w/o the expenditure of a Fate Point</xsl:text>
       </xsl:when>
