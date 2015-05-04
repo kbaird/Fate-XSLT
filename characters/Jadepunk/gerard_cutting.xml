@@ -29,7 +29,7 @@
     <profession rating="0" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset cost="2" function="Red Jade Revolver" name="Clockwork Firearm" type="Device">
+    <asset function="Red Jade Revolver" name="Clockwork Firearm" type="Device">
       <features>
         <feature effect="3" type="Harmful"/>
         <feature effect="2" type="Numerous"/>
@@ -39,7 +39,7 @@
         <flaw type="Demanding" effect="(requires an action to reload after a lot of shooting)"/>
       </flaws>
     </asset>
-    <asset cost="1" guiding-aspect="Portrayal" name="Crackshot" type="Technique">
+    <asset guiding-aspect="Portrayal" name="Crackshot" type="Technique">
       <features>
         <feature type="Focus" effect="Fighter +2"/>
       </features>
@@ -47,7 +47,7 @@
         <flaw type="Situational" effect="Only with a Clockwork Firearm"/>
       </flaws>
     </asset>
-    <asset cost="1" guiding-aspect="Background" name="Jadetech Inventor" type="Technique">
+    <asset guiding-aspect="Background" name="Jadetech Inventor" type="Technique">
       <features>
         <feature type="Focus" effect="Engineer +2"/>
       </features>

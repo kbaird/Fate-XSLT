@@ -21,7 +21,6 @@
 
   <!ELEMENT assets (asset*)>
     <!ELEMENT asset (features*, flaws*)>
-    <!ATTLIST asset cost           CDATA #REQUIRED>
     <!ATTLIST asset function       CDATA #IMPLIED>
     <!ATTLIST asset guiding-aspect CDATA #IMPLIED>
     <!ATTLIST asset name           CDATA #REQUIRED>

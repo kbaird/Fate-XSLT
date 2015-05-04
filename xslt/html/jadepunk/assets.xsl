@@ -14,12 +14,43 @@
     </table>
   </xsl:template>
   <xsl:template match="asset">
+    <xsl:variable name="assetCost">
+      <xsl:variable name="featuresCost">
+        <xsl:variable name="baseFeaturesCost">
+          <xsl:value-of select="count(features/feature)"/>
+        </xsl:variable>
+        <xsl:variable name="moreFeaturesCost">
+          <xsl:variable name="exceptionalCost">
+            <xsl:value-of select="count(features/feature[@type='Exceptional'])"/>
+          </xsl:variable>
+          <xsl:variable name="flexibleCost">
+            <xsl:value-of select="count(features/feature[@type='Flexible'])"/>
+          </xsl:variable>
+          <xsl:variable name="protectiveCost">
+            <xsl:value-of select="count(features/feature[@type='Protective'])"/>
+          </xsl:variable>
+          <xsl:value-of select="$exceptionalCost + $flexibleCost + $protectiveCost"/>
+        </xsl:variable>
+        <xsl:value-of select="$baseFeaturesCost + $moreFeaturesCost"/>
+      </xsl:variable>
+      <xsl:variable name="flawsCost">
+        <xsl:variable name="baseFlawsCost">
+          <xsl:value-of select="count(flaws/flaw)"/>
+        </xsl:variable>
+        <xsl:variable name="moreFlawsCost">
+          <xsl:value-of select="count(flaws/flaw[@type='Consuming'])"/>
+        </xsl:variable>
+        <xsl:value-of select="$baseFlawsCost + $moreFlawsCost"/>
+      </xsl:variable>
+      <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw -->
+      <xsl:value-of select="1 + ($featuresCost - 2) - ($flawsCost - 1)"/>
+    </xsl:variable>
     <tr>
       <td>
         <fieldset class="asset">
           <dl>
             <dt>Refresh Cost:</dt>
-            <dd><xsl:value-of select="@cost"/></dd>
+            <dd><xsl:value-of select="$assetCost"/></dd>
             <dt>Name:</dt>
             <dd><xsl:value-of select="@name"/></dd>
             <dt>Type:</dt>
