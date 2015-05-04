@@ -20,8 +20,8 @@
           <xsl:variable name="focusCost">
             <xsl:variable name="focusValue">
               <xsl:choose>
-                <xsl:when test="features/feature[@type='Focus'][@value]">
-                  <xsl:value-of select="sum(features/feature[@type='Focus']/@value)"/>
+                <xsl:when test="features/feature[@type='Focus'][@bonus]">
+                  <xsl:value-of select="sum(features/feature[@type='Focus']/@bonus)"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:value-of select="1"/>
@@ -33,8 +33,8 @@
           <xsl:variable name="harmfulCost">
             <xsl:variable name="harmfulValue">
               <xsl:choose>
-                <xsl:when test="features/feature[@type='Harmful'][@value]">
-                  <xsl:value-of select="sum(features/feature[@type='Harmful']/@value)"/>
+                <xsl:when test="features/feature[@type='Harmful'][@bonus]">
+                  <xsl:value-of select="sum(features/feature[@type='Harmful']/@bonus)"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:value-of select="1"/>

@@ -34,7 +34,8 @@
       #REQUIRED>
       <!-- Specifically for Focus: -->
       <!ATTLIST feature profession CDATA #IMPLIED>
-      <!ATTLIST feature value      CDATA #IMPLIED>
+      <!-- Specifically for Focus and Harmful: -->
+      <!ATTLIST feature bonus      CDATA #IMPLIED>
 
     <!ELEMENT flaws (flaw*)>
       <!ELEMENT flaw (#PCDATA)>

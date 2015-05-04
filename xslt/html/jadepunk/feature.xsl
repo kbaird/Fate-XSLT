@@ -10,10 +10,10 @@
       <xsl:when test="@type='Focus'">
         <xsl:value-of select="@profession"/>
         <xsl:text> +</xsl:text>
-        <xsl:value-of select="@value"/>
+        <xsl:value-of select="@bonus"/>
       </xsl:when>
       <xsl:when test="@type='Harmful'">
-        <xsl:value-of select="@value"/>
+        <xsl:value-of select="@bonus"/>
       </xsl:when>
       <xsl:when test="@type='Independent'">
         <xsl:text>Can act independently w/o the expenditure of a Fate Point</xsl:text>

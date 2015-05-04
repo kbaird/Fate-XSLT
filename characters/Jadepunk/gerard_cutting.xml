@@ -31,7 +31,7 @@
   <assets>
     <asset function="Red Jade Revolver" name="Clockwork Firearm" type="Device">
       <features>
-        <feature type="Harmful"  value="3"/>
+        <feature type="Harmful"  bonus="3"/>
         <feature type="Numerous" effect="2 revolvers"/>
       </features>
       <flaws>
@@ -40,7 +40,7 @@
     </asset>
     <asset guiding-aspect="Portrayal" name="Crackshot" type="Technique">
       <features>
-        <feature type="Focus" profession="Fighter" value="2"/>
+        <feature type="Focus" profession="Fighter" bonus="2"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only with a Clockwork Firearm"/>
@@ -48,7 +48,7 @@
     </asset>
     <asset guiding-aspect="Background" name="Jadetech Inventor" type="Technique">
       <features>
-        <feature type="Focus" profession="Engineer" value="2"/>
+        <feature type="Focus" profession="Engineer" bonus="2"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when creating temporary Device assets"/>
