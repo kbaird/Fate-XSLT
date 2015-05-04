@@ -26,10 +26,36 @@
           <xsl:variable name="flexibleCost">
             <xsl:value-of select="count(features/feature[@type='Flexible'])"/>
           </xsl:variable>
+          <xsl:variable name="focusCost">
+            <xsl:variable name="focusEffect">
+              <xsl:choose>
+                <xsl:when test="features/feature[@type='Focus'][@value]">
+                  <xsl:value-of select="sum(features/feature[@type='Focus']/@value)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="1"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:value-of select="$focusEffect - 1"/>
+          </xsl:variable>
+          <xsl:variable name="harmfulCost">
+            <xsl:variable name="harmfulEffect">
+              <xsl:choose>
+                <xsl:when test="features/feature[@type='Harmful'][@effect]">
+                  <xsl:value-of select="sum(features/feature[@type='Harmful']/@effect)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="1"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:value-of select="$harmfulEffect - 1"/>
+          </xsl:variable>
           <xsl:variable name="protectiveCost">
             <xsl:value-of select="count(features/feature[@type='Protective'])"/>
           </xsl:variable>
-          <xsl:value-of select="$exceptionalCost + $flexibleCost + $protectiveCost"/>
+          <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $protectiveCost"/>
         </xsl:variable>
         <xsl:value-of select="$baseFeaturesCost + $moreFeaturesCost"/>
       </xsl:variable>
@@ -42,8 +68,8 @@
         </xsl:variable>
         <xsl:value-of select="$baseFlawsCost + $moreFlawsCost"/>
       </xsl:variable>
-      <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw -->
-      <xsl:value-of select="1 + ($featuresCost - 2) - ($flawsCost - 1)"/>
+      <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw, 2 Features / Refresh after that -->
+      <xsl:value-of select="1 + ((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
     </xsl:variable>
     <tr>
       <td>

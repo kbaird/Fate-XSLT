@@ -41,7 +41,7 @@
     </asset>
     <asset guiding-aspect="Portrayal" name="Crackshot" type="Technique">
       <features>
-        <feature type="Focus" effect="Fighter +2"/>
+        <feature type="Focus" profession="Fighter" value="2"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only with a Clockwork Firearm"/>
@@ -49,7 +49,7 @@
     </asset>
     <asset guiding-aspect="Background" name="Jadetech Inventor" type="Technique">
       <features>
-        <feature type="Focus" effect="Engineer +2"/>
+        <feature type="Focus" profession="Engineer" value="2"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when creating temporary Device assets"/>

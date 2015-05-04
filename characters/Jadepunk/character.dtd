@@ -28,10 +28,13 @@
 
     <!ELEMENT features (feature*)>
       <!ELEMENT feature (#PCDATA)>
-      <!ATTLIST feature effect CDATA #IMPLIED>
+      <!ATTLIST feature effect     CDATA #IMPLIED>
       <!ATTLIST feature type
         (Aspect|Exceptional|Flexible|Focus|Harmful|Independent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
       #REQUIRED>
+      <!-- Specifically for Focus: -->
+      <!ATTLIST feature profession CDATA #IMPLIED>
+      <!ATTLIST feature value      CDATA #IMPLIED>
 
     <!ELEMENT flaws (flaw*)>
       <!ELEMENT flaw (#PCDATA)>
