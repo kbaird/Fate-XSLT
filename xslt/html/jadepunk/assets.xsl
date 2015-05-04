@@ -69,7 +69,7 @@
         <xsl:value-of select="$baseFlawsCost + $moreFlawsCost"/>
       </xsl:variable>
       <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw, 2 Features / Refresh after that -->
-      <xsl:value-of select="1 + ((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
+      <xsl:value-of select="1 + ceiling((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
     </xsl:variable>
     <tr>
       <td>
