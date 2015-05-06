@@ -11,8 +11,7 @@
       "rivers and lakes"), and uses his resources and power to assist them.
     </story>
   </id>
-  <refresh>4</refresh>
-  <current-fate-points>4</current-fate-points>
+  <refresh current="4">4</refresh>
   <aspects>
     <aspect type="Portrayal">Councilor of the 江湖</aspect>
     <aspect type="Background">Naramel Representative on the Council of Nine</aspect>

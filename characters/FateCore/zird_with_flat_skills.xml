@@ -7,8 +7,7 @@
     <playername>sample Fate Core character</playername>
     <description>A sharp-featured scholar with a dark triangular beard.</description>
   </id>
-  <refresh>2</refresh>
-  <current-fate-points>2</current-fate-points>
+  <refresh current="2">2</refresh>
   <aspects>
     <aspect type="High-Concept">Wizard for Hire</aspect>
     <aspect type="Trouble">Rivals in the Collegia Arcana</aspect>
