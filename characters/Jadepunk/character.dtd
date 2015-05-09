@@ -21,7 +21,6 @@
 
   <!ELEMENT assets (asset*)>
     <!ELEMENT asset (features*, flaws*)>
-    <!ATTLIST asset cost           CDATA #REQUIRED>
     <!ATTLIST asset function       CDATA #IMPLIED>
     <!ATTLIST asset guiding-aspect CDATA #IMPLIED>
     <!ATTLIST asset name           CDATA #REQUIRED>
@@ -29,10 +28,14 @@
 
     <!ELEMENT features (feature*)>
       <!ELEMENT feature (#PCDATA)>
-      <!ATTLIST feature effect CDATA #IMPLIED>
+      <!ATTLIST feature effect     CDATA #IMPLIED>
       <!ATTLIST feature type
         (Aspect|Exceptional|Flexible|Focus|Harmful|Independent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
       #REQUIRED>
+      <!-- Specifically for Focus: -->
+      <!ATTLIST feature profession CDATA #IMPLIED>
+      <!-- Specifically for Focus and Harmful: -->
+      <!ATTLIST feature bonus      CDATA #IMPLIED>
 
     <!ELEMENT flaws (flaw*)>
       <!ELEMENT flaw (#PCDATA)>
