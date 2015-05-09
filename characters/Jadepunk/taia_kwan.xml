@@ -28,7 +28,7 @@
     <profession rating="2" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset cost="2" function="Green Jade Tattoo of Protection" name="Jade Tattoo" type="Device">
+    <asset function="Green Jade Tattoo of Protection" name="Jade Tattoo" type="Device">
       <features>
         <feature effect="1" type="Protective"/>
         <feature effect="2" type="Sturdy"/>
@@ -37,7 +37,7 @@
         <flaw type="Troubling" effect="Easily Identifiable"/>
       </flaws>
     </asset>
-    <asset cost="1" function="My Mentor's Sword" name="Jian Longsword" type="Device">
+    <asset function="My Mentor's Sword" name="Jian Longsword" type="Device">
       <features>
         <feature effect="2" type="Harmful"/>
       </features>
@@ -45,7 +45,7 @@
         <flaw type="Troubling" effect="It's Illegal to Own a Guardsman's Blade"/>
       </flaws>
     </asset>
-    <asset cost="1" guiding-aspect="Portrayal" name="Jirai Mastery" type="Technique">
+    <asset guiding-aspect="Portrayal" name="Jirai Mastery" type="Technique">
       <features>
         <feature type="Focus" effect="Fighter +2"/>
       </features>
