@@ -11,8 +11,7 @@
       "rivers and lakes") when he witnessed a Watchmen kill a man in cold blood.
     </story>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="Portrayal">Jadetech Gunslinger</aspect>
     <aspect type="Background">Apprenticed on Kinardbal</aspect>

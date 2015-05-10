@@ -8,8 +8,7 @@
     <playername>sample SotC character</playername>
     <archetype>Spirit Centurion</archetype>
   </id>
-  <refresh>10</refresh>
-  <current-fate-points>10</current-fate-points>
+  <refresh current="10">10</refresh>
   <aspects>
     <aspect phase-num="1">Motorhead</aspect>
     <aspect phase-num="1">Unspoken Love (Sally)</aspect>

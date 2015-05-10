@@ -21,7 +21,6 @@
       </tr>
       <tr>
         <xsl:call-template name="refresh"/>
-        <xsl:call-template name="current-fate-points"/>
       </tr>
     </table>
   </xsl:template>

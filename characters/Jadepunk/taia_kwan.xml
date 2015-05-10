@@ -11,8 +11,7 @@
    illegal or not. The Governor be damned.
   </story>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="Portrayal">Youthful Martial Arts Master</aspect>
     <aspect type="Background">I Grew Up On the Streets of Kausao City</aspect>
