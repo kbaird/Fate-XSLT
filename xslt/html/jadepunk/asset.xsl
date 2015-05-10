@@ -85,6 +85,10 @@
             </xsl:if>
             <xsl:apply-templates select="features/feature"/>
             <xsl:apply-templates select="flaws/flaw"/>
+            <xsl:if test=".">
+              <dt>Notes:</dt>
+              <dd><xsl:value-of select="."/></dd>
+            </xsl:if>
           </dl>
         </fieldset>
       </td>
