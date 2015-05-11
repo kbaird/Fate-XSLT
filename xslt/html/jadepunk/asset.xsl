@@ -60,7 +60,7 @@
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
-            <xsl:value-of select="(2 * $protectiveValue) - 1"/>
+            <xsl:value-of select="2 * ($protectiveValue - 1)"/>
           </xsl:variable>
 
           <xsl:variable name="sturdyCost">
