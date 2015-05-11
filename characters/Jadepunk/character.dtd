@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, aspects, professions, assets, consequences?, notes?)>
+<!ELEMENT character (id, refresh, aspects, professions, assets, consequences?)>
 
   <!ELEMENT id (charname, playername, story)>
     <!ELEMENT charname (#PCDATA)>
@@ -20,7 +20,7 @@
     <!ATTLIST profession rating CDATA #REQUIRED>
 
   <!ELEMENT assets (asset*)>
-    <!ELEMENT asset (features*, flaws*)>
+    <!ELEMENT asset (features*, flaws*, notes?)>
     <!ATTLIST asset function       CDATA #IMPLIED>
     <!ATTLIST asset guiding-aspect CDATA #IMPLIED>
     <!ATTLIST asset name           CDATA #REQUIRED>
@@ -42,9 +42,9 @@
       <!ATTLIST flaw effect CDATA #IMPLIED>
       <!ATTLIST flaw type (Consuming|Demanding|Limited|Situational|Troubling) #REQUIRED>
 
+    <!ELEMENT notes (#PCDATA)>
+
   <!ELEMENT consequences (consequence*)>
     <!ELEMENT consequence (#PCDATA)>
       <!ATTLIST consequence effect CDATA #IMPLIED>
       <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
-
-  <!ELEMENT notes (#PCDATA)>

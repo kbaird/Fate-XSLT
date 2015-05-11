@@ -4,19 +4,23 @@
   <xsl:include href="feature.xsl"/>
   <xsl:include href="flaw.xsl"/>
   <xsl:include href="guiding-aspect.xsl"/>
+  <xsl:include href="notes.xsl"/>
   <xsl:template match="asset">
     <xsl:variable name="assetCost">
       <xsl:variable name="featuresCost">
         <xsl:variable name="baseFeaturesCost">
           <xsl:value-of select="count(features/feature)"/>
         </xsl:variable>
+
         <xsl:variable name="moreFeaturesCost">
           <xsl:variable name="exceptionalCost">
             <xsl:value-of select="count(features/feature[@type='Exceptional'])"/>
           </xsl:variable>
+
           <xsl:variable name="flexibleCost">
             <xsl:value-of select="count(features/feature[@type='Flexible'])"/>
           </xsl:variable>
+
           <xsl:variable name="focusCost">
             <xsl:variable name="focusValue">
               <xsl:choose>
@@ -30,6 +34,7 @@
             </xsl:variable>
             <xsl:value-of select="$focusValue - 1"/>
           </xsl:variable>
+
           <xsl:variable name="harmfulCost">
             <xsl:variable name="harmfulValue">
               <xsl:choose>
@@ -43,13 +48,40 @@
             </xsl:variable>
             <xsl:value-of select="$harmfulValue - 1"/>
           </xsl:variable>
+
           <xsl:variable name="protectiveCost">
-            <xsl:value-of select="count(features/feature[@type='Protective'])"/>
+            <xsl:variable name="protectiveValue">
+              <xsl:choose>
+                <xsl:when test="features/feature[@type='Protective'][@effect]">
+                  <xsl:value-of select="sum(features/feature[@type='Protective']/@effect)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="1"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:value-of select="(2 * $protectiveValue) - 1"/>
           </xsl:variable>
-          <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $protectiveCost"/>
+
+          <xsl:variable name="sturdyCost">
+            <xsl:variable name="sturdyValue">
+              <xsl:choose>
+                <xsl:when test="features/feature[@type='Sturdy'][@effect]">
+                  <xsl:value-of select="sum(features/feature[@type='Sturdy']/@effect)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="1"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:value-of select="$sturdyValue - 1"/>
+          </xsl:variable>
+
+          <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $protectiveCost + $sturdyCost"/>
         </xsl:variable>
         <xsl:value-of select="$baseFeaturesCost + $moreFeaturesCost"/>
       </xsl:variable>
+
       <xsl:variable name="flawsCost">
         <xsl:variable name="baseFlawsCost">
           <xsl:value-of select="count(flaws/flaw)"/>
@@ -85,10 +117,7 @@
             </xsl:if>
             <xsl:apply-templates select="features/feature"/>
             <xsl:apply-templates select="flaws/flaw"/>
-            <xsl:if test="string-length(normalize-space(.)) &gt; 0">
-              <dt>Notes:</dt>
-              <dd><xsl:value-of select="."/></dd>
-            </xsl:if>
+            <xsl:apply-templates select="notes"/>
           </dl>
         </fieldset>
       </td>
