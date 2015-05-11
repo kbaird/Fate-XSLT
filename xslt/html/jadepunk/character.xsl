@@ -14,8 +14,13 @@
         </div>
         <div id="fate-logo">
           <span id="fate">
-            <img id="jadepunk-logo" src="./jadepunk.jpg"/>
+            <img id="jadepunk-logo" src="./jadepunk306w120h.png" style="height:80px"/>
           </span>
+          <table>
+            <tr>
+              <xsl:call-template name="refresh"/>
+            </tr>
+          </table>
         </div>
         <hr/>
         <div id="aspects">
