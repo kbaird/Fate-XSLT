@@ -24,7 +24,7 @@
         <xsl:value-of select="@bonus"/>
       </xsl:when>
       <xsl:when test="@type='Resilient'">
-        <xsl:text>+1 Mild Consequence slot</xsl:text>
+        <xsl:text>Mild Consequence: ☐ __________</xsl:text>
       </xsl:when>
       <xsl:when test="@type='Sturdy' and ../../@type='Ally'">
         <xsl:value-of select="@bonus"/>
