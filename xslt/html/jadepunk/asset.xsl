@@ -74,7 +74,7 @@
             <xsl:variable name="protectiveValue">
               <xsl:choose>
                 <xsl:when test="features/feature[@type='Protective'][@effect]">
-                  <xsl:value-of select="sum(features/feature[@type='Protective']/@effect)"/>
+                  <xsl:value-of select="sum(features/feature[@type='Protective']/@effect) + 1"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:value-of select="1"/>
@@ -147,12 +147,8 @@
       <td>
         <fieldset class="asset">
           <dl>
-            <dt>Refresh Cost:</dt>
-            <dd><xsl:value-of select="$assetCost"/></dd>
-            <dt>Name:</dt>
-            <dd><xsl:value-of select="@name"/></dd>
-            <dt>Type:</dt>
-            <dd><xsl:value-of select="@type"/></dd>
+              <dt>Name:</dt>
+              <dd><xsl:value-of select="@name"/> (<xsl:value-of select="@type"/>) [<xsl:value-of select="$assetCost"/>]</dd>
             <xsl:if test="@function">
               <dt>Function:</dt>
               <dd><xsl:value-of select="@function"/></dd>

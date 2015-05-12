@@ -19,9 +19,6 @@
           </fieldset>
         </td>
       </tr>
-      <tr>
-        <xsl:call-template name="refresh"/>
-      </tr>
     </table>
   </xsl:template>
 </xsl:stylesheet>
