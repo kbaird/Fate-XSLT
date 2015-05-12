@@ -147,12 +147,8 @@
       <td>
         <fieldset class="asset">
           <dl>
-            <dt>Refresh Cost:</dt>
-            <dd><xsl:value-of select="$assetCost"/></dd>
-            <dt>Name:</dt>
-            <dd><xsl:value-of select="@name"/></dd>
-            <dt>Type:</dt>
-            <dd><xsl:value-of select="@type"/></dd>
+              <dt>Name:</dt>
+              <dd><xsl:value-of select="@name"/> (<xsl:value-of select="@type"/>) [<xsl:value-of select="$assetCost"/>]</dd>
             <xsl:if test="@function">
               <dt>Function:</dt>
               <dd><xsl:value-of select="@function"/></dd>
