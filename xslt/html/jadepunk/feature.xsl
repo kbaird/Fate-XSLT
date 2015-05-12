@@ -18,8 +18,17 @@
       <xsl:when test="@type='Independent'">
         <xsl:text>Can act independently w/o the expenditure of a Fate Point</xsl:text>
       </xsl:when>
+      <xsl:when test="@type='Professional'">
+        <xsl:value-of select="@profession"/>
+        <xsl:text> +</xsl:text>
+        <xsl:value-of select="@bonus"/>
+      </xsl:when>
       <xsl:when test="@type='Resilient'">
         <xsl:text>+1 Mild Consequence slot</xsl:text>
+      </xsl:when>
+      <xsl:when test="@type='Sturdy' and ../../@type='Ally'">
+        <xsl:value-of select="@bonus"/>
+        <xsl:text> Stress Box(es)</xsl:text>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose></dd>

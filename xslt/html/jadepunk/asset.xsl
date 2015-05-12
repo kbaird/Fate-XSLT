@@ -49,6 +49,27 @@
             <xsl:value-of select="$harmfulValue - 1"/>
           </xsl:variable>
 
+          <xsl:variable name="professionalCost">
+            <xsl:variable name="professionalValue">
+              <xsl:choose>
+                <xsl:when test="features/feature[@type='Professional'][@effect]">
+                  <xsl:value-of select="sum(features/feature[@type='Professional']/@effect)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:choose>
+                    <xsl:when test="@type='Ally'">
+                      <xsl:value-of select="0"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="1"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:value-of select="$professionalValue - 1"/>
+          </xsl:variable>
+
           <xsl:variable name="protectiveCost">
             <xsl:variable name="protectiveValue">
               <xsl:choose>
@@ -63,6 +84,27 @@
             <xsl:value-of select="2 * ($protectiveValue - 1)"/>
           </xsl:variable>
 
+          <xsl:variable name="resilientCost">
+            <xsl:variable name="resilientValue">
+              <xsl:choose>
+                <xsl:when test="features/feature[@type='Resilient'][@effect]">
+                  <xsl:value-of select="sum(features/feature[@type='Resilient']/@effect)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:choose>
+                    <xsl:when test="@type='Ally'">
+                      <xsl:value-of select="0"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="1"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:value-of select="$resilientValue - 1"/>
+          </xsl:variable>
+
           <xsl:variable name="sturdyCost">
             <xsl:variable name="sturdyValue">
               <xsl:choose>
@@ -70,14 +112,21 @@
                   <xsl:value-of select="sum(features/feature[@type='Sturdy']/@effect)"/>
                 </xsl:when>
                 <xsl:otherwise>
-                  <xsl:value-of select="1"/>
+                  <xsl:choose>
+                    <xsl:when test="@type='Ally'">
+                      <xsl:value-of select="0"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="1"/>
+                    </xsl:otherwise>
+                  </xsl:choose>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
             <xsl:value-of select="$sturdyValue - 1"/>
           </xsl:variable>
 
-          <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $protectiveCost + $sturdyCost"/>
+          <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $professionalCost + $protectiveCost + $resilientCost + $sturdyCost"/>
         </xsl:variable>
         <xsl:value-of select="$baseFeaturesCost + $moreFeaturesCost"/>
       </xsl:variable>
