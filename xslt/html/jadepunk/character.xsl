@@ -14,7 +14,7 @@
         </div>
         <div id="fate-logo">
           <span id="fate">
-            <img id="jadepunk-logo" src="./jadepunk306w120h.png" style="height:80px"/>
+            <img id="jadepunk-logo" src="./jadepunk306w120h.png"/>
           </span>
           <table>
             <tr>
