@@ -37,7 +37,10 @@
       </xsl:when>
       <xsl:when test="@type='Sturdy' and ../../@type='Ally'">
         <xsl:value-of select="@bonus"/>
-        <xsl:text> Stress Box(es)</xsl:text>
+        <xsl:text> Stress Box</xsl:text>
+        <xsl:if test="@bonus &gt; 1">
+          <xsl:text>es</xsl:text>
+        </xsl:if>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose></dd>
