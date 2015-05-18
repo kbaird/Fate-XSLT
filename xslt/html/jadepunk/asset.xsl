@@ -49,6 +49,20 @@
             <xsl:value-of select="$harmfulValue - 1"/>
           </xsl:variable>
 
+          <xsl:variable name="numerousCost">
+            <xsl:variable name="numerousValue">
+              <xsl:choose>
+                <xsl:when test="features/feature[@type='Numerous'][@bonus]">
+                  <xsl:value-of select="sum(features/feature[@type='Numerous']/@bonus)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="1"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:value-of select="$numerousValue - 1"/>
+          </xsl:variable>
+
           <xsl:variable name="professionalCost">
             <xsl:variable name="professionalValue">
               <xsl:choose>
@@ -126,7 +140,7 @@
             <xsl:value-of select="$sturdyValue - 1"/>
           </xsl:variable>
 
-          <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $professionalCost + $protectiveCost + $resilientCost + $sturdyCost"/>
+          <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $numerousCost + $professionalCost + $protectiveCost + $resilientCost + $sturdyCost"/>
         </xsl:variable>
         <xsl:value-of select="$baseFeaturesCost + $moreFeaturesCost"/>
       </xsl:variable>

@@ -34,6 +34,9 @@
       #REQUIRED>
       <!-- Specifically for Focus: -->
       <!ATTLIST feature profession CDATA #IMPLIED>
+      <!-- Specifically for Professional: -->
+      <!ATTLIST feature main-profession   CDATA #IMPLIED>
+      <!ATTLIST feature other-professions CDATA #IMPLIED>
       <!-- Specifically for Focus and Harmful: -->
       <!ATTLIST feature bonus      CDATA #IMPLIED>
 
