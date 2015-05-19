@@ -33,7 +33,10 @@
         </xsl:if>
       </xsl:when>
       <xsl:when test="@type='Resilient'">
-        <xsl:text>Mild Consequence: ☐ __________</xsl:text>
+        <xsl:text>Mild Consequence: ☐ 
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+          &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        </xsl:text>
       </xsl:when>
       <xsl:when test="@type='Sturdy'">
         <xsl:choose>
