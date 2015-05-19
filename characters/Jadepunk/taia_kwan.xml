@@ -30,8 +30,8 @@
   <assets>
     <asset function="Green Jade Tattoo of Protection" name="Jade Tattoo" type="Device">
       <features>
-        <feature effect="1" type="Protective"/>
-        <feature effect="1" type="Sturdy"/>
+        <feature bonus="1" type="Protective"/>
+        <feature bonus="1" type="Sturdy"/>
       </features>
       <flaws>
         <flaw type="Troubling" effect="Easily Identifiable"/>
