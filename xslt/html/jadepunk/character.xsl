@@ -5,6 +5,11 @@
     <html>
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">jadepunk</xsl:with-param>
+        <xsl:with-param name="customCSS">
+          <xsl:if test="@custom-css">
+            <xsl:value-of select="@custom-css"/>
+          </xsl:if>
+        </xsl:with-param>
         <xsl:with-param name="moreCSS">professions</xsl:with-param>
       </xsl:call-template>
       <body>

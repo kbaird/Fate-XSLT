@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, refresh, aspects, professions, assets, consequences?)>
+  <!ATTLIST character custom-css CDATA #IMPLIED>
 
   <!ELEMENT id (charname, playername, story)>
     <!ELEMENT charname (#PCDATA)>
