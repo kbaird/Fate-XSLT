@@ -10,7 +10,13 @@
         </xsl:for-each>
       </xsl:variable>
       <tr colspan="3">
-        <td><xsl:value-of select="$max"/></td>
+        <td><xsl:value-of select="1"/></td>
+        <xsl:if test="$max &gt; 1">
+        <td><xsl:value-of select="2"/></td>
+        </xsl:if>
+        <xsl:if test="$max &gt; 2">
+        <td><xsl:value-of select="3"/></td>
+        </xsl:if>
       </tr>
     </xsl:if>
   </xsl:template>
