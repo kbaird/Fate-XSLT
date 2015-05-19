@@ -13,7 +13,7 @@
         <xsl:text> +</xsl:text>
         <xsl:value-of select="@bonus"/>
       </xsl:when>
-      <xsl:when test="@type='Harmful'">
+      <xsl:when test="@type='Harmful' or @type='Protective'">
         <xsl:value-of select="@bonus"/>
       </xsl:when>
       <xsl:when test="@type='Independent'">
@@ -35,12 +35,19 @@
       <xsl:when test="@type='Resilient'">
         <xsl:text>Mild Consequence: ☐ __________</xsl:text>
       </xsl:when>
-      <xsl:when test="@type='Sturdy' and ../../@type='Ally'">
-        <xsl:value-of select="@bonus"/>
-        <xsl:text> Stress Box</xsl:text>
-        <xsl:if test="@bonus &gt; 1">
-          <xsl:text>es</xsl:text>
-        </xsl:if>
+      <xsl:when test="@type='Sturdy'">
+        <xsl:choose>
+          <xsl:when test="../../@type='Ally'">
+            <xsl:value-of select="@bonus"/>
+            <xsl:text> Stress Box</xsl:text>
+            <xsl:if test="@bonus &gt; 1">
+              <xsl:text>es</xsl:text>
+            </xsl:if>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="@bonus"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose></dd>

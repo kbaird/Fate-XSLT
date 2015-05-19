@@ -87,8 +87,8 @@
           <xsl:variable name="protectiveCost">
             <xsl:variable name="protectiveValue">
               <xsl:choose>
-                <xsl:when test="features/feature[@type='Protective'][@effect]">
-                  <xsl:value-of select="sum(features/feature[@type='Protective']/@effect) + 1"/>
+                <xsl:when test="features/feature[@type='Protective'][@bonus]">
+                  <xsl:value-of select="sum(features/feature[@type='Protective']/@bonus) + 1"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:value-of select="1"/>
