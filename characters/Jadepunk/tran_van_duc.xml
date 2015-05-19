@@ -31,22 +31,13 @@
     <profession rating="1" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset guiding-aspect="Background" name="A Leaf in the Wind" type="Technique">
-      <features>
-        <feature type="Flexible" effect="Use Explorer instead of Scoundrel"/>
-        <feature type="Focus"    bonus="2" profession="Explorer"/>
-      </features>
-      <flaws>
-        <flaw type="Situational" effect="Only to Avoid Detection"/>
-      </flaws>
-    </asset>
-    <asset function="Eyes, Ears, General Favors" name="Expatriate Đạinamese Community" type="Ally">
+    <asset name="Expatriate Đạinamese Community" function="Eyes, Ears, General Favors" type="Ally">
       <features>
         <feature type="Independent"/>
         <feature type="Sturdy"       bonus="1"/>
-        <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scoundrel"/>
+        <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scholar"/>
         <feature type="Resilient"    bonus="1"/>
-        <feature type="Numerous"     bonus="5"/>
+        <feature type="Numerous"     bonus="3"/>
       </features>
       <flaws>
         <flaw type="Troubling" effect="Expects Đức to be a Community Leader"/>
@@ -54,12 +45,30 @@
         <flaw type="Troubling" effect="Nothing Too Dangerous"/>
       </flaws>
     </asset>
-    <asset guiding-aspect="Inciting-Incident" name="Knowledge is Power" type="Technique">
+    <asset name="Jade Tattoo" function="Blue Jade Tattoo of Detection" type="Device">
+      <features>
+        <feature bonus="3" type="Focus" profession="Scholar"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Easily Identifiable"/>
+        <flaw type="Situational" effect="Scholar can only be used for sensing surroundings"/>
+      </flaws>
+    </asset>
+    <asset name="Knowledge is Power" guiding-aspect="Inciting-Incident" type="Technique">
       <features>
         <feature type="Focus" profession="Scholar" bonus="2"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only About Đạinamese, Túyangan, or Kausaoan History"/>
+      </flaws>
+    </asset>
+    <asset name="A Leaf in the Wind" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Flexible" effect="Use Explorer instead of Scoundrel"/>
+        <feature type="Focus"    bonus="2" profession="Explorer"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only to Avoid Detection"/>
       </flaws>
     </asset>
   </assets>
