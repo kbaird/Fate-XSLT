@@ -3,6 +3,7 @@
   <xsl:output method="html"/>
   <xsl:template name="head">
     <xsl:param name="baseCSS"/>
+    <xsl:param name="customCSS"/>
     <xsl:param name="moreCSS"/>
     <xsl:param name="useConditions"/>
     <head>
@@ -12,7 +13,9 @@
       @import url("http://fonts.googleapis.com/css?family=Montserrat|Kalam");
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);<xsl:if test="string-length($moreCSS) &gt; 0">
-      @import url(./css/<xsl:value-of select="$moreCSS"/>.css);</xsl:if><xsl:if test="$useConditions='true'">  @import url(./css/conditions.css);</xsl:if>
+      @import url(./css/<xsl:value-of select="$moreCSS"/>.css);</xsl:if>
+    <xsl:if test="$useConditions='true'">  @import url(./css/conditions.css);</xsl:if><xsl:if test="string-length($customCSS) &gt; 0">
+      @import url(./css/<xsl:value-of select="$customCSS"/>.css);</xsl:if>
    </style>
     </head>
   </xsl:template>
