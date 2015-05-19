@@ -23,8 +23,8 @@
     <aspect type="Trouble">Ha'la'tha - Always Faithful to the Soil</aspect>
   </aspects>
   <professions>
-    <profession rating="0" name="Aristocrat"/>
-    <profession rating="1" name="Engineer"/>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
     <profession rating="3" name="Explorer"/>
     <profession rating="2" name="Fighter"/>
     <profession rating="2" name="Scholar"/>
