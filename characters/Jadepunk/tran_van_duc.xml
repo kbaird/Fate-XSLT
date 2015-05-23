@@ -64,8 +64,7 @@
     </asset>
     <asset name="A Leaf in the Wind" guiding-aspect="Background" type="Technique">
       <features>
-        <feature type="Flexible" effect="Use Explorer instead of Scoundrel"/>
-        <feature type="Focus"    bonus="2" profession="Explorer"/>
+        <feature type="Focus" bonus="4" profession="Scoundrel"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only to Avoid Detection"/>
