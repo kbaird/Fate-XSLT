@@ -11,5 +11,5 @@ for file in $@; do
   bname=$(basename $file)
   dname=$(dirname $file)
   base=${bname%.*}
-  pandoc -f markdown -t latex -o $dname/$base.pdf $file
+  pandoc -f markdown -t beamer -o $dname/$base.pdf $file
 done
