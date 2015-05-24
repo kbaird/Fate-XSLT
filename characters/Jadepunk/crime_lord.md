@@ -9,6 +9,9 @@ creator:
 
 ## Crime Lord
 
+**Name**
+:
+
 **Portrayal**
 : Untouchable Crime Lord
 
