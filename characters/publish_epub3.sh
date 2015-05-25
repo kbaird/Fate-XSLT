@@ -11,5 +11,5 @@ for file in $@; do
   bname=$(basename $file)
   dname=$(dirname $file)
   base=${bname%.*}
-  pandoc -f markdown -t epub3 -o $dname/$base.epub $file
+  pandoc -f markdown -t epub3 -o ../out/$dname/$base.epub $file
 done
