@@ -1,8 +1,8 @@
 div#aspects { width: 60%; }
 div#skills { width: 40%; }
 
-dl.approaches dt { border: 0px; font-size: 1.2em; font-weight: 600; text-transform: uppercase; }
-dl.approaches dt span.explanation { font-size: 0.7em; margin-top: -1em; text-transform: none; }
+dl.approaches dt { border: 0px; font-size: 1.2em; font-weight: 600; line-height: 80%; text-transform: uppercase; }
+dl.approaches dt span.explanation { font-size: 0.7em; font-style: oblique; text-transform: none; }
 dl.approaches dd { float: clear; width: 2.4em; }
 
 div#skills dl#simple dd, div#skills dt { clear: both; display: block; }
