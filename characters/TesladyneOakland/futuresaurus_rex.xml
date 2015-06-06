@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Futuresaurus Rex</charname>
+    <playername>NPC</playername>
+    <affiliation>Unparalled Genius</affiliation>
+    <description>&#160;</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">T. Rex with Frickin' Guns on its Head</aspect>
+    <aspect type="Mode" mode-name="Dinosaur">Apex Predator</aspect>
+    <aspect type="Mode" mode-name="Beast">Rampages at Will</aspect>
+    <aspect type="Mode" mode-name="Cyborg">Difficult to Control</aspect>
+    <aspect type="&#937;">Easily Distractible</aspect>
+  </aspects>
+  <skills>
+    <mode rating="4" name="Dinosaur" stress-type="physical"> <!-- ARRPG pg87 -->
+     <skill name="Athletics"        cost="2"/>
+     <skill name="Notice"           cost="1"/>
+     <skill name="Physique"         cost="1"/>
+     <skill name="Tooth &amp; Claw" cost="1" add="1"/> <!-- ARRPG pg87 -->
+     <!-- Also Specialize 1 Trained Skill -->
+     <!-- Also Focus      1 Trained Skill: Tooth & Claw -->
+    </mode>
+    <mode rating="3" name="Beast" stress-type="split"> <!-- ARRPG pg87 -->
+     <skill name="Athletics"        cost="2"/>
+     <skill name="Notice"           cost="1"/>
+     <skill name="Physique"         cost="1"/>
+     <skill name="Provoke"          cost="1" add="2"/>
+     <skill name="Tooth &amp; Claw" cost="1"/> <!-- ARRPG pg87 -->
+     <!-- Also Specialize 1 Trained Skill: Provoke -->
+    </mode>
+    <mode rating="2" name="Cyborg" stress-type="physical"> <!-- Based on Robot, ARRPG pg90 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1"/>
+     <!--
+          Specialize 1 Trained Skill
+          Focus      2 Trained Skills
+     -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name="Tough Hide">Armor 2</stunt>
+    <stunt mega="true" name="Wake of Destruction">
+      When you succeed with style on a Tooth and Claw attack, spend a Fate Point to also inflict a Collateral
+      Consequence (of the lowest available severity) in addition to any other stress or consequences the target has taken.
+    </stunt>
+  </stunts>
+  <consequences/>
+  <experiences suppress="true"/>
+  <notes/>
+</character>
