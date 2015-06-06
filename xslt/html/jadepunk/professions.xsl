@@ -22,22 +22,22 @@
     <span class="explanation">
       <xsl:choose>
         <xsl:when test="@name = 'Aristocrat'">
-          <xsl:text>(Influences and socializes)</xsl:text>
+          <xsl:text>Influences and socializes</xsl:text>
         </xsl:when>
         <xsl:when test="@name = 'Engineer'">
-          <xsl:text>(Builds and sabotages)</xsl:text>
+          <xsl:text>Builds and sabotages</xsl:text>
         </xsl:when>
         <xsl:when test="@name = 'Explorer'">
-          <xsl:text>(Evades and navigates)</xsl:text>
+          <xsl:text>Evades and navigates</xsl:text>
         </xsl:when>
         <xsl:when test="@name = 'Fighter'">
-          <xsl:text>(Attacks and manuevers)</xsl:text>
+          <xsl:text>Attacks and manuevers</xsl:text>
         </xsl:when>
         <xsl:when test="@name = 'Scholar'">
-          <xsl:text>(Thinks and discovers)</xsl:text>
+          <xsl:text>Thinks and discovers</xsl:text>
         </xsl:when>
         <xsl:when test="@name = 'Scoundrel'">
-          <xsl:text>(Sneaks and deceives)</xsl:text>
+          <xsl:text>Sneaks and deceives</xsl:text>
         </xsl:when>
       </xsl:choose>
     </span>
