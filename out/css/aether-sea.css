@@ -10,7 +10,7 @@ fieldset#species legend.label { color: #666666; font: oblique small-caps 1.3em b
 
 @media print { table#approaches { font-size: 1.7em; }
   table#approaches tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
-  table#approaches tbody tr td dl.approaches dt { float: left; font-size: 1em; margin-bottom: -1.3em; margin-top: -0.5em; padding-bottom: -0.2em; text-align: left; }
+  table#approaches tbody tr td dl.approaches dt { float: left; font-size: 1em; margin-bottom: -1.3em; margin-top: -0.1em; padding-bottom: -0.2em; }
   table#approaches tbody tr td dl.approaches dd { float: right; font-size: 0.8em; margin-bottom: -1.3em; }
   table#approaches tbody tr td dl.approaches dt { margin-top: -0.4em; }
   table#approaches tbody tr td dl.approaches dd { margin-bottom: -1.6em; } }
