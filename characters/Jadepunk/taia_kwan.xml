@@ -39,7 +39,7 @@
     </asset>
     <asset function="My Mentor's Sword" name="Jian Longsword" type="Device">
       <features>
-        <feature effect="2" type="Harmful"/>
+        <feature type="Harmful" bonus="2"/>
       </features>
       <flaws>
         <flaw type="Troubling" effect="It's Illegal to Own a Guardsman's Blade"/>
@@ -47,7 +47,7 @@
     </asset>
     <asset guiding-aspect="Portrayal" name="Jirai Mastery" type="Technique">
       <features>
-        <feature type="Focus" effect="Fighter +2"/>
+        <feature type="Focus" bonus="2" profession="Fighter"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only When Wielding a Jian Longsword"/>

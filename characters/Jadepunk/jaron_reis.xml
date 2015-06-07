@@ -48,7 +48,7 @@
     </asset>
     <asset guiding-aspect="Portrayal" name="Ear to the Ground" type="Technique">
       <features>
-        <feature type="Focus" effect="Aristocrat +2"/>
+        <feature type="Focus" bonus="2" profession="Aristocrat"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when using your network to find information"/>
