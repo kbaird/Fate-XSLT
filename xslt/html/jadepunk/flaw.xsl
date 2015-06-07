@@ -6,14 +6,11 @@
     <dd><xsl:choose>
         <xsl:when test="@type='Limited'">
           <xsl:choose>
-            <xsl:when test="@effect='1'">
+            <xsl:when test="@bonus='1'">
               <xsl:text>☐ Once per Scene</xsl:text>
             </xsl:when>
-            <xsl:when test="@effect='2'">
-              <xsl:text>☐ Once per Session</xsl:text>
-            </xsl:when>
             <xsl:otherwise>
-              <xsl:value-of select="@effect"/>
+              <xsl:text>☐ Once per Session</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:when>
