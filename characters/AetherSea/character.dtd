@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, aspects, approaches, stunts, consequences?, notes?)>
+<!ELEMENT character (id, refresh, aspects, approaches, stunts, consequences?, notes?)>
 
   <!ELEMENT id (charname, playername, species, description)>
     <!ELEMENT charname (#PCDATA)>
@@ -9,7 +9,7 @@
     <!ELEMENT description (#PCDATA)>
 
   <!ELEMENT refresh (#PCDATA)>
-  <!ELEMENT current-fate-points (#PCDATA)>
+    <!ATTLIST refresh current CDATA #IMPLIED>
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>

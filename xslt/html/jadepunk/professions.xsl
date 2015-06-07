@@ -13,8 +13,33 @@
   </xsl:template>
   <xsl:template match="profession">
     <dl class="approaches">
-      <dt><xsl:value-of select="@name"/></dt>
+      <dt><xsl:value-of select="@name"/><xsl:apply-templates select="." mode="explanation"/></dt>
       <dd>+<xsl:value-of select="@rating"/></dd>
     </dl>
+  </xsl:template>
+  <xsl:template match="profession" mode="explanation">
+    <br />
+    <span class="explanation">
+      <xsl:choose>
+        <xsl:when test="@name = 'Aristocrat'">
+          <xsl:text>Influences and socializes</xsl:text>
+        </xsl:when>
+        <xsl:when test="@name = 'Engineer'">
+          <xsl:text>Builds and sabotages</xsl:text>
+        </xsl:when>
+        <xsl:when test="@name = 'Explorer'">
+          <xsl:text>Evades and navigates</xsl:text>
+        </xsl:when>
+        <xsl:when test="@name = 'Fighter'">
+          <xsl:text>Attacks and manuevers</xsl:text>
+        </xsl:when>
+        <xsl:when test="@name = 'Scholar'">
+          <xsl:text>Thinks and discovers</xsl:text>
+        </xsl:when>
+        <xsl:when test="@name = 'Scoundrel'">
+          <xsl:text>Sneaks and deceives</xsl:text>
+        </xsl:when>
+      </xsl:choose>
+    </span>
   </xsl:template>
 </xsl:stylesheet>

@@ -8,8 +8,7 @@
     <homeworld>Old Copenhagen</homeworld>
     <cluster>TBD</cluster>
   </id>
-  <refresh>2</refresh>
-  <current-fate-points>2</current-fate-points>
+  <refresh current="2">2</refresh>
   <aspects>
     <aspect>I hate the outdoors</aspect>
     <aspect>Natural mechanic</aspect>

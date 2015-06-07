@@ -11,8 +11,7 @@
     Typically dresses a bit more formally than is standard for Tarislar.
   </description>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="High-Concept">Elven 巫人 Expat in Tarislar</aspect>
     <aspect type="Trouble">Find a Clever Way to Minimize Harm</aspect>

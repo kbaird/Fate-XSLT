@@ -4,6 +4,7 @@
   <xsl:include href="html/fcs/fcs_common.xsl"/>
   <xsl:include href="html/atomic-robo/character.xsl"/>
   <xsl:include href="html/atomic-robo/copyright.xsl"/>
+  <xsl:include href="html/atomic-robo/current-fate-points.xsl"/>
   <xsl:include href="html/atomic-robo/experience-points.xsl"/>
   <xsl:include href="html/atomic-robo/experiences.xsl"/>
   <xsl:include href="html/atomic-robo/fate-points.xsl"/>

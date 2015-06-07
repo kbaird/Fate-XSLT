@@ -14,8 +14,7 @@
       climb from the forest floor to their treetop homes multiple times a day.
     </description>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="High-Concept">Habiforming Engineer</aspect>
     <aspect type="Trouble">"Don't want no trouble on my planet."</aspect>

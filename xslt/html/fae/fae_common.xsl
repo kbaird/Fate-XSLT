@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:include href="../fate-common/aspects.xsl"/>
-  <xsl:include href="../fate-common/current-fate-points.xsl"/>
   <xsl:include href="../fate-common/head.xsl"/>
   <xsl:include href="../fate-common/name.xsl"/>
   <xsl:include href="../fate-common/refresh.xsl"/>
