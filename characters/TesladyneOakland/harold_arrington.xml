@@ -19,7 +19,7 @@
     <aspect type="Concept">Deep Blue with a Politician's Smile</aspect>
     <aspect type="Mode" mode-name="Banter">By the Book, Not Between the Lines</aspect>
     <aspect type="Mode" mode-name="Intrigue">Secrets are the Spice of Life</aspect>
-    <aspect type="Mode" mode-name="Science">&#160;</aspect>
+    <aspect type="Mode" mode-name="Science">Rule Maker, Code Breaker</aspect>
     <aspect type="&#937;">It's Not About Success; It's About Legacy</aspect>
   </aspects>
   <skills>
@@ -47,13 +47,21 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="It Says Right Here in the Field Guide">
-      +2 to Create an Advantage with Rapport on team members when quoting procedures.
+    <stunt name="Hiya!">
+      Can Defend against physical attacks with Provoke
     </stunt>
-    <stunt name="&#160;">&#160;</stunt>
-    <stunt name="&#160;">&#160;</stunt>
-    <stunt name="&#160;">&#160;</stunt>
-    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="It Says Right Here in the Field Guide">
+      +2 to Create an Advantage with Rapport on team members when quoting procedures
+    </stunt>
+    <stunt name="Pencilled-in">
+      +2 to Create an Advantage with Burglary when using computers
+    </stunt>
+    <stunt name="Pencilled-in">
+      Use Will to ignore the effects on physical stress box
+    </stunt>
+    <stunt name="Security System Manual">
+      +2 to Create an Advantage with Computer Science when using security systems
+    </stunt>
   </stunts>
   <consequences/>
   <experiences>
@@ -67,5 +75,6 @@
       Minor Milestone from stopping the Hybrid Queen: Rapport +1, Empathy -1
     -->
     Still has 1 Minor Milestone (ARRPG225) from rescuing Dr. Chang from The Rock.
+    Still has 1 Minor Milestone (ARRPG225) from breaking into Recombinatr.
   </notes>
 </character>

@@ -11,8 +11,7 @@
    illegal or not. The Governor be damned.
   </story>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="Portrayal">Youthful Martial Arts Master</aspect>
     <aspect type="Background">I Grew Up On the Streets of Kausao City</aspect>
@@ -31,8 +30,8 @@
   <assets>
     <asset function="Green Jade Tattoo of Protection" name="Jade Tattoo" type="Device">
       <features>
-        <feature effect="1" type="Protective"/>
-        <feature effect="2" type="Sturdy"/>
+        <feature bonus="1" type="Protective"/>
+        <feature bonus="2" type="Sturdy"/>
       </features>
       <flaws>
         <flaw type="Troubling" effect="Easily Identifiable"/>
