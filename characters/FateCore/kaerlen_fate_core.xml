@@ -10,8 +10,7 @@
     3'7", 47lbs. 60 years old. Usually impeccably dressed in high-falutin' Clebdecher Glamerweave (Sharn55).
   </description>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="High-Concept">Speaker's Guild Lawyer</aspect>
     <aspect type="Trouble">Keep [Jenn's PC] Out Of Trouble</aspect>

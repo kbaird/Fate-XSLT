@@ -11,14 +11,22 @@
   <current-fate-points>3</current-fate-points>
   <experience-points>0</experience-points>
   <aspects>
-    <aspect type="Concept">&#160;</aspect>
-    <aspect type="Mode" mode-name="Telepath">10% of the Time, It Works EVERY Time, Only When Sober</aspect>
+    <aspect type="Concept">The DRUNK Batman of Human Resources</aspect>
     <aspect type="Mode" mode-name="Martial&#160;Artist">Secretly Drunken Master</aspect>
-    <aspect type="Mode" mode-name="Human&#160;Resources">The Batman of Human Resources</aspect>
+    <aspect type="Mode" mode-name="Telepath">10% of the Time, It Works EVERY Time, Only When Sober</aspect>
+    <aspect type="Mode" mode-name="Human&#160;Resources">Shots! Shots! Shots!</aspect>
     <aspect type="&#937;">&#160;</aspect>
   </aspects>
   <skills>
-    <mode rating="3" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
+    <mode rating="3" name="Martial&#160;Artist" stress-type="physical"> <!-- ARRPG pg88 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Stealth"   cost="2"/>
+      <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="2" name="Telepath" stress-type="mental"> <!-- ARRPG pg92 -->
       <skill name="Deceive"        cost="2"/>
       <skill name="Empathy"        cost="3"/>
       <skill name="Hallucinations" cost="2"/>
@@ -26,14 +34,6 @@
       <skill name="Provoke"        cost="1"/>
       <skill name="Rapport"        cost="1"/>
       <skill name="Will"           cost="1"/>
-    </mode>
-    <mode rating="2" name="Martial&#160;Artist" stress-type="physical"> <!-- ARRPG pg88 -->
-      <skill name="Athletics" cost="2"/>
-      <skill name="Combat"    cost="2"/>
-      <skill name="Notice"    cost="1"/>
-      <skill name="Physique"  cost="1"/>
-      <skill name="Stealth"   cost="2"/>
-      <skill name="Will"      cost="1"/>
     </mode>
     <mode rating="1" name="Human&#160;Resources">
       <skill name="Contacts" cost="1"/>
@@ -45,26 +45,14 @@
     </mode>
   </skills>
   <stunts>
-    <stunt name="Borrowed Knowledge">
-      Pick another character (PC or NPC) who's in the scene with you. You can use
-      one of their skills for one roll in this scene, whether it's a skill you
-      already have or not. When you do this, pay that character a fate point.
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name="Recovering Alcoholic / Can't Get a Bead on Him">
+      +2 to Defend with Athletics against attempts to Create an Advantage on Frank
     </stunt>
-    <stunt name="Iron Robe Technique">
-      Armor: 2
+    <stunt name="Scotch on the Rocks">
+      +2 to Attack with Combat when having been drinking
     </stunt>
-    <stunt name="Mind Reader">
-      When you use Empathy to create an advantage by discovering another
-      character's aspects, you don't need to speak with them and it takes
-      virtually no time.
-    </stunt>
-    <stunt name="Not a Threat">
-      When you Create an Advantage with Deceive to make yourself as
-      non-threatening or unobtrusive as possible, enemies will find other
-      targets for as long as that aspect exists. As soon as you successfully
-      attack someone, the aspect goes away.
-    </stunt>
-    <stunt name="Scotch on the Rocks">&#160;</stunt>
     <stunt name="Versatile Will ☐">
       Switch ANY skill with Will once per scene
     </stunt>
@@ -75,5 +63,9 @@
     <experience/>
     <experience/>
   </experiences>
-  <notes/>
+  <notes>
+    Still has 1 Minor Milestone (ARRPG225) from stopping the hybrid queen.
+    Still has 1 Minor Milestone (ARRPG225) from rescuing Dr. Chang from The Rock.
+    Still has 1 Minor Milestone (ARRPG225) from breaking into Recombinatr.
+  </notes>
 </character>

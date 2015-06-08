@@ -7,9 +7,6 @@
     <!ELEMENT playername (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
 
-  <!ELEMENT refresh (#PCDATA)>
-  <!ELEMENT current-fate-points (#PCDATA)>
-
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
     <!ATTLIST aspect type CDATA #IMPLIED>

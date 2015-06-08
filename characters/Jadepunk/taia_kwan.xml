@@ -11,8 +11,7 @@
    illegal or not. The Governor be damned.
   </story>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="Portrayal">Youthful Martial Arts Master</aspect>
     <aspect type="Background">I Grew Up On the Streets of Kausao City</aspect>
@@ -29,26 +28,26 @@
     <profession rating="2" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset cost="2" function="Green Jade Tattoo of Protection" name="Jade Tattoo" type="Device">
+    <asset function="Green Jade Tattoo of Protection" name="Jade Tattoo" type="Device">
       <features>
-        <feature effect="1" type="Protective"/>
-        <feature effect="2" type="Sturdy"/>
+        <feature bonus="1" type="Protective"/>
+        <feature bonus="2" type="Sturdy"/>
       </features>
       <flaws>
         <flaw type="Troubling" effect="Easily Identifiable"/>
       </flaws>
     </asset>
-    <asset cost="1" function="My Mentor's Sword" name="Jian Longsword" type="Device">
+    <asset function="My Mentor's Sword" name="Jian Longsword" type="Device">
       <features>
-        <feature effect="2" type="Harmful"/>
+        <feature type="Harmful" bonus="2"/>
       </features>
       <flaws>
         <flaw type="Troubling" effect="It's Illegal to Own a Guardsman's Blade"/>
       </flaws>
     </asset>
-    <asset cost="1" guiding-aspect="Portrayal" name="Jirai Mastery" type="Technique">
+    <asset guiding-aspect="Portrayal" name="Jirai Mastery" type="Technique">
       <features>
-        <feature type="Focus" effect="Fighter +2"/>
+        <feature type="Focus" bonus="2" profession="Fighter"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only When Wielding a Jian Longsword"/>

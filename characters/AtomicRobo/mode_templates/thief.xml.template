@@ -1,7 +1,7 @@
-  <mode rating="x" name="Thief" stress-type="physical"> <!-- ARRPG pg288 -->
-   <skill name="Athletics" cost="2"/>
-   <skill name="Burglary"  cost="1"/>
-   <skill name="Notice"    cost="1"/>
-   <skill name="Stealth"   cost="2"/>
-   <!-- 4 pts of Improvements -->
-  </mode>
+    <mode rating="x" name="Thief" stress-type="physical"> <!-- ARRPG pg288 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Burglary"  cost="1"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Stealth"   cost="2"/>
+     <!-- 4 pts of Improvements -->
+    </mode>

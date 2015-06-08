@@ -43,7 +43,6 @@
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
-              <xsl:call-template name="current-fate-points"/>
             </tr>
           </table>
         </div>
@@ -52,6 +51,7 @@
           <xsl:apply-templates select="aspects"/>
         </div>
         <div id="skills">
+          <xsl:apply-templates select="professions"/>
           <xsl:apply-templates select="skills">
             <xsl:with-param name="useSkillModes">
               <xsl:value-of select="$useSkillModes"/>

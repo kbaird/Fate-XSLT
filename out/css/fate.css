@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body { color: #111; margin: 0.1em 0.4em; padding: 0.2em; font: 1em "Kalam", ubuntu, verdana, arial, helvetica, sans-serif; }
+body { color: #111111; margin: 0.1em 0.4em; padding: 0.2em; font: 1em "Kalam", ubuntu, verdana, arial, helvetica, sans-serif; }
 
 div#aspects, div#id, div#stress, div#experiences, div#notes { float: left; }
 div#fate-logo, div#skills, div#consequences, div#experiences-explanation { float: right; }
@@ -21,14 +21,14 @@ fieldset#affiliation, fieldset#description, fieldset#name, fieldset.aspect, fiel
 fieldset.aspect { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
 fieldset.aspect span.content { margin-left: -10em; }
 fieldset#name { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
-fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#name legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
+fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#name legend.label { color: #666666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.consequence { font-style: oblique; padding-left: 8.6em; text-align: right; height: 1.1em; }
-fieldset.consequence legend { color: #444; font: small-caps 1.3em bolder "Kalam"; font-family: Cabin, Padauk, Montserrat; }
+fieldset.consequence legend { color: #444444; font: small-caps 1.3em bolder "Kalam"; font-family: Cabin, Padauk, Montserrat; }
 fieldset.consequence legend span { padding-bottom: 3em; top: 0.1em; }
 fieldset.phase { font-family: Cabin, Padauk, Montserrat; }
 fieldset.stunt { font-family: Cabin, Padauk, Montserrat; font-size: 1em; font-style: oblique; text-align: right; padding-left: 15em; }
 fieldset.stunt.mega { padding-left: 12em; }
-fieldset.stunt legend { color: #000; font: small-caps 1.2em bolder "Kalam"; }
+fieldset.stunt legend { color: black; font: small-caps 1.2em bolder "Kalam"; }
 fieldset.stunt legend span { top: 0.2em; }
 
 h1, hr { display: none; }
@@ -40,10 +40,11 @@ p#copyright { font-family: Cabin, Padauk, Montserrat; font-size: 0.8em; text-ali
 
 table { border: 0px; padding: 0.3em; text-align: center; width: 100%; }
 table#stress td { border: 4px solid black; font-family: Cabin, Padauk, Montserrat; font-size: 1.4em; font-weight: 900; }
+table tfoot tr th { font-family: Cabin, Padauk, Montserrat; font-size: 0.7em; font-weight: 100; line-height: 0.7em; margin: 0; padding: 0; }
 
 td, th { border: 0px; vertical-align: top; }
 
-.sectionheader { background-color: #000; border-bottom-right-radius: 0.9em; border-top-left-radius: 0.9em; color: #fff; font-family: Cabin, Padauk, Montserrat; padding: 0.2em; text-transform: uppercase; vertical-align: text-top; }
+.sectionheader { background-color: black; border-bottom-right-radius: 0.9em; border-top-left-radius: 0.9em; color: white; font-family: Cabin, Padauk, Montserrat; padding: 0.2em; text-transform: uppercase; vertical-align: text-top; }
 
 .中文 { font-family: "AR PL Ukai CN", Kaiti; font-size: 1.25em; }
 
@@ -57,6 +58,8 @@ td, th { border: 0px; vertical-align: top; }
   table#stress tbody tr td { border: 1px solid black; }
   fieldset.experience { width: 75%; }
   fieldset.experience, fieldset.phase, ul#skill-explanation, .sectionheader { font-size: 0.5em; }
+  fieldset.aspect, fieldset.stunt { font-size: 115%; }
+  fieldset.phase { font-size: 80%; }
   p#experiences-explanation { float: left; font-size: 0.5em; padding-top: 0.5em; }
   #fate-logo { height: 50px; }
   div#aspects { width: 40%; }
@@ -66,9 +69,8 @@ td, th { border: 0px; vertical-align: top; }
   div#stress { width: 20%; }
   fieldset.aspect { font-size: 1em; height: 2em; line-height: 1.3em; margin: 0.1em; padding-top: 0.1em; }
   fieldset.aspect legend.label { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
+  table { break-inside: avoid-page; }
   table#aspects { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
   table#skills tbody tr th.sectionheader { line-height: 1em; font-size: 1.35em; margin: -1em; padding: 0; }
   table#stress tbody tr td { font-size: 0.5em; }
-  th.sectionheader { color: #000; line-height: 1em; font-size: 0.9em; font-weight: 900; margin: -1em; padding: 0; } }
-
-/*# sourceMappingURL=fate.css.map */
+  th.sectionheader { color: black; line-height: 1em; font-size: 0.9em; font-weight: 900; margin: -1em; padding: 0; } }
