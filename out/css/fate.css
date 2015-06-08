@@ -40,6 +40,7 @@ p#copyright { font-family: Cabin, Padauk, Montserrat; font-size: 0.8em; text-ali
 
 table { border: 0px; padding: 0.3em; text-align: center; width: 100%; }
 table#stress td { border: 4px solid black; font-family: Cabin, Padauk, Montserrat; font-size: 1.4em; font-weight: 900; }
+table tfoot tr th { font-family: Cabin, Padauk, Montserrat; font-size: 0.7em; font-weight: 100; line-height: 0.7em; margin: 0; padding: 0; }
 
 td, th { border: 0px; vertical-align: top; }
 
