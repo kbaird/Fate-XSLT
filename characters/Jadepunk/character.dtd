@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, current-fate-points, aspects, professions, assets, consequences?, notes?)>
+<!ELEMENT character (id, refresh, aspects, professions, assets, consequences?)>
+  <!ATTLIST character custom-css CDATA #IMPLIED>
 
   <!ELEMENT id (charname, playername, story)>
     <!ELEMENT charname (#PCDATA)>
@@ -8,7 +9,7 @@
     <!ELEMENT story (#PCDATA)>
 
   <!ELEMENT refresh (#PCDATA)>
-  <!ELEMENT current-fate-points (#PCDATA)>
+    <!ATTLIST refresh current CDATA #IMPLIED>
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
@@ -20,8 +21,7 @@
     <!ATTLIST profession rating CDATA #REQUIRED>
 
   <!ELEMENT assets (asset*)>
-    <!ELEMENT asset (features*, flaws*)>
-    <!ATTLIST asset cost           CDATA #REQUIRED>
+    <!ELEMENT asset (features*, flaws*, notes?)>
     <!ATTLIST asset function       CDATA #IMPLIED>
     <!ATTLIST asset guiding-aspect CDATA #IMPLIED>
     <!ATTLIST asset name           CDATA #REQUIRED>
@@ -29,19 +29,30 @@
 
     <!ELEMENT features (feature*)>
       <!ELEMENT feature (#PCDATA)>
-      <!ATTLIST feature effect CDATA #IMPLIED>
+      <!-- For benefits that require text, as opposed to a simple integer quanity -->
+      <!ATTLIST feature effect     CDATA #IMPLIED>
       <!ATTLIST feature type
         (Aspect|Exceptional|Flexible|Focus|Harmful|Independent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
       #REQUIRED>
+      <!-- Specifically for Focus: -->
+      <!ATTLIST feature profession CDATA #IMPLIED>
+      <!-- Specifically for Professional: -->
+      <!ATTLIST feature main-profession   CDATA #IMPLIED>
+      <!ATTLIST feature other-professions CDATA #IMPLIED>
+      <!--
+           For benefits that can be expressed as a simple integer quantity, even if interpreted
+           Focus, Harmful, Protective, and Sturdy 
+      -->
+      <!ATTLIST feature bonus      CDATA #IMPLIED>
 
     <!ELEMENT flaws (flaw*)>
       <!ELEMENT flaw (#PCDATA)>
       <!ATTLIST flaw effect CDATA #IMPLIED>
       <!ATTLIST flaw type (Consuming|Demanding|Limited|Situational|Troubling) #REQUIRED>
 
+    <!ELEMENT notes (#PCDATA)>
+
   <!ELEMENT consequences (consequence*)>
     <!ELEMENT consequence (#PCDATA)>
       <!ATTLIST consequence effect CDATA #IMPLIED>
       <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
-
-  <!ELEMENT notes (#PCDATA)>

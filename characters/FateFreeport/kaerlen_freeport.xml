@@ -10,8 +10,7 @@
     3'7", 47lbs. 60 years old. Usually impeccably dressed in high-falutin' Clebdecher Glamerweave (Sharn55).
   </description>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="High-Concept">Speaker's Guild Lawyer of House Sivis</aspect>
     <aspect type="Trouble">Keep [Jenn's PC] Out Of Trouble</aspect>
@@ -19,7 +18,7 @@
     <aspect phase-num="2">Cosmopolitan Diplomat Enjoys Talenta Ladies</aspect>
     <aspect phase-num="3">Amoral Sharn Shyster</aspect>
   </aspects>
-  <skills>
+  <skills shape="flat">
     <skill rating="0" name="Strength"/>
     <skill rating="1" name="Dexterity"/>
     <skill rating="1" name="Constitution"/>
@@ -85,14 +84,6 @@
     </phase>
   </phase-trio>
   <notes>
-
-
-
-
-
-
-
-
 938YK: Born in Korranberg (938-11-06).
 961YK: Boranel becomes King of Breland.
 962YK: Zilargo formally aligns with Breland.

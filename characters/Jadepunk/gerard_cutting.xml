@@ -11,8 +11,7 @@
       "rivers and lakes") when he witnessed a Watchmen kill a man in cold blood.
     </story>
   </id>
-  <refresh>3</refresh>
-  <current-fate-points>3</current-fate-points>
+  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="Portrayal">Jadetech Gunslinger</aspect>
     <aspect type="Background">Apprenticed on Kinardbal</aspect>
@@ -29,27 +28,26 @@
     <profession rating="0" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset cost="2" function="Red Jade Revolver" name="Clockwork Firearm" type="Device">
+    <asset function="Red Jade Revolver" name="Clockwork Firearm" type="Device">
       <features>
-        <feature effect="3" type="Harmful"/>
-        <feature effect="2" type="Numerous"/>
-        <!-- 2 revolvers -->
+        <feature type="Harmful"  bonus="3"/>
+        <feature type="Numerous" effect="2 revolvers"/>
       </features>
       <flaws>
         <flaw type="Demanding" effect="(requires an action to reload after a lot of shooting)"/>
       </flaws>
     </asset>
-    <asset cost="1" guiding-aspect="Portrayal" name="Crackshot" type="Technique">
+    <asset guiding-aspect="Portrayal" name="Crackshot" type="Technique">
       <features>
-        <feature type="Focus" effect="Fighter +2"/>
+        <feature type="Focus" profession="Fighter" bonus="2"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only with a Clockwork Firearm"/>
       </flaws>
     </asset>
-    <asset cost="1" guiding-aspect="Background" name="Jadetech Inventor" type="Technique">
+    <asset guiding-aspect="Background" name="Jadetech Inventor" type="Technique">
       <features>
-        <feature type="Focus" effect="Engineer +2"/>
+        <feature type="Focus" profession="Engineer" bonus="2"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when creating temporary Device assets"/>

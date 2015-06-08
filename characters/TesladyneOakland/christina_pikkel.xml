@@ -12,7 +12,7 @@
   <experience-points>0</experience-points>
   <aspects>
     <aspect type="Concept">Library Crone ("Banshee")</aspect>
-    <aspect type="Mode" mode-name="Science">&#160;</aspect>
+    <aspect type="Mode" mode-name="Science">Theoretically, I'm the Best Scientist</aspect>
     <aspect type="Mode" mode-name="Action">Just let me find my shooting glasses.</aspect>
     <aspect type="Mode" mode-name="Intrigue">Due dates are not a suggestion</aspect>
     <aspect type="&#937;">Wants to Reconcile With Family</aspect>
@@ -48,10 +48,8 @@
     <stunt name="Expert Markswoman">
       +1 to Attack or Create an Advantage with Combat when using a Firearm.
     </stunt>
-    <stunt name="I've Read About That">
-      Spend a Fate Point to use Library Science in place of any other skill for
-      one roll, provided you can justify it through having read something
-      applicable.
+    <stunt name="I've Read About That ☐">
+      Switch ANY skill with Library Science once per scene
     </stunt>
     <stunt name="Mark's First-Born">
       +1 to Attack with Combat (with this rifle), Weapon: 2 (a high-end rifle
@@ -75,6 +73,10 @@
     there, continuing to avoid all of Ina's attempts to make contact with her or her daughter.
 
     The tl;dr of that is "Wants to reconcile with family"
+
+    Still has 1 Minor Milestone (ARRPG225) from stopping the hybrid queen.
+    Still has 1 Minor Milestone (ARRPG225) from rescuing Dr. Chang from The Rock.
+    Still has 1 Minor Milestone (ARRPG225) from breaking into Recombinatr.
     <!--  
     Minor Milestone from rescuing Dmitri: Athletics -1, Provoke +1
     Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:

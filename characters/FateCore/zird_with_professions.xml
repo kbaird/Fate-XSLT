@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Zird the Arcane</charname>
+    <playername>sample Fate Core character</playername>
+    <description>A sharp-featured scholar with a dark triangular beard.</description>
+  </id>
+  <refresh current="2">2</refresh>
+  <aspects>
+    <aspect type="High-Concept">Wizard for Hire</aspect>
+    <aspect type="Trouble">Rivals in the Collegia Arcana</aspect>
+    <aspect phase-num="1">If I Haven't Been There, I've Read About It</aspect>
+    <aspect phase-num="2">Not The Face!</aspect>
+    <aspect phase-num="3">Doesn't Suffer Fools Gladly</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Fighter"/>
+    <profession rating="3" name="Scholar"/>
+    <profession rating="0" name="Woodsman"/>
+    <profession rating="1" name="Thief"/>
+    <profession rating="2" name="Craftsman"/>
+    <profession rating="2" name="Diplomat"/>
+  </professions>
+  <extras>
+    <extra name="Collegia Arcana Mage">
+      Allows the use of Scholar for loosely-defined magical actions.
+    </extra>
+  </extras>
+  <stunts>
+    <stunt name="Scholar, Healer">
+    Can make Physical Recovery attempts w/Scholar
+  </stunt>
+    <stunt name="The Power of Deduction">
+    Once per scene you can spend a fate point (and a few minutes of observation) to make a
+    special Scholar roll representing your potent deductive faculties. For each shift
+    you make on this roll you discover or create an aspect, on either the scene or the target
+    of your observations, though you may only invoke one of them for free.
+  </stunt>
+    <stunt name="I've Read About That!">
+    You’ve read hundreds—if not thousands—of books on a wide variety of topics. You can spend
+    a fate point to use Scholar in place of any other skill for one roll or exchange, provided
+    you can justify having read about the action you’re attempting.
+  </stunt>
+  </stunts>
+  <consequences>
+    <consequence severity="Mild">mild one</consequence>
+  </consequences>
+  <hacks stress-base-count="3"/>
+  <phase-trio>
+    <phase num="1">
+      <events>Some events</events>
+    </phase>
+    <phase num="2">
+      <events>Some events</events>
+    </phase>
+    <phase num="3">
+      <events>Some events</events>
+    </phase>
+  </phase-trio>
+</character>
