@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # roll.rb
 
-# descriptive die rolls for FUDGE/FATE, as per an idea developed
+# descriptive die rolls for FUDGE/Fate, as per an idea developed
 # by Vincent Baker for his Jastenave game.
 # cf. https://twitter.com/lumpleygames/status/403556521579384832
 #
@@ -24,13 +24,12 @@ class Roll
   }
 
   def initialize(set)
-    get_results = ->(memo,desc) { memo.merge(desc => dF) }
-    @results_h  = DESCRIPTIONS[set].inject({}, &get_results)
-    @total      = @results_h.map(&:last).inject(:+)
+    @results_h = DESCRIPTIONS[set].inject({}, &method(:get_results))
+    @total     = @results_h.map(&:last).inject(:+)
   end
 
   def results
-    [@total, format(@results_h)]
+    [@total, @results_h.inject({}, &method(:format))]
   end
 
   private
@@ -39,12 +38,14 @@ class Roll
     rand(-1..1)
   end
 
-  def format(results_h)
-    results_h.inject({}) do |h,pair|
-      head, tail = *pair
-      new_pair   = {head => tail}
-      h.merge(new_pair)
-    end
+  def format(memo, pair)
+    head, tail = *pair
+    new_pair   = {head => tail}
+    memo.merge(new_pair)
+  end
+
+  def get_results(memo, desc)
+    memo.merge(desc => dF)
   end
 
 end
