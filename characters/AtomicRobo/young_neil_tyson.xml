@@ -65,11 +65,7 @@
     <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences/>
-  <experiences>
-    <experience/>
-    <experience/>
-    <experience/>
-  </experiences>
+  <experiences suppress="true"/>
   <notes>
   If one of your modes is Science, also apply ALL of the following
   improvements:

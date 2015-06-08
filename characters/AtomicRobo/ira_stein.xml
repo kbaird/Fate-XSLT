@@ -63,10 +63,6 @@ years.
     <stunt name=" ">&#160;</stunt>
   </stunts>
   <consequences/>
-  <experiences>
-    <experience/>
-    <experience/>
-    <experience/>
-  </experiences>
+  <experiences suppress="true"/>
   <notes/>
 </character>

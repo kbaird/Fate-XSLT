@@ -66,10 +66,6 @@ World War 3 in 1968. She retired to head of Section 13 in 1995.
     </stunt>
   </stunts>
   <consequences/>
-  <experiences>
-    <experience/>
-    <experience/>
-    <experience/>
-  </experiences>
+  <experiences suppress="true"/>
   <notes/>
 </character>

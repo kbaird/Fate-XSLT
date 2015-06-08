@@ -55,10 +55,6 @@
     <stunt name="Stunning Fist: ☐ ">Once per physical conflict, when you succeed on an unarmed attack, you may place the aspect Stunned on your opponent with one free invocation.</stunt>
   </stunts>
   <consequences/>
-  <experiences>
-    <experience/>
-    <experience/>
-    <experience/>
-  </experiences>
+  <experiences suppress="true"/>
   <notes/>
 </character>

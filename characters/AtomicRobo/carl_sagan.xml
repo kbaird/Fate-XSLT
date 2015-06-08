@@ -70,10 +70,6 @@ for his efforts to popularize scientific interests and pursuits through mass med
     </stunt>
   </stunts>
   <consequences/>
-  <experiences>
-    <experience/>
-    <experience/>
-    <experience/>
-  </experiences>
+  <experiences suppress="true"/>
   <notes/>
 </character>
