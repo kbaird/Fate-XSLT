@@ -34,16 +34,17 @@
     <asset name="Expatriate Đạinamese Community" function="Eyes, Ears, General Favors" type="Ally">
       <features>
         <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scholar"/>
+        <feature type="Numerous"     bonus="3"/>
         <feature type="Resilient"    bonus="1"/>
         <feature type="Sturdy"       bonus="1"/>
         <feature type="Independent"/>
-        <feature type="Numerous"     bonus="3"/>
       </features>
       <flaws>
         <flaw type="Troubling" effect="Expects Đức to be a Community Leader"/>
         <flaw type="Troubling" effect="Only in or near Đạinamtown"/>
         <flaw type="Troubling" effect="Nothing Too Dangerous"/>
       </flaws>
+      <notes>I figure it's quite large, but the Numerous reflects a sub-group available to help at any given time.</notes>
     </asset>
     <asset name="Jade Tattoo" function="Blue Jade Tattoo of Detection" type="Device">
       <features>
@@ -53,6 +54,7 @@
         <flaw type="Troubling"   effect="Easily Identifiable"/>
         <flaw type="Situational" effect="Scholar can only be used for sensing surroundings"/>
       </flaws>
+      <notes>Obvious, like Mike Tyson's face tattoo, and IDs Đức as a 'Browncoat'.</notes>
     </asset>
     <asset name="Knowledge is Power" guiding-aspect="Inciting-Incident" type="Technique">
       <features>
@@ -79,6 +81,7 @@
         <flaw type="Situational" effect="Only with a bladed weapon"/>
         <flaw type="Situational" effect="Only vs. a Jade-enhanced defense"/>
       </flaws>
+      <notes>Yes, I stole this from Dune.</notes>
     </asset>
   </assets>
   <consequences/>
