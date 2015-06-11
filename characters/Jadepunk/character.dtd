@@ -9,6 +9,7 @@
     <!ELEMENT story (#PCDATA)>
 
   <!ELEMENT refresh (#PCDATA)>
+    <!ATTLIST refresh base    CDATA #REQUIRED>
     <!ATTLIST refresh current CDATA #IMPLIED>
 
   <!ELEMENT aspects (aspect*)>
