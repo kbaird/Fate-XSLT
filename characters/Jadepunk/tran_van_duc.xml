@@ -14,7 +14,7 @@
       The Browncoat analogy applies more to Đức and some others as individuals.
     </story>
   </id>
-  <refresh current="1">1</refresh>
+  <refresh base="7"/>
   <aspects>
     <aspect type="Portrayal">Đạinamese Browncoat</aspect>
     <aspect type="Background">Advance Scout in the 101st Partisans</aspect>
