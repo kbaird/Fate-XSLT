@@ -29,6 +29,11 @@
 
     <!ELEMENT features (feature*)>
       <!ELEMENT feature (#PCDATA)>
+      <!--
+           For benefits that can be expressed as a simple integer quantity, even if interpreted
+           Limited, for example
+      -->
+      <!ATTLIST feature bonus      CDATA #IMPLIED>
       <!-- For benefits that require text, as opposed to a simple integer quanity -->
       <!ATTLIST feature effect     CDATA #IMPLIED>
       <!ATTLIST feature type
@@ -39,14 +44,15 @@
       <!-- Specifically for Professional: -->
       <!ATTLIST feature main-profession   CDATA #IMPLIED>
       <!ATTLIST feature other-professions CDATA #IMPLIED>
-      <!--
-           For benefits that can be expressed as a simple integer quantity, even if interpreted
-           Focus, Harmful, Protective, and Sturdy 
-      -->
-      <!ATTLIST feature bonus      CDATA #IMPLIED>
 
     <!ELEMENT flaws (flaw*)>
+      <!--
+           For penalties that can be expressed as a simple integer quantity, even if interpreted
+           Focus, Harmful, Protective, and Sturdy
+      -->
+      <!ATTLIST flaw bonus  CDATA #IMPLIED>
       <!ELEMENT flaw (#PCDATA)>
+      <!-- For penalties that require text, as opposed to a simple integer quanity -->
       <!ATTLIST flaw effect CDATA #IMPLIED>
       <!ATTLIST flaw type (Consuming|Demanding|Limited|Situational|Troubling) #REQUIRED>
 
