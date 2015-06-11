@@ -11,7 +11,7 @@
    illegal or not. The Governor be damned.
   </story>
   </id>
-  <refresh current="3">3</refresh>
+  <refresh base="7"/>
   <aspects>
     <aspect type="Portrayal">Youthful Martial Arts Master</aspect>
     <aspect type="Background">I Grew Up On the Streets of Kausao City</aspect>
