@@ -5,7 +5,8 @@
   <xsl:include href="flaw.xsl"/>
   <xsl:include href="guiding-aspect.xsl"/>
   <xsl:include href="notes.xsl"/>
-  <xsl:template match="asset">
+
+  <xsl:template match="asset" mode="cost">
     <xsl:variable name="assetCost">
       <xsl:variable name="featuresCost">
         <xsl:variable name="baseFeaturesCost">
@@ -156,6 +157,19 @@
       </xsl:variable>
       <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw, 2 Features / Refresh after that -->
       <xsl:value-of select="1 + ceiling((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
+    </xsl:variable>
+    <xsl:value-of select="$assetCost"/>
+  </xsl:template>
+
+  <xsl:template match="asset" mode="wrapped-cost">
+    <cost>
+      <xsl:apply-templates select="." mode="cost"/>
+    </cost>
+  </xsl:template>
+
+  <xsl:template match="asset">
+    <xsl:variable name="assetCost">
+      <xsl:apply-templates select="." mode="cost"/>
     </xsl:variable>
     <tr>
       <td>
