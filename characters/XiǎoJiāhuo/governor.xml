@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "./Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>The Governor of Kausao City</charname>
+    <playername>Jadepunk NPC</playername>
+    <story>
+      Rose to power through a balanced approach toward the Great Nations, maintaining it for 20 years.
+      Had his underworld contacts cause public disorder to gain public support for declaration of martial law.
+    </story>
+  </id>
+  <refresh base="10"/>
+  <aspects>
+    <aspect type="Portrayal">Longest-Serving Governor of Kausao City</aspect>
+    <aspect type="Background">Unanimous Support Within the Council of Nine</aspect>
+    <aspect type="Inciting-Incident">Engineered Martial Law via Corruption</aspect>
+    <aspect type="Belief">The People Deserve Strong Leadership</aspect>
+    <aspect type="Trouble">江湖 Terrorists are a Nuisance</aspect>
+  </aspects>
+  <professions>
+    <profession rating="5" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="0" name="Fighter"/>
+    <profession rating="3" name="Scholar"/>
+    <profession rating="4" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="I Have Them in the Palm of My Hand" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" bonus="4" profession="Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when dealing with the Council of Nine"/>
+      </flaws>
+      <notes>See pg19</notes>
+    </asset>
+    <asset name="Underworld Contacts" guiding-aspect="Inciting-Incident" type="Technique">
+      <features>
+        <feature type="Focus" bonus="4" profession="Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when dealing with organized criminals"/>
+      </flaws>
+      <notes>See pg19</notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
