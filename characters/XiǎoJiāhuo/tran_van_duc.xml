@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
-<!DOCTYPE character SYSTEM "character.dtd">
+<!DOCTYPE character SYSTEM "Jadepunk/character.dtd">
 <character custom-css="tran_van_duc">
   <id>
     <charname nickname="Đức">Trần Văn Đức / 陈文德 / "Ancient Culture Virtue"</charname>
@@ -18,7 +18,7 @@
   <aspects>
     <aspect type="Portrayal">Đạinamese Browncoat</aspect>
     <aspect type="Background">Advance Scout in the 101st Partisans</aspect>
-    <aspect type="Inciting-Incident">We Lost Because We Didn't Understand the Enemy</aspect>
+    <aspect type="Inciting-Incident">We Lost Because We Lacked Knowledge</aspect>
     <aspect type="Belief">Everyone Deserves Freedom - Even 图样人</aspect>
     <aspect type="Trouble">Ha'la'tha - Always Faithful to the Soil</aspect>
   </aspects>
