@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>Johannes</charname>
+    <playername>Kevin Baird</playername>
+    <story>&#130;</story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">&#130;</aspect>
+    <aspect type="Background">Envoy for a Nottilan Commercial Concern</aspect>
+    <aspect type="Inciting-Incident">&#130;</aspect>
+    <aspect type="Belief">I'm Sure We Can Come to a Mutually Beneficial Understanding</aspect>
+    <aspect type="Trouble">&#130;</aspect>
+  </aspects>
+  <professions>
+    <profession rating="3" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="0" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Nottilan East Kausao Company" function="Corporate Family" type="Ally">
+      <features>
+        <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scholar"/>
+        <feature type="Numerous"     bonus="3"/>
+        <feature type="Resilient"    bonus="1"/>
+        <feature type="Independent"/>
+        <feature type="Sturdy"       bonus="1"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling" effect="At Their Beck and Call"/>
+        <flaw type="Troubling" effect="Only Business Concerns"/>
+      </flaws>
+      <notes>I figure it's quite large, but the Numerous reflects a sub-group available to help at any given time.</notes>
+    </asset>
+    <asset name="Silver-Tongued" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" bonus="4" profession="Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only to Create Advantages to make deals"/>
+      </flaws>
+    </asset>
+    <!--
+    <asset name="Jade Tattoo" function="Blue Jade Tattoo of Detection" type="Device">
+      <features>
+        <feature bonus="3" type="Focus" profession="Scholar"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Easily Identifiable"/>
+        <flaw type="Situational" effect="Scholar can only be used for sensing surroundings"/>
+      </flaws>
+      <notes>Obvious, like Mike Tyson's face tattoo, and IDs Đức as a 'Browncoat'.</notes>
+    </asset>
+    <asset name="Knowledge is Power" guiding-aspect="Inciting-Incident" type="Technique">
+      <features>
+        <feature type="Focus" profession="Scholar" bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only About Đạinamese, Túyàngan, or Kausaoan History"/>
+      </flaws>
+    </asset>
+    <asset name="A Leaf in the Wind" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" bonus="4" profession="Scoundrel"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only to Avoid Detection"/>
+      </flaws>
+    </asset>
+    -->
+  </assets>
+  <consequences/>
+</character>
