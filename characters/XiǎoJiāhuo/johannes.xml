@@ -33,8 +33,8 @@
         <feature type="Sturdy"       bonus="1"/>
       </features>
       <flaws>
-        <flaw type="Troubling" effect="At Their Beck and Call"/>
-        <flaw type="Troubling" effect="Only Business Concerns"/>
+        <flaw type="Situational" effect="Only Business Concerns"/>
+        <flaw type="Troubling"   effect="At Their Beck and Call"/>
       </flaws>
       <notes>I figure it's quite large, but the Numerous reflects a sub-group available to help at any given time.</notes>
     </asset>

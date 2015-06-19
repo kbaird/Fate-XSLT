@@ -40,9 +40,9 @@
         <feature type="Independent"/>
       </features>
       <flaws>
-        <flaw type="Troubling" effect="Expects Đức to be a Community Leader"/>
-        <flaw type="Troubling" effect="Only in or near Đạinamtown"/>
-        <flaw type="Troubling" effect="Nothing Too Dangerous"/>
+        <flaw type="Troubling"   effect="Expects Đức to be a Community Leader"/>
+        <flaw type="Situational" effect="Only in or near Đạinamtown"/>
+        <flaw type="Situational" effect="Nothing Too Dangerous"/>
       </flaws>
       <notes>I figure it's quite large, but the Numerous reflects a sub-group available to help at any given time.</notes>
     </asset>
