@@ -29,7 +29,8 @@
   <assets>
     <asset name="I Have Them in the Palm of My Hand" guiding-aspect="Background" type="Technique">
       <features>
-        <feature type="Focus" bonus="4" profession="Aristocrat"/>
+        <feature type="Focus" bonus="2" profession="Aristocrat"/>
+        <feature type="Focus" bonus="2" profession="Scoundrel"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when dealing with the Council of Nine"/>
@@ -38,7 +39,8 @@
     </asset>
     <asset name="Underworld Contacts" guiding-aspect="Inciting-Incident" type="Technique">
       <features>
-        <feature type="Focus" bonus="4" profession="Aristocrat"/>
+        <feature type="Focus" bonus="2" profession="Aristocrat"/>
+        <feature type="Focus" bonus="2" profession="Scoundrel"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when dealing with organized criminals"/>
