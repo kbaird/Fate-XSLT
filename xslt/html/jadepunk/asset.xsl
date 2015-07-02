@@ -102,6 +102,7 @@
           <xsl:variable name="resilientCost">
             <xsl:variable name="resilientValue">
               <xsl:choose>
+                <!-- TODO: @bonus instead of @effect -->
                 <xsl:when test="features/feature[@type='Resilient'][@effect]">
                   <xsl:value-of select="sum(features/feature[@type='Resilient']/@effect)"/>
                 </xsl:when>
@@ -123,6 +124,7 @@
           <xsl:variable name="sturdyCost">
             <xsl:variable name="sturdyValue">
               <xsl:choose>
+                <!-- TODO: @bonus instead of @effect -->
                 <xsl:when test="features/feature[@type='Sturdy'][@effect]">
                   <xsl:value-of select="sum(features/feature[@type='Sturdy']/@effect)"/>
                 </xsl:when>
