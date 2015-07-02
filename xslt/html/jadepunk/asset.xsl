@@ -10,7 +10,7 @@
     <xsl:variable name="assetCost">
       <xsl:variable name="featuresCost">
         <xsl:variable name="baseFeaturesCost">
-          <xsl:value-of select="count(features/feature[@type!='Focus'])"/>
+          <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'])"/>
         </xsl:variable>
 
         <xsl:variable name="moreFeaturesCost">
@@ -27,17 +27,7 @@
           </xsl:variable>
 
           <xsl:variable name="harmfulCost">
-            <xsl:variable name="harmfulValue">
-              <xsl:choose>
-                <xsl:when test="features/feature[@type='Harmful'][@bonus]">
-                  <xsl:value-of select="sum(features/feature[@type='Harmful']/@bonus)"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="1"/>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
-            <xsl:value-of select="$harmfulValue - 1"/>
+            <xsl:value-of select="sum(features/feature[@type='Harmful']/@bonus)"/>
           </xsl:variable>
 
           <xsl:variable name="numerousCost">
