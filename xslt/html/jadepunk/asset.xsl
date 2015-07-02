@@ -6,6 +6,17 @@
   <xsl:include href="guiding-aspect.xsl"/>
   <xsl:include href="notes.xsl"/>
 
+  <xsl:template match="asset" mode="one-free-for-ally">
+    <xsl:choose>
+      <xsl:when test="@type='Ally'">
+        <xsl:value-of select="1"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="0"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template match="asset" mode="cost">
     <xsl:variable name="assetCost">
       <xsl:variable name="featuresCost">
@@ -36,14 +47,7 @@
 
           <xsl:variable name="professionalCost">
             <xsl:variable name="oneFreeForAlly">
-              <xsl:choose>
-                <xsl:when test="@type='Ally'">
-                  <xsl:value-of select="1"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="0"/>
-                </xsl:otherwise>
-              </xsl:choose>
+              <xsl:apply-templates select="." mode="one-free-for-ally"/>
             </xsl:variable>
             <xsl:value-of select="sum(features/feature[@type='Professional']/@bonus) - $oneFreeForAlly"/>
           </xsl:variable>
@@ -61,28 +65,14 @@
 
           <xsl:variable name="resilientCost">
             <xsl:variable name="oneFreeForAlly">
-              <xsl:choose>
-                <xsl:when test="@type='Ally'">
-                  <xsl:value-of select="1"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="0"/>
-                </xsl:otherwise>
-              </xsl:choose>
+              <xsl:apply-templates select="." mode="one-free-for-ally"/>
             </xsl:variable>
             <xsl:value-of select="count(features/feature[@type='Resilient']) - $oneFreeForAlly"/>
           </xsl:variable>
 
           <xsl:variable name="sturdyCost">
             <xsl:variable name="oneFreeForAlly">
-              <xsl:choose>
-                <xsl:when test="@type='Ally'">
-                  <xsl:value-of select="1"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="0"/>
-                </xsl:otherwise>
-              </xsl:choose>
+              <xsl:apply-templates select="." mode="one-free-for-ally"/>
             </xsl:variable>
             <xsl:variable name="sturdyValue">
               <xsl:choose>
