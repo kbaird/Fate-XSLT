@@ -10,7 +10,7 @@
     <xsl:variable name="assetCost">
       <xsl:variable name="featuresCost">
         <xsl:variable name="baseFeaturesCost">
-          <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Resilient'][@type!='Sturdy'])"/>
+          <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Protective'][@type!='Resilient'][@type!='Sturdy'])"/>
         </xsl:variable>
 
         <xsl:variable name="moreFeaturesCost">
@@ -49,17 +49,14 @@
           </xsl:variable>
 
           <xsl:variable name="protectiveCost">
-            <xsl:variable name="protectiveValue">
-              <xsl:choose>
-                <xsl:when test="features/feature[@type='Protective'][@bonus]">
-                  <xsl:value-of select="sum(features/feature[@type='Protective']/@bonus) + 1"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:value-of select="1"/>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
-            <xsl:value-of select="2 * ($protectiveValue - 1)"/>
+            <xsl:choose>
+              <xsl:when test="features/feature[@type='Protective'][@bonus]">
+                <xsl:value-of select="2 * sum(features/feature[@type='Protective']/@bonus)"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="2 * count(features/feature[@type='Protective'])"/>
+              </xsl:otherwise>
+            </xsl:choose>
           </xsl:variable>
 
           <xsl:variable name="resilientCost">
