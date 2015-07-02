@@ -29,11 +29,11 @@
                   <xsl:value-of select="sum(features/feature[@type='Focus']/@bonus)"/>
                 </xsl:when>
                 <xsl:otherwise>
-                  <xsl:value-of select="1"/>
+                  <xsl:value-of select="count(features/feature[@type='Focus']/@bonus)"/>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
-            <xsl:value-of select="$focusValue - 1"/>
+            <xsl:value-of select="$focusValue - count(features/feature[@type='Focus']/@bonus)"/>
           </xsl:variable>
 
           <xsl:variable name="harmfulCost">
@@ -67,8 +67,8 @@
           <xsl:variable name="professionalCost">
             <xsl:variable name="professionalValue">
               <xsl:choose>
-                <xsl:when test="features/feature[@type='Professional'][@effect]">
-                  <xsl:value-of select="sum(features/feature[@type='Professional']/@effect)"/>
+                <xsl:when test="features/feature[@type='Professional'][@bonus]">
+                  <xsl:value-of select="sum(features/feature[@type='Professional']/@bonus)"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:choose>
