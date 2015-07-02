@@ -94,10 +94,10 @@
 
       <xsl:variable name="flawsCost">
         <xsl:variable name="baseFlawsCost">
-          <xsl:value-of select="count(flaws/flaw)"/>
+          <xsl:value-of select="count(flaws/flaw[@type!='Consuming'])"/>
         </xsl:variable>
         <xsl:variable name="moreFlawsCost">
-          <xsl:value-of select="count(flaws/flaw[@type='Consuming'])"/>
+          <xsl:value-of select="2 * count(flaws/flaw[@type='Consuming'])"/>
         </xsl:variable>
         <xsl:value-of select="$baseFlawsCost + $moreFlawsCost"/>
       </xsl:variable>
