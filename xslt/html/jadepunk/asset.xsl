@@ -10,7 +10,7 @@
     <xsl:variable name="assetCost">
       <xsl:variable name="featuresCost">
         <xsl:variable name="baseFeaturesCost">
-          <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'])"/>
+          <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Resilient'])"/>
         </xsl:variable>
 
         <xsl:variable name="moreFeaturesCost">
@@ -63,25 +63,17 @@
           </xsl:variable>
 
           <xsl:variable name="resilientCost">
-            <xsl:variable name="resilientValue">
+            <xsl:variable name="freeForAlly">
               <xsl:choose>
-                <!-- TODO: @bonus instead of @effect -->
-                <xsl:when test="features/feature[@type='Resilient'][@effect]">
-                  <xsl:value-of select="sum(features/feature[@type='Resilient']/@effect)"/>
+                <xsl:when test="@type='Ally'">
+                  <xsl:value-of select="1"/>
                 </xsl:when>
                 <xsl:otherwise>
-                  <xsl:choose>
-                    <xsl:when test="@type='Ally'">
-                      <xsl:value-of select="0"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:value-of select="1"/>
-                    </xsl:otherwise>
-                  </xsl:choose>
+                  <xsl:value-of select="0"/>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
-            <xsl:value-of select="$resilientValue - 1"/>
+            <xsl:value-of select="count(features/feature[@type='Resilient']) - $freeForAlly"/>
           </xsl:variable>
 
           <xsl:variable name="sturdyCost">
