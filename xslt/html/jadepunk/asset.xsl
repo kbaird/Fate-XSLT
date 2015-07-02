@@ -24,7 +24,7 @@
           <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Protective'][@type!='Resilient'][@type!='Sturdy'])"/>
         </xsl:variable>
 
-        <xsl:variable name="moreFeaturesCost">
+        <xsl:variable name="specialFeaturesCost">
           <xsl:variable name="exceptionalCost">
             <xsl:value-of select="count(features/feature[@type='Exceptional'])"/>
           </xsl:variable>
@@ -89,17 +89,17 @@
 
           <xsl:value-of select="$exceptionalCost + $flexibleCost + $focusCost + $harmfulCost + $numerousCost + $professionalCost + $protectiveCost + $resilientCost + $sturdyCost"/>
         </xsl:variable>
-        <xsl:value-of select="$baseFeaturesCost + $moreFeaturesCost"/>
+        <xsl:value-of select="$baseFeaturesCost + $specialFeaturesCost"/>
       </xsl:variable>
 
       <xsl:variable name="flawsCost">
         <xsl:variable name="baseFlawsCost">
           <xsl:value-of select="count(flaws/flaw[@type!='Consuming'])"/>
         </xsl:variable>
-        <xsl:variable name="moreFlawsCost">
+        <xsl:variable name="specialFlawsCost">
           <xsl:value-of select="2 * count(flaws/flaw[@type='Consuming'])"/>
         </xsl:variable>
-        <xsl:value-of select="$baseFlawsCost + $moreFlawsCost"/>
+        <xsl:value-of select="$baseFlawsCost + $specialFlawsCost"/>
       </xsl:variable>
       <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw, 2 Features / Refresh after that -->
       <xsl:value-of select="1 + ceiling((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
