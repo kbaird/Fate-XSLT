@@ -35,24 +35,17 @@
           </xsl:variable>
 
           <xsl:variable name="professionalCost">
-            <xsl:variable name="professionalValue">
+            <xsl:variable name="freeForAlly">
               <xsl:choose>
-                <xsl:when test="features/feature[@type='Professional'][@bonus]">
-                  <xsl:value-of select="sum(features/feature[@type='Professional']/@bonus)"/>
+                <xsl:when test="@type='Ally'">
+                  <xsl:value-of select="1"/>
                 </xsl:when>
                 <xsl:otherwise>
-                  <xsl:choose>
-                    <xsl:when test="@type='Ally'">
-                      <xsl:value-of select="0"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                      <xsl:value-of select="1"/>
-                    </xsl:otherwise>
-                  </xsl:choose>
+                  <xsl:value-of select="0"/>
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
-            <xsl:value-of select="$professionalValue - 1"/>
+            <xsl:value-of select="sum(features/feature[@type='Professional']/@bonus) - $freeForAlly"/>
           </xsl:variable>
 
           <xsl:variable name="protectiveCost">
