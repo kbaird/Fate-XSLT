@@ -67,8 +67,8 @@
           <xsl:variable name="professionalCost">
             <xsl:variable name="professionalValue">
               <xsl:choose>
-                <xsl:when test="features/feature[@type='Professional'][@effect]">
-                  <xsl:value-of select="sum(features/feature[@type='Professional']/@effect)"/>
+                <xsl:when test="features/feature[@type='Professional'][@bonus]">
+                  <xsl:value-of select="sum(features/feature[@type='Professional']/@bonus)"/>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:choose>
