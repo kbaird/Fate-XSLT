@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:include href="asset-one-free-for-ally.xsl"/>
   <xsl:include href="feature.xsl"/>
   <xsl:include href="flaw.xsl"/>
   <xsl:include href="guiding-aspect.xsl"/>
   <xsl:include href="notes.xsl"/>
-
-  <xsl:template match="asset" mode="one-free-for-ally">
-    <xsl:choose>
-      <xsl:when test="@type='Ally'">
-        <xsl:value-of select="1"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="0"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
 
   <xsl:template match="asset" mode="cost">
     <xsl:variable name="assetCost">
