@@ -15,10 +15,4 @@
     <xsl:value-of select="1 + ceiling((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
   </xsl:template>
 
-  <xsl:template match="asset" mode="wrapped-cost">
-    <cost>
-      <xsl:apply-templates select="." mode="cost"/>
-    </cost>
-  </xsl:template>
-
 </xsl:stylesheet>
