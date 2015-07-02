@@ -35,7 +35,7 @@
           </xsl:variable>
 
           <xsl:variable name="professionalCost">
-            <xsl:variable name="freeForAlly">
+            <xsl:variable name="oneFreeForAlly">
               <xsl:choose>
                 <xsl:when test="@type='Ally'">
                   <xsl:value-of select="1"/>
@@ -45,7 +45,7 @@
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
-            <xsl:value-of select="sum(features/feature[@type='Professional']/@bonus) - $freeForAlly"/>
+            <xsl:value-of select="sum(features/feature[@type='Professional']/@bonus) - $oneFreeForAlly"/>
           </xsl:variable>
 
           <xsl:variable name="protectiveCost">
@@ -63,7 +63,7 @@
           </xsl:variable>
 
           <xsl:variable name="resilientCost">
-            <xsl:variable name="freeForAlly">
+            <xsl:variable name="oneFreeForAlly">
               <xsl:choose>
                 <xsl:when test="@type='Ally'">
                   <xsl:value-of select="1"/>
@@ -73,7 +73,7 @@
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
-            <xsl:value-of select="count(features/feature[@type='Resilient']) - $freeForAlly"/>
+            <xsl:value-of select="count(features/feature[@type='Resilient']) - $oneFreeForAlly"/>
           </xsl:variable>
 
           <xsl:variable name="sturdyCost">
