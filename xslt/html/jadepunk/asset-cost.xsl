@@ -11,8 +11,16 @@
     <xsl:variable name="flawsCost">
       <xsl:apply-templates select="." mode="flaws-cost"/>
     </xsl:variable>
-    <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw, 2 Features / Refresh after that -->
-    <xsl:value-of select="1 + ceiling((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
+    <xsl:choose>
+      <!-- initial expenditure of 1 Refresh buys 2 Features and 1 Flaw, 2 Features / Refresh after that -->
+      <xsl:when test="(1 + ceiling((($featuresCost - 2) - ($flawsCost - 1)) div 2)) &lt; 1">
+        <!-- minimum Asset cost of 1 -->
+        <xsl:value-of select="1"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="1 + ceiling((($featuresCost - 2) - ($flawsCost - 1)) div 2)"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
 </xsl:stylesheet>
