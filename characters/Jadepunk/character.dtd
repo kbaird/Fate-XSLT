@@ -38,7 +38,7 @@
       <!-- For benefits that require text, as opposed to a simple integer quanity -->
       <!ATTLIST feature effect     CDATA #IMPLIED>
       <!ATTLIST feature type
-        (Aspect|Exceptional|Flexible|Focus|Harmful|Independent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
+        (Aspect|Creation-Roll|Exceptional|Flexible|Focus|Harmful|Independent|Numerous|Professional|Protective|Resilient|Sturdy|Talented)
       #REQUIRED>
       <!-- Specifically for Focus: -->
       <!ATTLIST feature profession CDATA #IMPLIED>
@@ -55,7 +55,7 @@
       <!ELEMENT flaw (#PCDATA)>
       <!-- For penalties that require text, as opposed to a simple integer quanity -->
       <!ATTLIST flaw effect CDATA #IMPLIED>
-      <!ATTLIST flaw type (Consuming|Demanding|Limited|Situational|Troubling) #REQUIRED>
+      <!ATTLIST flaw type (Consuming|Creation-Roll|Demanding|Limited|Situational|Troubling) #REQUIRED>
 
     <!ELEMENT notes (#PCDATA)>
 
