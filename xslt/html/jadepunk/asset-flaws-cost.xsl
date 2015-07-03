@@ -4,10 +4,16 @@
 
   <xsl:template match="asset" mode="flaws-cost">
     <xsl:variable name="baseFlawsCost">
-      <xsl:value-of select="count(flaws/flaw[@type!='Consuming'])"/>
+      <xsl:value-of select="count(flaws/flaw[@type!='Consuming'][@type!='Success-With-Style'])"/>
     </xsl:variable>
     <xsl:variable name="specialFlawsCost">
-      <xsl:value-of select="2 * count(flaws/flaw[@type='Consuming'])"/>
+      <xsl:variable name="consumingCost">
+        <xsl:value-of select="2 * count(flaws/flaw[@type='Consuming'])"/>
+      </xsl:variable>
+      <xsl:variable name="successWithStyleCost">
+        <xsl:value-of select="2 * count(flaws/flaw[@type='Success-With-Style'])"/>
+      </xsl:variable>
+      <xsl:value-of select="$consumingCost + $successWithStyleCost"/>
     </xsl:variable>
     <xsl:value-of select="$baseFlawsCost + $specialFlawsCost"/>
   </xsl:template>
