@@ -9,7 +9,6 @@ creator:
 
 # Dr. Dinosaur and the Texas Corn Conspiracy
 
-
 An _Anderson Dylan Midwest_ (ADM)
 crop is protested for being “Frankenfood” (the standard anti-GMO paranoid bullshit), but
 it is a red herring. Dr. Dinosaur once heard Barack Obama refer to Whole Foods in a speech, and
@@ -22,7 +21,7 @@ across the Bay Bridge.
 
 Dr. Dinosaur is wearing A Fisherman’s Wharf baseball cap and a Golden State Warriors tank top.
 
-Background:
+**Background:**
 According to the dude at the Middle East Market, there is only one kind of corn sold in
 supermarkets, grown at one specific location in Texas, and the reason each ear is only
 partially ripe is not that you pick them before they’re fully ripe to ensure sweeter corn, but
@@ -45,7 +44,7 @@ because of the GMO origin of the crop.
 
 **Aspects**
 
-- *T. Rex with Frickin Guns on its Head*
+- *T. Rex with Frickin' Guns on its Head*
 - *Apex Predator*
 - *Rampages at Will*
 - *Difficult to Control*
@@ -77,3 +76,15 @@ Teamwork Bonus (ARRPG172: +1 per extra member of the mob, so starting at +4)
 : [ 1 ][ 2 ]  [ 1 ][ 2 ]  [ 1 ][ 2 ]  [ 1 ][ 2 ]  [ 1 ][ 2 ]
 
 *Tooth & Claw* on ARRPG pg87
+
+## Aftermath
+
+### Finish the Volume (ARRPG 220)
+
+- Everybody gets a **Minor Milestone** (ARRPG225)
+- Everybody gets a **Significant Milestone** (ARRPG226): 1pt, 1 **Experience** Boost
+- Erase both **Pressures**; Resolve into a new **Title Aspect** from Volume 1
+- Create 2 new Pressures
+
+1.  _Shave Some Yaks to Get Back Home_
+2.  _Who’s Behind It All?_
