@@ -67,7 +67,7 @@ consequences the target has taken.
 Teamwork Bonus (ARRPG172: +1 per extra member of the mob, so starting at +4)
 
 **Modes and Skills**
-: Good (+3) Dinosaur (Tooth & Claw, Athletics, Notice, Physique)
+: Good (+3) **Dinosaur** (Tooth & Claw, Athletics, Notice, Physique)
 
 **Aspects**
 : *Mindless Monster*
