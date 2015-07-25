@@ -29,11 +29,14 @@ because of the GMO origin of the crop.
 
 ### Resolution / Rules:
 
-**Challenge** (ARRPG 106, perhaps Dueling mechanic from Jadepunk?)
+**Challenge** (ARRPG 106)
 
 - Clear squad of _Stegasauri_ in the Financial District
 - Capture _Futuresaurus Rex_ from the Bay Bridge
 - Re-take the Lawrence Hall of Science from Dr. D
+
+However, each of these may be best represented as a **Contest** (ARRPG 110), or perhaps a
+_Jadepunk_ **Duel** (JP 73).
 
 ## Futuresaurus Rex
 
@@ -84,7 +87,10 @@ Teamwork Bonus (ARRPG172: +1 per extra member of the mob, so starting at +4)
 - Everybody gets a **Minor Milestone** (ARRPG225)
 - Everybody gets a **Significant Milestone** (ARRPG226): 1pt, 1 **Experience** Boost
 - Erase both **Pressures**; Resolve into a new **Title Aspect** from Volume 1
-- Create 2 new Pressures
+- Create 2 new **Pressures**
 
 1.  _Shave Some Yaks to Get Back Home_
 2.  _Who’s Behind It All?_
+
+However, if there are **Collateral Consequences** (ARRPG 120,227), that can affect the new
+**Pressures** and character Aspects.
