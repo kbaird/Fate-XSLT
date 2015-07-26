@@ -4,6 +4,9 @@
   <xsl:template match="flaw">
     <dt class="flaw"><xsl:value-of select="@type"/>:</dt>
     <dd><xsl:choose>
+        <xsl:when test="@type='Consuming'">
+          <xsl:text>Costs 1 Fate Point to use</xsl:text>
+        </xsl:when>
         <xsl:when test="@type='Limited'">
           <xsl:choose>
             <xsl:when test="@bonus='1'">
@@ -14,11 +17,11 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:when>
+        <xsl:when test="@effect='Success-With-Style'">
+          <xsl:text>Succeeded w/Style (pg57)</xsl:text>
+        </xsl:when>
         <xsl:when test="@effect">
           <xsl:value-of select="@effect"/>
-        </xsl:when>
-        <xsl:when test="@type='Consuming'">
-          <xsl:text>Costs 1 Fate Point to use</xsl:text>
         </xsl:when>
         <xsl:otherwise/>
       </xsl:choose></dd>

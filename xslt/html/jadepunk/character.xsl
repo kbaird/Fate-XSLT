@@ -23,7 +23,7 @@
           </span>
           <table>
             <tr>
-              <xsl:call-template name="refresh"/>
+              <xsl:apply-templates select="refresh"/>
             </tr>
           </table>
         </div>
