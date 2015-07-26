@@ -20,7 +20,7 @@
     <aspect type="Mode" mode-name="Intrigue">Was Retired from the CIA</aspect>
     <aspect type="Mode" mode-name="Science">A Certain Moral Dedication</aspect>
     <aspect type="Mode" mode-name="Action">A Certain Moral Flexibility</aspect>
-    <aspect type="&#937;">&#160;</aspect>
+    <aspect type="&#937;">Wants to Make Better Moral Choices</aspect>
   </aspects>
   <skills>
     <mode rating="3" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
