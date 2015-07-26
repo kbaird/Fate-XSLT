@@ -34,7 +34,7 @@ After the talk, Robo invites Carl, Neil, and Sparrow on a tour of Tesladyne's fa
 offices are attacked by bog-standard **vampires**. Robo is surprised, because their vampire dimension
 security was tightened after a breach in 1965.
 
-### Vampires (Nameless NPCs, mobs of 5)
+### Vampires (Nameless NPCs, ARRPG pg 291, mobs of 5)
 
 **Modes and Skills**
 : Fair (+2) **Vampire** (+3 Combat, Physique; +2 Notice, Physique)
