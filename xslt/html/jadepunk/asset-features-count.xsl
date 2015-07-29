@@ -5,10 +5,11 @@
 
   <xsl:template match="asset" mode="features-count">
     <xsl:variable name="baseFeaturesCount">
-      <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Protective'][@type!='Resilient'][@type!='Sturdy'])"/>
+      <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Professional'][@type!='Protective'][@type!='Resilient'][@type!='Sturdy'])"/>
     </xsl:variable>
 
     <xsl:variable name="specialFeaturesCount">
+      <!-- Exceptional and Flexible count double, so count them again -->
       <xsl:variable name="exceptionalCount">
         <xsl:value-of select="count(features/feature[@type='Exceptional'])"/>
       </xsl:variable>
