@@ -3,15 +3,15 @@
 <!DOCTYPE character SYSTEM "Jadepunk/character.dtd">
 <character custom-css="tran_van_duc">
   <id>
-    <charname nickname="Đức">Trần Văn Đức / 陈文德 / "Ancient Culture Virtue"</charname>
+    <charname nickname="Đúc">Trần Văn Đúc / 陈文德 / "Ancient Culture Virtue"</charname>
     <playername>Kevin Baird</playername>
     <story>
-      Đức was part of the unsuccessful resistance against the Túyàngan invaders in the neighboring nation of Đại Nam (大南, "Big South").
+      Đúc was part of the unsuccessful resistance against the Túyàngan invaders in the neighboring nation of Đại Nam (大南, "Big South").
       He has since relocated, along with a sizeable Đạinamese community, attempting to rebuild in Kausao City, with the eventual dream of
       liberating Đạinam from the 图样人 devils.
-      (文 is a very typical male Đạinamese middle name, and the custom is to refer to one by personal name, like Đức).
+      (文 is a very typical male Đạinamese middle name, and the custom is to refer to one by personal name, like Đúc).
       I see the Đạinamese community in Kausao as having several parallels to the Tauron community in Caprica City.
-      The Browncoat analogy applies more to Đức and some others as individuals.
+      The Browncoat analogy applies more to Đúc and some others as individuals.
     </story>
   </id>
   <refresh base="7"/>
@@ -40,7 +40,7 @@
         <feature type="Independent"/>
       </features>
       <flaws>
-        <flaw type="Troubling"   effect="Expects Đức to be a Community Leader"/>
+        <flaw type="Troubling"   effect="Expects Đúc to be a Community Leader"/>
         <flaw type="Situational" effect="Only in or near Đạinamtown"/>
         <flaw type="Situational" effect="Nothing Too Dangerous"/>
       </flaws>
@@ -54,7 +54,7 @@
         <flaw type="Troubling"   effect="Easily Identifiable"/>
         <flaw type="Situational" effect="Scholar can only be used for sensing surroundings"/>
       </flaws>
-      <notes>Obvious, like Mike Tyson's face tattoo, and IDs Đức as a 'Browncoat'.</notes>
+      <notes>Obvious, like Mike Tyson's face tattoo, and IDs Đúc as a 'Browncoat'.</notes>
     </asset>
     <asset name="Knowledge is Power" guiding-aspect="Inciting-Incident" type="Technique">
       <features>
