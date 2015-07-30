@@ -4,8 +4,8 @@
   <!--
   <xsl:include href="md/fae/fae_common.xsl"/>
   <xsl:include href="md/aether_sea/id.xsl"/>
-  <xsl:include href="md/aether_sea/ship.xsl"/>
   -->
+  <xsl:include href="md/aether_sea/ship.xsl"/>
   <xsl:template match="/">
     <xsl:apply-templates select="ship"/>
   </xsl:template>

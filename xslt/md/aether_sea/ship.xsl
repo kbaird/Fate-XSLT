@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-  <xsl:output method="html"/>
+  <xsl:output method="text"/>
+  <!--
   <xsl:include href="./approaches.xsl"/>
   <xsl:include href="./stunts.xsl"/>
+  -->
   <xsl:template match="ship">
+    <xsl:text>
+---
+title:
+- type: main
+  text: </xsl:text>
+<xsl:value-of select="id/name"/><xsl:text>
+creator:
+- role: author
+  text: Kevin C. Baird
+...
+
+## </xsl:text><xsl:value-of select="id/name"/><xsl:text>
+
+</xsl:text><xsl:value-of select="id/description"/><xsl:text>
+
+    </xsl:text>
+    <!--
     <html>
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">fae</xsl:with-param>
@@ -42,5 +61,6 @@
         <xsl:apply-templates select="notes"/>
       </body>
     </html>
+-->
   </xsl:template>
 </xsl:stylesheet>
