@@ -34,7 +34,7 @@
     <asset name="Expatriate Đạinamese Community" function="Eyes, Ears, General Favors" type="Ally">
       <features>
         <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scholar"/>
-        <feature type="Numerous"     bonus="3"/>
+        <feature type="Numerous"     bonus="2"/>
         <feature type="Resilient"    bonus="1"/>
         <feature type="Sturdy"       bonus="1"/>
         <feature type="Independent"/>
