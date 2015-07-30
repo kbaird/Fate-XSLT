@@ -15,25 +15,34 @@ which has seen a few battles and slipshod repairs.
 **Size**
 : Major
 
+**Aspects**
+
+- _For 1st Crew Member_
+- _For 2nd Crew Member_
+- _For 3rd Crew Member_
+- _etc_
+
 **Skilled At**
-: *Fighting*
+: _Fighting_
 
 **Bad At**
-: *Navigating Close Quarters*
+: _Navigating Close Quarters_
 
 **Components**
 
 - Two Weapons Stations (cannons)
 - Grappling Station (Harpoon used to grab and tow ships and other objects.)
 
-**Stunts**
-: one free
-
 **Refresh**
 : 3
 
 **Resources Stress**
 : [1] [2] [3] [4]
+
+### Stunts
+
+**Stunt Name**
+: what it does
 
 Starts with 2 Stations, pg 27
 

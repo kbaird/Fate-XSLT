@@ -9,12 +9,21 @@
       which has seen a few battles and slipshod repairs.
     </description>
   </id>
+  <aspects>
+    <aspect>For 1st Crew Member</aspect>
+    <aspect>For 2nd Crew Member</aspect>
+    <aspect>For 3rd Crew Member</aspect>
+    <aspect>etc</aspect>
+  </aspects>
   <skilled-at>Fighting</skilled-at>
   <bad-at>Navigating close quarters</bad-at>
   <components>
     <component name="Two Weapons Stations">(cannons)</component>
     <component name="Grappling Station">Harpoon used to grab and tow ships and other objects.</component>
   </components>
+  <stunts>
+    <stunt name="Stunt Name">what it does</stunt>
+  </stunts>
   <!-- Resources stress track derived from Size, pg 26 -->
   <!-- Starts with 2 Stations, pg 27 -->
   <!-- Consequences, pg 29 -->
