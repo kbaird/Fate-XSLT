@@ -16,9 +16,9 @@
     <aspect>etc</aspect>
   </aspects>
   <skilled-at>Fighting</skilled-at>
-  <bad-at>Navigating close quarters</bad-at>
+  <bad-at>Navigating Close Quarters</bad-at>
   <components>
-    <component name="Two Weapons Stations">(cannons)</component>
+    <component name="Two Weapons Stations">cannons</component>
     <component name="Grappling Station">Harpoon used to grab and tow ships and other objects.</component>
   </components>
   <stunts>

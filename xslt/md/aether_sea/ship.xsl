@@ -21,46 +21,38 @@ creator:
 
 </xsl:text><xsl:value-of select="id/description"/><xsl:text>
 
+**Size**
+: </xsl:text><xsl:value-of select="@size"/><xsl:text>
+
+**Aspects**
+
+</xsl:text><xsl:apply-templates select="aspects/aspect"/><xsl:text>
+**Skilled At**
+: _</xsl:text><xsl:value-of select="skilled-at"/><xsl:text>_
+
+**Bad At**
+: _</xsl:text><xsl:value-of select="bad-at"/><xsl:text>_
+
+**Components**
+</xsl:text><xsl:apply-templates select="components/component"/><xsl:text>
+**Refresh**
+: 3
     </xsl:text>
-    <!--
-    <html>
-      <xsl:call-template name="head">
-        <xsl:with-param name="baseCSS">fae</xsl:with-param>
-        <xsl:with-param name="moreCSS">aether-sea</xsl:with-param>
-      </xsl:call-template>
-      <body>
-        <h1><xsl:value-of select="id/name"/></h1>
-        <div id="id"><xsl:apply-templates select="id"/></div>
-        <div id="fate-logo">
-          <span id="aether-sea">Aether Sea</span>
-          <table>
-            <tr>
-              <xsl:call-template name="refresh"/>
-            </tr>
-          </table>
-        </div>
-        <hr/>
-        <div id="aspects">
-          <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
-          <xsl:apply-templates select="approaches" mode="aether-sea"/>
-          <p>The <span class="favored">Favored</span> Approach treats all final results &lt; 0 as 0.</p>
-        </div>
-        <hr/>
-        <div id="stunts">
-          <xsl:apply-templates select="stunts" mode="aether-sea"/>
-        </div>
-        <hr/>
-        <div id="stress">
-          <xsl:call-template name="stress"/>
-        </div>
-        <div id="consequences">
-          <xsl:call-template name="consequences"/>
-        </div>
-        <xsl:apply-templates select="notes"/>
-      </body>
-    </html>
--->
+  </xsl:template>
+
+  <xsl:template match="aspect">
+    <xsl:text>- _</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>_
+</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="component">
+    <xsl:text>- </xsl:text>
+    <xsl:value-of select="@name"/>
+    <xsl:text> (</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>)
+</xsl:text>
   </xsl:template>
 </xsl:stylesheet>
