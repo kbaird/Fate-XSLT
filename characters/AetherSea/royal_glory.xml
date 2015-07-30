@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf8"?>
-<?xml-stylesheet type="text/xsl" href="../../xslt/aether-sea-ship_html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/aether-sea-ship_md.xsl"?>
 <!DOCTYPE ship SYSTEM "ship.dtd">
 <ship size="Major">
   <id>
