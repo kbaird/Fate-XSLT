@@ -34,10 +34,22 @@ creator:
 : _</xsl:text><xsl:value-of select="bad-at"/><xsl:text>_
 
 **Components**
+
 </xsl:text><xsl:apply-templates select="components/component"/><xsl:text>
 **Refresh**
 : 3
-    </xsl:text>
+
+**Resources Stress**
+: [1] [2] [3] [4]
+
+### Stunts
+
+</xsl:text><xsl:apply-templates select="stunts/stunt"/><xsl:text>
+Starts with 2 Stations, pg 27
+
+Consequences, pg 29
+
+</xsl:text>
   </xsl:template>
 
   <xsl:template match="aspect">
@@ -53,6 +65,15 @@ creator:
     <xsl:text> (</xsl:text>
     <xsl:value-of select="."/>
     <xsl:text>)
+</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="stunt">
+    <xsl:text>**</xsl:text>
+    <xsl:value-of select="@name"/>
+    <xsl:text>**
+: </xsl:text><xsl:value-of select="."/>
+<xsl:text>
 </xsl:text>
   </xsl:template>
 </xsl:stylesheet>
