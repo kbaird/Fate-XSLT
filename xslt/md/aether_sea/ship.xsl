@@ -4,21 +4,12 @@
   <xsl:include href="./addenda.xsl"/>
   <xsl:include href="./aspects.xsl"/>
   <xsl:include href="./components.xsl"/>
+  <xsl:include href="./metadata_header.xsl"/>
   <xsl:include href="./refresh.xsl"/>
   <xsl:include href="./stress.xsl"/>
   <xsl:include href="./stunts.xsl"/>
   <xsl:template match="ship">
-    <xsl:text>---
-title:
-- type: main
-  text: </xsl:text>
-<xsl:value-of select="id/name"/><xsl:text>
-creator:
-- role: author
-  text: Kevin C. Baird
-...
-
-## </xsl:text><xsl:value-of select="id/name"/>
+<xsl:call-template name="metadata_header"/>
 <xsl:text>
 
 </xsl:text><xsl:value-of select="id/description"/>
