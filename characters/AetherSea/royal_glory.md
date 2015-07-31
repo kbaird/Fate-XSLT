@@ -14,18 +14,41 @@ A standard Amethyst-class ship of the Royal Navy, albeit one which has seen a fe
 **Size**
 : Major
 
-**Aspects**
+### Aspects
+
+**High Concept**
+: _Well-Used Royal Navy Warship_
 
 - _For 1st Crew Member_
 - _For 2nd Crew Member_
 - _For 3rd Crew Member_
 - _etc_
 
+### Approaches
+
+**Careful**
+: -1
+
+**Clever**
+: 0
+
+**Flashy**
+: +1
+
+**Forceful**
+: +1
+
+**Quick**
+: 0
+
+**Sneaky**
+: -1
+
 **Skilled At**
-: _Fighting_
+: Fighting
 
 **Bad At**
-: _Navigating Close Quarters_
+: Navigating Close Quarters
 
 **Components**
 
