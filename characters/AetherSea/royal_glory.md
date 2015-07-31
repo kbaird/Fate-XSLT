@@ -48,11 +48,11 @@ Starts with 2 Stations, pg 27
 ### Consequences
 
 **Mild**
-:
+: 
 
 **Moderate**
-:
+: 
 
 **Severe**
-:
+: 
 

@@ -5,13 +5,13 @@
 <xsl:text>### Consequences
 
 **Mild**
-:
+: </xsl:text><xsl:value-of select="consequence[@severity='Mild']"/><xsl:text>
 
 **Moderate**
-:
+: </xsl:text><xsl:value-of select="consequence[@severity='Moderate']"/><xsl:text>
 
 **Severe**
-:
+: </xsl:text><xsl:value-of select="consequence[@severity='Severe']"/><xsl:text>
 
 </xsl:text>
   </xsl:template>
