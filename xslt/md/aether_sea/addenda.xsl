@@ -5,7 +5,16 @@
 <xsl:text>
 Starts with 2 Stations, pg 27
 
-Consequences, pg 29
+### Consequences
+
+**Mild**
+:
+
+**Moderate**
+:
+
+**Severe**
+:
 
 </xsl:text>
   </xsl:template>
