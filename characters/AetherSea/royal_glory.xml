@@ -21,7 +21,5 @@
   <stunts>
     <stunt name="Stunt Name">what it does</stunt>
   </stunts>
-  <!-- Resources stress track derived from Size, pg 26 -->
-  <!-- Starts with 2 Stations, pg 27 -->
-  <!-- Consequences, pg 29 -->
+  <consequences/>
 </ship>
