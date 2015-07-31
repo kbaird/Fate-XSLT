@@ -5,7 +5,7 @@
 <xsl:text>
 
 **Size**
-: </xsl:text><xsl:value-of select="@size"/><xsl:text>
+: </xsl:text><xsl:value-of select="/ship/@size"/><xsl:text>
 </xsl:text>
   </xsl:template>
 </xsl:stylesheet>

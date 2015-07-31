@@ -11,6 +11,7 @@
   <xsl:include href="./skilled-at.xsl"/>
   <xsl:include href="./stress.xsl"/>
   <xsl:include href="./stunts.xsl"/>
+
   <xsl:template match="ship">
     <xsl:call-template name="metadata_header"/>
     <xsl:value-of select="id/description"/>
@@ -24,4 +25,5 @@
     <xsl:apply-templates select="stunts"/>
     <xsl:call-template name="addenda"/>
   </xsl:template>
+
 </xsl:stylesheet>
