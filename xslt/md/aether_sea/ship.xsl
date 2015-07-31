@@ -3,7 +3,7 @@
   <xsl:output method="text"/>
   <xsl:include href="./aspects.xsl"/>
   <xsl:include href="./components.xsl"/>
-  <xsl:include href="./stunt.xsl"/>
+  <xsl:include href="./stunts.xsl"/>
   <xsl:template match="ship">
     <xsl:text>---
 title:
@@ -34,10 +34,7 @@ creator:
 
 **Resources Stress**
 : [1] [2] [3] [4]
-
-### Stunts
-
-</xsl:text><xsl:apply-templates select="stunts/stunt"/><xsl:text>
+</xsl:text><xsl:apply-templates select="stunts"/><xsl:text>
 Starts with 2 Stations, pg 27
 
 Consequences, pg 29
