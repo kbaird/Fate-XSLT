@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fae_npc_md.xsl"?>
+<!DOCTYPE character SYSTEM "npc.dtd">
+<npc>
+  <id>
+    <charname>Sky Shark</charname>
+    <description>
+    </description>
+  </id>
+  <aspects>
+    <aspect>I'm a Shark</aspect>
+    <aspect>Vulnerable Belly</aspect>
+  </aspects>
+  <skilled-at>Flying, Biting</skilled-at>
+  <bad-at>Everything Else</bad-at>
+  <stress>2</stress>
+</npc>
+

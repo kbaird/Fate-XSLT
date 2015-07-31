@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!ELEMENT npc (id, aspects, skilled-at, bad-at, stress)>
+
+  <!ELEMENT id (charname, description)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT description (#PCDATA)>
+
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect type CDATA #IMPLIED>
+
+  <!ELEMENT skilled-at (#PCDATA)>
+
+  <!ELEMENT bad-at (#PCDATA)>
+
+  <!ELEMENT stress (#PCDATA)>
+
