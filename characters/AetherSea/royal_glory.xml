@@ -8,11 +8,14 @@
   </id>
   <aspects>
     <aspect type="High-Concept">Well-Used Royal Navy Warship</aspect>
+    <!--
     <aspect>For 1st Crew Member</aspect>
     <aspect>For 2nd Crew Member</aspect>
     <aspect>For 3rd Crew Member</aspect>
     <aspect>etc</aspect>
+    -->
   </aspects>
+  <!--
   <approaches>
     <approach rating="-1" name="Careful"/>
     <approach rating="0"  name="Clever"/>
@@ -21,14 +24,17 @@
     <approach rating="0"  name="Quick"/>
     <approach rating="-1" name="Sneaky"/>
   </approaches>
+  -->
   <skilled-at>Fighting</skilled-at>
   <bad-at>Navigating Close Quarters</bad-at>
   <components>
     <component name="Two Weapons Stations">cannons</component>
     <component name="Grappling Station">Harpoon used to grab and tow ships and other objects.</component>
   </components>
+  <!--
   <stunts>
     <stunt name="Stunt Name">what it does</stunt>
   </stunts>
+  -->
   <consequences/>
 </ship>
