@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="text"/>
   <xsl:include href="./aspects.xsl"/>
-  <xsl:include href="./component.xsl"/>
+  <xsl:include href="./components.xsl"/>
   <xsl:include href="./stunt.xsl"/>
   <xsl:template match="ship">
     <xsl:text>---
@@ -28,10 +28,7 @@ creator:
 
 **Bad At**
 : _</xsl:text><xsl:value-of select="bad-at"/><xsl:text>_
-
-**Components**
-
-</xsl:text><xsl:apply-templates select="components/component"/><xsl:text>
+</xsl:text><xsl:apply-templates select="components"/><xsl:text>
 **Refresh**
 : 3
 
