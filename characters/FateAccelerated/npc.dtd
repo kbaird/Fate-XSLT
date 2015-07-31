@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT npc (id, aspects, skilled-at, bad-at, stress)>
 
-  <!ELEMENT id (charname, description)>
-    <!ELEMENT charname (#PCDATA)>
-    <!ATTLIST charname nickname CDATA #IMPLIED>
+  <!ELEMENT id (name, description)>
+    <!ELEMENT name (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
 
   <!ELEMENT aspects (aspect*)>

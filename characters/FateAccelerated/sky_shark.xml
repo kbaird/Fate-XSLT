@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "npc.dtd">
 <npc>
   <id>
-    <charname>Sky Shark</charname>
+    <name>Sky Shark</name>
     <description>
     </description>
   </id>

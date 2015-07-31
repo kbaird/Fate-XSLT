@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="text"/>
+  <xsl:include href="../fae/aspects.xsl"/>
+  <xsl:include href="../fae/bad-at.xsl"/>
+  <xsl:include href="../fae/metadata_header.xsl"/>
+  <xsl:include href="../fae/skilled-at.xsl"/>
+
   <xsl:include href="./addenda.xsl"/>
   <xsl:include href="./approaches.xsl"/>
-  <xsl:include href="./aspects.xsl"/>
-  <xsl:include href="./bad-at.xsl"/>
   <xsl:include href="./components.xsl"/>
   <xsl:include href="./consequences.xsl"/>
-  <xsl:include href="./metadata_header.xsl"/>
   <xsl:include href="./refresh.xsl"/>
   <xsl:include href="./size.xsl"/>
-  <xsl:include href="./skilled-at.xsl"/>
   <xsl:include href="./stress.xsl"/>
   <xsl:include href="./stunts.xsl"/>
 
