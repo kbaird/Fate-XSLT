@@ -5,9 +5,12 @@
   <xsl:template match="component">
     <xsl:text>- </xsl:text>
     <xsl:value-of select="@name"/>
-    <xsl:text> (</xsl:text>
-    <xsl:value-of select="."/>
-    <xsl:text>)
+    <xsl:if test="string-length(.) &gt; 0">
+      <xsl:text> (</xsl:text>
+      <xsl:value-of select="."/>
+      <xsl:text>)</xsl:text>
+    </xsl:if>
+    <xsl:text>
 </xsl:text>
   </xsl:template>
 
