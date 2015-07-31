@@ -3,27 +3,21 @@
   <xsl:output method="text"/>
   <xsl:include href="./addenda.xsl"/>
   <xsl:include href="./aspects.xsl"/>
+  <xsl:include href="./bad-at.xsl"/>
   <xsl:include href="./components.xsl"/>
   <xsl:include href="./metadata_header.xsl"/>
   <xsl:include href="./refresh.xsl"/>
+  <xsl:include href="./size.xsl"/>
+  <xsl:include href="./skilled-at.xsl"/>
   <xsl:include href="./stress.xsl"/>
   <xsl:include href="./stunts.xsl"/>
   <xsl:template match="ship">
     <xsl:call-template name="metadata_header"/>
-<xsl:text>
-
-</xsl:text><xsl:value-of select="id/description"/>
-<xsl:text>
-
-**Size**
-: </xsl:text><xsl:value-of select="@size"/><xsl:text>
-</xsl:text><xsl:apply-templates select="aspects"/><xsl:text>
-**Skilled At**
-: _</xsl:text><xsl:value-of select="skilled-at"/><xsl:text>_
-
-**Bad At**
-: _</xsl:text><xsl:value-of select="bad-at"/><xsl:text>_
-</xsl:text>
+    <xsl:value-of select="id/description"/>
+    <xsl:call-template name="size"/>
+    <xsl:apply-templates select="aspects"/>
+    <xsl:apply-templates select="skilled-at"/>
+    <xsl:apply-templates select="bad-at"/>
     <xsl:apply-templates select="components"/>
     <xsl:call-template name="refresh"/>
     <xsl:call-template name="stress"/>

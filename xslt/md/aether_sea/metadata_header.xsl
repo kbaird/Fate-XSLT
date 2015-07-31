@@ -12,6 +12,8 @@ creator:
   text: Kevin C. Baird
 ...
 
-## </xsl:text><xsl:value-of select="id/name"/>
+## </xsl:text><xsl:value-of select="id/name"/><xsl:text>
+
+</xsl:text>
   </xsl:template>
 </xsl:stylesheet>
