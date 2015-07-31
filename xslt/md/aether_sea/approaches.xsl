@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="text"/>
-  <xsl:template match="bad-at">
+  <xsl:include href="./approach.xsl"/>
+  <xsl:template match="approaches">
 <xsl:text>
+### Approaches
 
-**Bad At**
-: </xsl:text><xsl:value-of select="."/><xsl:text>
 </xsl:text>
+    <xsl:apply-templates select="approach"/>
   </xsl:template>
 </xsl:stylesheet>

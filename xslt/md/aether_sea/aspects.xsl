@@ -4,8 +4,10 @@
   <xsl:include href="./aspect.xsl"/>
   <xsl:template match="aspects">
 <xsl:text>
-**Aspects**
+### Aspects
 
-</xsl:text><xsl:apply-templates select="aspect"/>
+</xsl:text>
+    <xsl:apply-templates select="aspect[@type='High-Concept']"  mode="high-concept"/>
+    <xsl:apply-templates select="aspect[@type!='High-Concept']" mode="free"/>
   </xsl:template>
 </xsl:stylesheet>

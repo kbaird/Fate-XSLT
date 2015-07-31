@@ -4,6 +4,6 @@
   <xsl:template match="skilled-at">
 <xsl:text>
 **Skilled At**
-: _</xsl:text><xsl:value-of select="."/><xsl:text>_</xsl:text>
+: </xsl:text><xsl:value-of select="."/>
   </xsl:template>
 </xsl:stylesheet>

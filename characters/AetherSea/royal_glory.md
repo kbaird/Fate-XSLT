@@ -44,6 +44,7 @@ A standard Amethyst-class ship of the Royal Navy, albeit one which has seen a fe
 **Sneaky**
 : -1
 
+
 **Skilled At**
 : Fighting
 

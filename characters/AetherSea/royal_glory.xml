@@ -7,11 +7,20 @@
     <description>A standard Amethyst-class ship of the Royal Navy, albeit one which has seen a few battles and slipshod repairs.</description>
   </id>
   <aspects>
+    <aspect type="High-Concept">Well-Used Royal Navy Warship</aspect>
     <aspect>For 1st Crew Member</aspect>
     <aspect>For 2nd Crew Member</aspect>
     <aspect>For 3rd Crew Member</aspect>
     <aspect>etc</aspect>
   </aspects>
+  <approaches>
+    <approach rating="-1" name="Careful"/>
+    <approach rating="0"  name="Clever"/>
+    <approach rating="1"  name="Flashy"/>
+    <approach rating="1"  name="Forceful"/>
+    <approach rating="0"  name="Quick"/>
+    <approach rating="-1" name="Sneaky"/>
+  </approaches>
   <skilled-at>Fighting</skilled-at>
   <bad-at>Navigating Close Quarters</bad-at>
   <components>
