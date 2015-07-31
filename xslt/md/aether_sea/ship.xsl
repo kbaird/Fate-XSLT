@@ -9,7 +9,7 @@
   <xsl:include href="./stress.xsl"/>
   <xsl:include href="./stunts.xsl"/>
   <xsl:template match="ship">
-<xsl:call-template name="metadata_header"/>
+    <xsl:call-template name="metadata_header"/>
 <xsl:text>
 
 </xsl:text><xsl:value-of select="id/description"/>
@@ -24,10 +24,10 @@
 **Bad At**
 : _</xsl:text><xsl:value-of select="bad-at"/><xsl:text>_
 </xsl:text>
-<xsl:apply-templates select="components"/>
-<xsl:call-template name="refresh"/>
-<xsl:call-template name="stress"/>
-<xsl:apply-templates select="stunts"/>
-<xsl:call-template name="addenda"/>
+    <xsl:apply-templates select="components"/>
+    <xsl:call-template name="refresh"/>
+    <xsl:call-template name="stress"/>
+    <xsl:apply-templates select="stunts"/>
+    <xsl:call-template name="addenda"/>
   </xsl:template>
 </xsl:stylesheet>
