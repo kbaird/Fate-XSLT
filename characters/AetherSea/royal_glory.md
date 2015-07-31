@@ -9,8 +9,7 @@ creator:
 
 ## Royal Glory
 
-A standard Amethyst-class ship of the Royal Navy, albeit one
-which has seen a few battles and slipshod repairs.
+A standard Amethyst-class ship of the Royal Navy, albeit one which has seen a few battles and slipshod repairs.
 
 **Size**
 : Major

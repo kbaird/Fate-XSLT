@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="text"/>
+  <xsl:include href="./addenda.xsl"/>
   <xsl:include href="./aspects.xsl"/>
   <xsl:include href="./components.xsl"/>
   <xsl:include href="./refresh.xsl"/>
@@ -17,7 +18,8 @@ creator:
   text: Kevin C. Baird
 ...
 
-## </xsl:text><xsl:value-of select="id/name"/><xsl:text>
+## </xsl:text><xsl:value-of select="id/name"/>
+<xsl:text>
 
 </xsl:text><xsl:value-of select="id/description"/>
 <xsl:text>
@@ -35,11 +37,6 @@ creator:
 <xsl:call-template name="refresh"/>
 <xsl:call-template name="stress"/>
 <xsl:apply-templates select="stunts"/>
-<xsl:text>
-Starts with 2 Stations, pg 27
-
-Consequences, pg 29
-
-</xsl:text>
+<xsl:call-template name="addenda"/>
   </xsl:template>
 </xsl:stylesheet>

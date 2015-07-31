@@ -4,10 +4,7 @@
 <ship size="Major">
   <id>
     <name>Royal Glory</name>
-    <description>
-      A standard Amethyst-class ship of the Royal Navy, albeit one
-      which has seen a few battles and slipshod repairs.
-    </description>
+    <description>A standard Amethyst-class ship of the Royal Navy, albeit one which has seen a few battles and slipshod repairs.</description>
   </id>
   <aspects>
     <aspect>For 1st Crew Member</aspect>
