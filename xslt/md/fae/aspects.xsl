@@ -9,5 +9,6 @@
 </xsl:text>
     <xsl:apply-templates select="aspect[@type='High-Concept']"  mode="high-concept"/>
     <xsl:apply-templates select="aspect[@type!='High-Concept']" mode="free"/>
+    <xsl:apply-templates select="aspect[not(@type)]"            mode="free"/>
   </xsl:template>
 </xsl:stylesheet>

@@ -4,8 +4,7 @@
 <npc>
   <id>
     <name>Sky Shark</name>
-    <description>
-    </description>
+    <description/>
   </id>
   <aspects>
     <aspect>I'm a Shark</aspect>
