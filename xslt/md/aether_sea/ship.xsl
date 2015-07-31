@@ -4,6 +4,7 @@
   <xsl:include href="./aspects.xsl"/>
   <xsl:include href="./components.xsl"/>
   <xsl:include href="./refresh.xsl"/>
+  <xsl:include href="./stress.xsl"/>
   <xsl:include href="./stunts.xsl"/>
   <xsl:template match="ship">
     <xsl:text>---
@@ -32,11 +33,9 @@ creator:
 </xsl:text>
 <xsl:apply-templates select="components"/>
 <xsl:call-template name="refresh"/>
+<xsl:call-template name="stress"/>
+<xsl:apply-templates select="stunts"/>
 <xsl:text>
-
-**Resources Stress**
-: [1] [2] [3] [4]
-</xsl:text><xsl:apply-templates select="stunts"/><xsl:text>
 Starts with 2 Stations, pg 27
 
 Consequences, pg 29
