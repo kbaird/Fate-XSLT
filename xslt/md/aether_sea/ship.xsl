@@ -3,6 +3,7 @@
   <xsl:output method="text"/>
   <xsl:include href="./aspects.xsl"/>
   <xsl:include href="./components.xsl"/>
+  <xsl:include href="./refresh.xsl"/>
   <xsl:include href="./stunts.xsl"/>
   <xsl:template match="ship">
     <xsl:text>---
@@ -28,9 +29,10 @@ creator:
 
 **Bad At**
 : _</xsl:text><xsl:value-of select="bad-at"/><xsl:text>_
-</xsl:text><xsl:apply-templates select="components"/><xsl:text>
-**Refresh**
-: 3
+</xsl:text>
+<xsl:apply-templates select="components"/>
+<xsl:call-template name="refresh"/>
+<xsl:text>
 
 **Resources Stress**
 : [1] [2] [3] [4]
