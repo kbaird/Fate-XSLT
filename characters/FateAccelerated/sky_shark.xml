@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf8"?>
-<?xml-stylesheet type="text/xsl" href="../../xslt/fae_html.xsl"?>
-<!DOCTYPE npc SYSTEM "npc.dtd">
-<character>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fae_npc_md.xsl"?>
+<!DOCTYPE character SYSTEM "npc.dtd">
+<npc>
   <id>
-    <charname>Sky Shark</charname>
-    <playername>sample FAE NPC</playername>
+    <name>Sky Shark</name>
     <description/>
   </id>
   <aspects>
@@ -12,6 +11,7 @@
     <aspect>Vulnerable Belly</aspect>
   </aspects>
   <skilled-at>Flying, Biting</skilled-at>
-  <bad-at>Everything else</bad-at>
+  <bad-at>Everything Else</bad-at>
   <stress>2</stress>
-</character>
+</npc>
+
