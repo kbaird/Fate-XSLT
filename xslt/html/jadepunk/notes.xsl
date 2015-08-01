@@ -3,6 +3,6 @@
   <xsl:output method="html"/>
   <xsl:template match="notes">
     <dt>Notes:</dt>
-    <dd><xsl:value-of select="."/></dd>
+    <dd class="notes"><xsl:value-of select="."/></dd>
   </xsl:template>
 </xsl:stylesheet>

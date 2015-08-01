@@ -2,3 +2,5 @@ FateLogo.eps
 Patches
 *.pdf
 *.txt
+out/*/*.epub
+out/*/*.pdf

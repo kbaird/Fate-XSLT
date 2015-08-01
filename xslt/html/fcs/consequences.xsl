@@ -34,6 +34,7 @@
           </xsl:if>
         </td>
       </tr>
+      <tfoot><tr><th colspan="2">F = Free, R? = Recovering?</th></tr></tfoot>
     </table>
   </xsl:template>
   <xsl:template name="consequence">
@@ -42,7 +43,10 @@
     <fieldset class="consequence">
       <legend class="severity">
         <span><xsl:value-of select="$label"/></span>
-        <xsl:text>Free ☐ / Recovering? ☐</xsl:text>
+        <xsl:text>F☐</xsl:text>
+        <xsl:if test="$severity != 'Mild'">
+          <xsl:text> / R?☐</xsl:text>
+        </xsl:if>
       </legend>
       <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
         <xsl:choose>

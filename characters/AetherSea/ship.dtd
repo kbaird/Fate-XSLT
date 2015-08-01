@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT ship (id, aspects?, approaches?, skilled-at?, bad-at?, components?, stunts?, consequences?, notes?)>
+<!ELEMENT ship (id, aspects?, approaches?, skilled-at?, bad-at?, components?, stunts?, consequences, notes?)>
   <!ATTLIST ship size (Shuttle|Working|Major|Ultramassive) #REQUIRED>
 
   <!ELEMENT id (name, description)>

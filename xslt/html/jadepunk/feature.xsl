@@ -5,6 +5,9 @@
   <xsl:template match="feature">
     <dt class="feature"><xsl:value-of select="@type"/>:</dt>
     <dd><xsl:choose>
+      <xsl:when test="@effect='Failed'">
+        <xsl:text>Failed (pg57)</xsl:text>
+      </xsl:when>
       <xsl:when test="@effect">
         <xsl:value-of select="@effect"/>
       </xsl:when>

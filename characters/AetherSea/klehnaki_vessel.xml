@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/aether-sea-ship_md.xsl"?>
+<!DOCTYPE ship SYSTEM "ship.dtd">
+<ship size="Working">
+  <id>
+    <name>Klehnaki Vessel</name>
+    <description>
+      There’s no one description of what a Klehnaki raider’s ship
+      looks like. There are dozens of styles, many stolen but most
+      cobbled together from scrap. They all look like they’re falling
+      apart, and they’re all armed.
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Repurposed Junker</aspect>
+  </aspects>
+  <skilled-at>Taking hits</skilled-at>
+  <bad-at>Anything delicate</bad-at>
+  <components>
+    <component name="Two Weapons Stations"></component>
+    <component name="Moderate Consequence"/>
+  </components>
+  <consequences/>
+</ship>

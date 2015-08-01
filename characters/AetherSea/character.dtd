@@ -5,7 +5,7 @@
     <!ELEMENT charname (#PCDATA)>
     <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT playername (#PCDATA)>
-    <!ELEMENT species (#PCDATA)> <!-- TODO: how to restrict to species list -->
+    <!ELEMENT species (#PCDATA)> <!-- TODO: restrict to species list - requires XSD instead of DTD -->
     <!ELEMENT description (#PCDATA)>
 
   <!ELEMENT refresh (#PCDATA)>
@@ -22,7 +22,7 @@
 
   <!ELEMENT stunts (magic?, stunt*)>
     <!ELEMENT magic (dabbles-in?, focuses-on?, permanent-magic?)>
-      <!ELEMENT dabbles-in (#PCDATA)> <!-- TODO: How to restrict to school list, as focuses-on/@within ? -->
+      <!ELEMENT dabbles-in (#PCDATA)> <!-- TODO: restrict to school list, as focuses-on/@within - requires XSD instead of DTD -->
       <!ELEMENT focuses-on (#PCDATA)> <!-- requires a justifying Aspect -->
       <!ATTLIST focuses-on within (Alteration|Animation|Evocation) #REQUIRED>
       <!ELEMENT permanent-magic (#PCDATA)> <!-- requires a justifying Aspect -->

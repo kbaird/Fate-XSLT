@@ -29,9 +29,9 @@ creator:
 **Clockwork Firearm**
 : Device
 
-- Function Aspect: *Red Jade Six-Shooter*
-- Harmful 2
-- Demanding (1 action to reload after a lot of shooting)
+- **Function Aspect**: *Red Jade Six-Shooter*
+- **Harmful** 2
+- **Demanding** (1 action to reload after a lot of shooting)
 
 **Stress**
 : [ 1 ]

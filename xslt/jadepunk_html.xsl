@@ -6,13 +6,13 @@
   <xsl:include href="html/fate-common/id.xsl"/>
   <xsl:include href="html/fate-common/name-of-rating.xsl"/>
   <xsl:include href="html/fate-common/notes.xsl"/>
-  <xsl:include href="html/fate-common/refresh.xsl"/>
   <xsl:include href="html/fcs/conditions.xsl"/>
   <xsl:include href="html/fcs/consequences.xsl"/>
   <xsl:include href="html/jadepunk/assets.xsl"/>
   <xsl:include href="html/jadepunk/character.xsl"/>
   <xsl:include href="html/jadepunk/id.xsl"/>
   <xsl:include href="html/jadepunk/professions.xsl"/>
+  <xsl:include href="html/jadepunk/refresh.xsl"/>
   <xsl:include href="html/jadepunk/stress.xsl"/>
   <xsl:template match="/">
     <xsl:apply-templates select="character"/>
