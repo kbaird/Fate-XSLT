@@ -14,12 +14,12 @@
   </description>
   </id>
   <current-fate-points>5</current-fate-points>
-  <experience-points>2</experience-points>
+  <experience-points>1</experience-points>
   <aspects>
     <aspect type="Concept">Black Widow for Greenpeace</aspect>
     <aspect type="Mode" mode-name="Intrigue">Was Retired from the CIA</aspect>
     <aspect type="Mode" mode-name="Science">A Certain Moral Dedication</aspect>
-    <aspect type="Mode" mode-name="Action">A Certain Moral Flexibility</aspect>
+    <aspect type="Mode" mode-name="CIA&#160;Agent">A Certain Moral Flexibility</aspect>
     <aspect type="&#937;">Wants to Make Better Moral Choices</aspect>
   </aspects>
   <skills>
@@ -34,16 +34,16 @@
     <mode rating="2" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
       <skill name="Environmental Science" add="2"/>
       <skill name="Notice"                cost="1"/>
-      <skill name="Will"                  cost="1" add="2"/>
+      <skill name="Will"                  cost="1" add="1"/>
       <skill name="(All Other Sciences)"  cost="1"/>
     </mode>
-    <mode rating="1" name="Action"> <!-- ARRPG pg82 -->
-      <skill name="Athletics" cost="2"/>
-      <skill name="Combat"    cost="2"/>
-      <skill name="Notice"    cost="1"/>
-      <skill name="Physique"  cost="1"/>
-      <skill name="Provoke"   cost="1"/>
-      <skill name="Vehicles"  cost="2"/>
+    <mode rating="1" name="CIA&#160;Agent" stress-type="split"> <!-- ARRPG pg276, s/Vehicles/Combat/ -->
+     <skill name="Combat"    cost="2" add="1"/>
+     <skill name="Contacts"  cost="1"/>
+     <skill name="Deceive"   cost="2"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Stealth"   cost="2"/>
+     <skill name="Will"      cost="1"/>
     </mode>
   </skills>
   <stunts>
@@ -65,7 +65,9 @@
     <stunt name="Notice Tell">
       You can use Notice in place of Empathy to Defend against Deceive (ARRPG pg64).
     </stunt>
-    <stunt name=" ">&#160;</stunt>
+    <stunt name="Passive Aggression">
+      Defend with Deceive at +2 when making something you just did look like an accident.
+    </stunt>
   </stunts>
   <consequences/>
   <experiences>
@@ -83,9 +85,10 @@
     Still has 1 Significant Milestone (ARRPG226) from stopping Dr. Dinosaur.
       1 point<!-- 1 Experience Boost -->
     Still has 1 Severe Collateral Consequence (ARRPG227) from stopping Dr. Dinosaur.
-      1 point
-      can replace 1 Mode
-      can rewrite any Aspect, including Concept
+      can rewrite any Aspect, including Concept<!--
+      1 point to bump Combat from Trained to Focused
+      can replace 1 Mode: Action -> CIA Agent
+      -->
     <!--
       Regardless of what modes you have, if they're all standard modes you get ONE of the following improvements:
       X Focus three trained skills.   Burglary, Deceive, Stealth

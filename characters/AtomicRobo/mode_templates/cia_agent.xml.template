@@ -1,0 +1,8 @@
+    <mode rating="x" name="CIA&#160;Agent" stress-type="split"> <!-- ARRPG pg276, s/Vehicles/Combat/ -->
+     <skill name="Combat"    cost="2"/>
+     <skill name="Contacts"  cost="1"/>
+     <skill name="Deceive"   cost="2"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Stealth"   cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
