@@ -13,8 +13,8 @@
     -->
   </description>
   </id>
-  <current-fate-points>1</current-fate-points>
-  <experience-points>0</experience-points>
+  <current-fate-points>5</current-fate-points>
+  <experience-points>2</experience-points>
   <aspects>
     <aspect type="Concept">Black Widow for Greenpeace</aspect>
     <aspect type="Mode" mode-name="Intrigue">Was Retired from the CIA</aspect>
