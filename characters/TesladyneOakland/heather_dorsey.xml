@@ -38,7 +38,7 @@
       <skill name="(All Other Sciences)"  cost="1"/>
     </mode>
     <mode rating="1" name="CIA&#160;Agent" stress-type="split"> <!-- ARRPG pg276, s/Vehicles/Combat/ -->
-     <skill name="Combat"    cost="2"/>
+     <skill name="Combat"    cost="2" add="1"/>
      <skill name="Contacts"  cost="1"/>
      <skill name="Deceive"   cost="2"/>
      <skill name="Notice"    cost="1"/>
@@ -84,8 +84,8 @@
       1 point
       1 Experience Boost
     Still has 1 Severe Collateral Consequence (ARRPG227) from stopping Dr. Dinosaur.
-      1 point
       <!--
+      1 point to bump Combat from Trained to Focused
       can replace 1 Mode: Action -> CIA Agent
       -->
       can rewrite any Aspect, including Concept
