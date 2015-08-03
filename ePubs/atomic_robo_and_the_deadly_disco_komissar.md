@@ -66,17 +66,18 @@ Teamwork Bonus (ARRPG172: +1 per extra member of the mob, so starting at +4)
 
 #### Who's To Blame?
 
-Unless **Brainstorming** declares differently, the team should uncover data suggesting that _someone_
-has sabotaged Tesladyne's security in an attempt to discredit **_The Honky Capitalist Pig
-Establishment_** and optimistic scientific worldviews in general (which Tesladyne represents, and
-which support the US' technological base).
-
-Evidence points to **_Capricorn Rising_**, a discotheque in the
+Evidence points to **The Deadly Disco Komissar** and **_Capricorn Rising_**, a discotheque in the
 [Chelsea](http://en.wikipedia.org/wiki/Chelsea,_Manhattan) neighborhood in Manhattan, an
 astrologically-inclined parody of [_Studio 54_](http://en.wikipedia.org/wiki/Studio_54) in
 [Hell's Kitchen](http://en.wikipedia.org/wiki/Hell%27s_Kitchen,_Manhattan).
 
+**Brainstorm** to determine his motivations.
+
 ## Scene 2: Capricorn Rising
+
+Aspects: _Exclusive_, _World-Famous Nightclub_
+
+Inside only: _Loud Party_, _Booze & Coke Flowing Freely_
 
 Treat as 2 **Contests** (ARRPG pg110): **_Get Into the Exclusive Club_**, **_Get Past Crowd/Goons_**
 
