@@ -21,7 +21,7 @@
     <aspect type="&#937;">&#160;</aspect>
   </aspects>
   <skills>
-    <mode rating="3" name="Survivor" stress-type="split"> <!-- ARRPG pg256 -->
+    <mode rating="3" name="Survivor" stress-type="physical"> <!-- ARRPG pg256 -->
      <skill name="Athletics" cost="2"/>
      <skill name="Combat"    cost="2" add="1"/>
      <skill name="Notice"    cost="1"/>
