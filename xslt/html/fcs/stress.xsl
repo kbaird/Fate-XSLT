@@ -12,7 +12,7 @@
         <xsl:otherwise>2</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <table id="stress">
+    <table id="stress_table">
       <xsl:call-template name="generic-stress">
         <xsl:with-param name="baseCount">
           <xsl:value-of select="$stressBaseCount"/>

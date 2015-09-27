@@ -16,10 +16,10 @@ fieldset.mega legend span { color: blue; font-weight: 900; }
 p { font-family: Cabin, Padauk, Montserrat; }
 p #copyright { clear: both; float: none; }
 
-table#skills tbody tr th { font-family: Cabin, Padauk, Montserrat; }
-table#skills tbody tr td { margin-left: 0; padding-left: 0; margin-bottom: -2em; padding-top: 1em; text-align: left; }
-table#skills tbody tr td ul { line-height: 1.1em; margin-left: 0.3em; padding-left: 0.4em; }
-table#skills tbody tr td ul li { margin-left: 0; padding-left: 0; margin-right: -0.2em; padding-right: 0; }
+table#skills_table tbody tr th { font-family: Cabin, Padauk, Montserrat; }
+table#skills_table tbody tr td { margin-left: 0; padding-left: 0; margin-bottom: -2em; padding-top: 1em; text-align: left; }
+table#skills_table tbody tr td ul { line-height: 1.1em; margin-left: 0.3em; padding-left: 0.4em; }
+table#skills_table tbody tr td ul li { margin-left: 0; padding-left: 0; margin-right: -0.2em; padding-right: 0; }
 
 ul#skill-explanation { font-size: 1em; }
 ul#skill-explanation li { display: inline; }
@@ -33,8 +33,8 @@ ul#skill-explanation li:after + li { content: ", "; }
   fieldset.aspect legend.label span { margin: 0; margin-top: -1.6em; padding: 0; }
   fieldset.consequence legend.severity span { color: black; }
   th.mode-rating { font-size: 1.7em; padding-top: 0.3em; }
-  table#aspects tbody tr td { border: 2px solid #cccccc; padding-top: 1em; padding-bottom: 1.2em; }
-  table#skills tbody tr td { padding: 0.1em; padding-top: 0.2em; padding-bottom: 0.2em; }
-  table#skills tbody tr td ul { margin: 0.1em; padding: 0.1em; }
-  table#stress tbody tr th.sectionheader { padding-top: 0.5em; }
-  table#stress tbody tr td { padding: 0.7em; } }
+  table#aspects_table tbody tr td { border: 2px solid #cccccc; padding-top: 1em; padding-bottom: 1.2em; }
+  table#skills_table tbody tr td { padding: 0.1em; padding-top: 0.2em; padding-bottom: 0.2em; }
+  table#skills_table tbody tr td ul { margin: 0.1em; padding: 0.1em; }
+  table#stress_table tbody tr th.sectionheader { padding-top: 0.5em; }
+  table#stress_table tbody tr td { padding: 0.7em; } }
