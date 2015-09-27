@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname nickname="Survivor Robo">Dr. Atomic Robo Tesla</charname>
+    <playername>NPC</playername>
+    <affiliation>Tesladyne (retired)</affiliation>
+    <description>
+      The Robo from an alternate 2011 after the Cuban Missle Crisis in 1962 resulted
+      in a global thermonuclear war that destroyed human civilization.
+    </description>
+  </id>
+  <current-fate-points>5</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept" signature="true">Survivor Robo</aspect>
+    <aspect type="Mode" mode-name="Survivor">I Failed Humanity When They Needed Me Most</aspect>
+    <aspect type="Mode" mode-name="Science">Has-Been</aspect>
+    <aspect type="Mode" mode-name="Robot">Virtually Indestructible</aspect>
+    <aspect type="&#937;">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Survivor" stress-type="split"> <!-- ARRPG pg256 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2" add="1"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1"/>
+     <skill name="Vehicles"  cost="2"/>
+     <skill name="Will"      cost="1"/>
+     <!-- 5 pts of Improvements: Combat 2, Vehicles 2, Combat +1 -->
+    </mode>
+    <mode rating="2" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Electrical Engineering"       add="1"/>
+      <skill name="Hyperdimensional Mathematics" add="2"/>
+      <skill name="Nuclear Physics"              add="2"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <!--
+         Specialize one trained skill. - HD Math
+         Focus one trained skill.      - ElEng
+         Specialize one focused skill. - Nuclear Physics
+    -->
+    <mode rating="1" name="Robot" stress-type="physical"> <!-- ARRPG pg90 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1"/>
+     <!--
+          Specialize 1 Trained Skill
+          Focus      2 Trained Skills - Nuclear Physics
+     -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt mega="true" name="Atomic Strength">
+      Absolutely stronger than any human (Physique), but at a cost.
+      Weapon: 2 with hand-to-hand attacks; +2 to Overcome with Athletics when jumping.
+    </stunt>
+    <stunt mega="true" name="Just Guns">
+      Bulletproof, but weak to strong electromagnetism;
+      Armor: 2 against everything else.
+    </stunt>
+    <stunt name="&#160;"> &#160; </stunt>
+    <stunt name="&#160;"> &#160; </stunt>
+  </stunts>
+  <consequences/>
+  <experiences suppress="true"/>
+  <notes>
+ </notes>
+</character>
