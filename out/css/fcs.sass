@@ -43,7 +43,7 @@ table
     p
       font-family: $basic_font
 
-  &#skills tr
+  &#skills_table tr
     th.mode-rating
       +shared_th_rating
       width: 4%
@@ -63,9 +63,9 @@ table
           display: inline
         li + li:before
           content: ", "
-  &#stress td
+  &#stress_table td
     padding: $top_padding * 2.0 / 3.0
 
 @media print
-  table#skills tbody tr th.sectionheader
+  table#skills_table tbody tr th.sectionheader
     font-size: 1.5em

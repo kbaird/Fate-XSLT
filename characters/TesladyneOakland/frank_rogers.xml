@@ -8,8 +8,8 @@
     <affiliation>Tesladyne Oakland (Action Scientist PC)</affiliation>
     <description>Search for "dale irby images"</description>
   </id>
-  <current-fate-points>3</current-fate-points>
-  <experience-points>0</experience-points>
+  <current-fate-points>4</current-fate-points>
+  <experience-points>2</experience-points>
   <aspects>
     <aspect type="Concept">The DRUNK Batman of Human Resources</aspect>
     <aspect type="Mode" mode-name="Martial&#160;Artist">Secretly Drunken Master</aspect>
@@ -59,7 +59,7 @@
   </stunts>
   <consequences/>
   <experiences>
-    <experience/>
+    <experience>Name me</experience>
     <experience/>
     <experience/>
   </experiences>
@@ -72,8 +72,7 @@
       replace a Stunt
       rewrite a non-Concept Aspect
     Still has 1 Significant Milestone (ARRPG226) from stopping Dr. Dinosaur.
-      1 point
-      1 Experience Boost
+      1 point<!-- 1 Experience Boost -->
     Still has 1 Severe Collateral Consequence (ARRPG227) from stopping Dr. Dinosaur.
       1 point
       can replace 1 Mode
