@@ -9,7 +9,7 @@ div#skills dl#simple dd, div#skills dt { clear: both; display: block; }
 
 fieldset legend span { top: 0.2em; }
 
-table#stress td { padding: 1.8em; }
+table#stress_table td { padding: 1.8em; }
 
 table#approaches { margin-right: -4em; }
 table#approaches tbody tr td dl.approaches dt { font-size: 1em; }

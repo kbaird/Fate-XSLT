@@ -6,7 +6,7 @@
   <xsl:include href="./asset-stress-boxes.xsl"/>
   <xsl:include href="./generic-stress.xsl"/>
   <xsl:template name="stress">
-    <table id="stress">
+    <table id="stress_table">
       <xsl:call-template name="generic-stress" mode="jadepunk">
         <xsl:with-param name="baseCount">3</xsl:with-param>
         <xsl:with-param name="maxCount">3</xsl:with-param>
