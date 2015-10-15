@@ -11,5 +11,5 @@ for file in $@; do
   bname=$(basename $file)
   dname=$(dirname $file)
   base=${bname%.*}
-  pandoc -f markdown -t latex -o ../out/$dname/$base.pdf $file
+  pandoc --latex-engine=xelatex -f markdown -t latex -o ../out/$dname/$base.pdf $file
 done
