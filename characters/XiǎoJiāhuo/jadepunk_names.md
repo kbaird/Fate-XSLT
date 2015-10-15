@@ -1,10 +1,6 @@
 ---
-title:
-- type: main
-  text: Jadepunk Names
-creator:
-- role: author
-  text: Kevin C. Baird
+title: Jadepunk Names
+author: Kevin C. Baird
 ...
 
 ## Jadepunk Names
