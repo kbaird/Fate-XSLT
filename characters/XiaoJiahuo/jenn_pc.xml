@@ -31,7 +31,7 @@
   <assets>
     <asset name="Airship" function="White Jade Airship" type="Device">
       <features>
-        <feature type="Aspect" effect="江湖 crew"/>
+        <feature type="Aspect"      effect="江湖 crew"/>
         <feature type="Exceptional" effect="Instantly leave or appear in a scene, as long as there's a way in or out"/>
       </features>
       <flaws>
