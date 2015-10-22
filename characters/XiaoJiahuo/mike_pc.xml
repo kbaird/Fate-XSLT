@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>&#160;</charname>
+    <playername>Michael Wood</playername>
+    <story>
+      An alchemist / brewer of elixirs &amp; concoctions.
+      Probably 图样人。
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">&#160;</aspect>
+    <aspect type="Background">Túyàngan Alchemist</aspect>
+    <aspect type="Inciting-Incident">&#160;</aspect>
+    <aspect type="Belief">&#160;</aspect>
+    <aspect type="Trouble">&#160;</aspect>
+  </aspects>
+  <professions>
+    <profession rating="&#160;" name="Aristocrat"/>
+    <profession rating="3" name="Engineer"/>
+    <profession rating="&#160;" name="Explorer"/>
+    <profession rating="&#160;" name="Fighter"/>
+    <profession rating="&#160;" name="Scholar"/>
+    <profession rating="&#160;" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Alchemist" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" profession="Engineer" bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when brewing Jade-infused potion Devices"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
