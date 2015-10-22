@@ -39,12 +39,28 @@
         <flaw type="Demanding" effect="Requires a Fair [+2] Explorer roll to get a ship underway"/>
       </flaws>
     </asset>
+    <asset name="Cutting Remarks" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Exceptional" effect="Target may not check a Stress Box"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only for Attacks with Aristocrat"/>
+      </flaws>
+    </asset>
     <asset name="Ear to the Ground" guiding-aspect="Portrayal" type="Technique">
       <features>
         <feature type="Focus" bonus="2" profession="Aristocrat"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when using your network to find information"/>
+      </flaws>
+    </asset>
+    <asset name="Let's Make a Deal" guiding-aspect="Belief" type="Technique">
+      <features>
+        <feature type="Focus" bonus="2" profession="Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only to Create Advantages on an NPC who is someone else's boss"/>
       </flaws>
     </asset>
   </assets>
