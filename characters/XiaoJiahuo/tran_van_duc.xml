@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
-<!DOCTYPE character SYSTEM "Jadepunk/character.dtd">
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
 <character custom-css="tran_van_duc">
   <id>
     <charname nickname="Đúc">Trần Văn Đúc / 陈文德 / "Ancient Culture Virtue"</charname>
