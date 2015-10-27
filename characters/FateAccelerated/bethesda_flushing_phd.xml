@@ -31,11 +31,12 @@
   </approaches>
   <stunts>
     <stunt name="Experimental Helo Pack">
-    +2 to Quickly create advantage or overcome if flying useful
-  </stunt>
+      +2 to Quickly create advantage or overcome if flying useful
+    </stunt>
     <stunt name="Gadgeteer">
-    eliminate 1 situation aspect
-  </stunt>
+      eliminate 1 situation aspect
+    </stunt>
+    <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences>
     <consequence severity="Moderate">moderate one</consequence>

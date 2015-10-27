@@ -14,13 +14,17 @@ fieldset
     span
       top: 0.2em
 
-table#stress td
+table#stress_table td
   padding: 1.8em
 
 table#approaches
   +table_professions
 
 @media print and (-webkit-min-device-pixel-ratio:0)
+
+  div
+    &#fate-logo, &#id
+      margin-bottom: 2.5em
 
   table#approaches
     +print_approaches

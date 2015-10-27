@@ -39,7 +39,7 @@ legend span { position: absolute; top: 0.2em; left: 0.4em; }
 p#copyright { font-family: Cabin, Padauk, Montserrat; font-size: 0.8em; text-align: center; }
 
 table { border: 0px; padding: 0.3em; text-align: center; width: 100%; }
-table#stress td { border: 4px solid black; font-family: Cabin, Padauk, Montserrat; font-size: 1.4em; font-weight: 900; }
+table#stress_table td { border: 4px solid black; font-family: Cabin, Padauk, Montserrat; font-size: 1.4em; font-weight: 900; }
 table tfoot tr th { font-family: Cabin, Padauk, Montserrat; font-size: 0.7em; font-weight: 100; line-height: 0.7em; margin: 0; padding: 0; }
 
 td, th { border: 0px; vertical-align: top; }
@@ -54,8 +54,8 @@ td, th { border: 0px; vertical-align: top; }
 #fate-subtitle { font: 2em bolder; text-transform: uppercase; }
 
 @media print and (-webkit-min-device-pixel-ratio: 0) { html body div table tbody tr td { font-size: 0.6em; }
-  table#skills tbody { font-size: 0.75em; }
-  table#stress tbody tr td { border: 1px solid black; }
+  table#skills_table tbody { font-size: 0.75em; }
+  table#stress_table tbody tr td { border: 1px solid black; }
   fieldset.experience { width: 75%; }
   fieldset.experience, fieldset.phase, ul#skill-explanation, .sectionheader { font-size: 0.5em; }
   fieldset.aspect, fieldset.stunt { font-size: 115%; }
@@ -70,7 +70,7 @@ td, th { border: 0px; vertical-align: top; }
   fieldset.aspect { font-size: 1em; height: 2em; line-height: 1.3em; margin: 0.1em; padding-top: 0.1em; }
   fieldset.aspect legend.label { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
   table { break-inside: avoid-page; }
-  table#aspects { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
-  table#skills tbody tr th.sectionheader { line-height: 1em; font-size: 1.35em; margin: -1em; padding: 0; }
-  table#stress tbody tr td { font-size: 0.5em; }
+  table#aspects_table { font-size: 1.2em; height: 1.6em; line-height: 2.2em; margin: 0.1em; }
+  table#skills_table tbody tr th.sectionheader { line-height: 1em; font-size: 1.35em; margin: -1em; padding: 0; }
+  table#stress_table tbody tr td { font-size: 0.5em; }
   th.sectionheader { color: black; line-height: 1em; font-size: 0.9em; font-weight: 900; margin: -1em; padding: 0; } }

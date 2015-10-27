@@ -10,12 +10,12 @@ fieldset.phase legend.label span.aspects { font-family: Cabin, Padauk, Montserra
 fieldset.phase legend.label span.phase-title { color: black; font: normal small-caps 1.15em bolder Cabin, Padauk, Montserrat; }
 
 table td p { font-family: Cabin, Padauk, Montserrat; }
-table#skills tr th.mode-rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 4%; }
-table#skills tr th.rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 12.5%; }
-table#skills tr td { border: 3px solid black; font: oblique small-caps 1em bold "Kalam"; height: 2.3em; padding-top: 0.24em; width: 17.5%; }
-table#skills tr td.unused { border: 0; }
-table#skills tr td ul li { display: inline; }
-table#skills tr td ul li + li:before { content: ", "; }
-table#stress td { padding: 0.4em; }
+table#skills_table tr th.mode-rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 4%; }
+table#skills_table tr th.rating { border: 0px; color: #aaaaaa; font-family: Cabin, Padauk, Montserrat; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 12.5%; }
+table#skills_table tr td { border: 3px solid black; font: oblique small-caps 1em bold "Kalam"; height: 2.3em; padding-top: 0.24em; width: 17.5%; }
+table#skills_table tr td.unused { border: 0; }
+table#skills_table tr td ul li { display: inline; }
+table#skills_table tr td ul li + li:before { content: ", "; }
+table#stress_table td { padding: 0.4em; }
 
-@media print { table#skills tbody tr th.sectionheader { font-size: 1.5em; } }
+@media print { table#skills_table tbody tr th.sectionheader { font-size: 1.5em; } }

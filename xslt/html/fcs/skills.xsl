@@ -10,7 +10,7 @@
     <xsl:param name="useSkillModes"/>
       <xsl:choose>
         <xsl:when test="$useSkillModes='true'">
-          <table id="skills">
+          <table id="skills_table">
             <xsl:call-template name="skills-with-modes"/>
           </table>
         </xsl:when>
@@ -20,7 +20,7 @@
           </table>
         </xsl:when>
         <xsl:otherwise>
-          <table id="skills">
+          <table id="skills_table">
             <xsl:call-template name="skills-without-modes"/>
           </table>
         </xsl:otherwise>

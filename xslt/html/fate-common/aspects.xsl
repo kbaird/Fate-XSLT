@@ -3,7 +3,7 @@
   <xsl:output method="html"/>
   <xsl:include href="./aspect.xsl"/>
   <xsl:template match="aspects">
-    <table id="aspects">
+    <table id="aspects_table">
       <tr>
         <th colspan="2" class="sectionheader">Aspects</th>
       </tr>
