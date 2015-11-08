@@ -4,18 +4,17 @@
 <character>
   <id>
     <charname>&#160;</charname>
-    <playername>Michael Wood</playername>
+    <playername>Courtney Irving</playername>
     <story>
-      An alchemist / brewer of elixirs &amp; concoctions.
-      Probably 图样人。Mysteriously employed by Courtney's PC's family's
-      company, which specializes in Jade-powered drones. Why are they
-      employing an alchemist?
+      Comes from a nouveau riche family that owns a company that manufactures
+      Jade-powered drones and (somewhat quizzically) employs Mike's alchemist PC.
+      Probably travels in similar social circles to Jenn's PC.
     </story>
   </id>
   <refresh base="7"/>
   <aspects>
     <aspect type="Portrayal">&#160;</aspect>
-    <aspect type="Background">Túyàngan Alchemist</aspect>
+    <aspect type="Background">&#160;</aspect>
     <aspect type="Inciting-Incident">&#160;</aspect>
     <aspect type="Belief">&#160;</aspect>
     <aspect type="Trouble">&#160;</aspect>
@@ -29,12 +28,12 @@
     <profession rating="&#160;" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset name="Alchemist" guiding-aspect="Background" type="Technique">
+    <asset name="Drone Specialist" guiding-aspect="Background" type="Technique">
       <features>
         <feature type="Focus" profession="Engineer" bonus="2"/>
       </features>
       <flaws>
-        <flaw type="Situational" effect="Only when brewing Jade-infused potion Devices"/>
+        <flaw type="Situational" effect="Only when working on Jade-powered drones"/>
       </flaws>
     </asset>
   </assets>

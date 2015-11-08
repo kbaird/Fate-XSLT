@@ -4,37 +4,34 @@
 <character>
   <id>
     <charname>&#160;</charname>
-    <playername>Michael Wood</playername>
+    <playername>Christopher Mitchell</playername>
     <story>
-      An alchemist / brewer of elixirs &amp; concoctions.
-      Probably 图样人。Mysteriously employed by Courtney's PC's family's
-      company, which specializes in Jade-powered drones. Why are they
-      employing an alchemist?
+      Jenn's PC's muscle? Owes her a favor? Hooked on her junk?
     </story>
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal">&#160;</aspect>
-    <aspect type="Background">Túyàngan Alchemist</aspect>
+    <aspect type="Portrayal">Bouncer at [Jenn's PC's] Opium Den</aspect>
+    <aspect type="Background">&#160;</aspect>
     <aspect type="Inciting-Incident">&#160;</aspect>
     <aspect type="Belief">&#160;</aspect>
     <aspect type="Trouble">&#160;</aspect>
   </aspects>
   <professions>
     <profession rating="&#160;" name="Aristocrat"/>
-    <profession rating="3" name="Engineer"/>
+    <profession rating="&#160;" name="Engineer"/>
     <profession rating="&#160;" name="Explorer"/>
-    <profession rating="&#160;" name="Fighter"/>
+    <profession rating="3" name="Fighter"/>
     <profession rating="&#160;" name="Scholar"/>
     <profession rating="&#160;" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset name="Alchemist" guiding-aspect="Background" type="Technique">
+    <asset name="Take it Outside" guiding-aspect="Portrayal" type="Technique">
       <features>
-        <feature type="Focus" profession="Engineer" bonus="2"/>
+        <feature type="Focus" profession="Fighter" bonus="2"/>
       </features>
       <flaws>
-        <flaw type="Situational" effect="Only when brewing Jade-infused potion Devices"/>
+        <flaw type="Situational" effect="Only when defusing a fight with Overcome"/>
       </flaws>
     </asset>
   </assets>
