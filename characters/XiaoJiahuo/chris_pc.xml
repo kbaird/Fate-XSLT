@@ -6,12 +6,12 @@
     <charname>&#160;</charname>
     <playername>Christopher Mitchell</playername>
     <story>
-      Jenn's PC's muscle? Owes her a favor? Hooked on her junk?
+      Jenn's PC's networking toadie. Owes her a favor? Hooked on her junk?
     </story>
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal">Bouncer at [Jenn's PC's] Opium Den</aspect>
+    <aspect type="Portrayal">Fixer at [Jenn's PC's] Opium Den</aspect>
     <aspect type="Background">&#160;</aspect>
     <aspect type="Inciting-Incident">&#160;</aspect>
     <aspect type="Belief">&#160;</aspect>
@@ -21,17 +21,17 @@
     <profession rating="&#160;" name="Aristocrat"/>
     <profession rating="&#160;" name="Engineer"/>
     <profession rating="&#160;" name="Explorer"/>
-    <profession rating="3" name="Fighter"/>
+    <profession rating="&#160;" name="Fighter"/>
     <profession rating="&#160;" name="Scholar"/>
-    <profession rating="&#160;" name="Scoundrel"/>
+    <profession rating="3" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset name="Take it Outside" guiding-aspect="Portrayal" type="Technique">
+    <asset name="Ear to the Ground" guiding-aspect="Portrayal" type="Technique">
       <features>
-        <feature type="Focus" profession="Fighter" bonus="2"/>
+        <feature type="Flexible" effect="Use Scoundrel instead of Aristocrat"/>
       </features>
       <flaws>
-        <flaw type="Situational" effect="Only when defusing a fight with Overcome"/>
+        <flaw type="Situational" effect="Only within the lowlife criminal underbelly"/>
       </flaws>
     </asset>
   </assets>
