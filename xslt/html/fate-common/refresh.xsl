@@ -27,7 +27,14 @@
       </xsl:choose>
     </xsl:variable>
     <xsl:variable name="currentRefresh">
-      <xsl:value-of select="$baseRefresh + $freeStunts - $stuntCost"/>
+      <xsl:choose>
+        <xsl:when test="/character/refresh/@current">
+          <xsl:value-of select="/character/refresh/@current"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$baseRefresh + $freeStunts - $stuntCost"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:variable>
     <xsl:variable name="currentFatePoints">
       <xsl:choose>
