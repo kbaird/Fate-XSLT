@@ -13,7 +13,6 @@
       her side. Dr. Flushing has bright red hair and is never without several gadgets, including her helicopter pack.
     </description>
   </id>
-  <refresh current="3">3</refresh>
   <aspects>
     <aspect type="High-Concept">Chief Agent of IGEMA</aspect>
     <aspect type="Trouble">I'll Get You, von Stendahl!</aspect>
@@ -42,7 +41,4 @@
     <consequence severity="Moderate">moderate one</consequence>
     <consequence severity="Severe">severe one</consequence>
   </consequences>
-  <!--
-    Can take 1 more stunt without reducing refresh
-  -->
 </character>

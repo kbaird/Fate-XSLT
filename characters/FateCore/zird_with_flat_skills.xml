@@ -7,7 +7,6 @@
     <playername>sample Fate Core character</playername>
     <description>A sharp-featured scholar with a dark triangular beard.</description>
   </id>
-  <refresh current="2">2</refresh>
   <aspects>
     <aspect type="High-Concept">Wizard for Hire</aspect>
     <aspect type="Trouble">Rivals in the Collegia Arcana</aspect>
@@ -30,19 +29,19 @@
   </extras>
   <stunts>
     <stunt name="Scholar, Healer">
-    Can make Physical Recovery attempts w/Study
-  </stunt>
+      Can make Physical Recovery attempts w/Study
+    </stunt>
     <stunt name="The Power of Deduction">
-    Once per scene you can spend a fate point (and a few minutes of observation) to make a
-    special Study roll representing your potent deductive faculties. For each shift
-    you make on this roll you discover or create an aspect, on either the scene or the target
-    of your observations, though you may only invoke one of them for free.
-  </stunt>
+      Once per scene you can spend a fate point (and a few minutes of observation) to make a
+      special Study roll representing your potent deductive faculties. For each shift
+      you make on this roll you discover or create an aspect, on either the scene or the target
+      of your observations, though you may only invoke one of them for free.
+    </stunt>
     <stunt name="I've Read About That!">
-    You’ve read hundreds—if not thousands—of books on a wide variety of topics. You can spend
-    a fate point to use Study in place of any other skill for one roll or exchange, provided
-    you can justify having read about the action you’re attempting.
-  </stunt>
+      You’ve read hundreds—if not thousands—of books on a wide variety of topics. You can spend
+      a fate point to use Study in place of any other skill for one roll or exchange, provided
+      you can justify having read about the action you’re attempting.
+    </stunt>
   </stunts>
   <consequences>
     <consequence severity="Mild">mild one</consequence>
