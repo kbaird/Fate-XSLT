@@ -8,7 +8,9 @@
     <!ELEMENT description (#PCDATA)>
 
   <!ELEMENT refresh (#PCDATA)>
-    <!ATTLIST refresh current CDATA #IMPLIED>
+    <!ATTLIST refresh base        CDATA #IMPLIED>
+    <!ATTLIST refresh current     CDATA #IMPLIED>
+    <!ATTLIST refresh free-stunts CDATA #IMPLIED>
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
