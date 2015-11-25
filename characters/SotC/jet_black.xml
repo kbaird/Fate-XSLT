@@ -8,7 +8,7 @@
     <playername>sample SotC character</playername>
     <archetype>Spirit Centurion</archetype>
   </id>
-  <refresh current="10">10</refresh>
+  <refresh base="10"/>
   <aspects>
     <aspect phase-num="1">Motorhead</aspect>
     <aspect phase-num="1">Unspoken Love (Sally)</aspect>

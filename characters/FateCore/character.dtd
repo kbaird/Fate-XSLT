@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, aspects, professions?, skills?, extras?, stunts, consequences?, hacks?, phase-trio, notes?)>
+<!ELEMENT character (id, refresh?, aspects, professions?, skills?, extras?, stunts, consequences?, hacks?, phase-trio, notes?)>
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
@@ -8,7 +8,9 @@
     <!ELEMENT description (#PCDATA)>
 
     <!ELEMENT refresh (#PCDATA)>
-      <!ATTLIST refresh current CDATA #IMPLIED>
+      <!ATTLIST refresh base        CDATA #IMPLIED>
+      <!ATTLIST refresh current     CDATA #IMPLIED>
+      <!ATTLIST refresh free-stunts CDATA #IMPLIED>
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
