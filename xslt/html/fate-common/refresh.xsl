@@ -7,10 +7,24 @@
       <xsl:value-of select="count(/character/stunts/stunt)"/>
     </xsl:variable>
     <xsl:variable name="baseRefresh">
-      <xsl:value-of select="/character/refresh/@base"/>
+      <xsl:choose>
+        <xsl:when test="/character/refresh/@base">
+          <xsl:value-of select="/character/refresh/@base"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="3"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:variable>
     <xsl:variable name="freeStunts">
-      <xsl:value-of select="/character/refresh/@free-stunts"/>
+      <xsl:choose>
+        <xsl:when test="/character/refresh/@free-stunts">
+          <xsl:value-of select="/character/refresh/@free-stunts"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="3"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:variable>
     <xsl:variable name="currentRefresh">
       <xsl:value-of select="$baseRefresh + $freeStunts - $stuntCost"/>
