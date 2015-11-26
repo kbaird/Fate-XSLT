@@ -8,7 +8,7 @@
     <homeworld>Old Copenhagen</homeworld>
     <cluster>TBD</cluster>
   </id>
-  <refresh current="2">2</refresh>
+  <refresh base="5"/>
   <aspects>
     <aspect>I hate the outdoors</aspect>
     <aspect>Natural mechanic</aspect>
@@ -39,10 +39,12 @@
     <skill rating="1" name="Stamina"/>
   </skills>
   <stunts>
-    <stunt name="Programmable">
-  </stunt>
-    <stunt name="Have a thing">
-  </stunt>
+    <!--
+         House ruling that Programmable costs double, so don't add another Stunt
+         Cf. Diaspora pg 53
+    -->
+    <stunt name="Programmable">&#160;</stunt>
+    <stunt name="Have a thing">&#160;</stunt>
   </stunts>
   <consequences>
     <consequence severity="Mild">mild one</consequence>
