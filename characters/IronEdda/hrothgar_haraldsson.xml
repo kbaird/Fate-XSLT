@@ -7,7 +7,7 @@
     <playername>Big Bad Con 2014 Iron Edda PC</playername>
     <description>Boyish-looking young smith, formerly of the Clan of the Hammer (pre-rune).</description>
   </id>
-  <refresh current="2">2</refresh>
+  <refresh base="3"/>
   <aspects>
     <aspect type="High-Concept">ᛚ-Runed Smith</aspect>
     <aspect type="Trouble">Maybe We're the Bad Guys?</aspect>
