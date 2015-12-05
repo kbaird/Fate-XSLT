@@ -3,26 +3,27 @@
 <!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
 <character>
   <id>
-    <charname>&#160;</charname>
+    <charname nickname="STEFen">Stephen Gilios</charname>
     <playername>Christopher Mitchell</playername>
     <story>
       Jenn's PC's networking toadie. Owes her a favor? Hooked on her junk?
+      Aerish.
     </story>
   </id>
   <refresh base="7"/>
   <aspects>
     <aspect type="Portrayal">Fixer at [Jenn's PC's] Opium Den</aspect>
     <aspect type="Background">&#160;</aspect>
-    <aspect type="Inciting-Incident">&#160;</aspect>
+    <aspect type="Inciting-Incident">Family Business was Taken Over via Corruption</aspect>
     <aspect type="Belief">&#160;</aspect>
     <aspect type="Trouble">&#160;</aspect>
   </aspects>
   <professions>
-    <profession rating="&#160;" name="Aristocrat"/>
-    <profession rating="&#160;" name="Engineer"/>
-    <profession rating="&#160;" name="Explorer"/>
-    <profession rating="&#160;" name="Fighter"/>
-    <profession rating="&#160;" name="Scholar"/>
+    <profession rating="0" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
     <profession rating="3" name="Scoundrel"/>
   </professions>
   <assets>
