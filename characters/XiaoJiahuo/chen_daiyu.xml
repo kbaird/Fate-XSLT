@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>Chen Daiyu</charname>
+    <playername>Phil Bernard</playername>
+    <story>&#160;</story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal"></aspect>
+    <aspect type="Background"></aspect>
+    <aspect type="Inciting-Incident">Witnessed the murder of her 江湖 master</aspect>
+    <aspect type="Belief">I will "rest" when my master is avenged</aspect>
+    <aspect type="Trouble">Extremely stubborn</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="3" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Jade Tattoo" function="Blue Jade Tattoo of Stealth" type="Device">
+      <features>
+        <feature type="Focus" bonus="4" profession="Scoundrel"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only vs. Jade-enhanced detection"/>
+      </flaws>
+    </asset>
+    <asset name="The Downstairs Help" function="Eyes, Ears, General Favors" type="Ally">
+      <features>
+        <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scholar"/>
+        <feature type="Resilient"    bonus="1"/>
+        <feature type="Independent"/>
+        <feature type="Sturdy"       bonus="1"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Expects Quid Pro Quo"/>
+        <flaw type="Situational" effect="Only Within Estates of the Wealthy"/>
+        <flaw type="Situational" effect="Nothing Too Dangerous"/>
+      </flaws>
+      <notes>A moderately large group, but the Numerous reflects one person available to help at any given time.</notes>
+    </asset>
+    <asset name="Defang the Snake" guiding-aspect="Portrayal" type="Technique">
+      <!-- TODO: copy from naramel book -->
+      <features>
+        <feature type="Focus" bonus="2" profession="Fighter"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only When Fighting Unarmed"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
