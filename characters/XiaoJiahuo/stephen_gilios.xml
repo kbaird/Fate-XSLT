@@ -12,7 +12,7 @@
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal">Fixer at [Jenn's PC's] Opium Den</aspect>
+    <aspect type="Portrayal">Operator of [Jenn's PC's] Opium Den</aspect>
     <aspect type="Background">&#160;</aspect>
     <aspect type="Inciting-Incident">Family Business was Taken Over via Corruption</aspect>
     <aspect type="Belief">&#160;</aspect>
@@ -27,7 +27,7 @@
     <profession rating="3" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset name="Ear to the Ground" guiding-aspect="Portrayal" type="Technique">
+    <asset name="Honor Among Thieves" guiding-aspect="Portrayal" type="Technique">
       <features>
         <feature type="Flexible" effect="Use Scoundrel instead of Aristocrat"/>
       </features>
