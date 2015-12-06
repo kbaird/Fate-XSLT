@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character custom-css="tran_van_duc">
+  <id>
+    <charname nickname="Đúc">Trần Văn Đúc / 陈文德 / "Ancient Culture Virtue"</charname>
+    <playername>Kevin Baird</playername>
+    <story>
+      Đúc was part of the unsuccessful resistance against the Túyàngan invaders in the neighboring nation of Đại Nam (大南, "Big South").
+      He has since relocated, along with a sizeable Đạinamese community, attempting to rebuild in Kausao City, with the eventual dream of
+      liberating Đạinam from the 图样人 devils.
+      (文 is a very typical male Đạinamese middle name, and the custom is to refer to one by personal name, like Đúc).
+      I see the Đạinamese community in Kausao as having several parallels to the Tauron community in Caprica City.
+      The Browncoat analogy applies more to Đúc and some others as individuals.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Đạinamese Browncoat</aspect>
+    <aspect type="Background">Advance Scout in the 101st Partisans</aspect>
+    <aspect type="Inciting-Incident">We Lost Because We Lacked Knowledge</aspect>
+    <aspect type="Belief">Everyone Deserves Freedom - Even 图样人</aspect>
+    <aspect type="Trouble">Ha'la'tha - Always Faithful to the Soil</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
+    <profession rating="3" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="1" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Expatriate Đạinamese Community" function="Eyes, Ears, General Favors" type="Ally">
+      <features>
+        <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scholar"/>
+        <feature type="Numerous"     bonus="2"/>
+        <feature type="Resilient"    bonus="1"/>
+        <feature type="Sturdy"       bonus="1"/>
+        <feature type="Independent"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Expects Đúc to be a Community Leader"/>
+        <flaw type="Situational" effect="Only in or near Đạinamtown"/>
+        <flaw type="Situational" effect="Nothing Too Dangerous"/>
+      </flaws>
+      <notes>I figure it's quite large, but the Numerous reflects a sub-group available to help at any given time.</notes>
+    </asset>
+    <asset name="Jade Tattoo" function="Blue Jade Tattoo of Detection" type="Device">
+      <features>
+        <feature bonus="3" type="Focus" profession="Scholar"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Easily Identifiable"/>
+        <flaw type="Situational" effect="Scholar can only be used for sensing surroundings"/>
+      </flaws>
+      <notes>Obvious, like Mike Tyson's face tattoo, and IDs Đúc as a 'Browncoat'.</notes>
+    </asset>
+    <asset name="Knowledge is Power" guiding-aspect="Inciting-Incident" type="Technique">
+      <features>
+        <feature type="Focus" profession="Scholar" bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only About Đạinamese, Túyàngan, or Kausaoan History"/>
+      </flaws>
+    </asset>
+    <asset name="A Leaf in the Wind" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" bonus="4" profession="Scoundrel"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only to Avoid Detection"/>
+      </flaws>
+    </asset>
+    <asset name="The Slow Blade Penetrates the Shield" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" bonus="4" profession="Fighter"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only to Attack"/>
+        <flaw type="Situational" effect="Only with a bladed weapon"/>
+        <flaw type="Situational" effect="Only vs. a Jade-enhanced defense"/>
+      </flaws>
+      <notes>Yes, I stole this from Dune.</notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+     http://en.wikipedia.org/wiki/Vietnamese_name
+     http://en.wikipedia.org/wiki/Tr%E1%BA%A7n
+     http://en.wiktionary.org/wiki/%E5%BE%B7#Vietnamese
+     http://en.battlestarwiki.org/wiki/Ha%27la%27tha
+-->
