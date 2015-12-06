@@ -3,17 +3,24 @@
 <!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
 <character>
   <id>
-    <charname>Chen Daiyu</charname>
+    <charname nickname="陈达玉">Chen Daiyu</charname>
     <playername>Phil Bernard</playername>
-    <story>&#160;</story>
+    <story>
+      陈 was a Túyàngan street rat in Kausao, rescued from attackers by a martial artist who became
+      her Shīfu (師父), training her in Ghost Serpent style and inducting her into the Jianghu (江湖).
+      He is remembered by her with rose-colored glasses, ignoring his flaws (to be specified in
+      greater detail as we play). He was also murdered; details TBD.
+      陈 now works as domestic staff, making the highty-toighty rounds, searching
+      for his killer.
+    </story>
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal">Practioner of the Ghost Serpent Style</aspect>
+    <aspect type="Portrayal">Practioner of the Ghost Serpent Style?</aspect>
     <aspect type="Background"></aspect>
-    <aspect type="Inciting-Incident">Witnessed the murder of her 江湖 master</aspect>
-    <aspect type="Belief">I will "rest" when my master is avenged</aspect>
-    <aspect type="Trouble">Extremely stubborn</aspect>
+    <aspect type="Inciting-Incident">Witnessed the Murder of her Shīfu</aspect>
+    <aspect type="Belief">I Will "Rest" When my Master is Avenged</aspect>
+    <aspect type="Trouble">Extremely Stubborn</aspect>
   </aspects>
   <professions>
     <profession rating="1" name="Aristocrat"/>
