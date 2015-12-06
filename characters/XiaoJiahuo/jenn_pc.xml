@@ -16,11 +16,11 @@
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal">&#160;</aspect>
-    <aspect type="Background">&#160;</aspect>
+    <aspect type="Portrayal">Daughter of Old Mining Money</aspect>
+    <aspect type="Background">I Have Friends on the Council</aspect>
     <aspect type="Inciting-Incident">&#160;</aspect>
     <aspect type="Belief">&#160;</aspect>
-    <aspect type="Trouble">&#160;</aspect>
+    <aspect type="Trouble">Secret Owner of a Kausao Speakeasy</aspect>
   </aspects>
   <professions>
     <profession rating="3" name="Aristocrat"/>
@@ -37,8 +37,8 @@
         <feature type="Exceptional" effect="Instantly leave or appear in a scene, as long as there's a way in or out"/>
       </features>
       <flaws>
-        <flaw type="Consuming"/>
         <flaw type="Demanding" effect="Requires a Fair [+2] Explorer roll to get a ship underway"/>
+        <flaw type="Consuming"/>
       </flaws>
     </asset>
     <asset name="Cutting Remarks" guiding-aspect="Background" type="Technique">
@@ -49,7 +49,8 @@
         <flaw type="Situational" effect="Only for Attacks with Aristocrat"/>
       </flaws>
     </asset>
-    <asset name="Ear to the Ground" guiding-aspect="Portrayal" type="Technique">
+    <!--
+    <asset name="Ear to the Ground" guiding-aspect="Trouble" type="Technique">
       <features>
         <feature type="Focus" bonus="2" profession="Aristocrat"/>
       </features>
@@ -57,7 +58,8 @@
         <flaw type="Situational" effect="Only when using your network to find information"/>
       </flaws>
     </asset>
-    <asset name="Let's Make a Deal" guiding-aspect="Belief" type="Technique">
+    -->
+    <asset name="Let's Make a Deal" guiding-aspect="Trouble" type="Technique">
       <features>
         <feature type="Focus" bonus="2" profession="Aristocrat"/>
       </features>
