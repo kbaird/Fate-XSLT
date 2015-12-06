@@ -9,7 +9,7 @@
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal"></aspect>
+    <aspect type="Portrayal">Practioner of the Ghost Serpent Style</aspect>
     <aspect type="Background"></aspect>
     <aspect type="Inciting-Incident">Witnessed the murder of her 江湖 master</aspect>
     <aspect type="Belief">I will "rest" when my master is avenged</aspect>
@@ -44,15 +44,15 @@
         <flaw type="Situational" effect="Only Within Estates of the Wealthy"/>
         <flaw type="Situational" effect="Nothing Too Dangerous"/>
       </flaws>
-      <notes>A moderately large group, but the Numerous reflects one person available to help at any given time.</notes>
+      <notes>A moderately large group, but no Numerous, as only one person is available to help at any given time.</notes>
     </asset>
     <asset name="Defang the Snake" guiding-aspect="Portrayal" type="Technique">
-      <!-- TODO: copy from naramel book -->
       <features>
-        <feature type="Focus" bonus="2" profession="Fighter"/>
+        <feature type="Exceptional" effect="Reactively disarm an opponent who missed you in combat"/>
       </features>
       <flaws>
-        <flaw type="Situational" effect="Only When Fighting Unarmed"/>
+        <flaw type="Situational" effect="Only on a Success With Style"/>
+        <flaw type="Situational" effect="Only When defending against an opponent wielding a melee weapon"/>
       </flaws>
     </asset>
   </assets>
