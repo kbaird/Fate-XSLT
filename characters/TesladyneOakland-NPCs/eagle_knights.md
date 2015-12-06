@@ -38,5 +38,5 @@ _Quachic_ ("Shorn Ones") are elite troops, getting a +1 or +2. They have shaved 
 
 ### Gods
 - _Tezcatlipoca_
-- _Huitzilopchtli_
+- _Huitzilopochtli_
 - _Quetzalcóatl_
