@@ -14,7 +14,7 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type CDATA #IMPLIED>
+      <!ATTLIST aspect type      CDATA #IMPLIED>
       <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
     <!ELEMENT professions (profession*)>
