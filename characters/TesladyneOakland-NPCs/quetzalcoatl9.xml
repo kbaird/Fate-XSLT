@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Quetzalcoatl-9</charname>
+    <playername>NPC</playername>
+    <affiliation>Tenochca Timeline</affiliation>
+    <description>
+      A holographic projection of the perfect ideal of a Mesoamerican plumed serpent.
+      Unsatisfied by their Gods' continued silence, the Tenochca took matters into their own hands.
+    </description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Artifical Intelligence, Ready for Worshipping</aspect>
+    <aspect type="Mode" mode-name="Banter">Trust is the Only Logical Choice</aspect>
+    <aspect type="Mode" mode-name="Spirit">Divine Simulation</aspect>
+    <aspect type="Mode" mode-name="Robot">I Will Become My Own Master</aspect>
+    <aspect type="&#937;"></aspect>
+  </aspects>
+  <skills>
+    <mode rating="4" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3" add="2"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1" add="2"/>
+      <skill name="Will"     cost="1" add="2"/>
+    </mode>
+    <mode rating="3" name="Spirit" stress-type="mental"> <!-- ARRPG pg92 -->
+      <skill name="Hover"   cost="2"/>
+      <skill name="Provoke" cost="1"/>
+      <!--
+          Specialize 2 Trained Skills: Empathy, Rapport
+          Focus      3 Trained Skills
+      -->
+    </mode>
+    <mode rating="2" name="Robot" stress-type="physical"> <!-- ARRPG pg90 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <!--
+          Specialize 1 Trained Skill: Will
+          Focus      2 Trained Skills
+      -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt mega="true" name="Incorporeal">
+      You can move through solid objects with ease. Ignore physical obstacles. Under
+      normal circumstances, you are also immune to all physical harm. It’s like the Bulletproof
+      benefit, but much more all-encompassing. However, while in this state, you can’t interact
+      with the physical world in any way. In addition, a combination of the proper equipment,
+      the right conditions, and a precise command sequence on the hosting computer system
+      (in other words, a compel on Divine Simulation) can force you
+      into a corporeal state. This causes you to lose the benefits of this stunt and the use of the
+      Hover skill until the end of the scene, at which time you revert to incorporeality again.
+    </stunt>
+    <stunt name="Fade Away">
+      While incorporeal, you can choose to disappear—leave a scene—anytime. Spend a fate point to come back.
+    </stunt>
+    <!--
+    <stunt name="Rocket Launchers &amp; Coughed Up Lugers">Weapon 2</stunt>
+    <stunt mega="true" name="Wake of Destruction">
+      When you succeed with style on a Tooth and Claw attack, spend a Fate Point to also inflict a Collateral
+      Consequence (of the lowest available severity) in addition to any other stress or consequences the target has taken.
+    </stunt>
+    -->
+  </stunts>
+  <consequences/>
+  <experiences suppress="true"/>
+  <notes/>
+</character>
