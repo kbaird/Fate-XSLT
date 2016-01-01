@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>High Priest</charname>
+    <playername>NPC</playername>
+    <affiliation>Tenochca Timeline</affiliation>
+    <description>
+      Aztec-skinned champagne villian.
+    </description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept"></aspect>
+    <aspect type="Mode" mode-name=""></aspect>
+    <aspect type="Mode" mode-name=""></aspect>
+    <aspect type="Mode" mode-name=""></aspect>
+    <aspect type="&#937;"></aspect>
+  </aspects>
+  <skills>
+  </skills>
+  <stunts>
+    <!--
+    <stunt name=""></stunt>
+    -->
+  </stunts>
+  <consequences/>
+  <experiences suppress="true"/>
+  <notes/>
+</character>
