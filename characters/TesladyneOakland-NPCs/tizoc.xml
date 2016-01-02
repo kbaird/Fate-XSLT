@@ -3,7 +3,7 @@
 <!DOCTYPE atomic-robo SYSTEM "../AtomicRobo/character.dtd">
 <character>
   <id>
-    <charname>High Priest</charname>
+    <charname nickname="He Who Made People Bleed">Tízoc</charname>
     <playername>NPC</playername>
     <affiliation>Tenochca Timeline</affiliation>
     <description>
@@ -13,13 +13,40 @@
   <current-fate-points>0</current-fate-points>
   <experience-points>0</experience-points>
   <aspects>
-    <aspect type="Concept"></aspect>
-    <aspect type="Mode" mode-name=""></aspect>
-    <aspect type="Mode" mode-name=""></aspect>
-    <aspect type="Mode" mode-name=""></aspect>
-    <aspect type="&#937;"></aspect>
+    <aspect type="Concept">Cold Dictator From An Alternate Timeline</aspect>
+    <aspect type="Mode" mode-name="Revered&#160;Speaker" signature="true">Huey Tlatoani of the Tenochca Empire</aspect>
+    <aspect type="Mode" mode-name="Soldier">Chesspieces</aspect>
+    <aspect type="Mode" mode-name="Banter">Kneel Before Tízoc</aspect>
+    <aspect type="&#937;">I Can Afford to be Patient</aspect>
   </aspects>
   <skills>
+    <mode rating="4" name="Revered&#160;Speaker" stress-type="mental"> <!-- Commander reskinned, ARRPG pg300 -->
+      <skill name="Deceive" cost="2"/>
+      <skill name="Empathy" cost="3"/>
+      <skill name="Notice"  cost="1"/>
+      <skill name="Provoke" cost="1"/>
+      <skill name="Tactics" cost="0"/> <!-- ARRPG pg91 -->
+      <skill name="Will"    cost="1"/>
+      <!-- 2 pts of Improvements -->
+    </mode>
+    <mode rating="3" name="Soldier" stress-type="physical"> <!-- ARRPG pg91 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2"/>
+     <skill name="Contacts"  cost="1"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1"/>
+     <skill name="Tactics"   cost="0"/>
+     <skill name="Vehicles"  cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Provoke"  cost="1"/>
+      <skill name="Rapport"  cost="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>
   </skills>
   <stunts>
     <!--
