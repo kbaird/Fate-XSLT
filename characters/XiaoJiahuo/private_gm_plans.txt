@@ -11,11 +11,6 @@ Stephen Gilios (Chris):
   Before Jenn's mansion/club are attacked, hears that someone is interested
     in her psych potion
 
-Courtney:
-  Several red herrings for technical problems with the drones
-  Some fancy parties, she's expected to attend to show the corp/family flag
-  through [Some Method] discovers evidence of coverup
-
 Jenn:
   Someone from [Droneworks] raids her mansion or club for drug used for sister
     turns out it is a slight mod of [Researcher]'s original formula
@@ -33,6 +28,11 @@ Chen Daiyu (Phil):
   works as domestic staff, making the highty-toighty rounds,
     searching for master's killer
       flawed man who worked with 江湖, remembered w/rose-colored glasses
+
+"Courtney" NPC (if needed):
+  Several red herrings for technical problems with the drones
+  Some fancy parties, she's expected to attend to show the corp/family flag
+  through [Some Method] discovers evidence of coverup
 
 Setting/Shared:
   Figure out who killed Chen's master
