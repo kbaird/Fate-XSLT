@@ -47,9 +47,9 @@
         <feature type="Sturdy"       bonus="1"/>
       </features>
       <flaws>
-        <flaw type="Troubling"   effect="Expects Quid Pro Quo"/>
-        <flaw type="Situational" effect="Only Within Estates of the Wealthy"/>
-        <flaw type="Situational" effect="Nothing Too Dangerous"/>
+        <flaw type="Troubling"   effect="Expects quid pro quo"/>
+        <flaw type="Situational" effect="Only within estates of the wealthy"/>
+        <flaw type="Situational" effect="Nothing Too dangerous"/>
       </flaws>
       <notes>A moderately large group, but no Numerous, as only one person is available to help at any given time.</notes>
     </asset>
@@ -59,7 +59,7 @@
       </features>
       <flaws>
         <flaw type="Situational" effect="Only on a Success With Style"/>
-        <flaw type="Situational" effect="Only When defending against an opponent wielding a melee weapon"/>
+        <flaw type="Situational" effect="Only when defending against an opponent wielding a melee weapon"/>
       </flaws>
     </asset>
   </assets>
