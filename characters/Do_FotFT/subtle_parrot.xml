@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/do_fotft_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Subtle Parrot</charname>
+    <playername>Morgan Baird</playername>
+    <description>
+      Wears multi-colored clothing, with metallic colors reminiscient of the good dragons in 1st Edition D&amp;D.
+    </description>
+  </id>
+  <aspects>
+    <aspect type="Avatar"></aspect>
+    <aspect type="Trouble"></aspect>
+    <aspect type="Dragon">[not yet]</aspect>
+    <aspect></aspect>
+    <aspect></aspect>
+  </aspects>
+  <approaches>
+    <approach rating="" name="Careful"/>
+    <approach rating="" name="Clever"/>
+    <approach rating="" name="Flashy"/>
+    <approach rating="" name="Forceful"/>
+    <approach rating="" name="Quick"/>
+    <approach rating="" name="Sneaky"/>
+  </approaches>
+  <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences>
+    <!--
+    <consequence severity="Mild">mild one</consequence>
+    <consequence severity="Moderate">moderate one</consequence>
+    <consequence severity="Severe">severe one</consequence>
+    -->
+  </consequences>
+</character>
