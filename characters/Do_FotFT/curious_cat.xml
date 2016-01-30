@@ -11,7 +11,7 @@
   </id>
   <aspects>
     <aspect type="Avatar"></aspect>
-    <aspect type="Trouble"></aspect>
+    <aspect type="Banner-Trouble">Easily Distracted</aspect>
     <aspect type="Dragon">[not yet]</aspect>
     <aspect></aspect>
     <aspect></aspect>
@@ -27,7 +27,6 @@
   <stunts>
     <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
-    <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences>
     <!--
@@ -36,4 +35,7 @@
     <consequence severity="Severe">severe one</consequence>
     -->
   </consequences>
+  <notes>
+    Wants to be good at escaping by being nimble
+  </notes>
 </character>
