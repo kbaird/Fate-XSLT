@@ -10,7 +10,7 @@
     </description>
   </id>
   <aspects>
-    <aspect type="Avatar"></aspect>
+    <aspect type="Avatar">Did You Hear That?</aspect>
     <aspect type="Banner-Trouble">Easily Distracted</aspect>
     <aspect type="Dragon">[not yet]</aspect>
     <aspect></aspect>
