@@ -23,7 +23,7 @@
           <xsl:apply-templates select="aspects"/>
         </div>
         <div id="skills">
-          <xsl:apply-templates select="approaches" mode="do_fotft"/>
+          <xsl:apply-templates select="approaches"/>
         </div>
         <hr/>
         <div id="stunts">
