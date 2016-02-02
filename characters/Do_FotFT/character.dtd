@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh, aspects, approaches, stunts, consequences?, notes?)>
+<!ELEMENT character (id, refresh?, aspects, approaches, stunts, consequences?, notes?)>
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
@@ -14,7 +14,7 @@
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
-    <!ATTLIST aspect type (Avatar|Trouble|Dragon|Free) "Free">
+    <!ATTLIST aspect type (Avatar|Banner-Trouble|Dragon|Free) "Free">
 
   <!ELEMENT approaches (approach*)>
     <!ELEMENT approach (#PCDATA)>

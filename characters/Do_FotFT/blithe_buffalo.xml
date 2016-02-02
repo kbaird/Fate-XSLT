@@ -3,29 +3,28 @@
 <!DOCTYPE character SYSTEM "character.dtd">
 <character>
   <id>
-    <charname>Subtle Parrot</charname>
-    <playername>Morgan Baird</playername>
+    <charname>Blithe Buffalo</charname>
+    <playername>Jennifer Cornish</playername>
     <description>
-      Wears multi-colored clothing, with metallic colors reminiscient of the good dragons in 1st Edition D&amp;D.
+      &#160;
     </description>
   </id>
   <aspects>
     <aspect type="Avatar"></aspect>
-    <aspect type="Trouble"></aspect>
+    <aspect type="Banner-Trouble"></aspect>
     <aspect type="Dragon">[not yet]</aspect>
     <aspect></aspect>
     <aspect></aspect>
   </aspects>
   <approaches>
-    <approach rating="" name="Careful"/>
-    <approach rating="" name="Clever"/>
-    <approach rating="" name="Flashy"/>
-    <approach rating="" name="Forceful"/>
-    <approach rating="" name="Quick"/>
-    <approach rating="" name="Sneaky"/>
+    <approach rating="1" name="Careful"/>
+    <approach rating="1" name="Clever"/>
+    <approach rating="2" name="Flashy"/>
+    <approach rating="3" name="Forceful"/>
+    <approach rating="2" name="Quick"/>
+    <approach rating="0" name="Sneaky"/>
   </approaches>
   <stunts>
-    <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
   </stunts>
@@ -36,4 +35,6 @@
     <consequence severity="Severe">severe one</consequence>
     -->
   </consequences>
+  <notes>
+  </notes>
 </character>
