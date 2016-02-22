@@ -10,7 +10,7 @@
   <!ELEMENT refresh (#PCDATA)>
     <!ATTLIST refresh base        CDATA #IMPLIED>
     <!ATTLIST refresh current     CDATA #IMPLIED>
-    <!ATTLIST refresh free-stunts CDATA #IMPLIED>
+    <!ATTLIST refresh free-stunts CDATA "2">
 
   <!ELEMENT aspects (aspect*)>
     <!ELEMENT aspect (#PCDATA)>
