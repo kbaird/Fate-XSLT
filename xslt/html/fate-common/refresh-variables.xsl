@@ -17,9 +17,6 @@
       <xsl:when test="/character/refresh/@free-stunts">
         <xsl:value-of select="/character/refresh/@free-stunts"/>
       </xsl:when>
-      <xsl:when test="$freeStuntsOverride">
-        <xsl:value-of select="$freeStuntsOverride"/>
-      </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="3"/>
       </xsl:otherwise>
