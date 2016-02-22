@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Mutant Human/Bee Hybrid</charname>
+    <playername>NPC</playername>
+    <affiliation>Buzz About the New Cell Tower</affiliation>
+    <description>
+    Whatever image haunts your dreams after reading about Shadowrun's Insect Spirits.
+  </description>
+  </id>
+  <current-fate-points>4</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Human/Bee Hybrid</aspect>
+    <aspect type="Mode" mode-name="Beast">Queen of the Hive</aspect>
+    <aspect type="Mode" mode-name="Banter">Destined to Replace Humanity</aspect>
+    <aspect type="Mode" mode-name="Mutant">Hybrid Vigor</aspect>
+    <aspect type="Omega">&#160;</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Beast" stress-type="physical">
+      <!-- ARRPG pg87 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Notice" cost="1"/>
+      <skill name="Physique" cost="1"/>
+      <skill name="Provoke" add="1"/>
+      <!-- Mutant mods -->
+      <skill name="Tooth &amp; Claw" cost="1" add="2"/>
+      <!-- ARRPG pg87, Mutant mods -->
+      <!-- Also Specialize 1 Trained Skill -->
+    </mode>
+    <mode rating="2" name="Banter" stress-type="mental">
+      <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive" cost="2"/>
+      <skill name="Empathy" cost="3" add="1"/>
+      <!-- Mutant mods -->
+      <skill name="Provoke" cost="1"/>
+      <skill name="Rapport" cost="1"/>
+      <skill name="Will" cost="1" add="2"/>
+      <!-- Mutant mods -->
+    </mode>
+    <mode rating="1" name="Mutant">
+      <!-- ARRPG pg88 -->
+      <!--
+        Specialize 2 Trained Skills
+        Specialize 1 Focused Skill
+        Focus      1 Trained Skill
+        Mutant Mode Improvements
+        X Specialize two trained skills: [Tooth and Claw, Will].
+        X Specialize one focused skill: [Provoke].
+        X Focus one trained skill: [Empathy].
+   -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Chitinous Plates">Armor:2</stunt>
+    <stunt name="Crown of Menace">
+      You are too terrifying to be attacked. Until you make a physical attack in a scene,
+      characters with a Will lower than Good (+3) simply cannot attack you. Those with
+      sufficient Will to attack still flinch on their first attack, though, automatically
+      missing. (FST, p.98)
+    </stunt>
+    <stunt name="Healing Factor: ☐">
+      Once per scene, spend a fate point to reduce one of your consequences by one degree of severity
+      (severe to major, major to mild, mild to nothing).
+    </stunt>
+    <stunt name="Unnerving Presence">
+      +2 to Create an Advantage with Provoke when you rely on fear or awe.
+    </stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>
