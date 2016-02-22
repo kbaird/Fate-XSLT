@@ -26,9 +26,9 @@
     <skill rating="2" name="Lore"/>
     <skill rating="2" name="Physique"/>
     <skill rating="1" name="Athletics"/>
-    <skill rating="1" name="Rapport"/>
-    <skill rating="1" name="Empathy"/>
+    <skill rating="1" name="Combat"/>
     <skill rating="1" name="Notice"/>
+    <skill rating="1" name="Rapport"/>
   </skills>
   <extras>
     <extra>Magician: 巫人 (wū rén) in the 五行 (wŭ xíng) tradition</extra>
