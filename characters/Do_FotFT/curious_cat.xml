@@ -9,6 +9,7 @@
       Red-haired girl, wearing clothing that looks like the coat of a clouded leopard.
     </description>
   </id>
+  <refresh free-stunts="2"/>
   <aspects>
     <aspect type="Avatar">Did You Hear That?</aspect>
     <aspect type="Banner-Trouble">Easily Distracted</aspect>

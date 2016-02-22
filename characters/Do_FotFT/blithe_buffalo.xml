@@ -9,6 +9,7 @@
       &#160;
     </description>
   </id>
+  <refresh free-stunts="2"/>
   <aspects>
     <aspect type="Avatar"></aspect>
     <aspect type="Banner-Trouble"></aspect>
