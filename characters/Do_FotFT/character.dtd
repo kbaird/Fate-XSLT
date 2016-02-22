@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!ELEMENT character (id, refresh?, aspects, approaches, stunts, consequences?, notes?)>
+
+  <!ELEMENT id (charname, playername, description)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT playername (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+  <!ELEMENT refresh (#PCDATA)>
+    <!ATTLIST refresh base        CDATA #IMPLIED>
+    <!ATTLIST refresh current     CDATA #IMPLIED>
+    <!ATTLIST refresh free-stunts CDATA #IMPLIED>
+
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect type (Avatar|Banner-Trouble|Dragon|Free) "Free">
+
+  <!ELEMENT approaches (approach*)>
+    <!ELEMENT approach (#PCDATA)>
+    <!ATTLIST approach name (Careful|Clever|Flashy|Forceful|Quick|Sneaky) #REQUIRED>
+    <!ATTLIST approach rating CDATA #REQUIRED>
+
+  <!ELEMENT stunts (stunt*)>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt name CDATA #REQUIRED>
+
+  <!ELEMENT consequences (consequence*)>
+    <!ELEMENT consequence (#PCDATA)>
+      <!ATTLIST consequence effect CDATA #IMPLIED>
+      <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
+
+  <!ELEMENT notes (#PCDATA)>
