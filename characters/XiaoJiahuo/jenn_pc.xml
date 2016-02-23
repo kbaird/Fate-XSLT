@@ -10,8 +10,8 @@
       Someone has developed an anti-psychotic drug using Black and Green Jade that
       has helped her schizophrenic younger sister. Owns and operates a drug den in
       Kausao City. Relationship w/Jianghu (江湖; lit. "rivers and lakes") is unclear.
-      Probably travels in similar social circles to Courtney's PC, and employs Stephen
-      Gilios as a bouncer/muscle.
+      Probably travels in upper crust social circles, and employs Stephen Gilios as a
+      networking toadie / club manager.
       The mining company owned by her family is smaller than any of the big 5 from pg96.
     </story>
   </id>
@@ -32,16 +32,6 @@
     <profession rating="2" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset name="Airship" function="White Jade Airship" type="Device">
-      <features>
-        <feature type="Aspect"      effect="江湖 crew"/>
-        <feature type="Exceptional" effect="Instantly leave or appear in a scene, as long as there's a way in or out"/>
-      </features>
-      <flaws>
-        <flaw type="Demanding" effect="Requires a Fair [+2] Explorer roll to get a ship underway"/>
-        <flaw type="Consuming"/>
-      </flaws>
-    </asset>
     <asset name="Cutting Remarks" guiding-aspect="Background" type="Technique">
       <features>
         <feature type="Exceptional" effect="Target may not check a Stress Box"/>
