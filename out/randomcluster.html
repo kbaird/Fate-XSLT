@@ -1,0 +1,819 @@
+<html>
+<head>
+<title>Random Cluster Generator for Diaspora Space RPG</title>
+<!-- constructed by Jeff Miller starting 21-August-2013 -->
+<script type="text/javascript">
+
+var systemNames = ['A', 'B', 'C', 'D', 'E', 'F',
+                   'G', 'H', 'I', 'J', 'K', 'L'];
+
+var systemIndices = { 'A':0, 'B':1, 'C':2, 'D':3, 'E':4, 'F': 5,
+                      'G':6, 'H':7, 'I':8, 'J':9, 'K':10, 'L':11 };
+
+var techLevelNames = [ 'Stone Age', 'Metallurgy', 'Industrial', 'Atomic', 'System exploration',
+                       'System exploitation', 'Slipstream use', 'Slipstream mastery', 'Verge of Collapse' ];
+
+var envLevelNames = [ 'No habitable worlds', 'Barren', 'Hostile', 'Survivable', 
+                      'Garden (+ barren)', 'Garden (+ hostile)', 'Garden (+ survivable)', 
+                      'Some Garden Worlds', 'Many Garden Worlds' ];
+
+var resLevelNames = [ 'No resources', 'Multiple needs', 'Needs imports', 
+                      'Near viable', 'Sustainable', 'Rich', 'One major export', 
+                      'Multiple exports', 'All you could want' ];
+
+
+var aspectsByTer = [
+[-4, 4,-4, 4,-4, 4,"Difficult Slipknot"],
+[-4, 3,-4, 4,-4, 4,"Newfound Slipknot"],
+[-4, 4,-4, 4,-4, 4,"Glowing Nebulae"],
+[-4, 4,-4, 4,-4, 4,"Starry Starry Nights"],
+[-4, 4,-4,-4,-4, 4,"Lonely Star"],
+[-4, 4,-4,-4,-4, 4,"Black Hole"],
+[-4, 4,-4,-4,-4, 4,"Multiple Star"],
+[-4, 4,-4, 2,-4, 4,"Double Star"],
+[-4, 4,-4,-3,-4, 4,"Neutron Star"],
+[-4, 4,-4, 0,-4, 4,"Brown Dwarf"],
+[-4, 4,-4, 1,-4, 4,"Red Dwarf"],
+[-4, 4,-3,-3,-4, 4,"Belters"],
+[-4, 4,-3,-3,-4, 4,"Toasty Cinder"],
+[-4, 4,-3,-1,-4, 2,"Tidally Locked"],
+[ 1, 4,-1, 2,-4, 4,"Moon Gardens"],
+[-4, 4,-3,-3,-4, 2,"Iceballs and Gasballs"],
+[-4, 0,-3, 2,-4, 4,"Meteor Bombardment"],
+[-4, 2,-3, 2,-4, 2,"Recent Disaster"],
+[-4, 4,-2,-1,-4, 4,"Volcanic Activity"],
+[-4, 4,-2,-1,-4, 4,"Mighty Storms"],
+[-4, 4,-1,-1,-4, 4,"Ice Age"],
+[-4, 4,-1, 0,-4, 4,"Waterworld"],
+[-4, 4, 4, 4,-4, 4,"Ringworld"],
+[ 0, 4,-4, 4,-4, 4,"Neighbor at Proxima"],
+[-1, 1,-1, 3,-2, 4,"Pre-dates Slipstream"],
+[-1, 3,-4, 4,-3, 4,"Rogue Technoforms"],
+[-1, 3,-4, 4,-3, 3,"Hostile War Relics"],
+[-4, 3,-4, 4,-3, 3,"Erratic Space Relics"],
+[-4, 2,-4, 1,-3, 3,"Scarred Battlefield"],
+[-4, 2,-4, 1,-3, 3,"Space Junk"],
+[-1, 3,-4, 4,-1, 2,"Robot Overlords"],
+[-4, 1,-2, 4,-4, 4,"Feral Bioforms"],
+[-4, 3,-2, 4,-4, 4,"Military Grade Ecology"],
+[ 1, 4,-1, 4,-1, 4,"Machines of Loving Grace"],
+[ 1, 4,-4, 4,-4, 4,"Neural Interface"],
+[ 0, 3,-4, 4,-4, 4,"Incompatible Tech Systems"],
+[-2, 2,-4, 4,-4, 4,"Simpler is Stronger"],
+[-1, 3,-4, 2,-3, 2,"Redundant Backups"],
+[-4, 1,-3, 4,-4, 4,"Baroque Tech Relics"],
+[-4, 1,-3, 4,-4, 4,"Enigmatic Monoliths"],
+[-4, 0,-3, 2,-3, 3,"Artifact Worship"],
+[-1, 1,-3, 4,-3, 3,"Remnant Civic Tech"],
+[ 1, 4,-4, 4,-4, 4,"Tech Quarantine"],
+[ 1, 4,-4, 4,-4, 4,"Data Quarantine"],
+[-4, 2,-4, 4,-4, 4,"Tense Factions"],
+[ 1, 2,-4, 4,-4, 4,"Technobarbarians"],
+[-3, 3,-4, 4,-4, 4,"Feudal Loyalty"],
+[-4, 4,-1, 4,-4, 4,"A Thousand Faces"],
+[-4, 3,-3, 4,-3, 4,"Shifting Coalitions"],
+[-4, 2,-3, 4,-2, 4,"Runaway Geoformers"],
+[-3, 1,-3, 2,-4,-1,"Waste Not Want Not"],
+[-3, 3,-4, 4,-3, 4,"Glorious History"],
+[ 1, 3,-2, 2,-1, 3,"Manifest Destiny"],
+[-1, 2,-1, 2,-1, 4,"Extravagant Finery"],
+[-1, 2,-1, 2,-1, 4,"Historical Fashion"],
+[ 1, 4,-3, 4, 0, 4,"Mad Scientists"],
+[ 1, 3,-4, 1,-4, 1,"Tech Improvisers"],
+[ 0, 3,-4, 1,-2, 2,"Scrap Kings"],
+[ 1, 4,-4, 0,-2, 4,"Bioadapted Race"],
+[ 1, 4, 0, 4, 0, 4,"Subtle Ecotech Mastery"],
+[ 1, 2,-3, 4,-1, 4,"Giddy Renaissance"],
+[-2, 3,-4, 4,-4, 4,"Stifling Legalism"],
+[-3, 2,-1, 4,-3, 3,"Farcical Pretense"],
+[-4, 2,-4, 3,-3, 3,"Military Pride"],
+[-4, 3,-4, 4,-4, 2,"Heroic Ethos"],
+[-1, 2,-2, 2,-3,-1,"Red Queen's Race"],
+[-1, 2,-2, 2,-3,-1,"Run to Stand Still"],
+[ 0, 4,-4, 4,-4, 4,"Puppets and Masters"],
+[-4, 1,-4, 4,-4, 4,"Masterless Servants"],
+[ 1, 4,-4, 4,-3, 4,"Ubiquitous Bioforming"],
+[ 1, 4,-4, 4,-3, 4,"Gender Blender"],
+[ 3, 4,-4, 4,-3, 4,"Pansentience"],
+[-4, 3,-3, 2,-3, 3,"Ritual Gifting"],
+[-3, 3,-4, 4,-3, 4,"Byzantine Intrigue"],
+[ 0, 3,-4, 4,-3, 4,"Cyborged Race"],
+[ 0, 2,-1, 1,-2, 2,"Just Settled"],
+[-1, 3,-3, 4,-2, 3,"Harmonious Coalition"],
+[ 1, 3,-2, 3,-2, 3,"Niche Habitat Races"],
+[-4, 4,-2, 4,-3, 4,"Babel of Sentients"],
+[-4, 4,-2, 2,-1, 4,"Inward Looking"],
+[ 0, 3,-4, 4,-4, 4,"Outward Looking"],
+[-4, 1,-4, 4,-4, 4,"Eyes on the Sky"],
+[-1, 1,-4,-1,-4,-1,"Which Way Out"],
+[ 2, 3,-3, 4,-1, 4,"Would-Be Hegemons"],
+[ 2, 3,-3, 2,-4, 3,"Far Travelers"],
+[ 0, 4,-4,-1,-4, 4,"Space Is Our Home"],
+[ 1, 3,-3, 4,-3, 4,"Captive Hypertech"],
+[ 2, 4,-3, 4,-2, 4,"Whimsical Bioforming"],
+[ 2, 4,-3, 4,-2, 4,"Lunch-Box Trees"],
+[-3, 1,-3, 4,-3, 3,"Ask the Library Tree"],
+[-4, 3,-4, 2,-3, 0,"Sweet Spots and Crumbs"],
+[-4, 2,-4, 0,-3, 0,"We Endure"],
+[-4, 1,-4,-1,-4, 0,"Desperate Survivors"],
+[ 0, 3,-2, 3,-1, 2,"Millennia of Tradition"],
+[ 0, 3,-2, 3,-1, 3,"Unbroken History"],
+[-3, 2,-3, 2,-1, 3,"Grand Old Families"],
+[ 0, 3,-2, 2,-2, 3,"Clone Dynasties"],
+[-1, 3,-1, 3,-3, 3,"Green vs. Gray Tech"],
+[ 1, 3,-1, 3,-4, 4,"Bioquarantine"],
+[-1, 3,-3, 3,-3, 3,"Cultural Quarantine"],
+[ 1, 4, 0, 4, 0, 2,"Feral For Fun"],
+[ 1, 4, 0, 4, 0, 2,"High Tech Eden"],
+[ 1, 4,-4, 4,-2, 4,"Radical Body Mods"],
+[-1, 3,-1, 4,-1, 3,"Plutocracy"],
+[ 2, 3,-3, 3,-1, 3,"AI-Optimized Economy"],
+[-2, 4,-3, 4,-4, 4,"Hidden Rulers"],
+[-3, 3,-3, 4,-4, 4,"Lurking Rebels"],
+[-4, 4, 0, 3,-1, 3,"All Is Poetry"],
+[-4, 2,-4, 2,-3, 2,"All Is Conflict"],
+[-4, 2,-4, 2,-3, 2,"Finders Keepers"],
+[-4, 2,-4, 1,-4, 2,"Family or Foe"],
+[-4, 2,-3, 1,-3, 2,"Guests Are Sacred"],
+[-4, 3,-3, 3,-4, 2,"Revenge is Duty"],
+[-3, 2,-3, 2,-4, 3,"Jealous Guilds"],
+[-3, 2,-3, 2,-4, 3,"Holy Hierarchy"],
+[ 1, 3,-1, 1, 0, 3,"Spacers vs. Grounders"],
+[ 1, 3,-4, 0,-4, 4,"Space Colonies"],
+[ 1, 3,-3,-1,-4, 0,"Cities in Flight"],
+[ 1, 3,-4, 0,-4, 4,"Mobile Habitats"],
+[ 1, 4,-4,-3,-3, 3,"Vacuum Gardens"],
+[ 1, 4,-4,-3,-4, 3,"Vacuum Natives"],
+[-3, 3,-3, 3,-4, 4,"Shaky New Rulers"],
+[-2, 3,-4, 4,-2, 2,"Knowledge is Freedom"],
+[-4, 3,-4, 4,-4, 4,"Knowledge is Power"],
+[-4, 3,-3, 2,-2, 2,"Knowledge is Danger"],
+[-4, 1,-3, 2,-3, 3,"Knowledge is Holy"],
+[-2, 2,-4, 4,-4, 4,"Knowledge is Treasure"],
+[-3, 1,-3, 2,-2, 2,"Outlaw Teachers"],
+[-1, 3,-4, 4,-4, 4,"Data Hungry"],
+[-4, 4, 0, 4,-1, 3,"Lotus-Eaters"],
+[-3, 3,-3, 3,-3, 3,"Proud Generalists"],
+[-1, 3,-4, 3,-3, 3,"Scheming Diplomats"],
+[-3, 3,-4, 3,-3, 3,"Co-op Enterprise"],
+[ 1, 2,-4, 4,-3, 3,"Trade Missionaries"],
+[-3, 2,-4, 4,-3, 3,"Merchant-Adventurers"],
+[-4, 3,-3, 4,-3, 3,"Rotating Rulership"],
+[-1, 2,-1, 1,-3, 4,"Corrupt vs. Vicious"],
+[-2, 3,-4, 4,-1, 2,"Be Like Us"],
+[-4, 2,-4, 1,-3, 2,"Honor Above All"],
+[-4, 1,-4, 1,-2, 1,"Ancient Bounty"],
+[-4, 1,-3, 1,-4, 4,"Secret Guardians"],
+[-4, 2,-4, 1,-2, 1,"Relic Vaults"],
+[ 0, 3,-4,-1,-4, 4,"Bubble Ecosystems"],
+[ 0, 3,-4, 4,-3, 4,"Bonsai Ecologies"],
+[ 0, 3, 0, 4,-2, 4,"Myriad Gardens"],
+[ 0, 4,-4, 4,-4, 4,"Eugenic Castes"],
+[ 0, 4,-4, 4,-3, 0,"Hoarders"],
+[ 0, 4,-4, 4,-3, 0,"Collectors"],
+[ 2, 4,-4, 4,-4, 4,"Mind Thieves"]
+];
+
+function svgSysCircle(x, y, name, techEnvRes) {
+  var sysImage = "";
+  var tech = techEnvRes[0];
+  var env = techEnvRes[1];
+  var res = techEnvRes[2];
+  if (tech > 3) {
+    sysImage = sysImage + '<circle r=\"21\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+  }
+  if (tech > 2) {
+    sysImage = sysImage + '<circle r=\"18\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+  }
+  if (tech > 1) {
+    sysImage = sysImage + '<circle r=\"15\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+  }
+  sysImage = sysImage + '<circle r=\"12\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+  return sysImage;
+}
+
+function canvasCircle(x, y, radius, context) {
+    context.beginPath();
+    context.arc(x, y, radius, Math.PI * 2, false);
+    context.closePath();
+    context.fill();
+    context.stroke();
+}
+
+function canvasSysCircle(x, y, name, techEnvRes, context) {
+  var tech = techEnvRes[0];
+  var env = techEnvRes[1];
+  var res = techEnvRes[2];
+  context.lineWidth = 1.0; 
+  context.fillStyle = "#fff";
+  context.strokeStyle = "#000";
+  if (tech > 3) {
+    canvasCircle(x, y, 21, context);
+  }
+  if (tech > 2) {
+    canvasCircle(x, y, 18, context);
+  }
+  if (tech > 1) {
+    canvasCircle(x, y, 15, context);
+  }
+  canvasCircle(x, y, 12, context);
+}
+
+function xyAddPolar(xy, radius, theta) {
+  return [(xy[0] + radius * Math.cos(theta)), (xy[1] + radius * Math.sin(theta))];
+}
+
+function writeinto(id, value_to_write) {
+  var element = document.getElementById(id);
+  element.innerHTML = value_to_write;
+}
+
+function rollDie(nSides) {
+  return Math.floor(Math.random() * nSides) + 1;
+}
+
+function dFudge() {
+  return rollDie(3) - 2;
+}
+
+function dFx4() {
+  return dFudge() + dFudge() + dFudge() + dFudge();
+}
+
+function d4() {
+  return rollDie(4);
+}
+
+function twod4plus4() {
+  return d4() + d4() + 4;
+}
+
+function d10() {
+  return rollDie(10);
+}
+
+function clearaspects() {
+  var aspectClass = 'aspect';
+  var elements_to_clear = document.getElementsByClassName(aspectClass);
+  for (var i=0; i<elements_to_clear.length; i++) {
+    var theElement = elements_to_clear[i];
+    theElement.value = "";
+  }
+}
+
+function clearpics() {
+  var svgelems = ["linearsvg", "circularsvg"];
+  for(var j=0; j<svgelems.length; j++) { 
+    var svgelem = document.getElementById(svgelems[j]);
+    if (svgelem != null) {
+      svgelem.innerHTML = "";
+      svgelem.setAttribute("style", "display:none");
+    }
+  }
+  var canvases = ["linearcanvas", "circularcanvas"];
+  for(var k=0; k<canvases.length; k++) { 
+    var canvas = document.getElementById(canvases[k]);
+    if (canvas != null) {
+      canvas.width = canvas.width; 
+    }
+  }
+}
+
+function clearResults() {
+  var resultIds = [ 
+  "f0", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "f11" 
+  ];
+  for(var j=0; j<resultIds.length; j++) { 
+    var element = document.getElementById(resultIds[j]);
+    if (element != null) {
+      element.innerHTML = "";
+      element.setAttribute("style", "display:none");
+    }
+  }
+ clearpics();
+ clearaspects();
+}
+
+function readIntFromHtml(id) {
+  var element = document.getElementById(id);
+  var value = element.innerHTML;
+  return parseInt(value, 10);
+}
+
+function readintfromselect(id) {
+  var select= document.getElementById(id);
+  var value = select.options[select.selectedIndex].value;
+  return parseInt(value, 10);
+}
+
+function readfromselect(id) {
+  var select= document.getElementById(id);
+  var value = select.options[select.selectedIndex].value;
+}
+
+function writevaluetoselect(id, value) {
+  var selectElement = document.getElementById(id);
+  var index = value - 6;
+  var oldIndex = selectElement.selectedIndex;
+  var oldOption = selectElement.options[oldIndex]; 
+  var optionToSelect = selectElement.options[index]; 
+  optionToSelect.setAttribute("selected", "");
+  selectElement.selectedIndex = index;
+}
+
+function clearRandomSize() {
+  var randomElement = document.getElementById('randomSize');
+  randomElement.checked = false;
+}
+
+function makeOrGetHowManySystems() {
+  var randomElement = document.getElementById('randomSize');
+  howMany = readintfromselect('clusterSize'); // or generate if random checked
+  if (randomElement.checked || howMany < 6 || howMany > 12) {
+    howMany = twod4plus4();
+  }
+  writevaluetoselect('clusterSize', howMany);
+  return howMany;
+}
+
+function hideByClass(classname) {
+  var elements_to_hide = document.getElementsByClassName(classname);
+  for (var i=0; i<elements_to_hide.length; i++) {
+    var theElement = elements_to_hide[i];
+    theElement.setAttribute('style','display:none');
+  }
+}
+
+function showByClass(classname) {
+  var elements_to_show = document.getElementsByClassName(classname);
+  for (var j=0; j<elements_to_show.length; j++) {
+    var theElement = elements_to_show[j];
+    theElement.setAttribute('style','');
+  }
+}
+
+function reveal(id) {
+  var element = document.getElementById(id);
+  element.setAttribute("style", "");
+}
+
+function hide(id) {
+  var element = document.getElementById(id);
+  element.setAttribute("style", "display:none");
+}
+
+function connect(cMap, first, second) {
+    if (second == null) { return; }
+    var before1st = cMap[systemNames[first]];
+    var before2nd = cMap[systemNames[second]];
+    cMap[systemNames[first]] = before1st + systemNames[second];
+    cMap[systemNames[second]] = before2nd + systemNames[first];
+}
+
+function next_unconnected_index(cMap, howMany, firstCandidate) {
+   var cSize = howMany;
+   for (var j=firstCandidate; j<cSize; j++) {
+     if (cMap[systemNames[j]] == "") {
+       return j;
+     }
+   }
+   return null;
+}
+
+function makeConnections(howMany) {
+  var cMap = {};
+  for (var j=0; j<howMany; j++) {
+    cMap[systemNames[j]] = "";
+  }
+  for (var k=0; k<howMany-1; k++) {
+    var d = dFudge();
+    if (d < 0 || k == howMany-1) {
+      connect(cMap, k, k+1);
+    } else if (d == 0) {
+      connect(cMap, k, k+1);
+      connect(cMap, k, next_unconnected_index(cMap, howMany, k+1));
+    } else { // d > 0
+      connect(cMap, k, k+1);
+      connect(cMap, k, next_unconnected_index(cMap, howMany, k+1));
+      connect(cMap, k, next_unconnected_index(cMap, howMany, k+1));
+    }
+  }
+  return cMap;
+}
+
+function svgLine(xy0, xy1) {
+  var line = '<path stroke-width="1" fill="none" stroke="gray" d="M ' +
+    xy0[0] + ' ' + xy0[1] + ' L ' + xy1[0] + ' ' + xy1[1] + '" /> ';
+
+  return line;
+}
+
+function svgSpline(xy0, xy0p, xy1p, xy1) {
+  var spline = '<path stroke-width="1" fill="none" stroke="gray" d="M ' +
+    xy0[0] + ' ' + xy0[1] + ' C ' + xy0p[0] + ' ' + xy0p[1] + ' ' + xy1p[0] + ' ' + xy1p[1] + ' ' +
+    xy1[0] + ' ' + xy1[1] + '" /> ';
+
+  return spline;
+}
+
+function canvasSpline(xy0, xy0p, xy1p, xy1, context) {
+  context.beginPath();
+  context.moveTo(xy0[0], xy0[1]);
+  context.bezierCurveTo(xy0p[0], xy0p[1], xy1p[0], xy1p[1], xy1[0], xy1[1]);
+  context.strokeStyle = "black";
+  context.strokeWidth = 0.5;
+  context.stroke();
+}
+
+
+var svgPane = function(elem_id) {
+ return {
+    elemid : elem_id,
+    w : 0,
+    h : 0,
+    buf : '',
+    _append : function(txt) { this.buf = this.buf + txt; },
+    spline : function(xy0, xy0p, xy1p, xy1) { this._append(svgSpline(xy0, xy0p, xy1p, xy1)); },
+    line : function(xy0, xy1) { this._append(svgLine(xy0, xy1)); },
+    syscircle : function(x, y, name, techEnvRes) { this._append(svgSysCircle(x, y, name, techEnvRes)); }, 
+    size : function(w, h) { this.w = w; this.h = h; },
+    svgStart : function() { return '<svg xmlns="http://www.w3.org/2000/svg" width="' + this.w + '" height="' + this.h + '" id="' + this.elemid + '"> '; },
+    svgEnd : function() { return '</svg>'; },
+    content : function() { return this.svgStart() + this.buf + this.svgEnd(); },
+    showImage : function(imageDivId) { writeinto(imageDivId, this.content()); reveal(imageDivId); }
+  };
+};
+
+var canvasPane = function(canvas_id) {
+  var canvas = document.getElementById(canvas_id);
+  var context = canvas.getContext("2d");
+  return {
+    elemid : canvas_id,
+    _context : context,
+    _canvas : canvas,
+    w : 0,
+    h : 0,
+    spline : function(xy0, xy0p, xy1p, xy1) { canvasSpline(xy0, xy0p, xy1p, xy1, this._context); },
+    line :  function(xy0, xy1) { 
+            this._context.moveTo(xy0[0], xy0[1]); 
+            this._context.lineTo(xy1[0], xy1[1]); 
+            this._context.lineWidth = 1.1; 
+            this._context.stroke(); },
+    syscircle : function(x, y, name, techEnvRes) { canvasSysCircle(x, y, name, techEnvRes, this._context); }, 
+    size : function(w, h) { this.w = w; this.h = h; this._canvas.width = w; this._canvas.height = h; },
+    showImage : function(imageDivId) { } // no-op, drawn incrementally and revealed.
+
+  };
+};
+
+function showImage(divId, svgString) {
+ writeinto(divId, svgString);
+ reveal(divId);
+}
+
+function writeCircleImage(drawPane, systemStats, connections, howMany) {
+  var imgDivId = "circularpic";
+  var width = 550; var height = 250;
+  drawPane.size(width, height);
+  var t0 = - Math.PI / 2.0;
+  var theta = Math.PI * 2.0 / (1.0 + howMany); 
+  var x0 = 0; var y0 = 0;
+  var xy0 = [0, 0];
+  var xy0p = [0, 0];
+  var xy2p = [0, 0];
+  var xy1 = [0, 0];
+  var xy2 = [0, 0];
+  var radius = 100.0;
+
+  var xcenter = width/2;
+  var ycenter = height/2;
+  var xyc = [xcenter, ycenter];
+  // write connections
+  for (var j=0; j<howMany-1; j++) {
+     xy0 = xyAddPolar(xyc, radius, t0 + theta * j);
+     xy0p = xyAddPolar(xyc, radius/2.0, t0 + theta * j);
+     xy1 = xyAddPolar(xyc, radius, t0 + theta * (j+1));
+     drawPane.line(xy0, xy1);
+     var conns = connections[systemNames[j]];
+     for (var cc=0; cc<=conns.length; cc++) {
+       var sysIndex = systemIndices[conns[cc]];
+       if (sysIndex > j+1) {
+        // write a spline to systems further down the cluster
+        xy2 = xyAddPolar(xyc, radius, t0 + theta * (sysIndex));
+        xy2p = xyAddPolar(xyc, radius/2.0, t0 + theta * (sysIndex));
+        drawPane.spline(xy0, xy0p, xy2p, xy2);
+       }
+     }
+  }
+
+  // overwrite with systems
+  for (var k=0; k<howMany; k++) {
+     xy = xyAddPolar(xyc, radius, t0 + theta * k);
+     x0 = xy[0]; y0 = xy[1];
+     drawPane.syscircle(x0, y0, systemNames[k], systemStats[k]);
+  }
+
+  drawPane.showImage(imgDivId);
+}
+
+function writeLineImage(drawPane, systemStats, connections, howMany) {
+  var imgDivId = "linearpic";
+  // divide width to situate howMany along horizontal centerline
+  var width = 600;
+  var height = 140;
+  drawPane.size(width, height);
+
+  var perSystem = width / howMany;
+  var firstX = perSystem / 2;
+
+  for (var j=0; j<howMany-1; j++) {
+    xy0 = [firstX + j*perSystem, height/2];
+    xy1 = [xy0[0] + perSystem, xy0[1]];
+    drawPane.line(xy0, xy1);
+    // linearize from here
+    var conns = connections[systemNames[j]];
+    var polarity = 2 * ((j % 2) - 0.5);
+    for (var cc=0; cc<=conns.length; cc++) {
+      var sysIndex = systemIndices[conns[cc]];
+      var fudge = (sysIndex - j + 2) / 6
+      var yp = (height/2) + polarity * (height/2) * fudge; // spline target
+      xy0p = [xy0[0], yp];
+      if (sysIndex > j+1) {
+       // write a spline to systems further down the cluster
+       xy2 = [firstX + sysIndex*perSystem, height/2];
+       xy2p = [xy2[0], xy0p[1]];
+       var xypp = [(xy0p[0]+xy2p[0])/2.0, xy0p[1]];
+       drawPane.spline(xy0, xy0p, xy2p, xy2);
+      }
+    }
+  }
+  // overwrite with systems
+  for (var k=0; k<howMany; k++) {
+    xy = [firstX + k*perSystem, height/2];
+    x0 = xy[0]; y0 = xy[1];
+    drawPane.syscircle(x0, y0, systemNames[k], systemStats[k]);
+  }
+
+  drawPane.showImage(imgDivId);
+}
+
+function writeImage(systemStats, connections, howMany) {
+  writeCircleImage(svgPane('circularsvg'), systemStats, connections, howMany);
+  writeLineImage(svgPane('linearsvg'), systemStats, connections, howMany);
+  writeCircleImage(canvasPane('circularcanvas'), systemStats, connections, howMany);
+  writeLineImage(canvasPane('linearcanvas'), systemStats, connections, howMany);
+}
+
+function sayTech(stats) {
+  return '' + stats[0] + ': ' + techLevelNames[stats[0] + 4];
+}
+
+function sayEnv(stats) {
+  return '' + stats[1] + ': ' + envLevelNames[stats[1] + 4];
+}
+
+function sayRes(stats) {
+  return '' + stats[2] + ': ' + resLevelNames[stats[2] + 4];
+}
+
+function sayTER(stats) {
+  return 'T' + stats[0] + ' E' + stats[1] + ' R' + stats[2];
+}
+
+function showstats() {
+  var statsCheckbox = document.getElementById('compactStats');
+  if (statsCheckbox.checked) {
+    showByClass('compactstats');  
+    hideByClass('detailedstats');  
+  } else {
+    hideByClass('compactstats');  
+    showByClass('detailedstats');  
+  }
+}
+
+function shouldShowAspects() {
+  var aspectCheckbox = document.getElementById('showAspects');
+  return aspectCheckbox.checked;
+}
+
+function showaspects() {
+  var aspectClass = 'aspects';
+  if (shouldShowAspects()) {
+    showByClass(aspectClass);  
+  } else {
+    hideByClass(aspectClass);  
+  }
+}
+
+function shuffle(o) { 
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
+
+function aspectsForSystem(terStats, grabBag) {
+  var t = terStats[0]; var e = terStats[1]; var r = terStats[2];
+  var aspectApplies = 
+    (function(asp) { return asp[0]<=t && asp[1]>=t && 
+                     asp[2]<=e && asp[3]>=e &&
+                     asp[4]<=r && asp[5]>=r });
+
+  grabBag = shuffle(grabBag);
+
+// Throw away the nice filter/map list comprehension and iterate the shuffled
+// grabBag, looking for a match and splicing it out of the grabBag.
+  systemAspects = ["", "", ""];
+  for (var idx = 0, whichAspect = 0; idx < grabBag.length && whichAspect < 2; ++idx) {
+    aspect = grabBag[idx];
+    if (aspectApplies(aspect)) {
+      systemAspects[whichAspect] = aspect[6];
+      grabBag.splice(idx, 1); // discard the chosen aspect
+      ++whichAspect;
+    }
+  }
+
+  return systemAspects;
+}
+
+function editableAspectItem(idPrefix, num, aspect) {
+  var item = '';
+  var itemId = idPrefix + num;
+  if (aspect)  {
+  item = '<span contentEditable="true" id="' + itemId + '" class="aspectbox" type="text" size="23" value="'+aspect+'">'+ aspect + '</span>&nbsp;';
+  } else {
+  item = '<span contentEditable="true" id="' + itemId + '" class="aspectbox" type="text" size="23">...?&nbsp;</span>&nbsp;';
+  }
+  return item;
+}
+
+function inputAspectItem(idPrefix, num, aspect) {
+  var item = '';
+  if (aspect)  {
+  item = '<input id="' + idPrefix + num + '" class="aspect" type="text" size="23" value="'+aspect+'"/>';
+  } else {
+  item = '<input title="Add third aspect for system\'s role in cluster" id="' + idPrefix + num + '" class="aspect" type="text" size="23"></input>'
+  }
+  return item;
+}
+
+function showByViewSettings() {
+ showaspects();
+ showstats();
+ showDiagram();
+}
+
+function aspectCellContents(aspectItem, asps, j) {
+  return '<table width="100%"><tr><td width="33%">' + aspectItem('aa', j, asps[0]) + '</td><td width="33%">' + aspectItem('ab', j, asps[1]) + '</td><td width="33%">' + aspectItem('ac', j, asps[2]) + '</td></tr></table>';
+}
+
+function writeSystems(howMany) {
+
+  var connections = makeConnections(howMany);
+
+  var minTotal = 16; var maxTotal = -160; 
+  var minIndex = 0; var maxIndex = 0; 
+  var isMissingTL2 = true;
+  var systemStats = [];
+  var aspectItem = editableAspectItem;
+  
+  for (var k=0; k<howMany; k++) {
+    systemStats[k] = [dFx4(), dFx4(), dFx4()];
+    if (systemStats[k][0] >= 2) {
+      isMissingTL2 = false;
+    }
+    systemIndex = k;
+    systemTotal = systemStats[k][0] + systemStats[k][1] + systemStats[k][2];
+    if (systemTotal > maxTotal) {
+      maxTotal = systemTotal;
+      maxIndex = systemIndex;
+    }
+    if (systemTotal < minTotal) {
+      minTotal = systemTotal;
+      minIndex = systemIndex;
+    }
+  }
+
+  // Fudge so at least one or two systems are TL2.
+  if (isMissingTL2) {
+    systemStats[maxIndex][0] = 2;
+    systemStats[minIndex][0] = 2;
+  }
+  for (var j=0, grabBagOfAspects=aspectsByTer.slice(0); j<howMany; j++) {
+    var rowId = 'f' + j;
+    var stats = systemStats[j];
+    var asps = aspectsForSystem(stats, grabBagOfAspects);
+    var aspectCell = '<td class="aspects">' + aspectCellContents(aspectItem, asps, j) + '</td>';; 
+    writeinto(rowId, '<td class="systemName" contentEditable="true">'+systemNames[j]+'</td><td class="compactstats" style="display:none">'+sayTER(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayTech(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayEnv(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayRes(stats)+'</td><td>'+connections[systemNames[j]]+'</td>'+aspectCell);
+    reveal(rowId);
+  }
+
+ writeImage(systemStats, connections, howMany);
+
+ showByViewSettings();
+}
+
+
+function showDiagram() {
+  var optionsId = 'diagram';
+  var select = document.getElementById(optionsId);
+  var selectedvalue  = select.options[select.selectedIndex].value;
+  for (var o = 0; o < 4; o++) {
+    var eachDiagram = select.options[o].value;
+    hide(eachDiagram);
+  }
+  reveal(selectedvalue);
+}
+
+function clustergen() {
+  clearResults();
+  var howMany = makeOrGetHowManySystems();
+  writeSystems(howMany);
+}
+
+// avoid overwriting content of a saved cluster doc on reload
+function fill_if_empty() {
+  var already_filled = readIntFromHtml('fillflag');
+  if (!already_filled) {
+    clustergen();
+    writeinto('fillflag', '1');
+  }
+}
+</script>
+</head>
+<body onload="fill_if_empty()">
+<!-- body -->
+
+<p>
+<h3>Diaspora Star Cluster Generator</h3>
+<div id="circularpic">
+ <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" id="circularsvg">
+  <circle cx="150" cy="25" r="23" fill="none" stroke="black"/>
+ </svg>
+</div>
+<div id="circularcanvaspic" style="display:none">
+ <canvas id="circularcanvas" width="300" height="300">
+ </canvas>
+</div>
+<br/>
+<div id="linearpic">
+ <svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" id="linearsvg">
+  <circle cx="300" cy="150" r="23" fill="none" stroke="black"/>
+ </svg>
+</div>
+<div id="linearcanvaspic" style="display:none">
+ <canvas id="linearcanvas" width="600" height="250">
+ </canvas>
+</div>
+<div id="fillflag" style="display:none">0</div>
+<br/>
+Cluster diagram: 
+<select id="diagram" name="diagram" onchange="showDiagram()">
+  <option value="linearpic">linear SVG</option>
+  <option value="linearcanvaspic">linear canvas</option>
+  <option value="circularpic">circular SVG</option>
+  <option value="circularcanvaspic">circular canvas</option>
+</select>
+<p>
+Star Cluster size: <select id="clusterSize" name="clusterSize" onchange="clearRandomSize()">
+<option id="clusterSize6">6</option>
+<option id="clusterSize7">7</option>
+<option id="clusterSize8">8</option>
+<option id="clusterSize9">9</option>
+<option id="clusterSize10">10</option>
+<option id="clusterSize11">11</option>
+<option id="clusterSize12">12</option>
+</select>
+
+<button value="Reroll" onclick="clustergen()">Reroll</button>
+<input id="randomSize" type="checkbox" checked/>Random size 
+<input id="compactStats" type="checkbox" onchange="showstats()" checked/>Compact Stats
+<input id="showAspects" type="checkbox" onchange="showaspects()" checked/>Show Aspects
+<br/>
+<table summary="Systems in Cluster" cellspacing="3" cellpadding="3" border="1" style="text-align:center" width="800">
+<tr><th>System</th><th class="compactstats" style="display:none">Stats</th><th class="detailedstats">Technology</th><th class="detailedstats">Environment</th><th class="detailedstats">Resources</th><th>Links</th><th class="aspects" style="display:none" width="65%">Aspects</th></tr>
+<tr id="f0"></tr>
+<tr id="f1" style="display:none"></tr>
+<tr id="f2" style="display:none"></tr>
+<tr id="f3" style="display:none"></tr>
+<tr id="f4" style="display:none"></tr>
+<tr id="f5" style="display:none"></tr>
+<tr id="f6" style="display:none"></tr>
+<tr id="f7" style="display:none"></tr>
+<tr id="f8" style="display:none"></tr>
+<tr id="f9" style="display:none"></tr>
+<tr id="f10" style="display:none"></tr>
+<tr id="f11" style="display:none"></tr>
+</table>
+
+<p>
+See the home page for <a href="http://www.vsca.ca/Diaspora/">Diaspora</a> at vsca.ca.
+<p>
+<i>Edition of 11-August-2014.</i> <br/>
+<i>Latest changes: Use contentEditable to allow saving edits to Aspects. Tested in Chrome, Safari, Firefox. Add GPL3.</i><br/>
+<div style="font-size:75%">
+Copyright 2013, Jeffrey S. Miller, firstname dot lastname at gmail ** 
+Permission to copy and modify granted under the <a href="http://www.gnu.org/licenses/#GPL">GNU General Public License V3 or later</a>. ** Alternatively Re-mix/Re-use with attribution: <a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa-4.0</a>
+<p>
+Credits: Additional Gosssamer World aspects contributed by Bruce Ralston.
+</div>
+</body>
+</html>
