@@ -180,15 +180,15 @@ function svgSysCircle(x, y, name, techEnvRes) {
   var env = techEnvRes[1];
   var res = techEnvRes[2];
   if (tech > 3) {
-    sysImage = sysImage + '<circle r=\"21\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+    sysImage += '<circle r=\"21\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
   }
   if (tech > 2) {
-    sysImage = sysImage + '<circle r=\"18\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+    sysImage += '<circle r=\"18\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
   }
   if (tech > 1) {
-    sysImage = sysImage + '<circle r=\"15\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+    sysImage += '<circle r=\"15\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
   }
-  sysImage = sysImage + '<circle r=\"12\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
+  sysImage += '<circle r=\"12\" cx=\"' + x + '\" cy=\"' + y + '\" stroke=\"black\" fill=\"white\"/>';
   return sysImage;
 }
 
