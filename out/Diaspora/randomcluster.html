@@ -179,14 +179,14 @@ function svgSysCircle(x, y, name, techEnvRes) {
   var tech = techEnvRes[0];
   var env = techEnvRes[1];
   var res = techEnvRes[2];
-  if (tech > 3) {
-    sysImage += '<circle r="21" cx="' + x + '" cy="' + y + '" stroke="black" fill="white"/>';
+  if (tech == 4) {
+    sysImage += '<circle r="21" cx="' + x + '" cy="' + y + '" stroke="red" fill="red"/>';
   }
-  if (tech > 2) {
-    sysImage += '<circle r="18" cx="' + x + '" cy="' + y + '" stroke="black" fill="white"/>';
+  if (tech == 3) {
+    sysImage += '<circle r="18" cx="' + x + '" cy="' + y + '" stroke="green" fill="green"/>';
   }
-  if (tech > 1) {
-    sysImage += '<circle r="15" cx="' + x + '" cy="' + y + '" stroke="black" fill="white"/>';
+  if (tech == 2) {
+    sysImage += '<circle r="15" cx="' + x + '" cy="' + y + '" stroke="blue" fill="blue"/>';
   }
   sysImage += '<circle r="12" cx="' + x + '" cy="' + y + '" stroke="black" fill="white"/>';
   return sysImage;
@@ -432,7 +432,7 @@ var svgPane = function(elem_id) {
     w : 0,
     h : 0,
     buf : '',
-    _append : function(txt) { this.buf = this.buf + txt; },
+    _append : function(txt) { this.buf += txt; },
     spline : function(xy0, xy0p, xy1p, xy1) { this._append(svgSpline(xy0, xy0p, xy1p, xy1)); },
     line : function(xy0, xy1) { this._append(svgLine(xy0, xy1)); },
     syscircle : function(x, y, name, techEnvRes) { this._append(svgSysCircle(x, y, name, techEnvRes)); },
@@ -767,6 +767,10 @@ if (!already_filled) {
 <canvas id="linearcanvas" width="600" height="250">
 </canvas>
 </div>
+</td>
+
+<td>
+
 <div id="fillflag" style="display:none">0</div>
 <br/>
 Cluster diagram:
@@ -777,44 +781,32 @@ Cluster diagram:
 <option value="linearcanvaspic">linear canvas</option>
 </select>
 </div>
-</td>
 
-<td>
-<div id="notes">
-<p>See the home page for <a href="http://www.vsca.ca/Diaspora/">Diaspora</a> at vsca.ca.<p>
-<div style="font-size:75%">
-<p>
-Copyright 2013, Jeffrey S. Miller, firstname dot lastname at gmail **
-Permission to copy and modify granted under the
-<a href="http://www.gnu.org/licenses/#GPL">GNU General Public License V3 or later</a>.
-** Alternatively Re-mix/Re-use with attribution:
-<a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa-4.0</a>
+<p>Star Cluster size:
+<select id="clusterSize" name="clusterSize" onchange="clearRandomSize()">
+  <option id="clusterSize6">6</option>
+  <option id="clusterSize7">7</option>
+  <option id="clusterSize8">8</option>
+  <option id="clusterSize9">9</option>
+  <option id="clusterSize10">10</option>
+  <option id="clusterSize11">11</option>
+  <option id="clusterSize12">12</option>
+</select>
 </p>
-<p>Modifications since commit 4d746139ea98cc2129b1740b83119754db2f5eb9 by Kevin Baird</p>
-<p>Credits: Additional Gosssamer World aspects contributed by Bruce Ralston.</p>
-</div>
+
+<p>
+  <button value="Reroll" onclick="clustergen()">Reroll</button>
+  <input id="randomSize" type="checkbox" checked/>Random size
+  <input id="compactStats" type="checkbox" onchange="showstats()"/>Compact Stats
+  <input id="showAspects" type="checkbox" onchange="showaspects()" checked/>Show Aspects
+</p>
+
 </td>
 </tr>
 </table>
 
 <div id="system_details">
-  <p>Star Cluster size:
-  <select id="clusterSize" name="clusterSize" onchange="clearRandomSize()">
-    <option id="clusterSize6">6</option>
-    <option id="clusterSize7">7</option>
-    <option id="clusterSize8">8</option>
-    <option id="clusterSize9">9</option>
-    <option id="clusterSize10">10</option>
-    <option id="clusterSize11">11</option>
-    <option id="clusterSize12">12</option>
-  </select>
-  </p>
 
-  <button value="Reroll" onclick="clustergen()">Reroll</button>
-  <input id="randomSize" type="checkbox" checked/>Random size
-  <input id="compactStats" type="checkbox" onchange="showstats()"/>Compact Stats
-  <input id="showAspects" type="checkbox" onchange="showaspects()" checked/>Show Aspects
-  <br/>
   <table summary="Systems in Cluster" cellspacing="3" cellpadding="3" border="1" style="text-align:center" width="98%">
   <tr>
     <th>System</th>
@@ -840,5 +832,18 @@ Permission to copy and modify granted under the
   </table>
 </div>
 
+<div id="notes">
+<p>See the home page for <a href="http://www.vsca.ca/Diaspora/">Diaspora</a> at vsca.ca.<p>
+<div style="font-size:75%">
+<p>
+Copyright 2013, Jeffrey S. Miller, firstname dot lastname at gmail **
+Permission to copy and modify granted under the
+<a href="http://www.gnu.org/licenses/#GPL">GNU General Public License V3 or later</a>.
+** Alternatively Re-mix/Re-use with attribution:
+<a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa-4.0</a>
+</p>
+<p>Modifications since commit 4d746139ea98cc2129b1740b83119754db2f5eb9 by Kevin Baird</p>
+<p>Credits: Additional Gosssamer World aspects contributed by Bruce Ralston.</p>
+</div>
 </body>
 </html>
