@@ -13,12 +13,12 @@ var systemIndices = { 'A':0, 'B':1, 'C':2, 'D':3, 'E':4, 'F': 5,
 var techLevelNames = [ 'Stone Age', 'Metallurgy', 'Industrial', 'Atomic', 'System exploration',
                        'System exploitation', 'Slipstream use', 'Slipstream mastery', 'Verge of Collapse' ];
 
-var envLevelNames = [ 'No habitable worlds', 'Barren', 'Hostile', 'Survivable', 
-                      'Garden<br />(+&#160;barren)', 'Garden<br />(+&#160;hostile)', 'Garden<br />(+&#160;survivable)', 
+var envLevelNames = [ 'No habitable worlds', 'Barren', 'Hostile', 'Survivable',
+                      'Garden<br />(+&#160;barren)', 'Garden<br />(+&#160;hostile)', 'Garden<br />(+&#160;survivable)',
                       'Some Garden Worlds', 'Many Garden Worlds' ];
 
-var resLevelNames = [ 'No resources', 'Multiple needs', 'Needs imports', 
-                      'Near viable', 'Sustainable', 'Rich', 'One major export', 
+var resLevelNames = [ 'No resources', 'Multiple needs', 'Needs imports',
+                      'Near viable', 'Sustainable', 'Rich', 'One major export',
                       'Multiple exports', 'All you could want' ];
 
 
@@ -204,7 +204,7 @@ function canvasSysCircle(x, y, name, techEnvRes, context) {
   var tech = techEnvRes[0];
   var env = techEnvRes[1];
   var res = techEnvRes[2];
-  context.lineWidth = 1.0; 
+  context.lineWidth = 1.0;
   context.fillStyle = "#fff";
   context.strokeStyle = "#000";
   if (tech > 3) {
@@ -263,7 +263,7 @@ function clearaspects() {
 
 function clearpics() {
   var svgelems = ["linearsvg", "circularsvg"];
-  for(var j=0; j<svgelems.length; j++) { 
+  for(var j=0; j<svgelems.length; j++) {
     var svgelem = document.getElementById(svgelems[j]);
     if (svgelem != null) {
       svgelem.innerHTML = "";
@@ -271,19 +271,19 @@ function clearpics() {
     }
   }
   var canvases = ["linearcanvas", "circularcanvas"];
-  for(var k=0; k<canvases.length; k++) { 
+  for(var k=0; k<canvases.length; k++) {
     var canvas = document.getElementById(canvases[k]);
     if (canvas != null) {
-      canvas.width = canvas.width; 
+      canvas.width = canvas.width;
     }
   }
 }
 
 function clearResults() {
-  var resultIds = [ 
-  "f0", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "f11" 
+  var resultIds = [
+  "f0", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "f11"
   ];
-  for(var j=0; j<resultIds.length; j++) { 
+  for(var j=0; j<resultIds.length; j++) {
     var element = document.getElementById(resultIds[j]);
     if (element != null) {
       element.innerHTML = "";
@@ -315,8 +315,8 @@ function writevaluetoselect(id, value) {
   var selectElement = document.getElementById(id);
   var index = value - 6;
   var oldIndex = selectElement.selectedIndex;
-  var oldOption = selectElement.options[oldIndex]; 
-  var optionToSelect = selectElement.options[index]; 
+  var oldOption = selectElement.options[oldIndex];
+  var optionToSelect = selectElement.options[index];
   optionToSelect.setAttribute("selected", "");
   selectElement.selectedIndex = index;
 }
@@ -435,7 +435,7 @@ var svgPane = function(elem_id) {
     _append : function(txt) { this.buf = this.buf + txt; },
     spline : function(xy0, xy0p, xy1p, xy1) { this._append(svgSpline(xy0, xy0p, xy1p, xy1)); },
     line : function(xy0, xy1) { this._append(svgLine(xy0, xy1)); },
-    syscircle : function(x, y, name, techEnvRes) { this._append(svgSysCircle(x, y, name, techEnvRes)); }, 
+    syscircle : function(x, y, name, techEnvRes) { this._append(svgSysCircle(x, y, name, techEnvRes)); },
     size : function(w, h) { this.w = w; this.h = h; },
     svgStart : function() { return '<svg xmlns="http://www.w3.org/2000/svg" width="' + this.w + '" height="' + this.h + '" id="' + this.elemid + '"> '; },
     svgEnd : function() { return '</svg>'; },
@@ -454,12 +454,12 @@ var canvasPane = function(canvas_id) {
     w : 0,
     h : 0,
     spline : function(xy0, xy0p, xy1p, xy1) { canvasSpline(xy0, xy0p, xy1p, xy1, this._context); },
-    line :  function(xy0, xy1) { 
-            this._context.moveTo(xy0[0], xy0[1]); 
-            this._context.lineTo(xy1[0], xy1[1]); 
-            this._context.lineWidth = 1.1; 
+    line :  function(xy0, xy1) {
+            this._context.moveTo(xy0[0], xy0[1]);
+            this._context.lineTo(xy1[0], xy1[1]);
+            this._context.lineWidth = 1.1;
             this._context.stroke(); },
-    syscircle : function(x, y, name, techEnvRes) { canvasSysCircle(x, y, name, techEnvRes, this._context); }, 
+    syscircle : function(x, y, name, techEnvRes) { canvasSysCircle(x, y, name, techEnvRes, this._context); },
     size : function(w, h) { this.w = w; this.h = h; this._canvas.width = w; this._canvas.height = h; },
     showImage : function(imageDivId) { } // no-op, drawn incrementally and revealed.
 
@@ -476,7 +476,7 @@ function writeCircleImage(drawPane, systemStats, connections, howMany) {
   var width = 550; var height = 250;
   drawPane.size(width, height);
   var t0 = - Math.PI / 2.0;
-  var theta = Math.PI * 2.0 / (1.0 + howMany); 
+  var theta = Math.PI * 2.0 / (1.0 + howMany);
   var x0 = 0; var y0 = 0;
   var xy0 = [0, 0];
   var xy0p = [0, 0];
@@ -583,11 +583,11 @@ function sayTER(stats) {
 function showstats() {
   var statsCheckbox = document.getElementById('compactStats');
   if (statsCheckbox.checked) {
-    showByClass('compactstats');  
-    hideByClass('detailedstats');  
+    showByClass('compactstats');
+    hideByClass('detailedstats');
   } else {
-    hideByClass('compactstats');  
-    showByClass('detailedstats');  
+    hideByClass('compactstats');
+    showByClass('detailedstats');
   }
 }
 
@@ -599,21 +599,21 @@ function shouldShowAspects() {
 function showaspects() {
   var aspectClass = 'aspects';
   if (shouldShowAspects()) {
-    showByClass(aspectClass);  
+    showByClass(aspectClass);
   } else {
-    hideByClass(aspectClass);  
+    hideByClass(aspectClass);
   }
 }
 
-function shuffle(o) { 
+function shuffle(o) {
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
 
 function aspectsForSystem(terStats, grabBag) {
   var t = terStats[0]; var e = terStats[1]; var r = terStats[2];
-  var aspectApplies = 
-    (function(asp) { return asp[0]<=t && asp[1]>=t && 
+  var aspectApplies =
+    (function(asp) { return asp[0]<=t && asp[1]>=t &&
                      asp[2]<=e && asp[3]>=e &&
                      asp[4]<=r && asp[5]>=r });
 
@@ -669,12 +669,12 @@ function writeSystems(howMany) {
 
   var connections = makeConnections(howMany);
 
-  var minTotal = 16; var maxTotal = -160; 
-  var minIndex = 0; var maxIndex = 0; 
+  var minTotal = 16; var maxTotal = -160;
+  var minIndex = 0; var maxIndex = 0;
   var isMissingTL2 = true;
   var systemStats = [];
   var aspectItem = editableAspectItem;
-  
+
   for (var k=0; k<howMany; k++) {
     systemStats[k] = [dFx4(), dFx4(), dFx4()];
     if (systemStats[k][0] >= 2) {
@@ -701,7 +701,7 @@ function writeSystems(howMany) {
     var rowId = 'f' + j;
     var stats = systemStats[j];
     var asps = aspectsForSystem(stats, grabBagOfAspects);
-    var aspectCell = '<td class="aspects">' + aspectCellContents(aspectItem, asps, j) + '</td>';; 
+    var aspectCell = '<td class="aspects">' + aspectCellContents(aspectItem, asps, j) + '</td>';;
     writeinto(rowId, '<td class="systemName" contentEditable="true">'+systemNames[j]+'</td><td class="compactstats" style="display:none">'+sayTER(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayTech(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayEnv(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayRes(stats)+'</td><td>'+connections[systemNames[j]]+'</td>'+aspectCell);
     reveal(rowId);
   }
@@ -765,7 +765,7 @@ function fill_if_empty() {
 </div>
 <div id="fillflag" style="display:none">0</div>
 <br/>
-Cluster diagram: 
+Cluster diagram:
 <select id="diagram" name="diagram" onchange="showDiagram()">
   <option value="linearpic">linear SVG</option>
   <option value="linearcanvaspic">linear canvas</option>
@@ -784,7 +784,7 @@ Star Cluster size: <select id="clusterSize" name="clusterSize" onchange="clearRa
 </select>
 
 <button value="Reroll" onclick="clustergen()">Reroll</button>
-<input id="randomSize" type="checkbox" checked/>Random size 
+<input id="randomSize" type="checkbox" checked/>Random size
 <input id="compactStats" type="checkbox" onchange="showstats()" checked/>Compact Stats
 <input id="showAspects" type="checkbox" onchange="showaspects()" checked/>Show Aspects
 <br/>
@@ -810,7 +810,7 @@ See the home page for <a href="http://www.vsca.ca/Diaspora/">Diaspora</a> at vsc
 <i>Edition of 11-August-2014.</i> <br/>
 <i>Latest changes: Use contentEditable to allow saving edits to Aspects. Tested in Chrome, Safari, Firefox. Add GPL3.</i><br/>
 <div style="font-size:75%">
-Copyright 2013, Jeffrey S. Miller, firstname dot lastname at gmail ** 
+Copyright 2013, Jeffrey S. Miller, firstname dot lastname at gmail **
 Permission to copy and modify granted under the <a href="http://www.gnu.org/licenses/#GPL">GNU General Public License V3 or later</a>. ** Alternatively Re-mix/Re-use with attribution: <a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa-4.0</a>
 <p>
 Credits: Additional Gosssamer World aspects contributed by Bruce Ralston.
