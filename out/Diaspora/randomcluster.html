@@ -262,7 +262,7 @@ function clearaspects() {
 }
 
 function clearpics() {
-  var svgelems = ["linearsvg", "circularsvg"];
+  var svgelems = ["circularsvg", "linearsvg"];
   for(var j=0; j<svgelems.length; j++) {
     var svgelem = document.getElementById(svgelems[j]);
     if (svgelem != null) {
@@ -662,80 +662,80 @@ function showByViewSettings() {
 }
 
 function aspectCellContents(aspectItem, asps, j) {
-  return '<table width="100%"><tr><td width="33%">' + aspectItem('aa', j, asps[0]) + '</td><td width="33%">' + aspectItem('ab', j, asps[1]) + '</td><td width="33%">' + aspectItem('ac', j, asps[2]) + '</td></tr></table>';
+return '<table width="100%"><tr><td width="33%">' + aspectItem('aa', j, asps[0]) + '</td><td width="33%">' + aspectItem('ab', j, asps[1]) + '</td><td width="33%">' + aspectItem('ac', j, asps[2]) + '</td></tr></table>';
 }
 
 function writeSystems(howMany) {
 
-  var connections = makeConnections(howMany);
+var connections = makeConnections(howMany);
 
-  var minTotal = 16; var maxTotal = -160;
-  var minIndex = 0; var maxIndex = 0;
-  var isMissingTL2 = true;
-  var systemStats = [];
-  var aspectItem = editableAspectItem;
+var minTotal = 16; var maxTotal = -160;
+var minIndex = 0; var maxIndex = 0;
+var isMissingTL2 = true;
+var systemStats = [];
+var aspectItem = editableAspectItem;
 
-  for (var k=0; k<howMany; k++) {
-    systemStats[k] = [dFx4(), dFx4(), dFx4()];
-    if (systemStats[k][0] >= 2) {
-      isMissingTL2 = false;
-    }
-    systemIndex = k;
-    systemTotal = systemStats[k][0] + systemStats[k][1] + systemStats[k][2];
-    if (systemTotal > maxTotal) {
-      maxTotal = systemTotal;
-      maxIndex = systemIndex;
-    }
-    if (systemTotal < minTotal) {
-      minTotal = systemTotal;
-      minIndex = systemIndex;
-    }
+for (var k=0; k<howMany; k++) {
+  systemStats[k] = [dFx4(), dFx4(), dFx4()];
+  if (systemStats[k][0] >= 2) {
+    isMissingTL2 = false;
   }
-
-  // Fudge so at least one or two systems are TL2.
-  if (isMissingTL2) {
-    systemStats[maxIndex][0] = 2;
-    systemStats[minIndex][0] = 2;
+  systemIndex = k;
+  systemTotal = systemStats[k][0] + systemStats[k][1] + systemStats[k][2];
+  if (systemTotal > maxTotal) {
+    maxTotal = systemTotal;
+    maxIndex = systemIndex;
   }
-  for (var j=0, grabBagOfAspects=aspectsByTer.slice(0); j<howMany; j++) {
-    var rowId = 'f' + j;
-    var stats = systemStats[j];
-    var asps = aspectsForSystem(stats, grabBagOfAspects);
-    var aspectCell = '<td class="aspects">' + aspectCellContents(aspectItem, asps, j) + '</td>';;
-    writeinto(rowId, '<td class="systemName" contentEditable="true">'+systemNames[j]+'</td><td class="compactstats" style="display:none">'+sayTER(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayTech(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayEnv(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayRes(stats)+'</td><td>'+connections[systemNames[j]]+'</td>'+aspectCell);
-    reveal(rowId);
+  if (systemTotal < minTotal) {
+    minTotal = systemTotal;
+    minIndex = systemIndex;
   }
+}
 
- writeImage(systemStats, connections, howMany);
+// Fudge so at least one or two systems are TL2.
+if (isMissingTL2) {
+  systemStats[maxIndex][0] = 2;
+  systemStats[minIndex][0] = 2;
+}
+for (var j=0, grabBagOfAspects=aspectsByTer.slice(0); j<howMany; j++) {
+  var rowId = 'f' + j;
+  var stats = systemStats[j];
+  var asps = aspectsForSystem(stats, grabBagOfAspects);
+  var aspectCell = '<td class="aspects">' + aspectCellContents(aspectItem, asps, j) + '</td>';;
+  writeinto(rowId, '<td class="systemName" contentEditable="true">'+systemNames[j]+'</td><td class="compactstats" style="display:none">'+sayTER(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayTech(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayEnv(stats)+'</td><td class="detailedstats" style="text-align:left">'+sayRes(stats)+'</td><td>'+connections[systemNames[j]]+'</td>'+aspectCell);
+  reveal(rowId);
+}
 
- showByViewSettings();
+writeImage(systemStats, connections, howMany);
+
+showByViewSettings();
 }
 
 
 function showDiagram() {
-  var optionsId = 'diagram';
-  var select = document.getElementById(optionsId);
-  var selectedvalue  = select.options[select.selectedIndex].value;
-  for (var o = 0; o < 4; o++) {
-    var eachDiagram = select.options[o].value;
-    hide(eachDiagram);
-  }
-  reveal(selectedvalue);
+var optionsId = 'diagram';
+var select = document.getElementById(optionsId);
+var selectedvalue  = select.options[select.selectedIndex].value;
+for (var o = 0; o < 4; o++) {
+  var eachDiagram = select.options[o].value;
+  hide(eachDiagram);
+}
+reveal(selectedvalue);
 }
 
 function clustergen() {
-  clearResults();
-  var howMany = makeOrGetHowManySystems();
-  writeSystems(howMany);
+clearResults();
+var howMany = makeOrGetHowManySystems();
+writeSystems(howMany);
 }
 
 // avoid overwriting content of a saved cluster doc on reload
 function fill_if_empty() {
-  var already_filled = readIntFromHtml('fillflag');
-  if (!already_filled) {
-    clustergen();
-    writeinto('fillflag', '1');
-  }
+var already_filled = readIntFromHtml('fillflag');
+if (!already_filled) {
+  clustergen();
+  writeinto('fillflag', '1');
+}
 }
 </script>
 </head>
@@ -744,78 +744,101 @@ function fill_if_empty() {
 
 <p>
 <h3>Diaspora Star Cluster Generator</h3>
+<table>
+<tr>
+<td>
+<div id="system_diagram"/>
 <div id="circularpic">
- <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" id="circularsvg">
-  <circle cx="150" cy="25" r="23" fill="none" stroke="black"/>
- </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" id="circularsvg">
+<circle cx="150" cy="25" r="23" fill="none" stroke="black"/>
+</svg>
 </div>
 <div id="circularcanvaspic" style="display:none">
- <canvas id="circularcanvas" width="300" height="300">
- </canvas>
+<canvas id="circularcanvas" width="300" height="300">
+</canvas>
 </div>
 <br/>
 <div id="linearpic">
- <svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" id="linearsvg">
-  <circle cx="300" cy="150" r="23" fill="none" stroke="black"/>
- </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" id="linearsvg">
+<circle cx="300" cy="150" r="23" fill="none" stroke="black"/>
+</svg>
 </div>
 <div id="linearcanvaspic" style="display:none">
- <canvas id="linearcanvas" width="600" height="250">
- </canvas>
+<canvas id="linearcanvas" width="600" height="250">
+</canvas>
 </div>
 <div id="fillflag" style="display:none">0</div>
 <br/>
 Cluster diagram:
 <select id="diagram" name="diagram" onchange="showDiagram()">
-  <option value="linearpic">linear SVG</option>
-  <option value="linearcanvaspic">linear canvas</option>
-  <option value="circularpic">circular SVG</option>
-  <option value="circularcanvaspic">circular canvas</option>
+<option value="circularpic">circular SVG</option>
+<option value="circularcanvaspic">circular canvas</option>
+<option value="linearpic">linear SVG</option>
+<option value="linearcanvaspic">linear canvas</option>
 </select>
-<p>
-Star Cluster size: <select id="clusterSize" name="clusterSize" onchange="clearRandomSize()">
-<option id="clusterSize6">6</option>
-<option id="clusterSize7">7</option>
-<option id="clusterSize8">8</option>
-<option id="clusterSize9">9</option>
-<option id="clusterSize10">10</option>
-<option id="clusterSize11">11</option>
-<option id="clusterSize12">12</option>
-</select>
+</div>
+</td>
 
-<button value="Reroll" onclick="clustergen()">Reroll</button>
-<input id="randomSize" type="checkbox" checked/>Random size
-<input id="compactStats" type="checkbox" onchange="showstats()"/>Compact Stats
-<input id="showAspects" type="checkbox" onchange="showaspects()" checked/>Show Aspects
-<br/>
-<table summary="Systems in Cluster" cellspacing="3" cellpadding="3" border="1" style="text-align:center" width="800">
-<tr><th>System</th><th class="compactstats" style="display:none">Stats</th><th class="detailedstats">Technology</th><th class="detailedstats">Environment</th><th class="detailedstats">Resources</th><th>Links</th><th class="aspects" style="display:none" width="65%">Aspects</th></tr>
-<tr id="f0"></tr>
-<tr id="f1" style="display:none"></tr>
-<tr id="f2" style="display:none"></tr>
-<tr id="f3" style="display:none"></tr>
-<tr id="f4" style="display:none"></tr>
-<tr id="f5" style="display:none"></tr>
-<tr id="f6" style="display:none"></tr>
-<tr id="f7" style="display:none"></tr>
-<tr id="f8" style="display:none"></tr>
-<tr id="f9" style="display:none"></tr>
-<tr id="f10" style="display:none"></tr>
-<tr id="f11" style="display:none"></tr>
-</table>
-
-<p>
-See the home page for <a href="http://www.vsca.ca/Diaspora/">Diaspora</a> at vsca.ca.
-<p>
-<i>Edition of 11-August-2014.</i> <br/>
-<i>Latest changes: Use contentEditable to allow saving edits to Aspects. Tested in Chrome, Safari, Firefox. Add GPL3.</i><br/>
+<td>
+<div id="notes">
+<p>See the home page for <a href="http://www.vsca.ca/Diaspora/">Diaspora</a> at vsca.ca.<p>
 <div style="font-size:75%">
 <p>
 Copyright 2013, Jeffrey S. Miller, firstname dot lastname at gmail **
-Permission to copy and modify granted under the <a href="http://www.gnu.org/licenses/#GPL">GNU General Public License V3 or later</a>. ** Alternatively Re-mix/Re-use with attribution: <a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa-4.0</a>
+Permission to copy and modify granted under the
+<a href="http://www.gnu.org/licenses/#GPL">GNU General Public License V3 or later</a>.
+** Alternatively Re-mix/Re-use with attribution:
+<a href="http://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa-4.0</a>
 </p>
 <p>Modifications since commit 4d746139ea98cc2129b1740b83119754db2f5eb9 by Kevin Baird</p>
 <p>Credits: Additional Gosssamer World aspects contributed by Bruce Ralston.</p>
 </div>
+</td>
+</tr>
+</table>
+
+<div id="system_details">
+  <p>Star Cluster size:
+  <select id="clusterSize" name="clusterSize" onchange="clearRandomSize()">
+    <option id="clusterSize6">6</option>
+    <option id="clusterSize7">7</option>
+    <option id="clusterSize8">8</option>
+    <option id="clusterSize9">9</option>
+    <option id="clusterSize10">10</option>
+    <option id="clusterSize11">11</option>
+    <option id="clusterSize12">12</option>
+  </select>
+  </p>
+
+  <button value="Reroll" onclick="clustergen()">Reroll</button>
+  <input id="randomSize" type="checkbox" checked/>Random size
+  <input id="compactStats" type="checkbox" onchange="showstats()"/>Compact Stats
+  <input id="showAspects" type="checkbox" onchange="showaspects()" checked/>Show Aspects
+  <br/>
+  <table summary="Systems in Cluster" cellspacing="3" cellpadding="3" border="1" style="text-align:center" width="98%">
+  <tr>
+    <th>System</th>
+    <th class="compactstats" style="display:none">Stats</th>
+    <th class="detailedstats">Technology</th>
+    <th class="detailedstats">Environment</th>
+    <th class="detailedstats">Resources</th>
+    <th>Links</th>
+    <th class="aspects" style="display:none" width="65%">Aspects</th>
+  </tr>
+  <tr id="f0"></tr>
+  <tr id="f1" style="display:none"></tr>
+  <tr id="f2" style="display:none"></tr>
+  <tr id="f3" style="display:none"></tr>
+  <tr id="f4" style="display:none"></tr>
+  <tr id="f5" style="display:none"></tr>
+  <tr id="f6" style="display:none"></tr>
+  <tr id="f7" style="display:none"></tr>
+  <tr id="f8" style="display:none"></tr>
+  <tr id="f9" style="display:none"></tr>
+  <tr id="f10" style="display:none"></tr>
+  <tr id="f11" style="display:none"></tr>
+  </table>
+</div>
+
 </body>
 </html>
