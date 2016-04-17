@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>Brittania</charname>
+    <playername>Romance in the Air Great Power</playername>
+    <description>Sacre blue, wot?</description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Steam-Powered, Anglo-French Victorian Empire</aspect>
+    <aspect type="Color">Britannia Rules the Skies</aspect>
+    <aspect type="Internal&#160;Trouble">Public-Spirited Egalitarian Reform Movements</aspect>
+  </aspects>
+  <skills shape="flat">
+    <skill rating="3" name="Diplomacy"/>
+    <skill rating="2" name="Espionage"/>
+    <skill rating="5" name="Industry"/>
+    <skill rating="4" name="Warfare"/>
+  </skills>
+  <stunts>
+    <stunt name="Britannia Expects That Every Man Shall Do His Duty">
+      Once per session, if you have used Warfare to attack or defend,
+      you can invoke Britannia Rules the Skies for free.
+    </stunt>
+  </stunts>
+</character>
