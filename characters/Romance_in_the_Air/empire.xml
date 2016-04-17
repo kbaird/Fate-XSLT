@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/romance_in_the_air_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>The Empire (remnants)</charname>
+    <playername>Romance in the Air Great Power</playername>
+    <description>An adaptation from Isaac Asimov's Foundation series</description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Remnants of a Once-Unstoppable Power</aspect>
+    <aspect type="Color">The Spaceship and Sun Conquers Easy Targets</aspect>
+    <aspect type="Internal&#160;Trouble">Enemies at Court on Trantor Come First</aspect>
+  </aspects>
+  <skills shape="flat">
+    <skill rating="3" name="Diplomacy"/>
+    <skill rating="4" name="Espionage"/>
+    <skill rating="2" name="Industry"/>
+    <skill rating="5" name="Warfare"/>
+  </skills>
+  <stunts>
+    <stunt name="Crossroads of the Galaxy">
+      Because of your location astride the major trade routes of the galaxy,
+      you can use Diplomacy in place of Industry to overcome obstacles
+      related to accessing rare or scarce resources.
+    </stunt>
+  </stunts>
+</character>
