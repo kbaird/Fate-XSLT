@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/romance_in_the_air_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>Foundation (Second)</charname>
+    <playername>Romance in the Air Great Power</playername>
+    <description>An adaptation from Isaac Asimov's Foundation Series</description>
+  </id>
+  <refresh free-stunts="1"/>
+  <aspects>
+    <aspect type="High-Concept">Hidden Cabal of Mentalics and Psychohistorians</aspect>
+    <aspect type="Color">We'll Change Your Mind Before You Know We've Gone</aspect>
+    <aspect type="Internal&#160;Trouble">Squabbling at the table and Underestimating Others</aspect>
+  </aspects>
+  <skills shape="flat">
+    <skill rating="4" name="Diplomacy"/>
+    <skill rating="5" name="Espionage"/>
+    <skill rating="2" name="Industry"/>
+    <skill rating="3" name="Warfare"/>
+  </skills>
+  <stunts>
+    <stunt name="The Seldon Plan Must Continue">
+      By Degrading Espionage by 2 ranks, automatically Create the misleading Advantage
+      "Utterly Destroyed" on the Second Foundation with 2 Free Invocations.
+    </stunt>
+    <stunt name="Janissaries">
+      Because you command a secretive martial order of infiltrators,
+      you can attack with Espionage to inflict military stress. When doing so,
+      your Espionage degrades as if it were Warfare, and is restored the same
+      way.
+    </stunt>
+  </stunts>
+</character>

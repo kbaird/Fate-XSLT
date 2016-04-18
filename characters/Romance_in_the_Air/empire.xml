@@ -7,6 +7,7 @@
     <playername>Romance in the Air Great Power</playername>
     <description>An adaptation from Isaac Asimov's Foundation series</description>
   </id>
+  <refresh free-stunts="1"/>
   <aspects>
     <aspect type="High-Concept">Remnants of a Once-Unstoppable Power</aspect>
     <aspect type="Color">The Spaceship and Sun Conquers Easy Targets</aspect>

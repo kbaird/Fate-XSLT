@@ -7,6 +7,7 @@
     <playername>Romance in the Air Great Power</playername>
     <description>An adaptation from Isaac Asimov's Foundation Series</description>
   </id>
+  <refresh free-stunts="1"/>
   <aspects>
     <aspect type="High-Concept">A Candle in the Dark alone on the periphery</aspect>
     <aspect type="Color">Preserving Knowledge to Bring About the 2nd Galactic Empire</aspect>
