@@ -14,8 +14,8 @@
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal">&#160;</aspect>
-    <aspect type="Background">Túyàngan Alchemist</aspect>
+    <aspect type="Portrayal">Túyàngan Alchemist</aspect>
+    <aspect type="Background">&#160;</aspect>
     <aspect type="Inciting-Incident">[Why is a Droneworks employing an Alchemist?]</aspect>
     <aspect type="Belief">&#160;</aspect>
     <aspect type="Trouble">&#160;</aspect>
@@ -29,7 +29,7 @@
     <profession rating="&#160;" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset name="Alchemist" guiding-aspect="Background" type="Technique">
+    <asset name="Alchemist" guiding-aspect="Portrayal" type="Technique">
       <features>
         <feature type="Focus" profession="Engineer" bonus="2"/>
       </features>
