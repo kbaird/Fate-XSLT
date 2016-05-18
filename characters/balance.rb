@@ -15,8 +15,8 @@ ARGV.each do |filename|
   modes    = doc.xpath('//mode')
   modes.each do |mode|
     skills = mode.xpath('skill')
-    costs  = skills.map &extract('cost')
-    adds   = skills.map &extract('add')
+    costs  = skills.map &(extract('cost'))
+    adds   = skills.map &(extract('add'))
     total  = [costs, adds].flatten.inject(0, &:+)
     puts "#{mode.attribute('name')} costs #{total}"
     totals += total
