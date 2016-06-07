@@ -19,7 +19,7 @@
     - What are they like?
     - What kind of neighborhood do they operate in?
     - Do they have any sort of ethnic or political affiliation?
-    - Do they have any sort of connection organized crime?
+    - Do they have any sort of connection to organized crime?
     - Without giving anything away, might they be involved in Chen's _Shīfu_'s death, on either side?
 
 ### Stephen Gilios (Chris)
