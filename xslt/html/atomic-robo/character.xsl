@@ -18,10 +18,10 @@
         <h1>
           <xsl:value-of select="id/charname"/>
         </h1>
-        <div id="id">
+        <section id="id">
           <xsl:apply-templates select="id" mode="atomic-robo"/>
-        </div>
-        <div id="fate-logo">
+        </section>
+        <figure id="fate-logo">
           <span id="atomic-robo-logo">
             <img alt="Atomic Robo" src="robo_logo.gif"/>
           </span>
@@ -31,27 +31,27 @@
               <xsl:call-template name="experience-points"/>
             </tr>
           </table>
-        </div>
+        </figure>
         <hr/>
-        <div id="aspects">
+        <section id="aspects">
           <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills">
           <xsl:apply-templates select="skills">
             <xsl:with-param name="useSkillModes">
               <xsl:value-of select="$useSkillModes"/>
             </xsl:with-param>
           </xsl:apply-templates>
-        </div>
+        </section>
         <hr/>
-        <div id="stunts">
+        <section id="stunts">
           <xsl:apply-templates select="stunts" mode="atomic-robo"/>
-        </div>
+        </section>
         <hr/>
-        <div id="stress">
+        <section id="stress">
           <xsl:call-template name="atomic-robo-stress"/>
-        </div>
-        <div id="consequences">
+        </section>
+        <section id="consequences">
           <xsl:choose>
             <xsl:when test="$useConditions='true'">
               <xsl:call-template name="conditions"/>
@@ -60,7 +60,7 @@
               <xsl:call-template name="consequences"/>
             </xsl:otherwise>
           </xsl:choose>
-        </div>
+        </section>
         <hr/>
         <xsl:choose>
           <xsl:when test="experiences/@suppress and experiences/@suppress='true'">
@@ -71,9 +71,9 @@
             <hr/>
           </xsl:otherwise>
         </xsl:choose>
-        <div id="notes">
+        <section id="notes">
           <xsl:apply-templates select="notes"/>
-        </div>
+        </section>
       </body>
     </html>
   </xsl:template>

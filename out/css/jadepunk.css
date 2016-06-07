@@ -9,8 +9,8 @@ span#fate-subtitle { font-size: 0.8em; }
 table#stress_table td { padding: 1.3em; }
 
 @media print and (-webkit-min-device-pixel-ratio: 0) { #jadepunk-logo { text-align: right; height: 60px; width: 153px; }
-  div#aspects { width: 60%; }
-  div#professions { width: 40%; }
-  div#consequences { width: 78%; }
-  div#stress { width: 22%; }
+  section#aspects { width: 60%; }
+  section#professions { width: 40%; }
+  section#consequences { width: 78%; }
+  section#stress { width: 22%; }
   table#stress tbody tr td { line-height: 3em; } }

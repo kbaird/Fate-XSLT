@@ -14,10 +14,10 @@
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
-        <div id="id">
+        <section id="id">
           <xsl:apply-templates select="id"/>
-        </div>
-        <div id="fate-logo">
+        </section>
+        <figure id="fate-logo">
           <span id="fate">
             <img id="jadepunk-logo" src="./jadepunk306w120h.png"/>
           </span>
@@ -26,25 +26,25 @@
               <xsl:apply-templates select="refresh"/>
             </tr>
           </table>
-        </div>
+        </figure>
         <hr/>
-        <div id="aspects">
+        <section id="aspects">
           <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills">
           <xsl:apply-templates select="professions"/>
-        </div>
+        </section>
         <hr/>
-        <div id="assets">
+        <section id="assets">
           <xsl:apply-templates select="assets"/>
-        </div>
+        </section>
         <hr/>
-        <div id="stress">
+        <section id="stress">
           <xsl:call-template name="stress"/>
-        </div>
-        <div id="consequences">
+        </section>
+        <section id="consequences">
           <xsl:call-template name="consequences"/>
-        </div>
+        </section>
         <xsl:apply-templates select="notes"/>
       </body>
     </html>

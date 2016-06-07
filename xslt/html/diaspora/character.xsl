@@ -9,40 +9,40 @@
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
-        <div id="id">
+        <section id="id">
           <xsl:apply-templates select="id"/>
-        </div>
-        <div id="fate-logo">
+        </section>
+        <figure id="fate-logo">
           <span id="diaspora-logo">Diaspora</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </div>
+        </figure>
         <hr/>
-        <div id="aspects">
+        <section id="aspects">
           <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills">
           <xsl:apply-templates select="skills">
             <xsl:with-param name="rootElement">diaspora</xsl:with-param>
             <xsl:with-param name="useSkillModes">
               <xsl:value-of select="false"/>
             </xsl:with-param>
           </xsl:apply-templates>
-        </div>
+        </section>
         <hr/>
-        <div id="stunts">
+        <section id="stunts">
           <xsl:apply-templates select="stunts"/>
-        </div>
+        </section>
         <hr/>
-        <div id="stress">
+        <section id="stress">
           <xsl:call-template name="diaspora-stress"/>
-        </div>
-        <div id="consequences">
+        </section>
+        <section id="consequences">
           <xsl:call-template name="consequences"/>
-        </div>
+        </section>
         <xsl:apply-templates select="gear"/>
         <xsl:apply-templates select="notes"/>
         <xsl:call-template name="diaspora-copyright"/>

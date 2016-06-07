@@ -1,5 +1,5 @@
-div#aspects { width: 65%; }
-div#skills { width: 35%; }
+section#aspects { width: 65%; }
+section#skills { width: 35%; }
 
 dl.approaches dt { border: 0px; font-size: 1.2em; font-weight: 600; line-height: 75%; text-align: left; text-transform: uppercase; }
 dl.approaches dt span.explanation { color: #999999; font-size: 0.7em; font-style: oblique; text-transform: none; }

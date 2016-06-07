@@ -8,10 +8,10 @@
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
-        <div id="id">
+        <section id="id">
           <xsl:apply-templates select="id" mode="fae"/>
-        </div>
-        <div id="fate-logo">
+        </section>
+        <figure id="fate-logo">
           <span id="fate">
             <img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"/>
           </span>
@@ -22,25 +22,25 @@
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </div>
+        </figure>
         <hr/>
-        <div id="aspects">
+        <section id="aspects">
           <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills">
           <xsl:apply-templates select="approaches"/>
-        </div>
+        </section>
         <hr/>
-        <div id="stunts">
+        <section id="stunts">
           <xsl:apply-templates select="stunts"/>
-        </div>
+        </section>
         <hr/>
-        <div id="stress">
+        <section id="stress">
           <xsl:call-template name="stress"/>
-        </div>
-        <div id="consequences">
+        </section>
+        <section id="consequences">
           <xsl:call-template name="consequences"/>
-        </div>
+        </section>
         <xsl:apply-templates select="notes"/>
         <xsl:call-template name="copyright"/>
       </body>
