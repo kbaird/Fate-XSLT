@@ -33,7 +33,8 @@
   - Before Jenn's mansion/club are attacked, hears that someone is interested in her psych potion
 
 ### Jenn
-  - Someone from _Hawthorne Droneworks_ raids her mansion or club for drug used for sister turns out it is a slight mod of _[Researcher]_'s original formula
+  - Someone from _Hawthorne Droneworks_ raids her mansion or club for drug used for sister
+    - turns out it is a slight mod of _[Researcher]_'s original formula
 
 ### Mike
   - working on Green & Blue elixirs for psych restoration and resilience, told that it's for miners (restoration actually for affected pilots)
