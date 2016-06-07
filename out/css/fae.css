@@ -2,7 +2,7 @@ section#aspects { width: 60%; }
 section#skills { width: 40%; }
 
 dl.approaches dt { border: 0px; font-size: 1.2em; font-weight: 600; line-height: 75%; text-align: left; text-transform: uppercase; }
-dl.approaches dt span.explanation { color: #999999; font-size: 0.7em; font-style: oblique; text-transform: none; }
+dl.approaches dt span.explanation { color: #999; font-size: 0.7em; font-style: oblique; text-transform: none; }
 dl.approaches dd { width: 2.4em; }
 
 section#skills dl#simple dd, section#skills dt { clear: both; display: block; }
@@ -21,3 +21,5 @@ table#approaches tbody tr td dl.approaches dd { font-size: 1em; }
   table#approaches tbody tr td dl.approaches dt { float: left; font-size: 1em; margin-bottom: -1.3em; margin-top: -0.1em; padding-bottom: -0.2em; }
   table#approaches tbody tr td dl.approaches dd { float: right; font-size: 0.8em; margin-bottom: -1.3em; }
   table#approaches tbody tr th.sectionheader { font-size: 0.7em; } }
+
+/*# sourceMappingURL=fae.css.map */
