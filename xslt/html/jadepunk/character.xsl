@@ -17,7 +17,7 @@
         <section id="id">
           <xsl:apply-templates select="id"/>
         </section>
-        <figure id="fate-logo">
+        <section id="fate-logo">
           <span id="fate">
             <img id="jadepunk-logo" src="./jadepunk306w120h.png"/>
           </span>
@@ -26,19 +26,19 @@
               <xsl:apply-templates select="refresh"/>
             </tr>
           </table>
-        </figure>
-        <hr/>
+        </section>
+        <wbr/>
         <section id="aspects">
           <xsl:apply-templates select="aspects"/>
         </section>
         <section id="skills">
           <xsl:apply-templates select="professions"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="assets">
           <xsl:apply-templates select="assets"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stress">
           <xsl:call-template name="stress"/>
         </section>

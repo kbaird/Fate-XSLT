@@ -11,7 +11,7 @@
         <section id="id">
           <xsl:apply-templates select="id" mode="fae"/>
         </section>
-        <figure id="fate-logo">
+        <section id="fate-logo">
           <span id="fate">
             <img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"/>
           </span>
@@ -22,19 +22,19 @@
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </figure>
-        <hr/>
+        </section>
+        <wbr/>
         <section id="aspects">
           <xsl:apply-templates select="aspects"/>
         </section>
         <section id="skills">
           <xsl:apply-templates select="approaches"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stunts">
           <xsl:apply-templates select="stunts"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stress">
           <xsl:call-template name="stress"/>
         </section>

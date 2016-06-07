@@ -12,15 +12,15 @@
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
         <section id="id"><xsl:apply-templates select="id"/></section>
-        <figure id="fate-logo">
+        <section id="fate-logo">
           <span id="aether-sea">Aether Sea</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </figure>
-        <hr/>
+        </section>
+        <wbr/>
         <section id="aspects">
           <xsl:apply-templates select="aspects"/>
         </section>
@@ -28,11 +28,11 @@
           <xsl:apply-templates select="approaches" mode="aether-sea"/>
           <p>The <span class="favored">Favored</span> Approach treats all final results &lt; 0 as 0.</p>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stunts">
           <xsl:apply-templates select="stunts" mode="aether-sea"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stress">
           <xsl:call-template name="stress"/>
         </section>

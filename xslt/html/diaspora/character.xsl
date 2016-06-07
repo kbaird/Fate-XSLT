@@ -12,15 +12,15 @@
         <section id="id">
           <xsl:apply-templates select="id"/>
         </section>
-        <figure id="fate-logo">
+        <section id="fate-logo">
           <span id="diaspora-logo">Diaspora</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </figure>
-        <hr/>
+        </section>
+        <wbr/>
         <section id="aspects">
           <xsl:apply-templates select="aspects"/>
         </section>
@@ -32,11 +32,11 @@
             </xsl:with-param>
           </xsl:apply-templates>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stunts">
           <xsl:apply-templates select="stunts"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stress">
           <xsl:call-template name="diaspora-stress"/>
         </section>

@@ -12,15 +12,15 @@
         <section id="id">
           <xsl:apply-templates select="id"/>
         </section>
-        <figure id="fate-logo">
+        <section id="fate-logo">
           <span id="sotc-logo">Spirit of the Century</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </figure>
-        <hr/>
+        </section>
+        <wbr/>
         <section id="aspects">
           <xsl:apply-templates select="aspects"/>
         </section>
@@ -34,7 +34,7 @@
           <xsl:apply-templates select="stunts"/>
           <xsl:apply-templates select="gadgets"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stress">
           <xsl:call-template name="sotc-stress"/>
         </section>
@@ -42,7 +42,7 @@
           <xsl:call-template name="consequences"/>
         </section>
         <xsl:apply-templates select="gear"/>
-        <hr/>
+        <wbr/>
         <xsl:apply-templates select="phases"/>
         <xsl:apply-templates select="notes"/>
         <xsl:call-template name="sotc-copyright"/>

@@ -21,7 +21,7 @@
         <section id="id">
           <xsl:apply-templates select="id" mode="atomic-robo"/>
         </section>
-        <figure id="fate-logo">
+        <section id="fate-logo">
           <span id="atomic-robo-logo">
             <img alt="Atomic Robo" src="robo_logo.gif"/>
           </span>
@@ -31,8 +31,8 @@
               <xsl:call-template name="experience-points"/>
             </tr>
           </table>
-        </figure>
-        <hr/>
+        </section>
+        <wbr/>
         <section id="aspects">
           <xsl:apply-templates select="aspects"/>
         </section>
@@ -43,11 +43,11 @@
             </xsl:with-param>
           </xsl:apply-templates>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stunts">
           <xsl:apply-templates select="stunts" mode="atomic-robo"/>
         </section>
-        <hr/>
+        <wbr/>
         <section id="stress">
           <xsl:call-template name="atomic-robo-stress"/>
         </section>
@@ -61,14 +61,14 @@
             </xsl:otherwise>
           </xsl:choose>
         </section>
-        <hr/>
+        <wbr/>
         <xsl:choose>
           <xsl:when test="experiences/@suppress and experiences/@suppress='true'">
           </xsl:when>
           <xsl:otherwise>
             <xsl:apply-templates select="experiences"/>
             <xsl:call-template name="experiences-explanation"/>
-            <hr/>
+            <wbr/>
           </xsl:otherwise>
         </xsl:choose>
         <section id="notes">
