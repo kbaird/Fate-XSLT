@@ -29,13 +29,7 @@
     <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
   </stunts>
-  <consequences>
-    <!--
-    <consequence severity="Mild">mild one</consequence>
-    <consequence severity="Moderate">moderate one</consequence>
-    <consequence severity="Severe">severe one</consequence>
-    -->
-  </consequences>
+  <consequences/>
   <notes>
   </notes>
 </character>
