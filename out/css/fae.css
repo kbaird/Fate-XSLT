@@ -15,7 +15,7 @@ table#approaches { margin-right: -4em; }
 table#approaches tbody tr td dl.approaches dt { font-size: 1em; }
 table#approaches tbody tr td dl.approaches dd { font-size: 1em; }
 
-@media print and (-webkit-min-device-pixel-ratio: 0) { figure#fate-logo { margin-bottom: 2.5em; }
+@media print and (-webkit-min-device-pixel-ratio: 0) { section#fate-logo { margin-bottom: 2.5em; }
   section#id { margin-bottom: 2.5em; }
   table#approaches { font-size: 1.7em; }
   table#approaches tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }

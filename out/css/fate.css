@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body { color: #111; margin: 0.1em 0.4em; padding: 0.2em; font: 1em "Kalam", ubuntu, verdana, arial, helvetica, sans-serif; }
 
-figure#fate-logo { float: right; width: 30%; }
+section#fate-logo { float: right; width: 30%; }
 
 section#aspects, section#id, section#stress, section#experiences, section#notes { float: left; }
 section#skills, section#consequences, section#experiences-explanation { float: right; }
