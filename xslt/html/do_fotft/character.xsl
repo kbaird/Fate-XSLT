@@ -9,33 +9,33 @@
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
-        <div id="id"><xsl:apply-templates select="id"/></div>
-        <div id="fate-logo">
+        <section id="id"><xsl:apply-templates select="id"/></section>
+        <section id="fate-logo">
           <span id="do_fotft">Do: Fate of the Flying Temple</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </div>
-        <hr/>
-        <div id="aspects">
+        </section>
+        <wbr/>
+        <section id="aspects">
           <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills">
           <xsl:apply-templates select="approaches"/>
-        </div>
-        <hr/>
-        <div id="stunts">
+        </section>
+        <wbr/>
+        <section id="stunts">
           <xsl:apply-templates select="stunts"/>
-        </div>
-        <hr/>
-        <div id="stress">
+        </section>
+        <wbr/>
+        <section id="stress">
           <xsl:call-template name="stress"/>
-        </div>
-        <div id="consequences">
+        </section>
+        <section id="consequences">
           <xsl:call-template name="consequences"/>
-        </div>
+        </section>
         <xsl:apply-templates select="notes"/>
       </body>
     </html>

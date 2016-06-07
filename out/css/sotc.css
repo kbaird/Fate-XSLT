@@ -1,5 +1,5 @@
 fieldset#archetype, fieldset#concept { padding-left: 11em; position: relative; text-align: left; }
-fieldset#archetype legend.label, fieldset#concept legend.label { color: #666666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
+fieldset#archetype legend.label, fieldset#concept legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.gadget legend.label { font: small-caps 1.3em bolder "Kalam"; }
 fieldset.phase { padding-top: 4.5em; }
 fieldset.phase legend.label { height: 2.8em; }
@@ -12,3 +12,5 @@ fieldset legend span { top: 0.2em; }
 #sotc-logo { font: normal small-caps 3.4em bolder; font-family: Adventure; }
 
 @media print and (-webkit-min-device-pixel-ratio: 0) { #sotc-logo { font-size: 2em; } }
+
+/*# sourceMappingURL=sotc.css.map */

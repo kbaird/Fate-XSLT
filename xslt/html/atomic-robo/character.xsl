@@ -18,10 +18,10 @@
         <h1>
           <xsl:value-of select="id/charname"/>
         </h1>
-        <div id="id">
+        <section id="id">
           <xsl:apply-templates select="id" mode="atomic-robo"/>
-        </div>
-        <div id="fate-logo">
+        </section>
+        <section id="fate-logo">
           <span id="atomic-robo-logo">
             <img alt="Atomic Robo" src="robo_logo.gif"/>
           </span>
@@ -31,27 +31,27 @@
               <xsl:call-template name="experience-points"/>
             </tr>
           </table>
-        </div>
-        <hr/>
-        <div id="aspects">
+        </section>
+        <wbr/>
+        <section id="aspects">
           <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills">
           <xsl:apply-templates select="skills">
             <xsl:with-param name="useSkillModes">
               <xsl:value-of select="$useSkillModes"/>
             </xsl:with-param>
           </xsl:apply-templates>
-        </div>
-        <hr/>
-        <div id="stunts">
+        </section>
+        <wbr/>
+        <section id="stunts">
           <xsl:apply-templates select="stunts" mode="atomic-robo"/>
-        </div>
-        <hr/>
-        <div id="stress">
+        </section>
+        <wbr/>
+        <section id="stress">
           <xsl:call-template name="atomic-robo-stress"/>
-        </div>
-        <div id="consequences">
+        </section>
+        <section id="consequences">
           <xsl:choose>
             <xsl:when test="$useConditions='true'">
               <xsl:call-template name="conditions"/>
@@ -60,20 +60,20 @@
               <xsl:call-template name="consequences"/>
             </xsl:otherwise>
           </xsl:choose>
-        </div>
-        <hr/>
+        </section>
+        <wbr/>
         <xsl:choose>
           <xsl:when test="experiences/@suppress and experiences/@suppress='true'">
           </xsl:when>
           <xsl:otherwise>
             <xsl:apply-templates select="experiences"/>
             <xsl:call-template name="experiences-explanation"/>
-            <hr/>
+            <wbr/>
           </xsl:otherwise>
         </xsl:choose>
-        <div id="notes">
+        <section id="notes">
           <xsl:apply-templates select="notes"/>
-        </div>
+        </section>
       </body>
     </html>
   </xsl:template>
