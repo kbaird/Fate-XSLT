@@ -9,22 +9,22 @@
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
-        <div id="id">
+        <section id="id">
           <xsl:apply-templates select="id"/>
-        </div>
-        <div id="fate-logo">
+        </section>
+        <section id="fate-logo">
           <span id="sotc-logo">Spirit of the Century</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
             </tr>
           </table>
-        </div>
-        <hr/>
-        <div id="aspects">
+        </section>
+        <wbr/>
+        <section id="aspects">
           <xsl:apply-templates select="aspects"/>
-        </div>
-        <div id="skills">
+        </section>
+        <section id="skills">
           <xsl:apply-templates select="skills">
             <xsl:with-param name="rootElement">diaspora</xsl:with-param>
             <xsl:with-param name="useSkillModes">
@@ -33,16 +33,16 @@
           </xsl:apply-templates>
           <xsl:apply-templates select="stunts"/>
           <xsl:apply-templates select="gadgets"/>
-        </div>
-        <hr/>
-        <div id="stress">
+        </section>
+        <wbr/>
+        <section id="stress">
           <xsl:call-template name="sotc-stress"/>
-        </div>
-        <div id="consequences">
+        </section>
+        <section id="consequences">
           <xsl:call-template name="consequences"/>
-        </div>
+        </section>
         <xsl:apply-templates select="gear"/>
-        <hr/>
+        <wbr/>
         <xsl:apply-templates select="phases"/>
         <xsl:apply-templates select="notes"/>
         <xsl:call-template name="sotc-copyright"/>

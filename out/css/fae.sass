@@ -4,7 +4,7 @@
 
 @import "dl_approaches"
 
-div#skills
+section#skills
   dl#simple dd, dt
     clear: both
     display: block
@@ -22,8 +22,11 @@ table#approaches
 
 @media print and (-webkit-min-device-pixel-ratio:0)
 
-  div
-    &#fate-logo, &#id
+  section
+    &#fate-logo
+      margin-bottom: 2.5em
+  section
+    &#id
       margin-bottom: 2.5em
 
   table#approaches
