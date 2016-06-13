@@ -48,12 +48,16 @@ Abeer, Abiha, Adela, A'isha, Aliya, Amira, Dalia, Fatima, Halima, Hana, Jamila, 
 Latifa, Leila, Malika, Maryam, Nadia, Naila, Nasrin, Rahima, Rashida, Safiya, Sakina,
 Salma, Shakira, Tanisha, Yasmin, Zakiya
 
+(See also Turkish note under Surnames)
+
 **Male Naramel**
 : Arrad, Cyril, Jaron, Magen, Raheem, Suhail
 
 Mohamed, Yousouf, Omar, Ahmed, Adam, Ali, Abdullah, Abdulrahman, Hamza, Harun, Hashid, Malik
 
 Abbad, Abbas, Adnan, Azim, Aziz, Basir, Hadi, Hakim, Hussein, Jalil, Karim, Majid, Malik, Rashid, Wahhab
+
+(See also Turkish note under Surnames)
 
 **Female Túyàngan**
 : Ara, Bao-yu, Dáwei, Hyori, Jia li, Mina
@@ -102,6 +106,9 @@ In addition, "bint" (بنت) means "daughter of".
 
 *Also just use a personal name as a surname, or
 _Abu X_ ("Father of X"), _Umm Y_ ("Mother of Y")*
+
+For **Turkish** names, refer to
+_GURPS Castle Falkenstein: The Ottomon Empire_, pg34.
 
 **Túyàngan**
 : Chen, Guo, Kwan, Li, Ng, Song, Yuen
