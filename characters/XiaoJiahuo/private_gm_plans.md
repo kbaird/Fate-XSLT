@@ -3,6 +3,8 @@
 ## TODO:
   - Ask everyone if they're cool with the 3 Kausao City Aspects as written
   - Ask people about their nationalities / names, if not set yet
+  - All of Brian's specific questions
+  - Stephen's specific questions about the family business
   - Ask Jenn/Chris what the name of the club is
   - Ask Phil what Chen's master's name was
   - Think of a name for a LMC/MMC district (where the murders will start)
@@ -44,7 +46,7 @@
 ### Chen Daiyu (Phil)
   - _Wuxia_ martial artist (**Ghost Serpent**)
   - works as domestic staff, making the highty-toighty rounds, searching for master's killer
-  - flawed man who worked with 江湖, remembered w/rose-colored glasses
+    - _Shīfu_ was a flawed man who worked with 江湖, remembered w/rose-colored glasses
     - Specific 江湖 cell was political/national (like Triads or Mafia)
     - _Shīfu_ discovered a conspiracy by either Low Port merchants or "Communists" to seize the High Port and was silenced (JP99, STotC Indonesia 1951)
       - _38 Dragons_ ("Triple Prosperity") crime family or _People's Front for Rectification of Grievances_
