@@ -3,8 +3,6 @@ title: Jadepunk Names
 author: Kevin C. Baird
 ...
 
-## Jadepunk Names
-
 ### Personal
 
 **Female Aerish**
@@ -81,7 +79,7 @@ Smith, Jones, Taylor, Brown, Williams, Wilson, Johnson, Davies, Robinson, Wright
 Thompson, Evans, Walker, White, Roberts, Green, Hall, Wood, Jackson, Clarke
 
 Murphy, (O')Kelly, (O')Sullivan, Walsh, Smith, O'Brien, (O')Byrne, (O')Ryan,
-O'Connor, O'Neill, ()')Reilly, Doyle, McCarthy, (O')Gallagher, (O')Doherty,
+O'Connor, O'Neill, (O')Reilly, Doyle, McCarthy, (O')Gallagher, (O')Doherty,
 Kennedy, Lynch, Murray, (O')Quinn, (O')Moore
 
 Smith, Brown, Wilson, Robertson, Thomson, Campbell, Stewart, Anderson, Scott,
