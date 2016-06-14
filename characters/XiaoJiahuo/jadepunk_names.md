@@ -102,11 +102,11 @@ In Arabic, the word "ibn" (ابن) (or بن: "bin", "ben" and sometimes "ibni" a
 suffix (The prefix ben- is used similarly in Hebrew).
 In addition, "bint" (بنت) means "daughter of".
 
-*Also just use a personal name as a surname, or
-_Abu X_ ("Father of X"), _Umm Y_ ("Mother of Y")*
-
 For **Turkish** names, refer to
 _GURPS Castle Falkenstein: The Ottomon Empire_, pg34.
+
+Also just use a personal name as a surname, or
+_Abu X_ ("Father of X"), _Umm Y_ ("Mother of Y")
 
 **Túyàngan**
 : Chen, Guo, Kwan, Li, Ng, Song, Yuen
