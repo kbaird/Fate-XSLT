@@ -46,7 +46,14 @@ Abeer, Abiha, Adela, A'isha, Aliya, Amira, Dalia, Fatima, Halima, Hana, Jamila, 
 Latifa, Leila, Malika, Maryam, Nadia, Naila, Nasrin, Rahima, Rashida, Safiya, Sakina,
 Salma, Shakira, Tanisha, Yasmin, Zakiya
 
-(See also Turkish note under Surnames)
+#### Castle Falkenstein (Female Turkish)
+Bahar (spring), Bedriye, Behice (beautiful, merry, smiling), Behiye (beautiful, charming),
+Chagla (green almond), ChiChek (flower, blossom), Dilar, Emine (trustworthy), Fadime, Fatma,
+Fusun (charm, enchantment, spell), Hanife, Hayrunissa, Huesnueye (beauty), Katife (velvet),
+Latife (joke, quip), Leyla (dark nights), Mihriban (loving friend), Muejde (good news),
+Nesrin (wild rose), Pertev (light, brightness, brilliance), Reyyan, Sabriye, Seda (voice, echo),
+Semiramis, Sueheyla (bright stars), Tayyibe (good, pleasant), Vicdan (conscience), Yasemin (jasmine),
+Zuebeyde.
 
 **Male Naramel**
 : Arrad, Cyril, Jaron, Magen, Raheem, Suhail
@@ -55,7 +62,9 @@ Mohamed, Yousouf, Omar, Ahmed, Adam, Ali, Abdullah, Abdulrahman, Hamza, Harun, H
 
 Abbad, Abbas, Adnan, Azim, Aziz, Basir, Hadi, Hakim, Hussein, Jalil, Karim, Majid, Malik, Rashid, Wahhab
 
-(See also Turkish note under Surnames)
+#### Castle Falkenstein (Male Turkish)
+
+#### Castle Falkenstein (General Turkish)
 
 **Female Túyàngan**
 : Ara, Bao-yu, Dáwei, Hyori, Jia li, Mina
@@ -104,9 +113,6 @@ In addition, "bint" (بنت) means "daughter of".
 
 *Also just use a personal name as a surname, or
 _Abu X_ ("Father of X"), _Umm Y_ ("Mother of Y")*
-
-For **Turkish** names, refer to
-_GURPS Castle Falkenstein: The Ottomon Empire_, pg34.
 
 **Túyàngan**
 : Chen, Guo, Kwan, Li, Ng, Song, Yuen
