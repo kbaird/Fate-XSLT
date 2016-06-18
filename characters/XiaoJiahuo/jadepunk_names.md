@@ -1,7 +1,4 @@
----
-title: Jadepunk Names
-author: Kevin C. Baird
-...
+## Jadepunk Names
 
 ### Personal
 

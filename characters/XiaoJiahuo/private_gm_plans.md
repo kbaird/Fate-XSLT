@@ -40,6 +40,7 @@
 ### Jenn
   - Someone from _Hawthorne Droneworks_ raids her mansion or club for drug used for sister
     - turns out it is a slight mod of _[Researcher]_'s original formula
+  - **Inciting Incident**: _Who's After the Formula, and Why?_
 
 ### Mike
   - working on Green & Blue elixirs for psych restoration and resilience,
