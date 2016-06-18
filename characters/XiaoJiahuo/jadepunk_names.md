@@ -46,7 +46,7 @@ Abeer, Abiha, Adela, A'isha, Aliya, Amira, Dalia, Fatima, Halima, Hana, Jamila, 
 Latifa, Leila, Malika, Maryam, Nadia, Naila, Nasrin, Rahima, Rashida, Safiya, Sakina,
 Salma, Shakira, Tanisha, Yasmin, Zakiya
 
-#### Castle Falkenstein (Female Turkish) Ççü
+#### Castle Falkenstein (Female Turkish)
 
 Bahar (spring), Bedriye, Behice (beautiful, merry, smiling), Behiye (beautiful, charming),
 Chagla (green almond), Çiçek (flower, blossom), Dilar, Emine (trustworthy), Fadime, Fatma,
