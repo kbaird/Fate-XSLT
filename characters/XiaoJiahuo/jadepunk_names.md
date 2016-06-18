@@ -46,14 +46,15 @@ Abeer, Abiha, Adela, A'isha, Aliya, Amira, Dalia, Fatima, Halima, Hana, Jamila, 
 Latifa, Leila, Malika, Maryam, Nadia, Naila, Nasrin, Rahima, Rashida, Safiya, Sakina,
 Salma, Shakira, Tanisha, Yasmin, Zakiya
 
-#### Castle Falkenstein (Female Turkish)
+#### Castle Falkenstein (Female Turkish) Ççü
+
 Bahar (spring), Bedriye, Behice (beautiful, merry, smiling), Behiye (beautiful, charming),
-Chagla (green almond), ChiChek (flower, blossom), Dilar, Emine (trustworthy), Fadime, Fatma,
-Fusun (charm, enchantment, spell), Hanife, Hayrunissa, Huesnueye (beauty), Katife (velvet),
-Latife (joke, quip), Leyla (dark nights), Mihriban (loving friend), Muejde (good news),
+Chagla (green almond), Çiçek (flower, blossom), Dilar, Emine (trustworthy), Fadime, Fatma,
+Fusun (charm, enchantment, spell), Hanife, Hayrunissa, Hüsnüye (beauty), Katife (velvet),
+Latife (joke, quip), Leyla (dark nights), Mihriban (loving friend), Müjde (good news),
 Nesrin (wild rose), Pertev (light, brightness, brilliance), Reyyan, Sabriye, Seda (voice, echo),
-Semiramis, Sueheyla (bright stars), Tayyibe (good, pleasant), Vicdan (conscience), Yasemin (jasmine),
-Zuebeyde.
+Semiramis, Süheyla (bright stars), Tayyibe (good, pleasant), Vicdan (conscience), Yasemin (jasmine),
+Zübeyde.
 
 **Male Naramel**
 : Arrad, Cyril, Jaron, Magen, Raheem, Suhail
@@ -64,7 +65,14 @@ Abbad, Abbas, Adnan, Azim, Aziz, Basir, Hadi, Hakim, Hussein, Jalil, Karim, Maji
 
 #### Castle Falkenstein (Male Turkish)
 
+Abdul, Abdullah, Ahmet, Akçay, Ali, Alparslan, Bayar, Besim (smiling, friendly), Bozkurt (grey wolf),
+Burç (tower, bastion), Burak (lightning), Celil, Cihangir (world conqueror), Demir (iron),
+Doruk (mountain peak), Emin (trustworthy), Enver (lights, radiance), Ertan,
+Fadil (brilliance, superior person), Ferhat, Gökay (sky and moon), Göktürk
+
 #### Castle Falkenstein (General Turkish)
+
+Ayhan, Cihan (world, universe), Dünya (earth), Evren (universe, cosmos), Ilkay (new moon), Sezgin, Zeynel.
 
 **Female Túyàngan**
 : Ara, Bao-yu, Dáwei, Hyori, Jia li, Mina
