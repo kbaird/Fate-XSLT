@@ -65,10 +65,14 @@ Abbad, Abbas, Adnan, Azim, Aziz, Basir, Hadi, Hakim, Hussein, Jalil, Karim, Maji
 
 #### Castle Falkenstein (Male Turkish)
 
-Abdul, Abdullah, Ahmet, Akçay, Ali, Alparslan, Bayar, Besim (smiling, friendly), Bozkurt (grey wolf),
-Burç (tower, bastion), Burak (lightning), Celil, Cihangir (world conqueror), Demir (iron),
-Doruk (mountain peak), Emin (trustworthy), Enver (lights, radiance), Ertan,
-Fadil (brilliance, superior person), Ferhat, Gökay (sky and moon), Göktürk
+Abdul, Abdullah, Ahmet, Akçay, Ali, Alparslan, Bayar, Besim (smiling, friendly), Bozkurt
+(grey wolf), Burç (tower, bastion), Burak (lightning), Celil, Cihangir (world conqueror),
+Demir (iron), Doruk (mountain peak), Emin (trustworthy), Enver (lights, radiance), Ertan,
+Fadil (brilliance, superior person), Ferhat, Gökay (sky and moon), Göktürk, Habib, Hasan,
+Hikmet (wisdom), Idris, Iskender (Alexander), Kadir (strong, powerful), Lokman (wise man,
+storyteller), Mahmud, Mehmet, Murad, Musa (Moses), Mustafa (chosen one), Mümtaz (select,
+distinguished), Oktan, Osman, Refik, Serhat, Talat, Tekin (auspicious), Türkay (Turkish
+moon), Ulug, Uzay, Vahit, Yavuz (stern, tough), Yildirim (thunderbolt), Yusuf, Zulfu
 
 #### Castle Falkenstein (General Turkish)
 
