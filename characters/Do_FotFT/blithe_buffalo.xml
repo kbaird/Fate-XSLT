@@ -13,7 +13,7 @@
   <aspects>
     <aspect type="Avatar"></aspect>
     <aspect type="Banner-Trouble"></aspect>
-    <aspect type="Dragon">[not yet]</aspect>
+    <aspect type="Dragon"></aspect>
     <aspect></aspect>
     <aspect></aspect>
   </aspects>
@@ -31,5 +31,6 @@
   </stunts>
   <consequences/>
   <notes>
+    Comes from a planet where people greet each other by butting heads.
   </notes>
 </character>
