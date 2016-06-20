@@ -67,12 +67,12 @@
 ### NPCs
 
 #### Chen's 师傅 (_Shīfu_)
-    - A flawed man who worked with 江湖, remembered by _[Chen Daiyu]_ w/rose-colored glasses
-    - Specific 江湖 cell was political/national (like Triads or Mafia)
-    - Discovered a conspiracy by either Low Port merchants or "Communists"
-      to seize the High Port and was silenced (JP99, STotC Indonesia 1951)
-      - _38 Dragons_ ("Triple Prosperity") crime family or
-        _People's Front for Rectification of Grievances_
+  - A flawed man who worked with 江湖, remembered by _[Chen Daiyu]_ w/rose-colored glasses
+  - Specific 江湖 cell was political/national (like Triads or Mafia)
+  - Discovered a conspiracy by either Low Port merchants or "Communists"
+    to seize the High Port and was silenced (JP99, STotC Indonesia 1951)
+    - _38 Dragons_ ("Triple Prosperity") crime family or
+      _People's Front for Rectification of Grievances_
 
 #### "Courtney" NPC (if needed)
   - Several red herrings for technical problems with the drones
