@@ -1,7 +1,4 @@
----
-title: Jadepunk Names
-author: Kevin C. Baird
-...
+## Jadepunk Names
 
 ### Personal
 
@@ -46,7 +43,15 @@ Abeer, Abiha, Adela, A'isha, Aliya, Amira, Dalia, Fatima, Halima, Hana, Jamila, 
 Latifa, Leila, Malika, Maryam, Nadia, Naila, Nasrin, Rahima, Rashida, Safiya, Sakina,
 Salma, Shakira, Tanisha, Yasmin, Zakiya
 
-(See also Turkish note under Surnames)
+#### Castle Falkenstein (Female Turkish)
+
+Bahar (spring), Bedriye, Behice (beautiful, merry, smiling), Behiye (beautiful, charming),
+Chagla (green almond), Çiçek (flower, blossom), Dilar, Emine (trustworthy), Fadime, Fatma,
+Fusun (charm, enchantment, spell), Hanife, Hayrunissa, Hüsnüye (beauty), Katife (velvet),
+Latife (joke, quip), Leyla (dark nights), Mihriban (loving friend), Müjde (good news),
+Nesrin (wild rose), Pertev (light, brightness, brilliance), Reyyan, Sabriye, Seda (voice, echo),
+Semiramis, Süheyla (bright stars), Tayyibe (good, pleasant), Vicdan (conscience), Yasemin (jasmine),
+Zübeyde.
 
 **Male Naramel**
 : Arrad, Cyril, Jaron, Magen, Raheem, Suhail
@@ -55,7 +60,20 @@ Mohamed, Yousouf, Omar, Ahmed, Adam, Ali, Abdullah, Abdulrahman, Hamza, Harun, H
 
 Abbad, Abbas, Adnan, Azim, Aziz, Basir, Hadi, Hakim, Hussein, Jalil, Karim, Majid, Malik, Rashid, Wahhab
 
-(See also Turkish note under Surnames)
+#### Castle Falkenstein (Male Turkish)
+
+Abdul, Abdullah, Ahmet, Akçay, Ali, Alparslan, Bayar, Besim (smiling, friendly), Bozkurt
+(grey wolf), Burç (tower, bastion), Burak (lightning), Celil, Cihangir (world conqueror),
+Demir (iron), Doruk (mountain peak), Emin (trustworthy), Enver (lights, radiance), Ertan,
+Fadil (brilliance, superior person), Ferhat, Gökay (sky and moon), Göktürk, Habib, Hasan,
+Hikmet (wisdom), Idris, Iskender (Alexander), Kadir (strong, powerful), Lokman (wise man,
+storyteller), Mahmud, Mehmet, Murad, Musa (Moses), Mustafa (chosen one), Mümtaz (select,
+distinguished), Oktan, Osman, Refik, Serhat, Talat, Tekin (auspicious), Türkay (Turkish
+moon), Ulug, Uzay, Vahit, Yavuz (stern, tough), Yildirim (thunderbolt), Yusuf, Zulfu
+
+#### Castle Falkenstein (General Turkish)
+
+Ayhan, Cihan (world, universe), Dünya (earth), Evren (universe, cosmos), Ilkay (new moon), Sezgin, Zeynel.
 
 **Female Túyàngan**
 : Ara, Bao-yu, Dáwei, Hyori, Jia li, Mina
@@ -101,9 +119,6 @@ In Arabic, the word "ibn" (ابن) (or بن: "bin", "ben" and sometimes "ibni" a
 "ibnu" to show the grammatical case of the noun) is the equivalent of the "-son"
 suffix (The prefix ben- is used similarly in Hebrew).
 In addition, "bint" (بنت) means "daughter of".
-
-For **Turkish** names, refer to
-_GURPS Castle Falkenstein: The Ottomon Empire_, pg34.
 
 Also just use a personal name as a surname, or
 _Abu X_ ("Father of X"), _Umm Y_ ("Mother of Y")
