@@ -3,15 +3,15 @@
 ## TODO:
   - Ask everyone if they're cool with the 3 Kausao City Aspects as written
   - Ask people about their nationalities / names, if not set yet
-  - All of Brian's specific questions
-  - Stephen's specific questions about the family business
+  - All of _[Brian]_'s specific questions
+  - _[Stephen Gilios]_' specific questions about the family business
   - Ask Jenn/Chris what the name of the club is
-  - Ask Phil what Chen's master's name was
+  - Ask Phil what _[Chen Daiyu]_'s master's name was
   - Think of a name for a LMC/MMC district (where the murders will start)
   - Give each PC a private spotlight to describe their typical day
   - NPC actions:
     - The drug-induced murders
-    - Stephen hears that someone is looking for Jenn's potion
+    - _Stephen Gilios_ hears that someone is looking for Jenn's potion
       - then someone raids the the club
     - A murder in _[District]_
 
@@ -25,7 +25,7 @@
     - Without giving anything away, might they be involved in Chen's _Shīfu_'s death,
       on either side?
 
-### Stephen Gilios (Chris)
+### Stephen Gilios
   - What's the deal with the family business?
     - Did Stephen grow up rich?
     - Who took their assets?
@@ -50,15 +50,10 @@
     vetoed by management as too expensive
     - _[Researcher Predecessor]_ left & took formula
 
-### Chen Daiyu (Phil)
+### Chen Daiyu
   - _Wuxia_ martial artist (**Ghost Serpent**)
-  - works as domestic staff, making the highty-toighty rounds, searching for master's killer
-    - _Shīfu_ was a flawed man who worked with 江湖, remembered w/rose-colored glasses
-    - Specific 江湖 cell was political/national (like Triads or Mafia)
-    - _Shīfu_ discovered a conspiracy by either Low Port merchants or "Communists"
-      to seize the High Port and was silenced (JP99, STotC Indonesia 1951)
-      - _38 Dragons_ ("Triple Prosperity") crime family or
-        _People's Front for Rectification of Grievances_
+  - works as domestic staff, making the highty-toighty rounds,
+    searching for master's killer
 
 ### Setting/Shared
   - Series of murders around Kausao City, all in Lower Middle Class to Middle Class
@@ -66,6 +61,16 @@
   - Maybe some suspects caught by local Vigilance Committees
     - except they're innocent, typical VC frameup of enemies
     - one is actually guilty, worked as a drone pilot 3 jobs ago
+
+## NPCs
+
+### Chen's 师傅 (_Shīfu_)
+    - A flawed man who worked with 江湖, remembered by _[Chen Daiyu]_ w/rose-colored glasses
+    - Specific 江湖 cell was political/national (like Triads or Mafia)
+    - Discovered a conspiracy by either Low Port merchants or "Communists"
+      to seize the High Port and was silenced (JP99, STotC Indonesia 1951)
+      - _38 Dragons_ ("Triple Prosperity") crime family or
+        _People's Front for Rectification of Grievances_
 
 ### "Courtney" NPC (if needed)
   - Several red herrings for technical problems with the drones
