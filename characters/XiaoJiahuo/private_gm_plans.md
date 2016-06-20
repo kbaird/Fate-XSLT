@@ -39,7 +39,7 @@
 
 ### Jenn
   - Someone from _Hawthorne Droneworks_ raids her mansion or club for drug used for sister
-    - turns out it is a slight mod of _[Researcher]_'s original formula
+    - turns out it is a slight mod of _[Researcher Predecessor]_'s original formula
   - **Inciting Incident**: _Who's After the Formula, and Why?_
 
 ### Mike
@@ -48,7 +48,7 @@
   - give him some red herring projects as well
   - eventually finds files for proposed (Green + Blue + Black) resilience potion,
     vetoed by management as too expensive
-    - _[Researcher]_ left & took formula
+    - _[Researcher Predecessor]_ left & took formula
 
 ### Chen Daiyu (Phil)
   - _Wuxia_ martial artist (**Ghost Serpent**)
@@ -72,3 +72,5 @@
   - Some fancy parties, she's expected to attend to show the corp/family flag
   - through [Some Method] discovers evidence of coverup
 
+### Researcher Predecessor
+  - Name, nationality, sex, other details
