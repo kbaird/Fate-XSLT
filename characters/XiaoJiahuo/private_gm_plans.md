@@ -15,7 +15,9 @@
       - then someone raids the the club
     - A murder in _[District]_
 
-### Brian
+### PCs
+
+#### Brian
   - Explorer swashbuckler (Ben Sisko masquerading as his mirror counterpart)
   - What's the name of his Vigilance Committee?
     - What are they like?
@@ -25,7 +27,7 @@
     - Without giving anything away, might they be involved in Chen's _Shīfu_'s death,
       on either side?
 
-### Stephen Gilios
+#### Stephen Gilios
   - What's the deal with the family business?
     - Did Stephen grow up rich?
     - Who took their assets?
@@ -37,12 +39,12 @@
   - Before Jenn's mansion/club are attacked,
     hears that someone is interested in her psych potion
 
-### Jenn
+#### Jenn
   - Someone from _Hawthorne Droneworks_ raids her mansion or club for drug used for sister
     - turns out it is a slight mod of _[Researcher Predecessor]_'s original formula
   - **Inciting Incident**: _Who's After the Formula, and Why?_
 
-### Mike
+#### Mike
   - working on Green & Blue elixirs for psych restoration and resilience,
     told that it's for miners (restoration actually for affected pilots)
   - give him some red herring projects as well
@@ -50,7 +52,7 @@
     vetoed by management as too expensive
     - _[Researcher Predecessor]_ left & took formula
 
-### Chen Daiyu
+#### Chen Daiyu
   - _Wuxia_ martial artist (**Ghost Serpent**)
   - works as domestic staff, making the highty-toighty rounds,
     searching for master's killer
