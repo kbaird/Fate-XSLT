@@ -1,6 +1,4 @@
-# Private GM Plans
-
-## TODO:
+# Jadepunk GM Plans
   - Ask everyone if they're cool with the 3 Kausao City Aspects as written
   - Ask people about their nationalities / names, if not set yet
   - All of _[Brian]_'s specific questions
@@ -10,10 +8,9 @@
   - Think of a name for a LMC/MMC district (where the murders will start)
   - Give each PC a private spotlight to describe their typical day
   - NPC actions:
-    - The drug-induced murders
+    - The drug-induced murders in _[District]_
     - _Stephen Gilios_ hears that someone is looking for Jenn's potion
       - then someone raids the the club
-    - A murder in _[District]_
 
 ### PCs
 
@@ -57,7 +54,7 @@
   - works as domestic staff, making the highty-toighty rounds,
     searching for master's killer
 
-### Setting/Shared
+### District
   - Series of murders around Kausao City, all in Lower Middle Class to Middle Class
     neighborhoods (where drone pilots would live)
   - Maybe some suspects caught by local Vigilance Committees
@@ -73,11 +70,6 @@
     to seize the High Port and was silenced (JP99, STotC Indonesia 1951)
     - _38 Dragons_ ("Triple Prosperity") crime family or
       _People's Front for Rectification of Grievances_
-
-#### "Courtney" NPC (if needed)
-  - Several red herrings for technical problems with the drones
-  - Some fancy parties, she's expected to attend to show the corp/family flag
-  - through [Some Method] discovers evidence of coverup
 
 #### Researcher Predecessor
   - Name, nationality, sex, other details
