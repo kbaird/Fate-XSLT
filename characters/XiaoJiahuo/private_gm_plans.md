@@ -62,9 +62,9 @@
     - except they're innocent, typical VC frameup of enemies
     - one is actually guilty, worked as a drone pilot 3 jobs ago
 
-## NPCs
+### NPCs
 
-### Chen's 师傅 (_Shīfu_)
+#### Chen's 师傅 (_Shīfu_)
     - A flawed man who worked with 江湖, remembered by _[Chen Daiyu]_ w/rose-colored glasses
     - Specific 江湖 cell was political/national (like Triads or Mafia)
     - Discovered a conspiracy by either Low Port merchants or "Communists"
@@ -72,10 +72,10 @@
       - _38 Dragons_ ("Triple Prosperity") crime family or
         _People's Front for Rectification of Grievances_
 
-### "Courtney" NPC (if needed)
+#### "Courtney" NPC (if needed)
   - Several red herrings for technical problems with the drones
   - Some fancy parties, she's expected to attend to show the corp/family flag
   - through [Some Method] discovers evidence of coverup
 
-### Researcher Predecessor
+#### Researcher Predecessor
   - Name, nationality, sex, other details
