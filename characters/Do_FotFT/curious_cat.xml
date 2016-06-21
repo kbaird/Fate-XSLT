@@ -6,14 +6,14 @@
     <charname>Curious Cat</charname>
     <playername>Morgan Baird</playername>
     <description>
-      Red-haired girl, wearing clothing that looks like the coat of a clouded leopard.
+      Red-haired girl, wearing clothing that looks like the coat of a leopard.
     </description>
   </id>
   <refresh free-stunts="2"/>
   <aspects>
-    <aspect type="Avatar">Did You Hear That?</aspect>
+    <aspect type="Avatar">Ooh... What's That?</aspect>
     <aspect type="Banner-Trouble">Easily Distracted</aspect>
-    <aspect type="Dragon">[not yet]</aspect>
+    <aspect type="Dragon"></aspect>
     <aspect></aspect>
     <aspect></aspect>
   </aspects>
@@ -31,6 +31,9 @@
   </stunts>
   <consequences/>
   <notes>
-    Wants to be good at escaping by being nimble &amp; cartwheeling in the air
+    Wants to be good at escaping by being nimble &amp; cartwheeling in the air.
+    Carries a spyglass.
+    Comes from a cat-themed planet (Felinia?) where airships have cat decorations.
+    They also have a festival called "Kitnip", and greet each other with high-fives.
   </notes>
 </character>
