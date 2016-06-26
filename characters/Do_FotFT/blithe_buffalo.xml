@@ -11,7 +11,7 @@
   </id>
   <refresh free-stunts="2"/>
   <aspects>
-    <aspect type="Avatar"></aspect>
+    <aspect type="Avatar">Watch out! Coming through!</aspect>
     <aspect type="Banner-Trouble"></aspect>
     <aspect type="Dragon"></aspect>
     <aspect></aspect>
