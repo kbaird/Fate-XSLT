@@ -12,7 +12,7 @@
   <refresh free-stunts="2"/>
   <aspects>
     <aspect type="Avatar">Watch out! Coming through!</aspect>
-    <aspect type="Banner-Trouble"></aspect>
+    <aspect type="Banner-Trouble">The Shortest Distance is a Straight Line</aspect>
     <aspect type="Dragon"></aspect>
     <aspect></aspect>
     <aspect></aspect>
