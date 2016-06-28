@@ -12,5 +12,5 @@ Breathes white fire.
 
 ### Notes
 
-Found at the location of the missing Klying Temple by _Curious Cat_ and _Blithe Buffalo_
+Found at the location of the missing Flying Temple by _Curious Cat_ and _Blithe Buffalo_
 after they returned _via_ airship from saving **Juku** from colliding with **Ashita**.
