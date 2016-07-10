@@ -1,4 +1,4 @@
-# Popcorn the Dragon
+# Blueberry the Dragon
 
 A long Chinese-style dragon with purple eyes, orange poisonous
 scales, a fin for swimming, and blue wings & ears.
@@ -7,8 +7,8 @@ Breathes white fire.
 
 ## Aspects
 
-- 
-- 
+- Breathes White Fire and Eats Blueberries
+- At Home in the Air or in the Water
 
 ### Notes
 
