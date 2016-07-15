@@ -11,7 +11,7 @@
         <h1><xsl:value-of select="id/charname"/></h1>
         <section id="id"><xsl:apply-templates select="id"/></section>
         <section id="fate-logo">
-          <span id="do_fotft">Do: Fate of the Flying Temple</span>
+          <span id="do_fotft">Do: Fate of the Flying&#160;Temple</span>
           <table>
             <tr>
               <xsl:call-template name="refresh"/>
