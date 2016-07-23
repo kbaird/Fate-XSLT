@@ -4,7 +4,6 @@
   - All of _[Brian]_'s specific questions
   - _[Stephen Gilios]_' specific questions about the family business
   - Ask Jenn/Chris what the name of the club is
-  - Ask Phil what _[Chen Daiyu]_'s master's name was
   - Think of a name for a LMC/MMC district (where the murders will start)
   - Give each PC a private spotlight to describe their typical day
   - NPC actions:
@@ -19,10 +18,10 @@
   - What's the name of his Vigilance Committee?
     - What are they like?
     - What kind of neighborhood do they operate in?
-    - Do they have any sort of ethnic or political affiliation?
+    - Do they have any sort of ethnic or affiliation?
     - Do they have any sort of connection to organized crime?
-    - Without giving anything away, might they be involved in Chen's _Shīfu_'s death,
-      on either side?
+    - Are they political at all? Judean People's Front vs. Strikebreakers, etc.?
+      (I.e.) might they be involved in Chen's _Shīfu_'s death, on either side?
 
 #### Stephen Gilios
   - What's the deal with the family business?
@@ -53,6 +52,10 @@
   - _Wuxia_ martial artist (**Ghost Serpent**)
   - works as domestic staff, making the highty-toighty rounds,
     searching for master's killer
+  - Ask Phil what _[Chen Daiyu]_'s master's name was
+  - Was his involvement with the Jianghu at all political / national?
+  - Was he involved with a Vigilance Committee, either trying to perform informal
+    policing on a neighborhood, rough up their enemies, or both?
 
 ### District
   - Series of murders around Kausao City, all in Lower Middle Class to Middle Class
