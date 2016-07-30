@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname nickname="Griff Lewelling">Gryffudd Llywellyn</charname>
+    <playername>Brian Wilcox</playername>
+    <story>
+      &#160;
+      Speaks Aerish natively; gets by for business purposes in Kaiyu, Túyàngan, and Naramel.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Captain of the Airship [xxx]</aspect>
+    <aspect type="Background">Self-Made Assassin</aspect>
+    <aspect type="Inciting-Incident">"Friend" Let Mom Die</aspect>
+    <aspect type="Belief">Death to the Rich</aspect>
+    <aspect type="Trouble">[Vendetta / Dogma / Secrets]</aspect>
+  </aspects>
+  <professions>
+    <profession rating="0" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="3" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="[Ship Name]" function="White Jade Airship" type="Device">
+      <features>
+        <feature type="Aspect"      effect="Small and Manueverable"/>
+        <feature type="Exceptional" effect="Instantly leave or appear in a scene, as long as there's a way in or out"/>
+      </features>
+      <flaws>
+        <flaw type="Demanding" effect="Requires a Fair [+2] Explorer roll to get a ship underway"/>
+        <flaw type="Consuming"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
