@@ -49,16 +49,17 @@ Bahar (spring), Bedriye, Behice (beautiful, merry, smiling), Behiye (beautiful, 
 Chagla (green almond), Çiçek (flower, blossom), Dilar, Emine (trustworthy), Fadime, Fatma,
 Fusun (charm, enchantment, spell), Hanife, Hayrunissa, Hüsnüye (beauty), Katife (velvet),
 Latife (joke, quip), Leyla (dark nights), Mihriban (loving friend), Müjde (good news),
-Nesrin (wild rose), Pertev (light, brightness, brilliance), Reyyan, Sabriye, Seda (voice, echo),
-Semiramis, Süheyla (bright stars), Tayyibe (good, pleasant), Vicdan (conscience), Yasemin (jasmine),
-Zübeyde.
+Nesrin (wild rose), Pertev (light, brightness, brilliance), Reyyan, Sabriye,
+Seda (voice, echo), Semiramis, Süheyla (bright stars), Tayyibe (good, pleasant),
+Vicdan (conscience), Yasemin (jasmine), Zübeyde.
 
 **Male Naramel**
 : Arrad, Cyril, Jaron, Magen, Raheem, Suhail
 
 Mohamed, Yousouf, Omar, Ahmed, Adam, Ali, Abdullah, Abdulrahman, Hamza, Harun, Hashid, Malik
 
-Abbad, Abbas, Adnan, Azim, Aziz, Basir, Hadi, Hakim, Hussein, Jalil, Karim, Majid, Malik, Rashid, Wahhab
+Abbad, Abbas, Adnan, Azim, Aziz, Basir, Hadi, Hakim, Hussein, Jalil, Karim, Majid,
+Malik, Rashid, Wahhab
 
 #### Castle Falkenstein (Male Turkish)
 
@@ -73,7 +74,8 @@ moon), Ulug, Uzay, Vahit, Yavuz (stern, tough), Yildirim (thunderbolt), Yusuf, Z
 
 #### Castle Falkenstein (General Turkish)
 
-Ayhan, Cihan (world, universe), Dünya (earth), Evren (universe, cosmos), Ilkay (new moon), Sezgin, Zeynel.
+Ayhan, Cihan (world, universe), Dünya (earth), Evren (universe, cosmos),
+Ilkay (new moon), Sezgin, Zeynel.
 
 **Female Túyàngan**
 : Ara, Bao-yu, Dáwei, Hyori, Jia li, Mina
