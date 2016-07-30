@@ -3,24 +3,26 @@
 <!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
 <character>
   <id>
-    <charname>&#160;</charname>
+    <charname>Dilar Hanania</charname>
     <playername>Jennifer Cornish</playername>
     <story>
       Owns a secret Black Jade mine under her family's more modest "Wayne Manor".
       Someone has developed an anti-psychotic drug using Black and Green Jade that
       has helped her schizophrenic younger sister. Owns and operates a drug den in
       Kausao City. Relationship w/Jianghu (江湖; lit. "rivers and lakes") is unclear.
-      Probably travels in upper crust social circles, and employs Stephen Gilios as a
-      networking toadie / club manager.
+      Probably travels in upper crust social circles, and employs Steffan Gilios as a
+      networking toadie / club manager. Naramel.
       The mining company owned by her family is smaller than any of the big 5 from pg96.
+      Speaks Naramel natively, Kaiyu at Junior High student level, and Túyàngan and Aerish
+      functionally as a glamorous rich person who's not trying too hard.
     </story>
   </id>
   <refresh base="7"/>
   <aspects>
     <aspect type="Portrayal">Daughter of Old Mining Money</aspect>
     <aspect type="Background">I Have Friends on the Council</aspect>
-    <aspect type="Inciting-Incident">[Kevin has an idea to create one in play]</aspect>
-    <aspect type="Belief">[I Have to Take Care of My Sister?]</aspect>
+    <aspect type="Inciting-Incident">Who's After the Formula, and Why?</aspect>
+    <aspect type="Belief">I Have to Take Care of My Sister?</aspect>
     <aspect type="Trouble">Secret Owner of a Kausao Speakeasy</aspect>
   </aspects>
   <professions>
