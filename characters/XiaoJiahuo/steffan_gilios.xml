@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>Steffan Gilios</charname>
+    <playername>Christopher Mitchell</playername>
+    <story>
+      Jenn's PC's networking toadie. Owes her a favor? Hooked on her junk?
+      Aerish.
+      Speaks Aerish natively, Kaiyu very well, and nothing else.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Shift Lead at the Blooming Lotus</aspect>
+    <aspect type="Background">Specialized in Acquiring Illicit Materials</aspect>
+    <aspect type="Inciting-Incident">Family Business was Taken Over via Corruption</aspect>
+    <aspect type="Belief">Laws are Not Boundaries to Justice</aspect>
+    <aspect type="Trouble">Restoring the Family Reputation Falls to Steffan</aspect>
+  </aspects>
+  <professions>
+    <profession rating="0" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="3" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Clockwork Firearm" function="Red Jade Revolver" type="Device">
+      <features>
+        <feature type="Harmful"  bonus="3"/>
+        <feature type="Numerous" effect="2 revolvers"/>
+      </features>
+      <flaws>
+        <flaw type="Demanding" effect="(requires an action to reload after a lot of shooting)"/>
+      </flaws>
+    </asset>
+    <asset name="Honor Among Thieves" guiding-aspect="Portrayal" type="Technique">
+      <features>
+        <feature type="Flexible" effect="Use Scoundrel instead of Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only within the lowlife criminal underbelly"/>
+      </flaws>
+    </asset>
+    <asset name="Jade Tattoo" function="Green Jade Tattoo of Protection" type="Device">
+      <features>
+        <feature bonus="1" type="Protective"/>
+        <feature bonus="1" type="Sturdy"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling" effect="Easily Identifiable"/>
+      </flaws>
+    </asset>
+    <asset name="Smuggler Society" function="Facilitates Unregulated Economies" type="Ally">
+      <features>
+        <feature type="Professional" bonus="2" main-profession="Scoundrel" other-professions="Fighter"/>
+        <feature type="Numerous"     bonus="3"/>
+        <feature type="Resilient"    bonus="1"/>
+        <feature type="Sturdy"       bonus="1"/>
+        <feature type="Independent"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Expects members to contribute dues frequently"/>
+        <flaw type="Situational" effect="Only in or near High Port"/>
+      </flaws>
+      <notes>Numerous reflects whichever sub-group is available to help at any given time.</notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
