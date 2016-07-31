@@ -9,6 +9,8 @@
 ### 2016-07-30
 - _Isabella Clarke_ (F Aerish) visits [The Blooming Lotus] on behalf of [Hawthorne Droneworks],
   asking for the Black Jade formula [Dilar] uses to treat her sister
+- One of her goons is captured by Chen and Steffan, brought back to the Blooming Lotus for
+  questioning.
 
 ## Terminal Strip
 
