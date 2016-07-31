@@ -6,7 +6,8 @@
     <charname nickname="Griff Lewelling">Gryffudd Llywellyn</charname>
     <playername>Brian Wilcox</playername>
     <story>
-      &#160;
+      appearance: athletic, bald, ridiculous mustache
+      religion: outwardly, reformed Church of Ehal (lapsed)
       Speaks Aerish natively; gets by for business purposes in Kaiyu, Túyàngan, and Naramel.
     </story>
   </id>
@@ -39,4 +40,37 @@
     </asset>
   </assets>
   <consequences/>
+  <!--
+    His mother was an Aerish servant to a wealthy family in Kausao City. Growing up alongside the family's son, he
+    enjoyed some hand-me-down luxuries unusual for a poor child, including a second-hand education. On adulthood,
+    however, the two young men had a falling out: The rich man’s cronies conned his ill mother out of her savings,
+    selling her a junked airship. The rich man refused to help: The poor would always be poor, he claimed; it was
+    an inherent part of their breeding. The poor man snapped, and disappeared into the city.
+
+    Over the next few years, he took the dirtiest jobs to pay for repairs to the airship. (Meanwhile, his former
+    “friend” and his cronies somehow died in accidents or vanished mysteriously.) Eventually, the former servant’s
+    son emerged as “Griff Lewelling”, clownish freelance captain of minor renown. It's a cover he uses to sew chaos
+    among the upper class.
+
+    professions:
+    Scoundrel (+3) - clown, charmer, burglar, con-man
+    Explorer (+2) - airship pilot
+    Fighter (+2) - assassin
+    Engineer (+1) - airship repair
+    Scholar (+1)
+    Aristocrat (+0)
+
+    Not sure what to call his vigilance committee. Like him, they put up a public front to mask their true purpose:
+    death and chaos to the rich. His job would involve a lot of contact with the wealthy, so their HQ would at least
+    be in a middle-class part of town at the worst. Because of the airships, the public sees them as very Aerish.
+    Probably with a Naramel minority, given the the groups' history.
+
+    But they see themselves as the voice of the voiceless, so they'd at least have a satellite office in the slums.
+    (Maybe connected via tunnel? Or maybe nobody really pays attention to where airships land?) And all races are
+    welcome in the revolution; they're really more into class warfare. Definite connections to organized crime,
+    mainly as a transportation company. But the higher-ups in the mob also know of their talents at assassination.
+
+    "Are they political?" Hell, yes. Eat the rich. Death to the 1%. Chaos. Anarchy. Watch ’em all burn.
+
+  -->
 </character>
