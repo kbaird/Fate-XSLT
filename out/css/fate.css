@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body { color: #111; margin: 0.1em 0.4em; padding: 0.2em; font: 1em "Kalam", ubuntu, verdana, arial, helvetica, sans-serif; }
 
-section#fate-logo { float: right; width: 30%; }
+section#fate-logo { float: right; letter-spacing: 0.35em; width: 30%; }
 
 section#aspects, section#id, section#stress, section#experiences, section#notes { float: left; }
 section#skills, section#consequences, section#experiences-explanation { float: right; }
@@ -26,7 +26,7 @@ fieldset#name { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; 
 fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#name legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
 fieldset.consequence { font-style: oblique; padding-left: 8.6em; text-align: right; height: 1.1em; }
 fieldset.consequence legend { color: #444; font: small-caps 1.3em bolder "Kalam"; font-family: Cabin, Padauk, Montserrat; }
-fieldset.consequence legend span { padding-bottom: 3em; top: 0.1em; }
+fieldset.consequence legend span { letter-spacing: 0.4em; padding-bottom: 3em; top: 0.1em; }
 fieldset.phase { font-family: Cabin, Padauk, Montserrat; }
 fieldset.stunt { font-family: Cabin, Padauk, Montserrat; font-size: 1em; font-style: oblique; text-align: right; padding-left: 15em; }
 fieldset.stunt.mega { padding-left: 12em; }
@@ -42,7 +42,7 @@ p#copyright { font-family: Cabin, Padauk, Montserrat; font-size: 0.8em; text-ali
 
 table { border: 0px; padding: 0.3em; text-align: center; width: 100%; }
 table#stress_table td { border: 4px solid black; font-family: Cabin, Padauk, Montserrat; font-size: 1.4em; font-weight: 900; }
-table tfoot tr th { font-family: Cabin, Padauk, Montserrat; font-size: 0.7em; font-weight: 100; line-height: 0.7em; margin: 0; padding: 0; }
+table tfoot tr th { font-family: Cabin, Padauk, Montserrat; font-size: 0.7em; font-weight: 100; letter-spacing: 0.4em; line-height: 0.7em; margin: 0; padding: 0; }
 
 td, th { border: 0px; vertical-align: top; }
 
