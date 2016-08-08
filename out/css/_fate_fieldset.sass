@@ -1,6 +1,7 @@
 @import "colors"
 @import "fieldsets"
 @import "fonts"
+@import "spacing"
 
 fieldset
   &#affiliation, &#description
@@ -25,7 +26,7 @@ fieldset
       color: $consequence_legend_color
       +consequence_font
       span
-        letter-spacing: 0.4em
+        letter-spacing: $base_letter_spacing
         padding-bottom: 3em
         top: 0.1em
   &.phase
@@ -34,12 +35,14 @@ fieldset
     font-family: $basic_font
     font-size: 1em
     font-style: oblique
-    text-align: right
+    letter-spacing: $base_letter_spacing * 0.5
     padding-left: 15em
+    text-align: right
     &.mega
       padding-left: 12em
     legend
       color: $stunt_legend_color
       +legend_font(1.2em)
       span
+        letter-spacing: $base_letter_spacing
         top: 0.2em
