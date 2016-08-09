@@ -1,5 +1,6 @@
 @import "colors"
 @import "fieldsets"
+@import "assets_and_gadget"
 @import "fonts"
 @import "spacing"
 
@@ -30,19 +31,11 @@ fieldset
         padding-bottom: 3em
         top: 0.1em
   &.phase
-    font-family: $basic_font
-  &.stunt
-    font-family: $basic_font
-    font-size: 1em
-    font-style: oblique
-    letter-spacing: $base_letter_spacing * 0.5
-    padding-left: 15em
-    text-align: right
-    &.mega
-      padding-left: 12em
-    legend
-      color: $stunt_legend_color
-      +legend_font(1.2em)
-      span
-        letter-spacing: $base_letter_spacing
-        top: 0.2em
+    font-family: $handwriting_font
+  &.stunt dl
+    dt
+      +assets_and_gadget_shared
+      +assets_and_gadget_dt
+    dd
+      +assets_and_gadget_shared
+      +assets_and_gadget_dd
