@@ -16,8 +16,10 @@
     <tr>
       <td>
         <fieldset class="stunt">
-          <legend><span>Dabbles in</span></legend>
-          <xsl:value-of select="."/>
+          <dl>
+            <dt>Dabbles in</dt>
+            <dd><xsl:value-of select="."/></dd>
+          </dl>
         </fieldset>
       </td>
     </tr>
@@ -26,8 +28,10 @@
     <tr>
       <td>
         <fieldset class="stunt">
-          <legend><span>Focuses within <cite><xsl:value-of select="@within"/></cite> on</span></legend>
-          <xsl:value-of select="."/>
+          <dl>
+            <dt>Focuses within <cite><xsl:value-of select="@within"/></cite> on</dt>
+            <dd><xsl:value-of select="."/></dd>
+          </dl>
         </fieldset>
       </td>
     </tr>
@@ -36,8 +40,10 @@
     <tr>
       <td>
         <fieldset class="stunt">
-          <legend><span><xsl:value-of select="@name"/> [2]</span></legend>
-          <xsl:value-of select="."/>
+          <dl>
+            <dt><xsl:value-of select="@name"/> [2]</dt>
+            <dd><xsl:value-of select="."/></dd>
+          </dl>
         </fieldset>
       </td>
     </tr>
