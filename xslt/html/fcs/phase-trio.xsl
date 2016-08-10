@@ -20,9 +20,11 @@
           <xsl:call-template name="phase-with-num">
             <xsl:with-param name="num">2</xsl:with-param>
           </xsl:call-template>
+        <xsl:if test="/character/aspects/aspect/@phase-num=3">
           <xsl:call-template name="phase-with-num">
             <xsl:with-param name="num">3</xsl:with-param>
           </xsl:call-template>
+        </xsl:if>
         </fieldset>
       </td>
     </tr>
