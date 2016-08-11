@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
-<!DOCTYPE character SYSTEM "character.dtd">
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
     <charname nickname="Gordy">Gordon Douglas MacEwen</charname>
@@ -15,7 +15,7 @@
     <aspect type="Trouble">It's Not the Years, It's the Mileage</aspect>
     <aspect phase-num="1">Fought the Yanks in the Skies in 1812</aspect>
     <aspect phase-num="2"></aspect>
-    <aspect type="Ship">Fast and Maneuverable</aspect>
+    <aspect phase-num="3"></aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Sail"/>
