@@ -1,9 +1,10 @@
+@import "fonts"
 @import "spacing"
 
 section
   &#fate-logo
     float: right
-    letter-spacing: $base_letter_spacing * 0.875
+    //letter-spacing: $base_letter_spacing * 0.875
     width: 30%
 
 section
@@ -11,6 +12,9 @@ section
     float: left
   &#skills, &#consequences, &#experiences-explanation
     float: right
+    table tfoot tr th
+      font-family: $handwriting_font
+      letter-spacing: $base_letter_spacing * 0.4
   &#id, &#consequences
     width: 70%
   &#aspects
