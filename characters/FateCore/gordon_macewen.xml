@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "character.dtd">
 <character>
   <id>
-    <charname>Gordon MacEwen</charname>
+    <charname nickname="Gordy">Gordon Douglas MacEwen</charname>
     <playername>Kevin Baird</playername>
     <description>
       Scottish-Canadian, 57 years old, salt &amp; pepper beard.
@@ -32,12 +32,22 @@
     <skill rating="1" name="Fight"/>
     <skill rating="1" name="Resources"/>
   </skills>
+  <extras>
+    <gadget name="Reference Books">
+      <function>Dry, but Comprehensive</function>
+      <flaws>
+        <flaw>Information Might Be Out of Date</flaw>
+      </flaws>
+      <benefits>
+        <benefit name="I've Read About That! ☐">
+          You've read hundreds - if not thousands - of books on a wide variety of topics. You can
+          spend a Fate Point to use Lore in place of any other skill for one roll or exchange,
+          provided you can justify having read about the action you’re attempting. (Once per Scene).
+        </benefit>
+      </benefits>
+    </gadget>
+  </extras>
   <stunts>
-    <stunt name="I've Read About That! ☐">
-      You've read hundreds - if not thousands - of books on a wide variety of topics. You can
-      spend a Fate Point to use Lore in place of any other skill for one roll or exchange,
-      provided you can justify having read about the action you’re attempting. (Once per Scene).
-    </stunt>
     <stunt name="Superior Tactics">
       When it comes to naval battles, you've seen every trick in the book. +2 when actively
       opposing Sail rolls to create positional aspects.
@@ -56,10 +66,12 @@
       <events>
         Born in Hamilton, ON, 1793.
         Like any loyal colonial subject of the Queen, Gordon volunteered to defend his home
-        from American invasion. He served aboard HMAS Dauntless, which primarily defended
-        Canada from invasion in the skies above Lake Ontario. In its final battle, The
-        Dauntless successfully held off the USAS Jefferson, which retreated back to Rochester.
-        The Dauntless sank, but Gordon (obviously) survived.
+        from American invasion. He served aboard HMAS John Locke, which primarily defended
+        Canada in the skies above Lake Ontario. In its final battle, The Locke successfully
+        prevented the USAS Thomas Jefferson from capturing Toronto, forcing it to retreat
+        back to Rochester. HMAS Locke sank, but Gordon (obviously) survived. If it's more
+        interesting, he was captured by American forces and was a POW until the end of
+        hostilities.
       </events>
     </phase>
     <phase num="2">
