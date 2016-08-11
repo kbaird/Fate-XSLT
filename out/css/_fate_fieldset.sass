@@ -26,8 +26,11 @@ fieldset
     legend
       color: $consequence_legend_color
       +consequence_font
+      float: right
       span
-        letter-spacing: $base_letter_spacing
+        float: left
+        +label_font
+        letter-spacing: $base_letter_spacing * 0.4
         padding-bottom: 3em
         top: 0.1em
   &.phase
