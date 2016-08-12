@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>The Ship</charname>
+    <playername>Players of the Sails Full of Stars campaign</playername>
+    <description>
+      Small ship operated by the PCs in the Sails Full of Stars campaign
+    </description>
+  </id>
+  <refresh base="0"/>
+  <aspects>
+    <aspect type="High-Concept">&#160;</aspect>
+    <aspect type="Crew">&#160;</aspect>
+    <aspect></aspect>
+    <aspect></aspect>
+    <aspect></aspect>
+  </aspects>
+  <skills>
+    <skill rating="3" name=" "/>
+    
+    <skill rating="2" name=" "/>
+    <skill rating="2" name=" "/>
+    
+    <skill rating="1" name=" "/>
+    <skill rating="1" name=" "/>
+  </skills>
+  <consequences>
+    <!--
+    <consequence severity="Mild">mild one</consequence>
+    -->
+  </consequences>
+  <notes>
+    Choose skills from Athletics, Crafts, Notice, Provoke, Sail, Shoot, Stealth, Will
+  </notes>
+</character>
