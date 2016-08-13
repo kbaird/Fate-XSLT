@@ -3,17 +3,19 @@
 <!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
-    <charname nickname="Gordy">Gordon Douglas MacEwen</charname>
+    <charname nickname="Gordie">Gordon Douglas MacEwen</charname>
     <playername>Kevin Baird</playername>
     <description>
       Scottish-Canadian, 57 years old, salt &amp; pepper beard.
       &#160;
+      Worked his way up the ranks to a Senior Warrant Officer, specifically a "Master" (GURPS AoN70):
+      "Rheus Master MacEwen".
     </description>
   </id>
   <aspects>
     <aspect type="High-Concept">Grizzled Veteran Rheoship Navigator</aspect>
     <aspect type="Trouble">It's Not the Years, It's the Mileage</aspect>
-    <aspect phase-num="1">Fought the Yanks in the Skies in 1812</aspect>
+    <aspect phase-num="1">Fought the Yanks &amp; French in the Skies</aspect>
     <aspect phase-num="2"></aspect>
     <aspect phase-num="3"></aspect>
   </aspects>
@@ -72,10 +74,10 @@
         prevented the USAS Richard Henry Lee from capturing Toronto, forcing it to retreat
         back to Rochester. HMAS Dauntless sank, but Gordon (obviously) survived.
 
-        If it's more interesting, he was captured by American forces and was a POW until the
-        end of hostilities. Given that Napoleon won in this timeline, it's also possible that
-        the US annexed some or all of a Canada that could no longer depend on military support
-        from a recently-conquered Britain.
+        Gordie also participated in the defense of Britain after Napoleon's success at Waterloo.
+        I imagine he took part in the "Battle of Sheffield" in the 1820s or 1830s, being taken
+        prisoner by the French Empire's forces as they took the city. He is anti-French Empire
+        to this day.
       </events>
     </phase>
     <phase num="2">
