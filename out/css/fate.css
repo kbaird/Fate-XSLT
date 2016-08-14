@@ -65,6 +65,7 @@ td, th { border: 0px; vertical-align: top; }
   p#experiences-explanation { float: left; font-size: 0.5em; padding-top: 0.5em; }
   section#aspects { width: 40%; }
   section#consequences { width: 80%; }
+  section#languages { font-size: 0.75em; }
   section#notes { font-size: 0.5em; }
   section#skills { width: 60%; }
   section#stress { width: 20%; }
