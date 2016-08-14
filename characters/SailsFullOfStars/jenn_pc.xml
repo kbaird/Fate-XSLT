@@ -31,8 +31,10 @@
     <skill rating="1" name=""/>
     <skill rating="1" name=""/>
   </skills>
-  <extras>
+  <languages>
+  </languages>
     <!--
+  <extras>
     <gadget name="Reference Books">
       <function>Dry, but Comprehensive</function>
       <flaws>
@@ -46,10 +48,16 @@
         </benefit>
       </benefits>
     </gadget>
-    -->
   </extras>
+    -->
   <stunts>
-    <stunt name="TBD">
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
       &#160;
     </stunt>
   </stunts>
