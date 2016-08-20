@@ -15,7 +15,7 @@
   </id>
   <aspects>
     <aspect type="High-Concept">Grizzled Veteran Rheoship Navigator</aspect>
-    <aspect type="Trouble">It's Not the Years, It's the Mileage</aspect>
+    <aspect type="Trouble">It&#8216;s Not the Years &#8211; It&#8216;s the Mileage</aspect>
     <aspect phase-num="1">Fought the Yanks &amp; French in the Skies</aspect>
     <aspect phase-num="2"></aspect>
     <aspect phase-num="3"></aspect>
@@ -45,12 +45,17 @@
       <function>Dry, but Comprehensive</function>
       <flaws>
         <flaw>Information Might Be Out of Date</flaw>
+        <flaw>Potential Author Bias</flaw>
       </flaws>
       <benefits>
+        <benefit name="Bookworm">
+          +2 to Create a Situational Aspect on a location representing knowledge of it with Lore
+          when given a chance to brush up on a topic: &#8220;We&#8216;re about to land at Port
+          Lamarck on Mars &#8211; let me read up on it.&#8221;
+        </benefit>
         <benefit name="I've Read About That! ☐">
-          You've read hundreds - if not thousands - of books on a wide variety of topics. You can
-          spend a Fate Point to use Lore in place of any other skill for one roll or exchange,
-          provided you can justify having read about the action you’re attempting. (Once per Scene)
+          Once per Scene, spend a Fate Point to use Lore in place of any other skill for one roll
+          or exchange, provided you can justify having read about the action you&#8216;re attempting.
         </benefit>
       </benefits>
     </gadget>
@@ -62,7 +67,7 @@
     </stunt>
     -->
     <stunt name="Superior Tactics">
-      When it comes to naval battles, you've seen every trick in the book. +2 when actively
+      When it comes to naval battles, you&#8216;ve seen every trick in the book. +2 when actively
       opposing Sail rolls to create positional aspects.
     </stunt>
     <stunt name="TBD">
@@ -87,9 +92,11 @@
 
         Gordie also participated in the defense of Britain from French forces. I imagine he took
         part in the &#8220;Battle of Sheffield&#8221; in the 1820s or 1830s, being taken prisoner
-        by the French Empire's forces as they took the city. I think it's more interesting to say
-        that instead of being simply anti-French as a result, he has conflicting opinions -
-        perhaps even approving of some of Napoleon's more liberal policies.
+        by the French Empire&#8216;s forces as they took the city.
+
+        I think it&#8216;s more interesting to say that instead of being simply anti-French as a
+        result, he has conflicting opinions &#8211; perhaps even approving of some of
+        Napoleon&#8216;s more liberal policies.
       </events>
     </phase>
     <phase num="2">
