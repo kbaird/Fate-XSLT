@@ -16,6 +16,8 @@ fieldset.mega legend span { color: blue; font-weight: 900; }
 p { font-family: Padauk, Montserrat; }
 p #copyright { clear: both; float: none; }
 
+section#stunts table tbody tr td fieldset.stunt dl dt { font: oblique small-caps 1.3em bolder Padauk, Montserrat; margin-left: 0; }
+
 table#skills_table tbody tr th { font-family: Padauk, Montserrat; }
 table#skills_table tbody tr td { margin-left: 0; padding-left: 0; margin-bottom: -2em; padding-top: 1em; text-align: left; }
 table#skills_table tbody tr td ul { line-height: 1.1em; margin-left: 0.3em; padding-left: 0.4em; }
