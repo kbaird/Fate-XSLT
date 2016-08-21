@@ -1,13 +1,12 @@
 section#aspects { width: 65%; }
 section#skills { width: 35%; }
 
-dl.approaches dt { border: 0px; font-size: 1.2em; font-weight: 600; letter-spacing: 0.35em; line-height: 75%; text-align: left; text-transform: uppercase; }
+dl.approaches dt { border: 0px; font: oblique small-caps 1.3em bolder Padauk, Montserrat; font-size: 1.2em; font-weight: 600; line-height: 75%; text-align: left; text-transform: uppercase; }
 dl.approaches dt span.explanation { color: #999; font-size: 0.7em; font-style: oblique; text-transform: none; }
 dl.approaches dd { width: 2.4em; }
 
 table #professions { margin-right: -4em; }
-table #professions tbody tr td dl.approaches dt { font-size: 1em; }
-table #professions tbody tr td dl.approaches dd { font-size: 1em; }
+table #professions tbody tr td dl.approaches dt, table #professions tbody tr td dl.approaches dd { font-size: 1em; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
 
 @media print and (-webkit-min-device-pixel-ratio: 0) { table#professions { font-size: 1.7em; }
   table#professions tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }
