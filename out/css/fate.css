@@ -23,6 +23,7 @@ fieldset#affiliation, fieldset#description { line-height: 1.1em; }
 fieldset#affiliation, fieldset#description, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt { padding-left: 11em; position: relative; text-align: left; }
 fieldset.aspect { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
 fieldset.aspect span.content { margin-left: -10em; }
+fieldset.mega legend span { font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
 fieldset#name { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
 fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#name legend.label { color: #666; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
 fieldset.consequence { font-style: oblique; padding-left: 8.6em; text-align: right; height: 1.1em; }
