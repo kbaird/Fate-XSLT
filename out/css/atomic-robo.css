@@ -10,13 +10,13 @@ fieldset.consequence { height: 1.5em; }
 fieldset.experience { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; padding-left: 11em; position: relative; text-align: left; clear: none; float: left; }
 fieldset.experience.used { color: #666; text-decoration: line-through; }
 fieldset.experience span.content { margin-left: -10em; }
-fieldset.experience legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Padauk, Montserrat; }
+fieldset.experience legend.label { color: #666; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
 fieldset.mega legend span { color: blue; font-weight: 900; }
 
-p { font-family: Cabin, Padauk, Montserrat; }
+p { font-family: Padauk, Montserrat; }
 p #copyright { clear: both; float: none; }
 
-table#skills_table tbody tr th { font-family: Cabin, Padauk, Montserrat; }
+table#skills_table tbody tr th { font-family: Padauk, Montserrat; }
 table#skills_table tbody tr td { margin-left: 0; padding-left: 0; margin-bottom: -2em; padding-top: 1em; text-align: left; }
 table#skills_table tbody tr td ul { line-height: 1.1em; margin-left: 0.3em; padding-left: 0.4em; }
 table#skills_table tbody tr td ul li { margin-left: 0; padding-left: 0; margin-right: -0.2em; padding-right: 0; }

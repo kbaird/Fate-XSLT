@@ -7,9 +7,9 @@
     <fieldset class="consequence">
       <legend class="severity">
         <span><xsl:value-of select="$label"/></span>
-        <xsl:text>F☐</xsl:text>
+        <xsl:text>F ☐</xsl:text>
         <xsl:if test="$severity != 'Mild'">
-          <xsl:text> / R?☐</xsl:text>
+          <xsl:text> / R? ☐</xsl:text>
         </xsl:if>
       </legend>
       <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">

@@ -25,5 +25,8 @@
           </table>
         </xsl:otherwise>
       </xsl:choose>
+      <section id="languages">
+        <xsl:value-of select="../languages"/>
+      </section>
   </xsl:template>
 </xsl:stylesheet>
