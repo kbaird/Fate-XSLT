@@ -41,6 +41,8 @@ legend span { position: absolute; top: 0.2em; left: 0.4em; }
 
 p#copyright { font-family: Padauk, Montserrat; font-size: 0.8em; text-align: center; }
 
+section#stunts table tbody tr td fieldset.stunt dl dt { font: oblique small-caps 1.3em bolder Padauk, Montserrat; margin-left: -8em; }
+
 table { border: 0px; padding: 0.3em; text-align: center; width: 100%; }
 table#stress_table td { border: 4px solid black; font-family: Padauk, Montserrat; font-size: 1.4em; font-weight: 900; }
 table tfoot tr th { font-family: Padauk, Montserrat; font-size: 0.7em; font-weight: 100; letter-spacing: 0.4em; line-height: 0.7em; margin: 0; padding: 0; }
