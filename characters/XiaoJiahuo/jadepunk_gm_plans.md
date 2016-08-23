@@ -1,8 +1,4 @@
 # Jadepunk GM Plans
-  - NPC actions:
-    - The drug-induced murders in _[District]_
-    - _Stephen Gilios_ hears that someone is looking for Jenn's potion
-      - then someone raids the the club
 
 ## Events
 
@@ -12,18 +8,23 @@
 - One of her goons is captured by Chen and Steffan, brought back to the Blooming Lotus for
   questioning.
 
+### 2016-09-10 TODO
+- Onboard Mike
+- Figure out the captured goon and what he knows
+- The drug-induced murders in _[Terminal Strip]_
+  - Series of murders around Kausao City, all in Lower Middle Class to Middle Class
+    neighborhoods (where drone pilots would live)
+    - 1st one in [Terminal Strip], but not all
+  - Maybe some suspects caught by local Vigilance Committees
+    - except they're innocent, typical VC frameup of enemies
+    - one is actually guilty, worked as a drone pilot 3 jobs ago
+
 ## Terminal Strip
 
 A neighborhood in Kausao City just southwest of the westernmost High Port tower, at
 the intersection of the Aerish, Kaiyumi, and Túyàngan areas.
 
 - _The Blooming Lotus_ is here.
-- Series of murders around Kausao City, all in Lower Middle Class to Middle Class
-  neighborhoods (where drone pilots would live)
-  - 1st one in [Terminal Strip], but not all
-- Maybe some suspects caught by local Vigilance Committees
-  - except they're innocent, typical VC frameup of enemies
-  - one is actually guilty, worked as a drone pilot 3 jobs ago
 
 ### PCs
 
