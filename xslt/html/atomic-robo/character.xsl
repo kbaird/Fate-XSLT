@@ -71,9 +71,7 @@
             <wbr/>
           </xsl:otherwise>
         </xsl:choose>
-        <section id="notes">
-          <xsl:apply-templates select="notes"/>
-        </section>
+        <xsl:apply-templates select="notes"/>
       </body>
     </html>
   </xsl:template>
