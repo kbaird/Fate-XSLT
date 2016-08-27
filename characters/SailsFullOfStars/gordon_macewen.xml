@@ -82,9 +82,12 @@
     </gadget>
   </extras>
   <stunts>
+    <stunt name="Spend for Ship">
+      Spend a Refresh to give our rheoship the _Maneuverable_ Stunt (SFoS pg23)
+    </stunt>
     <stunt name="Brothers in Arms">
-      May use Sail instead of Rapport to Overcome when dealing
-      with other naval veterans&#8212;even former enemies.
+      May use Sail instead of Rapport to Create Advantages about shared experiences
+      when dealing with other naval veterans&#8212;even former enemies.
     </stunt>
     <stunt name="Fly Rings Around Them">
       +2 to Sail rolls to create positional Aspects.
@@ -92,6 +95,9 @@
     <stunt name="Gruff Skydog">
       May use Will instead of Provoke to Attack when relying on Gordie's military
       background to intimidate.
+    </stunt>
+    <stunt name="Indomitable">
+      +2 to Defend against Provoke Attacks specifically related to intimidation and fear.
     </stunt>
     <stunt name="Master Scrounger">
       +2 to Overcome with Resources when invoking an Advantage
