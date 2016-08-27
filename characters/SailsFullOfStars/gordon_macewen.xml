@@ -57,7 +57,9 @@
         <flaw>Obviously Royal Navy Issue</flaw>
       </flaws>
       <benefits>
-        <benefit name="Weapon 2"/>
+        <benefit name="Cuts &amp; Parries">
+          Weapon: 1, Armor: 1
+        </benefit>
       </benefits>
     </gadget>
     <gadget name="Reference Books">
@@ -70,7 +72,7 @@
         <benefit name="Bookworm">
           +2 to Create a Situational Aspect on a location representing knowledge of it with Lore
           when given a chance to brush up on a topic: &#8220;We&#8216;re about to land at Port
-          Lamarck on Mars &#8211; let me read up on it.&#8221;
+          Lamarck on Mars&#8212;let me read up on it.&#8221;
         </benefit>
         <benefit name="Well-Read ☐">
           Once per Scene, use Lore in place of any other skill for one roll or exchange when
