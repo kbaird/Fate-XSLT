@@ -46,9 +46,9 @@
     <skill rating="1" name="Physique"/>
   </skills>
   <languages>
-    Speaks English natively, French well enough to function but not well enough to pass as a
-    native speaker, and a small smattering of Ottoman Turkish, tightly focused on the technical
-    topic of ship navigation.
+    Speaks English natively, French well enough to function but not well enough to pass as
+    a native speaker, and a small smattering of Ottoman Turkish, tightly focused on the
+    technical topic of ship navigation.
   </languages>
   <extras>
     <gadget name="Naval Dirk">
@@ -70,13 +70,13 @@
       </flaws>
       <benefits>
         <benefit name="Bookworm">
-          +2 to Create a Situational Aspect on a location representing knowledge of it with Lore
-          when given a chance to brush up on a topic: &#8220;We&#8216;re about to land at Port
-          Lamarck on Mars&#8212;let me read up on it.&#8221;
+          +2 to Create a Situational Aspect on a location representing knowledge of it
+          with Lore when given a chance to brush up on a topic: &#8220;We&#8216;re about
+          to land at Port Lamarck on Mars&#8212;let me read up on it.&#8221;
         </benefit>
         <benefit name="Well-Read ☐">
-          Once per Scene, use Lore in place of any other skill for one roll or exchange when
-          invoking an Aspect representing knowledge that would be useful.
+          Once per Scene, use Lore in place of any other skill for one roll or exchange
+          when invoking an Aspect representing knowledge that would be useful.
         </benefit>
       </benefits>
     </gadget>
@@ -105,7 +105,8 @@
     </stunt>
     <stunt name="No, YOU Move">
       When you use Will to Defend against feat or intimidation, on a Success With Style
-      instead of gaining a Boost you can inflict a 2-shift mental hit on the attacker. (M12, pg42)
+      instead of gaining a Boost you can inflict a 2-shift mental hit on the attacker.
+      (M12, pg42)
     </stunt>
     <stunt name="Seen It All">
       Armor: 2 vs. mental attacks (M12, pg25)
@@ -127,29 +128,31 @@
   <phase-trio>
     <phase num="1">
       <events>
-        Born in Coote&#8216;s Paradise&#8224;, Province of Upper Canada, 1793 to an urban artisan-class
-        family of Scottish immigrants.
+        Born in Coote&#8216;s Paradise&#8224;, Province of Upper Canada, 1793 to an urban
+        artisan-class family of Scottish immigrants.
       &#160;
       &#160;
-        Like any loyal colonial subject, Gordon volunteered to defend his home from American invasion
-        in 1812. He served aboard _HMAS Dauntless_, which primarily defended Canada in the skies above
-        Lake Ontario. In its final battle, The _Dauntless_ successfully prevented the _USAS Richard
-        Henry Lee_ from capturing York (now Toronto), forcing it to retreat back to Rochester. _HMAS
-        Dauntless_ sank, but Gordon (obviously) survived.
+        Like any loyal colonial subject, Gordon volunteered to defend his home from
+        American invasion in 1812. He served aboard _HMAS Dauntless_, which primarily
+        defended Canada in the skies above Lake Ontario. In its final battle, The
+        _Dauntless_ successfully prevented the _USAS Richard Henry Lee_ from capturing
+        York (now Toronto), forcing it to retreat back to Rochester. _HMAS Dauntless_
+        sank, but Gordon (obviously) survived.
       &#160;
       &#160;
-        Gordie also participated in the defense of Britain from French forces. I imagine he took
-        part in the &#8220;Battle of Sheffield&#8221; in the 1820s or 1830s, being taken prisoner
-        by the French Empire&#8216;s forces as they took the city and released when the UK was under
-        secure French control.
+        Gordie also participated in the defense of Britain from French forces. I imagine
+        he took part in the &#8220;Battle of Sheffield&#8221; in the 1820s or 1830s,
+        being taken prisoner by the French Empire&#8216;s forces as they took the city
+        and released when the UK was under secure French control.
       &#160;
       &#160;
-        I think it&#8216;s more interesting to say that instead of being simply anti-French as a
-        result, he has conflicting opinions &#8211; perhaps even approving of some of
-        Napoleon&#8216;s more liberal policies.
+        I think it&#8216;s more interesting to say that instead of being simply
+        anti-French as a result, he has conflicting opinions &#8211; perhaps even
+        approving of some of Napoleon&#8216;s more liberal policies.
       &#160;
       &#160;
-        &#8224;(Coote&#8216;s Paradise was renamed to Dundas in 1814, and is now part of greater Hamilton IRL)
+        &#8224;(Coote&#8216;s Paradise was renamed to Dundas in 1814, and is now part of
+        greater Hamilton IRL)
       </events>
     </phase>
     <phase num="2">
