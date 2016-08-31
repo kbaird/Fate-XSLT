@@ -13,20 +13,18 @@
   <aspects>
     <aspect type="High-Concept">&#160;</aspect>
     <aspect type="Crew">&#160;</aspect>
-    <aspect></aspect>
-    <aspect></aspect>
-    <aspect></aspect>
   </aspects>
   <skills>
-    <skill rating="3" name=" "/>
-    
-    <skill rating="2" name=" "/>
     <skill rating="2" name=" "/>
     
     <skill rating="1" name=" "/>
     <skill rating="1" name=" "/>
   </skills>
-  <stunts/>
+  <stunts>
+    <stunt name="1 Free Stunt">
+      Cf. SFoS pg23
+    </stunt>
+  </stunts>
   <consequences>
     <!--
     <consequence severity="Mild">mild one</consequence>
