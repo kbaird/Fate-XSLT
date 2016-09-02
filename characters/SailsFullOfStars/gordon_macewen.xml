@@ -15,7 +15,7 @@
   </id>
   <aspects>
     <aspect type="High-Concept">Grizzled Veteran Rheoship Navigator</aspect>
-    <aspect type="Trouble">It&#8216;s Not the Years &#8211; It&#8216;s the Mileage</aspect>
+    <aspect type="Trouble">It&#8217;s Not the Years &#8211; It&#8217;s the Mileage</aspect>
     <aspect phase-num="1">Fought the Yanks &amp; French in the Skies</aspect>
     <aspect phase-num="2"></aspect>
     <aspect phase-num="3"></aspect>
@@ -71,9 +71,9 @@
       </flaws>
       <benefits>
         <benefit name="Bookworm">
-          +2 to Create a Situational Aspect on a location representing knowledge of it
-          with Lore when given a chance to brush up on a topic: &#8220;We&#8216;re about
-          to land at Port Lamarck on Mars&#8212;let me read up on it.&#8221;
+          +2 to Create a Situational Aspect on a topic representing knowledge of it with
+          Lore when given a chance to brush up on a topic: &#8220;We&#8217;re about to
+          land at Port Lamarck on Mars&#8212;let me read up on it.&#8221;
         </benefit>
         <benefit name="Well-Read ☐">
           Once per Scene, use Lore in place of any other skill for one roll or exchange
@@ -97,6 +97,9 @@
       May use Will instead of Provoke to Attack when relying on Gordie's military
       background to intimidate.
     </stunt>
+    <stunt name="Haulin&#8217; Freight for Years">
+      May use Sail instead of Rapport to negotiate trade deals.
+    </stunt>
     <stunt name="Indomitable">
       +2 to Defend against Provoke Attacks specifically related to intimidation and fear.
     </stunt>
@@ -104,10 +107,20 @@
       +2 to Overcome with Resources when invoking an Advantage
       previously created by myself with Contacts.
     </stunt>
+    <stunt name="Never Find Us">
+      Can use Sail when "taking command" of a Rheoship&#8217;s use of Stealth (SFoS, pg22).
+    </stunt>
     <stunt name="No, YOU Move">
       When you use Will to Defend against feat or intimidation, on a Success With Style
       instead of gaining a Boost you can inflict a 2-shift mental hit on the attacker.
       (M12, pg42)
+    </stunt>
+    <stunt name="Pre-Prepared Counterpoint">
+      You&#8217;ve heard that argument before, and you know how to defeat it.
+      You may use Lore to Defend against Rapport.
+    </stunt>
+    <stunt name="Specialist: Economics">
+      +2 to all Lore rolls relating to that field of specialization.
     </stunt>
     <stunt name="Seen It All">
       Armor: 2 vs. mental attacks (M12, pg25)
@@ -117,7 +130,7 @@
       +2 to Sail Overcome rolls to improve the speed of a journey.
     </stunt>
     <stunt name="Superior Tactics">
-      When it comes to naval battles, you&#8216;ve seen every trick in the book.
+      When it comes to naval battles, you&#8217;ve seen every trick in the book.
       +2 when actively opposing Sail rolls to create positional Aspects.
     </stunt>
   </stunts>
@@ -129,7 +142,7 @@
   <phase-trio>
     <phase num="1">
       <events>
-        Born in Coote&#8216;s Paradise&#8224;, Province of Upper Canada, 1793 to an urban
+        Born in Coote&#8217;s Paradise&#8224;, Province of Upper Canada, 1793 to an urban
         artisan-class family of Scottish immigrants.
       &#160;
       &#160;
@@ -143,16 +156,16 @@
       &#160;
         Gordie also participated in the defense of Britain from French forces. I imagine
         he took part in the &#8220;Battle of Sheffield&#8221; in the 1820s or 1830s,
-        being taken prisoner by the French Empire&#8216;s forces as they took the city
+        being taken prisoner by the French Empire&#8217;s forces as they took the city
         and released when the UK was under secure French control.
       &#160;
       &#160;
-        I think it&#8216;s more interesting to say that instead of being simply
+        I think it&#8217;s more interesting to say that instead of being simply
         anti-French as a result, he has conflicting opinions &#8211; perhaps even
-        approving of some of Napoleon&#8216;s more liberal policies.
+        approving of some of Napoleon&#8217;s more liberal policies.
       &#160;
       &#160;
-        &#8224;(Coote&#8216;s Paradise was renamed to Dundas in 1814, and is now part of
+        &#8224;(Coote&#8217;s Paradise was renamed to Dundas in 1814, and is now part of
         greater Hamilton IRL)
       </events>
     </phase>
