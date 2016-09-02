@@ -10,9 +10,9 @@ end
 
 totals = 0
 ARGV.each do |filename|
-  xml      = File.read(filename)
-  doc      = Nokogiri::XML(xml)
-  modes    = doc.xpath('//mode')
+  xml   = File.read(filename)
+  doc   = Nokogiri::XML(xml)
+  modes = doc.xpath('//mode')
   modes.each do |mode|
     skills = mode.xpath('skill')
     costs  = skills.map(&extract('cost'))
