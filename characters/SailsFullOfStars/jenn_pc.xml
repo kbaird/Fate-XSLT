@@ -35,16 +35,14 @@
   </languages>
     <!--
   <extras>
-    <gadget name="Reference Books">
-      <function>Dry, but Comprehensive</function>
+    <gadget name="foo">
+      <function>bar</function>
       <flaws>
-        <flaw>Information Might Be Out of Date</flaw>
+        <flaw>baz</flaw>
       </flaws>
       <benefits>
-        <benefit name="I've Read About That! ☐">
-          You've read hundreds - if not thousands - of books on a wide variety of topics. You can
-          spend a Fate Point to use Lore in place of any other skill for one roll or exchange,
-          provided you can justify having read about the action you’re attempting. (Once per Scene).
+        <benefit name="That's a Paddlin' ☐">
+          &#160;
         </benefit>
       </benefits>
     </gadget>
@@ -68,13 +66,13 @@
   </consequences>
   <phase-trio>
     <phase num="1">
-      <events>Some events</events>
+      <events>&#160;</events>
     </phase>
     <phase num="2">
-      <events>Some events</events>
+      <events>&#160;</events>
     </phase>
     <phase num="3">
-      <events>Some events</events>
+      <events>&#160;</events>
     </phase>
   </phase-trio>
 </character>

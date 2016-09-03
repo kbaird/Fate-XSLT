@@ -27,6 +27,9 @@
       <xsl:when test="/character/extras/extra/@cost">
         <xsl:value-of select="count(/character/extras/extra/@cost)"/>
       </xsl:when>
+      <xsl:when test="/character/extras/gadget">
+        <xsl:value-of select="count(/character/extras/gadget/benefit) + count(/character/extras/gadget/function) - count(/character/extras/gadget/flaw)"/>
+      </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="0"/>
       </xsl:otherwise>
