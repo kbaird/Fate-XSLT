@@ -1,12 +1,8 @@
----
-title: Jadepunk City Guard
-author: Kevin C. Baird
-...
 
 ## City Guard
 
 **Name**
-:
+: ?
 
 **Portrayal**
 : *Vigilant City Guardsman*
@@ -19,8 +15,6 @@ author: Kevin C. Baird
 
 **Competence Bonus**
 : Average (+1); +1 Teamwork when 2+ Stress Boxes unchecked
-
-**Assets**
 
 **Armor**
 : Device
@@ -37,10 +31,38 @@ author: Kevin C. Baird
 - **Numerous** (1 sword, 1 pistol)
 - **Demanding** (1 action to switch b/t ranged & melee)
 
-**Stress**
+### Stress
 
 Teams of 2
 : [ 1 ][ 2 ]
 
 Teams of 5
 : [ 1 ][ 2 ][ 3 ]
+
+## Crime Lord
+
+**Name**
+: ?
+
+**Portrayal**
+: *Untouchable Crime Lord*
+
+**Need**
+: *Good Help is Hard to Find*
+
+**Secret**
+: *Paying Off a Specific Magistrate*
+
+**Competence Bonus**
+: Fair (+2)
+
+**Clockwork Firearm**
+: Device
+
+- **Function Aspect**: *Red Jade Six-Shooter*
+- **Harmful** 2
+- **Demanding** (1 action to reload after a lot of shooting)
+
+### Stress
+: [ 1 ]
+
