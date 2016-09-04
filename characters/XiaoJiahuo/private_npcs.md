@@ -25,7 +25,7 @@
 : *Prove I Killed No One*
 
 **Secret**
-: *Sells Red Fire in the Alley Behind the Deli*
+: *Sells Red Fury in the Alley Behind the Deli*
 
 **Competence Bonus**
 : Fair (+2)
