@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
 <character>
   <id>
-    <charname>Dilar Hanania</charname>
+    <charname nickname="Madame Lotus">Dilar Hanania</charname>
     <playername>Jennifer Cornish</playername>
     <story>
       Owns a secret Black Jade mine under her family's more modest "Wayne Manor".
