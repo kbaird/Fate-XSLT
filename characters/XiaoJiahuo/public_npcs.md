@@ -1,7 +1,40 @@
----
-title: Hired Goons
-author: Kevin C. Baird
-...
+
+## Hamza Abu-Talat
+
+**Name**
+: Hamza Abu-Talat
+
+**Portrayal**
+: *General Manager of The Blooming Lotus*
+
+**Need**
+: 
+
+**Secret**
+: 
+
+**Competence Bonus**
+: Fair (+2)
+
+**Stress**
+: [ 1 ]
+
+## Street Thugs
+
+**Portrayal**
+: *Street Thug*
+
+**Need**
+: *Make An Impression*
+
+**Secret**
+: *Skimming the Take*
+
+**Competence Bonus**
+: Fair (+1)
+
+**Stress**
+: [ 1 ]
 
 ## Hired Goons
 
@@ -40,3 +73,4 @@ Teams of 2
 
 Teams of 5
 : [ 1 ][ 2 ][ 3 ]
+
