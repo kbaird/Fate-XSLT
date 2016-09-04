@@ -4,8 +4,8 @@
 clear
 
 grep '<aspect ' \
-  XiaoJiahuo/chen_daiyu.xml XiaoJiahuo/dilar.xml XiaoJiahuo/griff.xml \
-  XiaoJiahuo/mike_pc.xml XiaoJiahuo/steffan_gilios.xml \
+  chen_daiyu.xml dilar.xml griff.xml \
+  mike_pc.xml steffan_gilios.xml \
   | sed 's#</aspect>##g' \
   | sed 's#<aspect type=".*">##g' \
   | sed 's#XiaoJiahuo/##g' \
