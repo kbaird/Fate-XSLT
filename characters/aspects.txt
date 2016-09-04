@@ -1,0 +1,26 @@
+chen_daiyu:       Practioner of the Ghost Serpent Style
+chen_daiyu:       Kausao Street Rat
+chen_daiyu:       Witnessed the Murder of her Shīfu
+chen_daiyu:       I Will "Rest" When my Master is Avenged
+chen_daiyu:       Extremely Stubborn
+
+dilar:            Daughter of Old Mining Money
+dilar:            I Have Friends on the Council
+dilar:            Who's After the Formula, and Why?
+dilar:            I Have to Take Care of My Sister
+dilar:            Secret Owner of a Kausao Speakeasy
+
+griff:            Captain of the Airship [xxx]
+griff:            Self-Made Assassin
+griff:            "Friend" Let Mom Die
+griff:            Death to the Rich
+griff:            [Vendetta / Dogma / Secrets]
+
+mike_pc:          Túyàngan Alchemist
+mike_pc:          [Why is a Droneworks employing an Alchemist?]
+
+steffan_gilios:    Shift Lead at the Blooming Lotus
+steffan_gilios:    Specialized in Acquiring Illicit Materials
+steffan_gilios:    Family Business was Taken Over via Corruption
+steffan_gilios:    Laws are Not Boundaries to Justice
+steffan_gilios:    Restoring the Family Reputation Falls to Steffan
