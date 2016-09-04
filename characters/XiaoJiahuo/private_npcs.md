@@ -39,7 +39,7 @@
 : *Rickshaw Driver; Former Drone Pilot*
 
 **Need**
-: *Psychoactive Medicinal Jade*
+: *Cover My Tracks*
 
 **Secret**
 : *Jade Concoctions Have Driven Me Psychotic*
