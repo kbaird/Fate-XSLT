@@ -1,17 +1,14 @@
 
 ## Hamza Abu-Talat
 
-**Name**
-: Hamza Abu-Talat
-
 **Portrayal**
 : *General Manager of The Blooming Lotus*
 
 **Need**
-: 
+: ?
 
 **Secret**
-: 
+: ?
 
 **Competence Bonus**
 : Fair (+2)
@@ -57,7 +54,7 @@
 **Competence Bonus**
 : Average (+1); +1 Teamwork when 2+ Stress Boxes unchecked
 
-**Assets**
+### Assets
 
 **Clockwork Firearm**
 : Device
