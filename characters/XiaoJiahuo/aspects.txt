@@ -24,3 +24,12 @@ steffan_gilios:    Specialized in Acquiring Illicit Materials
 steffan_gilios:    Family Business was Taken Over via Corruption
 steffan_gilios:    Laws are Not Boundaries to Justice
 steffan_gilios:    Restoring the Family Reputation Falls to Steffan
+
+Compels
+Self-Made Assassin
+  "You have ingested a slow-acting poison and will be dead by sunset tomorrow."
+  True? Or someone trying to get Griff and/or his VC to attack whom they suspect?
+  (Talislanta 4e, pg434)
+
+I Will "Rest" When my Master is Avenged
+  Crime Boss (Kingpin to Hiro's DD) likely suspect for ordering hit
