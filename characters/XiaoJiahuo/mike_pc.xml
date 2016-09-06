@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
 <character>
   <id>
-    <charname>&#160;</charname>
+    <charname nickname="Wǔ míng shù">五明数</charname>
     <playername>Michael Wood</playername>
     <story>
       An alchemist / brewer of elixirs &amp; concoctions.
