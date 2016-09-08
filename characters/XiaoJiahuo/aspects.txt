@@ -1,8 +1,8 @@
-chen_daiyu:    Practitioner of the Ghost Serpent Style
-chen_daiyu:    Kausao Street Rat
-chen_daiyu:    Witnessed the Murder of her Shīfu
-chen_daiyu:    I Will "Rest" When my Master is Avenged
-chen_daiyu:    Extremely Stubborn
+chen_da_yu:    Practitioner of the Ghost Serpent Style
+chen_da_yu:    Kausao Street Rat
+chen_da_yu:    Witnessed the Murder of her Shīfu
+chen_da_yu:    I Will "Rest" When my Master is Avenged
+chen_da_yu:    Extremely Stubborn
 
 dilar:    Daughter of Old Mining Money
 dilar:    I Have Friends on the Council
@@ -16,8 +16,8 @@ griff:    "Friend" Let Mom Die
 griff:    Death to the Rich
 griff:    [Vendetta / Dogma / Secrets]
 
-mike_pc:    Túyàngan Alchemist
-mike_pc:    [Why is a Droneworks employing an Alchemist?]
+wu:    Túyàngan Alchemist
+wu:    [Why is a Droneworks employing an Alchemist?]
 
 steffan_gilios:    Shift Lead at the Blooming Lotus
 steffan_gilios:    Specialized in Acquiring Illicit Materials
