@@ -6,18 +6,20 @@
     <charname nickname="Griff Lewelling">Gryffudd Llywellyn</charname>
     <playername>Brian Wilcox</playername>
     <story>
+      Son of servant mother. Raised in a welathy home alongside their son;
+      thought they were friends. Reinvented self after mother's death.
       appearance: athletic, bald, ridiculous mustache
       religion: outwardly, reformed Church of Ehal (lapsed)
-      Speaks Aerish natively; gets by for business purposes in Kaiyu, Túyàngan, and Naramel.
+      Speaks Aerish natively; Túyàngan near-fluently, pidgin Kaiyumi and Naramel.
     </story>
   </id>
   <refresh base="7"/>
   <aspects>
     <aspect type="Portrayal">Captain of the Airship Corran</aspect>
     <aspect type="Background">Self-Made Assassin</aspect>
-    <aspect type="Inciting-Incident">"Friend" Let Mom Die</aspect>
+    <aspect type="Inciting-Incident">Elitist "Friend" Let Mom Die</aspect>
     <aspect type="Belief">Death to the Rich</aspect>
-    <aspect type="Trouble">[Vendetta / Dogma / Secrets]</aspect>
+    <aspect type="Trouble">Double Life</aspect>
   </aspects>
   <professions>
     <profession rating="0" name="Aristocrat"/>
