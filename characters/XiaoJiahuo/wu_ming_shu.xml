@@ -16,13 +16,13 @@
   <aspects>
     <aspect type="Portrayal">Túyàngan Alchemist</aspect>
     <aspect type="Background">&#160;</aspect>
-    <aspect type="Inciting-Incident">[Why is a Droneworks employing an Alchemist?]</aspect>
-    <aspect type="Belief">&#160;</aspect>
+    <aspect type="Inciting-Incident">Why is a Droneworks employing an Alchemist?</aspect>
+    <aspect type="Belief">There are People Involved</aspect>
     <aspect type="Trouble">&#160;</aspect>
   </aspects>
   <professions>
-    <profession rating="&#160;" name="Aristocrat"/>
-    <profession rating="3" name="Engineer"/>
+    <profession rating="3" name="Aristocrat"/>
+    <profession rating="2" name="Engineer"/>
     <profession rating="&#160;" name="Explorer"/>
     <profession rating="&#160;" name="Fighter"/>
     <profession rating="&#160;" name="Scholar"/>
@@ -35,6 +35,14 @@
       </features>
       <flaws>
         <flaw type="Situational" effect="Only when brewing Jade-infused potion Devices"/>
+      </flaws>
+    </asset>
+    <asset name="XXX" guiding-aspect="Inciting-Incident" type="Technique">
+      <features>
+        <feature type="Flexible" effect="Use Aristocrat instead of Scoundrel"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="When trying to conceal information about Jade research"/>
       </flaws>
     </asset>
   </assets>
