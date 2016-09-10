@@ -13,7 +13,7 @@
   </id>
   <refresh base="7"/>
   <aspects>
-    <aspect type="Portrayal">Captain of the Airship [xxx]</aspect>
+    <aspect type="Portrayal">Captain of the Airship Corran</aspect>
     <aspect type="Background">Self-Made Assassin</aspect>
     <aspect type="Inciting-Incident">"Friend" Let Mom Die</aspect>
     <aspect type="Belief">Death to the Rich</aspect>
@@ -28,14 +28,21 @@
     <profession rating="3" name="Scoundrel"/>
   </professions>
   <assets>
-    <asset name="[Ship Name]" function="White Jade Airship" type="Device">
+    <asset name="Corran" function="White Jade Airship" type="Device">
       <features>
         <feature type="Aspect"      effect="Small and Manueverable"/>
         <feature type="Exceptional" effect="Instantly leave or appear in a scene, as long as there's a way in or out"/>
       </features>
       <flaws>
-        <flaw type="Demanding" effect="Requires a Fair [+2] Explorer roll to get a ship underway"/>
         <flaw type="Consuming"/>
+      </flaws>
+    </asset>
+    <asset name="Coup de Grace" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Flexible" effect="Use Scoundrel instead of Fighter"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="When the target is unaware of Griff's presence"/>
       </flaws>
     </asset>
   </assets>
