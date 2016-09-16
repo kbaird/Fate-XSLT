@@ -1,47 +1,48 @@
 # Plot Threads
 
 ## The Patients:
-- There’s a strange woman named Isabella who wants special medication to treat a bunch of
-  delusional patients, but won’t divulge who or why or for what specifically.
+- There’s a strange woman named Isabella who wants special medication to treat a bunch
+  of delusional patients, but won’t divulge who or why or for what specifically.
 - Steffan is obsessed with finding out who Isabella is.
 - Dáyù is waiting for her tail to report back on Isabella’s lackey.
 - Dáyù is going to owe the woman a favor involving the Lotus.
-- The Lotus paid the bail for a hire-a-thug Isabella employed, and it bribed a cop, both of
-  which might be useful in the future.
+- The Lotus paid the bail for a hire-a-thug Isabella employed, and it bribed a cop, both
+  of which might be useful in the future.
 
 ## The Break-In:
 - Dilar wants to know who ransacked her home, who hired them, and why.
-- It might relate to her secret ownership of the Blooming Lotus, or to the special medication
-  Mr Wǔ secretly developed for her schizophrenic sister.
+- It might relate to her secret ownership of the Blooming Lotus, or to the special
+  medication Mr Wǔ secretly developed for her schizophrenic sister.
 - Dilar knows Griff knows something about the break-in, but he’s not telling.
-- Griff is secretly a political assassin. He works with the ransackers, and has offered to cozy
-up to Dilar to manipulate her into position for the next time.
+- Griff is secretly a political assassin. He works with the ransackers, and has offered
+  to cozy up to Dilar to manipulate her into position for the next time.
 
 ## The Murders:
 - Someone is killing seemingly-random nobodies, gruesomely.
 - Steffan has also become obsessed with this.
-- Dáyù is concerned the murders will disproportionately target her people. She’s already lost
-  one informant to it.
+- Dáyù is concerned the murders will disproportionately target her people. She’s already
+  lost one informant to it.
 - The murderer was in contact quite some time ago with unusually-processed white jade.
 - Mr Wǔ is also working with a special white jade process.
 - Griff is around white jade a lot, as well, but of a more common variety.
-- Steffan learned about the white jade residue from his smuggling contacts. Griff’s union
-  handles most of the airship smuggling. They have certainly worked together before.
+- Steffan learned about the white jade residue from his smuggling contacts. Griff’s
+  union handles most of the airship smuggling. They have certainly worked together before.
 
 ## The Process:
 - Mr Wǔ’s team can’t replicate the white jade process, although Mr Wǔ knows it can work.
-- Mr Wǔ and Dilar are trying to relocate his team to her compound, where they assume they’ll be
-  safe.
-- Mr Wǔ used to be an alchemist, but is now an engineer. (Not true?)
+- Mr Wǔ and Dilar are trying to relocate his team to her compound, where they assume
+  they’ll be safe.
+- Mr Wǔ is an alchemist.
 - Remote-piloted drones are becoming more prevalent in Kausao than most people realize.
 - Mr Wǔ put a lotus on his front door as a signal to someone.
-- The Python Mining Company knows the white jade process exists, but believes the all records
-  of it were destroyed. If they find out it hasn’t, they’ll undoubtedly look to assassinate
-  everyone involved.
-- Although the Assassins’ Guild would probably refuse the case (since Mr Wǔ isn’t rich), his
-  formula would do quite a bit of damage to their legitimate cover business. (If white jade is
-  so cheap, everyone could afford to own their own airship and transport their own goods.)
+- The Python Mining Company knows the white jade process exists, but believes the all
+  records of it were destroyed. If they find out it hasn’t, they’ll undoubtedly look to
+  assassinate everyone involved.
+- Although the Assassins’ Guild would probably refuse the case (since Mr Wǔ isn’t rich),
+  his formula would do quite a bit of damage to their legitimate cover business. (If
+  white jade is so cheap, everyone could afford to own their own airship and transport
+  their own goods.)
 - Python Mining is a subsidiary of the Four Winds Trading Co., an Aerish corporation that
   provides the vast majority of business for the Airship Stevedore’s Union.
-- Aerum relies heavily on white jade for both its technology and its economy. Kaiyu does, too,
-  to a lesser extent.
+- Aerum relies heavily on white jade for both its technology and its economy. Kaiyu does,
+  too, to a lesser extent.
