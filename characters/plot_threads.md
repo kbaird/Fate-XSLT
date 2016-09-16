@@ -1,4 +1,6 @@
-1. The Patients:
+# Plot Threads
+
+## The Patients:
 - There’s a strange woman named Isabella who wants special medication to treat a bunch of
   delusional patients, but won’t divulge who or why or for what specifically.
 - Steffan is obsessed with finding out who Isabella is.
@@ -7,7 +9,7 @@
 - The Lotus paid the bail for a hire-a-thug Isabella employed, and it bribed a cop, both of
   which might be useful in the future.
 
-2. The Break-In:
+## The Break-In:
 - Dilar wants to know who ransacked her home, who hired them, and why.
 - It might relate to her secret ownership of the Blooming Lotus, or to the special medication
   Mr Wǔ secretly developed for her schizophrenic sister.
@@ -15,7 +17,7 @@
 - Griff is secretly a political assassin. He works with the ransackers, and has offered to cozy
 up to Dilar to manipulate her into position for the next time.
 
-3. The Murders:
+## The Murders:
 - Someone is killing seemingly-random nobodies, gruesomely.
 - Steffan has also become obsessed with this.
 - Dáyù is concerned the murders will disproportionately target her people. She’s already lost
@@ -26,7 +28,7 @@ up to Dilar to manipulate her into position for the next time.
 - Steffan learned about the white jade residue from his smuggling contacts. Griff’s union
   handles most of the airship smuggling. They have certainly worked together before.
 
-4. The Process:
+## The Process:
 - Mr Wǔ’s team can’t replicate the white jade process, although Mr Wǔ knows it can work.
 - Mr Wǔ and Dilar are trying to relocate his team to her compound, where they assume they’ll be
   safe.
