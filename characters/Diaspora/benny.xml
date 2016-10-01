@@ -23,15 +23,19 @@
   </aspects>
   <skills>
     <skill rating="5" name="Repair"/>
+
     <skill rating="4" name="Bureaucracy"/>
     <skill rating="4" name="Intimidation"/>
+
     <skill rating="3" name="Tactics"/>
     <skill rating="3" name="Charm"/>
     <skill rating="3" name="Resolve"/>
+
     <skill rating="2" name="Oratory"/>
     <skill rating="2" name="Survival"/>
     <skill rating="2" name="Science"/>
     <skill rating="2" name="Vehicle"/>
+
     <skill rating="1" name="Agility"/>
     <skill rating="1" name="Profession: Farmer"/>
     <skill rating="1" name="Alertness"/>

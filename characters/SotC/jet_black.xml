@@ -23,15 +23,19 @@
   </aspects>
   <skills>
     <skill page="xx" rating="5" name="Athletics"/>
+
     <skill page="xx" rating="4" name="Engineering"/>
     <skill page="xx" rating="4" name="Guns"/>
+
     <skill page="xx" rating="3" name="Pilot"/>
     <skill page="xx" rating="3" name="Stealth"/>
     <skill page="xx" rating="3" name="Fists"/>
+
     <skill page="xx" rating="2" name="Drive"/>
     <skill page="xx" rating="2" name="Endurance"/>
     <skill page="xx" rating="2" name="Resolve"/>
     <skill page="xx" rating="2" name="Intimidation"/>
+
     <skill page="xx" rating="1" name="Alertness"/>
     <skill page="xx" rating="1" name="Science"/>
     <skill page="xx" rating="1" name="Might"/>
