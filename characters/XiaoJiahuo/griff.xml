@@ -6,7 +6,7 @@
     <charname nickname="Griff Lewelling">Gryffudd Llywellyn</charname>
     <playername>Brian Wilcox</playername>
     <story>
-      Son of servant mother. Raised in a welathy home alongside their son;
+      Son of servant mother. Raised in a wealthy home alongside their son;
       thought they were friends. Reinvented self after mother's death.
       appearance: athletic, bald, ridiculous mustache
       religion: outwardly, reformed Church of Ehal (lapsed)
@@ -32,8 +32,10 @@
   <assets>
     <asset name="Corran" function="White Jade Airship" type="Device">
       <features>
-        <feature type="Aspect"      effect="Small and Manueverable"/>
-        <feature type="Exceptional" effect="Instantly leave or appear in a scene, as long as there's a way in or out"/>
+        <feature type="Aspect"
+          effect="Small and Manueverable"/>
+        <feature type="Exceptional"
+          effect="Instantly leave or appear in a scene, as long as there's a way in or out"/>
       </features>
       <flaws>
         <flaw type="Consuming"/>
