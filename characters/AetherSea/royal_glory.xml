@@ -4,7 +4,10 @@
 <ship size="Major">
   <id>
     <name>Royal Glory</name>
-    <description>A standard Amethyst-class ship of the Royal Navy, albeit one which has seen a few battles and slipshod repairs.</description>
+    <description>
+      A standard Amethyst-class ship of the Royal Navy, albeit
+      one which has seen a few battles and slipshod repairs.
+    </description>
   </id>
   <aspects>
     <aspect type="High-Concept">Well-Used Royal Navy Warship</aspect>
@@ -29,7 +32,9 @@
   <bad-at>Navigating Close Quarters</bad-at>
   <components>
     <component name="Two Weapons Stations">cannons</component>
-    <component name="Grappling Station">Harpoon used to grab and tow ships and other objects.</component>
+    <component name="Grappling Station">
+      Harpoon used to grab and tow ships and other objects.
+    </component>
   </components>
   <!--
   <stunts>

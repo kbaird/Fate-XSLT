@@ -11,8 +11,10 @@
     <aspect type="High-Concept">Former Red Ball Trucker Turned Trader</aspect>
     <aspect type="Trouble">Things Don't Never Go Smooth</aspect>
     <aspect type="Glory Days" phase-num="1">Hustled My Way Across the USA</aspect>
-    <aspect type="The Day After Ragnarok" phase-num="2">Find a Crew, Find a Job, Keep on Truckin'</aspect>
-    <aspect type="Just a Few Days Ago" phase-num="3">It's My Truck, It's My Rules</aspect>
+    <aspect type="The Day After Ragnarok"
+      phase-num="2">Find a Crew, Find a Job, Keep on Truckin'</aspect>
+    <aspect type="Just a Few Days Ago"
+      phase-num="3">It's My Truck, It's My Rules</aspect>
   </aspects>
   <skills>
     <skill rating="5" name="Rapport"/>
