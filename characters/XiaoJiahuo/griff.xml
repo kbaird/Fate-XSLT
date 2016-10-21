@@ -41,7 +41,7 @@
     </asset>
     <asset name="Coup de Grace" guiding-aspect="Background" type="Technique">
       <features>
-        <feature type="Flexible" effect="Use Scoundrel instead of Fighter"/>
+        <feature type="Flexible" effect="Attack with Scoundrel instead of Fighter"/>
       </features>
       <flaws>
         <flaw type="Situational" effect="When the target is unaware of Griff's presence"/>
