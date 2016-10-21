@@ -17,7 +17,7 @@
   <aspects>
     <aspect type="Portrayal">Captain of the Airship Corran</aspect>
     <aspect type="Background">Self-Made Assassin</aspect>
-    <aspect type="Inciting-Incident">Elitist "Friend" Let Mom Die</aspect>
+    <aspect type="Inciting-Incident">Elitist &#8220;Friend&#8221; Let Mom Die</aspect>
     <aspect type="Belief">Death to the Rich</aspect>
     <aspect type="Trouble">Double Life</aspect>
   </aspects>
@@ -41,7 +41,7 @@
         <flaw type="Consuming"/>
       </flaws>
     </asset>
-    <asset name="Coup de Grace" guiding-aspect="Background" type="Technique">
+    <asset name="Coup de Grâce" guiding-aspect="Background" type="Technique">
       <features>
         <feature type="Flexible" effect="Attack with Scoundrel instead of Fighter"/>
       </features>

@@ -6,10 +6,10 @@
     <charname>Steffan Gilios</charname>
     <playername>Christopher Mitchell</playername>
     <story>
-      Does procurement work for "Madame Lotus" at the Blooming Lotus.
+      Does procurement work for &#8220;Madame Lotus&#8221; at the Blooming Lotus.
       Reports to Hamza Abu-Talat (Male Naramel), general manager of the
       Blooming Lotus.
-      Does not know that "Madame Lotus" is Dilar.
+      Does not know that &#8220;Madame Lotus&#8221; is Dilar.
       Owes her a favor? Hooked on her junk? Aerish.
       Speaks Aerish natively, Kaiyu very well, and nothing else.
     </story>
@@ -37,7 +37,8 @@
         <feature type="Numerous" effect="2 revolvers"/>
       </features>
       <flaws>
-        <flaw type="Demanding" effect="(requires an action to reload after a lot of shooting)"/>
+        <flaw type="Demanding"
+          effect="(requires an action to reload after a lot of shooting)"/>
       </flaws>
     </asset>
     <asset name="Honor Among Thieves" guiding-aspect="Portrayal" type="Technique">
@@ -59,7 +60,8 @@
     </asset>
     <asset name="Smuggler Society" function="Facilitates Unregulated Economies" type="Ally">
       <features>
-        <feature type="Professional" bonus="2" main-profession="Scoundrel" other-professions="Fighter"/>
+        <feature type="Professional" bonus="2"
+          main-profession="Scoundrel" other-professions="Fighter"/>
         <feature type="Numerous"     bonus="3"/>
         <feature type="Resilient"    bonus="1"/>
         <feature type="Sturdy"       bonus="1"/>
@@ -69,7 +71,9 @@
         <flaw type="Troubling"   effect="Expects members to contribute dues frequently"/>
         <flaw type="Situational" effect="Only in or near High Port"/>
       </flaws>
-      <notes>Numerous reflects whichever sub-group is available to help at any given time.</notes>
+      <notes>
+        Numerous reflects whichever sub-group is available to help at any given time.
+      </notes>
     </asset>
   </assets>
   <consequences/>
