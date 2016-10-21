@@ -5,7 +5,9 @@
   <id>
     <charname>Hrothgar Haraldsson</charname>
     <playername>Big Bad Con 2014 Iron Edda PC</playername>
-    <description>Boyish-looking young smith, formerly of the Clan of the Hammer (pre-rune).</description>
+    <description>
+      Boyish-looking young smith, formerly of the Clan of the Hammer (pre-rune).
+    </description>
   </id>
   <refresh base="3"/>
   <aspects>
@@ -31,29 +33,33 @@
     <skill rating="1" name=" "/>
   </skills>
   <extras>
-    <extra name="ᛚ (Laguz/Water) Approach">Good (+3), Giant Scale</extra>
-    <extra name="Fluid Dodge">Because Water is slippery, I get a +2 when dodging fluidly</extra>
+    <extra name="ᛚ (Laguz/Water) Approach">
+      Good (+3), Giant Scale
+    </extra>
+    <extra name="Fluid Dodge">
+      Because Water is slippery, I get a +2 when dodging fluidly
+    </extra>
   </extras>
   <stunts/>
   <consequences/>
   <phase-trio>
     <phase num="1" title="Clan/Rune/Bone&#160;Giant">
       <events>
-      Hrothgar had been chosen by the Clan of the Hammer, which was
-      superceded by being marked with the ᛚ rune.
-    </events>
+        Hrothgar had been chosen by the Clan of the Hammer, which was
+        superceded by being marked with the ᛚ rune.
+      </events>
     </phase>
     <phase num="2" title="Item of Importance">
       <events>
-      Hrothgar apprenticed to Arnora Ketilsdottir, replacing her as
-      the Holdfast smith after her death.
-    </events>
+        Hrothgar apprenticed to Arnora Ketilsdottir, replacing her as
+        the Holdfast smith after her death.
+      </events>
     </phase>
     <phase num="3" title="Crossing Paths">
       <events>Some events</events>
     </phase>
   </phase-trio>
   <notes>
-  (From Iron Edda game run by Morgan Ellis at BigBadCon 2014)
-</notes>
+    (From Iron Edda game run by Morgan Ellis at BigBadCon 2014)
+  </notes>
 </character>

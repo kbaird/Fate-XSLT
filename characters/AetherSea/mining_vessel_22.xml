@@ -20,8 +20,12 @@
     <aspect type="Ship">When In Doubt, Smash It</aspect>
   </aspects>
   <components>
-    <component name="Landing Struts">Can land planetside on its own.</component>
-    <component name="Stone Armor">All stress dealt to this ship is reduced by 1.</component>
+    <component name="Landing Struts">
+      Can land planetside on its own.
+    </component>
+    <component name="Stone Armor">
+      All stress dealt to this ship is reduced by 1.
+    </component>
   </components>
   <!-- Resources stress track derived from Size, pg 26 -->
   <!-- Starts with 2 Stations, pg 27 -->
