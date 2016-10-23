@@ -5,10 +5,10 @@
 : *General Manager of The Blooming Lotus*
 
 **Need**
-: ?
+: Someday My Family Honor Will Be Restored
 
 **Secret**
-: ?
+: Even We Have Standards
 
 **Competence Bonus**
 : Fair (+2)
