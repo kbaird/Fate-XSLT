@@ -7,10 +7,10 @@ Julphar Parmaceutical Chaemerics (JPC) offers 五 (Wǔ) a job, which he is think
 陈 (Chén) is spotted, but gets away
 
 ## Jade Concoctions
-  - "Golgari" Black & Green anti-pyschotic for Dilar's sister
-  - "Green Prozac" very similar to Golgari; 五 (Wǔ) tasked to work on this for miners
-  - "Snow Cone" White Jade perception booster, found on murder victims
-  - "Nitrous Oxide" White Jade fuel efficiency booster
+  - **Golgari** Black & Green anti-pyschotic for Dilar's sister
+  - **Green Prozac** very similar to Golgari; 五 (Wǔ) tasked to work on this for miners
+  - **Snow Cone** White Jade perception booster, found on murder victims
+  - **Nitrous Oxide** White Jade fuel efficiency booster
 
 ## 1st Murder (from before)
   - in Terminal Strip
@@ -27,8 +27,8 @@ Julphar Parmaceutical Chaemerics (JPC) offers 五 (Wǔ) a job, which he is think
   - victim is homeless
   - Snow Cone residue found
   - Aspects discovered
-    - Snow Cone is used by Hawthorne drone pilots and others
+    - _Snow Cone is used by Hawthorne drone pilots and others_
     - Suspect in Stevedore custody named 李建华 (Li Jiànhuá)
-      - his Portrayal is "Rickshaw Driver; Former Drone Pilot"
-      - his Secret is "Jade Concoctions Have Driven Me Pyschotic"
+      - his Portrayal is _Rickshaw Driver; Former Drone Pilot_
+      - his Secret is _Jade Concoctions Have Driven Me Pyschotic_
 
