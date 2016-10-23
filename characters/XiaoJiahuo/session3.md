@@ -1,15 +1,14 @@
 # Session 3 (2016-10-22)
 
-"Green Prozac" - anti-pyschotic formula for miners that 五 (Wǔ) is working on
-
 Julphar Parmaceutical Chaemerics (JPC) offers 五 (Wǔ) a job, which he is thinking over
 
 Chen tracks the goon's payer to Hawthorne, where he meets w/Isabella
+
 Chen is spotted, but gets away
 
 ## Jade Concoctions
   - "Golgari" Black & Green anti-pyschotic for Dilar's sister
-  - "Green Prozac" very similar to Golgari
+  - "Green Prozac" very similar to Golgari; 五 (Wǔ) tasked to work on this for miners
   - "Snow Cone" White Jade perception booster, found on murder victims
   - "Nitrous Oxide" White Jade fuel efficiency booster
 
