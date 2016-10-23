@@ -2,9 +2,9 @@
 
 Julphar Parmaceutical Chaemerics (JPC) offers 五 (Wǔ) a job, which he is thinking over
 
-Chen tracks the goon's payer to Hawthorne, where he meets w/Isabella
+陈 (Chén) tracks the goon's payer to Hawthorne, where he meets w/Isabella
 
-Chen is spotted, but gets away
+陈 (Chén) is spotted, but gets away
 
 ## Jade Concoctions
   - "Golgari" Black & Green anti-pyschotic for Dilar's sister
