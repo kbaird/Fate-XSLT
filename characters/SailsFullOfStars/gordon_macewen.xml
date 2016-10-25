@@ -55,7 +55,7 @@
     <gadget name="Naval Dirk">
       <function>Close-Quarters Fighting Knife</function>
       <flaws>
-        <flaw>Obviously Royal Navy Issue</flaw>
+        <flaw>Too Small for a Sword; Too Big for a Knife</flaw>
       </flaws>
       <benefits>
         <benefit name="Cuts AND Parries">
@@ -94,8 +94,8 @@
       +2 to Sail rolls to create positional Aspects.
     </stunt>
     <stunt name="Gruff Skydog">
-      May use Will instead of Provoke to Attack when relying on Gordie's military
-      background to intimidate.
+      May use Will instead of Provoke to Overcome
+      when relying on Gordie&#8217;s military background.
     </stunt>
     <stunt name="Haulin&#8217; Freight for Years">
       May use Sail instead of Rapport to negotiate trade deals.
@@ -146,8 +146,7 @@
         artisan-class family of Scottish immigrants.
       &#160;
       &#160;
-        Like any loyal colonial subject, Gordon volunteered to defend his home from
-        American invasion in 1812. He served aboard _HMCAS Dauntless_, which primarily
+        In the War of 1812, he served aboard _HMCAS Dauntless_, which primarily
         defended Canada in the skies above Lake Ontario. In its final battle, The
         _Dauntless_ successfully prevented the _USAS Richard Henry Lee_ from capturing
         York (now Toronto), forcing it to retreat back to Rochester. _HMCAS Dauntless_
