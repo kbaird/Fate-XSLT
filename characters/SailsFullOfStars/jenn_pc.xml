@@ -68,10 +68,12 @@
     <phase num="1">
       <events>&#160;</events>
     </phase>
-    <phase num="2">
+    <phase num="2"
+      title="Which INDIVIDUAL (or PC) recently betrayed your trust? Have you forgiven them, or are you plotting revenge?">
       <events>&#160;</events>
     </phase>
-    <phase num="3">
+    <phase num="3"
+      title="An incident happened at PLACE that bonded you all together, and it involved INDIVIDUAL (or PC). What happened?">
       <events>&#160;</events>
     </phase>
   </phase-trio>
