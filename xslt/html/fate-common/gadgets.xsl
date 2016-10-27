@@ -4,6 +4,7 @@
   <xsl:include href="benefit.xsl"/>
   <xsl:include href="function.xsl"/>
   <xsl:include href="flaw.xsl"/>
+  <xsl:include href="pad-stunt.xsl"/>
   <xsl:template match="aspect" mode="gadget">
     <dt><xsl:text>Aspect: </xsl:text></dt>
     <dd><xsl:value-of select="."/></dd>
@@ -14,6 +15,11 @@
         <fieldset class="mega stunt">
           <legend><span><xsl:value-of select="@name"/></span></legend>
           <dl class="gadget">
+            <xsl:call-template name="pad-stunt">
+              <xsl:with-param name="name">
+                <xsl:value-of select="@name"/>
+              </xsl:with-param>
+            </xsl:call-template>
             <xsl:apply-templates select="function"/>
             <xsl:apply-templates select="flaws/flaw"/>
             <xsl:apply-templates select="benefits/benefit"/>
