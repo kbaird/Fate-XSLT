@@ -72,15 +72,17 @@
       <!ATTLIST consequence effect CDATA #IMPLIED>
       <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
-  <!ELEMENT hacks (#PCDATA)>
-    <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit     -->
-    <!ATTLIST hacks corruption          (true|false)     "false"> <!-- Fate Freeport Companion -->
-    <!ATTLIST hacks credit-stress       (true|false)     "false"> <!-- Mostly for Mindjammer   -->
-    <!ATTLIST hacks one-point-stress    (true|false)     "false"> <!-- Fate Condensed          -->
-    <!ATTLIST hacks single-stress-track (true|false)     "false">
-    <!ATTLIST hacks skill-modes         (true|false)     "false"> <!-- Fate System Toolkit     -->
-    <!ATTLIST hacks stress-base-count   CDATA #IMPLIED>
-    <!ATTLIST hacks systems-stress      (true|false)     "false"> <!-- Mostly for Mindjammer   -->
+    <!ELEMENT hacks (#PCDATA)>
+      <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks corruption          (true|false)     "false"> <!-- Fate Freeport Companion -->
+      <!ATTLIST hacks credit-stress       (true|false)     "false"> <!-- Mostly for Mindjammer   -->
+      <!ATTLIST hacks one-point-stress    (true|false)     "false"> <!-- Fate Condensed          -->
+      <!ATTLIST hacks single-stress-track (true|false)     "false">
+      <!ATTLIST hacks skill-modes         (true|false)     "false"> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks stress-base-count   CDATA #IMPLIED>
+      <!ATTLIST hacks systems-stress      (true|false)     "false"> <!-- Mostly for Mindjammer   -->
+      <!ATTLIST hacks wealth-boosts       CDATA #IMPLIED>           <!-- Baroque Space Opera     -->
+      <!ATTLIST hacks wealth-stress       (true|false)     "false"> <!-- Baroque Space Opera     -->
 
   <!ELEMENT phase-trio (phase*)>
     <!ELEMENT phase (events*)>

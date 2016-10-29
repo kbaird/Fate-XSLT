@@ -85,6 +85,14 @@
                   </xsl:with-param>
                 </xsl:call-template>
               </xsl:if>
+              <xsl:if test="hacks/@wealth-stress='true'">
+                <xsl:call-template name="generic-stress">
+                  <xsl:with-param name="baseCount">2</xsl:with-param>
+                  <xsl:with-param name="maxCount">4</xsl:with-param>
+                  <xsl:with-param name="headerName">Wealth Stress</xsl:with-param>
+                  <xsl:with-param name="skillName">Resources</xsl:with-param>
+                </xsl:call-template>
+              </xsl:if>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:otherwise>
