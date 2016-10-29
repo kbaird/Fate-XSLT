@@ -45,7 +45,14 @@
         </section>
         <section id="fate-logo">
           <span id="fate">
-            <img alt="Powered By Fate" src="./powered_by_fate.svg" style="height: 2em; width: 5.15em"/>
+            <xsl:choose>
+              <xsl:when test="hacks/@wealth-boosts">
+                <img alt="Baroque Space Opera" src="./BSO_Logo.png" style="height: 4em; width: 9.2em"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <img alt="Powered By Fate" src="./powered_by_fate.svg" style="height: 4em; width: 10.3em"/>
+              </xsl:otherwise>
+            </xsl:choose>
           </span>
           <table>
             <tr>
