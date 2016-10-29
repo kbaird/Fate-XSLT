@@ -16,6 +16,14 @@
         <dd class="box"><xsl:value-of select="$currentFatePoints"/></dd>
       </dl>
     </td>
+  <xsl:if test="hacks/@wealth-boosts">
+    <td>
+      <dl id="wealth-boosts">
+        <dt>Wealth Boosts:</dt>
+        <dd class="box"><xsl:value-of select="hacks/@wealth-boosts"/></dd>
+      </dl>
+    </td>
+  </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>

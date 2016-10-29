@@ -33,6 +33,14 @@
           <xsl:value-of select="$useSkillModes"/>
         </xsl:with-param>
       </xsl:call-template>
+      <xsl:if test="hacks/@wealth-stress='true'">
+        <xsl:call-template name="generic-stress">
+          <xsl:with-param name="baseCount">2</xsl:with-param>
+          <xsl:with-param name="maxCount">4</xsl:with-param>
+          <xsl:with-param name="headerName">Wealth Stress</xsl:with-param>
+          <xsl:with-param name="skillName">Resources</xsl:with-param>
+        </xsl:call-template>
+      </xsl:if>
     </table>
   </xsl:template>
 </xsl:stylesheet>
