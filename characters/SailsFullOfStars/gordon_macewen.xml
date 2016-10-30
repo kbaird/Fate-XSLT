@@ -17,7 +17,7 @@
     <aspect type="High-Concept">Grizzled Veteran Rheoship Navigator</aspect>
     <aspect type="Trouble">It's Not the Years &#8211; It's the Mileage</aspect>
     <aspect phase-num="1">Fought the Yanks &amp; French in the Skies</aspect>
-    <aspect phase-num="2"></aspect>
+    <aspect phase-num="2">Man Without a Home OR Measure Twice, Cut Once</aspect>
     <aspect phase-num="3"></aspect>
   </aspects>
   <skills>
@@ -153,10 +153,27 @@
         sank, but Gordon (obviously) survived.
       &#160;
       &#160;
-        Gordie also participated in the defense of Britain from French forces. I imagine
-        he took part in the &#8220;Battle of Sheffield&#8221; in the 1820s or 1830s,
-        being taken prisoner by the French Empire&#8217;s forces as they took the city
-        and released when the UK was under secure French control.
+        &#8224;(Coote&#8217;s Paradise was renamed to Dundas in 1814, and is now part of
+        greater Hamilton IRL)
+      </events>
+    </phase>
+    <phase num="2"
+           title="Directly or not, you're the reason GROUP, got involved with EVENT,
+and they hold a grudge against you for it. What happened?">
+      <events>
+        GROUP = His old Canadian Air Corps unit, serving in Britain as the
+          &#8220;Sir Alexander Mackenzie Volunteer Airmen&#8221;.
+      &#160;
+      &#160;
+        EVENT = The Battle of Sheffield
+      &#160;
+      &#160;
+        Gordie participated in the &#8220;Battle of Sheffield&#8221; in the 1820s or
+        1830s, part of the failed defense of Britain from French forces. He also
+        encouraged GROUP to join him. He and the surviving members of GROUP were taken
+        prisoner by the French Empire&#8217;s forces as they took the city and released
+        once the UK was under secure French control. His fellow survivors blame him for
+        the deaths of the others.
       &#160;
       &#160;
         I think it&#8217;s more interesting to say that instead of being simply
@@ -164,14 +181,11 @@
         approving of some of Napoleon&#8217;s more liberal policies.
       &#160;
       &#160;
-        &#8224;(Coote&#8217;s Paradise was renamed to Dundas in 1814, and is now part of
-        greater Hamilton IRL)
       </events>
     </phase>
-    <phase num="2">
-      <events>Some events</events>
-    </phase>
-    <phase num="3">
+    <phase num="3"
+           title="You and PC were rivals, but something changed not too long ago.
+What emotions still linger? Guilt? Resentment? Love? Sadness?">
       <events>Some events</events>
     </phase>
   </phase-trio>
