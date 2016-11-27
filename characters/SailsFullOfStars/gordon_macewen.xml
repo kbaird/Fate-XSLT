@@ -15,7 +15,7 @@
   </id>
   <aspects>
     <aspect type="High-Concept">Grizzled Veteran Rheoship Navigator</aspect>
-    <aspect type="Trouble">It&#8217;s Not the Years &#8211; It&#8217;s the Mileage</aspect>
+    <aspect type="Trouble">It's Not the Years &#8211; It's the Mileage</aspect>
     <aspect phase-num="1">Fought the Yanks &amp; French in the Skies</aspect>
     <aspect phase-num="2"></aspect>
     <aspect phase-num="3"></aspect>
@@ -108,7 +108,7 @@
       previously created by myself with Contacts.
     </stunt>
     <stunt name="Never Find Us">
-      Can use Sail when "taking command" of a Rheoship&#8217;s use of Stealth (SFoS, pg22).
+      Can use Sail when &#8220;taking command&#8221; of a Rheoship&#8217;s use of Stealth. (SFoS, pg22)
     </stunt>
     <stunt name="No, YOU Move">
       When you use Will to Defend against feat or intimidation, on a Success With Style
@@ -127,11 +127,11 @@
     </stunt>
     <stunt name="Second Star to the Right">
       Charts and arithmetic mills will never replace the instincts of a good navigator.
-      +2 to Sail Overcome rolls to improve the speed of a journey.
+      +2 to Sail Overcome rolls to improve the speed of a journey. (SFoS, pg14)
     </stunt>
     <stunt name="Superior Tactics">
       When it comes to naval battles, you&#8217;ve seen every trick in the book.
-      +2 when actively opposing Sail rolls to create positional Aspects.
+      +2 when actively opposing Sail rolls to create positional Aspects. (SFoS, pg14)
     </stunt>
   </stunts>
   <consequences>
