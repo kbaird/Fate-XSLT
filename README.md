@@ -1,5 +1,7 @@
 # Fate-XSLT
 
+[![Code Climate](https://codeclimate.com/github/kbaird/Fate-XSLT/badges/gpa.svg)](https://codeclimate.com/github/kbaird/Fate-XSLT)
+
 Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various
 [Fate](http://www.faterpg.com/)-based games, along with
 [XSLT](http://www.w3.org/TR/xslt) sheets for rendering to HTML (and potentially other formats).
