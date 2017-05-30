@@ -25,19 +25,17 @@
   <extras>
   </extras>
   <stunts>
+    <stunt name="Li'l Cyborg">
+      Because I am a cyborg, I can receive radio, TV and similar signals without extra equipment.
+    </stunt>
+    <stunt name="Li'l Indy">
+      Because I am an archaeologist, I get +2 to Create (Discover) Advantages based on physical specimans.
+    </stunt>
+    <stunt name="Li'l Meerkat">
+      Because I am a meerkat, I get +2 to Overcome with Burglar to escape unseen.
+    </stunt>
   </stunts>
   <consequences>
   </consequences>
   <hacks stress-base-count="3"/>
-  <phase-trio>
-    <phase num="1">
-      <events>Some events</events>
-    </phase>
-    <phase num="2">
-      <events>Some events</events>
-    </phase>
-    <phase num="3">
-      <events>Some events</events>
-    </phase>
-  </phase-trio>
 </character>
