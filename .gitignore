@@ -4,3 +4,4 @@ Patches
 *.txt
 out/*/*.epub
 out/*/*.pdf
+out/*/*.svg
