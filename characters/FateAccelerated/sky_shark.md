@@ -1,14 +1,7 @@
----
-title:
-- type: main
-  text: Sky Shark
-creator:
-- role: author
-  text: Kevin C. Baird
-...
+% Sky Shark
+% Kevin C. Baird
 
 ## Sky Shark
-
 
 ### Aspects
 

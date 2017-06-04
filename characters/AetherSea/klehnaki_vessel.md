@@ -1,11 +1,5 @@
----
-title:
-- type: main
-  text: Klehnaki Vessel
-creator:
-- role: author
-  text: Kevin C. Baird
-...
+% Klehnaki Vessel
+% Kevin C. Baird
 
 ## Klehnaki Vessel
 

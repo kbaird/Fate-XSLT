@@ -1,11 +1,5 @@
----
-title:
-- type: main
-  text: Jadepunk City Guard
-creator:
-- role: author
-  text: Kevin C. Baird
-...
+% Jadepunk City Guard
+% Kevin C. Baird
 
 ## City Guard
 

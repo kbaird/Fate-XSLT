@@ -1,11 +1,5 @@
----
-title:
-- type: main
-  text: Recombinatr
-creator:
-- role: author
-  text: Kevin C. Baird
-...
+% Recombinatr
+% Kevin C. Baird
 
 ## The House
 

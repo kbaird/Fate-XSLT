@@ -1,11 +1,5 @@
----
-title:
-- type: main
-  text: Royal Glory
-creator:
-- role: author
-  text: Kevin C. Baird
-...
+% Royal Glory
+% Kevin C. Baird
 
 ## Royal Glory
 

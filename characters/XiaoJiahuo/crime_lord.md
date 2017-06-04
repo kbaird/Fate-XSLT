@@ -1,11 +1,5 @@
----
-title:
-- type: main
-  text: Jadepunk Crime Lord
-creator:
-- role: author
-  text: Kevin C. Baird
-...
+% Jadepunk Crime Lord
+% Kevin C. Baird
 
 ## Crime Lord
 
