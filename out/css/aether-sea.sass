@@ -16,9 +16,10 @@
 
 section#skills
   p
-    font-family: $basic_font
-    font-size: 0.7em
-    letter-spacing: $base_letter_spacing * 0.5
+    font-family: $handwriting_font
+    font-size: 0.8em
+    padding-right: 3em
+    text-align: right
 
 fieldset
   &#species
@@ -30,10 +31,15 @@ fieldset
     +label_font
 
 @media print
-  table#approaches
-    +print_approaches
-    tbody tr td dl.approaches
-      dt
-        margin-top:    -0.4em
-      dd
-        margin-bottom: -1.6em
+  table
+    &#approaches
+      +print_approaches
+      tbody tr td dl.approaches
+        dt
+          margin-top:    -0.4em
+        dd
+          margin-bottom: -1.6em
+    fieldset.aspect
+      line-height: 0.9em
+      margin: 0
+      padding-top: 0.5em
