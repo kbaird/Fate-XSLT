@@ -20,8 +20,8 @@
     <aspect type="Background">
       Raised on a Progressive, Multi-Ethnic Space Station
     </aspect>
-    <aspect>&#160;</aspect>
-    <aspect>&#160;</aspect>
+    <aspect type="Ship">&#160;</aspect>
+    <aspect type="Free">&#160;</aspect>
   </aspects>
   <approaches>
     <approach rating="3" name="Careful"/>
