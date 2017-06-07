@@ -33,7 +33,6 @@
   </approaches>
   <stunts>
     <magic>
-      <dabbles-in>Animation</dabbles-in>
       <focuses-on within="Animation">Spirit Summoning</focuses-on>
     <!--
       <permanent-magic name="Trusty Old Wand of Fireball">
@@ -45,6 +44,7 @@
       Because of my Background, I get a +2 when I Cleverly Create an Advantage when
       in a social situation where a liberal cosmopolitan background could be useful.
     </stunt>
+    <stunt name="">&#160;</stunt>
   </stunts>
   <consequences>
     <!--
@@ -53,4 +53,5 @@
     <consequence severity="Severe">severe one</consequence>
     -->
   </consequences>
+  <notes>Spirit Summoning justified by Trollish Loremaster (Revisionist) for interviews of the recently deceased</notes>
 </character>
