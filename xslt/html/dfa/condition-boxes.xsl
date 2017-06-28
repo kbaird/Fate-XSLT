@@ -4,14 +4,7 @@
   <xsl:template name="condition-boxes">
     <xsl:param name="current"/>
     <xsl:param name="max"/>
-    <dd><xsl:choose>
-      <xsl:when test="@box-value &gt; 0">
-        <xsl:value-of select="@box-value"/>
-      </xsl:when>
-      <xsl:otherwise>
-        &#160;
-      </xsl:otherwise>
-    </xsl:choose></dd>
+    <dd><xsl:value-of select="@box-value"/></dd>
     <xsl:if test="$current &lt; $max">
       <xsl:call-template name="condition-boxes">
         <xsl:with-param name="current">

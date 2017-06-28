@@ -33,7 +33,7 @@
     <!ELEMENT condition (#PCDATA)>
       <!ATTLIST condition name CDATA #REQUIRED>
       <!ATTLIST condition boxes CDATA #REQUIRED>
-      <!ATTLIST condition box-value CDATA #REQUIRED>
+      <!ATTLIST condition box-value CDATA "&#160;">
       <!ATTLIST condition duration CDATA #REQUIRED>
       <!ATTLIST condition ref CDATA #REQUIRED>
 
