@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!ELEMENT character (id, refresh?, aspects, approaches, mantle, stunts, conditions)>
+
+  <!ELEMENT id (charname, playername, description)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT playername (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+  <!ELEMENT refresh (#PCDATA)>
+    <!ATTLIST refresh base        CDATA #IMPLIED>
+    <!ATTLIST refresh current     CDATA #IMPLIED>
+    <!ATTLIST refresh free-stunts CDATA #IMPLIED>
+
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect type CDATA #IMPLIED>
+
+  <!ELEMENT approaches (approach*)>
+    <!ELEMENT approach (#PCDATA)>
+    <!ATTLIST approach name (Flair|Focus|Force|Guile|Haste|Intellect) #REQUIRED>
+    <!ATTLIST approach rating CDATA #REQUIRED>
+
+  <!ELEMENT mantle (stunt*)>
+    <!ATTLIST mantle name  CDATA #REQUIRED>
+    <!ATTLIST mantle scale CDATA "Mundane">
+
+  <!ELEMENT stunts (stunt*)>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt name CDATA #REQUIRED>
+
+  <!ELEMENT conditions (condition*)>
+    <!ELEMENT condition (#PCDATA)>
+      <!ATTLIST condition name CDATA #REQUIRED>
+      <!ATTLIST condition boxes CDATA #REQUIRED>
+      <!ATTLIST condition box-value CDATA #REQUIRED>
+      <!ATTLIST condition duration CDATA #REQUIRED>
+      <!ATTLIST condition ref CDATA #REQUIRED>
+
