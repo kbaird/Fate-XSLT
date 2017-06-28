@@ -9,9 +9,6 @@
         <th colspan="1" class="sectionheader">Conditions</th>
       </tr>
       <xsl:apply-templates select="condition"/>
-      <!--
-      <tfoot><tr><th colspan="2">F = Free, R? = Recovering?</th></tr></tfoot>
-      -->
     </table>
   </xsl:template>
 
@@ -29,10 +26,6 @@
         </dl>
       </td>
     </tr>
-    <!--
-    <xsl:text>F☐</xsl:text>
-    <xsl:text> / R?☐</xsl:text>
-    -->
   </xsl:template>
 
 </xsl:stylesheet>
