@@ -12,7 +12,8 @@ Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various
 [Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE) |
 [Atomic Robo](http://www.evilhat.com/home/atomic-robo/) |
 [Spirit of the Century](http://www.evilhat.com/home/spirit-of-the-century-2/) |
-[Shadow of the Century](http://www.evilhat.com/home/shadow-of-the-century/) from
+[Shadow of the Century](http://www.evilhat.com/home/shadow-of-the-century/) |
+[Dresden Files Accelerated](http://www.evilhat.com/home/dresden-files-accelerated//) from
 [Evil Hat Productions](http://evilhat.com/)
 
 [Diaspora](http://www.vsca.ca/Diaspora/) from 
