@@ -14,7 +14,7 @@
 
   <xsl:template match="condition">
     <tr>
-      <td style="text-align: left">
+      <td style="border: 1px solid black; text-align: left">
         <dl class="conditions">
           <dt><xsl:value-of select="@name"/> (<xsl:value-of select="@duration"/>, pg<xsl:value-of select="@ref"/>)</dt>
             <xsl:call-template name="condition-boxes">
