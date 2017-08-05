@@ -133,6 +133,15 @@
       When it comes to naval battles, you&#8217;ve seen every trick in the book.
       +2 when actively opposing Sail rolls to create positional Aspects. (SFoS, pg14)
     </stunt>
+    <stunt name="Careful Shot">
+      When you take time to aim for an exchange prior to shooting, you may use
+      Survival to Attack instead of Shoot. (AA, pg119)
+    </stunt>
+    <stunt name="I Have Just the Thing! ☐  ☐">
+      The exorcist always carries charms or devices. Twice per session, she can declare
+      that one relates to the exorcist or demon-hunting crisis of the moment. These are
+      Aspects. Each has a free invoke when declared. (T:SBS, pg48)
+    </stunt>
   </stunts>
   <consequences>
     <!--
