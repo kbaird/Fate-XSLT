@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Nima Shirazi</charname>
+    <playername>Kevin Baird</playername>
+    <description>
+      Originally an Iranian-American computer scientist and roboticist from Orange County, CA.
+      After contracting a terminal illness, successfully transferred consciousness into a small
+      (5ish) cadre of robotic insectoid bodies. Given the economics of micro-electronics
+      manufacturing, he's now mostly Chinese.
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Brilliant Transhumanist Visionary</aspect>
+    <aspect type="Trouble">Strahd Will Pay</aspect>
+    <aspect phase-num="1">Braintape in Multiple Insectoid Robot Bodies</aspect>
+    <aspect phase-num="2">Nima Knows</aspect>
+    <aspect></aspect>
+  </aspects>
+  <skills>
+    <!--
+    Want
+      Athletics
+      Burglary
+      Contacts
+      Crafts
+      Deceive
+      Notice
+      Rapport
+      Security Systems
+      Stealth
+      Will
+
+    Do Not Want
+      Drive
+      Empathy
+      Fight
+      Shoot
+
+    Not Sure
+      Investigate
+      Lore
+      Physique
+      Provoke
+
+    -->
+    <skill rating="4" name="&#160;"/>
+
+    <skill rating="3" name="&#160;"/>
+    <skill rating="3" name="&#160;"/>
+
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+  </skills>
+  <languages>
+    Speaks English and Farsi natively. Probably a smattering of Arabic.
+    He's probably enough of a douche to want to speak French just because.
+  </languages>
+  <extras/>
+  <stunts>
+  <!--
+    <stunt name="Brothers in Arms">
+      May use Sail instead of Rapport to Create Advantages about shared experiences
+      when dealing with other naval veterans&#8212;even former enemies.
+    </stunt>
+    <stunt name="Fly Rings Around Them">
+      +2 to Sail rolls to create positional Aspects.
+    </stunt>
+    <stunt name="Gruff Skydog">
+      May use Will instead of Provoke to Overcome
+      when relying on Gordie&#8217;s military background.
+    </stunt>
+    <stunt name="Haulin&#8217; Freight for Years">
+      May use Sail instead of Rapport to negotiate trade deals.
+    </stunt>
+    -->
+    <stunt name="Robots Make No Cortisol">
+      +2 to Defend against Provoke Attacks specifically related to intimidation and fear.
+    </stunt>
+    <!--
+    <stunt name="Master Scrounger">
+      +2 to Overcome with Resources when invoking an Advantage
+      previously created by myself with Contacts.
+    </stunt>
+    <stunt name="Never Find Us">
+      Can use Sail when &#8220;taking command&#8221; of a Rheoship&#8217;s use of Stealth. (SFoS, pg22)
+    </stunt>
+    <stunt name="No, YOU Move">
+      When you use Will to Defend against feat or intimidation, on a Success With Style
+      instead of gaining a Boost you can inflict a 2-shift mental hit on the attacker.
+      (M12, pg42)
+    </stunt>
+    <stunt name="Pre-Prepared Counterpoint">
+      You&#8217;ve heard that argument before, and you know how to defeat it.
+      You may use Lore to Defend against Rapport.
+    </stunt>
+    -->
+    <stunt name="Specialist: Computer Science">
+      +2 to all Science rolls relating to that field of specialization.
+    </stunt>
+    <stunt name="Inspiring Triumph Over Adversity">
+      Gains +3 instead of +2 when invoking Aspects related to sympathy about his medical condition.
+    </stunt>
+    <stunt name="Been Through Some Things">
+      Armor: 2 vs. mental attacks ("Seen It All", M12, pg25)
+    </stunt>
+    <!--
+    <stunt name="Second Star to the Right">
+      Charts and arithmetic mills will never replace the instincts of a good navigator.
+      +2 to Sail Overcome rolls to improve the speed of a journey. (SFoS, pg14)
+    </stunt>
+    <stunt name="Superior Tactics">
+      When it comes to naval battles, you&#8217;ve seen every trick in the book.
+      +2 when actively opposing Sail rolls to create positional Aspects. (SFoS, pg14)
+    </stunt>
+    <stunt name="Careful Shot">
+      When you take time to aim for an exchange prior to shooting, you may use
+      Survival to Attack instead of Shoot. (AA, pg119)
+    </stunt>
+    -->
+    <stunt name="Prototypes ☐  ☐">
+      A team of roboticists is constantly tinkering with the features of his robot bodies.
+      Twice per session, can declare an Aspect with a free Invocation to represent that. (T:SBS, pg48)
+    </stunt>
+  </stunts>
+  <consequences/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+        Contracted a terminal illness, sailed to international waters for a destructive braintaping
+        with Darcey's help. Sometime before that, Strahd vamped his child, who Nima had to kill/put
+        down/destroy. The mother is presumed by Nima to have been killed by the child, but he may
+        be mistaken.
+      </events>
+    </phase>
+    <phase num="2">
+      <events>
+        Nima hired a team of lawyers to defend Susan or get her case never to
+        come to trial with the understanding that she come work for his team.
+      </events>
+    </phase>
+  </phase-trio>
+</character>
