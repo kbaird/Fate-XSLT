@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>1034 Tom</charname>
+    <playername>Gus Bernat</playername>
+    <description>&#160;</description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Cyborg Soldier</aspect>
+    <aspect type="Trouble"></aspect>
+    <aspect type="Native Timeline"></aspect>
+    <aspect></aspect>
+    <aspect></aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Adventurer"/>
+    <profession rating="1" name="Burglar"/>
+    <profession rating="0" name="Chit-Chat"/>
+    <profession rating="2" name="Historian"/>
+    <profession rating="2" name="Scientist"/>
+    <profession rating="3" name="Soldier"/>
+  </professions>
+  <extras>
+  </extras>
+  <stunts>
+    <stunt name="Cyborg">
+      Because I am a cyborg, I can receive radio, TV and similar signals without extra equipment.
+    </stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences>
+  </consequences>
+  <hacks stress-base-count="3"/>
+</character>

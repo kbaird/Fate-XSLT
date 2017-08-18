@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>&#160;</charname>
+    <playername>Eva Doucette</playername>
+    <description>&#160;</description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Owl Diplomat</aspect>
+    <aspect type="Trouble"></aspect>
+    <aspect type="Native Timeline"></aspect>
+    <aspect></aspect>
+    <aspect></aspect>
+  </aspects>
+  <professions>
+    <profession rating="2" name="Adventurer"/>
+    <profession rating="1" name="Burglar"/>
+    <profession rating="3" name="Chit-Chat"/>
+    <profession rating="2" name="Historian"/>
+    <profession rating="1" name="Scientist"/>
+    <profession rating="0" name="Soldier"/>
+  </professions>
+  <extras>
+  </extras>
+  <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences>
+  </consequences>
+  <hacks stress-base-count="3"/>
+</character>
