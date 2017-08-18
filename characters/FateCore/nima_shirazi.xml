@@ -28,7 +28,7 @@
       Lore
       Notice
       Rapport
-      X Hacking
+      Hacking
       Stealth
       X Will
 
@@ -46,7 +46,7 @@
       Provoke
 
     -->
-    <skill rating="4" name="Hacking"/>
+    <skill rating="4" name="&#160;"/>
 
     <skill rating="3" name="&#160;"/>
     <skill rating="3" name="Will"/>
@@ -74,8 +74,8 @@
       <aspects>
         <aspect>Intrusion Countermeasures Against Vampires and Other Threats</aspect>
         <aspect>Bringing Tomorrow's Technology to the Public</aspect>
-        <aspect>Very Smart People Work Here</aspect>
         <aspect>"Serge Graystone" Robot Butler</aspect>
+        <aspect>Very Smart People Work Here</aspect>
       </aspects>
       <benefits>
         <benefit name="Prototypes ☐  ☐">
@@ -154,7 +154,7 @@
     <phase num="1">
       <events>
         Contracted a terminal illness, sailed to international waters for a destructive braintaping
-        with Darcey's help. Sometime before that, Strahd vamped his child, who Nima had to kill/put
+        with Darcy's help. Sometime before that, Strahd vamped his child, who Nima had to kill/put
         down/destroy. The mother is presumed by Nima to have been killed by the child, but he may
         be mistaken.
       </events>
