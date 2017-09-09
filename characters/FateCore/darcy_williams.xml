@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Darcy Williams</charname>
+    <playername>Jenn Cornish</playername>
+    <description>
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Washed-Up Roboticist</aspect>
+    <aspect type="Trouble">I Don't Know What Will Happen If I Stop Flying</aspect>
+    <aspect phase-num="1">Flying Is Complicated</aspect>
+    <aspect phase-num="2">Science Is The Answer</aspect>
+    <aspect></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Lore"/>
+
+    <skill rating="3" name="Athletics"/>
+    <skill rating="3" name="Crafts"/>
+
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+  </skills>
+  <languages>
+  </languages>
+  <extras>
+  </extras>
+  <stunts>
+  </stunts>
+  <consequences/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+        In grad school, found that she could fly to relieve work-related stress,
+        but immersing herself in work took her mind off being a monster.
+      </events>
+    </phase>
+    <phase num="2">
+      <events>
+        Darcy built Nima's robot bodies and it sent her over the edge.
+        She then quit robotics, hoping to balance her life.
+      </events>
+    </phase>
+  </phase-trio>
+</character>

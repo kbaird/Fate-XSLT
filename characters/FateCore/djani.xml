@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>D'jani</charname>
+    <playername>Brian Wilcox</playername>
+    <description>
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">I am a Plant Shaman</aspect>
+    <aspect type="Trouble">Staying off the grid</aspect>
+    <aspect phase-num="1">Plants are easier than humans</aspect>
+    <aspect phase-num="2">Humans and their ramblings</aspect>
+    <aspect></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="&#160;"/>
+
+    <skill rating="3" name="&#160;"/>
+    <skill rating="3" name="&#160;"/>
+
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+  </skills>
+  <languages>
+  </languages>
+  <extras>
+  </extras>
+  <stunts>
+  </stunts>
+  <consequences/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+        Relocated to the big city after (believing) I heard the plants there call to me
+        for help (for the first time).
+      </events>
+    </phase>
+    <phase num="2">
+      <events>
+      </events>
+    </phase>
+  </phase-trio>
+</character>

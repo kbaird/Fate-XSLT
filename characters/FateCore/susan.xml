@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Susan</charname>
+    <playername>Phil Bernard</playername>
+    <description>
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Energy Leech - NOT a Vampire</aspect>
+    <aspect type="Trouble">Juicing Makes Me Feel Alive</aspect>
+    <aspect phase-num="1">I Am Not A Monster, I Can Control This</aspect>
+    <aspect phase-num="2">We're All Worth Saving</aspect>
+    <aspect></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="&#160;"/>
+
+    <skill rating="3" name="&#160;"/>
+    <skill rating="3" name="&#160;"/>
+
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+  </skills>
+  <languages>
+  </languages>
+  <extras>
+  </extras>
+  <stunts>
+  </stunts>
+  <consequences/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+      </events>
+    </phase>
+    <phase num="2">
+      <events>
+        Susan is a waitress who works with Darcy. Saw her use new powers to escape attacker,
+        tried to knock him out but killed him.
+      </events>
+    </phase>
+  </phase-trio>
+</character>

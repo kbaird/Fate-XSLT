@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Faulk Wintersson</charname>
+    <playername>Antonio McFadden</playername>
+    <description>
+      Male, 30, works for Nima at the Ijtihad library. Fighter (MMA).
+      Fear, rage. "I call aqua bullshit", "Johnny Murderseed".
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Conflicted Vigilante working for humanity</aspect>
+    <aspect type="Trouble">Don't want to cross the line</aspect>
+    <aspect phase-num="1">Better to be rid of them, than become one</aspect>
+    <aspect phase-num="2">Warrior Monk</aspect>
+    <aspect></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Fight"/>
+
+    <skill rating="3" name="Lore"/>
+    <skill rating="3" name="&#160;"/>
+
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="Will"/>
+
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="&#160;"/>
+  </skills>
+  <languages>
+  </languages>
+  <extras>
+  </extras>
+  <stunts>
+  </stunts>
+  <consequences/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+        The world got worse with the rise of monsters. The fear and rancor caused become too much
+        for me. Better to be rid of them, than become one. So I DID something about it.
+      </events>
+    </phase>
+    <phase num="2">
+      <events>
+        Knows of D'jani from the library. Frequents antique book section for hours, and talks to
+        himself. Cool with him and sense different emotions from him.
+      </events>
+    </phase>
+  </phase-trio>
+</character>
