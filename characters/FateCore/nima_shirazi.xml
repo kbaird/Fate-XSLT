@@ -86,63 +86,30 @@
     </gadget>
   </extras>
   <stunts>
-  <!--
-    <stunt name="Brothers in Arms">
-      May use Sail instead of Rapport to Create Advantages about shared experiences
-      when dealing with other naval veterans&#8212;even former enemies.
-    </stunt>
-    <stunt name="Fly Rings Around Them">
-      +2 to Sail rolls to create positional Aspects.
-    </stunt>
-    <stunt name="Gruff Skydog">
-      May use Will instead of Provoke to Overcome
-      when relying on Gordie&#8217;s military background.
-    </stunt>
-    -->
     <stunt name="Drinks the Kool-Aid">
       May use Rapport instead of Deceive to Overcome when
       he believes he's ultimately doing the right thing.
+    </stunt>
+    <stunt name="No, YOU Move">
+      When you use Will to Defend against fear or intimidation, on a Success With Style
+      instead of gaining a Boost you can inflict a 2-shift mental hit on the attacker.
+      (M12, pg42)
     </stunt>
     <stunt name="Revenge Is A Dish Best Served By Infomorphs, You Murderous Undead Bloodsucker">
       Gain a +3 bonus instead of +2 when Invoking Strahd Will Pay.
     </stunt>
     <stunt name="Robot Bodies Make No Cortisol">
       +2 to Defend against Provoke Attacks specifically related to intimidation and fear.
+      OR
+      Immune to attempts to Create Advantages describing emotional states more extreme than cool, rational ones.
+    </stunt>
+    <stunt name="Seen It All">
+      Armor: 2 vs. mental attacks (M12, pg25)
+    </stunt>
+    <stunt name="Standing On the Shoulders of Van Helsing">
+      +2 to Create (recall) an Advantage with Lore directly pertaining to vampirism.
     </stunt>
     <!--
-    <stunt name="Master Scrounger">
-      +2 to Overcome with Resources when invoking an Advantage
-      previously created by myself with Contacts.
-    </stunt>
-    <stunt name="Never Find Us">
-      Can use Sail when &#8220;taking command&#8221; of a Rheoship&#8217;s use of Stealth. (SFoS, pg22)
-    </stunt>
-    <stunt name="No, YOU Move">
-      When you use Will to Defend against feat or intimidation, on a Success With Style
-      instead of gaining a Boost you can inflict a 2-shift mental hit on the attacker.
-      (M12, pg42)
-    </stunt>
-    <stunt name="Pre-Prepared Counterpoint">
-      You&#8217;ve heard that argument before, and you know how to defeat it.
-      You may use Lore to Defend against Rapport.
-    </stunt>
-    <stunt name="Specialist: Computer Science">
-      +2 to all Science rolls relating to that field of specialization.
-    </stunt>
-    <stunt name="Inspiring Triumph Over Adversity">
-      Gains +3 instead of +2 when invoking Aspects related to sympathy about his medical condition.
-    </stunt>
-    <stunt name="Been Through Some Things">
-      Armor: 2 vs. mental attacks ("Seen It All", M12, pg25)
-    </stunt>
-    <stunt name="Second Star to the Right">
-      Charts and arithmetic mills will never replace the instincts of a good navigator.
-      +2 to Sail Overcome rolls to improve the speed of a journey. (SFoS, pg14)
-    </stunt>
-    <stunt name="Superior Tactics">
-      When it comes to naval battles, you&#8217;ve seen every trick in the book.
-      +2 when actively opposing Sail rolls to create positional Aspects. (SFoS, pg14)
-    </stunt>
     <stunt name="Careful Shot">
       When you take time to aim for an exchange prior to shooting, you may use
       Survival to Attack instead of Shoot. (AA, pg119)
