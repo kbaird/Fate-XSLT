@@ -106,6 +106,9 @@
     <stunt name="Seen It All">
       Armor: 2 vs. mental attacks (M12, pg25)
     </stunt>
+    <stunt name="Smartlinks">
+      May use Hacking to Attack when invoking Aspects describing computer-controller weapons.
+    </stunt>
     <stunt name="Standing On the Shoulders of Van Helsing">
       +2 to Create (recall) an Advantage with Lore directly pertaining to vampirism.
     </stunt>
