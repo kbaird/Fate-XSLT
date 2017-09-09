@@ -22,9 +22,6 @@
   <skills>
     <!--
     Want
-      Athletics
-      Burglary
-      Contacts
       Lore
       Notice
       Rapport
@@ -33,16 +30,19 @@
       X Will
 
     Do Not Want
+      Contacts
       Drive
-      Empathy
       Fight
+      Physique
       Shoot
 
     Not Sure
+      Athletics
+      Burglary
       Crafts
       Deceive
+      Empathy
       Investigate
-      X Physique
       Provoke
 
     -->
@@ -58,7 +58,7 @@
     <skill rating="1" name="&#160;"/>
     <skill rating="1" name="&#160;"/>
     <skill rating="1" name="&#160;"/>
-    <skill rating="1" name="Physique"/>
+    <skill rating="1" name="&#160;"/>
   </skills>
   <languages>
     Speaks English and Farsi natively. Probably a smattering of Arabic.
@@ -74,7 +74,7 @@
       <aspects>
         <aspect>Intrusion Countermeasures Against Vampires and Other Threats</aspect>
         <aspect>Bringing Tomorrow's Technology to the Public</aspect>
-        <aspect>"Serge Graystone" Robot Butler</aspect>
+        <aspect>Adnan the Robot Butler</aspect>
         <aspect>Very Smart People Work Here</aspect>
       </aspects>
       <benefits>
@@ -99,8 +99,6 @@
       Gain a +3 bonus instead of +2 when Invoking Strahd Will Pay.
     </stunt>
     <stunt name="Robot Bodies Make No Cortisol">
-      +2 to Defend against Provoke Attacks specifically related to intimidation and fear.
-      OR
       Immune to attempts to Create Advantages describing emotional states more extreme than cool, rational ones.
     </stunt>
     <stunt name="Seen It All">
