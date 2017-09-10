@@ -9,23 +9,23 @@
     </description>
   </id>
   <aspects>
-    <aspect type="High-Concept">Washed-Up Roboticist</aspect>
+    <aspect type="High-Concept">Burned-Out Former Roboticist</aspect>
     <aspect type="Trouble">I Don't Know What Will Happen If I Stop Flying</aspect>
     <aspect phase-num="1">Flying Is Complicated</aspect>
     <aspect phase-num="2">Science Is The Answer</aspect>
     <aspect></aspect>
   </aspects>
   <skills>
-    <skill rating="4" name="Lore"/>
+    <skill rating="4" name="Science"/>
 
     <skill rating="3" name="Athletics"/>
     <skill rating="3" name="Crafts"/>
 
-    <skill rating="2" name="&#160;"/>
-    <skill rating="2" name="&#160;"/>
-    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="Deceive"/>
+    <skill rating="2" name="Notice"/>
+    <skill rating="2" name="Rapport"/>
 
-    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="Physique"/>
     <skill rating="1" name="&#160;"/>
     <skill rating="1" name="&#160;"/>
     <skill rating="1" name="&#160;"/>
