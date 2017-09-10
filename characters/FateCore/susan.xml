@@ -16,19 +16,19 @@
     <aspect></aspect>
   </aspects>
   <skills>
-    <skill rating="4" name="&#160;"/>
+    <skill rating="4" name="Physique"/>
 
-    <skill rating="3" name="&#160;"/>
-    <skill rating="3" name="&#160;"/>
+    <skill rating="3" name="Deceive"/>
+    <skill rating="3" name="Fight"/>
 
-    <skill rating="2" name="&#160;"/>
-    <skill rating="2" name="&#160;"/>
-    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="Notice"/>
+    <skill rating="2" name="Provoke"/>
+    <skill rating="2" name="Stealth"/>
 
-    <skill rating="1" name="&#160;"/>
-    <skill rating="1" name="&#160;"/>
-    <skill rating="1" name="&#160;"/>
-    <skill rating="1" name="&#160;"/>
+    <skill rating="1" name="Athletics"/>
+    <skill rating="1" name="Drive"/>
+    <skill rating="1" name="Empathy"/>
+    <skill rating="1" name="Will"/>
   </skills>
   <languages>
   </languages>
