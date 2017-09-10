@@ -25,7 +25,7 @@
       Lore
       Notice
       Rapport
-      Hacking
+      X Hacking
       Stealth
       X Will
 
@@ -46,7 +46,7 @@
       Provoke
 
     -->
-    <skill rating="4" name="&#160;"/>
+    <skill rating="4" name="Hacking"/>
 
     <skill rating="3" name="&#160;"/>
     <skill rating="3" name="Will"/>
@@ -86,6 +86,10 @@
     </gadget>
   </extras>
   <stunts>
+    <stunt name="Attention to Detail">
+      You can use Investigate instead of Empathy to defend against Deceive attempts. What others discover
+      through gut reactions and intuition, you learn through careful observation of microexpressions.
+    </stunt>
     <stunt name="Drinks the Kool-Aid">
       May use Rapport instead of Deceive to Overcome when
       he believes he's ultimately doing the right thing.
