@@ -17,14 +17,14 @@
     <aspect></aspect>
   </aspects>
   <skills>
-    <skill rating="4" name="&#160;"/>
+    <skill rating="4" name="Crafts"/>
 
     <skill rating="3" name="&#160;"/>
-    <skill rating="3" name="&#160;"/>
+    <skill rating="3" name="Science (Botany)"/>
 
     <skill rating="2" name="&#160;"/>
-    <skill rating="2" name="&#160;"/>
-    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="Notice"/>
+    <skill rating="2" name="Will"/>
 
     <skill rating="1" name="&#160;"/>
     <skill rating="1" name="&#160;"/>
@@ -47,6 +47,8 @@
     </phase>
     <phase num="2">
       <events>
+        Knows Faulk from his frequent visits to the antique book section of Uruk's library,
+        and is employed by Uruk as its chief gardener.
       </events>
     </phase>
   </phase-trio>
