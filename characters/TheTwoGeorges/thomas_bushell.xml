@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fae_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateAccelerated/character.dtd">
+<character>
+  <id>
+    <charname>Thomas Bushell ("Bush-ELL")</charname>
+    <playername>http://turtledove.wikia.com/wiki/Thomas_Bushell</playername>
+    <description>
+      Thomas Bushell is a colonel in the Royal American Mounted Police and the
+      chief of the RAM's Upper California section. In 1995, he is 48 years old
+      and a compact, solidly made man of European descent, with brown hair and
+      a mustache.
+
+      In the 1970s, Bushell served as a Lieutenant in the Royal North American
+      Army. He served with his fellow Lieutenant Horace Bragg and was assigned
+      Staff Sgt. Samuel Stanley as his senior non-com on the border with Nueva
+      España. Several disputes arose during this period which resulted in
+      border skirmishes. In one, Bushell was wounded attempting to rescue one
+      of his men who was down. Both were saved by Stanley.
+
+      Lived in the NAU capitol of Victoria for many years. Divorced wife Irene
+      after catching her in bed with Sir David Clarke; Irene and David are now
+      married. Bushell started drinking. Bragg (now Lt. General and commandant
+      of the RAM) reassigned him to head the Upper California section in New
+      Liverpool so he could get a fresh start.
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Colonel in the Royal American Mounted Police</aspect>
+    <aspect type="Trouble">The Bottle Helps Me Forget</aspect>
+    <aspect>I Owe Sam Stanley My Life</aspect>
+    <aspect>Majored in Classics</aspect>
+    <aspect>&#160;</aspect>
+  </aspects>
+  <approaches>
+    <approach rating="2" name="Careful"/>
+    <approach rating="2" name="Clever"/>
+    <approach rating="1" name="Flashy"/>
+    <approach rating="3" name="Forceful"/>
+    <approach rating="0" name="Quick"/>
+    <approach rating="1" name="Sneaky"/>
+  </approaches>
+  <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences/>
+</character>
