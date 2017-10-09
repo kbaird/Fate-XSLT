@@ -25,6 +25,8 @@ Phonogram & note found in room
     lots of political tracts, also Russian Nagant rifle (pg76)
     mailed from Skidegate, QCI
     has never been fired
+  Both bullets in Tricky Dick fired from the same rifle (pg81)
+  King-Emperor Charles III visiting in 2mos (pg89)
 
 
 ### RAMPs
@@ -32,9 +34,12 @@ Bushell
 Stanley
 Hank
 Mortimer
+Lt. Gen. Sir Horace Bragg
+Lt. Col. Felix Crooke
+more pp85-87
 
 ### NL cops
-Cpt. Macias
+Cpt. Jaime Macias
 Sgt. Singh (CSI)
 Dr. Foxx (ME)
 
