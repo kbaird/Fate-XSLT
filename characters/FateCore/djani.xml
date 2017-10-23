@@ -17,10 +17,10 @@
     <aspect></aspect>
   </aspects>
   <skills>
-    <skill rating="4" name="Crafts"/>
+    <skill rating="4" name="Science (Botany)"/>
 
+    <skill rating="3" name="Rapport"/>
     <skill rating="3" name="&#160;"/>
-    <skill rating="3" name="Science (Botany)"/>
 
     <skill rating="2" name="&#160;"/>
     <skill rating="2" name="Notice"/>
@@ -36,6 +36,9 @@
   <extras>
   </extras>
   <stunts>
+    <stunt>&#160;</stunt>
+    <stunt>&#160;</stunt>
+    <stunt>&#160;</stunt>
   </stunts>
   <consequences/>
   <phase-trio>
