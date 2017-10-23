@@ -48,7 +48,7 @@
     -->
     <skill rating="4" name="Hacking"/>
 
-    <skill rating="3" name="&#160;"/>
+    <skill rating="3" name="Notice"/>
     <skill rating="3" name="Will"/>
 
     <skill rating="2" name="&#160;"/>
@@ -86,6 +86,7 @@
     </gadget>
   </extras>
   <stunts>
+    <!--
     <stunt name="Attention to Detail">
       You can use Investigate instead of Empathy to defend against Deceive attempts. What others discover
       through gut reactions and intuition, you learn through careful observation of microexpressions.
@@ -117,16 +118,18 @@
     <stunt name="Standing On the Shoulders of Van Helsing">
       +2 to Create (recall) an Advantage with Lore directly pertaining to vampirism.
     </stunt>
-    <stunt name="Xanatos Speed Chess ☐">
-      Once per Session, after failing to Overcome vs. the Big Bad, rename one Situation Aspect already
-      in play, representing your ability to shift long-term plans to account for new developments.
-    </stunt>
-    <!--
     <stunt name="Careful Shot">
       When you take time to aim for an exchange prior to shooting, you may use
       Survival to Attack instead of Shoot. (AA, pg119)
     </stunt>
     -->
+    <stunt name="I'm In Your Head">
+      +2 to Create Advantages with Provoke against whomever I believe to be Strahd.
+    </stunt>
+    <stunt name="Xanatos Speed Chess ☐">
+      Once per Session, after failing to Overcome vs. the Big Bad, rename one Situation Aspect already
+      in play, representing your ability to shift long-term plans to account for new developments.
+    </stunt>
   </stunts>
   <consequences/>
   <phase-trio>
