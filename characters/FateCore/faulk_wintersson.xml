@@ -15,7 +15,7 @@
     <aspect type="Trouble">Don't want to cross the line</aspect>
     <aspect phase-num="1">Better to be rid of them, than become one</aspect>
     <aspect phase-num="2">Warrior Monk</aspect>
-    <aspect></aspect>
+    <aspect>Knowledge is Power</aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Fight"/>
@@ -37,6 +37,9 @@
   <extras>
   </extras>
   <stunts>
+    <stunt>&#160;</stunt>
+    <stunt>&#160;</stunt>
+    <stunt>&#160;</stunt>
   </stunts>
   <consequences/>
   <phase-trio>
