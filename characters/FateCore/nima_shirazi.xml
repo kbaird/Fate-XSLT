@@ -122,7 +122,6 @@
       When you take time to aim for an exchange prior to shooting, you may use
       Survival to Attack instead of Shoot. (AA, pg119)
     </stunt>
-    -->
     <stunt name="I'm In Your Head">
       +2 to Create Advantages with Provoke against whomever I believe to be Strahd.
     </stunt>
@@ -130,6 +129,7 @@
       Once per Session, after failing to Overcome vs. the Big Bad, rename one Situation Aspect already
       in play, representing your ability to shift long-term plans to account for new developments.
     </stunt>
+    -->
   </stunts>
   <consequences/>
   <phase-trio>
