@@ -20,7 +20,7 @@
                   <xsl:value-of select="@mode-name"/>
                 </xsl:with-param>
                 <xsl:with-param name="type">
-                  <xsl:value-of select="@type"/>
+                  <xsl:value-of select="translate(@type, '-', ' ')"/>
                 </xsl:with-param>
               </xsl:call-template>
               <xsl:call-template name="aspect-name">
