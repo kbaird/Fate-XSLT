@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname></charname>
+    <playername>Brian Wilcox</playername>
+    <description>
+      Created by Deadelus on Kallistan
+        Failed Prototype: Faster planing engine didn't work, also non-Asimovian
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept"></aspect>
+    <aspect type="Trouble"></aspect>
+    <aspect phase-num="1"></aspect>
+    <aspect phase-num="2"></aspect>
+    <aspect phase-num="3"></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Athletics/Manoeuvre"/>
+
+    <skill rating="3" name="Ranged Combat"/>
+    <skill rating="3" name=""/>
+
+    <skill rating="2" name=""/>
+    <skill rating="2" name=""/>
+    <skill rating="2" name="Systems"/>
+
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+  </skills>
+  <languages>
+  </languages>
+  <stunts>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+  </stunts>
+  <consequences>
+  </consequences>
+  <hacks credit-stress="true" systems-stress="true"/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+        Expected to abide by the Asimov protocols, but is secretly not bound by them in fact
+      </events>
+    </phase>
+    <phase num="2">
+      <events>&#160;</events>
+    </phase>
+    <phase num="3">
+      <events>&#160;</events>
+    </phase>
+  </phase-trio>
+</character>
