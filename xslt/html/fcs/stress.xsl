@@ -3,6 +3,7 @@
   <xsl:output method="html"/>
   <xsl:include href="../fate-common/stress.xsl"/>
   <xsl:template name="stress">
+    <xsl:param name="useCreditStress"/>
     <xsl:param name="useSkillModes"/>
     <xsl:variable name="stressBaseCount">
       <xsl:choose>
@@ -33,6 +34,18 @@
           <xsl:value-of select="$useSkillModes"/>
         </xsl:with-param>
       </xsl:call-template>
+      <xsl:if test="$useCreditStress='true'">
+        <xsl:call-template name="generic-stress">
+          <xsl:with-param name="baseCount">
+            <xsl:value-of select="$stressBaseCount"/>
+          </xsl:with-param>
+          <xsl:with-param name="headerName">Credit Stress</xsl:with-param>
+          <xsl:with-param name="skillName">Resources</xsl:with-param>
+          <xsl:with-param name="useSkillModes">
+            <xsl:value-of select="$useSkillModes"/>
+          </xsl:with-param>
+        </xsl:call-template>
+      </xsl:if>
     </table>
   </xsl:template>
 </xsl:stylesheet>
