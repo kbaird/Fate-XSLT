@@ -15,9 +15,21 @@
         <xsl:otherwise>false</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="useCreditStress">
+      <xsl:choose>
+        <xsl:when test="hacks/@credit-stress='true'">true</xsl:when>
+        <xsl:otherwise>false</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:variable name="useSkillModes">
       <xsl:choose>
         <xsl:when test="hacks/@skill-modes='true'">true</xsl:when>
+        <xsl:otherwise>false</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="useSystemsStress">
+      <xsl:choose>
+        <xsl:when test="hacks/@systems-stress='true'">true</xsl:when>
         <xsl:otherwise>false</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -71,8 +83,14 @@
             <xsl:with-param name="useCorruption">
               <xsl:value-of select="$useCorruption"/>
             </xsl:with-param>
+            <xsl:with-param name="useCreditStress">
+              <xsl:value-of select="$useCreditStress"/>
+            </xsl:with-param>
             <xsl:with-param name="useSkillModes">
               <xsl:value-of select="$useSkillModes"/>
+            </xsl:with-param>
+            <xsl:with-param name="useSystemsStress">
+              <xsl:value-of select="$useSystemsStress"/>
             </xsl:with-param>
           </xsl:call-template>
         </section>

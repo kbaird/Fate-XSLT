@@ -20,6 +20,8 @@ Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various
 [Jadepunk](http://jadepunk.com/) from
 [Reroll Productions](http://rerollproductions.com/?project=jadepunk)
 
+[Mindjammer](https://mindjammerpress.com/mindjammer/)
+
 And various other Fate derivatives.
 
 ## Usage
@@ -48,6 +50,7 @@ Currently supported variants include
   [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 - [Skill Modes](http://fate-srd.com/fate-system-toolkit/skill-modes) (from
   [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
+- Credit Stress and Systems Stress (as in [Mindjammer](https://mindjammerpress.com/mindjammer/))
 
 ### Other useful URLs
 - http://www.faterpg.com/
