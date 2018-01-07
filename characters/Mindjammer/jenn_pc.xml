@@ -7,8 +7,6 @@
     <playername>Jennifer Cornish</playername>
     <description>
       Arboe (Blue, pg 11)
-      Met Junior at college on Kallistan
-      homeworld's Chamber of Commerce paid for her Interplanetary Relations degree, went back home to work for them
     </description>
   </id>
   <aspects>
@@ -33,6 +31,9 @@
     <skill rating="1" name=""/>
     <skill rating="1" name=""/>
   </skills>
+  <extras>
+    <extra>Adaptation: (Forest Canopy or Vacuum or Low-Grav), Cf. MJ pg106</extra>
+  </extras>
   <languages>
   </languages>
   <stunts>
@@ -52,6 +53,8 @@
   <phase-trio>
     <phase num="1">
       <events>
+        Met Junior at the University of Kallistan |
+        homeworld's Chamber of Commerce paid for her Interplanetary Relations degree, went back home to work for them |
         Homeworld
         "We Take Care of Our Own"
         "Live and Let Live"
