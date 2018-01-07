@@ -27,6 +27,12 @@
         <xsl:otherwise>false</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="useSystemsStress">
+      <xsl:choose>
+        <xsl:when test="hacks/@systems-stress='true'">true</xsl:when>
+        <xsl:otherwise>false</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <html>
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">fcs</xsl:with-param>
@@ -82,6 +88,9 @@
             </xsl:with-param>
             <xsl:with-param name="useSkillModes">
               <xsl:value-of select="$useSkillModes"/>
+            </xsl:with-param>
+            <xsl:with-param name="useSystemsStress">
+              <xsl:value-of select="$useSystemsStress"/>
             </xsl:with-param>
           </xsl:call-template>
         </section>

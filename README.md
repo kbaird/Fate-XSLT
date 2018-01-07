@@ -50,7 +50,7 @@ Currently supported variants include
   [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 - [Skill Modes](http://fate-srd.com/fate-system-toolkit/skill-modes) (from
   [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
-- Credit Stress (as in [Mindjammer](https://mindjammerpress.com/mindjammer/))
+- Credit Stress and Systems Stress (as in [Mindjammer](https://mindjammerpress.com/mindjammer/))
 
 ### Other useful URLs
 - http://www.faterpg.com/
