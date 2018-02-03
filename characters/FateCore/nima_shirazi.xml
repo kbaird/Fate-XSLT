@@ -3,6 +3,7 @@
 <!DOCTYPE character SYSTEM "character.dtd">
 <character>
   <id>
+    <refresh base="4" free-stunts="2"/>
     <charname>Nima Shirazi</charname>
     <playername>Kevin Baird</playername>
     <description>
