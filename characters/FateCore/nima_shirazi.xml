@@ -126,11 +126,11 @@
     <stunt name="I'm In Your Head">
       +2 to Create Advantages with Provoke against whomever I believe to be Strahd.
     </stunt>
+    -->
     <stunt name="Xanatos Speed Chess ☐">
-      Once per Session, after failing to Overcome vs. the Big Bad, rename one Situation Aspect already
+      Once per Session, after failing a roll vs. the Big Bad, rename one Situation Aspect already
       in play, representing your ability to shift long-term plans to account for new developments.
     </stunt>
-    -->
   </stunts>
   <consequences/>
   <phase-trio>
