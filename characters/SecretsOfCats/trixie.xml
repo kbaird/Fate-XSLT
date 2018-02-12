@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>Trixie</charname>
+    <playername>Morgan Baird</playername>
+    <description>
+      &#160;
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Defending Illusionist</aspect>
+    <aspect type="Trouble">Clumsy</aspect>
+    <aspect type="Burdens">Everyone On My Street</aspect>
+    <aspect type="True-Name">Strange Trickster</aspect>
+    <aspect type="Free"></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Illusion"/>
+    
+    <skill rating="3" name="Athletics"/>
+    <skill rating="3" name="Stealth"/>
+    
+    <skill rating="2" name="Empathy"/>
+    <skill rating="2" name="Notice"/>
+    <skill rating="2" name="Territory"/>
+    
+    <skill rating="1" name="Fight"/>
+    <skill rating="1" name="Investigate"/>
+    <skill rating="1" name="Rapport"/>
+    <skill rating="1" name="Will"/>
+  </skills>
+  <stunts>
+    <stunt name="False Reality">
+      Spend a Fate Point to make an illusion real (Feline Magic, pg18)
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+  </stunts>
+  <consequences>
+    <!--
+    <consequence severity="Mild">mild one</consequence>
+    -->
+  </consequences>
+</character>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>Gus</charname>
+    <playername>Gus</playername>
+    <description>
+      A cat who tries to get food and territory while transformed.
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Burglar While Shaping Into Other Cats</aspect>
+    <aspect type="Trouble">Territory</aspect>
+    <aspect type="Burdens">Everyone</aspect>
+    <aspect type="True-Name">Moonlit Hunter</aspect>
+    <aspect type="Free"></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Shaping"/>
+    
+    <skill rating="3" name="Burglary"/>
+    <skill rating="3" name="Naming"/>
+    
+    <skill rating="2" name="Investigate"/>
+    <skill rating="2" name="Notice"/>
+    <skill rating="2" name="Stealth"/>
+    
+    <skill rating="1" name="Lore"/>
+    <skill rating="1" name="Deceive"/>
+    <skill rating="1" name="Will"/>
+    <skill rating="1" name="Territory"/>
+  </skills>
+  <stunts>
+    <stunt name="&#160;">
+      +2 to use Shaping to transform into a non-cat.
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+  </stunts>
+  <consequences>
+    <!--
+    <consequence severity="Mild">mild one</consequence>
+    -->
+  </consequences>
+</character>
