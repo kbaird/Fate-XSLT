@@ -6,8 +6,7 @@
     <charname>Junior</charname>
     <playername>Phil Bernard</playername>
     <description>
-      Rich canid, paid by family to stay away from home. From Kallistan (FH pg 67)
-      Family owns (among other things) a shipbuilding concern (Daedelus Corporation? pg43)
+      &#160;
     </description>
   </id>
   <aspects>
@@ -52,7 +51,10 @@
   <hacks credit-stress="true"/>
   <phase-trio>
     <phase num="1">
-      <events>&#160;</events>
+      <events>
+        Rich canid, paid by family to stay away from home. From Kallistan (FH pg 67)
+        Family owns (among other things) a shipbuilding concern (Daedelus Corporation? pg43)
+      </events>
     </phase>
     <phase num="2">
       <events>&#160;</events>
