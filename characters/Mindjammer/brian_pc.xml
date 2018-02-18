@@ -6,8 +6,7 @@
     <charname></charname>
     <playername>Brian Wilcox</playername>
     <description>
-      Created by Deadelus on Kallistan
-        Failed Prototype: Faster planing engine didn't work, also non-Asimovian
+      &#160;
     </description>
   </id>
   <aspects>
@@ -51,7 +50,9 @@
   <phase-trio>
     <phase num="1">
       <events>
-        Expected to abide by the Asimov protocols, but is secretly not bound by them in fact
+        Created by Deadelus on Kallistan |
+          Failed Prototype: Faster planing engine didn't work |
+          Expected to abide by the Asimov protocols, but is secretly not bound by them in fact
       </events>
     </phase>
     <phase num="2">
