@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>Dafny</charname>
+    <playername>Jennifer Cornish</playername>
+    <description>
+      Arboe (Blue, pg 11)
+      "Humans with prehensile feet and enhanced balance and jumping ability who live in forests
+      and low-gravity environments. Some are furred, but most are not. Some arboes are adapted
+      to hold their breath for long periods, and survive up to 30 minutes even in vacuum."
+    </description>
+    <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Diplomatic Jack-Of-All-Trades</aspect>
+    <aspect type="Trouble">Fighting an Uphill Battle</aspect> <!-- mainly prejudice against Canopy -->
+    <aspect phase-num="1"></aspect>
+    <aspect phase-num="2"></aspect>
+    <aspect phase-num="3"></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Rapport"/>
+
+    <skill rating="3" name="Bureaucracy"/>
+    <skill rating="3" name="Intrusion"/>
+
+    <skill rating="2" name=""/>
+    <skill rating="2" name=""/>
+    <skill rating="2" name=""/>
+
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+  </skills>
+  <extras>
+    <extra>Adaptation: (Forest Canopy or Vacuum or Low-Grav), Cf. MJ pg106</extra>
+  </extras>
+  <languages>
+  </languages>
+  <stunts>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+  </stunts>
+  <consequences>
+  </consequences>
+  <hacks credit-stress="true"/>
+  <phase-trio>
+    <phase num="1">
+      <events>
+        From the Canopy colony on the planet Fathom |
+        Canopy's "Chamber of Commerce" paid for her Interplanetary Relations degree, went back home to work for them |
+        Met Junior at the University of Kallistan
+      </events>
+    </phase>
+    <phase num="2">
+      <events>&#160;</events>
+    </phase>
+    <phase num="3">
+      <events>&#160;</events>
+    </phase>
+  </phase-trio>
+  <notes>
+    Canopy Aspects
+      "Finders Keepers",
+        (material goods should be used where they do the most utilitarian good)
+        (adulthood is equated with having the capacity to make such decisions)
+    Other potentials
+      "We Take Care of Our Own",
+      "Live and Let Live",
+      "Aspiring to Join the Protectorate",
+      "Don't Underestimate Us",
+      "Redneck Justice"
+
+    Questions:
+      Are there other settlements on the same planet? Maybe
+    Whatcha doin'?
+      Getting needed supplies for the colony world
+      Mysteries about the new planet's unexplored areas
+      Increasing the social standing of the colony world in the eyes of the Haven Hub
+        sponsoring a cultural event
+        bringing a scholar to give a lecture or study the new world
+        other
+      Dealing with organized crime
+      Dealing with internal conflicts within the colony
+      Establishing a new trade relationship (like Quark and the Tulaberry wine)
+      The PCs covering the tracks of their own personal secrets
+      Getting free trader jobs to pay your own bills (Firefly, etc.)
+      Trying to get immigrants to settle on the colony world
+  </notes>
+</character>
