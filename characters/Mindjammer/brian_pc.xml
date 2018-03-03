@@ -6,12 +6,14 @@
     <charname></charname>
     <playername>Brian Wilcox</playername>
     <description>
-      Some sort of sentient starship.
+      Profit-class New Trader (MJ 141 &amp; 238).
+      Avatar looks like someone hated by Mr. Dinkley (Junior's dad).
     </description>
+    <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
     <aspect type="High-Concept"></aspect>
-    <aspect type="Trouble"></aspect>
+    <aspect type="Trouble">Junior's Manservant</aspect>
     <aspect phase-num="1"></aspect>
     <aspect phase-num="2"></aspect>
     <aspect phase-num="3"></aspect>
@@ -65,7 +67,7 @@
   <notes>
     High Concept: Failed Prototype? More specific phrasing?
       The USS Defiant NX-74205 might be "Overpowered Cannons With a Warp Drive Strapped On the Back"
-    Trouble: Non-Asimovian Abomination? Somebody Wants Me Back?
+    Trouble: Non-Asimovian Abomination? Somebody Wants Me Back? Secretly Has Free Will?
     Questions:
       An attempt at a faster planing engine was not successful. What sort of ship were you intended to be?
       What part of that failed, and what parts were still successful?
