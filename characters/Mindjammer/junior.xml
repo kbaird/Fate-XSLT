@@ -3,11 +3,13 @@
 <!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
-    <charname>Junior</charname>
+    <charname>Junior Dinkley</charname>
     <playername>Phil Bernard</playername>
     <description>
-      &#160;
+      Canid Genotype (MJ 40).
+      CEO of a trading company that consists of just the PCs.
     </description>
+    <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
     <aspect type="High-Concept">From Bastard Canid Throwaway to Secret CEO</aspect>
@@ -52,8 +54,8 @@
   <phase-trio>
     <phase num="1">
       <events>
-        Rich canid, paid by family to stay away from home. From Kallistan (FH pg 67)
-        Family owns (among other things) a shipbuilding concern (Daedelus Corporation? pg43)
+        Rich canid, paid by family to stay away from home.
+        The Dinkley family owns (among other things) a huge portion of Daedelus Corporation.
       </events>
     </phase>
     <phase num="2">
