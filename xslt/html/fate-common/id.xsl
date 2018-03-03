@@ -11,12 +11,28 @@
         <td><xsl:call-template name="name"/></td>
       </tr>
       <tr>
-        <td><xsl:if test="description">
-          <fieldset id="description">
-            <legend class="label"><span>Description</span></legend>
-            <xsl:value-of select="description"/>
-          </fieldset>
-        </xsl:if></td>
+        <td>
+          <xsl:if test="description">
+            <fieldset id="description">
+              <legend class="label"><span>Description</span></legend>
+              <xsl:value-of select="description"/>
+            </fieldset>
+          </xsl:if>
+          <!-- Used for Mindjammer, ignored otherwise -->
+          <xsl:if test="homeworld">
+            <fieldset id="homeworld">
+              <legend class="label">
+                <span>Homeworld</span>
+              </legend>
+              Name: <xsl:value-of select="homeworld/@name"/>
+              <xsl:if test="homeworld/@ref"> (<xsl:value-of select="homeworld/@ref"/>)</xsl:if>, 
+              Habituated Gravity: 
+              <xsl:value-of select="homeworld/@habituated-gravity"/>, 
+              Tech Index: 
+              <xsl:value-of select="homeworld/@tech-index"/>
+            </fieldset>
+          </xsl:if>
+        </td>
       </tr>
     </table>
   </xsl:template>
