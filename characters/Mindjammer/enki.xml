@@ -7,14 +7,15 @@
     <playername>Brian Wilcox</playername>
     <description>
       Profit-class New Trader (MJ 141 &amp; 238).
-      Avatar looks like someone hated by Mr. Dinkley (Junior's dad).
+      Projected avatar looks like Mr. Dinkley's Father-in-Law.
+      Robot avatar looks like a bog-standard robot.
     </description>
     <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
-    <aspect type="High-Concept"></aspect>
+    <aspect type="High-Concept">Failed Prototype</aspect>
     <aspect type="Trouble">Junior's Manservant</aspect>
-    <aspect phase-num="1"></aspect>
+    <aspect phase-num="1">Non-Asimovian Abomination</aspect>
     <aspect phase-num="2"></aspect>
     <aspect phase-num="3"></aspect>
   </aspects>
@@ -65,20 +66,9 @@
     </phase>
   </phase-trio>
   <notes>
-    High Concept: Failed Prototype? More specific phrasing?
-      The USS Defiant NX-74205 might be "Overpowered Cannons With a Warp Drive Strapped On the Back"
-    Trouble: Non-Asimovian Abomination? Somebody Wants Me Back? Secretly Has Free Will?
-    Questions:
-      An attempt at a faster planing engine was not successful. What sort of ship were you intended to be?
-      What part of that failed, and what parts were still successful?
-      Also non-Asimovian. By mistake or design? Who knows this?
-      What is your name?
-      Are there other ships with a similar or identical design?
-      Are you an "Alpha Quadrant Jem'Hadar" with a rivalry with your predecessors?
-      Or are you the old deprecated model?
-      Are you a cargo ship? A sporty little VIP passenger yacht? An infiltrator? A "family sedan"?
-      Do you have a gender? What pronouns do people use for you?
-      Do you have an Avatar?
-      When people see you, do they say "That's a one-of-a-kind ship", "What is that?", or "There's another XYZ"?
+    Non-Asimovian status was unavoidable due to attempt at faster planing drive
+      Junior knows this. Dafny does not.
+      Junior was a part (not all) of the design team.
+      This whole idea was illegal. The rest of the design team was killed.
   </notes>
 </character>
