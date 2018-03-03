@@ -6,14 +6,14 @@
     <charname>Junior Dinkley</charname>
     <playername>Phil Bernard</playername>
     <description>
-      Canid Genotype (MJ 40).
+      Canid Genotype (MJ 40). Son of a side dalliance on the part of a Dinkley boy.
       CEO of a trading company that consists of just the PCs.
     </description>
     <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
     <aspect type="High-Concept">From Bastard Canid Throwaway to Secret CEO</aspect>
-    <aspect type="Trouble"></aspect>
+    <aspect type="Trouble">What I Don't Know Might Kill Me</aspect> <!-- responsible for illegal design of Enki -->
     <aspect phase-num="1"></aspect>
     <aspect phase-num="2"></aspect>
     <aspect phase-num="3"></aspect>
@@ -54,8 +54,10 @@
   <phase-trio>
     <phase num="1">
       <events>
-        Rich canid, paid by family to stay away from home.
+        Rich canid, paid by Dinkley family to stay away from home.
         The Dinkley family owns (among other things) a huge portion of Daedelus Corporation.
+        The Dinkleys sponsored the design of Enki, which was crazy illegal due to eschewing
+        the Asimov Protocols. Someone is still trying to tie up that loose end.
       </events>
     </phase>
     <phase num="2">
@@ -66,8 +68,5 @@
     </phase>
   </phase-trio>
   <notes>
-    Trouble: Enemies of the Family? (Or within the family?)
-    Questions:
-      Are you just an aimless drifter, or do you have some plan for your life?
   </notes>
 </character>
