@@ -13,11 +13,11 @@
     <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
-    <aspect type="High-Concept">Failed Prototype</aspect>
+    <aspect type="High-Concept">Failed Prototype (That Almost Worked)</aspect>
     <aspect type="Trouble">Junior's Manservant</aspect>
     <aspect phase-num="1">Non-Asimovian Abomination</aspect>
-    <aspect phase-num="2"></aspect>
-    <aspect phase-num="3"></aspect>
+    <aspect></aspect>
+    <aspect></aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Athletics/Manoeuvre"/>
