@@ -13,11 +13,11 @@
     <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
-    <aspect type="High-Concept">Failed Prototype (That Almost Worked)</aspect>
+    <aspect type="High-Concept">Failed Prototype</aspect>
     <aspect type="Trouble">Junior's Manservant</aspect>
     <aspect phase-num="1">Non-Asimovian Abomination</aspect>
-    <aspect>These Meatbags Would Be Lost Without Me</aspect>
-    <aspect></aspect>
+    <aspect phase-num="2"></aspect>
+    <aspect phase-num="3"></aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Athletics/Manoeuvre"/>
@@ -26,7 +26,7 @@
     <skill rating="3" name=""/>
 
     <skill rating="2" name=""/>
-    <skill rating="2" name="Notice / Passive Sensing"/>
+    <skill rating="2" name=""/>
     <skill rating="2" name="Systems"/>
 
     <skill rating="1" name=""/>
@@ -55,8 +55,7 @@
       <events>
         Created by Deadelus on Kallistan |
           Failed Prototype: Faster planing engine didn't work |
-          Expected to abide by the Asimov protocols, but is secretly not bound by them in fact |
-          Is actually compelled to obey orders from Dinkleys.
+          Expected to abide by the Asimov protocols, but is secretly not bound by them in fact
       </events>
     </phase>
     <phase num="2">
@@ -71,6 +70,5 @@
       Junior knows this. Dafny does not.
       Junior was a part (not all) of the design team.
       This whole idea was illegal. The rest of the design team was killed.
-    Enki is secretly trying to figure out how to fix the drive improvement.
   </notes>
 </character>
