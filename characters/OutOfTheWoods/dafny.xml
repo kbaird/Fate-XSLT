@@ -17,8 +17,8 @@
     <aspect type="High-Concept">Diplomatic Jack-Of-All-Trades</aspect>
     <aspect type="Trouble">Fighting an Uphill Battle</aspect> <!-- mainly prejudice against Canopy -->
     <aspect phase-num="1"></aspect>
-    <aspect phase-num="2"></aspect>
-    <aspect phase-num="3"></aspect>
+    <aspect></aspect>
+    <aspect></aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Rapport"/>
