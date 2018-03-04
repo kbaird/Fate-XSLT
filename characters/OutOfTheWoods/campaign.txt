@@ -13,6 +13,7 @@ The Canopy colony
   Civilisation Type:  Frontier World (FH51)
   Designation:        Haven Associate (FH52)
   Population:         Low (300k total)
+<<<<<<< HEAD
   Government:         Representative (MJ340) - vaguely Scandinavian
   Societal Dev:       Consensus Redistribution Model (MH341)
 
@@ -78,3 +79,9 @@ Potential use of Campaign Aspects:
     Hitman after Junior?
     Attempt to re-confiscate Enki
     Blackmail attempt (your AI is an abomination)
+=======
+  Government:         Reprensentative (MJ340) - vaguely Sandinavian
+  Societal Dev:       Consensus Redistribution Model (MH341)
+
+Canopy occupies the higher tree levels on a large landmass
+>>>>>>> Add OutOfTheWoods/campaign.txt
