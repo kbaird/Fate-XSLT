@@ -84,4 +84,12 @@ Potential use of Campaign Aspects:
   Societal Dev:       Consensus Redistribution Model (MH341)
 
 Canopy occupies the higher tree levels on a large landmass
+<<<<<<< HEAD
 >>>>>>> Add OutOfTheWoods/campaign.txt
+=======
+
+NPCs:
+  Ananda Taylor:  Dafny's handler within the Canopy government
+  Brandon Holger: Licensed Free Agent (FH77)
+  XXX XXX:        Speaker for the isolationists also on Fathom
+>>>>>>> Brandon Holger
