@@ -63,12 +63,13 @@
           <xsl:apply-templates select="aspects"/>
         </section>
         <section id="skills">
-          <xsl:apply-templates select="professions"/>
           <xsl:apply-templates select="skills">
             <xsl:with-param name="useSkillModes">
               <xsl:value-of select="$useSkillModes"/>
             </xsl:with-param>
           </xsl:apply-templates>
+          <xsl:apply-templates select="professions"/>
+          <xsl:apply-templates select="approaches"/>
         </section>
         <wbr/>
         <section id="extras">
