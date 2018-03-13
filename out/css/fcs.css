@@ -1,3 +1,8 @@
+table#skills_table + section#languages + table#approaches tbody tr td { display: table; margin: 0 auto; text-align: center; }
+table#skills_table + section#languages + table#approaches tbody tr td dl { display: inline-block; list-style-type: none; overflow: hidden; }
+table#skills_table + section#languages + table#approaches tbody tr td dl dt { display: inline; float: left; margin-right: 0; }
+table#skills_table + section#languages + table#approaches tbody tr td dl dd { display: inline; float: left; margin-left: 0; margin-right: 3em; }
+
 dl.gadget { margin-top: 0; }
 dl.gadget dt { font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; padding-top: 0.1em; font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; padding-top: 0.1em; display: table-row; float: left; margin: 0; padding: 0; padding-left: 0.2em; padding-right: 0.2em; clear: both; }
 dl.gadget dt.benefit { margin-left: -11em; }
@@ -11,10 +16,6 @@ fieldset.phase legend.label span.aspects { font-family: "Kalam"; font-size: 0.9e
 fieldset.phase legend.label span.phase-title { color: #000; font: normal small-caps 1.15em bolder Padauk, Montserrat; }
 
 table td p { font-family: Padauk, Montserrat; }
-table#skills_table + section#languages + table#approaches tbody tr td { display: table; margin: 0 auto; text-align: center; }
-table#skills_table + section#languages + table#approaches tbody tr td dl { display: inline-block; list-style-type: none; overflow: hidden; }
-table#skills_table + section#languages + table#approaches tbody tr td dl dt { display: inline; float: left; margin-right: 0; }
-table#skills_table + section#languages + table#approaches tbody tr td dl dd { display: inline; float: left; margin-left: 0; margin-right: 3em; }
 table#skills_table tr th.mode-rating { border: 0px; color: #aaa; font-family: "Kalam"; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 4%; }
 table#skills_table tr th.rating { border: 0px; color: #aaa; font-family: "Kalam"; font-weight: bolder; height: 2.3em; padding-right: 0.75em; padding-top: 0.6em; text-align: right; width: 12.5%; }
 table#skills_table tr td { border: 3px solid black; font: oblique small-caps 1em bold "Kalam"; height: 2.3em; padding-top: 0.24em; width: 17.5%; }
