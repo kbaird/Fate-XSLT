@@ -3,7 +3,7 @@
   <xsl:output method="html"/>
   <xsl:template name="pad-stunt">
     <xsl:param name="name"/>
-    <xsl:if test="string-length($name) &gt; 19">
+    <xsl:if test="string-length($name) &gt; 15">
       <xsl:variable name="customPadding">
         <xsl:value-of select="string-length($name) - 15"/>
       </xsl:variable>
