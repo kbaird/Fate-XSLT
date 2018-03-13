@@ -26,9 +26,9 @@
     <skill rating="2" name="Persuade"/>
 
     <skill rating="1" name="Athletics"/>
-    <skill rating="1" name="Notice"/>
     <skill rating="1" name="Physique"/>
     <skill rating="1" name="Shoot"/>
+    <skill rating="1" name="Survival"/>
   </skills>
   <approaches>
     <approach rating="2" name="Magic"/>

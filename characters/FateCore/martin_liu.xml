@@ -30,8 +30,8 @@
 
     <skill rating="1" name="Athletics"/>
     <skill rating="1" name="Combat"/>
-    <skill rating="1" name="Notice"/>
     <skill rating="1" name="Rapport"/>
+    <skill rating="1" name="Survival"/>
   </skills>
   <languages>
     Speaks Sperethiel and Mandarin natively, English with a slight accent.
