@@ -33,6 +33,9 @@
     <skill rating="1" name="Notice"/>
     <skill rating="1" name="Rapport"/>
   </skills>
+  <languages>
+    Speaks Sperethiel and Mandarin natively, English with a slight accent.
+  </languages>
   <extras>
     <extra>Magician: 巫人 (wū rén) in the 五行 (wŭ xíng) tradition</extra>
     <gadget name="Cultured Bioware">
