@@ -1,3 +1,8 @@
+table#skills_table + section#languages + table#approaches tbody tr td { display: table; margin: 0 auto; text-align: center; }
+table#skills_table + section#languages + table#approaches tbody tr td dl { display: inline-block; list-style-type: none; overflow: hidden; }
+table#skills_table + section#languages + table#approaches tbody tr td dl dt { display: inline; float: left; margin-right: 0; }
+table#skills_table + section#languages + table#approaches tbody tr td dl dd { display: inline; float: left; margin-left: 0; margin-right: 3em; }
+
 dl.gadget { margin-top: 0; }
 dl.gadget dt { font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; padding-top: 0.1em; font-variant: small-caps; font-weight: bolder; margin-left: 0; margin-right: 0; padding-top: 0.1em; display: table-row; float: left; margin: 0; padding: 0; padding-left: 0.2em; padding-right: 0.2em; clear: both; }
 dl.gadget dt.benefit { margin-left: -11em; }
