@@ -51,7 +51,7 @@
     you can justify having read about the action you’re attempting.
   </stunt>
   </stunts>
-  <hacks conditions="true"/>
+  <hacks conditions="true" single-stress-track="true" stress-base-count="3"/>
   <phase-trio>
     <phase num="1">
       <events>Some events</events>

@@ -51,6 +51,7 @@ Currently supported variants include
 - [Skill Modes](http://fate-srd.com/fate-system-toolkit/skill-modes) (from
   [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 - Credit Stress and Systems Stress (as in [Mindjammer](https://mindjammerpress.com/mindjammer/))
+- Single Stress Track and Stress Base Count
 
 ### Other useful URLs
 - http://www.faterpg.com/

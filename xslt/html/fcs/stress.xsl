@@ -15,50 +15,62 @@
       </xsl:choose>
     </xsl:variable>
     <table id="stress_table">
-      <xsl:call-template name="generic-stress">
-        <xsl:with-param name="baseCount">
-          <xsl:value-of select="$stressBaseCount"/>
-        </xsl:with-param>
-        <xsl:with-param name="headerName">Physical Stress</xsl:with-param>
-        <xsl:with-param name="skillName">Physique</xsl:with-param>
-        <xsl:with-param name="useSkillModes">
-          <xsl:value-of select="$useSkillModes"/>
-        </xsl:with-param>
-      </xsl:call-template>
-      <xsl:call-template name="generic-stress">
-        <xsl:with-param name="baseCount">
-          <xsl:value-of select="$stressBaseCount"/>
-        </xsl:with-param>
-        <xsl:with-param name="headerName">Mental Stress</xsl:with-param>
-        <xsl:with-param name="skillName">Will</xsl:with-param>
-        <xsl:with-param name="useSkillModes">
-          <xsl:value-of select="$useSkillModes"/>
-        </xsl:with-param>
-      </xsl:call-template>
-      <xsl:if test="$useCreditStress='true'">
-        <xsl:call-template name="generic-stress">
-          <xsl:with-param name="baseCount">
-            <xsl:value-of select="$stressBaseCount"/>
-          </xsl:with-param>
-          <xsl:with-param name="headerName">Credit Stress</xsl:with-param>
-          <xsl:with-param name="skillName">Resources</xsl:with-param>
-          <xsl:with-param name="useSkillModes">
-            <xsl:value-of select="$useSkillModes"/>
-          </xsl:with-param>
-        </xsl:call-template>
-      </xsl:if>
-      <xsl:if test="$useSystemsStress='true'">
-        <xsl:call-template name="generic-stress">
-          <xsl:with-param name="baseCount">
-            <xsl:value-of select="$stressBaseCount"/>
-          </xsl:with-param>
-          <xsl:with-param name="headerName">Systems Stress</xsl:with-param>
-          <xsl:with-param name="skillName">Systems</xsl:with-param>
-          <xsl:with-param name="useSkillModes">
-            <xsl:value-of select="$useSkillModes"/>
-          </xsl:with-param>
-        </xsl:call-template>
-      </xsl:if>
+      <xsl:choose>
+        <xsl:when test="/character/hacks/@single-stress-track='true'">
+          <xsl:call-template name="generic-stress">
+            <xsl:with-param name="baseCount">
+              <xsl:value-of select="$stressBaseCount"/>
+            </xsl:with-param>
+            <xsl:with-param name="headerName">Stress</xsl:with-param>
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:call-template name="generic-stress">
+            <xsl:with-param name="baseCount">
+              <xsl:value-of select="$stressBaseCount"/>
+            </xsl:with-param>
+            <xsl:with-param name="headerName">Physical Stress</xsl:with-param>
+            <xsl:with-param name="skillName">Physique</xsl:with-param>
+            <xsl:with-param name="useSkillModes">
+              <xsl:value-of select="$useSkillModes"/>
+            </xsl:with-param>
+          </xsl:call-template>
+          <xsl:call-template name="generic-stress">
+            <xsl:with-param name="baseCount">
+              <xsl:value-of select="$stressBaseCount"/>
+            </xsl:with-param>
+            <xsl:with-param name="headerName">Mental Stress</xsl:with-param>
+            <xsl:with-param name="skillName">Will</xsl:with-param>
+            <xsl:with-param name="useSkillModes">
+              <xsl:value-of select="$useSkillModes"/>
+            </xsl:with-param>
+          </xsl:call-template>
+          <xsl:if test="$useCreditStress='true'">
+            <xsl:call-template name="generic-stress">
+              <xsl:with-param name="baseCount">
+                <xsl:value-of select="$stressBaseCount"/>
+              </xsl:with-param>
+              <xsl:with-param name="headerName">Credit Stress</xsl:with-param>
+              <xsl:with-param name="skillName">Resources</xsl:with-param>
+              <xsl:with-param name="useSkillModes">
+                <xsl:value-of select="$useSkillModes"/>
+              </xsl:with-param>
+            </xsl:call-template>
+          </xsl:if>
+          <xsl:if test="$useSystemsStress='true'">
+            <xsl:call-template name="generic-stress">
+              <xsl:with-param name="baseCount">
+                <xsl:value-of select="$stressBaseCount"/>
+              </xsl:with-param>
+              <xsl:with-param name="headerName">Systems Stress</xsl:with-param>
+              <xsl:with-param name="skillName">Systems</xsl:with-param>
+              <xsl:with-param name="useSkillModes">
+                <xsl:value-of select="$useSkillModes"/>
+              </xsl:with-param>
+            </xsl:call-template>
+          </xsl:if>
+        </xsl:otherwise>
+      </xsl:choose>
     </table>
   </xsl:template>
 </xsl:stylesheet>
