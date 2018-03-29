@@ -7,14 +7,14 @@
     <playername>Phil Bernard</playername>
     <description>
       Canid Genotype (MJ 40). Son of a side dalliance on the part of a Dinkley boy.
-      CEO of DND Enterprises ("Discovery and Development") that consists of just the PCs.
+      CEO of a trading company that consists of just the PCs.
     </description>
     <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
     <aspect type="High-Concept">From Bastard Canid Throwaway to Secret CEO</aspect>
     <aspect type="Trouble">What I Don't Know Might Kill Me</aspect> <!-- responsible for illegal design of Enki -->
-    <aspect phase-num="1">I'm Great At Keeping Secrets! wag wag wag</aspect>
+    <aspect phase-num="1"></aspect>
     <aspect></aspect>
     <aspect></aspect>
   </aspects>
