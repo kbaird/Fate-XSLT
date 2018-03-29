@@ -22,3 +22,5 @@ NPCs:
   Ananda Taylor:  Dafny's handler within the Canopy government
   Brandon Holger: Licensed Free Agent (FH77)
   XXX XXX:        Speaker for the isolationists also on Fathom
+
+Make a list of setting aspects as per https://fate-srd.com/fate-system-toolkit/modifying-setting-making-big-changes
