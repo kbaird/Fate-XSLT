@@ -14,6 +14,7 @@ The Canopy colony
   Designation:        Haven Associate (FH52)
   Population:         Low (300k total)
 <<<<<<< HEAD
+<<<<<<< HEAD
   Government:         Representative (MJ340) - vaguely Scandinavian
   Societal Dev:       Consensus Redistribution Model (MH341)
 
@@ -87,6 +88,13 @@ Canopy occupies the higher tree levels on a large landmass
 <<<<<<< HEAD
 >>>>>>> Add OutOfTheWoods/campaign.txt
 =======
+=======
+  Government:         Representative (MJ340) - vaguely Scandinavian
+  Societal Dev:       Consensus Redistribution Model (MH341)
+
+Canopy occupies the higher tree levels on a large landmass. A group
+of isolationists live on a different landmass, which has Opteran ruins.
+>>>>>>> Typo fixes and more on isolationists
 
 NPCs:
   Ananda Taylor:  Dafny's handler within the Canopy government
