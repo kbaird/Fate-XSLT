@@ -31,7 +31,8 @@ Session1
   Make a list of setting aspects as per https://fate-srd.com/fate-system-toolkit/modifying-setting-making-big-changes
 
   Eureka 172
-    Trade war b/t either Daedelus and Wayfarer's Guild or rival interests wihin Canopy
+    Trade war between Daedelus and Wayfarer's Guild
+      (Canopy is too early in the colony stage to have sufficient rivalry yet)
 
   Set up friend who runs his/her own ship for later use of 176 "Return of the Captain"
     (Brandon Holger? FH77)
