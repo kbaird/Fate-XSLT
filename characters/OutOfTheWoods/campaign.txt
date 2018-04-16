@@ -50,10 +50,14 @@ Session2+
       (Canopy is too early in the colony stage to have sufficient rivalry yet)
   NPCs:
     XXX XXX: whistleblower working for Eugenia?
+    XXX XXX: Senator representing whoever is still in charge of Canopy ("Sector Governor" in Eureka)
     Non-voting rep above (or local Canopy governor)
       equivalent to "Sector Governor" in Eureka writeup
   Medical facility is in Mospel, Scelus (FH72)
   Drug created by captured alien life form (sentient and enslaved?)
+
+  Set up friend who runs his/her own ship for later use of 176 "Return of the Captain"
+    (Brandon Holger? FH77)
 
 Subsequent sessions:
   176 (as above)
