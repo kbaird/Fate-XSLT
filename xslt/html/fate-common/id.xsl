@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:include href="./name.xsl"/>
+  <xsl:include href="../mindjammer/homeworld.xsl"/>
   <xsl:template match="id">
     <table>
       <tr>
@@ -18,20 +19,7 @@
               <xsl:value-of select="description"/>
             </fieldset>
           </xsl:if>
-          <!-- Used for Mindjammer, ignored otherwise -->
-          <xsl:if test="homeworld">
-            <fieldset id="homeworld">
-              <legend class="label">
-                <span>Homeworld</span>
-              </legend>
-              Name: <xsl:value-of select="homeworld/@name"/>
-              <xsl:if test="homeworld/@ref"> (<xsl:value-of select="homeworld/@ref"/>)</xsl:if>, 
-              Habituated Gravity: 
-              <xsl:value-of select="homeworld/@habituated-gravity"/>, 
-              Tech Index: 
-              <xsl:value-of select="homeworld/@tech-index"/>
-            </fieldset>
-          </xsl:if>
+          <xsl:apply-templates select="homeworld"/>
         </td>
       </tr>
     </table>
