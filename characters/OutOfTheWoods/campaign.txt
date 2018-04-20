@@ -29,12 +29,13 @@ Sessions
 Session1
 
   Make a list of setting aspects as per https://fate-srd.com/fate-system-toolkit/modifying-setting-making-big-changes
+  Apply to https://drive.google.com/open?id=1pCy2vrjr_K_vRNP1Zhg51Cy0gpO9HQZwuwvW5puzOsk
 
   Eureka 172
     Trade war between Daedelus and Wayfarer's Guild
       (Canopy is too early in the colony stage to have sufficient rivalry yet)
   NPCs:
-    XXX XXX: whistleblower working for Eugenia Eugenia?
+    XXX XXX: whistleblower working for Eugenia?
     XXX XXX: Senator representing whoever is still in charge of Canopy ("Sector Governor" in Eureka)
   Where is the medical facility?
   Drug created by captured alien life form (sentient and enslaved?)
