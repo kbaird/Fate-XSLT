@@ -13,8 +13,6 @@ The Canopy colony
   Civilisation Type:  Frontier World (FH51)
   Designation:        Haven Associate (FH52)
   Population:         Low (300k total)
-<<<<<<< HEAD
-<<<<<<< HEAD
   Government:         Representative (MJ340) - vaguely Scandinavian
   Societal Dev:       Consensus Redistribution Model (MH341)
 
@@ -80,29 +78,17 @@ Potential use of Campaign Aspects:
     Hitman after Junior?
     Attempt to re-confiscate Enki
     Blackmail attempt (your AI is an abomination)
-=======
   Government:         Reprensentative (MJ340) - vaguely Sandinavian
   Societal Dev:       Consensus Redistribution Model (MH341)
 
 Canopy occupies the higher tree levels on a large landmass
-<<<<<<< HEAD
->>>>>>> Add OutOfTheWoods/campaign.txt
-=======
-=======
   Government:         Representative (MJ340) - vaguely Scandinavian
   Societal Dev:       Consensus Redistribution Model (MH341)
 
 Canopy occupies the higher tree levels on a large landmass. A group
 of isolationists live on a different landmass, which has Opteran ruins.
->>>>>>> Typo fixes and more on isolationists
 
 NPCs:
   Ananda Taylor:  Dafny's handler within the Canopy government
   Brandon Holger: Licensed Free Agent (FH77)
   XXX XXX:        Speaker for the isolationists also on Fathom
-<<<<<<< HEAD
->>>>>>> Brandon Holger
-=======
-
-Make a list of setting aspects as per https://fate-srd.com/fate-system-toolkit/modifying-setting-making-big-changes
->>>>>>> Add link for setting aspects
