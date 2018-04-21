@@ -16,7 +16,7 @@
     <aspect type="High-Concept">Failed Prototype (That Almost Worked)</aspect>
     <aspect type="Trouble">Junior's Manservant</aspect>
     <aspect phase-num="1">Non-Asimovian Abomination</aspect>
-    <aspect></aspect>
+    <aspect>These Meatbags Would Be Lost Without Me</aspect>
     <aspect></aspect>
   </aspects>
   <skills>
@@ -26,7 +26,7 @@
     <skill rating="3" name=""/>
 
     <skill rating="2" name=""/>
-    <skill rating="2" name=""/>
+    <skill rating="2" name="Notice / Passive Sensing"/>
     <skill rating="2" name="Systems"/>
 
     <skill rating="1" name=""/>
