@@ -22,7 +22,10 @@ of isolationists live on a different landmass, which has Opteran ruins.
 NPCs:
   Ananda Taylor:  Dafny's handler within the Canopy government
   Brandon Holger: Licensed Free Agent (FH77)
-  XXX XXX:        Speaker for the isolationists also on Fathom
+  XXX XXX:        Another Free Agent known to the PCs
+  XXX XXX:        Another Free Agent known to the PCs
+  "Speaker":      Representative of The Isolationists also on Fathom
+  XXX XXX:        Non-voting Canopy rep to Senate
 
 Sessions
 
@@ -40,7 +43,7 @@ Session1
       (Canopy is too early in the colony stage to have sufficient rivalry yet)
   NPCs:
     XXX XXX: whistleblower working for Eugenia?
-    XXX XXX: Senator representing whoever is still in charge of Canopy
+    Non-voting rep above (or local Canopy governor)
       equivalent to "Sector Governor" in Eureka writeup
   Medical facility is in Mospel, Scelus (FH72)
   Drug created by captured alien life form (sentient and enslaved?)
