@@ -38,6 +38,13 @@ Session1
     (Brandon Holger? FH77)
   Set up others for 221 "Heavy Cargo"
 
+  Ran Flare Star
+    They found the ship in the red dwarf binary system
+    Tracked the source of the ship to the A0 system 7 LY away
+    Discovered radio emissions
+
+Session2+
+
   Eureka 172
     Trade war between Daedelus and Wayfarer's Guild
       (Canopy is too early in the colony stage to have sufficient rivalry yet)
