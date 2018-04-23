@@ -18,7 +18,7 @@
     <aspect type="Trouble">Strahd Will Pay</aspect>
     <aspect phase-num="1">Ghostcomp in Multiple Insectoid Cybershells</aspect>
     <aspect phase-num="2">Nima Knows</aspect>
-    <aspect></aspect>
+    <aspect>Playing the Long Game</aspect>
   </aspects>
   <skills>
     <!--
@@ -52,7 +52,7 @@
     <skill rating="3" name="Notice"/>
     <skill rating="3" name="Will"/>
 
-    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="Deceive"/>
     <skill rating="2" name="&#160;"/>
     <skill rating="2" name="&#160;"/>
 
@@ -127,6 +127,9 @@
       +2 to Create Advantages with Provoke against whomever I believe to be Strahd.
     </stunt>
     -->
+    <stunt name="Anticipate Your Next Move">
+      When in a social Challenge facing an intelligent being, can take a +2 on one of the constituent rolls.
+    </stunt>
     <stunt name="Xanatos Speed Chess ☐">
       Once per Session, add or rename one Aspect, representing your ability to shift long-term plans to account for new developments.
       Cannot be done to a character's High Concept, Trouble, or other permanent Aspects.

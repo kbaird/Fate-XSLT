@@ -21,10 +21,10 @@
     <skill rating="4" name="Fight"/>
 
     <skill rating="3" name="Lore"/>
-    <skill rating="3" name="&#160;"/>
+    <skill rating="3" name="Notice"/>
 
-    <skill rating="2" name="&#160;"/>
-    <skill rating="2" name="&#160;"/>
+    <skill rating="2" name="Athletics"/>
+    <skill rating="2" name="Physique"/>
     <skill rating="2" name="Will"/>
 
     <skill rating="1" name="&#160;"/>
