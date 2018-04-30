@@ -6,7 +6,7 @@
       <xsl:if test="@signature='true'">
         <tr>
           <td>
-            <fieldset class="stunt"><legend><span>Signature Aspect: <xsl:value-of select="."/> ☐</span></legend>
+            <fieldset class="stunt" style="padding-left: 18.5em"><legend><span>Signature Aspect: <xsl:value-of select="."/> ☐</span></legend>
        Invoke once for free, compel at two fate points instead of one
       </fieldset>
           </td>

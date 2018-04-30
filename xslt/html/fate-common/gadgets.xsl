@@ -4,7 +4,6 @@
   <xsl:include href="benefit.xsl"/>
   <xsl:include href="function.xsl"/>
   <xsl:include href="flaw.xsl"/>
-  <xsl:include href="pad-stunt.xsl"/>
   <xsl:template match="aspect" mode="gadget">
     <dt><xsl:text>Aspect: </xsl:text></dt>
     <dd><xsl:value-of select="."/></dd>
