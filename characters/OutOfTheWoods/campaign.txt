@@ -45,15 +45,19 @@ Session1
 
 Session2+
 
-  Eureka 172
-    Trade war between Daedelus and Wayfarer's Guild
-      (Canopy is too early in the colony stage to have sufficient rivalry yet)
   NPCs:
     XXX XXX: whistleblower working for Eugenia?
     Non-voting rep above (or local Canopy governor)
       equivalent to "Sector Governor" in Eureka writeup
-  Medical facility is in Mospel, Scelus (FH72)
-  Drug created by captured alien life form (sentient and enslaved?)
+    Set up friend who runs his/her own ship for later use of 176 "Return of the Captain"
+      (Brandon Holger? FH77)
+    Set up others for 221 "Heavy Cargo"
+  
+  Eureka 172
+    Trade war between Daedelus and Wayfarer's Guild
+      (Canopy is too early in the colony stage to have sufficient rivalry yet)
+    Medical facility is in Mospel, Scelus (FH72)
+    Drug created by captured alien life form (sentient and enslaved?)
 
 Subsequent sessions:
   176 (as above)
@@ -73,17 +77,3 @@ Potential use of Campaign Aspects:
     Hitman after Junior?
     Attempt to re-confiscate Enki
     Blackmail attempt (your AI is an abomination)
-  Government:         Reprensentative (MJ340) - vaguely Sandinavian
-  Societal Dev:       Consensus Redistribution Model (MH341)
-
-Canopy occupies the higher tree levels on a large landmass
-  Government:         Representative (MJ340) - vaguely Scandinavian
-  Societal Dev:       Consensus Redistribution Model (MH341)
-
-Canopy occupies the higher tree levels on a large landmass. A group
-of isolationists live on a different landmass, which has Opteran ruins.
-
-NPCs:
-  Ananda Taylor:  Dafny's handler within the Canopy government
-  Brandon Holger: Licensed Free Agent (FH77)
-  XXX XXX:        Speaker for the isolationists also on Fathom
