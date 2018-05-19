@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Gadi Melaku</charname>
+    <playername>Kevin C. Baird</playername>
+    <description>Gold Dwarf. Ethiopian Jewish name.</description>
+  </id>
+  <refresh base="4" free-stunts="2"/>
+  <aspects>
+    <aspect type="High-Concept">Arcane Loremaster</aspect>
+    <aspect type="Trouble">Dwarven-Elvish War</aspect>
+    <aspect phase-num="1">Conservative Socialist: Gold Dwarves Do Everything Better</aspect>
+    <aspect phase-num="2"></aspect>
+    <aspect phase-num="3"></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Lore"/>
+
+    <skill rating="3" name="Notice"/>
+    <skill rating="3" name="Will"/>
+
+    <skill rating="2" name="Crafts"/>
+    <skill rating="2" name="Investigate"/>
+    <skill rating="2" name="Physique"/>
+
+    <skill rating="1" name="Athletics"/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+  </skills>
+  <languages>
+    Speaks Khuzdul and Common.
+  </languages>
+  <extras>
+    <gadget name="Magician"
+            notes="Cast with Lore. Can only use known Disciplines under normal circumstances. Spend 1 Fate Point to borrow a different Discipline for a single Scene." 
+            override-name="Discipline">
+      <function>Evocation</function>
+      <flaws>
+      </flaws>
+      <aspects>
+        <aspect>Detection</aspect>
+      </aspects>
+    </gadget>
+  </extras>
+  <stunts>
+    <stunt name="Just A Matter of Aiming">Can Attack with Lore instead of Shoot when casting Evocation magic.</stunt>
+  </stunts>
+  <consequences/>
+  <phase-trio>
+    <phase num="1" title="Childhood">
+      <events>
+        Grew up in the Great Rift, developing an (over-)appreciation for the achievements of Gold Dwarven society.
+        Parallels to Wakandan patriotism are reasonable, although the Gold Dwarves don't hide their true nature.
+        Given their communitarian policies, Scandinavia might also be an appropriate metaphor.
+      </events>
+    </phase>
+    <phase num="2" title="Early Adulthood">
+      <events>
+      </events>
+    </phase>
+    <phase num="3" title="The Near-Present">
+      <events>
+      </events>
+    </phase>
+  </phase-trio>
+  <notes/>
+</character>
