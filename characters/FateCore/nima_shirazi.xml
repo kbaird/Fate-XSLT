@@ -3,7 +3,6 @@
 <!DOCTYPE character SYSTEM "character.dtd">
 <character>
   <id>
-    <refresh base="4" free-stunts="2"/>
     <charname>Nima Shirazi</charname>
     <playername>Kevin Baird</playername>
     <description>
@@ -13,6 +12,7 @@
       manufacturing, he's now mostly Chinese.
     </description>
   </id>
+  <refresh base="4" free-stunts="2"/>
   <aspects>
     <aspect type="High-Concept">Brilliant Transhumanist Visionary</aspect>
     <aspect type="Trouble">Strahd Will Pay</aspect>
@@ -66,7 +66,7 @@
     He's probably enough of a douche to want to speak French just because.
   </languages>
   <extras>
-    <gadget name="Uruk Systems" cost="1">
+    <gadget name="Uruk Systems">
       <function>Billion-Dollar Bio- and Info-Tech Company</function>
       <flaws>
         <flaw>Gotta Keep the Public and Shareholders Happy</flaw>

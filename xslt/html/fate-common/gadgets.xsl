@@ -5,7 +5,17 @@
   <xsl:include href="function.xsl"/>
   <xsl:include href="flaw.xsl"/>
   <xsl:template match="aspect" mode="gadget">
-    <dt><xsl:text>Aspect: </xsl:text></dt>
+    <!-- TODO: DRY up with function.xsl -->
+    <dt class="function">
+      <xsl:choose>
+        <xsl:when test="../../@override-name">
+          <xsl:value-of select="../../@override-name"/>
+        </xsl:when>
+        <xsl:otherwise>
+          Aspect:
+        </xsl:otherwise>
+      </xsl:choose>
+    </dt>
     <dd><xsl:value-of select="."/></dd>
   </xsl:template>
   <xsl:template match="gadget">
@@ -24,6 +34,7 @@
             <xsl:apply-templates select="benefits/benefit"/>
             <xsl:apply-templates select="aspects/aspect" mode="gadget"/>
           </dl>
+          <xsl:value-of select="@notes"/>
         </fieldset>
       </td>
     </tr>

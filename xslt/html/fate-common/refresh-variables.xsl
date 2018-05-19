@@ -4,8 +4,8 @@
 
   <xsl:variable name="baseRefresh">
     <xsl:choose>
-      <xsl:when test="/character/id/refresh/@base">
-        <xsl:value-of select="/character/id/refresh/@base"/>
+      <xsl:when test="/character/refresh/@base">
+        <xsl:value-of select="/character/refresh/@base"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="3"/>
