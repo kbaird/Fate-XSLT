@@ -43,30 +43,29 @@ Session1
     Tracked the source of the ship to the A0 system 7 LY away
     Discovered radio emissions
 
-Session2+
-  On the planet Storm:
-    Difficulty landing with bad weather conditions
-    95F temperatures
-    wildly eccentric orbit leads to extreme temperature variations
-      underground caves discovered where adults hide during the budding stage to instruct the next generation
-    storms as some kind of Challenge / obstacle
-    find a stable, with "pregnant" slug horses
-      Young are expelled and eat the mother and try to eat PCs
-    temperatures still climbing
+Session2
+  Observing radio & TV signals, decoded, watching to gather sociological impressions
+    discovered the Aspects
+      Talk First, Shoot Second
+      Wildly Eccentric Orbit
+    observed noticeably higher temperatures
+    Figured out the gist of their lifecycle
+    pondering why to sell them computers
 
-  NPCs:
-    XXX XXX: whistleblower working for Eugenia?
-    Non-voting rep above (or local Canopy governor)
-      equivalent to "Sector Governor" in Eureka writeup
-    Set up friend who runs his/her own ship for later use of 176 "Return of the Captain"
-      (Brandon Holger? FH77)
-    Set up others for 221 "Heavy Cargo"
-  
+Session3
   Eureka 172
     Trade war between Daedelus and Wayfarer's Guild
       (Canopy is too early in the colony stage to have sufficient rivalry yet)
     Medical facility is in Mospel, Scelus (FH72)
     Drug created by captured alien life form (sentient and enslaved?)
+    NPCs:
+      XXX XXX: whistleblower working for Eugenia?
+      Non-voting rep above (or local Canopy governor)
+        equivalent to "Sector Governor" in Eureka writeup
+      Set up friend who runs his/her own ship for later use of 176 "Return of the Captain"
+        (Brandon Holger? FH77)
+      Set up others for 221 "Heavy Cargo"
+
 
 Subsequent sessions:
   176 (as above)

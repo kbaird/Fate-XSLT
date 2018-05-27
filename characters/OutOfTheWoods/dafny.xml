@@ -26,8 +26,8 @@
     <skill rating="3" name="Bureaucracy"/>
     <skill rating="3" name="Intrusion"/>
 
-    <skill rating="2" name=""/>
-    <skill rating="2" name=""/>
+    <skill rating="2" name="Athletics"/>
+    <skill rating="2" name="Empathy"/>
     <skill rating="2" name=""/>
 
     <skill rating="1" name=""/>
@@ -41,11 +41,11 @@
   <languages>
   </languages>
   <stunts>
-    <stunt name="&#160;">
-      &#160;
+    <stunt name="Ready for Contingencies">
+      +2 to one roll within a Challenge involving a first-time interaction.
     </stunt>
-    <stunt name="&#160;">
-      &#160;
+    <stunt name="I Knit with Red Tape">
+      +2 to Overcome with Bureaucracy when dealing with a foreign culture.
     </stunt>
     <stunt name="&#160;">
       &#160;
