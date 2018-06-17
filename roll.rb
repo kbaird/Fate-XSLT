@@ -15,13 +15,13 @@ class Roll
   DESCRIPTIONS = {
 
     # https://twitter.com/lumpleygames/status/403556521579384832
-    jastenave: %w(environment instinct training equipment),
+    jastenave: %w[environment instinct training equipment],
 
     # http://thealexandrian.net/wordpress/2793/roleplaying-games/dice-of-destiny-part-2-qualities
-    destiny: [ 'time required', 'outside influences', 'skill', 'style' ]
+    destiny: ['time required', 'outside influences', 'skill', 'style']
     # 'knowledge', 'luck', 'power', 'finesse',
 
-  }
+  }.freeze
 
   def initialize(set)
     @results_h = DESCRIPTIONS[set].inject({}, &method(:get_results))
@@ -40,7 +40,7 @@ class Roll
 
   def format(memo, pair)
     head, tail = *pair
-    new_pair   = {head => tail}
+    new_pair   = { head => tail }
     memo.merge(new_pair)
   end
 

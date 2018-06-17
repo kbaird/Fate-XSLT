@@ -20,7 +20,7 @@ skills_for = {
 }
 
 puts
-skills_for.each do |label,dist|
+skills_for.each do |label, dist|
   puts "cost  of #{label} = #{cost_of(dist)}"
   puts "count of #{label} = #{count_of(dist)}"
   puts
