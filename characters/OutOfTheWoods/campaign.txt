@@ -52,7 +52,12 @@ Session2
     Figured out the gist of their lifecycle
     pondering why to sell them computers
 
-Session3
+Session3?
+  202 "Hive Mind"
+    medical shipment hijacked (Firefly's "Train Job")
+    group led by AI (Shard Felicitous?)
+    set up later scenario where [someone] tries to mate Enki w/Shard (or whoever)
+
   Eureka 172
     Trade war between Daedelus and Wayfarer's Guild
       (Canopy is too early in the colony stage to have sufficient rivalry yet)
