@@ -8,6 +8,7 @@ The planet Fathom
   Jenn imagines their population is so low due to a
   combination of the recency of the founding and the
   distance from Fathom to other worlds.
+  Located somewhere between Astar and Ionyseus
 
 The Canopy colony
   Civilisation Type:  Frontier World (FH51)
@@ -21,11 +22,31 @@ of isolationists live on a different landmass, which has Opteran ruins.
 
 NPCs:
   Ananda Taylor:  Dafny's handler within the Canopy government
+    "Learning the Ropes as I Go"
+
   Brandon Holger: Licensed Free Agent (FH77)
-  XXX XXX:        Another Free Agent known to the PCs
-  XXX XXX:        Another Free Agent known to the PCs
+    Trouble: "I Have to Show I'm the Best"
+
+  Professor Ched: Adjunct Professor of AI and Cognitive Science at Kallistan
+    "Does Not Work Well With Others"
+    "Junior is the Only One Who Listens to Me"
+
+  Pander Batz:    Free Trader, operates a Magpie-class Trader called "the Ali Baba"
+    High Concept: Trader of "Fine, Pre-Owned Quality Luxury Goods"
+    Played by Jeffrey Combs w/giant coke bottle glasses
+
+  Spout:          Another Free Agent
+    Junior and Dafny met her on Kallistan and got her out of a sticky situation
+    "Dafny Did Me a Solid"
+
+  XXX XXX:        Robot physician pal of Enki's
+    Brian will come up with stuff
+
   "Speaker":      Representative of The Isolationists also on Fathom
-  XXX XXX:        Non-voting Canopy rep to Senate
+    "Let's Get This Conversation Over With"
+
+  Terence:        Non-voting Canopy rep to Senate
+    "Hears All; Says Little"
 
 Sessions
 
@@ -52,11 +73,24 @@ Session2
     Figured out the gist of their lifecycle
     pondering why to sell them computers
 
-Session3?
+Session3
+  Dafny using Rapport to learn about Brandon Holger (ties @ 5)
+    learns his Trouble is "I Have to Show I'm the Best"
+
   202 "Hive Mind"
-    medical shipment hijacked (Firefly's "Train Job")
-    group led by AI (Shard Felicitous?)
-    set up later scenario where [someone] tries to mate Enki w/Shard (or whoever)
+    the "Ali Baba" hauling medical drugs hijacked before reaching Fathom (Firefly's "Train Job")
+      Pander had no known enemies who could pull that off
+      Other unsuspicious-at-the-time disappearances starting to look similar to this
+        allows for narrow targeting of location
+    The crew files an itinerary and goes to New Barstow to get replacement supplies of space morphine
+    Enki goes by New Hoboken and notices a base w/interceptors
+    they play along and get captured, notice an unknown Commonality ship docked, and the "Ali Baba", Prof. Ched's Magpie in orbit
+    Junior smells both Prof. Ched and Pander in the base
+    Enki recognizes Shard Felicitous and knows it is "Wanted in the Commonality and Far Havens"
+      and totally didn't give himself away as an AI
+    Dafny Notices that the guards are "Bored and Looking for Amusement"
+    Dafny and Junior taken to a cell, which they break out of, looking for Ched, whose scent is closer
+    Dafny has Aspect "Secret Communications Device" with 1 box
 
   Eureka 172
     Trade war between Daedelus and Wayfarer's Guild
@@ -73,6 +107,7 @@ Session3?
 
 
 Subsequent sessions:
+    set up later scenario where [someone] tries to mate Enki w/Shard (or whoever)
   176 (as above)
   179 "Spaceport Feud"
   181 "Blind Friendship" (more or less as written)
