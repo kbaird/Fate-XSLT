@@ -23,9 +23,9 @@
     <skill rating="4" name="Athletics/Manoeuvre"/>
 
     <skill rating="3" name="Ranged Combat"/>
-    <skill rating="3" name=""/>
+    <skill rating="3" name="Science"/>
 
-    <skill rating="2" name=""/>
+    <skill rating="2" name="Investigate / Active Sensing"/>
     <skill rating="2" name="Notice / Passive Sensing"/>
     <skill rating="2" name="Systems"/>
 
