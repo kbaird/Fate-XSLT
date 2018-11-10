@@ -78,6 +78,8 @@ Session3
     learns his Trouble is "I Have to Show I'm the Best"
 
   202 "Hive Mind"
+    New Barstow - system supplying the space morphine
+    New Hoboken - pirate base
     the "Ali Baba" hauling medical drugs hijacked before reaching Fathom (Firefly's "Train Job")
       Pander had no known enemies who could pull that off
       Other unsuspicious-at-the-time disappearances starting to look similar to this
@@ -89,9 +91,24 @@ Session3
     Enki recognizes Shard Felicitous and knows it is "Wanted in the Commonality and Far Havens"
       and totally didn't give himself away as an AI
     Dafny Notices that the guards are "Bored and Looking for Amusement"
-    Dafny and Junior taken to a cell, which they break out of, looking for Ched, whose scent is closer
+    Dafny and Junior taken to a cell, which they break out of, looking for Prof. Ched, whose scent is closer
     Dafny has Aspect "Secret Communications Device" with 1 box
 
+Session4
+  More 202 "Hive Mind"
+  Ask Phil why no one listens to Prof. Ched but Junior. About what topic(s)?
+  Ask Brian about Enki's robot physician friend?
+  Presumably the PCs want to escape & possibly rescue Prof. Ched and Pander Batz
+  - find Prof. Ched
+  - find Pander Batz
+  - evade guards
+  - get space morphine
+  - spring Prof. Ched
+  - spring Pander Batz
+  - unmoor Enki
+  Finish early, ask what Canopy Aspects they want to flip
+
+later
   Eureka 172
     Trade war between Daedelus and Wayfarer's Guild
       (Canopy is too early in the colony stage to have sufficient rivalry yet)
@@ -99,11 +116,12 @@ Session3
     Drug created by captured alien life form (sentient and enslaved?)
     NPCs:
       XXX XXX: whistleblower working for Eugenia?
-      Non-voting rep above (or local Canopy governor)
+      "Terence" or local Canopy governor
         equivalent to "Sector Governor" in Eureka writeup
       Set up friend who runs his/her own ship for later use of 176 "Return of the Captain"
-        (Brandon Holger? FH77)
+        (Brandon Holger? FH77) Spout?
       Set up others for 221 "Heavy Cargo"
+        Spout?
 
 
 Subsequent sessions:
@@ -115,7 +133,6 @@ Subsequent sessions:
   191 "Test Run" (engine instead of ship)
   192 "Shiny New Toys" (may allow Brian some solo work)
   199 "Cash Crops" (happens to Canopy)
-  202 "Hive Mind"
   221 "Heavy Cargo"
 
 Potential use of Campaign Aspects:
