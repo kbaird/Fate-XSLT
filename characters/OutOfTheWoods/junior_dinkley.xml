@@ -9,7 +9,7 @@
       Canid Genotype (MJ 40). Son of a side dalliance on the part of a Dinkley boy.
       CEO of DND Enterprises ("Discovery and Development") that consists of just the PCs.
     </description>
-    <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
+    <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-level="8"/>
   </id>
   <aspects>
     <aspect type="High-Concept">From Bastard Canid Throwaway to Secret CEO</aspect>
@@ -26,12 +26,12 @@
 
     <skill rating="2" name="Deceive"/>
     <skill rating="2" name="Notice"/>
-    <skill rating="2" name=""/>
+    <skill rating="2" name="Stealth"/>
 
+    <skill rating="1" name="Athletics"/>
     <skill rating="1" name=""/>
     <skill rating="1" name=""/>
-    <skill rating="1" name=""/>
-    <skill rating="1" name=""/>
+    <skill rating="1" name="Ranged Combat"/>
   </skills>
   <languages>
   </languages>
@@ -41,14 +41,17 @@
       recognise people by scent, and gain a +2 bonus on Investigate and Notice
       rolls related to smell. (FH pg 10)
     </stunt>
-    <stunt name="&#160;">
-      &#160;
+    <stunt name="Hey! Where'd He Get That Gun?">
+      At the start of any combat, Junior is inexplicably armed.
     </stunt>
     <stunt name="&#160;">
       &#160;
     </stunt>
   </stunts>
   <consequences>
+    <!--
+    <consequence severity="Mild">Ow! My Nose!</consequence>
+    -->
   </consequences>
   <hacks credit-stress="true"/>
   <phase-trio>
