@@ -28,7 +28,7 @@ NPCs:
     Trouble: "I Have to Show I'm the Best"
 
   Professor Ched: Adjunct Professor of AI and Cognitive Science at Kallistan
-    "Does Not Work Well With Others"
+    "Has to Let Everyone Know He's the Smartest Person in the Room"
     "Junior is the Only One Who Listens to Me"
 
   Pander Batz:    Free Trader, operates a Magpie-class Trader called "the Ali Baba"
@@ -86,7 +86,9 @@ Session3
         allows for narrow targeting of location
     The crew files an itinerary and goes to New Barstow to get replacement supplies of space morphine
     Enki goes by New Hoboken and notices a base w/interceptors
-    they play along and get captured, notice an unknown Commonality ship docked, and the "Ali Baba", Prof. Ched's Magpie in orbit
+    they play along and get captured, notice an unknown Commonality ship docked, and 2 Magpies in orbit:
+      the "Ali Baba",
+      Prof. Ched's ship
     Junior smells both Prof. Ched and Pander in the base
     Enki recognizes Shard Felicitous and knows it is "Wanted in the Commonality and Far Havens"
       and totally didn't give himself away as an AI
@@ -96,17 +98,14 @@ Session3
 
 Session4
   More 202 "Hive Mind"
-  Ask Phil why no one listens to Prof. Ched but Junior. About what topic(s)?
-  Ask Brian about Enki's robot physician friend?
-  Presumably the PCs want to escape & possibly rescue Prof. Ched and Pander Batz
-  - find Prof. Ched
-  - find Pander Batz
-  - evade guards
-  - get space morphine
-  - spring Prof. Ched
-  - spring Pander Batz
-  - unmoor Enki
+  Escape, get the space morphine, Enki kills one guard
+  Recruit 2 guards to immigrate to Canopy
+  Drop off 2 non-recruit guards at New Barstow
+  Report to New Barstow Space Marshall about Shard Felicitous at New Hoboken
+  *Totally* not followed by Shard from New Hoboken
+  Dafny sweet talks Prof. Ched to start a university on Canopy @ Legendary (+8)
   Finish early, ask what Canopy Aspects they want to flip
+    Next session, focus on improving relations with The Isolationists
 
 later
   Eureka 172
