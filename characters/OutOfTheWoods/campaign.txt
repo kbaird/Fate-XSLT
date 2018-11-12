@@ -96,7 +96,7 @@ Session3
     Dafny and Junior taken to a cell, which they break out of, looking for Prof. Ched, whose scent is closer
     Dafny has Aspect "Secret Communications Device" with 1 box
 
-Session4
+Session4 (2018-11-10)
   More 202 "Hive Mind"
   Escape, get the space morphine, Enki kills one guard
   Recruit 2 guards to immigrate to Canopy
@@ -106,6 +106,15 @@ Session4
   Dafny sweet talks Prof. Ched to start a university on Canopy @ Legendary (+8)
   Finish early, ask what Canopy Aspects they want to flip
     Next session, focus on improving relations with The Isolationists
+
+Session5 (2018-12-15), "Have Relations with the Isolationists"
+  Work Daedelus in to involve Junior more? (Hitman idea?)
+    Pre-compel Junior's "What I Don't Know Might Kill Me"
+  Isolationists have a planetary defense system?
+  Something to do with Opterans?
+  Far Havens Protectorate will only allow Canopy to proceed politically if the Isolationists are on board to some degree
+  What do the Isolationists want enough to accept not being left alone?
+  Maybe some douche in Canopy is getting Isolationists hooked on Red Lotus (FH24) and the PCs find out?
 
 later
   Eureka 172
