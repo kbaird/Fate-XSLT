@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fae_npc_md.xsl"?>
+<!DOCTYPE character SYSTEM "../FateAccelerated/npc.dtd">
+<npc>
+  <id>
+    <name>Isolationists</name>
+    <description>We don't much care for outsiders. It's kind of our thing. Imagine Asimov's Mycogenians from Prelude to Foundation.</description>
+  </id>
+  <aspects>
+    <aspect>Inscrutable Separatists</aspect>
+    <aspect>Vulnerable Belly</aspect>
+  </aspects>
+  <skilled-at>Scowling and Being Stubborn</skilled-at>
+  <bad-at>Deft Social Interactions</bad-at>
+  <stress>2</stress>
+</npc>
+

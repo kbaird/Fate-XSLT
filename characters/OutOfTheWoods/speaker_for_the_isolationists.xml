@@ -5,15 +5,15 @@
   <id>
     <charname>"Speaker"</charname>
     <playername>NPC</playername>
-    <description>Played by Dame Judi Densch</description>
+    <description>Played by Dame Judi Dench</description>
     <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
   </id>
   <aspects>
     <aspect type="High-Concept">Speaker for the Canopy Isolationists</aspect>
     <aspect type="Trouble">Xenophobes Ain't Xenoaware</aspect>
-    <aspect phase-num="1">I Assume You're Trying to Screw Us Over</aspect>
-    <aspect>Let's Get This Conversation Over With</aspect>
-    <aspect>We Want Canopy to Deal with Outsiders for Us</aspect>
+    <aspect type="Motivation">We Want Canopy to Deal with Outsiders for Us</aspect>
+    <aspect type="Instinct">Let's Get This Conversation Over With</aspect>
+    <aspect>I Assume You're Trying to Screw Us Over</aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Bureaucracy"/>
@@ -23,9 +23,9 @@
 
     <skill rating="2" name="Deceive"/>
     <skill rating="2" name="Empathy"/>
-    <skill rating="2" name=""/>
+    <skill rating="2" name="Resources"/>
 
-    <skill rating="1" name="Deceive"/>
+    <skill rating="1" name=""/>
     <skill rating="1" name=""/>
     <skill rating="1" name=""/>
     <skill rating="1" name=""/>
