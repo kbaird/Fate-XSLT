@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Mindjammer/character.dtd">
+<character>
+  <id>
+    <charname>"Asst. Speaker"</charname>
+    <playername>NPC</playername>
+    <description>Imagine Arne Darvin's portrayal from the Trouble With Tribbles, Paul Reiser from Aliens, and Dwight Shrute rolled into one</description>
+    <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Assistant (to the) Speaker for the Canopy Isolationists</aspect>
+    <aspect type="Trouble">Has Spent Some Time Carousing in Canopy</aspect>
+    <aspect type="Motivation">I Will Find Out What These Outsiders Want</aspect>
+    <aspect type="Instinct">Always Trying to Please the Speaker</aspect>
+    <aspect>Yes, Minister</aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Provoke"/>
+    
+    <skill rating="3" name="Knowledge"/>
+    <skill rating="3" name="Will"/>
+
+    <skill rating="2" name="Bureaucracy"/>
+    <skill rating="2" name="Deceive"/>
+    <skill rating="2" name=""/>
+
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+  </skills>
+  <languages>
+  </languages>
+  <stunts>
+    <stunt name="Ally's Shield">
+      You can invoke your High Concept when the Speaker suffers an attack. When you do, redirect that attack to yourself.
+      Your defense is Average (+1) against that attack.
+      (https://fate-srd.com/fate-system-toolkit/stunts#flexible-stunts)
+    </stunt>
+    <stunt name="Okay, Fine!">
+      You can use Provoke in place of Empathy to learn a target’s aspects, by bullying them until they reveal one to you. The target defends
+      against this with Will. (If the GM thinks the aspect is particularly vulnerable to your hostile approach, you get a +2 bonus.)
+      (https://fate-srd.com/fate-core/provoke)
+    </stunt>
+    <stunt name="Specialist: Canopy">
+      +2 to all related Knowledge rolls. (MJ pg 89)
+    </stunt>
+  </stunts>
+  <consequences>
+  </consequences>
+  <hacks credit-stress="true"/>
+  <phase-trio>
+    <phase num="1">
+      <events>&#160;</events>
+    </phase>
+    <phase num="2">
+      <events>&#160;</events>
+    </phase>
+    <phase num="3">
+      <events>&#160;</events>
+    </phase>
+  </phase-trio>
+  <notes/>
+</character>
