@@ -9,7 +9,7 @@
       Canid Genotype (MJ 40). Son of a side dalliance on the part of a Dinkley boy.
       CEO of DND Enterprises ("Discovery and Development") that consists of just the PCs.
     </description>
-    <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-level="8"/>
+    <homeworld name="Kallistan" ref="FH 8/67" habituated-gravity="0.9" tech-index="8"/>
   </id>
   <aspects>
     <aspect type="High-Concept">From Bastard Canid Throwaway to Secret CEO</aspect>
