@@ -17,7 +17,7 @@
   </aspects>
   <skills>
     <skill rating="4" name="Provoke"/>
-    
+
     <skill rating="3" name="Knowledge"/>
     <skill rating="3" name="Will"/>
 
@@ -50,16 +50,6 @@
   <consequences>
   </consequences>
   <hacks credit-stress="true"/>
-  <phase-trio>
-    <phase num="1">
-      <events>&#160;</events>
-    </phase>
-    <phase num="2">
-      <events>&#160;</events>
-    </phase>
-    <phase num="3">
-      <events>&#160;</events>
-    </phase>
-  </phase-trio>
+  <phase-trio/>
   <notes/>
 </character>
