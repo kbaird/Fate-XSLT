@@ -11,7 +11,7 @@
       <!ATTLIST homeworld name CDATA #REQUIRED>
       <!ATTLIST homeworld ref CDATA #IMPLIED>
       <!ATTLIST homeworld habituated-gravity CDATA #REQUIRED>
-      <!ATTLIST homeworld tech-level CDATA #REQUIRED>
+      <!ATTLIST homeworld tech-index CDATA #REQUIRED>
 
     <!ELEMENT refresh (#PCDATA)>
       <!ATTLIST refresh base        CDATA #IMPLIED>
