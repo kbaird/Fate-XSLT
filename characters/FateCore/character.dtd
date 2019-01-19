@@ -24,6 +24,7 @@
       <!ATTLIST profession rating CDATA #REQUIRED>
 
     <!ELEMENT skills (mode*, skill*)>
+    <!ATTLIST skills name CDATA "Skills">
     <!ATTLIST skills shape (flat|pyramid) "pyramid">
       <!ELEMENT mode (skill*)>
       <!ATTLIST mode name   CDATA #REQUIRED>
@@ -66,13 +67,13 @@
         <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
     <!ELEMENT hacks (#PCDATA)>
-      <!ATTLIST hacks conditions          (true|false) "false"> <!-- Fate System Toolkit     -->
-      <!ATTLIST hacks corruption          (true|false) "false"> <!-- Fate Freeport Companion -->
-      <!ATTLIST hacks credit-stress       (true|false) "false"> <!-- Mostly for Mindjammer   -->
-      <!ATTLIST hacks skill-modes         (true|false) "false"> <!-- Fate System Toolkit     -->
-      <!ATTLIST hacks single-stress-track (true|false) "false">
+      <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks corruption          (true|false)     "false"> <!-- Fate Freeport Companion -->
+      <!ATTLIST hacks credit-stress       (true|false)     "false"> <!-- Mostly for Mindjammer   -->
+      <!ATTLIST hacks skill-modes         (true|false)     "false"> <!-- Fate System Toolkit     -->
+      <!ATTLIST hacks single-stress-track (true|false)     "false">
       <!ATTLIST hacks stress-base-count   CDATA #IMPLIED>
-      <!ATTLIST hacks systems-stress      (true|false) "false"> <!-- Mostly for Mindjammer   -->
+      <!ATTLIST hacks systems-stress      (true|false)     "false"> <!-- Mostly for Mindjammer   -->
 
     <!ELEMENT phase-trio (phase*)>
       <!ELEMENT phase (events*)>

@@ -6,6 +6,7 @@
     <xsl:variable name="useConditions">
       <xsl:choose>
         <xsl:when test="hacks/@conditions='true'">true</xsl:when>
+        <xsl:when test="hacks/@conditions='wwn'">wwn</xsl:when>
         <xsl:otherwise>false</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -99,6 +100,9 @@
           <xsl:choose>
             <xsl:when test="$useConditions='true'">
               <xsl:call-template name="conditions"/>
+            </xsl:when>
+            <xsl:when test="$useConditions='wwn'">
+              <xsl:call-template name="conditions-wwn"/>
             </xsl:when>
             <xsl:otherwise>
               <xsl:call-template name="consequences"/>

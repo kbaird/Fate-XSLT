@@ -3,7 +3,7 @@
   <xsl:output method="html"/>
   <xsl:template name="skills-without-modes">
     <tr>
-      <th colspan="6" class="sectionheader">Skills</th>
+      <th colspan="6" class="sectionheader"><xsl:value-of select="@name"/></th>
     </tr>
     <xsl:call-template name="skill">
       <xsl:with-param name="rating" select="5"/>
