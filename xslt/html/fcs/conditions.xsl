@@ -55,4 +55,43 @@
       </tr>
     </table>
   </xsl:template>
+  <xsl:template name="conditions-wwn">
+    <table id="conditions">
+      <tr>
+        <th colspan="3" class="sectionheader">Conditions</th>
+      </tr>
+      <tr>
+        <th class="condition-type">Fleeting</th>
+        <th class="condition-type">Sticky</th>
+      </tr>
+      <tr>
+        <td>
+          <dl class="conditions">
+            <xsl:call-template name="condition">
+              <xsl:with-param name="label">Growling Stomach</xsl:with-param>
+              <xsl:with-param name="severity">1</xsl:with-param>
+            </xsl:call-template>
+            <xsl:call-template name="condition">
+              <xsl:with-param name="label">Shivering</xsl:with-param>
+              <xsl:with-param name="severity">1</xsl:with-param>
+            </xsl:call-template>
+          </dl>
+          <p>Goes away when you get a chance to catch your breath and calm down.</p>
+        </td>
+        <td>
+          <dl class="conditions">
+            <xsl:call-template name="condition">
+              <xsl:with-param name="label">Hungry</xsl:with-param>
+              <xsl:with-param name="severity">2</xsl:with-param>
+            </xsl:call-template>
+            <xsl:call-template name="condition">
+              <xsl:with-param name="label">Panicked</xsl:with-param>
+              <xsl:with-param name="severity">2</xsl:with-param>
+            </xsl:call-template>
+          </dl>
+          <p>Stays checked off until a specific event occurs (get sleep, eat food).</p>
+        </td>
+      </tr>
+    </table>
+  </xsl:template>
 </xsl:stylesheet>
