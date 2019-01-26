@@ -29,6 +29,7 @@
       <!ATTLIST profession rating CDATA #REQUIRED>
 
     <!ELEMENT skills (mode*, skill*)>
+    <!ATTLIST skills name CDATA "Skills">
     <!ATTLIST skills shape (flat|pyramid) "pyramid">
       <!ELEMENT mode (skill*)>
       <!ATTLIST mode name   CDATA #REQUIRED>
