@@ -16,13 +16,13 @@
     <aspect type="Trouble">What I Don't Know Might Kill Me</aspect> <!-- responsible for illegal design of Enki -->
     <aspect phase-num="1">I'm Great At Keeping Secrets! wag wag wag</aspect>
     <aspect>Junior's Back on the Map!</aspect>
-    <aspect></aspect>
+    <aspect>Enki's Mine and I'm Not Sharing</aspect>
   </aspects>
   <skills>
-    <skill rating="4" name="Science"/>
+    <skill rating="4" name="Technical"/>
 
     <skill rating="3" name="Resources"/>
-    <skill rating="3" name="Technical"/>
+    <skill rating="3" name="Science"/>
 
     <skill rating="2" name="Deceive"/>
     <skill rating="2" name="Notice"/>
@@ -44,8 +44,9 @@
     <stunt name="Hey! Where'd He Get That Gun?">
       At the start of any combat, Junior is inexplicably armed.
     </stunt>
-    <stunt name="&#160;">
-      &#160;
+    <stunt name="Body Language Reader">
+      You can use Notice in place of Empathy to learn the aspects of a target through observation.
+      (https://fate-srd.com/fate-core/notice#notice-stunts)
     </stunt>
   </stunts>
   <consequences>
