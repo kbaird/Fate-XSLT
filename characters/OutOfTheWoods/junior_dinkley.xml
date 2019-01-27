@@ -50,9 +50,9 @@
     </stunt>
   </stunts>
   <consequences>
-    <!--
-    <consequence severity="Mild">Ow! My Nose!</consequence>
-    -->
+    <consequence severity="Mild">Shot in the Arm</consequence>
+    <consequence severity="Moderate">Broken Leg</consequence>
+    <consequence severity="Severe">Bleeding from the Neck</consequence>
   </consequences>
   <hacks credit-stress="true"/>
   <phase-trio>
