@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, refresh?, aspects, professions?, skills?, languages?,
-                     extras?, stunts, consequences?, hacks?, phase-trio?, notes?)>
+                     extras?, stunts?, consequences?, hacks?, phase-trio?, notes?)>
 
   <!ELEMENT id (charname, playername, description, homeworld?)>
     <!ELEMENT charname (#PCDATA)>
@@ -43,6 +43,7 @@
 
     <!ELEMENT extras (extra*, gadget*)>
       <!ELEMENT extra (#PCDATA)>
+        <!ATTLIST extra cost CDATA #IMPLIED>
         <!ATTLIST extra name CDATA #IMPLIED>
       <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
       <!-- benefits instead of stunts for ease of integration with ARRPG -->
