@@ -26,15 +26,15 @@
     <xsl:variable name="rawExtraCost">
       <xsl:choose>
         <xsl:when test="/character/extras/extra/@cost">
-          <xsl:value-of select="count(/character/extras/extra/@cost)"/>
+          <xsl:value-of select="sum(/character/extras/extra/@cost)"/>
         </xsl:when>
         <xsl:when test="/character/extras/gadget/@cost">
-          <xsl:value-of select="count(/character/extras/gadget/@cost)"/>
+          <xsl:value-of select="sum(/character/extras/gadget/@cost)"/>
         </xsl:when>
         <xsl:when test="/character/extras/gadget">
-          <xsl:value-of select="count(/character/extras/gadget/benefits/benefit) +
-                                count(/character/extras/gadget/function) -
-                                count(/character/extras/gadget/flaws/flaw)"/>
+          <xsl:value-of select="sum(/character/extras/gadget/benefits/benefit) +
+                                sum(/character/extras/gadget/function) -
+                                sum(/character/extras/gadget/flaws/flaw)"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:value-of select="0"/>
