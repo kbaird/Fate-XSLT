@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Mindjammer/character.dtd">
+<character>
+  <id>
+    <charname>Fiona Brodeur</charname>
+    <playername>NPC</playername>
+    <description>Played by French actress Marion Cotillard.</description>
+    <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Populist With a Genuine Sense of Duty to the People of Canopy</aspect>
+    <aspect type="Trouble">What If the Slogans Aren't Really a Solution?</aspect>
+    <aspect type="Motivation">Canopy is Better Off Alone Than Assimilated</aspect>
+    <aspect type="Instinct">No Deal Is Better Than a Bad Deal</aspect>
+    <aspect></aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Rapport"/>
+
+    <skill rating="3" name="Contacts"/>
+    <skill rating="3" name="Will"/>
+
+    <skill rating="2" name="Knowledge"/>
+    <skill rating="2" name="Provoke"/>
+    <skill rating="2" name="Resources"/>
+
+    <skill rating="1" name="Empathy"/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+  </skills>
+  <languages>
+  </languages>
+  <stunts>
+  </stunts>
+  <consequences>
+  </consequences>
+  <hacks credit-stress="true"/>
+  <phase-trio/>
+  <notes>
+    Combines various aspects of the Democratic-Republicans who entered the US Congress around 1800, UKIP and
+    pro-Brexit politicans in the modern UK, and the autarkical Trumpian wing of the GOP. These positions are
+    tempered by the serious concern that Canopy will get fully assimilated into insignificance.
+  </notes>
+</character>

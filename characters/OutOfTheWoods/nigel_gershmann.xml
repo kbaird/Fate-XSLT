@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Mindjammer/character.dtd">
+<character>
+  <id>
+    <charname>Nigel Gershmann</charname>
+    <playername>NPC</playername>
+    <description>
+      Played by British historian Simon Schama. Wears a Baron Harkonnen-style anti-grav
+      harness to get around in normal gravity and has obvious cranial implants.
+    </description>
+    <homeworld name="Astar planetoids" ref="FH 56" habituated-gravity="micro" tech-index="8"/>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Highly-Educated Technocrat from the "Old Country"</aspect>
+    <aspect type="Trouble">New Enough Arrival to Get Called "Carpetbagger"</aspect>
+    <aspect type="Motivation">Expand Fathom's Recognition in the Far Havens</aspect>
+    <aspect type="Instinct">Compromise Whenever Necessary On Anything But Land Rights</aspect>
+    <aspect>Favors "Old Astar" Values over "New Canopy"</aspect>
+  </aspects>
+  <skills>
+    <skill rating="4" name="Contacts"/>
+
+    <skill rating="3" name="Knowledge"/>
+    <skill rating="3" name="Resources"/>
+
+    <skill rating="2" name="Provoke"/>
+    <skill rating="2" name="Science"/>
+    <skill rating="2" name="Technical"/>
+
+    <skill rating="1" name="Empathy"/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+    <skill rating="1" name=""/>
+  </skills>
+  <languages>
+  </languages>
+  <extras>
+    <extra cost="3" name="HyperIntelligence">
+      Gain a +2 bonus to any Knowledge, Science, or Technical roles where reasoning power is the determining factor.
+      (Mindjammer pg 109)
+    </extra>
+  </extras>
+  <consequences>
+  </consequences>
+  <hacks credit-stress="true"/>
+  <phase-trio/>
+  <notes>
+    Jenn tells me his appearance and recent arrival from Astar is not especially noteworthy 
+    in Canopy. He's just an outlier of a tendency already common to the populace. His age cohort
+    probably chuckles behind his back that it took him long enough to emigrate from Astar.
+    Shares the communitarian outlook common to Canopy and Astar, presumably inspired by the
+    demands of Astar's fully artificial enviornment (like Traveller's Glisten).
+  </notes>
+</character>
