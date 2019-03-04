@@ -22,7 +22,7 @@
       <skill name="Knowledge" add="0"/>
     </role>
     <role name="The&#160;Detective"> <!-- ShotC pg40 -->
-      <skill name="Awareness" add="0"/>
+      <skill name="Awareness" add="2"/>
       <skill name="Contacts"  add="0"/>
       <skill name="Insight"   add="0"/>
       <skill name="Persuade"  add="0"/>
@@ -31,8 +31,9 @@
       <skill name="Contacts"  add="0"/>
       <skill name="Insight"   add="0"/>
       <skill name="Persuade"  add="0"/>
-      <skill name="Provoke"   add="0"/>
+      <skill name="Provoke"   add="2"/>
     </role>
+    <skill name="Shoot" add="3"/>
   </skills>
   <stunts>
     <stunt name=" ">&#160;</stunt>
