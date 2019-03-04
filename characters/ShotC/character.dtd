@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!ELEMENT character (id, refresh?, aspects, skills, languages?,
+                     extras?, stunts, consequences?, hacks?, notes?)>
+
+  <!ELEMENT id (charname, playername, description)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ELEMENT playername (#PCDATA)>
+      <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT description (#PCDATA)>
+
+    <!ELEMENT refresh (#PCDATA)>
+      <!ATTLIST refresh base        CDATA #IMPLIED>
+      <!ATTLIST refresh current     CDATA #IMPLIED>
+      <!ATTLIST refresh free-stunts CDATA #IMPLIED>
+
+    <!ELEMENT aspects (aspect*)>
+      <!ELEMENT aspect (#PCDATA)>
+      <!ATTLIST aspect gonzo     (true|false)     "false">
+      <!ATTLIST aspect type (High-Concept|Spirit|Trouble|Call-To-Action|War-Story|Team-Up) #REQUIRED>
+      <!ATTLIST aspect phase-num CDATA #IMPLIED>
+
+    <!ELEMENT skills (role*)>
+    <!ATTLIST skills name CDATA "Skills">
+      <!ELEMENT role (skill*)>
+      <!ATTLIST role gonzo  (true|false) "false">
+      <!ATTLIST role name   CDATA #REQUIRED>
+        <!ELEMENT skill (#PCDATA)>
+        <!ATTLIST skill name   CDATA #REQUIRED>
+        <!ATTLIST skill add    CDATA #IMPLIED>
+
+    <!ELEMENT languages (#PCDATA)>
+
+    <!ELEMENT extras (extra*, gadget*)>
+      <!ELEMENT extra (#PCDATA)>
+        <!ATTLIST extra name CDATA #IMPLIED>
+      <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
+      <!-- benefits instead of stunts for ease of integration with ARRPG -->
+      <!ATTLIST gadget name CDATA #REQUIRED>
+      <!ATTLIST gadget notes CDATA #IMPLIED>
+      <!ATTLIST gadget override-name CDATA #IMPLIED>
+        <!ELEMENT function (#PCDATA)>
+          <!ELEMENT flaws (flaw*)>
+            <!ELEMENT flaw (#PCDATA)>
+          <!ELEMENT benefits (benefit*)>
+            <!ELEMENT benefit (#PCDATA)>
+            <!ATTLIST benefit cost CDATA #IMPLIED>
+            <!ATTLIST benefit name CDATA #REQUIRED>
+
+    <!ELEMENT stunts (stunt*)>
+      <!ELEMENT stunt (#PCDATA)>
+      <!ATTLIST stunt gonzo-level (0|1|2|3) "0"> <!-- default zero level means "non-gonzo" -->
+      <!ATTLIST stunt name  CDATA #REQUIRED>
+
+    <!ELEMENT consequences (consequence*)>
+      <!ELEMENT consequence (#PCDATA)>
+        <!ATTLIST consequence effect CDATA #IMPLIED>
+        <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
+
+    <!ELEMENT hacks (#PCDATA)>
+      <!ATTLIST hacks skill-roles         (true|false)     "true">
+      <!ATTLIST hacks stress-base-count   CDATA #IMPLIED>
+
+    <!ELEMENT notes (#PCDATA)>

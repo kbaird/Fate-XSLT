@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Joe West</charname>
+    <playername>Proto-NPC</playername>
+    <description>Kind of looks like Jesse L. Martin</description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Affable Straight-Laced Nerd</aspect>
+    <aspect type="Trouble">Affable Straight-Laced Nerd</aspect>
+    <aspect type="Call-To-Action">Affable Straight-Laced Nerd</aspect>
+    <aspect type="War-Story">Affable Straight-Laced Nerd</aspect>
+    <aspect type="Team-Up">Affable Straight-Laced Nerd</aspect>
+  </aspects>
+  <skills>
+    <role name="The&#160;Cop"> <!-- ShotC pg39 -->
+      <skill name="Computers" add="0"/>
+      <skill name="Gadgetry"  add="0"/>
+      <skill name="Insight"   add="0"/>
+      <skill name="Knowledge" add="0"/>
+    </role>
+    <role name="The&#160;Detective"> <!-- ShotC pg40 -->
+      <skill name="Awareness" add="0"/>
+      <skill name="Contacts"  add="0"/>
+      <skill name="Insight"   add="0"/>
+      <skill name="Persuade"  add="0"/>
+    </role>
+    <role name="The&#160;Face"> <!-- ShotC pg42 -->
+      <skill name="Contacts"  add="0"/>
+      <skill name="Insight"   add="0"/>
+      <skill name="Persuade"  add="0"/>
+      <skill name="Provoke"   add="0"/>
+    </role>
+  </skills>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <hacks skill-roles="true"/>
+  <notes>
+ </notes>
+</character>
