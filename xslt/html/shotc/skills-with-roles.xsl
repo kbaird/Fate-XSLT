@@ -28,7 +28,7 @@
   <xsl:template name="skills-with-roles">
     <xsl:call-template name="skills-with-roles-header-row"/>
     <xsl:call-template name="skills-with-roles-loop">
-      <xsl:with-param name="skillRating" select="8"/> <!-- From ShotC character sheet -->
+      <xsl:with-param name="skillRating" select="5"/>
     </xsl:call-template>
   </xsl:template>
 

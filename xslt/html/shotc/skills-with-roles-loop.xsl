@@ -7,7 +7,7 @@
     <xsl:call-template name="skills-with-roles-row">
       <xsl:with-param name="skillRating" select="$skillRating"/>
     </xsl:call-template>
-    <xsl:if test="$skillRating &gt; 0">
+    <xsl:if test="$skillRating &gt; 1">
       <xsl:call-template name="skills-with-roles-loop">
         <xsl:with-param name="skillRating" select="$skillRating - 1"/>
     </xsl:call-template>
