@@ -18,7 +18,7 @@
     <role name="The&#160;Cop"> <!-- ShotC pg39 -->
       <skill name="Computers" add="0"/>
       <skill name="Gadgetry"  add="0"/>
-      <skill name="Insight"   add="0"/>
+      <skill name="Insight"   add="1"/>
       <skill name="Knowledge" add="0"/>
     </role>
     <role name="The&#160;Detective"> <!-- ShotC pg40 -->
