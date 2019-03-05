@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, current-fate-points, experience-points, aspects, skills,
-                     stress?, stunts, consequences?, experiences?, notes?)>
+                     stunts, consequences?, experiences?, notes?)>
 
   <!ELEMENT id (charname, playername, affiliation?, description?)>
     <!ELEMENT charname (#PCDATA)>
