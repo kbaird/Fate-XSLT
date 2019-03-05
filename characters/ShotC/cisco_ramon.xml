@@ -3,31 +3,31 @@
 <!DOCTYPE character SYSTEM "character.dtd">
 <character>
   <id>
-    <charname>Joe West</charname>
+    <charname nickname="Cisco">Francisco Ramon</charname>
     <playername>Proto-NPC</playername>
-    <description>Kind of looks like Jesse L. Martin</description>
+    <description>Kind of looks like Carlos Valdes</description>
   </id>
   <aspects>
-    <aspect type="High-Concept">Central City's Thin Blue Line</aspect>
-    <aspect type="Trouble">Only Sane Man in a Comic Book World</aspect>
-    <aspect type="Call-To-Action">That Allen Kid Needed Me</aspect>
-    <aspect type="War-Story">I've Seen Things</aspect>
-    <aspect type="Team-Up">Team Flash</aspect>
+    <aspect type="High-Concept">Awkward Nerd With a Lot of Potential</aspect>
+    <aspect type="Trouble">Doesn't Put His Best Foot Forward</aspect>
+    <aspect type="Call-To-Action">Particle Accelerator Explosion</aspect>
+    <aspect type="War-Story">&#160;</aspect>
+    <aspect gonzo="true" type="Team-Up">Team Flash's Vibe</aspect>
   </aspects>
   <skills>
-    <role name="The&#160;Cop"> <!-- ShotC pg39 -->
+    <role name="The&#160;Brain"> <!-- ShotC pg39 -->
       <skill name="Computers" add="0"/>
       <skill name="Gadgetry"  add="0"/>
       <skill name="Insight"   add="1"/>
       <skill name="Knowledge" add="0"/>
     </role>
-    <role name="The&#160;Detective"> <!-- ShotC pg40 -->
+    <role name="The&#160;Inventor"> <!-- ShotC pg40 -->
       <skill name="Awareness" add="2"/>
       <skill name="Contacts"  add="0"/>
       <skill name="Insight"   add="0"/>
       <skill name="Persuade"  add="0"/>
     </role>
-    <role name="The&#160;Face"> <!-- ShotC pg42 -->
+    <role gonzo="true" name="Vibe"> <!-- ShotC pg42 -->
       <skill name="Contacts"  add="0"/>
       <skill name="Insight"   add="0"/>
       <skill name="Persuade"  add="0"/>
@@ -39,7 +39,7 @@
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
   </stunts>
-  <stress mental="3" physical="3"/>
+  <stress mental="4" physical="2"/>
   <consequences/>
   <hacks skill-roles="true"/>
   <notes>

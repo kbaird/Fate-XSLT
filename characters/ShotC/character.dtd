@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, refresh?, aspects, skills, languages?,
-                     extras?, stunts, consequences?, hacks?, notes?)>
+                     extras?, stunts, stress?, consequences?, hacks?, notes?)>
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
@@ -51,13 +51,16 @@
       <!ATTLIST stunt gonzo-level (0|1|2|3) "0"> <!-- default zero level means "non-gonzo" -->
       <!ATTLIST stunt name  CDATA #REQUIRED>
 
+    <!ELEMENT stress (#PCDATA)>
+      <!ATTLIST stress mental   (2|3|4) "3">
+      <!ATTLIST stress physical (2|3|4) "3">
+
     <!ELEMENT consequences (consequence*)>
       <!ELEMENT consequence (#PCDATA)>
         <!ATTLIST consequence effect CDATA #IMPLIED>
         <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
     <!ELEMENT hacks (#PCDATA)>
-      <!ATTLIST hacks skill-roles         (true|false)     "true">
-      <!ATTLIST hacks stress-base-count   CDATA #IMPLIED>
+      <!ATTLIST hacks skill-roles (true|false) "true">
 
     <!ELEMENT notes (#PCDATA)>
