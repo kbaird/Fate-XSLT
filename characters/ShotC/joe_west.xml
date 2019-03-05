@@ -8,11 +8,11 @@
     <description>Kind of looks like Jesse L. Martin</description>
   </id>
   <aspects>
-    <aspect type="High-Concept">Affable Straight-Laced Nerd</aspect>
-    <aspect type="Trouble">Affable Straight-Laced Nerd</aspect>
-    <aspect type="Call-To-Action">Affable Straight-Laced Nerd</aspect>
-    <aspect type="War-Story">Affable Straight-Laced Nerd</aspect>
-    <aspect type="Team-Up">Affable Straight-Laced Nerd</aspect>
+    <aspect type="High-Concept">Central City's Thin Blue Line</aspect>
+    <aspect type="Trouble">Only Sane Man in a Comic Book World</aspect>
+    <aspect type="Call-To-Action">That Allen Kid Needed Me</aspect>
+    <aspect type="War-Story">I've Seen Things</aspect>
+    <aspect type="Team-Up">Team Flash</aspect>
   </aspects>
   <skills>
     <role name="The&#160;Cop"> <!-- ShotC pg39 -->
@@ -40,7 +40,7 @@
     <stunt name=" ">&#160;</stunt>
   </stunts>
   <consequences/>
-  <hacks skill-roles="true"/>
+  <hacks stress-base-count="3" skill-roles="true"/>
   <notes>
  </notes>
 </character>
