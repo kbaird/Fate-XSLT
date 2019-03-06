@@ -35,7 +35,7 @@
     </role>
   </skills>
   <stunts>
-    <stunt gonzo="true" name="Gonzo Stunt">I am a Stunt, and I am Gonzo about it</stunt>
+    <stunt gonzo-level="2" name="Gonzo Stunt">I am a Stunt, and I am Gonzo about it, twice</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
   </stunts>

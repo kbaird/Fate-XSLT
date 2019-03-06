@@ -15,10 +15,15 @@
       <td>
         <fieldset class="stunt">
           <dl>
-            <xsl:if test="@gonzo='true'">
+            <xsl:if test="@gonzo-level &gt; 0">
               <xsl:attribute name="class">gonzo</xsl:attribute>
             </xsl:if>
-            <dt><xsl:value-of select="@name"/></dt>
+            <dt>
+              <xsl:value-of select="@name"/>
+              <xsl:if test="@gonzo-level &gt; 0">
+                [<xsl:value-of select="@gonzo-level"/>]
+              </xsl:if>
+            </dt>
             <dd><xsl:value-of select="."/></dd>
           </dl>
         </fieldset>
