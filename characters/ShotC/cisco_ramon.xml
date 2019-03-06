@@ -15,27 +15,27 @@
     <aspect gonzo="true" type="Team-Up">Team Flash's Vibe</aspect>
   </aspects>
   <skills>
-    <role name="The&#160;Brain"> <!-- ShotC pg39 -->
+    <role name="The&#160;Brain"> <!-- ShotC pg37 -->
       <skill name="Computers" add="0"/>
-      <skill name="Gadgetry"  add="0"/>
+      <skill name="Gadgetry"  add="1"/>
       <skill name="Insight"   add="1"/>
+      <skill name="Knowledge" add="1"/>
+    </role>
+    <role name="The&#160;Inventor"> <!-- ShotC pg44 -->
+      <skill name="Computers" add="0"/>
+      <skill name="Drive"     add="0"/>
+      <skill name="Gadgetry"  add="0"/>
       <skill name="Knowledge" add="0"/>
     </role>
-    <role name="The&#160;Inventor"> <!-- ShotC pg40 -->
-      <skill name="Awareness" add="2"/>
-      <skill name="Contacts"  add="0"/>
+    <role gonzo="true" name="Vibe"> <!-- Custom -->
+      <skill name="Awareness" add="3"/>
       <skill name="Insight"   add="0"/>
-      <skill name="Persuade"  add="0"/>
+      <skill name="Knowledge" add="0"/>
+      <skill name="Will"      add="2"/>
     </role>
-    <role gonzo="true" name="Vibe"> <!-- ShotC pg42 -->
-      <skill name="Contacts"  add="0"/>
-      <skill name="Insight"   add="0"/>
-      <skill name="Persuade"  add="0"/>
-      <skill name="Provoke"   add="2"/>
-    </role>
-    <skill name="Shoot" add="3"/>
   </skills>
   <stunts>
+    <stunt gonzo="true" name="Gonzo Stunt">I am a Stunt, and I am Gonzo about it</stunt>
     <stunt name=" ">&#160;</stunt>
     <stunt name=" ">&#160;</stunt>
   </stunts>
