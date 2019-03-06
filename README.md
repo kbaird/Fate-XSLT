@@ -11,7 +11,8 @@ Character [DTD](http://www.w3.org/TR/xhtml1/dtds.html)s for various
 [Fate Core](http://www.evilhat.com/home/fate-core/) |
 [Fate Accelerated](http://www.evilhat.com/home/fae/) (FAE) |
 [Atomic Robo](http://www.evilhat.com/home/atomic-robo/) |
-[Spirit of the Century](http://www.evilhat.com/home/spirit-of-the-century-2/) from 
+[Spirit of the Century](http://www.evilhat.com/home/spirit-of-the-century-2/) |
+[Shadow of the Century](http://www.evilhat.com/home/shadow-of-the-century/) from
 [Evil Hat Productions](http://evilhat.com/)
 
 [Diaspora](http://www.vsca.ca/Diaspora/) from 
@@ -52,13 +53,14 @@ Currently supported variants include
   [Fate System Toolkit](http://fate-srd.com/fate-system-toolkit/))
 - Credit Stress and Systems Stress (as in [Mindjammer](https://mindjammerpress.com/mindjammer/))
 - Single Stress Track and Stress Base Count
+- Arbitrary box count for Mental and Physical Stress for _Shadow of the Century_
 
 ### Other useful URLs
 - http://www.faterpg.com/
 - http://fate-srd.com/
 
 ### Miscellanea
-I develop on an Ubuntu 15.10 system with `xmllint` and `xsltproc` executables
+I develop on an Ubuntu system with `xmllint` and `xsltproc` executables
 available. Those assumptions are reflected in the stock versions of the publish
 executables for now.
 

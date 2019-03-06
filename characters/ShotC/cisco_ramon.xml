@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname nickname="Cisco">Francisco Ramon</charname>
+    <playername>Proto-NPC</playername>
+    <description>Kind of looks like Carlos Valdes</description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Awkward Nerd With a Lot of Potential</aspect>
+    <aspect type="Trouble">Doesn't Put His Best Foot Forward</aspect>
+    <aspect type="Call-To-Action">Particle Accelerator Explosion</aspect>
+    <aspect type="War-Story">&#160;</aspect>
+    <aspect gonzo="true" type="Team-Up">Team Flash's Vibe</aspect>
+  </aspects>
+  <skills>
+    <role name="The&#160;Brain"> <!-- ShotC pg37 -->
+      <skill name="Computers" add="0"/>
+      <skill name="Gadgetry"  add="1"/>
+      <skill name="Insight"   add="1"/>
+      <skill name="Knowledge" add="1"/>
+    </role>
+    <role name="The&#160;Inventor"> <!-- ShotC pg44 -->
+      <skill name="Computers" add="0"/>
+      <skill name="Drive"     add="0"/>
+      <skill name="Gadgetry"  add="0"/>
+      <skill name="Knowledge" add="0"/>
+    </role>
+    <role gonzo="true" name="Vibe"> <!-- Custom -->
+      <skill name="Awareness" add="3"/>
+      <skill name="Insight"   add="0"/>
+      <skill name="Knowledge" add="0"/>
+      <skill name="Will"      add="2"/>
+    </role>
+  </skills>
+  <stunts>
+    <stunt gonzo-level="2" name="Gonzo Stunt">I am a Stunt, and I am Gonzo about it, twice</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <stress mental="4" physical="2"/>
+  <consequences/>
+  <hacks skill-roles="true"/>
+  <notes>
+ </notes>
+</character>

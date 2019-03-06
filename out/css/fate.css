@@ -21,7 +21,7 @@ em.phase-aspect { font: oblique small-caps 1.2em 900 Padauk, Montserrat; }
 
 fieldset#homeworld { margin-top: 0.3em; }
 fieldset#affiliation, fieldset#description, fieldset#homeworld { line-height: 1.1em; }
-fieldset#affiliation, fieldset#description, fieldset#homeworld, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt { padding-left: 11em; position: relative; text-align: left; }
+fieldset#affiliation, fieldset#description, fieldset#homeworld, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt { padding-left: 11em; padding-top: 0.7em; position: relative; text-align: left; }
 fieldset.aspect { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
 fieldset.aspect span.content { margin-left: -10em; }
 fieldset.mega legend span { font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
@@ -53,6 +53,8 @@ td, th { border: 0px; vertical-align: top; }
 .sectionheader { background-color: #000; border-bottom-right-radius: 0.9em; border-top-left-radius: 0.9em; color: #fff; font-family: Padauk, Montserrat; padding: 0.2em; text-transform: uppercase; vertical-align: text-top; }
 
 .中文 { font-family: "AR PL Ukai CN", Kaiti; font-size: 1.25em; }
+
+.gonzo, .gonzo dd, .gonzo dt, .gonzo legend span { color: red; font-variant: small-caps; font-weight: 900; }
 
 #fate { font: small-caps 5em bolder "Kalam"; }
 #fate img { width: 4em; }

@@ -6,9 +6,15 @@
   <xsl:include href="skill-modes.xsl"/>
   <xsl:include href="skills-with-modes.xsl"/>
   <xsl:include href="skills-without-modes.xsl"/>
+  <xsl:include href="../shotc/skills-with-roles.xsl"/>
   <xsl:template match="skills">
     <xsl:param name="useSkillModes"/>
       <xsl:choose>
+        <xsl:when test="/character/hacks/@skill-roles='true'">
+          <table id="skills_table">
+            <xsl:call-template name="skills-with-roles"/>
+          </table>
+        </xsl:when>
         <xsl:when test="$useSkillModes='true'">
           <table id="skills_table">
             <xsl:call-template name="skills-with-modes"/>
