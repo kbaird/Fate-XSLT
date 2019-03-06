@@ -62,8 +62,10 @@ table
       ul
         li
           display: inline
-        li + li:before
+        li:after
           content: ", "
+        li:last-child:after
+          content: ""
   &#stress_table td
     padding: $top_padding * 2.0 / 3.0
 

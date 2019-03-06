@@ -54,6 +54,8 @@ td, th { border: 0px; vertical-align: top; }
 
 .中文 { font-family: "AR PL Ukai CN", Kaiti; font-size: 1.25em; }
 
+.gonzo, .gonzo dd, .gonzo dt, .gonzo legend span { color: red; font-variant: small-caps; font-weight: 900; }
+
 #fate { font: small-caps 5em bolder "Kalam"; }
 #fate img { width: 4em; }
 

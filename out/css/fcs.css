@@ -21,7 +21,8 @@ table#skills_table tr th.rating { border: 0px; color: #aaa; font-family: "Kalam"
 table#skills_table tr td { border: 3px solid black; font: oblique small-caps 1em bold "Kalam"; height: 2.3em; padding-top: 0.24em; width: 17.5%; }
 table#skills_table tr td.unused { border: 0; }
 table#skills_table tr td ul li { display: inline; }
-table#skills_table tr td ul li + li:before { content: ", "; }
+table#skills_table tr td ul li:after { content: ", "; }
+table#skills_table tr td ul li:last-child:after { content: ""; }
 table#stress_table td { padding: 0.4em; }
 
 @media print { table#skills_table tbody tr th.sectionheader { font-size: 1.5em; } }
