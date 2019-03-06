@@ -3,11 +3,11 @@
   <xsl:output method="html"/>
   <xsl:template name="skills-with-roles-header-row">
     <tr>
-      <th colspan="4" class="sectionheader">Roles and Skills</th>
+      <th colspan="5" class="sectionheader">Roles and Skills</th>
     </tr>
     <tr>
       <th>Roles:</th>
-      <td colspan="4">
+      <td id="list-of-roles" colspan="4">
         <ul>
           <xsl:for-each select="/character/skills/role">
             <li>
