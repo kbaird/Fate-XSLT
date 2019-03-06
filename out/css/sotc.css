@@ -1,4 +1,4 @@
-fieldset#archetype, fieldset#concept { padding-left: 11em; position: relative; text-align: left; }
+fieldset#archetype, fieldset#concept { padding-left: 11em; padding-top: 0.7em; position: relative; text-align: left; }
 fieldset#archetype legend.label, fieldset#concept legend.label { color: #666; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
 fieldset.gadget legend.label { font: small-caps 1.3em bolder "Kalam"; }
 fieldset.phase { padding-top: 4.5em; }
