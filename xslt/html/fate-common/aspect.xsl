@@ -8,6 +8,9 @@
     <tr>
       <td>
         <fieldset class="aspect">
+          <xsl:if test="@gonzo='true'">
+            <xsl:attribute name="class">aspect gonzo</xsl:attribute>
+          </xsl:if>
           <xsl:call-template name="pad-aspect">
             <xsl:with-param name="name">
               <xsl:value-of select="@type"/>

@@ -15,6 +15,9 @@
       <td>
         <fieldset class="stunt">
           <dl>
+            <xsl:if test="@gonzo='true'">
+              <xsl:attribute name="class">gonzo</xsl:attribute>
+            </xsl:if>
             <dt><xsl:value-of select="@name"/></dt>
             <dd><xsl:value-of select="."/></dd>
           </dl>

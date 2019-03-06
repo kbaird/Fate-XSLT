@@ -22,7 +22,7 @@
       </xsl:if>
     </xsl:for-each>
     <xsl:for-each select="/character/skills/skill">
-      <xsl:if test="@add + 1 = $skillRating">
+      <xsl:if test="@add = $skillRating">
         <xsl:element name="td">
           <xsl:value-of select="@name"/>
         </xsl:element>

@@ -6,10 +6,19 @@
       <th colspan="4" class="sectionheader">Roles and Skills</th>
     </tr>
     <tr>
-      <th/>
-      <xsl:for-each select="/character/skills/role">
-      <th><xsl:value-of select="@name"/></th>
-      </xsl:for-each>
+      <th>Roles:</th>
+      <td colspan="4">
+        <ul>
+          <xsl:for-each select="/character/skills/role">
+            <li>
+              <xsl:if test="@gonzo='true'">
+                <xsl:attribute name="class">gonzo</xsl:attribute>
+              </xsl:if>
+              <xsl:value-of select="@name"/>
+            </li>
+          </xsl:for-each>
+        </ul>
+      </td>
     </tr>
   </xsl:template>
 </xsl:stylesheet>
