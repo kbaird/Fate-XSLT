@@ -149,6 +149,30 @@ Session6 (2019-02-23), "Find a Senator"
   Temple Tax same, more or less
   Dwarf Tax = Canid Tax
   Wizard Tax = Tax on Wayfarer's Guild reps from Sanctum (stir dissent within)
+  notes at https://app.roll20.net/forum/post/7234810/session-6-2019-02-23
+
+Session7 (2019-03-23), "Find a Senator, Part Deux"
+  Talking to Kalina (& Hilde):
+    Dafny Creates the Advantage "Junior and Kalina Hooked Up In College" (establishing that Kalina went to Kallistan U)
+    Dafny Creates "Kalina Likes Us" with 2 free boxes
+    Junior discovers Kalina's Aspect "Not Overly Concerned With the Tax on Those Fleabags"
+    The PC's get Kalina's overall positive impressions of Allejandro and Ra Leyn
+      and negative toward the aides, and that Gero Ba is banging one of them
+    Junior blurts out that an aide is also banging the Bishop (Compel), Kalina & Hilde are quite shocked
+    Hilde criticizes the Bishop for not being xenophobic enough, and also hates the aides ("the strumpets")
+    Got Kalina and Hilde's thoughts about the other NPCs
+    Kalina thinks she might have some personal influence if she tried
+    Hilde thinks Siegfried has influence, and the aides don't
+    Hilde has no-zero influence
+    Kalina has a lot of influence
+    Kalina is mildly against the Temple Tax, and seems impressed by the WG reps
+    Flipped 1 pt of Kalina's influence on Temple Tax
+    Flipped 1 pt of Kalina's influence on Wayfarer's Guild Tax
+    Flipped 1 pt of Kalina's influence on Canid Tax
+    Flipped Hilde's 1 pt by convincing Dr. Pavrat to take Stefan to Canopy (and getting Gero Ba's OK)
+    Flipped Dr. Pavrat's 1 pt on his way out the door
+  next session, talk to the strumpets
+  flipped 4 pts out of required 9
 
 later
   Eureka 172
