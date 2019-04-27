@@ -172,7 +172,9 @@ Session7 (2019-03-23), "Find a Senator, Part Deux"
     Flipped Hilde's 1 pt by convincing Dr. Pavrat to take Stefan to Canopy (and getting Gero Ba's OK)
     Flipped Dr. Pavrat's 1 pt on his way out the door
   next session, talk to the strumpets
-  flipped 4 pts out of required 9
+  flipped 5 pts out of required 9
+
+Session8 (2019-04-26), "Talk to the Strumpets"
 
 later
   Eureka 172
