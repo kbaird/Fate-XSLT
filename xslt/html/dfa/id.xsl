@@ -31,6 +31,9 @@
         <fieldset id="affiliation">
           <legend class="label"><span>Mantle</span></legend>
           <xsl:value-of select="@name"/>
+          <xsl:text> (pg</xsl:text>
+          <xsl:value-of select="@ref"/>
+          <xsl:text>)</xsl:text>
         </fieldset>
       </td>
     </tr>
