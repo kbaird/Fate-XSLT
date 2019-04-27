@@ -17,14 +17,22 @@
           </fieldset>
         </xsl:if></td>
       </tr>
-      <tr>
-        <td>
-          <fieldset id="affiliation">
-            <legend class="label"><span>Mantle</span></legend>
-            <xsl:value-of select="../mantle/@name"/>
-          </fieldset>
-        </td>
-      </tr>
+      <xsl:apply-templates select="../mantles"/>
     </table>
+  </xsl:template>
+
+  <xsl:template match="mantles">
+    <xsl:apply-templates select="mantle"/>
+  </xsl:template>
+
+  <xsl:template match="mantle">
+    <tr>
+      <td>
+        <fieldset id="affiliation">
+          <legend class="label"><span>Mantle</span></legend>
+          <xsl:value-of select="@name"/>
+        </fieldset>
+      </td>
+    </tr>
   </xsl:template>
 </xsl:stylesheet>

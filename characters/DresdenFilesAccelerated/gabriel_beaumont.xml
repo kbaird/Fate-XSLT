@@ -24,8 +24,9 @@
     <approach rating="0" name="Haste"/>
     <approach rating="1" name="Intellect"/>
   </approaches>
-  <mantle name="Leader of the People">
-  </mantle>
+  <mantles>
+    <mantle name="Leader of the People" ref="126"/>
+  </mantles>
   <stunts>
     <stunt name="Ready and Willing">pg127</stunt>
     <stunt name="Patronage">pg127</stunt>

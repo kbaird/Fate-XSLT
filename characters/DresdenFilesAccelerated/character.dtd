@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<!ELEMENT character (id, refresh?, aspects, approaches, mantle, stunts, conditions)>
+<!ELEMENT character (id, refresh?, aspects, approaches, mantles, stunts, conditions)>
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
@@ -21,9 +21,11 @@
     <!ATTLIST approach name (Flair|Focus|Force|Guile|Haste|Intellect) #REQUIRED>
     <!ATTLIST approach rating CDATA #REQUIRED>
 
-  <!ELEMENT mantle (stunt*)>
-    <!ATTLIST mantle name  CDATA #REQUIRED>
-    <!ATTLIST mantle scale CDATA "Mundane">
+  <!ELEMENT mantles (mantle*)>
+    <!ELEMENT mantle (stunt*)>
+      <!ATTLIST mantle name  CDATA #REQUIRED>
+      <!ATTLIST mantle ref CDATA #REQUIRED>
+      <!ATTLIST mantle scale CDATA "Mundane">
 
   <!ELEMENT stunts (stunt*)>
     <!ELEMENT stunt (#PCDATA)>
