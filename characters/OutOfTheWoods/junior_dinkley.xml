@@ -30,8 +30,8 @@
 
     <skill rating="1" name="Athletics"/>
     <skill rating="1" name=""/>
-    <skill rating="1" name=""/>
     <skill rating="1" name="Ranged Combat"/>
+    <skill rating="1" name="Rapport"/>
   </skills>
   <languages>
   </languages>
