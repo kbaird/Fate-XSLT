@@ -43,8 +43,9 @@
     <stunt name="Hands Off My Stuff">
       +2 to Overcome with Active Sensing when looking for one of his own trackers.
     </stunt>
-    <stunt name="&#160;">
-      &#160;
+    <stunt  name="Prototypes ☐ ☐">
+      You are constantly tinkering with the features of your robot body.
+      Twice per session, can declare an Aspect with a free Invocation to represent that. (T:SBS, pg48)
     </stunt>
   </stunts>
   <consequences>
