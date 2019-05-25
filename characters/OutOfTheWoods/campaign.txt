@@ -175,30 +175,32 @@ Session7 (2019-03-23), "Find a Senator, Part Deux"
   flipped 5 pts out of required 9
 
 Session8 (2019-04-26), "Talk to the Strumpets"
-  Allejandro, Dieter, Emanuelle, Kirstin, and Ra Leyn are all together in a group at the party
+  Allejandro, Dieter, Emanuelle, Kirsten, and Ra Leyn are all together in a group at the party
   Dafny chats w/Allejandro using the Ananda connection
   Junior smells "Hate Stink" (one or more of this group doesn't like Canids)
   Junior quite obviously scratches himself to provoke a reaction
     Junior observes Ra Leyn
       reacts negatively (due to racism)
-    Dafny observes Allenjandro
+    Dafny observes Allejandro
       reacts negatively (due to racism)
     Enki observes Emanuelle
-      reacts negatively (due to lack of Etiquette, not racism, but PCs don't know that)
+      reacts negatively (due to lack of etiquette, not racism, but PCs don't know that)
   Junior vs. Ra Leyn
     Does he have influence: yes
     Is neutral about the Wayfarer's Guild tax
     he has some gossip (specifics not yet known)
-    Success at Cost: Hilde pissed off that the PCs are talking to "The Strumpets" (back down to 4/9 pts of influence)
+    Success at Cost: Hilde pissed off that the PCs are talking to "The Strumpets"
+      (back down to 4/9 pts of influence)
       Dafny Rapports to rescue back up to 5/9
   SPLIT UP THE PARTY (Junior+Enki vs. Dafny)
-    Dafny staying with Allejandro, Dieter, Emanuelle, Kirstin, and Ra Leyn
-      Ra Leyn sometimes nervously glances at Emanulle
+    Dafny staying with Allejandro, Dieter, Emanuelle, Kirsten, and Ra Leyn
+      Ra Leyn sometimes nervously glances at Emanuelle
       Ra Leyn and Dieter both praise the Canid Tax after Junior leaves, but Dieter's behavior seems "off"
-        Dieter keeps using the same phrase in support of the Canid Tax: "Canids are thrifty people. They can afford to pay."
+        Dieter keeps using the same phrase in support of the Canid Tax:
+          "Canids are thrifty people. They can afford to pay."
           Kirsten reacts with a Keiko O'Brien eyeroll
       Dafny changes the topic to the other taxes
-        Dieter has a similar to those taxes (rote phrases)
+        Dieter has a similar stock phrase those taxes (rote phrases)
           Kirsten has eyerolls for all of them
       Emanuelle does not have a strong reaction to talk of taxes
     Junior+Enki chattin' with Natasha
@@ -215,7 +217,7 @@ Session8 (2019-04-26), "Talk to the Strumpets"
         Emanuelle has a fair amount (2 pts) of influence over Gero Ba
           She is personally neutral about the taxes, but has argued for them due to
             being blackmailed about her affair with Ar-Ulric
-            Ar-Ulric was visited by "Elise" with video evidence of Emanuelle and Ar-Ulric banging
+            Ar-Ulric was visited by "Elise" with video evidence of Emanuelle and Ar-Ulric bangin'
         Dafny makes a decent case that Emanuelle could flee to Canopy
           Emanuelle has some concerns about Dr. Pavrat (Dafny smoothes those over)
           Dafny offers to look into the "Elise" situation:
@@ -232,7 +234,7 @@ Session8 (2019-04-26), "Talk to the Strumpets"
         Is she doing blackmailing for him?
       Meeting between Elise and Wasmeier occurred after the Law Lords vote on the Wayfarer's Guild tax
     All 3 Law Lords are at the party
-    Show the Elise videos to Emanuelle, she does not recognize either people, but believes it
+    Show the Elise videos to Emanuelle, she does not recognize either person, but believes it
     Show the Elise videos to Ar-Ulric, he confirms Elise's ID, video with Wasmeier pisses him off
       Ar-Ulric makes it clear that if the PCs make his problem go away, he will appreciate it
     Show the Elise videos to Dieter
@@ -244,6 +246,49 @@ Session8 (2019-04-26), "Talk to the Strumpets"
       He's been "Bucky"ed
 
 Session9 (2019-05-25), "Post-Strumpets"
+  PCs have amassed 5/9 influence: 3 for Kalina, 1 each for Hilde and Dr. Pavrat
+  Junior+Enki talking to Petra
+    Petra likes Dieter, mainly out of support for Kirsten (he's a bit of a milk-drinker)
+    Petra confirms that she had mild susicions of the Emanuelle/Ar-Ulric
+    Petra suspects much more strongly that Emanuelle is bangin' Gero Ba
+    Petra does not have influence
+  Dafny talking to Kirsten
+    Timetable of Dieter's realization that Canids are dirty: 2 months ago
+    Ra Leyn saw Dieter with "Elise" at a bar 2 months ago
+  Karl-Heinz Wasmeier at party
+    All 3 PCs question Wasmeier while sniffing his butt
+    Brian fucked it up for everyone, thanks, Brian
+    Kevin giving both true and false info, not saying which source
+      What are his general thoughts about the impact of taxes on people?
+        Publicly and officially neutral about the taxes.
+        Gives the usual politician BS about "nobody likes taxes, but..."
+      What are his general thoughts about Ar-Ulric?
+        Not close. Wasmeier thinks Ar-Ulric and Reiner Ehrlich might be friends.
+      He is definitely hiding something
+      Wasmeier smells familiar to Junior (his personal scent rings a bell from way back)
+        Daedelus connection. "One of Dad's business friends?"
+      Enki checks into Wasmeier's past related to Daedelus and/or Papa Dinkley
+        Wasmeier is likely to be a Daedelus operative in their anti-Wayfarer's Guild "Dept. of Dirty Tricks"
+    Compel "What I Don't Know Might Kill Me" to have Junior just show Wasmeier the photo of him w/"Elise"
+      Seems to have no reaction nor recognize/remember her
+  Back to Ar-Ulric
+    Asking if he's buddies w/Reiner Ehrlich: Not particularly
+  Dr. Pavrat may be helpful in un-hypnotizing Dieter
+    Dieter approached 2 months ago at a bar by "Charlotte" ("Elise")
+    Flipped Dieter's 1 pt to 6/9
+  Enki notices Hunter-Seeker in the hallway
+    battle ensues, they smash it
+  They can trace it back to Wasmeier after several stages of hacking the intertubez
+    PCs have gathered enough evidence to get an investigation started on Wasmeier
+  PCs set up a meeting w/Ar-Ulric & Emanuelle
+    Dafny Rapports to lock in their support, 3 more pts to 9/9
+  Ananda thinks this is a win, obstacle to Canopy recruiting a Senator is now gone
+  Dr. Pavrat moves to Canopy with Stefan
+  Emanuelle starts over in Canopy as well
+  "Those Rednecks Did Alright" -> "Those Rednecks Are Handy to Have Around"
+  "Nobody to Run for the First Senate Seat" -> "Campaign Season Begins"
+  "Not Enough Skilled Worker; We're Used to Asteroids" -> "A Trickle of Skilled Workers"
+  Next session: Trade relationships, Isolationists, Opterans, and/or time hijinks
 
 later
   Eureka 172
