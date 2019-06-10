@@ -5,15 +5,18 @@
   <id>
     <charname>"Asst. Speaker"</charname>
     <playername>NPC</playername>
-    <description>Imagine Arne Darvin's portrayal from the Trouble With Tribbles, Paul Reiser from Aliens, and Dwight Shrute rolled into one</description>
+    <description>
+      Imagine Arne Darvin's portrayal from the Trouble With Tribbles,
+      Paul Reiser from Aliens, and Dwight Shrute rolled into one
+    </description>
     <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
   </id>
   <aspects>
     <aspect type="High-Concept">Assistant (to the) Speaker for the Fathom Isolationists</aspect>
     <aspect type="Trouble">Has Spent Some Time Carousing in Canopy</aspect>
-    <aspect type="Motivation">I Will Find Out What These Outsiders Want</aspect>
+    <aspect type="Motivation">Make the Canopians Deal with the Opteran Ruins... Quietly</aspect>
     <aspect type="Instinct">Always Trying to Please the Speaker</aspect>
-    <aspect>&#160;</aspect>
+    <aspect>I'm Afraid of What We Don't Know About All This</aspect>
   </aspects>
   <skills>
     <skill rating="4" name="Provoke"/>
@@ -39,8 +42,9 @@
       (https://fate-srd.com/fate-system-toolkit/stunts#flexible-stunts)
     </stunt>
     <stunt name="Okay, Fine!">
-      You can use Provoke in place of Empathy to learn a target’s aspects, by bullying them until they reveal one to you. The target defends
-      against this with Will. (If the GM thinks the aspect is particularly vulnerable to your hostile approach, you get a +2 bonus.)
+      You can use Provoke in place of Empathy to learn a target’s aspects, by bullying them until they reveal one to you.
+      The target defends against this with Will.
+      (If the GM thinks the aspect is particularly vulnerable to your hostile approach, you get a +2 bonus.)
       (https://fate-srd.com/fate-core/provoke)
     </stunt>
     <stunt name="Specialist: Canopy">

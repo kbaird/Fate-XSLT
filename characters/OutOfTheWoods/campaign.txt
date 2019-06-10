@@ -290,6 +290,18 @@ Session9 (2019-05-25), "Post-Strumpets"
   "Not Enough Skilled Worker; We're Used to Asteroids" -> "A Trickle of Skilled Workers"
   Next session: Trade relationships, Isolationists, Opterans, and/or time hijinks
 
+Session10 (2019-06-22) "Trade relationships, Isolationists, Opterans"
+- Canopy is contacted by the Isolationist Asst. Speaker
+- He specifically asks for DND, based on previous interaction
+- Beneath the Isolationist City of **Schoonmaak Vuur** (Dutch for "cleansing fire"), they found a large Opteran ruin
+- They want to export whatever is found
+  - They want it gone because it's unclean
+  - They're not stupid enough to give it up for free
+  - They want Canopy to handle everything, but with themselves taking a big cut
+    (essentially leasing mining rights)
+  - The biggest issue is that they found a chamber with a stasis field holding a live time-frozen Opteran
+  - Allude to Vore threat somehow (video recording like **Miranda** from _Serenity_?)
+
 later
   Eureka 172
     Trade war between Daedelus and Wayfarer's Guild
@@ -304,7 +316,6 @@ later
         (Brandon Holger? FH77) Spout?
       Set up others for 221 "Heavy Cargo"
         Spout?
-
 
 Subsequent sessions:
   189 "Digital Stud" [someone] tries to mate Enki w/Shard (or whoever)
