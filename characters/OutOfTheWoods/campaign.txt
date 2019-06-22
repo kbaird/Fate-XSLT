@@ -298,7 +298,8 @@ Session10 (2019-06-22) "Trade relationships, Isolationists, Opterans"
 - Canopy is contacted by the Isolationist Asst. Speaker
 - He specifically asks for DND, based on previous interaction
   - Ananda probably also asks for Birgit Simeon (FH75) as Opteran expert
-- Beneath the Isolationist City of **Schoonmaak Vuur** (Dutch for "cleansing fire"), they found a large Opteran ruin
+- Beneath the Isolationist City of **Schoonmaak Vuur** (Dutch for "cleansing fire")
+  - they found a large Opteran ruin
 - They want to export whatever is found
   - They want it gone because it's unclean
   - They're not stupid enough to give it up for free
