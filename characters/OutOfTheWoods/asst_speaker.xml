@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "../Mindjammer/character.dtd">
 <character>
   <id>
-    <charname>"Asst. Speaker"</charname>
+    <charname nickname="Asst. Speaker">Paul</charname>
     <playername>NPC</playername>
     <description>
       Imagine Arne Darvin's portrayal from the Trouble With Tribbles,
