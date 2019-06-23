@@ -24,9 +24,6 @@ NPCs:
   Ananda Taylor:  Dafny's handler within the Canopy government
     "Learning the Ropes as I Go"
 
-  Brandon Holger: Licensed Free Agent (FH77)
-    Trouble: "I Have to Show I'm the Best"
-
   Professor Ched: Adjunct Professor of AI and Cognitive Science at Kallistan
     "Has to Let Everyone Know He's the Smartest Person in the Room"
     "Junior is the Only One Who Listens to Me"
@@ -34,10 +31,6 @@ NPCs:
   Pander Batz:    Free Trader, operates a Magpie-class Trader called "the Ali Baba"
     High Concept: Trader of "Fine, Pre-Owned Quality Luxury Goods"
     Played by Jeffrey Combs w/giant coke bottle glasses
-
-  Spout:          Another Free Agent
-    Junior and Dafny met her on Kallistan and got her out of a sticky situation
-    "Dafny Did Me a Solid"
 
   XXX XXX:        Robot physician pal of Enki's
     Brian will come up with stuff
@@ -47,6 +40,16 @@ NPCs:
 
   Terence:        Non-voting Canopy rep to Senate
     "Hears All; Says Little"
+
+Dead NPCs:
+  Brandon Holger: Licensed Free Agent (FH77)
+    Trouble: "I Have to Show I'm the Best"
+    Dead: Heavy Cargo
+
+  Spout:          Another Free Agent
+    Junior and Dafny met her on Kallistan and got her out of a sticky situation
+    "Dafny Did Me a Solid"
+    Dead: Heavy Cargo
 
 Session fodder for later
   Eureka 172
