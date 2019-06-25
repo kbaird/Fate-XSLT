@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Detective Dishi</charname>
+    <playername>Tianxia Accelerated</playername>
+    <description>
+      Lanky and vaguely awkward looking, Detective
+Dishi nevertheless might be the greatest force for
+justice in Băo Jiāng. A junior magistrate whose
+unwillingness to take bribes or look the other
+way when crimes are committed by the wealthy
+or powerful, this young man has already made a
+lot of enemies. He also has a few friends, a mix
+of soldiers, merchants, and local luminaries who
+help keep Dishi from catching a dagger in the
+back. Dishi favors nonlethal methods, but
+when called on to defend himself he wields his
+iron judge’s pen and reinforced fan with skill and
+enthusiasm.
+    </description>
+  </id>
+  <refresh base="4"/>
+  <aspects>
+    <aspect type="High-Concept">One Good Cop in a Bad Town</aspect>
+    <aspect type="Trouble">Problem With Authority</aspect>
+    <aspect>Băo Jiāng's Greatest Detective</aspect>
+    <aspect>Never Gives Up</aspect>
+    <aspect>Unconventional Methods</aspect>
+  </aspects>
+  <skills shape="flat">
+    <skill rating="3" name="Careful"/>
+    <skill rating="4" name="Clever"/>
+    <skill rating="1" name="Flashy"/>
+    <skill rating="0" name="Forceful"/>
+    <skill rating="2" name="Quick"/>
+    <skill rating="1" name="Sneaky"/>
+  </skills>
+  <extras>
+    <gadget cost="2" name="Stone Crane 武術" notes="Careful, Clever">
+      <benefits>
+        <benefit name="Crane Hides in Reeds">
+          Add a +2 bonus with using Full Defense to defend yourself. If defending others, gain 2 Armor Rating against the attack instead.
+        </benefit>
+        <benefit name="Crane Stuns the Carp">
+          If you succeed on a Careful of Clever physical attack with style, you may create a Stunned advantage on a target with a free invocation instead of taking a bonus.
+        </benefit>
+        <benefit name="Stone Resists the Blow">
+          You gain 2 Armor against any physical attack you are aware of.
+        </benefit>
+      </benefits>
+    </gadget>
+  </extras>
+  <stunts>
+    <stunt name="Burden of Proof">
+      Use Clever instead of Forceful to intimidate, frighten, or cower those you have incriminating evidence against.
+    </stunt>
+    <stunt name="Elementary!">
+      +2 on Clever Overcome rolls based on investigation and detective work.
+    </stunt>
+    <stunt name="Just the Facts">
+      Do not grant a free invoke to an opponent when failing to use Clever to Create an Advantage based on intuition or deception.
+    </stunt>
+  </stunts>
+  <consequences/>
+  <hacks single-stress-track="true" stress-base-count="4"/>
+</character>
