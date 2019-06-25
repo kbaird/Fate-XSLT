@@ -32,9 +32,9 @@
           <xsl:value-of select="sum(/character/extras/gadget/@cost)"/>
         </xsl:when>
         <xsl:when test="/character/extras/gadget">
-          <xsl:value-of select="sum(/character/extras/gadget/benefits/benefit) +
-                                sum(/character/extras/gadget/function) -
-                                sum(/character/extras/gadget/flaws/flaw)"/>
+          <xsl:value-of select="sum(/character/extras/gadget/benefits/benefit/@cost) +
+                                count(/character/extras/gadget/function) -
+                                count(/character/extras/gadget/flaws/flaw)"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:value-of select="0"/>
