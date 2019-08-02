@@ -3,16 +3,16 @@
 <!DOCTYPE character SYSTEM "../Mindjammer/character.dtd">
 <character>
   <id>
-    <charname>Moderate Candidate for Far Havens Senator from Canopy</charname>
+    <charname>Margrethe Jarlov</charname>
     <playername>NPC</playername>
-    <description>Played by xxx</description>
+    <description>Played by comedienne Jen Kirkman</description>
     <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
   </id>
   <aspects>
-    <aspect type="High-Concept"></aspect>
-    <aspect type="Trouble"></aspect>
-    <aspect type="Motivation"></aspect>
-    <aspect type="Instinct"></aspect>
+    <aspect type="High-Concept">Kamala Harris mixed with Kirsten Gillibrand</aspect>
+    <aspect type="Trouble">Let Me Study That and Get Back to You</aspect>
+    <aspect type="Motivation">Establish Myself as Well-Connected Politician</aspect>
+    <aspect type="Instinct">Don't Rock the Boat</aspect>
     <aspect></aspect>
   </aspects>
   <skills>
@@ -25,8 +25,8 @@
     <skill rating="2" name="Provoke"/>
     <skill rating="2" name="Resources"/>
 
+    <skill rating="1" name="Bureaucracy"/>
     <skill rating="1" name="Empathy"/>
-    <skill rating="1" name=""/>
     <skill rating="1" name=""/>
     <skill rating="1" name=""/>
   </skills>
@@ -39,5 +39,7 @@
   <hacks credit-stress="true"/>
   <phase-trio/>
   <notes>
+    The most generically "moderate" candidate for Far Havens Senator.
+
   </notes>
 </character>
