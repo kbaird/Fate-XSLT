@@ -5,11 +5,11 @@
   <id>
     <charname>Fiona Brodeur</charname>
     <playername>NPC</playername>
-    <description>Played by French actress Marion Cotillard.</description>
+    <description>Played by French actress Marion Cotillard</description>
     <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
   </id>
   <aspects>
-    <aspect type="High-Concept">Populist With a Genuine Sense of Duty to the People of Canopy</aspect>
+    <aspect type="High-Concept">Populist With a Genuine Sense of Duty to Everyone in Canopy</aspect>
     <aspect type="Trouble">What If the Slogans Aren't Really a Solution?</aspect>
     <aspect type="Motivation">Canopy is Better Off Alone Than Assimilated</aspect>
     <aspect type="Instinct">No Deal Is Better Than a Bad Deal</aspect>
@@ -21,12 +21,12 @@
     <skill rating="3" name="Contacts"/>
     <skill rating="3" name="Will"/>
 
-    <skill rating="2" name="Knowledge"/>
+    <skill rating="2" name="Bureaucracy"/>
     <skill rating="2" name="Provoke"/>
     <skill rating="2" name="Resources"/>
 
     <skill rating="1" name="Empathy"/>
-    <skill rating="1" name=""/>
+    <skill rating="1" name="Knowledge"/>
     <skill rating="1" name=""/>
     <skill rating="1" name=""/>
   </skills>
