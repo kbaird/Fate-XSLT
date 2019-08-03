@@ -9,9 +9,9 @@
     <homeworld name="Fathom" ref="FH 8" habituated-gravity="?" tech-index="7"/>
   </id>
   <aspects>
-    <aspect type="High-Concept">Kamala Harris mixed with Kirsten Gillibrand</aspect>
+    <aspect type="High-Concept">Kirsten Gillibrand meets Beto O'Rourke</aspect>
     <aspect type="Trouble">Let Me Study That and Get Back to You</aspect>
-    <aspect type="Motivation">Establish Myself as Well-Connected Politician</aspect>
+    <aspect type="Motivation">Establish Myself as a Well-Connected Politician</aspect>
     <aspect type="Instinct">Don't Rock the Boat</aspect>
     <aspect></aspect>
   </aspects>
@@ -41,5 +41,7 @@
   <notes>
     The most generically "moderate" candidate for Far Havens Senator.
 
+    Inspirational to some voters, but never in a policy-specific way. Broadly inoffensive, but also
+    considered a bit of a lightweight. A "compromise" candidate in all senses of the term.
   </notes>
 </character>
