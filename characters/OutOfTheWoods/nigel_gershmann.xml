@@ -41,6 +41,10 @@
       (Mindjammer pg 109)
     </extra>
   </extras>
+  <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
   <consequences>
   </consequences>
   <hacks credit-stress="true"/>
