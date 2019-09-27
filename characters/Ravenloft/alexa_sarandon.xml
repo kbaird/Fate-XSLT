@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Alexa Sarandon</charname>
+    <playername>sample Weird World News character</playername>
+    <description>&#160;</description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Fame-Obsessed Anchorwoman</aspect>
+    <aspect type="Trouble">Must Find the Perfect Camera Angle</aspect>
+    <aspect type="Motivation">I Will Make WWN The Top Channel!</aspect>
+  </aspects>
+  <skills name="Aptitudes" shape="flat">
+    <skill rating="4" name="Bamboozle!"/>
+    <skill rating="3" name="Entrap!"/>
+    <skill rating="2" name="Investigate!"/>
+    <skill rating="1" name="Run!"/>
+  </skills>
+  <stunts>
+    <stunt name="Trapmaster">blah</stunt>
+  </stunts>
+  <hacks conditions="wwn" single-stress-track="true" stress-base-count="3"/>
+</character>
