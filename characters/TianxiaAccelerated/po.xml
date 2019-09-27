@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
-<!DOCTYPE character SYSTEM "character.dtd">
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
     <charname>Po, the Dragon Warrior</charname>
