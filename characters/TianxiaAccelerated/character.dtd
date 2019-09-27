@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!ELEMENT character (id, refresh?, aspects, professions?, skills?, approaches?, languages?,
+                     extras?, stunts, consequences?, hacks?, phase-trio?, notes?)>
+
+  <!ELEMENT id (charname, playername, description)>
+    <!ELEMENT charname (#PCDATA)>
+    <!ELEMENT playername (#PCDATA)>
+      <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT description (#PCDATA)>
+
+  <!ELEMENT refresh (#PCDATA)>
+    <!ATTLIST refresh base        CDATA #IMPLIED>
+    <!ATTLIST refresh current     CDATA #IMPLIED>
+    <!ATTLIST refresh free-stunts CDATA #IMPLIED>
+
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect type      CDATA #IMPLIED>
+    <!ATTLIST aspect phase-num CDATA #IMPLIED>
+
+  <!ELEMENT professions (profession*)>
+    <!ELEMENT profession (#PCDATA)>
+    <!ATTLIST profession name   CDATA #REQUIRED>
+    <!ATTLIST profession rating CDATA #REQUIRED>
+
+  <!ELEMENT skills (mode*, skill*)>
+  <!ATTLIST skills name CDATA "Skills">
+  <!ATTLIST skills shape (flat|pyramid) "pyramid">
+    <!ELEMENT mode (skill*)>
+    <!ATTLIST mode name   CDATA #REQUIRED>
+    <!ATTLIST mode rating CDATA #REQUIRED>
+    <!ELEMENT skill (#PCDATA)>
+    <!ATTLIST skill name   CDATA #REQUIRED>
+    <!ATTLIST skill rating CDATA #IMPLIED>
+    <!ATTLIST skill add    CDATA #IMPLIED>
+
+  <!ELEMENT approaches (approach*)>
+    <!ELEMENT approach (#PCDATA)>
+    <!ATTLIST approach name CDATA #REQUIRED>
+    <!ATTLIST approach rating CDATA #REQUIRED>
+
+  <!ELEMENT languages (#PCDATA)>
+
+  <!ELEMENT extras (extra*, gadget*)>
+    <!ELEMENT extra (#PCDATA)>
+      <!ATTLIST extra name CDATA #IMPLIED>
+    <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
+    <!-- benefits instead of stunts for ease of integration with ARRPG -->
+    <!ATTLIST gadget name CDATA #REQUIRED>
+    <!ATTLIST gadget notes CDATA #IMPLIED>
+    <!ATTLIST gadget override-name CDATA #IMPLIED>
+      <!ELEMENT function (#PCDATA)>
+        <!ELEMENT flaws (flaw*)>
+          <!ELEMENT flaw (#PCDATA)>
+        <!ELEMENT benefits (benefit*)>
+          <!ELEMENT benefit (#PCDATA)>
+          <!ATTLIST benefit cost CDATA #IMPLIED>
+          <!ATTLIST benefit name CDATA #REQUIRED>
+
+  <!ELEMENT stunts (stunt*)>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt name CDATA #REQUIRED>
+
+  <!ELEMENT consequences (consequence*)>
+    <!ELEMENT consequence (#PCDATA)>
+      <!ATTLIST consequence effect CDATA #IMPLIED>
+      <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
+
+  <!ELEMENT hacks (#PCDATA)>
+    <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit     -->
+    <!ATTLIST hacks corruption          (true|false)     "false"> <!-- Fate Freeport Companion -->
+    <!ATTLIST hacks credit-stress       (true|false)     "false"> <!-- Mostly for Mindjammer   -->
+    <!ATTLIST hacks skill-modes         (true|false)     "false"> <!-- Fate System Toolkit     -->
+    <!ATTLIST hacks single-stress-track (true|false)     "false">
+    <!ATTLIST hacks stress-base-count   CDATA #IMPLIED>
+    <!ATTLIST hacks systems-stress      (true|false)     "false"> <!-- Mostly for Mindjammer   -->
+
+  <!ELEMENT phase-trio (phase*)>
+    <!ELEMENT phase (events*)>
+      <!ATTLIST phase num   CDATA #REQUIRED>
+      <!ATTLIST phase title CDATA #IMPLIED>
+      <!ELEMENT events (#PCDATA)>
+
+  <!ELEMENT notes (#PCDATA)>
