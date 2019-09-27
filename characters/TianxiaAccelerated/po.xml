@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Po, the Dragon Warrior</charname>
+    <playername>天下 Accelerated</playername>
+    <description>
+      Kind of sounds like Jack Black
+    </description>
+  </id>
+  <refresh base="4"/>
+  <aspects>
+    <aspect type="High-Concept">The Dragon Warrior</aspect>
+    <aspect type="Trouble">Complex Relationships with Father Figures</aspect>
+    <aspect>Dreaming of Heroics Since Childhood</aspect>
+    <aspect>Eager to Self-Improve</aspect>
+    <aspect>Shīfu-Spotter</aspect>
+  </aspects>
+  <skills shape="flat">
+    <skill rating="0" name="Careful"/>
+    <skill rating="2" name="Clever"/>
+    <skill rating="4" name="Flashy"/>
+    <skill rating="3" name="Forceful"/>
+    <skill rating="1" name="Quick"/>
+    <skill rating="1" name="Sneaky"/>
+  </skills>
+  <extras>
+    <gadget cost="2" name="Storm Dragon 武術" notes="Flashy, Forceful">
+      <benefits>
+        <benefit name="technique1">details</benefit>
+        <benefit name="technique2">details</benefit>
+      </benefits>
+    </gadget>
+  </extras>
+  <stunts>
+    <stunt name="stunt1">details</stunt>
+  </stunts>
+  <consequences/>
+  <hacks single-stress-track="true" stress-base-count="4"/>
+</character>
