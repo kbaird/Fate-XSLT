@@ -27,7 +27,12 @@
     <skill rating="3" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="Ghost Monkey 武術" notes="Clever, Sneaky (Spirit/Heaven/Celestial Baboon/Ape/Simian)">
+    <gadget cost="2" name="Spirit Simian 武術 (Ghost Monkey)" notes="Clever, Sneaky:
+Ghost Monkey concentrates on the mastery of internal energies to augment the style's acrobatic
+defenses and attacks. Pushes, feints, sweeps, and pressure point strikes hinder an attacker, making him
+easier to outmaneuver and subdue. Rolls and dodges keep opponents at a distance until the practitioner
+can find the right opening to finish the fight with a disabling strike or grapple. One of the most physical of
+the Ghost styles, many underestimate the inner power of the capering, mocking Ghost Monkey.">
       <benefits>
         <benefit name="xxx">xxx</benefit>
         <benefit name="xxx">xxx</benefit>
