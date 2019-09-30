@@ -99,13 +99,13 @@ end
 def plot
   print pick(PLOT[:who])
   print ' '
-  print pick(PLOT[:what])
+  print pick(PLOT[:what]).downcase
   print ' of '
-  print pick(PLOT[:of])
+  print pick(PLOT[:of]).downcase
   print ' that/to '
-  print pick(PLOT[:that])
-  print ' but '
-  print pick(PLOT[:but])
+  print pick(PLOT[:that]).downcase
+  print ', but '
+  print pick(PLOT[:but]).downcase
   puts
 end
 
