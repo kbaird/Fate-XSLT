@@ -14,8 +14,8 @@
   </xsl:variable>
   <xsl:variable name="freeStunts">
     <xsl:choose>
-      <xsl:when test="/character/id/refresh/@free-stunts">
-        <xsl:value-of select="/character/id/refresh/@free-stunts"/>
+      <xsl:when test="/character/refresh/@free-stunts">
+        <xsl:value-of select="/character/refresh/@free-stunts"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="3"/>
