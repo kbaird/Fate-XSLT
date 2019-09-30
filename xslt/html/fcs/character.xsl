@@ -51,7 +51,7 @@
         </section>
         <section id="fate-logo">
           <span id="fate">
-            <img alt="Powered By Fate" src="./powered_by_fate.svg" style="height: 4em; width: 10.3em"/>
+            <img alt="Powered By Fate" src="./powered_by_fate.svg" style="height: 2em; width: 5.15em"/>
           </span>
           <table>
             <tr>

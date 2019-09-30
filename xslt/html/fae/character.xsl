@@ -13,7 +13,7 @@
         </section>
         <section id="fate-logo">
           <span id="fate">
-            <img alt="Powered By Fate" src="./powered_by_fate.svg" height="60px"/>
+            <img alt="Powered By Fate" src="./powered_by_fate.svg" style="height: 2em; width: 5.15em"/>
           </span>
           <br/>
           <span id="fate-subtitle">Accelerated</span>
