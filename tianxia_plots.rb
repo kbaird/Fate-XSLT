@@ -20,75 +20,75 @@ PLOT = {
   ],
 
   what: [
-    'Want(s) to steal the family heirloom',
-    'Seek(s) the journal',
-    'Want(s) to destroy the reputation',
-    'Raid(s) the holdings',
-    'Attack(s) the establishment',
-    'Seek(s) the secrets',
-    'Kidnap(s) the children',
-    'Seek(s) the skills',
-    'Seek(s) the location of a lost treasure',
-    'Seek(s) the aid',
-    'Is/Are seeking the true identity',
-    'Plan(s) to ambush',
-    'War(s) with the allies',
-    'Seek(s) the replacement',
-    'Plot(s) the murder or abduction'
+    'want(s) to steal the family heirloom',
+    'seek(s) the journal',
+    'want(s) to destroy the reputation',
+    'raid(s) the holdings',
+    'attack(s) the establishment',
+    'seek(s) the secrets',
+    'kidnap(s) the children',
+    'seek(s) the skills',
+    'seek(s) the location of a lost treasure',
+    'seek(s) the aid',
+    'is/are seeking the true identity',
+    'plan(s) to ambush',
+    'war(s) with the allies',
+    'seek(s) the replacement',
+    'plot(s) the murder or abduction'
   ],
 
   of: [
-    'A wealthy merchant',
-    'A nobleman',
-    'A holy man or woman',
-    'A security company',
-    'A Kung Fu master',
-    'A famous warrior',
-    'A beautiful courtesan',
-    'A famous craftsman',
-    'A Triad boss',
-    'A bandit chief',
-    'A humble peasant family',
-    'A local celebrity',
-    'A senior magistrate',
-    'A famous scholar',
-    'The PCs'
+    'a wealthy merchant',
+    'a nobleman',
+    'a holy man or woman',
+    'a security company',
+    'a kung fu master',
+    'a famous warrior',
+    'a beautiful courtesan',
+    'a famous craftsman',
+    'a triad boss',
+    'a bandit chief',
+    'a humble peasant family',
+    'a local celebrity',
+    'a senior magistrate',
+    'a famous scholar',
+    'the PCs'
   ],
 
   that: [
-    'Satisfy the wishes of their master',
-    'Ensure their loyalty or love',
-    'Is due to a big misunderstanding',
-    'Prove their superiority',
-    'Has foiled them in the past',
-    'Discover secret Kung Fu knowledge',
-    'Can be sold for a small fortune',
-    'Ultimately swell their ranks',
-    'Complete their revenge',
-    'Grow their influence in the area',
-    'Complete an ancient prophecy',
-    'Fund their future schemes',
-    'Satisfy an age-old debt',
-    'Could ruin a good person’s reputation',
-    'Power a terrible ritual'
+    'satisfy the wishes of their master',
+    'ensure their loyalty or love',
+    'is due to a big misunderstanding',
+    'prove their superiority',
+    'has foiled them in the past',
+    'discover secret kung fu knowledge',
+    'can be sold for a small fortune',
+    'ultimately swell their ranks',
+    'complete their revenge',
+    'grow their influence in the area',
+    'complete an ancient prophecy',
+    'fund their future schemes',
+    'satisfy an age-old debt',
+    'could ruin a good person’s reputation',
+    'power a terrible ritual'
   ],
 
   but: [
-    'The victim actually desires this outcome!',
-    'A stubborn magistrate is on their trail!',
-    'The whole plan is a ruse!',
-    'An ally of the PCs is hired to stop them!',
-    'Secret lovers on both sides get involved!',
-    'Another group has the same plans!',
-    'A Kung Fu master has taken interest!',
-    'First a duel must be arranged!',
-    'The PCs are framed for the scheme!',
-    'The victim hides a terrible truth!',
-    'A hapless youth witnesses everything!',
-    'The imperial army is also involved!',
-    'Their actions could start a war!',
-    'The fallout will destroy many lives!',
-    'Time is of the essence!'
+    'the victim actually desires this outcome!',
+    'a stubborn magistrate is on their trail!',
+    'the whole plan is a ruse!',
+    'an ally of the PCs is hired to stop them!',
+    'secret lovers on both sides get involved!',
+    'another group has the same plans!',
+    'a Kung Fu master has taken interest!',
+    'first a duel must be arranged!',
+    'the PCs are framed for the scheme!',
+    'the victim hides a terrible truth!',
+    'a hapless youth witnesses everything!',
+    'the imperial army is also involved!',
+    'their actions could start a war!',
+    'the fallout will destroy many lives!',
+    'time is of the essence!'
   ]
 }.freeze
 
@@ -99,13 +99,13 @@ end
 def plot
   print pick(PLOT[:who])
   print ' '
-  print pick(PLOT[:what]).downcase
+  print pick(PLOT[:what])
   print ' of '
-  print pick(PLOT[:of]).downcase
+  print pick(PLOT[:of])
   print ' that/to '
-  print pick(PLOT[:that]).downcase
+  print pick(PLOT[:that])
   print ', but '
-  print pick(PLOT[:but]).downcase
+  print pick(PLOT[:but])
   puts
 end
 
