@@ -45,11 +45,11 @@
         <benefit name="Stone Resists the Blow">
           You gain 2 Armor against any physical attack you are aware of.
         </benefit>
+        <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
           Automatically succeed on a Recover action for a Consequence if allowed to quietly meditate.
         </benefit>
-        <!--
         <benefit name="江湖 (jiānghú) Rank 2: ☐">
           Another Free Invocation of Chi Armor per conflict.
           May grant Chi Armor or Consequence recovery to others.
