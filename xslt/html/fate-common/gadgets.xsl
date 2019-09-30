@@ -22,7 +22,10 @@
     <tr>
       <td>
         <fieldset class="mega stunt">
-          <legend><span><xsl:value-of select="@name"/></span></legend>
+          <legend>
+            <span><xsl:value-of select="@name"/></span>
+            <p><xsl:value-of select="@notes"/></p>
+          </legend>
           <dl class="gadget">
             <xsl:call-template name="pad-stunt">
               <xsl:with-param name="name">
@@ -34,7 +37,6 @@
             <xsl:apply-templates select="benefits/benefit"/>
             <xsl:apply-templates select="aspects/aspect" mode="gadget"/>
           </dl>
-          <xsl:value-of select="@notes"/>
         </fieldset>
       </td>
     </tr>
