@@ -3,33 +3,35 @@
 <!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
-    <charname>Po, the Dragon Warrior</charname>
-    <playername>天下 Accelerated</playername>
+    <charname>xxx</charname>
+    <playername>Morgan Baird</playername>
     <description>
-      Kind of sounds like Jack Black
+      xxx
     </description>
   </id>
   <refresh base="4"/>
   <aspects>
-    <aspect type="High-Concept">The Dragon Warrior</aspect>
-    <aspect type="Trouble">Complex Relationships with Father Figures</aspect>
-    <aspect>Dreaming of Heroics Since Childhood</aspect>
-    <aspect>Eager to Self-Improve</aspect>
-    <aspect>Shīfu-Spotter</aspect>
+    <aspect type="High-Concept">xxx</aspect>
+    <aspect type="Trouble">xxx</aspect>
+    <aspect phase-num="1">xxx</aspect>
+    <aspect phase-num="2">xxx</aspect>
+    <aspect phase-num="3">xxx</aspect>
   </aspects>
   <skills shape="flat">
-    <skill rating="0" name="Careful"/>
-    <skill rating="2" name="Clever"/>
-    <skill rating="4" name="Flashy"/>
-    <skill rating="3" name="Forceful"/>
-    <skill rating="1" name="Quick"/>
-    <skill rating="1" name="Sneaky"/>
+    <!-- 4, 3, 2, 1, 1, 0 -->
+    <skill rating="1" name="Careful"/>
+    <skill rating="4" name="Clever"/>
+    <skill rating="1" name="Flashy"/>
+    <skill rating="0" name="Forceful"/>
+    <skill rating="2" name="Quick"/>
+    <skill rating="3" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="Storm Dragon 武術" notes="Flashy, Forceful">
+    <gadget cost="2" name="Ghost Monkey 武術" notes="Clever, Sneaky (Spirit/Heaven/Celestial Baboon/Ape/Simian)">
       <benefits>
-        <benefit name="technique1">details</benefit>
-        <benefit name="technique2">details</benefit>
+        <benefit name="xxx">xxx</benefit>
+        <benefit name="xxx">xxx</benefit>
+        <benefit name="xxx">xxx</benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -52,8 +54,21 @@
     </gadget>
   </extras>
   <stunts>
-    <stunt name="stunt1">details</stunt>
+    <stunt name="xxx">xxx</stunt>
+    <stunt name="xxx">xxx</stunt>
+    <stunt name="xxx">xxx</stunt>
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="4"/>
+  <phase-trio>
+    <phase num="1">
+      <events>Some events</events>
+    </phase>
+    <phase num="2">
+      <events>Some events</events>
+    </phase>
+    <phase num="3">
+      <events>Some events</events>
+    </phase>
+  </phase-trio>
 </character>
