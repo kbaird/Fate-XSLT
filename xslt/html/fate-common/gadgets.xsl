@@ -27,11 +27,6 @@
             <p><xsl:value-of select="@notes"/></p>
           </legend>
           <dl class="gadget">
-            <xsl:call-template name="pad-stunt">
-              <xsl:with-param name="name">
-                <xsl:value-of select="@name"/>
-              </xsl:with-param>
-            </xsl:call-template>
             <xsl:apply-templates select="function"/>
             <xsl:apply-templates select="flaws/flaw"/>
             <xsl:apply-templates select="benefits/benefit"/>
