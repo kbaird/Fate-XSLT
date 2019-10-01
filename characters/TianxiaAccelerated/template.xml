@@ -54,9 +54,21 @@
     </gadget>
   </extras>
   <stunts>
-    <stunt name="xxx">xxx</stunt>
-    <stunt name="xxx">xxx</stunt>
-    <stunt name="xxx">xxx</stunt>
+    <stunt name="xxx">
+      Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome], I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily][pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
+    </stunt>
+    <stunt name="Ally's Shield">
+      You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack. When you do, redirect that attack to yourself. Your defense is Average (+1) against that attack.
+    </stunt>
+    <stunt name="Backstab: ☐">
+      Because I am Death's silent hand, once per session, when I strike an unaware target from hiding, I may require that target to take the hit without the benefit of their stress track.
+    </stunt>
+    <stunt name="Ritualist II: ☐">
+      Once per session, when facing a challenge, you may perform a magic ritual to automatically succeed with style at any one component task of the challenge.
+    </stunt>
+    <stunt name="The Lessons of Master Zhao">
+      Use Clever approach instead of Careful with Stone Monkey Kung Fu
+    </stunt>
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="4"/>
