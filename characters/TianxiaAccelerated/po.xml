@@ -55,5 +55,5 @@
     <stunt name="stunt1">details</stunt>
   </stunts>
   <consequences/>
-  <hacks single-stress-track="true" stress-base-count="4"/>
+  <hacks single-stress-track="true" stress-base-count="3"/>
 </character>
