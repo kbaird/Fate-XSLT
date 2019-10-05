@@ -4,7 +4,7 @@
 <character>
   <id>
     <charname>xxx</charname>
-    <playername>xxx</playername>
+    <playername>Brian Wilcox</playername>
     <description>
       xxx
     </description>
@@ -19,15 +19,20 @@
   </aspects>
   <skills shape="flat">
     <!-- 4, 3, 2, 1, 1, 0 -->
-    <skill rating="3" name="Careful"/>
+    <skill rating="1" name="Careful"/>
     <skill rating="4" name="Clever"/>
     <skill rating="1" name="Flashy"/>
     <skill rating="0" name="Forceful"/>
     <skill rating="2" name="Quick"/>
-    <skill rating="1" name="Sneaky"/>
+    <skill rating="3" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="xxx xxx 武術" notes="Careful, Clever">
+    <gadget cost="2" name="Spirit Simian 武術 (Ghost Monkey)" notes="Clever, Sneaky:
+Ghost Monkey concentrates on the mastery of internal energies to augment the style's acrobatic
+defenses and attacks. Pushes, feints, sweeps, and pressure point strikes hinder an attacker, making him
+easier to outmaneuver and subdue. Rolls and dodges keep opponents at a distance until the practitioner
+can find the right opening to finish the fight with a disabling strike or grapple. One of the most physical of
+the Ghost styles, many underestimate the inner power of the capering, mocking Ghost Monkey.">
       <benefits>
         <benefit name="xxx">xxx</benefit>
         <benefit name="xxx">xxx</benefit>
