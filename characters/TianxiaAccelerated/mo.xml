@@ -13,7 +13,7 @@
   <aspects>
     <aspect type="High-Concept">xxx</aspect>
     <aspect type="Trouble">xxx</aspect>
-    <aspect phase-num="1">xxx</aspect>
+    <aspect phase-num="1">Raised by the Silken Shadow Triad</aspect>
     <aspect phase-num="2">xxx</aspect>
     <aspect phase-num="3">xxx</aspect>
   </aspects>
@@ -27,16 +27,24 @@
     <skill rating="3" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="Spirit Simian 武術 (Ghost Monkey)" notes="Clever, Sneaky:
+    <gadget cost="2" name="Ghost Monkey 武術" notes="Clever, Sneaky:
 Ghost Monkey concentrates on the mastery of internal energies to augment the style's acrobatic
 defenses and attacks. Pushes, feints, sweeps, and pressure point strikes hinder an attacker, making him
 easier to outmaneuver and subdue. Rolls and dodges keep opponents at a distance until the practitioner
 can find the right opening to finish the fight with a disabling strike or grapple. One of the most physical of
 the Ghost styles, many underestimate the inner power of the capering, mocking Ghost Monkey.">
       <benefits>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
+        <benefit name="Ghost Haunts the Shadow">
+          You may use Clever instead of Sneaky to Create an Advantage based on stealth or concealment. If
+          Sneaky is greater or equal to a character’s Clever approach, gain a +2 bonus to such rolls instead.
+        </benefit>
+        <benefit name="Ghost Strikes the Spirit">
+          Gain +1 Weapon Rating and ignore 1 Armor Rating when attacking in a physical conflict who is either
+          Jianghu Rank 0, part of a mob, or has a consequence based around weakened Chi energies.
+        </benefit>
+        <benefit name="Monkey Rolls Away">
+          When invoking an aspect or advantage during a defense roll, gain 2 Armor Rating against the attack if it succeeds.
+        </benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -79,7 +87,7 @@ the Ghost styles, many underestimate the inner power of the capering, mocking Gh
   <hacks single-stress-track="true" stress-base-count="4"/>
   <phase-trio>
     <phase num="1">
-      <events>Some events</events>
+      <events>Orphan who grew up in Băo Jiāng</events>
     </phase>
     <phase num="2">
       <events>Some events</events>
