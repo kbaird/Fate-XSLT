@@ -41,11 +41,12 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - _Ravenloft_
 
 ### Xuvutruobacaoly
-16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and Grand Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
+16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and
+Grand Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
 The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league with the demon, and was executed.
 
 #### What really happened:
-**Siegebreaker Jīng** summoned the demon **Xuvutruobacaoly**, intending to rule as Regent after the Emperor was killed
+**Jīng** summoned the demon **Xuvutruobacaoly**, intending to rule as Regent after the Emperor was killed
 - The demon used an illusion to trick **Jīng** into killing the Emperor when he thought he was killing the demon
 - The demon now masquerades as the Emperor, and is only a slightly worse ruler
 - **Jīng** had **Geomancer Fēng** framed for the plot and executed (since he would have discovered it)
