@@ -29,6 +29,7 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 ### The various Hells
 - _Orpheus_?
 - Retrieve a dead master
+  - Or consult with **Geomancer Fēng** from _Xuvutruobacaoly_ scenario to establish innocence
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
 ### Silk River
