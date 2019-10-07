@@ -39,7 +39,7 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
 - _Ravenloft_
 
-### Zhōngzhōu (中州) and the Imperial Capital
+### Xuvutruobacaoly
 16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and Grand Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
 The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league with the demon, and was executed.
 
@@ -50,4 +50,8 @@ The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league wi
 - **Jīng** had **Geomancer Fēng** framed for the plot and executed (since he would have discovered it)
 If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
 from _GURPS Banestorm_, 4th Edition (pg 92)
+
+### Zhōngzhōu (中州) and the Imperial Capital
+_Regency Romance_ from _Fate Adversary Toolkit_ (pg 106)
+Xuvutruobacaoly
 
