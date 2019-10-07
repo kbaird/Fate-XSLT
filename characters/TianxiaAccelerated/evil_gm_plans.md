@@ -4,6 +4,7 @@
 - Start with _12 Golden Butchers_
 - Doppleganger, like John Rogers' D&D comics
 - various _Eureka_ Fantasy plots
+- Monsters from 3e _Oriental Adventures_
 
 ### Băo Jiāng
 Think about a guest appearance from **Detective Dishi**
@@ -21,9 +22,14 @@ _Blood of the Masters_ (T:BS&J, pg 170)
 Might overlap with _Banestorm_ plot, but could also be a good prep.
 Also has some Doppleganger stuff
 
-### Zhōngzhōu (中州) and the Imperial Capital
-- Use the Megalan Emperor plot from _GURPS Banestorm_ (4th ed)
-  - If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
+### Fragrant Harbor
+Conan's _Pit of Kutallu_ (fishmen, cultists)
+- could be a prep to _Saltmarsh_
+
+### The various Hells
+- _Orpheus_?
+- Retrieve a dead master
+- What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
 ### Silk River
 - _Saltmarsh_ is normally coastal, could rework as river pirates (or save for **Fragrant Harbor**)
@@ -33,11 +39,15 @@ Also has some Doppleganger stuff
 - _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
 - _Ravenloft_
 
-### Fragrant Harbor
-Conan's _Pit of Kutallu_ (fishmen, cultists)
-- could be a prep to _Saltmarsh_
+### Zhōngzhōu (中州) and the Imperial Capital
+16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and Grand Master **Jordan Siegebreaker**.
+The "Court Wizard" **Phocas** was found to be in league with the demon, and was executed.
 
-### The various Hells
-- _Orpheus_?
-- Retrieve a dead master
-- What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
+#### What really happened:
+Jordan summoned the demon **Xuvutruobacaoly**, intending to rule as Regent after the Emperor was killed
+- The demon used an illusion to trick Jordan into killing the Emperor when he thought he was killing the demon
+- The demon now masquerades as the Emperor, and is only a slightly worse ruler
+- Jordan had Phocas framed for the plot and executed (since he would have discovered it)
+If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
+from _GURPS Banestorm_, 4th Edition (pg 92)
+
