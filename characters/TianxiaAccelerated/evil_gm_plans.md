@@ -13,12 +13,14 @@ _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
 
 ### Culty Goodness
 _Blood of the Masters_ (T:BS&J, pg 170)
-- The **Shining Vampire Sect** kidnaps several masters in order to drink their blood and steal their power
+- The **Shining Vampire Sect** kidnaps several masters in order to drink their blood
+  and steal their power
 **Evil Cultists** (T:BS&J, pg 156)
 
 ### Detective Dee: The Four Heavenly Kings (四天王)
 "Wind Warriors" assisted the rise of the current Dynasty and were then betrayed.
-**Empress Wu** imagines the (actually dead) "Faceless Lord" is directing her plot to frame **Detective Dee**.
+**Empress Wu** imagines the (actually dead) "Faceless Lord" is directing her plot to frame
+**Detective Dee**.
 Might overlap with _Banestorm_ plot, but could also be a good prep.
 Also has some Doppleganger stuff
 
@@ -33,7 +35,8 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
 ### Silk River
-- _Saltmarsh_ is normally coastal, could rework as river pirates (or save for **Fragrant Harbor**)
+- _Saltmarsh_ is normally coastal, could rework as river pirates
+  (or save for **Fragrant Harbor**)
 
 ### Tiānqiáo Mountains (天橋山)
 - Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
@@ -43,13 +46,17 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 ### Xuvutruobacaoly
 16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and
 Grand Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
-The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league with the demon, and was executed.
+The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league with the demon,
+and was executed.
 
 #### What really happened:
-**Jīng** summoned the demon **Xuvutruobacaoly**, intending to rule as Regent after the Emperor was killed
-- The demon used an illusion to trick **Jīng** into killing the Emperor when he thought he was killing the demon
+**Jīng** summoned the demon **Xuvutruobacaoly**,
+  intending to rule as Regent after the Emperor was killed
+- The demon used an illusion to trick **Jīng** into killing the Emperor
+  when he thought he was killing the demon
 - The demon now masquerades as the Emperor, and is only a slightly worse ruler
-- **Jīng** had **Geomancer Fēng** framed for the plot and executed (since he would have discovered it)
+- **Jīng** had **Geomancer Fēng** framed for the plot and executed
+  (since Fēng would have discovered it)
 If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
 from _GURPS Banestorm_, 4th Edition (pg 92)
 
