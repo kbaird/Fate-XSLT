@@ -2,12 +2,11 @@
 
 ## Various Evil GM Plans
 - Start with _12 Golden Butchers_
+- "The Prince" _GURPS Fantasy_ (pg 183)
+  - combine with other scenario, maybe _Saltmarsh_ or _Blood of the Masters_
+  - **Prince Xiǎolóng** can observe the PCs being awesome and possibly save his life
 - various _Eureka_ Fantasy plots
 - Monsters from _Oriental Adventures_ 3E
-- "The Prince" _GURPS Fantasy_ (pg 183)
-  - doesn't make sense for **Xuvutruobacaoly** to attempt assassination
-    better to do it at court where he can do illusions more smoothly
-    could reveal that the Emperor has grown more erratic in the past several years
 - Various adventure seeds: _GURPS Fantasy_ (pg 175)
 - Doppleganger, like John Rogers' D&D comics
 
@@ -39,6 +38,14 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
   - Or consult with **Geomancer Fēng** from _Xuvutruobacaoly_ scenario to establish innocence
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
+### The Prince
+**Prince Xiǎolóng/小龙**, decent young man who will probably become a good 王,
+but currently stubborn & overconfident (trainers were reluctant to challenge him).
+Sent to do military service at a frontier garrison in **Jiāngzhōu**
+doesn't make sense for **Xuvutruobacaoly** to attempt assassination
+better to do it at court where he can do illusions more smoothly
+could reveal that the Emperor has grown more erratic in the past several years
+
 ### Silk River
 - _Saltmarsh_ is normally coastal, could rework as river pirates
   (or save for **Fragrant Harbor**)
@@ -64,7 +71,7 @@ and was executed.
   when he thought he was killing the demon
 - The demon now masquerades as the Emperor, and is only a slightly worse ruler
 - **Jīng** had **Geomancer Fēng** framed for the plot and executed
-  (since Fēng would have discovered it)
+  (since Fēng would have discovered it) - consult in the Spirit World
 If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
 from _GURPS Banestorm_ (pg 92)
 
