@@ -52,11 +52,11 @@ could reveal that the Emperor has grown more erratic in the past several years
 
 ### Tiānqiáo Mountains (天橋山)
 - "Red Orcs" from _GURPS Fantasy_ (pg 62)
-  - High tech Orcs on the border. Classic LE society as written: Cardassian, Darguun, etc.
+  - High tech Orcs on the border. Classic LE society as written: Cardassia, Darguun, etc.
     - Could be Muslim metaphor, deconstructions of various sorts, etc.
-- Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
 - _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
 - _Ravenloft_
+- Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
 
 ### Xuvutruobacaoly
 16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and
