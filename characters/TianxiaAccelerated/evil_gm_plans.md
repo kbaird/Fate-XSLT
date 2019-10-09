@@ -2,9 +2,14 @@
 
 ## Various Evil GM Plans
 - Start with _12 Golden Butchers_
-- Doppleganger, like John Rogers' D&D comics
 - various _Eureka_ Fantasy plots
-- Monsters from 3e _Oriental Adventures_
+- Monsters from _Oriental Adventures_ 3E
+- "The Prince" _GURPS Fantasy_ (pg 183)
+  - doesn't make sense for **Xuvutruobacaoly** to attempt assassination
+    better to do it at court where he can do illusions more smoothly
+    could reveal that the Emperor has grown more erratic in the past several years
+- Various adventure seeds: _GURPS Fantasy_ (pg 175)
+- Doppleganger, like John Rogers' D&D comics
 
 ### Băo Jiāng
 Think about a guest appearance from **Detective Dishi**
@@ -39,6 +44,8 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
   (or save for **Fragrant Harbor**)
 
 ### Tiānqiáo Mountains (天橋山)
+- "Red Orcs" from _GURPS Fantasy_ (pg 62)
+  - high tech Orcs on the border. Could be Muslim metaphor.
 - Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
 - _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
 - _Ravenloft_
@@ -58,7 +65,7 @@ and was executed.
 - **Jīng** had **Geomancer Fēng** framed for the plot and executed
   (since Fēng would have discovered it)
 If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
-from _GURPS Banestorm_, 4th Edition (pg 92)
+from _GURPS Banestorm_ (pg 92)
 
 ### Zhōngzhōu (中州) and the Imperial Capital
 _Regency Romance_ from _Fate Adversary Toolkit_ (pg 106)
