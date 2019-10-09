@@ -51,7 +51,7 @@ could reveal that the Emperor has grown more erratic in the past several years
   (or save for **Fragrant Harbor**)
 
 ### Tiānqiáo Mountains (天橋山)
-- "Red Orcs" from _GURPS Fantasy_ (pg 62)
+- "Red Orcs" from _GURPS Fantasy_ (pg 62), "Mines of the Mountain King" (pg 178)
   - High tech Orcs on the border. Classic LE society as written: Cardassia, Darguun, etc.
     - Could be Muslim metaphor, deconstructions of various sorts, etc.
 - _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
