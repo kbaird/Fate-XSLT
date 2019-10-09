@@ -45,7 +45,8 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 
 ### Tiānqiáo Mountains (天橋山)
 - "Red Orcs" from _GURPS Fantasy_ (pg 62)
-  - high tech Orcs on the border. Could be Muslim metaphor.
+  - High tech Orcs on the border. Classic LE society as written: Cardassian, Darguun, etc.
+    - Could be Muslim metaphor, deconstructions of various sorts, etc.
 - Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
 - _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
 - _Ravenloft_
