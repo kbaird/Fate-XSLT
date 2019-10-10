@@ -6,16 +6,16 @@
     <charname>Mo's PC</charname>
     <playername>Morgan Baird</playername>
     <description>
-      xxx
+      On a quest to learn the secret technique of 气 Blocking
     </description>
   </id>
   <refresh base="4" free-stunts="1"/>
   <aspects>
-    <aspect type="High-Concept">xxx</aspect>
-    <aspect type="Trouble">xxx</aspect>
+    <aspect type="High-Concept">&#160;</aspect>
+    <aspect type="Trouble">&#160;</aspect>
     <aspect phase-num="1">Raised by the Silken Shadow Triad</aspect>
-    <aspect phase-num="2">xxx</aspect>
-    <aspect phase-num="3">xxx</aspect>
+    <aspect phase-num="2">&#160;</aspect>
+    <aspect phase-num="3">&#160;</aspect>
   </aspects>
   <skills shape="flat">
     <!-- 4, 3, 2, 1, 1, 0 -->
@@ -68,11 +68,14 @@ the Ghost styles, many underestimate the inner power of the capering, mocking Gh
   </extras>
   <stunts>
     <stunt name="xxx">
-      Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome], I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily][pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
+      Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome],
+      I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily]
+      [pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
     </stunt>
     <!--
-    <stunt name="Backstab KO: ☐">
-      Because I was trained by criminals, once per session, when I strike an unaware target from hiding, I may automatically Create an Advantage "Knocked Out" on the target.
+    <stunt name="Qì (气) Blocking: ☐">
+      Because I have access to forbidden lore, once per session and at the cost of spending a Fate Point,
+      I may automatically Create an Advantage "Paralyzed" on the target.
     </stunt>
     <stunt name="Ally's Shield">
       You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack. When you do, redirect that attack to yourself. Your defense is Average (+1) against that attack.
