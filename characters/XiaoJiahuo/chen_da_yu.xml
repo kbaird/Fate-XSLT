@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname nickname="陈达玉">Chén dá yù</charname>
+    <playername>Phil Bernard</playername>
+    <story>
+      陈 was a Túyàngan street rat in Kausao, rescued from attackers by a
+      martial artist named Hiro who became her Shīfu (師父), training her in
+      Ghost Serpent style and inducting her into the Jianghu (江湖). He's
+      basically Stick from DD, and was probably her biological father, too.
+      He is remembered by her with rose-colored glasses, ignoring his flaws (to
+      be specified in greater detail as we play). He was also murdered.
+      陈 now works as domestic staff, making the highty-toighty rounds,
+      searching for his killer: she has some data suggesting a connection
+      between his killers and old money.  Speaks Túyàngan natively, can be
+      yelled at by employers in all others (Naramel weakest); Illiterate.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Practitioner of the Ghost Serpent Style</aspect>
+    <aspect type="Background">Kausao Street Rat</aspect>
+    <aspect type="Inciting-Incident">Witnessed the Murder of her Shīfu</aspect>
+    <aspect type="Belief">I Will &#8220;Rest&#8221; When my Master is Avenged</aspect>
+    <aspect type="Trouble">Extremely Stubborn</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="3" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Jade Tattoo" function="Blue Jade Tattoo of Stealth" type="Device">
+      <features>
+        <feature type="Focus" bonus="4" profession="Scoundrel"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only vs. Jade-enhanced detection"/>
+      </flaws>
+    </asset>
+    <asset name="The Downstairs Help" function="Eyes, Ears, General Favors" type="Ally">
+      <features>
+        <feature type="Professional" bonus="2"
+          main-profession="Aristocrat" other-professions="Scholar"/>
+        <feature type="Resilient"    bonus="1"/>
+        <feature type="Independent"/>
+        <feature type="Sturdy"       bonus="1"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Expects quid pro quo"/>
+        <flaw type="Situational" effect="Only within estates of the wealthy"/>
+        <flaw type="Situational" effect="Nothing Too dangerous"/>
+      </flaws>
+      <notes>
+        A moderately large group, but no Numerous, as only
+        one person is available to help at any given time.
+      </notes>
+    </asset>
+    <asset name="Defang the Snake" guiding-aspect="Portrayal" type="Technique">
+      <features>
+        <feature type="Exceptional"
+          effect="Reactively disarm an opponent who missed you in combat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational"
+          effect="Only on a Success With Style"/>
+        <flaw type="Situational"
+          effect="Only when defending against an opponent wielding a melee weapon"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname nickname="Madame Lotus">Dilar Hanania</charname>
+    <playername>Jennifer Cornish</playername>
+    <story>
+      Owns a secret Black Jade mine under her family's more modest &#8220;Wayne
+      Manor&#8221;. Someone has developed an anti-psychotic drug using Black
+      and Green Jade that has helped her schizophrenic younger sister. Owns The
+      Blooming Lotus, a drug den in the Terminal Strip neighborhood of Kausao
+      City under the pseudonym of &#8220;Madame Lotus&#8221;.
+      Relationship w/Jianghu (江湖; lit. &#8220;rivers and lakes&#8221;) is unclear.
+      Probably travels in upper crust social circles. Employs Hamza Abu-Talat
+      and Steffan Gilios at The Blooming Lotus. Naramel.
+      The mining company owned by her family is smaller than any of the big 5
+      from pg96. Speaks Naramel natively, Kaiyu at Junior High student level,
+      and Túyàngan and Aerish functionally as a glamorous rich person who's not
+      trying too hard.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Daughter of Old Mining Money</aspect>
+    <aspect type="Background">I Have Friends on the Council</aspect>
+    <aspect type="Inciting-Incident">Why does Isabella want the formula?</aspect>
+    <aspect type="Belief">I Have to Take Care of My Sister</aspect>
+    <aspect type="Trouble">Secret Owner of a Kausao Speakeasy</aspect>
+  </aspects>
+  <professions>
+    <profession rating="3" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="0" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Cutting Remarks" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Exceptional" effect="Target may not check a Stress Box"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only for Attacks with Aristocrat"/>
+      </flaws>
+    </asset>
+    <!--
+    <asset name="Ear to the Ground" guiding-aspect="Trouble" type="Technique">
+      <features>
+        <feature type="Focus" bonus="2" profession="Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when using your network to find information"/>
+      </flaws>
+    </asset>
+    -->
+    <asset name="Let's Make a Deal" guiding-aspect="Trouble" type="Technique">
+      <features>
+        <feature type="Focus" bonus="2" profession="Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational"
+          effect="Only to Create Advantages on an NPC who is someone else's boss"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>

@@ -1,0 +1,42 @@
+chen_da_yu:    Practitioner of the Ghost Serpent Style
+chen_da_yu:    Kausao Street Rat
+chen_da_yu:    Witnessed the Murder of her Shīfu
+chen_da_yu:    I Will "Rest" When my Master is Avenged
+chen_da_yu:    Extremely Stubborn
+
+dilar:    Daughter of Old Mining Money
+dilar:    I Have Friends on the Council
+dilar:    Who's After the Formula, and Why?
+dilar:    I Have to Take Care of My Sister
+dilar:    Secret Owner of a Kausao Speakeasy
+
+griff:    Captain of the Airship Corran
+griff:    Self-Made Assassin
+griff:    "Friend" Let Mom Die
+griff:    Death to the Rich
+griff:    Double Life
+
+wu:    Túyàngan Alchemist
+wu:    [Why is a Droneworks employing an Alchemist?]
+
+steffan_gilios:    Shift Lead at the Blooming Lotus
+steffan_gilios:    Specialized in Acquiring Illicit Materials
+steffan_gilios:    Family Business was Taken Over via Corruption
+steffan_gilios:    Laws are Not Boundaries to Justice
+steffan_gilios:    Restoring the Family Reputation Falls to Steffan
+
+Compels
+  Restoring the Family Reputation Falls to Steffan
+    1) Hawthorne throws suspicion on Etihad based on Steffan's previous hatred, or
+    2) Etihad tries to throw suspicion on Hawthorne instead
+
+  Self-Made Assassin
+    Griff hired by Strangler 包 to take out 陈 - 包 leads a double-life like Dilar,
+      and 陈 is getting too close to finding the truth
+    #"You have ingested a slow-acting poison and will be dead by sunset tomorrow."
+    #True? Or someone trying to get Griff and/or his VC to attack whom they suspect?
+    #(Talislanta 4e, pg434)
+
+  I Will "Rest" When my Master is Avenged
+    Crime Boss (Kingpin to Hiro's DD) likely suspect for ordering hit
+      "Strangler 包 (bāo)"?
