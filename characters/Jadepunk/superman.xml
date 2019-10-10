@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Lord Johnathon Clark</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+The floating city of Kent was a bastion of peace and honor. Rich in white jade mines and a
+place of high learning. It was ruled over by the ruling house, Clark. Then came the ambitious
+General, Xiao, a mercenary who gathered power wherever he could. In one swift stroke he wiped
+out the Clarks and took control of the city. The Lord Clark was able to get his son secreted
+away prior to the attack. Now Johnathan lives as an exile in Kausao City. He found an ancient
+temple deep beneath the earth and there found the power to stand against Xiao and bullies like
+him.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Champion of the People</aspect>
+    <aspect type="Background">True King of Kent</aspect>
+    <aspect type="Inciting-Incident">House Destroyed, Family Dead</aspect>
+    <aspect type="Belief">The Strong Must Protect the Weak</aspect>
+    <aspect type="Trouble">I Cannot Save Them All</aspect>
+  </aspects>
+  <professions>
+    <profession rating="2" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="3" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="0" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Raiment of Rao" function="Ancient Power Suit" type="Device">
+      <features>
+        <feature type="Exceptional" effect="Allows you to fly, maneuver with Explorer"/>
+        <feature type="Protective"  bonus="3"/>
+        <feature type="Sturdy"      bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only in direct sunlight"/>
+        <flaw type="Troubling" effect="Everyone wants the suit's secrets"/>
+      </flaws>
+      <notes>
+        In the hidden temple of Rao, buried deep beneath the City, Johnathan discovered an ancient
+        Jadetech Power Suit. It is revolutionary and beyond what most alchemists are capable of even
+        in this age of enlightenment. When in direct sunlight the suit allows the wearer to ride the
+        beams of light and a degree of invulnerability. It is a strange mixture of Blue, Red and
+        Black jade. Since he first stepped into the sky over Kausao, the rich and the criminal have
+        been hunting him. They want, nay need, that suit and will do nearly anything to get it.
+      </notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+Lord Johnathan Clark
+The floating city of Kent was a bastion of peace and honor. Rich in white jade mines and a
+place of high learning. It was ruled over by the ruling house, Clark. Then came the ambitious
+General, Xiao, a mercenary who gathered power wherever he could. In one swift stroke he wiped
+out the Clark's and took control of the city. The Lord Clark was able to get his son secreted
+away prior to the attack. Now Johnathan lives as an exile in Kausao City. He found an ancient
+temple deep beneath the earth and there found the power to stand against Xiao and bullies like
+him.
+
+Portrayal: Champion of the People
+Background: True King of Kent
+Inciting Incident: House Destroyed, Family Dead
+Belief: The Strong Must Protect the Weak
+Trouble: I cannot Save Them All
+
+Professons: Explorer(+3), Fighter and Aristocrat(+2), Scholar and Engineer(+1), Scoundrel(+0)
+
+  Assets
+  Device: Raiment of Rao
+  In the hidden temple of Rao, buried deep beneath the City, Johnathan discovered an ancient
+  Jadetech Power Suit. It is revolutionary and beyond what most alchemists are capable of even
+  in this age of enlightenment. When in direct sunlight the suit allows the wearer to ride the
+  beams of light and a degree of invulnerability. It is a strange mixture of Blue, Red and
+  Black jade. Since he first stepped into the sky over Kausao, the rich and the criminal have
+  been hunting him. They want, nay need, that suit and will do nearly anything to get it.
+
+  Function Aspect: Ancient Power Suit
+  Features: Exceptional(allows you tow fly, maneuver with explorer), Protective 2(reduce Shift
+    Value of attacks against you by two), Sturdy 2(asset has 2 extra stress boxes)
+  Flaws: Situational(only in direct sunlight), Troubling(everyone wants the suit's secrets
+
+    Refresh: 1
+-->

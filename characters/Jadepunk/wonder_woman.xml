@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Mahni, Ambassador of Truth and Love</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+<!--      
+The Ahlmac have legends of the lands far to the south. Deep in the primordial jungles once
+roamed a people strong and peaceful, the Ter Praeta. They respected the land and made proper
+sacrifice to both Rapaev and Saivep. But even to such people, war must come. For the Ter Praeta
+this came in the form of Teltac, the skin stealers. The Teltac killed the Ter Praeta armies,
+the old, the infirm, and even the children. The women were to be enslaved. When the women
+saw this they prayed and made sacrifice to the moon goddess Saivep, for salvation. Saivep
+took pity on her people and made a way for them. Across the river Marjoa, where none may
+go, lies a great island. This is the land of the Ter Praeta. Only women, they are immortal
+priestesses and Warriors. So says the stories of the Ahlmac.
+
+These stories are true.
+-->
+Deep in the rain-forest in the center of the largest river on the planet, lies a hidden
+island of only women. Far advanced in the use of Jade and other technologies they have
+whiled away the centuries hidden in their home. But the discovery of Jadetech by the
+nations of the world has concerned the Council of Priestesses. Man's world is violent and
+filled with hate. They decided they must send out a scout, to see what the world would do
+with this dangerous technology. Mahni, daughter of the Voice of Saivep, was chosen for
+this task. She has only been in the realms of Man for a short while, but Mahni cannot
+stand by at all the cruelty and suffering she sees. With her weapons and her voice she has
+become a prominent member of The Jianghu, teaching of Truth and of Love, and standing up
+to those who would Hate or Deceive.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Chosen of the Gods</aspect>
+    <aspect type="Background">Princess of Peace</aspect>
+    <aspect type="Inciting-Incident">Man's World Is Filled With Hate</aspect>
+    <aspect type="Belief">Truth Will Free Us</aspect>
+    <aspect type="Trouble">Fearless and Unashamed</aspect>
+  </aspects>
+  <professions>
+    <profession rating="3" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="0" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Blessings of The Grandmother" function="Bracers of Protection" type="Device">
+      <features>
+        <feature type="Focus"  bonus="2" profession="Fighter"/>
+        <feature type="Sturdy" bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only against ranged attacks"/>
+      </flaws>
+      <notes>
+        Up the small river, Yanguai, lies the ruins of the First Men. Only one god of the First Men
+        still exists, Grandmother River. She is an old protective god, who lets no impure person
+        enter her domain. When Mahni was but a child, she heard stories of the First Men and went to
+        look for them. This tickled the Grandmother so much that she gave little Mahni a blessing,
+        Armored bracers, made from fine and delicate White Jade. They protect Mahni by allowing her
+        hands to move fast enough to block any attack.
+      </notes>
+    </asset>
+    <asset name="Necklace of Angatup" function="Voice of Truth" type="Device">
+      <features>
+        <feature type="Focus" bonus="2" profession="Aristocrat"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when forcing someone to tell the truth"/>
+      </flaws>
+      <notes>
+        One of the greatest virtues of the Ter Praeta is Truth, personified in the god Angatup, the
+        light in the darkness. In honor of Angatup the priestesses crafted the Necklace. It allows
+        the person wearing it to gain the truth from a deceiver.
+      </notes>
+    </asset>
+    <asset name="Pytah-jovahn" guiding-aspect="Portrayal" type="Technique">
+      <features>
+        <feature type="Focus" bonus="2" profession="Fighter"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when outnumbered"/>
+      </flaws>
+      <notes>
+        Named after the goddess of war, who gifted this martial art to the Ter Praeta, this martial
+        art focuses on "shock and awe." It is an impressive art that plays on the psychology of the
+        opponent as much as the body. Only the most pure and dedicated of the priestesses are allowed
+        to learn this holy art. They are known for the ritual scars they carry on the backs of their
+        hands, the mark of the goddess.
+      </notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+Mahni, Ambassador of Truth and Love
+The Ahlmac have legends of the lands far to the south. Deep in the primordial jungles once
+roamed a people strong and peaceful, the Ter Praeta. They respected the land and made proper
+sacrifice to both Rapaev and Saivep. But even to such people, war must come. For the Ter Praeta
+this came in the form of Teltac, the skin stealers. The Teltac killed the Ter Praeta armies,
+     the old, the infirm, and even the children. The women were to be enslaved. When the women
+     saw this they prayed and made sacrifice to the moon goddess Saivep, for salvation. Saivep
+     took pity on her people and made a way for them. Across the river Marjoa, where none may
+     go, lies a great island. This is the land of the Ter Praeta. Only women, they are immortal
+     priestesses and Warriors. So says the stories of the Ahlmac.
+
+     These stories are true.
+
+     Deep in the rain-forest in the center of the largest river on the planet, lies a hidden
+     island of only women. Far advanced in the use of Jade and other technologies they have
+     whiled away the centuries hidden in their home. But the discovery of Jadetech by the
+     nations of the world has concerned the Council of Priestesses. Man's world is violent and
+     filled with hate. They decided they must send out a scout, to see what the world would do
+     with this dangerous technology. Mahni, daughter of the Voice of Saivep, was chosen for
+     this task. She has only been in the realms of Man for a short while, but Mahni cannot
+     stand by at all the cruelty and suffering she sees. With her weapons and her voice she has
+     become a prominent member of The Jianghu, teaching of Truth and of Love, and standing up
+     to those who would Hate or Decieve.
+
+     Portrayal: Chosen Of The Gods
+     Background: Princess of Peace
+     Inciting Incident: Man's World Is Filled With Hate
+     Belief: Truth Will Free Us
+     Trouble: Fearless and Unashamed
+
+     Professions: Aristocrat(+3), Fighter and Explorer(+2), Scholar and Engineer(+1),
+     Scoundrel(+0)
+
+  Assets
+  Technique: Pytah-jovahn
+  Named after the goddess of war, who gifted this martial art to the Ter Praeta, this martial
+  art focuses on, "shock and awe." It is an impressive art that plays on the psychology of the
+  opponent as much as the body. Only the most pure and dedicated of the priestesses are aloud
+  to learn this holy art. They are known for the ritual scars they carry on the backs of their
+  hands, the mark of the goddess.
+
+  Guiding Aspect: Chosen of the Gods
+  Features: Focus 2(+2 to Fighter)
+  Flaws: Situational(When Outnumbered)
+
+  Device: Blessings of The Grandmother
+  Up the small river, Yanguai, lies the ruins of the First Men. Only one god of the First Men
+  still exists, Grandmother River. She is an old protective god, who lets no impure person
+  enter her domain. When Mahni was but a child, she heard stories of the First Men and went to
+  look for them. This tickled the Grandmother so much that she gave little Mahni a blessing,
+  Armored bracers, made from a fine a delicate White Jade. They protect Mahni by allowing her
+  hands to move fast enough to block any attack.
+
+  Function Aspect: Bracers of Protection
+  Features: Focus 2(+2 to Fighter), Sturdy 2(2 extra stress boxes on the bracers)
+  Flaws: Situational(only against ranged attacks)
+
+  Device: Necklace of Angatup
+  One of the greatest virtues of the Ter Praeta is Truth, personified in the god Angatup, the
+  light in the darkness. In honor of Angatup the priestesses crafted the Necklace. It allows
+  the person wearing it to gain the truth from a deceiver.
+
+  Function Aspect: Voice of Truth
+  Features: Focus 2(+2 Aristocrat)
+  Flaws: Situational(only when forcing someone to tell the truth)
+
+  Refresh: 3
+-->

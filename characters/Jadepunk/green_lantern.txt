@@ -1,0 +1,91 @@
+Jordan, The Woman Without Fear
+In Darkness, In sorrow
+The Fear Maker came
+The weak and the sick
+Lamented his name
+
+Then came the whisper
+the glimmer of light
+The lamplighter walking
+In darkness to fight
+~Translated fragment of the Lamplighter's Tale
+
+In the legends of the Kaiyumi, there is on ehero who rises above the rest. When the ancient
+gods kept the world of man in darkness and ignorance, their came a being to aid man in his
+darkest hour. This being was the Lamplighter, the fire bringer, and the founder of the first
+empire. For his hubris, the gods cursed him and locked him in torment within a volcano for all
+time.
+
+Now, this is just a story. Something to pass the time and share with friends. there is no truth
+to this story. Except recently, the people of Kausao and the surrounding lands have begun to
+tell tales of a phantom Lamplighter. When the people face danger or injustice, a shadowy figure
+bearing a green lantern steps forward and deals with the problem. No one knows who this man is,
+or how he is able to do the things credited to him, but he fits many descriptions of
+the Lamplighter from ancient stories.
+
+The truth is both more mundane and far stranger. Jordan was born and raised in the deep
+desert, daughter to a great red jade mine owner. Had she been born a man, she would
+have been sent to the finest schools and trained in all the intellectual arts. Due to
+her father's attitudes about women, she was forced to train herself. Always tinkering,
+she learned many great secrets about Jade. Though her father would beat her when he
+caught her building, Jordan only sought more knowledge. Finally there came a fateful
+day, as there always does in such stories. The day she was to be wed to the man-nay,
+the boy her father had chosen for her. Standing at the crossroads, Jordan chose to no
+longer live in fear. She renounced her family name and left the lands of her father. 
+
+In her travels she learned many things. New ways of utilizing Jade, new technologies,
+and all the cruelties of man. Jordan finally arrived in Kausao City, the home to the
+greatest minds in the world and the worst abuses of human dignity. She set to work at
+anything that would get her closer to the jade tech, closer to knowledge. She became a
+Jadetech tester. Her job was to test out new innovations in Jade. It was dangerous, but
+it payed well and she was able to see the cutting edges in Jadetech. 
+
+Finally with enough money to do so, she began to experiment. Over the course of weeks,
+she built a magnificent Jadetech device. Something unheard of, a constructed
+intelligence. combining several of her other esoteric ideas for Jadetech, she assembled
+The Lamp. She was about to test it out, when there was an accident at Low Port. A cargo
+crane had fallen and crushed a warehouse and two ships. Without really thinking about
+it, she leaped in and used The Lamp to rescue the people trapped in the wreckage. And
+thus the legend of the Lamplighter began. 
+
+Portrayal: Fearless Jadetech Engineer
+Background: Hope Beats Despair
+Inciting Incident: People Need My Help
+Belief: Justice Is Its Own Reward
+Trouble: They Will Misuse My Inventions
+
+Professions: Engineer +3, Explorer and Scholar +2, Aristocrat and Fighter +1, Scoundrel +0
+
+Assets
+  Device: The Lamp
+    Crafted from Green jade to give form to thought and energy, the Lamp is nearing the
+    edges of what is possible with Jade, even in in the theoretical realms. At a basic
+    level it allows the Lamplighter to create green energy constructs(through create
+      advantage rolls). It can create anything that can be imagined. When in use it gives
+    off an eerie green glow.
+
+    Function Aspect: Green Jade Energy Matrix
+    Features: Exceptional(can affect the whole zone), Exceptional(allows wielder to fly or
+      move underwater unimpeded), Harmful 2(add two extra stress to a successful attack),
+    Protective 2(reduce the shifts of incoming attack by two), Sturdy 2(device has two
+      extra stress boxes)
+    Flaws: Demanding(must make a scholar roll vs a difficulty of +2 in order to utilize the
+      device, for every scene you use it), Consuming(Must spend a Fate Point to use)
+
+  Ally: The heart of the lamp
+    At the center of the lamp lies a metal sphere laced with white jade wires and black
+    jade switches. A constructed Intelligence. Its purpose is to provide the Lamplighter
+    with information on anything he runs across. This almost breaks the rules of the game.
+    with an edge case like this I would definitely get your GM's approval before moving
+    forward with it. Basically this is an ally that the Lamplighter keeps on her person at
+    all times and acts as a mobile library. It can be targeted and destroyed separately
+    from the Lamp itself. If I were running this game I would probably make the two linked.
+    If one breaks, the other no longer works, but that would be up to your table and how
+    you want to use the system.
+
+    Function Aspect: Jade Crafted Intelligence
+    Features: Professional(scholar +1), Resilient(the heart has one minor consequence
+      available), Sturdy(Has one stress box)
+
+    Flaws: Demanding(you must spend an action asking the Heart a question in order to gain
+      access to its information)

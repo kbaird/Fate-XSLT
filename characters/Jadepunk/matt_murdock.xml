@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>Matt Murdock</charname>
+    <playername>adapted character</playername>
+    <story>
+      Son of a boxer, lost his sight rescuing an old man, kept his promise to his
+      dad to have a white collar job.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Lawyer by Day; Devil of Hell's Kitchen by Night</aspect>
+    <aspect type="Background">Blind, Heightened Senses; Trained by Stick</aspect>
+    <aspect type="Inciting-Incident">Battlin' Jack Murdock Never Quit</aspect>
+    <aspect type="Belief">Fisk Must Not Control Hell's Kitchen</aspect>
+    <aspect type="Trouble">What's a Good Catholic Boy to Do?</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
+    <profession rating="3" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="1" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Can't Pin Him Down" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" profession="Fighter" bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only to Defend"/>
+      </flaws>
+    </asset>
+    <asset name="Defang the Snake" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Exceptional" effect="Disarm an opponent when you succeed on defense"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only on a Success With Style"/>
+        <flaw type="Limited" bonus="1"/>
+      </flaws>
+    </asset>
+    <asset name="Takes a Beating" guiding-aspect="Inciting-Incident" type="Technique">
+      <features>
+        <feature type="Protective" bonus="1"/>
+      </features>
+      <flaws>
+        <flaw type="Demanding" effect="Requires Fair (+2) Fighter roll"/>
+        <flaw type="Situational" effect="Ineffective Against Esoteric Martial Artists, Like Ninjas"/>
+      </flaws>
+    </asset>
+    <asset name="Where the Hell Did He Come From?" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" profession="Scoundrel" bonus="3"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only for Creating an Advantage"/>
+        <flaw type="Situational" effect="Only to sneak up on or past someone"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>

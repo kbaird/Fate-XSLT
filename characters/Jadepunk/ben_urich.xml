@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>Ben Urich</charname>
+    <playername>adapted character</playername>
+    <story>
+      Old-school journalist, increasingly disgusted
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Reporter Who's Seen It All</aspect>
+    <aspect type="Background">My Wife is Very Ill</aspect>
+    <aspect type="Inciting-Incident">I've Taken Them All Down</aspect>
+    <aspect type="Belief">The Media Should Expose Corruption</aspect>
+    <aspect type="Trouble">Easy To Find</aspect>
+  </aspects>
+  <professions>
+    <profession rating="2" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="0" name="Fighter"/>
+    <profession rating="3" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Ear to the Ground" guiding-aspect="Portrayal" type="Technique">
+      <features>
+        <feature type="Focus" profession="Aristocrat" bonus="4"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when using your network to find information"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>

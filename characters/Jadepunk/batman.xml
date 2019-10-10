@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Wei Baatarsai, The Bat</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+Baatarsai was born to the owner of one of the finest Jadetech Engineering firms in all of
+Kausao, Wei-Tech Industrial. Over ten percent of all jade in the city was smelted in their
+Refineries, and Wei-Tech innovations were used in all forms of Jadetech. Life was good for the
+child Baatarsai, until that fateful night. On their way home from the opera his mother and
+father were robbed and killed in front of his very eyes. On that day he swore an oath to put a
+stop to all crime, so that no one else would ever need go through the pain he had just
+suffered.
+
+<!--
+Raised by his loyal manservant, Peng An, young Baatarsai set out to accomplish his task. He
+trained in martial arts, science, and psychology. In learning he discovered that crime was not
+merely a problem, but a symptom of a larger problem. He knew that as a man he could not be what
+the city needed. He would need to change the hearts of men, to do this he would need to become
+a symbol. Bringing hope to the downtrodden and fear to the criminal element. He became the Bat.
+A rumor in the night. A mad god that swooped down upon the guilty and freed the innocent. The
+City Watch are often driven to distraction by the graffiti of the bat, written on walls and
+buildings throughout the city. None suspect that the benevolent business man Wei Baatarsai is
+this creature of the night. He makes sure to appear as an idle son of a rich man, uninterested
+in anything but parties and women. Bon Vivant by day, Bat Vigilante by night.
+-->
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Spirit of Justice</aspect>
+    <aspect type="Background">Warrior Detective</aspect>
+    <aspect type="Inciting-Incident">Let no one suffer as I have suffered</aspect>
+    <aspect type="Belief">Fear and Violence keep the Criminals at bay</aspect>
+    <aspect type="Trouble">The People Still Suffer</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="0" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="3" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Master Detective" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Flexible" effect="Can use Scholar in place of Explorer"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when dealing with crime and crime scenes"/>
+      </flaws>
+      <notes>
+Trained from an early age by Peng An in several forms of martial arts, Baatarsai has developed
+his own unique style of fighting. It uses stealth and fear alongside sudden and brutal attacks
+to take his opponents out with minimal danger. As a master of the Way of the Bat, Baatarsai can
+read his opponents like a book and react with near superhuman speed to their actions.
+      </notes>
+    </asset>
+    <asset name="Peng An" function="Wise and Loyal Manservant" type="Ally">
+      <features>
+        <feature type="Aspect"       effect="Master of the Martial Arts"/>
+        <feature type="Professional" bonus="2" main-profession="Fighter" other-professions="Aristocrat, Scholar"/>
+        <feature type="Resilient"/>
+        <feature type="Resilient"/>
+        <feature type="Sturdy"       bonus="1"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling" effect="The Bat's Hidden Weakness"/>
+      </flaws>
+      <notes>
+A former master of the martial arts, An gave up fighting to become a man of peace. After the
+death of his master, he sought to help you Baatarsai deal with his pain through the only
+thing An knew might help. He trained the lad in every form of martial arts he knew. Never had
+An seen a more gifted or dedicated pupil. Now he is old and he looks at Baatarsai's life's
+work with no small amount of pride. Though he doesn't say, Baatarsai loves his mentor, and
+fears for his safety now that the great work has begun.
+      </notes>
+    </asset>
+    <asset name="Utility Belt" function="Utility Belt Full of Minor Jade devices" type="Device">
+      <features>
+        <feature type="Exceptional" effect="Invoke created Aspects with +3 instead of +2"/>
+      </features>
+      <flaws>
+        <flaw type="Demanding" effect="1 Turn and an Engineer vs. +2"/>
+        <flaw type="Demanding" effect="Must be done after any scene in which the belt is used more than once"/>
+      </flaws>
+      <notes>
+As the sole owner of Wei-Tech Industrial, Baatarsai has access to a great many jadetech
+innovations. He carries a variety of cutting edge tools in a specially designed belt. It is
+the rare situation that he is not prepared for.
+      </notes>
+    </asset>
+    <asset name="The Way of the Bat" guiding-aspect="Belief" type="Technique">
+      <features>
+        <feature type="Focus" bonus="1" profession="Fighter"/>
+        <feature type="Focus" bonus="1" profession="Scoundrel"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only in the shadows and darkness"/>
+      </flaws>
+      <notes>
+Trained from an early age by Peng An in several forms of martial arts, Baatarsai has developed
+his own unique style of fighting. It uses stealth and fear alongside sudden and brutal attacks
+to take his opponents out with minimal danger. As a master of the Way of the Bat, Baatarsai can
+read his opponents like a book and react with near superhuman speed to their actions.
+      </notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+Wei Baatarsai, The Bat
+Baatarsai was born to the owner of one of the finest Jadetech Engineering firms in all of
+Kausao, Wei-Tech Industrial. Over ten percent of all jade in the city was smelted in their
+Refineries, and Wei-Tech innovations were used in all forms of Jadetech. Life was good for the
+child Baatarsai, until that fateful night. On their way home from the opera his mother and
+father were robbed and killed in front of his very eyes. On that day he swore an oath to put a
+stop to all crime, so that no one else would ever need go through the pain he had just
+suffered.
+
+Raised by his loyal manservant, Peng An, young Baatarsai set out to accomplish his task. He
+trained in martial arts, science, and psychology. In learning he discovered that crime was not
+merely a problem, but a symptom of a larger problem. He knew that as a man he could not be what
+the city needed. He would need to change the hearts of men, to do this he would need to become
+a symbol. Bringing hope to the downtrodden and fear to the criminal element. He became the Bat.
+A rumor in the night. A mad god that swooped down upon the guilty and freed the innocent. The
+City Watch are often driven to distraction by the graffiti of the bat, written on walls and
+buildings throughout the city. None suspect that the benevolent business man Wei Baatarsai is
+this creature of the night. He makes sure to appear as an idle son of a rich man, uninterested
+in anything but parties and women. Bon Vivant by day, Bat Vigilante by night.
+
+Portrayal: Spirit of Justice
+Background: Warrior Detective
+Inciting Incident: Let no one suffer as I have suffered
+Belief: Fear and Violence keep the Criminals at bay
+Trouble: The People Still Suffer
+
+Professions: Scoundrel +3, Fighter and Scholar +2, Engineer and Aristocrat +1, Explorer +0
+
+Assets
+Technique: The Way of the Bat
+Trained from an early age by Peng An in several forms of martial arts, Baatarsai has developed
+his own unique style of fighting. It uses stealth and fear alongside sudden and brutal attacks
+to take his opponents out with minimal danger. As a master of the Way of the Bat, Baatarsai can
+read his opponents like a book and react with near superhuman speed to their actions.
+
+Guiding Aspect: Fear and Violence Keep the Criminals at Bay
+Features: Focus 1(+1 to fighter), Focus +1(Scoundrel +1)
+  Flaws: Situational(only in the shadows and darkness)
+
+  Device: Utility Belt
+  As the sole owner of Wei-Tech Industrial Baatarsai has access to a great many jadetech
+  innovations. He carries a variety of cutting edge tools in a specially designed belt. It is
+  the rare situation that he is not prepared for.
+
+  Function aspect: Utility Belt Full of Minor Jade devices
+  Features: Exceptional(when utilizing aspects related to gear gain a +3 rather than the normal
+    +2)
+  Flaws: Demanding 2(Must take a turn and an engineering roll vs +2 difficulty in order to load
+    up your belt, must be done after any scene where you utilize the utility belt more than
+    once)
+
+  Technique: Master Detective
+  Guiding Aspect: Warrior Detective
+  Features: Flexible(can use scholar in place of explorer)
+  Flaws: Situational(only when dealing with crime and crime scenes)
+
+  Ally: Peng An
+  A former master of the martial arts, An gave up fighting to become a man of peace. After the
+  death of his master, he sought to help you Baatarsai deal with his pain through the only
+  thing An knew might help. He trained the lad in every form of martial arts he knew. Never had
+  An seen a more gifted or dedicated pupil. Now he is old and he looks at Baatarsai's life's
+  work with no small amount of pride. Though he doesn't say, Baatarsai loves his mentor, and
+  fears for his safety now that the great work has begun.
+
+  Function Aspect: Wise and Loyal Manservant
+  Features: Aspect(Master of the Martial Arts), Professional 4(Scholar +1, Fighter +2,
+    Aristocrat +1), Resilient 2(2 minor consequences), Sturdy(one Stress box)
+  Flaws: Troubling(The Bat's Hidden Weakness)
+
+
+  Refresh: 1
+-->

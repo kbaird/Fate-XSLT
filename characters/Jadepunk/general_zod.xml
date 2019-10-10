@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>General 肖 (Xiào), Master of the World</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+Twenty years ago a young popular general of the Tuyangan Army staged an ill fated coups attempt
+on the throne. His rebel army was wiped out and he fled the country in disgrace. While he had
+lost in his bid for power, General 肖 never gave up on his desire for power. His key to
+victory came to him when he arrived in the Kingdom of Kent. Hiring himself out as a mercenary
+he met the Lord Clark's chief engineer, Alexis Luthor. She was ambitious and amoral, much like
+肖. Over the course of a year he managed to gain her confidence and together they
+orchestrated one of the largest coups in recent history.
+<!--
+Since becoming High Lord of Kent, 肖 has dedicated his life to conquest. His people slave
+away in the white jade mines and manufactories, building him a massive war fleet of skyships.
+However, despite his successes, 肖 is still haunted by his failure. He lives in fear the the
+son of Clark, the true ruler of Kent, will one day return and depose him. this thought keeps
+him up nights. He cannot merely kill the man, as then he makes a martyr of him. he must capture
+and subjugate this supposed rival. He must. 肖 has sent several teams of bounty hunters after
+Johnathan Clark with this in mind. None have returned.
+-->
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Wanna-be World Conqueror</aspect>
+    <aspect type="Background">Master Of War</aspect>
+    <aspect type="Inciting-Incident">Kneel Before 肖!</aspect>
+    <aspect type="Belief">Only the Strong Shall Rule</aspect>
+    <aspect type="Trouble">Temperamental Paranoid</aspect>
+  </aspects>
+  <professions>
+    <profession rating="2" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="3" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Master of the Field of Battle" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" bonus="2" profession="Fighter"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when leading men in battle"/>
+      </flaws>
+      <notes>
+  Despite his flaws, 肖 is a brilliant general. On the field, few can defeat him in direct
+  conflict. He has studied all the great wars and military tactics ever recorded. He has,
+  himself, been the leader in many campaigns. To go against 肖 in battle is a dangerous
+  gambit.
+      </notes>
+    </asset>
+    <asset name="Poison Fist Strike" guiding-aspect="Belief" type="Technique">
+      <features>
+        <feature type="Harmful" bonus="4"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling" effect="My Enemies Know My Moves"/>
+      </flaws>
+      <notes>
+  肖 holds that strength in conflict is the most efficient way of winning. He believes this on
+  both the large and the small scale. In a fight he will strike with such force that he has been
+  known to penetrate even the strongest armor. This is known as his Poison Fist Strike.
+      </notes>
+    </asset>
+    <asset name="Royal Armor of Kent" function="Green and White Jade Plate Armor" type="Device">
+      <features>
+        <feature type="Protective" bonus="2"/>
+        <feature type="Resilient"/>
+        <feature type="Resilient"/>
+      </features>
+      <flaws>
+        <flaw type="Demanding" effect="Fighter vs. +2 to don or doff"/>
+        <flaw type="Demanding" effect="Must be done after any scene in which the belt is used more than once"/>
+      </flaws>
+      <notes>
+  The Armor of Kent has belonged to the Clark line for as long as any can remember. It was worn
+  by the Kings of Kent in defense of the homeland only. It was said that the armor would
+  protect Kent so longh as even one of the Clark line remains. When 肖 conquered Kent he
+  began wearing the armor as a sign of his authority. However, to the people of Kent, the Bold
+  S shaped seal on the chest is a reminder that one Clark still lives. It tells them that their
+  is still hope.
+      </notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+General Xiao, Master of the World
+Twenty years ago a young popular general of the Tuyangan Army staged an ill fated coups attempt
+on the throne. His rebel army was wiped out and he fled the country in disgrace. While he had
+lost in his bid for power, General Xiao never gave up on his desire for power. His key to
+victory came to him when he arrived in the Kingdom of Kent. Hiring himself out as a mercenary
+he met the Lord Clark's chief engineer, Alexis Luthor. She was ambitious and amoral, much like
+Xiao. Over the course of a year he managed to gain her confidence and together they
+orchestrated the largest coups in recent history.
+
+Since becoming High Lord of Kent, Xiao has dedicated his life to conquest. His people slave
+away in the white jade mines and manufactories, building him a massive war fleet of skyships.
+However, despite his successes, Xiao is still haunted by his failure. He lives in fear the the
+son of Clark, the true ruler of Kent, will one day return and depose him. this thought keeps
+him up nights. He cannot merely kill the man, as then he makes a martyr of him. he must capture
+and subjugate this supposed rival. He must. Xiao has sent several teams of bounty hunters after
+Johnathan Clark with this in mind. None have returned.
+
+Portrayal: Wanna-be World Conqueror
+Background: Master Of War
+Inciting Incident: Kneel Before Xiao!
+Belief: Only the Strong Shall Rule
+Trouble: Temperamental Paranoid
+
+Professions: Fighter +3, Scoundrel and Aristocrat +2, Explorer and Scholar +1, Engineer +0
+
+Assets
+Technique: Poison Fist Strike
+  Xiao holds that strength in conflict is the most efficient way of winning. He believes this on
+  both the large and the small scale. In a fight he will strike with such force that he has been
+  known to penetrate even the strongest armor. This is known as his Poison Fist Strike.
+
+  Guiding Aspect: Only the Strong Shall Rule
+  Features: Harmful 4(Four extra harm on a successful strike)
+  Flaws: Troubling(My Enemies Know My Moves)
+
+Technique: Master of the Field of Battle
+  Despite is flaws, Xiao is a brilliant general. On the field, few can defeat him in direct
+  conflict. He has studied all the great wars and military tactics ever recorded. He has,
+  himself, been the leader in many campaigns. To go against Xiao in battle is a dangerous
+  gambit.
+
+  Guiding Aspect: Master of War
+  Features: Focus 2(+2 fighting)
+  Flaws: Situational(only when leading men in battle)
+
+Device: Royal Armor of Kent
+  The Armor of Kent has belonged to the Clark line for as long as any can remember. It was worn
+  by the Kings of Kent in defense of the homeland only. It was said that the armor would
+  protect Kent so longh as even one of the Clark line remains. When Xiao conquered Kent he
+  began wearing the armor as a sign of his authority. However, to the people of Kent, the Bold
+  S shaped seal on the chest is a reminder that one Clark still lives. It tells them that their
+  is still hope.
+
+  Function Aspect: Green and White Jade Plate Armor
+  Features: Protective 2(reduce incoming harm of successful attack by two), Resilient 2(two
+    extra stress boxes)
+  Flaws: Demanding(you must make a fighter roll vs a difficulty of +2 in order to put the armor
+    on or take it off)
+-->

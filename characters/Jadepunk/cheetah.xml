@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Fugyara Min, Fastest Woman Alive</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+Min was one of the all time great relic hunters. She had robbed dozens of tombs on four
+continents. Until she was betrayed. One of her rivals spread the word of a great lost city,
+deep in the jungle south of Ahlmac territory. There were claims of Ruby Skulls and pyramids
+of gold. The rival, Tobias Schmidt, did not spread these rumors for Min's benefit, no. He
+spread them in the court of her largest patron, Inoue Shen. Shen ignored Min's warnings that
+this was a trap and sent her to gather these riches.
+
+In the harshest jungle, far from civilization, walking into what she knew to be a trap, Min
+made a mistake. She dropped her compass. Of such small mistakes, mighty catastrophes grow.
+This was one such mistake. Unable to make an accurate bearing she was forced to use the sun
+and stars. In the deepest jungle, she got turned around, she became lost. Wandering for days
+without proper supplies, she was becoming dehydrated and delirious. In this state she came
+upon an ancient Teltac temple to Cicoh Chac, god of the Divine Wind and blood sacrifice.
+
+Within the temple she drank of the holy waters and ate of the sacred mushroom. While in an
+ecstatic state, brought about by her exhaustion and the mushrooms, she had a great vision of
+the god Cicoh Chac. It came to her in the form of Spotted Panther and spoke of many things.
+Dark secrets were revealed to Min and she accepted a great burden. She would become Cicoh
+Chac's will made manifest. She donned the sacred garb of the Teltac Warrior Priests and set
+out to find a new empire for her dark master.
+
+In Kausao City the people will listen to anyone who gives them hope. Min has done more than
+that, she has given them a twisted sense of power. She leads a small cult of the
+underclasses, they feed her information and when the need strikes they bring to her a blood
+sacrifice. Within her small district she has built a kingdom of blood. Right now it is
+beneath the notice of those in power. On the day they do take notice, pray that it is not to
+late. Min dreams of a city awash in blood and fear. She dreams of a burning empire from
+horizon to horizon.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Jaguar Queen of the Panther Cult</aspect>
+    <aspect type="Background">History Exists to Grant Me Power</aspect>
+    <aspect type="Inciting-Incident">I am His Will Made Flesh</aspect>
+    <aspect type="Belief">May His Shadow Fall Over All the World</aspect>
+    <aspect type="Trouble">Things are Moving Too Slowly</aspect>
+  </aspects>
+  <professions>
+    <profession rating="2" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
+    <profession rating="3" name="Explorer"/>
+    <profession rating="1" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="1" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Sacred Panther Cloak" function="Holy Cloak of Speed" type="Device">
+      <features>
+        <feature type="Exceptional" effect="can appear and disappear from a scene at will provided she can run"/>
+        <feature type="Focus"       bonus="2" profession="Explorer"/>
+        <feature type="Focus"       bonus="1" profession="Fighter"/>
+        <feature type="Protective"  bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when wearing the cloak"/>
+        <flaw type="Troubling"   effect="Voices in my head make me irrational"/>
+      </flaws>
+      <notes>
+    The ancient Teltac high priests had cloaks made from the skins of the holy panthers, they
+    would thread blue and white jade into the cloaks to aid in speed and stealth. This cloak is
+    one of the last in existence, and makes Min the fastest biped on the planet.
+      </notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+Fugyara Min, Fastest Woman Alive
+
+Min was one of the all time great relic hunters. She had robbed dozens of tombs on four
+continents. Until she was betrayed. One of her rivals spread the word of a great lost city,
+deep in the jungle south of Ahlmac territory. There were claims of Ruby Skulls and pyramids
+of gold. The rival, Tobias Schmidt, did not spread these rumors for Min's benefit, no. He
+spread them in the court of her largest patron, Inoue Shen. Shen ignored Min's warnings that
+this was a trap and sent her to gather these riches.
+
+In the harshest jungle, far from civilization, walking into what she knew to be a trap, Min
+made a mistake. She dropped her compass. Of such small mistakes, mighty catastrophes grow.
+This was one such mistake. Unable to make an accurate bearing she was forced to use the sun
+and stars. In the deepest jungle, she got turned around, she became lost. Wandering for days
+without proper supplies, she was becoming dehydrated and delirious. In this state she came
+upon an ancient Teltac temple to Cicoh Chac, god of the Divine Wind and blood sacrifice.
+
+Within the temple she drank of the holy waters and ate of the sacred mushroom. While in an
+ecstatic state, brought about by her exhaustion and the mushrooms, she had a great vision of
+the god Cicoh Chac. It came to her in the form of Spotted Panther and spoke of many things.
+Dark secrets were revealed to Min and she accepted a great burden. She would become Cicoh
+Chac's will made manifest. She donned the sacred garb of the Teltac Warrior Priests and set
+out to find a new empire for her dark master.
+
+In Kausao City the people will listen to anyone who gives them hope. Min has done more than
+that, she has given them a twisted sense of power. She leads a small cult of the
+underclasses, they feed her information and when the need strikes they bring to her a blood
+sacrifice. Within her small district she has built a kingdom of blood. Right now it is
+beneath the notice of those in power. On the day they do take notice, pray that it is not to
+late. Min dreams of a city awash in blood and fear. She dreams of a burning empire from
+horizon to horizon.
+
+Portrayal: Jaguar Queen of the Panther Cult
+Background: History exists to grant me power
+Inciting Incident: I am his will made flesh
+Belief: May his shadow fall over all the world
+Trouble: Things are moving too slowly
+
+Professions: Explorer +3, Aristocrat and Scholar +2, Scoundrel and Fighter +1, Engineer +0
+
+Assets
+  Device: Sacred Panther Cloak
+    The ancient Teltac high priests had cloaks made from the skins of the holy panthers, they
+    would thread blue and white jade into the cloaks to aid in speed and stealth. This cloak is
+    one of the last in existence, and makes Min the fastest biped on the planet.
+
+    Function Aspect: Holy Cloak of Speed
+    Features: Exceptional(can appear and disappear from a scene at will provided she can run),
+    Focus 4(Fighter +2 and Explorer +2), Protective 2(reduce incoming shift value of an attack
+      against you by two)
+    Flaws: Situational(only when wearing the cloak), Troubling(Voices in my head make me
+      irrational)
+
+Refresh: 3
+-->

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Doctor Alexis Luthor</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+The world is full of fools. Fools with power and fools without it. This is the sad truth that
+Luthor has had to endure her entire life. She may be the greatest mind humanity has ever
+produced. She should rule it, control it. Who else is better qualified? Yet at every step some
+fool comes along and blocks her success. First it was money, so she became chief engineer for
+the king. Then it was authority, and she was forced to deal with the simpleton Xiao. Now she is
+nearing her goal. Complete domination is within her grasp, if only Xiao would cease with his
+petty paranoias and conspiracies. There will come a day when he is no longer useful to her.
+Perhaps that day is nearer than she initially projected. Soon all the world will be brilliantly
+efficient and simple. No longer will the simpletons and fools who lucked into power run things
+like their own personal play ground. Soon.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">World's Greatest Mind</aspect>
+    <aspect type="Background">Knowledge Is The Only Weapon I Need</aspect>
+    <aspect type="Inciting-Incident">Anything Is Permitted</aspect>
+    <aspect type="Belief">Only I Deserve To Rule</aspect>
+    <aspect type="Trouble">I Am Surrounded By Fools</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="3" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="0" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Behold My Genius!" guiding-aspect="Portrayal" type="Technique">
+      <features>
+        <feature type="Focus" bonus="2" profession="Engineer"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when making something new, never for repair. She would rather start over from scratch that try to fix whatever is wrong with the thing."/>
+      </flaws>
+      <notes>
+  Truly there is no finer mind for invention of planning than the mind of Alexis Luthor. She has
+  litle patience for using old plans of devices. Everything she comes up with is an inovation.
+  None can accuse Luthor of copying or tinkering. She is a genius.
+      </notes>
+    </asset>
+    <asset name="Plans Within Plans" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Flexible" effect="Can use Scholar in place of Fighter"/>
+        <feature type="Focus" bonus="1" profession="Scoundrel"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only when you have an aspect on the scene representing your preplanning of events or understanding of things"/>
+      </flaws>
+      <notes>
+  She has already won. You don't realize it, because your simple mind can only plan four or
+  maybe five moves ahead. You only think you are winning because she is so far ahead of you
+  that she is lapping you. When she needs to Luthor can utilize her magnificent mind to deal
+  with any situation she can plan for.
+      </notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+Doctor Alexis Luthor
+The world is full of fools. Fools with power and fools without it. This is the sad truth that
+Luthor has had to endure her entire life. She may be the greatest mind humanity has ever
+produced. She should rule it, control it. Who else is better qualified? Yet at every step some
+fool comes along and blocks her success. First it was money, so she became chief engineer for
+the king. Then it was authority, and she was forced to deal with the simpleton Xiao. Now she is
+nearing her goal. Complete domination is within her grasp, if only Xiao would cease with his
+petty paranoias and conspiracies. There will come a day when he is no longer useful to her.
+Perhaps that day is nearer than she initially projected. Soon all the world will be brilliantly
+efficient and simple. No longer will the simpletons and fools who lucked into power run things
+like their own personal play ground. Soon.
+
+Portrayal: World's Greatest Mind
+Background: Knowledge Is The Only Weapon I Need
+Inciting incident: Anything Is Permitted
+Belief: Only I Deserve To Rule
+Trouble: I Am Surrounded By Fools
+
+Professions: Engineer +3, Scholar and Scoundrel +2, Aristocrat and Explorer +1, Fighter +0
+
+Assets
+Technique: Behold My Genius!
+  Truly their is no finer mind for invention of planning than the mind of Alexis Luthor. She has
+  litle patience for using old plans of devices. Everything she comes up with is an inovation.
+  None can accuse Luthor of copying or tinkering. She is a genius.
+
+  Guiding Aspect: World's Greatest Mind
+  Features: Focus 2(+2 engineer)
+  Flaws: Situational(Only when making something new, never for repair. She would rather start
+    over from scratch that try and fix whatever is wrong with the thing)
+
+Technique: Plans Within Plans
+  She has already won. You don't realize it, because your simple mind can only plan four or
+  maybe five moves ahead. You only think you are winning because she is so far ahead of you
+  that she is lapping you. When she needs to Luthor can utilize her magnificent mind to deal
+  with any situation she can plan for.
+
+  Guiding Aspect: Knowledge Is The Only Weapon I Need
+  Features: Flexible(you may use Scholar in place of fighter)
+  Flaws: Situational(Only when you have an aspect on the scene representing your preplanning of
+    events or understanding of things)
+-->

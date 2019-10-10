@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "../Jadepunk/character.dtd">
+<character>
+  <id>
+    <charname>James Gordon</charname>
+    <playername>adapted character</playername>
+    <story>
+      An honest firebrand at the GCPD.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">One of the Only Good Cops on the GCPD</aspect>
+    <aspect type="Background">This Badge Should Mean Something</aspect>
+    <aspect type="Inciting-Incident">Harvey Asked Me to Kill Cobblepot. I Pretended to Go Along.</aspect>
+    <aspect type="Belief">I Won't Stop Until GCPD Is Cleaned Up</aspect>
+    <aspect type="Trouble">Doesn't Know When To Keep Quiet</aspect>
+  </aspects>
+  <professions>
+    <profession rating="1" name="Aristocrat"/>
+    <profession rating="0" name="Engineer"/>
+    <profession rating="3" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="2" name="Scholar"/>
+    <profession rating="1" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Follow the Clues" guiding-aspect="Background" type="Technique">
+      <features>
+        <feature type="Focus" profession="Scholar" bonus="3"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only When Creating an Advantage"/>
+        <flaw type="Situational" effect="Only When Investigating a Crime"/>
+      </flaws>
+    </asset>
+    <asset name="Standard-issue sidearm" function="Woo Fu" type="Device">
+      <features>
+        <feature type="Harmful" bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Demanding" effect="(requires an action to reload after a lot of shooting)"/>
+      </flaws>
+    </asset>
+    <asset name="Tell Me What You Know" guiding-aspect="Trouble" type="Technique">
+      <features>
+        <feature type="Focus" profession="Aristocrat" bonus="3"/>
+      </features>
+      <flaws>
+        <flaw type="Troubling"   effect="Who Do I Piss Off Today?"/>
+        <flaw type="Situational" effect="Only When Investigating a Crime"/>
+      </flaws>
+    </asset>
+  </assets>
+  <consequences/>
+</character>

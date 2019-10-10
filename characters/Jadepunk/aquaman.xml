@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Arthur, Lord of the Storm Sea</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+Python Mining Corporation is always looking for new ways to use jade, and new sources of jade.
+twenty years back, someone in the company came to the conclusion that the ocean floor was an
+untapped potential source of jade. Several development projects were started to deal with the
+issues of mining the ocean floor. The Aquaman Project was one such.
+
+<!--
+The goal was to make a human worker able to survive in the ocean for great lengths of time.
+They wanted to rebuild men into a slave race of jade miners at the bottom of the sea. The
+experiment was both a greater success and a greater failure than they could have anticipated.
+Their subject had phenomenal strength and endurance, could breath water, and even some sort of
+empathic bond with ocean life. However, they could not break his spirit. One year ago, their
+Aquaman destroyed the lab and ran away. Now they hunt him, seeking to take him apart and
+rediscover what they lost in his escape.
+
+Arthur has only vague memories of his life before the experiments. He remembers being cold and
+hungry a lot. He remembers someone, maybe his mother, getting a large sum of money. He
+remembers that he had to leave with the men this lady gave him to. That is all he remembers
+from before. 15 years later he escaped. Arthur escaped the constant pain, the constant
+experimentation. He escaped into a world he could barely understand. For the last year he has
+been on the run from Python Mining, and the mercenaries they have hired to track him down.
+During his time in the world he has helped many people. Fishermen and sea captains speak of the
+Lord of the Storm Sea, a being of elemental power who brings the creatures of the sea to aid
+foundering ships.
+-->
+
+Arthur has now arrived in Kausao after hearing of other people like him, the Jianghu. Hunted by
+the authorities, he makes his way as a hero of the people. If you need help, and if you can
+find him, maybe you can enlist the aid of the Aquaman.
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">Heart of the Ocean</aspect>
+    <aspect type="Background">Escaped Experiment</aspect>
+    <aspect type="Inciting-Incident">Never Again</aspect>
+    <aspect type="Belief">People Must Be Free</aspect>
+    <aspect type="Trouble">No Knowledge of the World of Men</aspect>
+  </aspects>
+  <professions>
+    <profession rating="0" name="Aristocrat"/>
+    <profession rating="1" name="Engineer"/>
+    <profession rating="2" name="Explorer"/>
+    <profession rating="3" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="2" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="Blue and White Jade Tattoos" function="Experimental Jade Tattoos" type="Device">
+      <features>
+        <feature type="Exceptional" effect="Does not need to breathe"/>
+        <feature type="Protective" bonus="1"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only in water"/>
+        <flaw type="Troubling"   effect="Hunted by the Python Mining Corporation"/>
+      </flaws>
+      <notes>
+  These tattoos are of an intricate and archaic design. They allow the Aquaman to hold his breath
+  indefinitly underwater (or nearly so) and withstand great pressure (the protective feature). They
+  also had the side effect of allowing the Aquaman to exert some control over marine animal
+  life (this falls under the allies, mechanically, but in fiction this is due to his tattoos) This
+  design was the creation of a brilliant Jade Alchemist who died during Arthur's escape. These
+  designs are the reason Python Mining is after him with such fervor.
+      </notes>
+    </asset>
+    <asset name="The Fish of the Seas" function="Let My Armies be the Fish in the Sea" type="Ally">
+      <features>
+        <feature type="Independent"/>
+        <feature type="Numerous" bonus="4"/>
+        <feature type="Professional" bonus="1" main-profession="Fighter"/>
+        <feature type="Resilient"/>
+        <feature type="Resilient"/>
+        <feature type="Sturdy"       bonus="2"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Only in water"/>
+      </flaws>
+      <notes>He controls marine life. This is kind of a lot of power.</notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+Arthur, Lord of the Storm Sea
+Python Mining Corporation is always looking for new ways to use jade, and new sources of jade.
+twenty years back, someone in the company came to the conclusion that the ocean floor was an
+untapped potential source of jade. Several development projects were started to deal with the
+issues of mining the ocean floor. The Aquaman Project was one such.
+
+The goal was to make a human worker able to survive in the ocean for great lengths of time.
+They wanted to rebuild men into a slave race of jade miners at the bottom of the sea. The
+experiment was both a greater success and a greater failure than they could have anticipated.
+Their subject had phenomenal strength and endurance, could breath water, and even some sort of
+empathic bond with ocean life. However, they could not break his spirit. One year ago, their
+Aquaman destroyed the lab and ran away. Now they hunt him, seeking to take him apart and
+rediscover what they lost in his escape.
+
+Arthur has only vague memories of his life before the experiments. He remembers being cold and
+hungry a lot. He remembers someone, maybe his mother, getting a large sum of money. He
+remembers that he had to leave with the men this lady gave him to. That is all he remembers
+from before. 15 years later he escaped. Arthur escaped the constant pain, the constant
+experimentation. He escaped into a world he could barely understand. For the last year he has
+been on the run from Python Mining, and the mercenaries they have hired to track him down.
+During his time in the world he has helped many people. Fishermen and sea captains speak of the
+Lord of the Storm Sea, a being of elemental power who brings the creatures of the sea to aid
+foundering ships.
+
+Arthur has now arrived in Kausao after hearing of other people like him, the Jianghu. Hunted by
+the authorities, he makes his way as a hero of the people. If you need help, and if you can
+find him, maybe you can enlist the aid of the Aquaman.
+
+Portrayal: Heart Of The Ocean
+Background: Escaped Experiment
+Inciting Incident: Never Again
+Belief: People Must Be Free
+Trouble: No Knowledge Of The World Of Men
+
+Professions: Fighting +3, Explorer and Scoundrel +2, Scholar and Engineer +1, Aristocrat +0
+
+Assets
+Device: Blue and White Jade tattoos
+  These tattoos are of an intricate and archaic design. They allow the Aquaman to hold his breath
+  indefinitly underwater(or nearly so) and withstand great pressure(the protective feature). They
+  also had the side effect of allowing the Aquaman to exert some control over marine animal
+  life(this falls under the allies, mechanically, but in fiction this is due to his tattoos) This
+  design was the creation of a brilliant Jade Alchemist who died during Arthur's escape. These
+  designs are the reason Python Mining is after him with such fervor.
+
+  Function Aspect: Experimental Jade Tattoos
+  Features: Protective 1(reduce shift value of attack against you by one), Exceptional(does not need to breath)
+  Flaws: Troubling(hunted by the Python Mining Corporation), Situational(only in water)
+
+Allies: The Fish of the Seas
+  He controls marine life. This is kind of a lot of power.
+
+  Function Aspect: Let My Armies Be The Fish In The Sea
+  Features: Professional( Fighter +1), Resilient 2(two minor consequences), Sturdy 2(4 stress
+    boxes), Independent, Numerous 4(16 critters at a time)
+  Flaws: Situational(only in or near the water)
+
+
+  Refresh 2
+-->

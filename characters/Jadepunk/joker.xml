@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/jadepunk_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>The Laughing Man</charname>
+    <playername>Jacob Possin</playername>
+    <story>
+A little over a year ago bodies began to show up on the riverfront. They seemed unrelated in
+all ways, men, women, children, Naramel, Aerish, Kaiyumi, Túyangan, nothing connected them.
+Nothing except the method of murder. Every one of the victims had bleached white skin and a
+terrible smile on their faces.
+<!--
+During the first week seventeen bodies were found. Every week since, has had at least three
+murders. The pressed dubbed this killer, "The Laughing Man." In the back alleys and along the
+riverbanks, the stilt walkers and mudskimmers speak of a devil walking the midnight streets.
+Strange shadows and maddened laughter are often heard, though none have ever seen him face to
+face. In the last few months, The Laughing Man has begun to taunt the Watch, sending them
+pieces of the victims and leaving random seeming notes.
+
+If you walk the nighttime streets of the Riverfront, learn to walk in groups. And pray to
+whatever gods will have you. Pray that you never meat the laughing man.
+-->
+    </story>
+  </id>
+  <refresh base="7"/>
+  <aspects>
+    <aspect type="Portrayal">The Smiling Killer</aspect>
+    <aspect type="Background">A Mystery Even To Himself</aspect>
+    <aspect type="Inciting-Incident">All It Takes Is One. Bad. Day.</aspect>
+    <aspect type="Belief">Madness Is The Only Truth</aspect>
+    <aspect type="Trouble">Murder On The Mind</aspect>
+  </aspects>
+  <professions>
+    <profession rating="0" name="Aristocrat"/>
+    <profession rating="2" name="Engineer"/>
+    <profession rating="1" name="Explorer"/>
+    <profession rating="2" name="Fighter"/>
+    <profession rating="1" name="Scholar"/>
+    <profession rating="3" name="Scoundrel"/>
+  </professions>
+  <assets>
+    <asset name="The Smiling Death" function="Black Jade Death Dust" type="Device">
+      <features>
+        <feature type="Harmful" bonus="4"/>
+      </features>
+      <flaws>
+        <flaw type="Situational" effect="Must be close to The Laughing Man and must be breathed in"/>
+      </flaws>
+      <notes>
+His victims are known by their rictus grin. He invented a black jade powder that, when inhaled,
+causes hallucinations and death. Upon dying victims' faces stretch into a horrible grin and
+their skin is drained of color.
+      </notes>
+    </asset>
+  </assets>
+  <consequences/>
+</character>
+<!--
+The Laughing Man
+A little over a year ago bodies began to show up on the riverfront. They seemed unrelated in
+all ways, men, women, children, Naramel, Aerish, Kaiyumi, Túyangan, nothing connected them.
+Nothing except the method of murder. Every one of the victims had bleached white skin and a
+terrible smile on their faces.
+
+During the first week seventeen bodies were found. Every week since, has had at least three
+murders. The pressed dubbed this killer, "The Laughing Man." In the back alleys and along the
+riverbanks, the stilt walkers and mudskimmers speak of a devil walking the midnight streets.
+Strange shadows and maddened laughter are often heard, though none have ever seen him face to
+face. In the last few months, The Laughing Man has begun to taunt the Watch, sending them
+pieces of the victims and leaving random seeming notes.
+
+If you walk the nighttime streets of the Riverfront, learn to walk in groups. And pray to
+whatever gods will have you. Pray that you never meat the laughing man.
+
+Portrayal: The Smiling Killer
+Background: A Mystery Even To Himself
+Inciting Incident: All It Takes Is One. Bad. Day.
+Belief: Madness Is The Only Truth
+Trouble: Murder On The Mind
+
+Professions: Scoundrel +3, Engineer and Fighting +2, Explorer and Scholar +1, Aristocrat +0
+
+Assets
+Device: The Smiling Death
+His victims are known by their rictus grin. He invented a black jade powder that, when inhaled,
+    causes hallucinations and death. Upon dying victims' faces stretch into a horrible grin and
+    their skin is drained of color.
+
+    Function Aspect: Black Jade Death Dust
+    Features: Harmful 4(does four extra harm on a successful attack)
+  Flaws: Situational(must be close to The Laughing Man and must breath it in)
+
+  Refresh: 5(he is really lucky)
+-->
