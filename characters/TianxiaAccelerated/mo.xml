@@ -5,9 +5,8 @@
   <id>
     <charname>Mo's PC</charname>
     <playername>Morgan Baird</playername>
-    <description>
-      On a quest to learn the secret technique of 气 Blocking
-    </description>
+    <description>&#160;</description>
+    <unique>On a quest to learn the Secret Technique of 气 Blocking</unique>
   </id>
   <refresh base="4" free-stunts="1"/>
   <aspects>
