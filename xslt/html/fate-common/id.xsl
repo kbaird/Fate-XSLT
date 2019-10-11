@@ -19,6 +19,12 @@
               <xsl:value-of select="description"/>
             </fieldset>
           </xsl:if>
+          <xsl:if test="unique">
+            <fieldset id="unique">
+              <legend class="label"><span>One Unique Thing</span></legend>
+              <xsl:value-of select="unique"/>
+            </fieldset>
+          </xsl:if>
           <xsl:apply-templates select="homeworld"/>
         </td>
       </tr>

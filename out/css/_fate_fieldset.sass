@@ -5,11 +5,11 @@
 @import "spacing"
 
 fieldset
-  &#homeworld
+  &#homeworld, &#unique
     margin-top: 0.3em
-  &#affiliation, &#description, &#homeworld
+  &#affiliation, &#description, &#homeworld, &#unique
     line-height: 1.1em
-  &#affiliation, &#description, &#homeworld, &#name, &.aspect, &.consequence, &.phase, &.stunt
+  &#affiliation, &#description, &#homeworld, &#name, &#unique, &.aspect, &.consequence, &.phase, &.stunt
     +fieldset_item
   &.aspect
     span.content
@@ -20,9 +20,11 @@ fieldset
     margin-top: 1.1em
   &.mega legend span
     +label_font
-  &#homeworld, &#name
+  &#homeworld, &#name, &#unique
     +fieldset_innards
-  &.aspect legend.label, &#affiliation legend.label, &#description legend.label, &#homeworld legend.label, &#name legend.label
+  &#unique
+    padding-left: 12em
+  &.aspect legend.label, &#affiliation legend.label, &#description legend.label, &#homeworld legend.label, &#name legend.label, &#unique legend.label
     color: $label_color
     +label_font
   &.consequence

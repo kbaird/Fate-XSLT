@@ -2,11 +2,13 @@
 <!ELEMENT character (id, refresh?, aspects, professions?, skills?, approaches?, languages?,
                      extras?, stunts, consequences?, hacks?, phase-trio?, notes?)>
 
-  <!ELEMENT id (charname, playername, description)>
+  <!ELEMENT id (charname, playername, description, unique?)>
     <!ELEMENT charname (#PCDATA)>
     <!ELEMENT playername (#PCDATA)>
       <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT description (#PCDATA)>
+    <!-- One Unique Thing, inspired by 13th Age -->
+    <!ELEMENT unique (#PCDATA)>
 
   <!ELEMENT refresh (#PCDATA)>
     <!ATTLIST refresh base        CDATA #IMPLIED>
@@ -44,8 +46,12 @@
   <!ELEMENT extras (extra*, gadget*)>
     <!ELEMENT extra (#PCDATA)>
       <!ATTLIST extra name CDATA #IMPLIED>
-    <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
-    <!-- benefits instead of stunts for ease of integration with ARRPG -->
+    <!ELEMENT gadget (function?, flaws?, aspects?, benefits?)>
+    <!--
+      benefits instead of stunts for ease of integration with ARRPG
+      making each item optional to allow for Tianxia Kung Fu and other variants
+    -->
+    <!ATTLIST gadget cost CDATA #IMPLIED>
     <!ATTLIST gadget name CDATA #REQUIRED>
     <!ATTLIST gadget notes CDATA #IMPLIED>
     <!ATTLIST gadget override-name CDATA #IMPLIED>

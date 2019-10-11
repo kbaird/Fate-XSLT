@@ -19,15 +19,16 @@ dl dd { display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.
 
 em.phase-aspect { font: oblique small-caps 1.2em 900 Padauk, Montserrat; }
 
-fieldset#homeworld { margin-top: 0.3em; }
-fieldset#affiliation, fieldset#description, fieldset#homeworld { line-height: 1.1em; }
-fieldset#affiliation, fieldset#description, fieldset#homeworld, fieldset#name, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt { padding-left: 11em; padding-top: 0.7em; position: relative; text-align: left; }
+fieldset#homeworld, fieldset#unique { margin-top: 0.3em; }
+fieldset#affiliation, fieldset#description, fieldset#homeworld, fieldset#unique { line-height: 1.1em; }
+fieldset#affiliation, fieldset#description, fieldset#homeworld, fieldset#name, fieldset#unique, fieldset.aspect, fieldset.consequence, fieldset.phase, fieldset.stunt { padding-left: 11em; padding-top: 0.7em; position: relative; text-align: left; }
 fieldset.aspect { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
 fieldset.aspect span.content { margin-left: -10em; }
 fieldset.mega legend p { margin-left: -10.6em; margin-top: 1.1em; }
 fieldset.mega legend span { font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
-fieldset#homeworld, fieldset#name { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
-fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#homeworld legend.label, fieldset#name legend.label { color: #666; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
+fieldset#homeworld, fieldset#name, fieldset#unique { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
+fieldset#unique { padding-left: 12em; }
+fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#homeworld legend.label, fieldset#name legend.label, fieldset#unique legend.label { color: #666; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
 fieldset.consequence { font-style: oblique; padding-left: 8.6em; text-align: right; height: 1.1em; }
 fieldset.consequence legend { color: #444; font: small-caps 1.3em bolder "Kalam"; font-family: Padauk, Montserrat; float: right; }
 fieldset.consequence legend span { float: left; font: oblique small-caps 1.3em bolder Padauk, Montserrat; letter-spacing: 0.16em; padding-bottom: 3em; top: 0.1em; }
