@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateCore/character.dtd">
+<character>
+  <id>
+    <charname>Siegebreaker Jīng (经)</charname>
+    <playername>天下 Accelerated NPC</playername>
+    <description>
+      A Shénese elder statesman, dressed in a mix of functional armor and finery indicating high rank as well as legitimate experience.
+    </description>
+    <!--
+    <unique>The Only One of His Kind</unique>
+    -->
+  </id>
+  <!--
+  <refresh base="0"/>
+  -->
+  <aspects>
+    <aspect type="High-Concept">Peerless Master of the Shénese Military</aspect>
+    <aspect type="Trouble">I am Complicit in the Greatest Threat to my Nation</aspect>
+    <aspect phase-num="1">Legendary Military Career</aspect>
+    <aspect phase-num="2">No Slouch at Statecraft, Either</aspect>
+    <aspect phase-num="3">&#160;</aspect>
+  </aspects>
+  <skills shape="flat">
+    <!-- 4, 3, 2, 1, 1, 0 -->
+    <skill rating="0" name="Careful"/>
+    <skill rating="1" name="Clever"/>
+    <skill rating="1" name="Flashy"/>
+    <skill rating="4" name="Forceful"/>
+    <skill rating="3" name="Quick"/>
+    <skill rating="2" name="Sneaky"/>
+  </skills>
+  <extras>
+    <gadget cost="1" name="Iron Leopard 武術" notes="Forceful, Quick:
+      Iron Leopard stylists are among the hardest hitting fighters around, mixing strong blows with
+      deadly precision to deliver powerful blows to an opponent's weakest points. They rely upon speed
+      and maneuverability in defense, preferring a more aggressive, less defensive approach than other Leopard
+      practitioners. They are neither careless nor reckless but unrelentingly persistent in their offense.">
+      <function>Master of Iron Leopard Style</function>
+      <benefits>
+        <benefit name="Iron Cleaves the Stone">
+          Ignore 2 points of Armor when making an attack to inflict physical stress.
+        </benefit>
+        <benefit name="Flesh Breaks on Iron">
+          When you defend against a Fight attack with style, you may inflict 2 shift hit instead of taking a boost on your attacker.
+        </benefit>
+        <benefit name="Iron Body, Iron Mind">
+          +2 bonus to create advantages relating to resisting or coping with pain, intimidation, or fear.
+        </benefit>
+        <benefit name="Leopard Fears No One">
+          Gain +1 Defense bonus when Defending against Attack, Overcome an Obstacle, or
+          Create an Advantage actions based on fear or intimidation.
+        </benefit>
+        <benefit name="Leopard Bites the Throat">
+          If the character succeeds with style on a Fight Attack, they can add a +3 Weapon Rating to the current Attack
+          instead of taking a boost—effectively +2 when accounting for the shift cost normally associated with a boost.
+        </benefit>
+        <benefit name="Leopard Waits in Shadow">
+          When making a Fight Attack action, gain a +1 bonus and +1 Weapon Rating if the character’s action last turn was not an Attack.
+          Free normal Defend actions do not count for determining their last action, but Full Defense does.
+        </benefit>
+        <benefit name="Secret Technique: Iron Leopard Palm">
+          Spend 1 fate point and make a Fight Attack action. This has a +2 Weapon Rating, and also removes
+          one invocation on the target’s Form or Chi Armor (target’s choice). If the Attack succeeds with style, it
+          removes another invocation in addition to gaining a boost. If a target has no invocations to remove when
+          the Attack hits, it does an additional +1 Weapon Rating instead (+2 additional if Attack succeeds with style).
+        </benefit>
+      </benefits>
+    </gadget>
+  </extras>
+  <stunts>
+    <stunt name="Deep Cover">
+      Because I have been doing this for decades, I get a +2 when I Sneakily Defend to preserve my greatest secret.
+    </stunt>
+    <stunt name="My Nation's Greatest Living General">
+      Because I am my nation's greatest living general, I get a +2 when I Forcefully intimidate a Shénese national.
+    </stunt>
+  </stunts>
+  <consequences/>
+  <hacks single-stress-track="true" stress-base-count="4"/>
+  <phase-trio>
+    <phase num="1">
+      <events>My nation's greatest living general</events>
+    </phase>
+    <phase num="2">
+      <events>Some events</events>
+    </phase>
+    <phase num="3">
+      <events>Some events</events>
+    </phase>
+  </phase-trio>
+</character>

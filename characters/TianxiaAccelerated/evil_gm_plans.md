@@ -60,7 +60,7 @@ could reveal that the Emperor has grown more erratic in the past several years
 
 ### Xuvutruobacaoly
 16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and
-Grand Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
+Peerless Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
 The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league with the demon,
 and was executed.
 
