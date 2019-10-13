@@ -79,15 +79,4 @@
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="4"/>
-  <phase-trio>
-    <phase num="1">
-      <events>My nation's greatest living general</events>
-    </phase>
-    <phase num="2">
-      <events>Some events</events>
-    </phase>
-    <phase num="3">
-      <events>Some events</events>
-    </phase>
-  </phase-trio>
 </character>

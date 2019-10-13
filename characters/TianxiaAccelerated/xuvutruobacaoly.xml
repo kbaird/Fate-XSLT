@@ -64,15 +64,4 @@ blows. Any vulnerability in a foe is to be identified and exploited the moment i
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="5"/>
-  <phase-trio>
-    <phase num="1">
-      <events>Too horrifying to contemplate</events>
-    </phase>
-    <phase num="2">
-      <events>Some events</events>
-    </phase>
-    <phase num="3">
-      <events>Some events</events>
-    </phase>
-  </phase-trio>
 </character>
