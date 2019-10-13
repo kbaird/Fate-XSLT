@@ -39,12 +39,17 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
 ### The Prince
-**Prince Xiǎolóng/小龙**, decent young man who will probably become a good 王,
+**Prince Xiǎolóng/小龙**, decent young man who will probably become a good emperor,
 but currently stubborn & overconfident (trainers were reluctant to challenge him).
 Sent to do military service at a frontier garrison in **Jiāngzhōu**
 doesn't make sense for **Xuvutruobacaoly** to attempt assassination
 better to do it at court where he can do illusions more smoothly
 could reveal that the Emperor has grown more erratic in the past several years
+
+#### Stats for Prince Xiǎolóng/小龙
+- Use **Ma Wei Sheng**
+  - High Concept becomes _Heir Apparent to the Imperial Throne_
+  - _Son of the Great General Ma_ becomes _Overconfident and Unchallenged (so far)_
 
 ### Silk River
 - _Saltmarsh_ is normally coastal, could rework as river pirates
