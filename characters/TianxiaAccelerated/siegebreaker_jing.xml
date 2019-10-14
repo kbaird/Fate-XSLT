@@ -43,7 +43,8 @@
           Ignore 2 points of Armor when making an attack to inflict physical stress.
         </benefit>
         <benefit name="Flesh Breaks on Iron">
-          When you defend against a Fight attack with style, you may inflict 2 shift hit instead of taking a boost on your attacker.
+          When you defend against a close combat type attack with style, you may
+          inflict a 2 shift hit instead of taking a boost on your attacker).
         </benefit>
         <benefit name="Iron Body, Iron Mind">
           +2 bonus to create advantages relating to resisting or coping with pain, intimidation, or fear.
