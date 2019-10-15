@@ -4,7 +4,7 @@ PLOT = {
   who: [
     'Ruthless bandits',
     'Evil cultists',
-    'Corrupt Officials',
+    'Corrupt officials',
     'Despicable pirates',
     'A desperate lover',
     'Misguided monks',
@@ -14,8 +14,8 @@ PLOT = {
     'Fiendish slavers',
     'Lin Kuei assassins',
     'Red Banner rebels',
-    'Triad Gangsters',
-    'Ambitious Thugs',
+    'Triad gangsters',
+    'Ambitious thugs',
     'Imperial spies'
   ],
 
