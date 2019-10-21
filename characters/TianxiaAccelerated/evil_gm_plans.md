@@ -2,11 +2,11 @@
 
 ## Various Evil GM Plans
 - Start with _12 Golden Butchers_
+  - Or possibly ["Bearclaw Bandits"](http://www.vigilancepress.com/uncategorized/running-demo-games-of-tianxia-my-approach-part-1/)
 - "The Prince" _GURPS Fantasy_ (pg 183)
   - combine with other scenario, maybe _Saltmarsh_ or _Blood of the Masters_
   - **Prince Xiǎolóng** can observe the PCs being awesome and possibly save his life
 - various _Eureka_ Fantasy plots
-- Monsters from _Oriental Adventures_ 3E
 - Various adventure seeds: _GURPS Fantasy_ (pg 175)
 - Doppleganger, like John Rogers' D&D comics
 
@@ -37,6 +37,18 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - Retrieve a dead master
   - Or consult with **Geomancer Fēng** from _Xuvutruobacaoly_ scenario to establish innocence
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
+
+## Monsters
+- Ghost (OA165), Ghoul, Hobgoblin, Ogre Mage, Rakshasa, Yuan-Ti
+- Bajang (OA145)
+- Bisan (OA147)
+- Doc Cu'o'c (OA151)
+- Dragons (OA153-162)
+- Gaki (OA163)
+- Hopping Vampire (OA169)
+- Nature Spirit (OA177)
+- Tsuno (OA197)
+- [Wang-Liang/罔两](https://en.wikipedia.org/wiki/Wangliang) (OA198)
 
 ### The Prince
 **Prince Xiǎolóng/小龙**, decent young man who will probably become a good emperor,
