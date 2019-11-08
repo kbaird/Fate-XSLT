@@ -12,8 +12,9 @@
 
 ### Băo Jiāng
 Think about a guest appearance from **Detective Dishi**
+
 _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
-- Princess Ju visit Băo Jiāng with an Imperial Seal; Forger Bai wants to copy it
+- **Princess Ju** visits **Băo Jiāng** with an Imperial Seal; **Forger Bai** wants to copy it
 
 ### Culty Goodness
 _Blood of the Masters_ (T:BS&J, pg 170)
@@ -22,11 +23,12 @@ _Blood of the Masters_ (T:BS&J, pg 170)
 **Evil Cultists** (T:BS&J, pg 156)
 
 ### Detective Dee: The Four Heavenly Kings (四天王)
-"Wind Warriors" assisted the rise of the current Dynasty and were then betrayed.
-**Empress Wu** imagines the (actually dead) "Faceless Lord" is directing her plot to frame
+**"Wind Warriors"** assisted the rise of the current Dynasty and were then betrayed.
+
+**Empress Wu** imagines the (actually dead) **"Faceless Lord"** is directing her plot to frame
 **Detective Dee**.
-Might overlap with _Banestorm_ plot, but could also be a good prep.
-Also has some Doppleganger stuff
+- Might overlap with _Banestorm_ plot, but could also be a good prep.
+- Also has some Doppleganger stuff
 
 ### Fragrant Harbor
 Conan's _Pit of Kutallu_ (fishmen, cultists)
@@ -53,10 +55,10 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 ### The Prince
 **Prince Xiǎolóng/小龙**, decent young man who will probably become a good emperor,
 but currently stubborn & overconfident (trainers were reluctant to challenge him).
-Sent to do military service at a frontier garrison in **Jiāngzhōu**
-doesn't make sense for **Xuvutruobacaoly** to attempt assassination
-better to do it at court where he can do illusions more smoothly
-could reveal that the Emperor has grown more erratic in the past several years
+- Sent to do military service at a frontier garrison in **Jiāngzhōu**
+- doesn't make sense for **Xuvutruobacaoly** to attempt assassination
+  - better to do it at court where he can do illusions more smoothly
+- could reveal that the Emperor has grown more erratic in the past several years
 
 #### Stats for Prince Xiǎolóng/小龙
 - Use **Ma Wei Sheng**
@@ -78,6 +80,7 @@ could reveal that the Emperor has grown more erratic in the past several years
 ### Xuvutruobacaoly
 16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and
 Peerless Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
+
 The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league with the demon,
 and was executed.
 
@@ -88,11 +91,13 @@ and was executed.
   when he thought he was killing the demon
 - The demon now masquerades as the Emperor, and is only a slightly worse ruler
 - **Jīng** had **Geomancer Fēng** framed for the plot and executed
-  (since Fēng would have discovered it) - consult in the Spirit World
+  (since **Fēng** would have discovered it) - consult in the Spirit World
+
 If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
 from _GURPS Banestorm_ (pg 92)
 
 ### Zhōngzhōu (中州) and the Imperial Capital
 _Regency Romance_ from _Fate Adversary Toolkit_ (pg 106)
-Xuvutruobacaoly
+
+_Xuvutruobacaoly_
 
