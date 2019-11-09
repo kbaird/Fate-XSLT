@@ -6,7 +6,8 @@
     <charname nickname="周">Fungible Zhōu</charname>
     <playername>Brian Wilcox</playername>
     <description>
-      Brick Accountant from the suburbs of the capital.
+      Brick Accountant from the suburbs of the capital; his insistence on following rules got in the way of their corruption.
+      Exiled to Băo Jiāng with the impossible task of reducing graft. Tall and wide, but not fat. Bookish, not brutish.
     </description>
   </id>
   <refresh base="4"/>
@@ -18,12 +19,12 @@
     <aspect phase-num="3">xxx</aspect>
   </aspects>
   <skills shape="flat">
-    <skill rating="1" name="Careful"/>
-    <skill rating="3" name="Clever"/>
+    <skill rating="3" name="Careful"/>
+    <skill rating="2" name="Clever"/>
     <skill rating="1" name="Flashy"/>
-    <skill rating="0" name="Forceful"/>
-    <skill rating="2" name="Quick"/>
-    <skill rating="2" name="Sneaky"/>
+    <skill rating="2" name="Forceful"/>
+    <skill rating="0" name="Quick"/>
+    <skill rating="1" name="Sneaky"/>
   </skills>
   <extras>
     <gadget cost="2" name="Stone Tiger 武術" notes="Careful, Forceful:
