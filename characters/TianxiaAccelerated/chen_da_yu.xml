@@ -6,6 +6,8 @@
     <charname nickname="陈达玉">Chén dá yù</charname>
     <playername>Phillipe Bernard</playername>
     <description>
+      Nondescript young woman in her mid-twenties. Dark hair and eyes. Very forgettable.
+
       Following Fungible 周 as he was investigating graft. Secretly aiding him illegally, but he's too naive to notice.
       Stole [Jenn's PC]'s statue from the Mother-In-Law's estate sale, which is how Fungible 周 came to possess it.
       Followed around by Hóng Mó, who appreciates having been "rescued" from the Silken Shadows.
@@ -13,8 +15,8 @@
   </id>
   <refresh base="4"/>
   <aspects>
-    <aspect type="High-Concept">xxx</aspect>
-    <aspect type="Trouble">xxx</aspect>
+    <aspect type="High-Concept">Wandering Incidental Hero</aspect>
+    <aspect type="Trouble">Has an insatiable need to punish the corrupt OR extremely stubborn</aspect>
     <aspect phase-num="1">xxx</aspect>
     <aspect phase-num="2">xxx</aspect>
     <aspect phase-num="3">xxx</aspect>
@@ -36,9 +38,18 @@ stylist to control a battle, keeping an opponent from bringing his full power to
 Practitioners favor speed and precision over power, eschewing powerful but slower methods for a flurry
 of well-aimed and timed techniques.">
       <benefits>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
+        <benefit name="Serpent Strikes Twice">
+          +2 bonus to Sneaky rolls to create an advantage based on disorientation, distraction, or
+          unbalancing against opponents you have already inflicted stress on this combat.
+        </benefit>
+        <benefit name="Serpent Bites the Hand">
+          If you gain shifts on a defense, you can sacrifice your action next turn to immediately inflict an
+          attack on your opponent using the shift value of your defense as your attack result.
+        </benefit>
+        <benefit name="Ghost Haunts the Shadow">
+          You may use Clever instead of Sneaky to Create an Advantage based on stealth or concealment. If
+          Sneaky is greater or equal to a character's Clever approach, gain a +2 bonus to such rolls instead.
+        </benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -61,12 +72,11 @@ of well-aimed and timed techniques.">
     </gadget>
   </extras>
   <stunts>
-    <stunt name="xxx">
-      Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome], I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily][pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
-    </stunt>
+    <stunt name="Jujubee">Enchanted Chain Whip, Weapon 2</stunt>
     <stunt name="Ally's Shield">
       You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack. When you do, redirect that attack to yourself. Your defense is Average (+1) against that attack.
     </stunt>
+    <!--
     <stunt name="Backstab: ☐">
       Because I am Death's silent hand, once per session, when I strike an unaware target from hiding, I may require that target to take the hit without the benefit of their stress track.
     </stunt>
@@ -75,7 +85,8 @@ of well-aimed and timed techniques.">
     </stunt>
     <stunt name="The Lessons of Master Zhao">
       Use [new Approach] instead of [usual Approach] with [specific style of] Kung Fu
-    </stunt>
+      </stunt>
+    -->
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="3"/>
