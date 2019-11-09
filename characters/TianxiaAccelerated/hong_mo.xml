@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
-    <charname>Mo's PC</charname>
+    <charname nickname="洪謨">Hóng Mó</charname>
     <playername>Morgan Baird</playername>
     <description>&#160;</description>
     <unique>On a quest to learn the Secret Technique of 气 (Qì) Blocking</unique>
