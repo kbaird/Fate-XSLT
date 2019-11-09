@@ -5,7 +5,9 @@
   <id>
     <charname nickname="洪謨">Hóng Mó</charname>
     <playername>Morgan Baird</playername>
-    <description>&#160;</description>
+    <description>
+      11-year-old girl, inspired to leave the Silken Shadows by Chén dá yù's example, who is barely aware of it.
+    </description>
     <unique>On a quest to learn the Secret Technique of 气 (Qì) Blocking</unique>
   </id>
   <refresh base="4" free-stunts="1"/>
