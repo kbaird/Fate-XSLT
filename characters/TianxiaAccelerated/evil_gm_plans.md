@@ -1,5 +1,8 @@
 # 天下 Accelerated (new name?)
 
+## Major NPCs
+- Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
+
 ## Various Evil GM Plans
 - Start with _12 Golden Butchers_
   - Or possibly ["Bearclaw Bandits"](http://www.vigilancepress.com/uncategorized/running-demo-games-of-tianxia-my-approach-part-1/)
