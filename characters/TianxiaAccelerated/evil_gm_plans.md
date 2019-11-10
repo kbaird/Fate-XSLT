@@ -8,16 +8,16 @@
   - Or possibly ["Bearclaw Bandits"](http://www.vigilancepress.com/uncategorized/running-demo-games-of-tianxia-my-approach-part-1/)
 - "The Prince" _GURPS Fantasy_ (pg 183)
   - combine with other scenario, maybe _Saltmarsh_ or _Blood of the Masters_
-  - **Prince Xiǎolóng** can observe the PCs being awesome and possibly save his life
+  - **Prince Xiǎolóng/小龙** can observe the PCs being awesome and possibly save his life
 - various _Eureka_ Fantasy plots
 - Various adventure seeds: _GURPS Fantasy_ (pg 175)
 - Doppleganger, like John Rogers' D&D comics
 
-### Băo Jiāng
+### Băo Jiāng (饱江)
 Think about a guest appearance from **Detective Dishi**
 
 _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
-- **Princess Ju** visits **Băo Jiāng** with an Imperial Seal; **Forger Bai** wants to copy it
+- **Princess Ju** visits **Băo Jiāng/饱江** with an Imperial Seal; **Forger Bai** wants to copy it
 
 ### Culty Goodness
 _Blood of the Masters_ (T:BS&J, pg 170)
