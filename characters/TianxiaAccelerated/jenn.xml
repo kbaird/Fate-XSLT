@@ -6,11 +6,9 @@
     <charname>Jenn's PC</charname>
     <playername>Jenn Cornish</playername>
     <description>
-      Aggrieved ghost (Spirits, Beasts, and Spells, page 53). Earth Sorceress.
-      Often appears in the form of a statuette of her living form.
+      Grieved Ghost and Earth Sorceress; Often appears in the form of a statuette of her living form.
 
-      Middle-class 3rd wife, married up. Killed by her mother-in-law because she
-      wanted her son to have a better 3rd wife.
+      Middle-class 3rd wife, married up. Killed by her mother-in-law, who wanted her son to have a better 3rd wife.
 
       The Mother-in-Law's grandchildren gave the statue to Fungible 周 in lieu of back taxes.
     </description>
@@ -103,4 +101,11 @@ a book hidden in a locked desk, but she knows that those things are there.">
       <events>Some events</events>
     </phase>
   </phase-trio>
+  <notes>
+Grieved Ghost: Yǎn Guǐ/厌鬼/"Nightmare Ghost" (especially that of a deceased who has returned to haunt the living)
+- Spirits, Beasts, and Spells, page 53
+
+Earth Sorcery
+- Spirits, Beasts, and Spells, page 36
+  </notes>
 </character>
