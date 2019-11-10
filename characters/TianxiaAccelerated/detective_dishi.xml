@@ -7,8 +7,8 @@
     <playername>Tianxia Accelerated</playername>
     <description>
       Lanky and vaguely awkward looking, Detective Dishi nevertheless might be the greatest force
-      for justice in Băo Jiāng. A junior magistrate whose unwillingness to take bribes or look the
-      other way when crimes are committed by the wealthy or powerful, this young man has already
+      for justice in Băo Jiāng/饱江. A junior magistrate whose unwillingness to take bribes or look
+      the other way when crimes are committed by the wealthy or powerful, this young man has already
       made a lot of enemies. He also has a few friends, a mix of soldiers, merchants, and local
       luminaries who help keep Dishi from catching a dagger in the back. Dishi favors nonlethal
       methods, but when called on to defend himself he wields his iron judge’s pen and reinforced
@@ -19,7 +19,7 @@
   <aspects>
     <aspect type="High-Concept">One Good Cop in a Bad Town</aspect>
     <aspect type="Trouble">Problem With Authority</aspect>
-    <aspect>Băo Jiāng's Greatest Detective</aspect>
+    <aspect>Băo Jiāng/饱江's Greatest Detective</aspect>
     <aspect>Never Gives Up</aspect>
     <aspect>Unconventional Methods</aspect>
   </aspects>
