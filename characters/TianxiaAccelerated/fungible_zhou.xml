@@ -22,7 +22,7 @@
     <aspect phase-num="2">xxx</aspect>
     <aspect phase-num="3">xxx</aspect>
   </aspects>
-  <skills shape="flat">
+  <skills name="Approaches" shape="flat">
     <skill rating="3" name="Careful"/>
     <skill rating="2" name="Clever"/>
     <skill rating="1" name="Flashy"/>

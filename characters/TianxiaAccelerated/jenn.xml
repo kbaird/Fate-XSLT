@@ -23,7 +23,7 @@
     <aspect phase-num="2">xxx</aspect>
     <aspect phase-num="3">xxx</aspect>
   </aspects>
-  <skills shape="flat">
+  <skills name="Approaches" shape="flat">
     <skill rating="1" name="Careful"/>
     <skill rating="3" name="Clever"/>
     <skill rating="1" name="Flashy"/>
@@ -44,9 +44,9 @@ supports and faults in a building, and so forth. This lets the character use Car
 others could not. The sorcerer does not know who is standing behind a door or the title and contents of
 a book hidden in a locked desk, but she knows that those things are there.">
       <benefits>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
+        <benefit name="&#160;">&#160;</benefit>
+        <benefit name="&#160;">&#160;</benefit>
+        <benefit name="&#160;">&#160;</benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -69,6 +69,10 @@ a book hidden in a locked desk, but she knows that those things are there.">
     </gadget>
   </extras>
   <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <!--
     <stunt name="xxx">
       Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome], I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily][pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
     </stunt>
@@ -84,6 +88,7 @@ a book hidden in a locked desk, but she knows that those things are there.">
     <stunt name="The Lessons of Master Zhao">
       Use [new Approach] instead of [usual Approach] with [specific style of] Kung Fu
     </stunt>
+    -->
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="3"/>
