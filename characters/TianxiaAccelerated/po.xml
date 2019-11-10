@@ -17,7 +17,7 @@
     <aspect>Eager to Self-Improve</aspect>
     <aspect>Shīfu-Spotter</aspect>
   </aspects>
-  <skills shape="flat">
+  <skills name="Approaches" shape="flat">
     <skill rating="0" name="Careful"/>
     <skill rating="2" name="Clever"/>
     <skill rating="4" name="Flashy"/>

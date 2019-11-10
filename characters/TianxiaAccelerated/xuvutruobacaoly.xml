@@ -22,7 +22,7 @@
     <aspect phase-num="2">Frustrated By The Need For Restraint</aspect>
     <aspect phase-num="3">Growing Rumors of Shockingly Creative Cruelty</aspect>
   </aspects>
-  <skills shape="flat">
+  <skills name="Approaches" shape="flat">
     <skill rating="5" name="Careful"/>
     <skill rating="4" name="Clever"/>
     <skill rating="3" name="Flashy"/>

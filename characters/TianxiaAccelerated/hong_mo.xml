@@ -12,13 +12,13 @@
   </id>
   <refresh base="4" free-stunts="1"/>
   <aspects>
-    <aspect type="High-Concept">&#160;</aspect>
+    <aspect type="High-Concept">Runaway Orphan; Mostly Reformed Pickpocket</aspect>
     <aspect type="Trouble">&#160;</aspect>
     <aspect phase-num="1">Raised by the Silken Shadow Triad</aspect>
     <aspect phase-num="2">&#160;</aspect>
     <aspect phase-num="3">&#160;</aspect>
   </aspects>
-  <skills shape="flat">
+  <skills name="Approaches" shape="flat">
     <skill rating="1" name="Careful"/>
     <skill rating="3" name="Clever"/>
     <skill rating="1" name="Flashy"/>

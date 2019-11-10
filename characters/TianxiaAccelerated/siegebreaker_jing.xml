@@ -22,7 +22,7 @@
     <aspect phase-num="2">No Slouch at Statecraft, Either</aspect>
     <aspect phase-num="3">&#160;</aspect>
   </aspects>
-  <skills shape="flat">
+  <skills name="Approaches" shape="flat">
     <!-- 4, 3, 2, 1, 1, 0 -->
     <skill rating="0" name="Careful"/>
     <skill rating="1" name="Clever"/>
