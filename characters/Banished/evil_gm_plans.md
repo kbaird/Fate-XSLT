@@ -1,7 +1,5 @@
-# 天下 Accelerated (new name?)
-
-## Major NPCs
-- Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
+# "Banished"
+天下 Accelerated
 
 ## Various Evil GM Plans
 - Start with _12 Golden Butchers_
@@ -13,6 +11,9 @@
 - Various adventure seeds: _GURPS Fantasy_ (pg 175)
 - Doppleganger, like John Rogers' D&D comics
 
+## Major NPCs
+- Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
+
 ### Băo Jiāng (饱江)
 Think about a guest appearance from **Detective Dishi**
 
@@ -20,10 +21,7 @@ _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
 - **Princess Ju** visits **Băo Jiāng/饱江** with an Imperial Seal; **Forger Bai** wants to copy it
 
 ### Culty Goodness
-_Blood of the Masters_ (T:BS&J, pg 170)
-- The **Shining Vampire Sect** kidnaps several masters in order to drink their blood
-  and steal their power
-**Evil Cultists** (T:BS&J, pg 156)
+Moved to [Cthulhu Missionaries](cthulhu_missionaries.md)
 
 ### Detective Dee: The Four Heavenly Kings (四天王)
 **"Wind Warriors"** assisted the rise of the current Dynasty and were then betrayed.
