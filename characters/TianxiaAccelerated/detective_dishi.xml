@@ -23,7 +23,7 @@
     <aspect>Never Gives Up</aspect>
     <aspect>Unconventional Methods</aspect>
   </aspects>
-  <skills shape="flat">
+  <skills name="Approaches" shape="flat">
     <skill rating="3" name="Careful"/>
     <skill rating="4" name="Clever"/>
     <skill rating="1" name="Flashy"/>
