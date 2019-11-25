@@ -20,17 +20,27 @@
     <aspect>We Have Genuine Occult Power</aspect>
   </aspects>
   <approaches>
-    <approach rating="2" name="Careful"/>
-    <approach rating="2" name="Clever"/>
-    <approach rating="1" name="Flashy"/>
-    <approach rating="1" name="Forceful"/>
+    <approach rating="4" name="Careful"/>
+    <approach rating="3" name="Clever"/>
+    <approach rating="3" name="Flashy"/>
+    <approach rating="2" name="Forceful"/>
     <approach rating="0" name="Quick"/>
-    <approach rating="3" name="Sneaky"/>
+    <approach rating="5" name="Sneaky"/>
   </approaches>
   <stunts>
-    <stunt name="&#160;">&#160;</stunt>
-    <stunt name="&#160;">&#160;</stunt>
-    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="Charitable Works">
+      +2 to Sneakily Create an Advantage representing
+      a good reputation among the lower classes.
+    </stunt>
+    <stunt name="Paranoid: ☐">
+      Once per session, when an entity takes action to either attack or
+      investigate you, you may attempt to Carefully Overcome to become
+      aware of the threat, even if doing so would normally stretch credibility.
+    </stunt>
+    <stunt name="Ritualist II: ☐">
+      Once per session, when facing a Challenge, you may perform a magic ritual
+      to automatically succeed with style at any one component task of the Challenge.
+    </stunt>
   </stunts>
   <consequences/>
   <notes>
