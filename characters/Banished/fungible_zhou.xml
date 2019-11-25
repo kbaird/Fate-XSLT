@@ -6,18 +6,36 @@
     <charname nickname="周">Fungible Zhōu</charname>
     <playername>Brian Wilcox</playername>
     <description>
-      Brick Accountant from the suburbs of the capital; his insistence on following rules got in the way of their corruption.
-      Exiled to Băo Jiāng/饱江 with the impossible task of reducing graft. Tall and wide, but not fat. Bookish, not brutish.
+      Brick Accountant from the suburbs of the capital; his insistence on
+      following rules got in the way of their corruption.
+      Exiled to 饱江/Băo Jiāng with the impossible task of reducing graft.
+      Tall and wide, but not fat. Bookish, not brutish.
 
-      Followed by Chen while investigating graft. She secretly aided him illegally, but he's too naive to notice.
-      Acquired [Jenn's PC]'s statue from the Mother-In-Law's grandchildren in lieu of back taxes.
+      Followed by 陈达玉/Chén dá yù while investigating graft.
+      She secretly aided him illegally, but he's too naive to notice.
+      Acquired [Jenn's PC]'s statue from the Mother-In-Law's grandchildren
+      in lieu of back taxes.
     </description>
   </id>
   <refresh base="4"/>
   <aspects>
-    <aspect type="High-Concept">xxx</aspect>
-    <aspect type="Trouble">xxx</aspect>
-    <aspect phase-num="1">xxx</aspect>
+    <aspect type="High-Concept">
+      Brick Accountant From the Outskirts of the Capital?
+    </aspect>
+    <aspect type="Trouble">
+      Exiled For Not Looking the Other Way /
+      They're "Rules", not "Guidelines" /
+      They're Called Rules for a Reason /
+      Too Naive to Notice /
+      ?
+    </aspect>
+    <aspect phase-num="1">
+      Bring Civilization to this Wilderness /
+      Enforcing the Rules in 饱江/Băo Jiāng /
+      I Represent the Empire in 饱江/Băo Jiāng /
+      Trying to Tame the Wild West /
+      ?
+    </aspect>
     <aspect phase-num="2">xxx</aspect>
     <aspect phase-num="3">xxx</aspect>
   </aspects>
@@ -31,10 +49,13 @@
   </skills>
   <extras>
     <gadget cost="2" name="Stone Tiger 武術" notes="Careful, Forceful:
-Stone Tiger practitioners meld solid defenses and aggressive attacks into an erratic but effective style.
-There are few movements in Stone Tiger that are not designed to block a blow or crush an opponent, making
-it a disconcerting mix of stillness and savagery. Stone Tigers favor strikes that can be easily and effectively
-delivered following a defense, including low kicks, short-ranged punches and open hand claw strikes.">
+      Stone Tiger practitioners meld solid defenses and aggressive attacks
+      into an erratic but effective style. There are few movements in
+      Stone Tiger that are not designed to block a blow or crush an opponent,
+      making it a disconcerting mix of stillness and savagery. Stone Tigers
+      favor strikes that can be easily and effectively delivered following a
+      defense, including low kicks, short-ranged punches and open hand claw
+      strikes.">
       <benefits>
         <benefit name="xxx">xxx</benefit>
         <benefit name="xxx">xxx</benefit>
@@ -62,16 +83,25 @@ delivered following a defense, including low kicks, short-ranged punches and ope
   </extras>
   <stunts>
     <stunt name="xxx">
-      Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome], I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily][pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
+      Because I [describe some way that you are exceptional, have a cool bit
+      of gear, or are otherwise awesome], I get a +2 when I
+      [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily]
+      [pick one: attack, defend, create advantages, overcome] when
+      [describe a circumstance].
     </stunt>
     <stunt name="Ally's Shield">
-      You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack. When you do, redirect that attack to yourself. Your defense is Average (+1) against that attack.
+      You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack.
+      When you do, redirect that attack to yourself. Your defense is
+      Average (+1) against that attack.
     </stunt>
     <stunt name="Backstab: ☐">
-      Because I am Death's silent hand, once per session, when I strike an unaware target from hiding, I may require that target to take the hit without the benefit of their stress track.
+      Because I am Death's silent hand, once per session, when I strike an
+      unaware target from hiding, I may require that target to take the hit
+      without the benefit of their stress track.
     </stunt>
     <stunt name="Ritualist II: ☐">
-      Once per session, when facing a challenge, you may perform a magic ritual to automatically succeed with style at any one component task of the challenge.
+      Once per session, when facing a challenge, you may perform a magic ritual
+      to automatically succeed with style at any one component task of the challenge.
     </stunt>
     <stunt name="The Lessons of Master Zhao">
       Use [new Approach] instead of [usual Approach] with [specific style of] Kung Fu

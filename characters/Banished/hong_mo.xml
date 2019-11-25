@@ -6,16 +6,17 @@
     <charname nickname="洪謨">Hóng Mó</charname>
     <playername>Morgan Baird</playername>
     <description>
-      11-year-old girl, inspired to leave the Silken Shadows by Chén dá yù's example, who is barely aware of it.
+      11-year-old girl, inspired to leave the Silken Shadows by the example of
+      陈达玉/Chén dá yù's, who is barely aware of said influence.
     </description>
     <unique>On a quest to learn the Secret Technique of 气 (Qì) Blocking</unique>
   </id>
   <refresh base="4" free-stunts="1"/>
   <aspects>
-    <aspect type="High-Concept">Runaway Orphan; Mostly Reformed Pickpocket</aspect>
-    <aspect type="Trouble">&#160;</aspect>
+    <aspect type="High-Concept">Runaway Orphan</aspect>
+    <aspect type="Trouble">Mostly Reformed Pickpocket</aspect>
     <aspect phase-num="1">Raised by the Silken Shadow Triad</aspect>
-    <aspect phase-num="2">&#160;</aspect>
+    <aspect phase-num="2">包 (Bāo), Hóng Mó's Pet Monkey</aspect>
     <aspect phase-num="3">&#160;</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
@@ -92,7 +93,7 @@ the Ghost styles, many underestimate the inner power of the capering, mocking Gh
   <hacks single-stress-track="true" stress-base-count="3"/>
   <phase-trio>
     <phase num="1">
-      <events>Orphan who grew up in Băo Jiāng/饱江</events>
+      <events>Orphan who grew up in 饱江/Băo Jiāng</events>
     </phase>
     <phase num="2">
       <events>Some events</events>
