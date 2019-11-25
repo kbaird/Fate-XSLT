@@ -6,17 +6,22 @@
     <charname>Jenn's PC</charname>
     <playername>Jenn Cornish</playername>
     <description>
-      Grieved Ghost and Earth Sorceress; Often appears in the form of a statuette of her living form.
+      Grieved Ghost and Earth Sorceress;
+      Often appears in the form of a statuette of her living form.
 
-      Middle-class 3rd wife, married up. Killed by her mother-in-law, who wanted her son to have a better 3rd wife.
+      Middle-class 3rd wife, married up.
+      Killed by her mother-in-law, who wanted her son to have a better 3rd wife.
+      The Mother-in-Law pushed her off a cliff, and the statue was fashioned
+      out of the rock onto which [PC] was impaled.
 
-      The Mother-in-Law's grandchildren gave the statue to Fungible 周 in lieu of back taxes.
+      The Mother-in-Law's grandchildren gave the statue to
+      Fungible 周/Zhōu in lieu of back taxes.
     </description>
   </id>
   <refresh base="4"/>
   <aspects>
-    <aspect type="High-Concept">xxx</aspect>
-    <aspect type="Trouble">xxx</aspect>
+    <aspect type="High-Concept">Grieved Ghost and Earth Sorceress</aspect>
+    <aspect type="Trouble">The Statue Was the Murder Weapon</aspect>
     <aspect phase-num="1">I've Been a Tchotcke On a Shelf For Years</aspect>
     <aspect phase-num="2">xxx</aspect>
     <aspect phase-num="3">xxx</aspect>
@@ -31,16 +36,20 @@
   </skills>
   <extras>
     <gadget cost="2" name="Earth Sorcery"
-notes="Earth sorcery is tied not just to rock and stone but to the hidden places of the earth. Powerful
-practitioners of this style of magic can even become as stone to resist damage and weather overwhelming
-force, but they lack the flexibility of storm or flash of fire sorcery.
+      notes="Earth sorcery is tied not just to rock and stone but to the hidden
+      places of the earth. Powerful practitioners of this style of magic can
+      even become as stone to resist damage and weather overwhelming force,
+      but they lack the flexibility of storm or flash of fire sorcery.
 
-Basic Powers: Earth-bonded are able to find hidden truths—they often say, “The ground cannot
-lie.” So long as an earth sorcerer touches the earth, she has an innate sense of everything else connected
-to the ground: where people are, which crates are empty and which conceal something heavy, structural
-supports and faults in a building, and so forth. This lets the character use Careful/Clever to find clues
-others could not. The sorcerer does not know who is standing behind a door or the title and contents of
-a book hidden in a locked desk, but she knows that those things are there.">
+      Basic Powers: Earth-bonded are able to find hidden truths—they often say,
+      “The ground cannot lie.” So long as an earth sorcerer touches the earth,
+      she has an innate sense of everything else connected to the ground:
+      where people are, which crates are empty and which conceal something
+      heavy, structural supports and faults in a building, and so forth.
+      This lets the character use Careful/Clever to find clues others could not.
+      The sorcerer does not know who is standing behind a door or the title and
+      contents of a book hidden in a locked desk, but she knows that those things
+      are there.">
       <benefits>
         <benefit name="&#160;">&#160;</benefit>
         <benefit name="&#160;">&#160;</benefit>
