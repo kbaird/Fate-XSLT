@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
-    <charname nickname="陈达玉">Chén dá yù</charname>
+    <charname nickname="陈达玉">Chén Dá Yù</charname>
     <playername>Phillipe Bernard</playername>
     <description>
       Nondescript young woman in her mid-twenties.
@@ -23,9 +23,9 @@
     <aspect type="Trouble">
       Has an insatiable need to punish the corrupt OR extremely stubborn
     </aspect>
-    <aspect phase-num="1">xxx</aspect>
-    <aspect phase-num="2">xxx</aspect>
-    <aspect phase-num="3">xxx</aspect>
+    <aspect phase-num="1">&#160;</aspect>
+    <aspect phase-num="2">&#160;</aspect>
+    <aspect phase-num="3">&#160;</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
     <skill rating="1" name="Careful"/>

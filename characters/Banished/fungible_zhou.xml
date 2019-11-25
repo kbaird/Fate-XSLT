@@ -11,7 +11,7 @@
       Exiled to 饱江/Băo Jiāng with the impossible task of reducing graft.
       Tall and wide, but not fat. Bookish, not brutish.
 
-      Followed by 陈达玉/Chén dá yù while investigating graft.
+      Followed by 陈达玉/Chén Dá Yù while investigating graft.
       She secretly aided him illegally, but he's too naive to notice.
       Acquired [Jenn's PC]'s statue from the Mother-In-Law's grandchildren
       in lieu of back taxes.
@@ -36,8 +36,8 @@
       Trying to Tame the Wild West /
       ?
     </aspect>
-    <aspect phase-num="2">xxx</aspect>
-    <aspect phase-num="3">xxx</aspect>
+    <aspect phase-num="2">&#160;</aspect>
+    <aspect phase-num="3">&#160;</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
     <skill rating="3" name="Careful"/>
@@ -57,9 +57,9 @@
       defense, including low kicks, short-ranged punches and open hand claw
       strikes.">
       <benefits>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
-        <benefit name="xxx">xxx</benefit>
+        <benefit name="&#160;">&#160;</benefit>
+        <benefit name="&#160;">&#160;</benefit>
+        <benefit name="&#160;">&#160;</benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -82,7 +82,7 @@
     </gadget>
   </extras>
   <stunts>
-    <stunt name="xxx">
+    <stunt name="&#160;">
       Because I [describe some way that you are exceptional, have a cool bit
       of gear, or are otherwise awesome], I get a +2 when I
       [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily]
