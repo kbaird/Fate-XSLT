@@ -23,8 +23,8 @@
     <aspect type="High-Concept">Grieved Ghost and Earth Sorceress</aspect>
     <aspect type="Trouble">The Statue Was the Murder Weapon</aspect>
     <aspect phase-num="1">I've Been a Tchotcke On a Shelf For Years</aspect>
-    <aspect phase-num="2">xxx</aspect>
-    <aspect phase-num="3">xxx</aspect>
+    <aspect phase-num="2">&#160;</aspect>
+    <aspect phase-num="3">&#160;</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
     <skill rating="1" name="Careful"/>
@@ -80,7 +80,7 @@
     <stunt name="&#160;">&#160;</stunt>
     <stunt name="&#160;">&#160;</stunt>
     <!--
-    <stunt name="xxx">
+    <stunt name="&#160;">
       Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome], I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily][pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
     </stunt>
     <stunt name="Ally's Shield">
