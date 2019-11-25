@@ -13,8 +13,8 @@ Lovecraftian secrets behind a smile
 - **The Reach** from _Young Justice_
 
 Think of a cool name
-"The Forgiving God"
-"Iron God of Eternal Mercy"
+- "The Forgiving God"
+- "Iron God of Eternal Mercy"
 
 ### Culty Goodness
 _Blood of the Masters_ (T:BS&J, pg 170)
