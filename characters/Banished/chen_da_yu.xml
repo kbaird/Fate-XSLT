@@ -6,16 +6,23 @@
     <charname nickname="陈达玉">Chén dá yù</charname>
     <playername>Phillipe Bernard</playername>
     <description>
-      Nondescript young woman in her mid-twenties. Dark hair and eyes. Very forgettable.
+      Nondescript young woman in her mid-twenties.
+      Dark hair and eyes. Very forgettable.
 
-      Following Fungible 周 as he was investigating graft. Secretly aiding him illegally, but he's too naive to notice.
-      Followed around by Hóng Mó, who appreciates having been "rescued" from the Silken Shadows.
+      Following Fungible 周/Zhōu as he was investigating graft.
+      Secretly aiding him illegally, but he's too naive to notice.
+      Followed around by 洪謨/Hóng Mó, who appreciates having been
+      "rescued" from the Silken Shadows.
     </description>
   </id>
   <refresh base="4"/>
   <aspects>
-    <aspect type="High-Concept">Wandering Incidental Hero</aspect>
-    <aspect type="Trouble">Has an insatiable need to punish the corrupt OR extremely stubborn</aspect>
+    <aspect type="High-Concept">
+      Wandering Incidental Hero
+    </aspect>
+    <aspect type="Trouble">
+      Has an insatiable need to punish the corrupt OR extremely stubborn
+    </aspect>
     <aspect phase-num="1">xxx</aspect>
     <aspect phase-num="2">xxx</aspect>
     <aspect phase-num="3">xxx</aspect>
@@ -30,24 +37,29 @@
   </skills>
   <extras>
     <gadget cost="2" name="Ghost Serpent 武術" notes="Clever, Quick:
-Ghost Serpent practitioners are some of the most elusive, graceful, and unpredictable fighters. Their swift,
-smooth strikes slide past defenses to find vital points in an opponent and their subtle shifting dodges and
-blocks turn aside blows that seemed would connect. Feints and locks augment these methods and allow the
-stylist to control a battle, keeping an opponent from bringing his full power to bear on the Ghost Serpent.
-Practitioners favor speed and precision over power, eschewing powerful but slower methods for a flurry
-of well-aimed and timed techniques.">
+      Ghost Serpent practitioners are some of the most elusive, graceful, and
+      unpredictable fighters. Their swift, smooth strikes slide past defenses
+      to find vital points in an opponent and their subtle shifting dodges and
+      blocks turn aside blows that seemed would connect. Feints and locks
+      augment these methods and allow the stylist to control a battle, keeping
+      an opponent from bringing his full power to bear on the Ghost Serpent.
+      Practitioners favor speed and precision over power, eschewing powerful
+      but slower methods for a flurry of well-aimed and timed techniques.">
       <benefits>
         <benefit name="Serpent Strikes Twice">
-          +2 bonus to Sneaky rolls to create an advantage based on disorientation, distraction, or
-          unbalancing against opponents you have already inflicted stress on this combat.
+          +2 bonus to Sneaky rolls to create an advantage based on
+          disorientation, distraction, or unbalancing against opponents
+          you have already inflicted stress on this combat.
         </benefit>
         <benefit name="Serpent Bites the Hand">
-          If you gain shifts on a defense, you can sacrifice your action next turn to immediately inflict an
-          attack on your opponent using the shift value of your defense as your attack result.
+          If you gain shifts on a defense, you can sacrifice your action next
+          turn to immediately inflict an attack on your opponent using the
+          shift value of your defense as your attack result.
         </benefit>
         <benefit name="Ghost Haunts the Shadow">
-          You may use Clever instead of Sneaky to Create an Advantage based on stealth or concealment. If
-          Sneaky is greater or equal to a character's Clever approach, gain a +2 bonus to such rolls instead.
+          You may use Clever instead of Sneaky to Create an Advantage based on
+          stealth or concealment. If Sneaky is greater or equal to a character's
+          Clever approach, gain a +2 bonus to such rolls instead.
         </benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
@@ -71,9 +83,13 @@ of well-aimed and timed techniques.">
     </gadget>
   </extras>
   <stunts>
-    <stunt name="Jujubee">Enchanted Chain Whip (Jiǔjiébiān (九節鞭), Weapon 2</stunt>
+    <stunt name="Jujubee">
+      Enchanted Chain Whip (Jiǔjiébiān (九節鞭), Weapon 2
+    </stunt>
     <stunt name="Ally's Shield">
-      You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack. When you do, redirect that attack to yourself. Your defense is Average (+1) against that attack.
+      You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack.
+      When you do, redirect that attack to yourself. Your defense is
+      Average (+1) against that attack.
     </stunt>
     <!--
     <stunt name="Backstab: ☐">
