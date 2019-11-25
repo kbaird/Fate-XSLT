@@ -12,10 +12,11 @@
 - Doppleganger, like John Rogers' D&D comics
 
 ## Major NPCs
-- Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
+- **Madam 刘/Liú**, Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
   - **鬼界** / **Guǐ Jiè** / "Hungry Ghost Region" / **Gaki-Do**, the Realm of Hungry Ghosts
     - _Fortune & Winds_, pg 37
   - Make her a _Rakshasi_ / _Rakshesha_
+  - 刘 means "battle axe" or "to slaughter"
 
 ### Băo Jiāng (饱江)
 Think about a guest appearance from **Detective Dishi**
