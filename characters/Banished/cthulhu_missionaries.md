@@ -1,5 +1,7 @@
 # Cthulhu Missionaries
 for _Banished_ Campaign
+- "Children of the Forgiving God"
+- "Followers of the Iron God of Eternal Mercy"
 
 New foreign religion from "the West" (or elsewhere, anyway)
 Lovecraftian secrets behind a smile
@@ -11,10 +13,6 @@ Lovecraftian secrets behind a smile
 - **The Borg**?
 - **Jasmine** from _Angel_?
 - **The Reach** from _Young Justice_
-
-Think of a cool name
-- "The Forgiving God"
-- "Iron God of Eternal Mercy"
 
 ### Culty Goodness
 _Blood of the Masters_ (T:BS&J, pg 170)
