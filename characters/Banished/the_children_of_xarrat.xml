@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fae_html.xsl"?>
+<!DOCTYPE character SYSTEM "../FateAccelerated/character.dtd">
+<character>
+  <id>
+    <charname>The Children of Xarrat</charname>
+    <description>
+      AKA "The Children of the Forgiving God" or
+      "The Followers of the Iron God of Eternal Mercy".
+
+      Adherents dress in loose purple and white robes,
+      with metal pentagons on necklaces.
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">New Foreign Religion from the West</aspect>
+    <aspect type="Trouble">Lovecraftian Secrets Behind a Smile</aspect>
+    <aspect>Slowly Making Inroads From the Bottom Up</aspect>
+    <aspect>We Scrupulously Keep Our Noses Clean</aspect>
+    <aspect>We Have Genuine Occult Power</aspect>
+  </aspects>
+  <approaches>
+    <approach rating="2" name="Careful"/>
+    <approach rating="2" name="Clever"/>
+    <approach rating="1" name="Flashy"/>
+    <approach rating="1" name="Forceful"/>
+    <approach rating="0" name="Quick"/>
+    <approach rating="3" name="Sneaky"/>
+  </approaches>
+  <stunts>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <notes>
+"Xarrat" is the Azerbaijani word for "carpenter".
+
+Culty Goodness: Blood of the Masters (T:BS&amp;J, pg 170)
+The **Shining Vampire Sect** kidnaps several masters
+in order to drink their blood and steal their power
+
+Probably more interesting of the Children of Xarrat aid the
+PCs against the Shining Vampire Sect.
+
+I should probably make a reverend of some sort.
+
+Cf. Evil Cultists (T:BS&amp;J, pg 156)
+  </notes>
+</character>
