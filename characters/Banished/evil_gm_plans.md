@@ -13,8 +13,9 @@
 
 ## Major NPCs
 - Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
-  - **鬼界** / **Guǐ Jiè** / **Gaki-Do**, the Realm of Hungry Ghosts
+  - **鬼界** / **Guǐ Jiè** / "Hungry Ghost Region" / **Gaki-Do**, the Realm of Hungry Ghosts
     - _Fortune & Winds_, pg 37
+  - Make her a _Rakshasi_ / _Rakshesha_
 
 ### Băo Jiāng (饱江)
 Think about a guest appearance from **Detective Dishi**
