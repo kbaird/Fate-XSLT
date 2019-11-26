@@ -91,12 +91,14 @@ and was executed.
 
 #### What really happened:
 **Jīng** summoned the demon **Xuvutruobacaoly**,
-  intending to rule as Regent after the Emperor was killed
-- The demon used an illusion to trick **Jīng** into killing the Emperor
+intending to rule as Regent after the Emperor was killed
+- The demon used an illusion to trick **经/Jīng** into killing the Emperor
   when he thought he was killing the demon
 - The demon now masquerades as the Emperor, and is only a slightly worse ruler
-- **Jīng** had **Geomancer Fēng** framed for the plot and executed
-  (since **Fēng** would have discovered it) - consult in the Spirit World
+- **经/Jīng** had **Geomancer 风/Fēng** framed for the plot and executed
+  (since **风/Fēng** would have discovered it) - consult in the Spirit World
+  - **冥界/Míng Jiè** / "Dark/Gloomy Region" / **Meido**, the Realm of Waiting
+    - _Fortune & Winds_, pg 51
 
 If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
 from _GURPS Banestorm_ (pg 92)
