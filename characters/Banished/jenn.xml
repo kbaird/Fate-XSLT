@@ -3,7 +3,7 @@
 <!DOCTYPE character SYSTEM "../FateCore/character.dtd">
 <character>
   <id>
-    <charname>Jenn's PC</charname>
+    <charname nickname="Jenn's PC">Jenn's PC</charname>
     <playername>Jenn Cornish</playername>
     <description>
       Often appears in the form of a statuette of her living form.
