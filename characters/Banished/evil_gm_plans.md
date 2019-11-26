@@ -6,23 +6,23 @@
   - Or possibly ["Bearclaw Bandits"](http://www.vigilancepress.com/uncategorized/running-demo-games-of-tianxia-my-approach-part-1/)
 - "The Prince" _GURPS Fantasy_ (pg 183)
   - combine with other scenario, maybe _Saltmarsh_ or _Blood of the Masters_
-  - **Prince Xiǎolóng/小龙** can observe the PCs being awesome and possibly save his life
+  - **Prince 小龙/Xiǎolóng** can observe the PCs being awesome and possibly save his life
 - various _Eureka_ Fantasy plots
 - Various adventure seeds: _GURPS Fantasy_ (pg 175)
 - Doppleganger, like John Rogers' D&D comics
 
 ## Major NPCs
 - **Madam 刘/Liú**, Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
-  - **鬼界** / **Guǐ Jiè** / "Hungry Ghost Region" / **Gaki-Do**, the Realm of Hungry Ghosts
+  - **鬼界/Guǐ Jiè** / "Hungry Ghost Region" / **Gaki-Do**, the Realm of Hungry Ghosts
     - _Fortune & Winds_, pg 37
   - Make her a _Rakshasi_ / _Rakshesha_
   - 刘 means "battle axe" or "to slaughter"
 
-### Băo Jiāng (饱江)
+### 饱江/Băo Jiāng
 Think about a guest appearance from **Detective Dishi**
 
 _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
-- **Princess Ju** visits **Băo Jiāng/饱江** with an Imperial Seal; **Forger Bai** wants to copy it
+- **Princess Ju** visits **饱江/Băo Jiāng** with an Imperial Seal; **Forger Bai** wants to copy it
 
 ### Culty Goodness
 Moved to [Cthulhu Missionaries](cthulhu_missionaries.md)
@@ -55,17 +55,17 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - Hopping Vampire (OA169)
 - Nature Spirit (OA177)
 - Tsuno (OA197)
-- [Wang-Liang/罔两](https://en.wikipedia.org/wiki/Wangliang) (OA198)
+- [罔两/Wang-Liang](https://en.wikipedia.org/wiki/Wangliang) (OA198)
 
 ### The Prince
-**Prince Xiǎolóng/小龙**, decent young man who will probably become a good emperor,
+**Prince 小龙/Xiǎolóng**, decent young man who will probably become a good emperor,
 but currently stubborn & overconfident (trainers were reluctant to challenge him).
-- Sent to do military service at a frontier garrison in **Jiāngzhōu**
+- Sent to do military service at a frontier garrison in **江州/Jiāngzhōu**
 - doesn't make sense for **Xuvutruobacaoly** to attempt assassination
   - better to do it at court where he can do illusions more smoothly
 - could reveal that the Emperor has grown more erratic in the past several years
 
-#### Stats for Prince Xiǎolóng/小龙
+#### Stats for Prince 小龙/Xiǎolóng
 - Use **Ma Wei Sheng**
   - High Concept becomes _Heir Apparent to the Imperial Throne_
   - _Son of the Great General Ma_ becomes _Overconfident and Unchallenged (so far)_
@@ -74,7 +74,7 @@ but currently stubborn & overconfident (trainers were reluctant to challenge him
 - _Saltmarsh_ is normally coastal, could rework as river pirates
   (or save for **Fragrant Harbor**)
 
-### Tiānqiáo Mountains (天橋山)
+### 天橋山/Tiānqiáo Mountains
 - "Red Orcs" from _GURPS Fantasy_ (pg 62), "Mines of the Mountain King" (pg 178)
   - High tech Orcs on the border. Classic LE society as written: Cardassia, Darguun, etc.
     - Could be Muslim metaphor, deconstructions of various sorts, etc.
@@ -84,9 +84,9 @@ but currently stubborn & overconfident (trainers were reluctant to challenge him
 
 ### Xuvutruobacaoly
 16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and
-Peerless Master "Jordan Siegebreaker" (**Siegebreaker Jīng/经**).
+Peerless Master "Jordan Siegebreaker" (**Siegebreaker 经/Jīng**).
 
-The "Court Wizard Phocas" (**Geomancer Fēng/风**) was found to be in league with the demon,
+The "Court Wizard Phocas" (**Geomancer 风/Fēng**) was found to be in league with the demon,
 and was executed.
 
 #### What really happened:
@@ -101,7 +101,7 @@ and was executed.
 If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
 from _GURPS Banestorm_ (pg 92)
 
-### Zhōngzhōu (中州) and the Imperial Capital
+### 中州/Zhōngzhōu and the Imperial Capital
 _Regency Romance_ from _Fate Adversary Toolkit_ (pg 106)
 
 _Xuvutruobacaoly_
