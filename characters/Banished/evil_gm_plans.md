@@ -12,11 +12,27 @@
 - Doppleganger, like John Rogers' D&D comics
 
 ## Major NPCs
-- **Madam 刘/Liú**, Jenn's PC's Mother-in-Law, now long deceased and in one of the various Hells
-  - **鬼界/Guǐ Jiè** / "Hungry Ghost Region" / **Gaki-Do**, the Realm of Hungry Ghosts
-    - _Fortune & Winds_, pg 37
-  - Make her a _Rakshasi_ / _Rakshesha_
-  - 刘 means "battle axe" or "to slaughter"
+
+### Madam 刘/Liú
+Jenn's PC's Mother-in-Law, now long deceased and in **鬼界/Guǐ Jiè** /
+"Hungry Ghost Region" / **Gaki-Do**, the Realm of Hungry Ghosts
+(_Fortune & Winds_, pg 37)
+- Make her a _Rakshasi_ / _Rakshesha_
+- 刘 means "battle axe" or "to slaughter"
+
+## Monsters
+- Ghost (OA165), Ghoul, Hobgoblin, Ogre Mage, Rakshasa, Yuan-Ti
+- Bajang (OA145)
+- Bisan (OA147)
+- Doc Cu'o'c (OA151)
+- Dragons (OA153-162)
+- Gaki (OA163)
+- Hopping Vampire (OA169)
+- Nature Spirit (OA177)
+- Tsuno (OA197)
+- [罔两/Wang-Liang](https://en.wikipedia.org/wiki/Wangliang) (OA198)
+
+## Specific Threads
 
 ### 饱江/Băo Jiāng
 Think about a guest appearance from **Detective Dishi**
@@ -44,18 +60,6 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - Retrieve a dead master
   - Or consult with **Geomancer Fēng** from _Xuvutruobacaoly_ scenario to establish innocence
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
-
-## Monsters
-- Ghost (OA165), Ghoul, Hobgoblin, Ogre Mage, Rakshasa, Yuan-Ti
-- Bajang (OA145)
-- Bisan (OA147)
-- Doc Cu'o'c (OA151)
-- Dragons (OA153-162)
-- Gaki (OA163)
-- Hopping Vampire (OA169)
-- Nature Spirit (OA177)
-- Tsuno (OA197)
-- [罔两/Wang-Liang](https://en.wikipedia.org/wiki/Wangliang) (OA198)
 
 ### The Prince
 **Prince 小龙/Xiǎolóng**, decent young man who will probably become a good emperor,
