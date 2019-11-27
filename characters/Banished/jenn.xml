@@ -36,7 +36,7 @@
     <skill rating="2" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="Earth Sorcery"
+    <gadget cost="1" name="Earth Sorcery"
       notes="Earth sorcery is tied not just to rock and stone but to the hidden
       places of the earth. Powerful practitioners of this style of magic can
       even become as stone to resist damage and weather overwhelming force,
@@ -53,9 +53,9 @@
       are there.">
       <benefits>
         <benefit name="&#160;">&#160;</benefit>
-        <benefit name="&#160;">&#160;</benefit>
-        <benefit name="&#160;">&#160;</benefit>
         <!--
+        <benefit name="&#160;">&#160;</benefit>
+        <benefit name="&#160;">&#160;</benefit>
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
           Automatically succeed on a Recover action for a Consequence if allowed to quietly meditate.
