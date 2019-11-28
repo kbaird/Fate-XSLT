@@ -30,7 +30,7 @@ Jenn's PC's Mother-in-Law, now long deceased and in **鬼界/Guǐ Jiè** /
 - Hopping Vampire (OA169)
 - Nature Spirit (OA177)
 - Tsuno (OA197)
-- [罔两/Wang-Liang](https://en.wikipedia.org/wiki/Wangliang) (OA198)
+- [罔两/Wǎng Liǎng](https://en.wikipedia.org/wiki/Wangliang) (OA198)
 
 ## Specific Threads
 
@@ -38,16 +38,17 @@ Jenn's PC's Mother-in-Law, now long deceased and in **鬼界/Guǐ Jiè** /
 Think about a guest appearance from **Detective Dishi**
 
 _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
-- **Princess Ju** visits **饱江/Băo Jiāng** with an Imperial Seal; **Forger Bai** wants to copy it
+- **Princess Ju** visits **饱江/Băo Jiāng** with an Imperial Seal;
+  **Forger Bai** wants to copy it
 
 ### Culty Goodness
 Moved to [Cthulhu Missionaries](cthulhu_missionaries.md)
 
-### Detective Dee: The Four Heavenly Kings (四天王)
+### Detective Dee & The Four Heavenly Kings (四天王)
 **"Wind Warriors"** assisted the rise of the current Dynasty and were then betrayed.
 
-**Empress Wu** imagines the (actually dead) **"Faceless Lord"** is directing her plot to frame
-**Detective Dee**.
+**Empress Wu** imagines the (actually dead) **"Faceless Lord"** is directing her
+plot to frame **Detective Dee**.
 - Might overlap with _Banestorm_ plot, but could also be a good prep.
 - Also has some Doppleganger stuff
 
@@ -56,42 +57,45 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - could be a prep to _Saltmarsh_
 
 ### The various Hells
-- _Orpheus_?
+- Confront **Madam 刘/Liú**
+- Consult with **Geomancer 风/Fēng** to establish innocence
 - Retrieve a dead master
-  - Or consult with **Geomancer Fēng** from _Xuvutruobacaoly_ scenario to establish innocence
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
-### The Prince
-**Prince 小龙/Xiǎolóng**, decent young man who will probably become a good emperor,
+### "The Prince", 小龙/Xiǎolóng
+_GURPS Fantasy_ (pg 183)
+- Use **Ma Wei Sheng**
+  - High Concept becomes _Heir Apparent to the Imperial Throne_
+  - _Son of the Great General Ma_ becomes
+    _Overconfident and Unchallenged (so far)_
+
+A decent young man who will probably become a good emperor,
 but currently stubborn & overconfident (trainers were reluctant to challenge him).
 - Sent to do military service at a frontier garrison in **江州/Jiāngzhōu**
 - doesn't make sense for **Xuvutruobacaoly** to attempt assassination
   - better to do it at court where he can do illusions more smoothly
 - could reveal that the Emperor has grown more erratic in the past several years
 
-#### Stats for Prince 小龙/Xiǎolóng
-- Use **Ma Wei Sheng**
-  - High Concept becomes _Heir Apparent to the Imperial Throne_
-  - _Son of the Great General Ma_ becomes _Overconfident and Unchallenged (so far)_
-
 ### Silk River
-- _Saltmarsh_ is normally coastal, could rework as river pirates
-  (or save for **Fragrant Harbor**)
+- **Children of Xarrat** building up sympathy
+- **Riverton** from _Fate Worlds Volume One: Worlds on Fire_ (first scenario)
 
 ### 天橋山/Tiānqiáo Mountains
-- "Red Orcs" from _GURPS Fantasy_ (pg 62), "Mines of the Mountain King" (pg 178)
-  - High tech Orcs on the border. Classic LE society as written: Cardassia, Darguun, etc.
+- **Red Orcs** from _GURPS Fantasy_ (pg 62),
+  **Mines of the Mountain King** (pg 178)
+  - High tech Orcs on the border. Classic LE society as written: Cardassia,
+    Darguun, etc.
     - Could be Muslim metaphor, deconstructions of various sorts, etc.
 - _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
 - _Ravenloft_
 - Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
 
 ### Xuvutruobacaoly
-16 years ago, a demon attacked the Emperor and was killed by the Imperial Guard and
-Peerless Master "Jordan Siegebreaker" (**Siegebreaker 经/Jīng**).
+16 years ago, a demon attacked the Emperor and was killed by the Imperial
+Guard and Peerless Master "Jordan Siegebreaker" (**Siegebreaker 经/Jīng**).
 
-The "Court Wizard Phocas" (**Geomancer 风/Fēng**) was found to be in league with the demon,
-and was executed.
+The "Court Wizard Phocas" (**Geomancer 风/Fēng**) was found to be in
+league with the demon, and was executed.
 
 #### What really happened:
 **Jīng** summoned the demon **Xuvutruobacaoly**,
@@ -104,11 +108,9 @@ intending to rule as Regent after the Emperor was killed
   - **冥界/Míng Jiè** / "Dark/Gloomy Region" / **Meido**, the Realm of Waiting
     - _Fortune & Winds_, pg 51
 
-If combined with _四天王_, maybe the Emperor's replacing has driven **Empress Wu** insane
-from _GURPS Banestorm_ (pg 92)
+If combined with _四天王_, maybe the Emperor's replacing has driven
+**Empress Wu** insane from _GURPS Banestorm_ (pg 92)
 
 ### 中州/Zhōngzhōu and the Imperial Capital
-_Regency Romance_ from _Fate Adversary Toolkit_ (pg 106)
-
-_Xuvutruobacaoly_
+**Regency Romance** from _Fate Adversary Toolkit_ (pg 106)
 
