@@ -14,6 +14,7 @@
       Followed around by 洪謨/Hóng Mó, who appreciates having been
       "rescued" from the Silken Shadows.
     </description>
+    <unique>Fungible 周/Zhōu's "Bodyguard"</unique>
   </id>
   <refresh base="4"/>
   <aspects>
@@ -21,10 +22,14 @@
       Wandering Incidental Hero
     </aspect>
     <aspect type="Trouble">
-      Has an insatiable need to punish the corrupt OR extremely stubborn
+      I have a plan, and I definitely know exactly what I'm doing (wink)
     </aspect>
-    <aspect phase-num="1">&#160;</aspect>
-    <aspect phase-num="2">&#160;</aspect>
+    <aspect phase-num="1">
+      Has an insatiable need to punish the corrupt
+    </aspect>
+    <aspect phase-num="2">
+      Theft: The cause of and solution to all of life's problems
+    </aspect>
     <aspect phase-num="3">&#160;</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
@@ -86,12 +91,18 @@
     <stunt name="Jujubee">
       Enchanted Chain Whip (九節鞭/Jiǔjiébiān), Weapon 2
     </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <stunt name="&#160;">
+      &#160;
+    </stunt>
+    <!--
     <stunt name="Ally's Shield">
       You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack.
       When you do, redirect that attack to yourself. Your defense is
       Average (+1) against that attack.
     </stunt>
-    <!--
     <stunt name="Backstab: ☐">
       Because I am Death's silent hand, once per session, when I strike an unaware target from hiding, I may require that target to take the hit without the benefit of their stress track.
     </stunt>
@@ -116,4 +127,9 @@
       <events>Some events</events>
     </phase>
   </phase-trio>
+  <notes>
+    陈 means "to exhibit", "to explain", or "old"
+    迖 means "to arrive", "intelligent", or "smooth"
+    玉 means "jade"
+  </notes>
 </character>

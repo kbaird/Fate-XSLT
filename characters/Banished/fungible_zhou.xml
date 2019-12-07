@@ -16,25 +16,18 @@
       Acquired 刘丽华/Liú Lí Huá's statue from Madam 刘/Liú's grandchildren
       in lieu of back taxes.
     </description>
+    <unique>刘丽华/Liú Lí Huá's statue is always within 12 feet of me</unique>
   </id>
   <refresh base="4"/>
   <aspects>
     <aspect type="High-Concept">
-      Brick Accountant From the Outskirts of the Capital?
+      Brick Accountant [Descending from Earth Sorcerors]
     </aspect>
     <aspect type="Trouble">
-      Exiled For Not Looking the Other Way /
-      They're "Rules", not "Guidelines" /
-      They're Called Rules for a Reason /
-      Too Naive to Notice /
-      ?
+      Exiled [For Standing on Principle]
     </aspect>
     <aspect phase-num="1">
-      Bring Civilization to this Wilderness /
-      Enforcing the Rules in 饱江/Băo Jiāng /
-      I Represent the Empire in 饱江/Băo Jiāng /
-      Trying to Tame the Wild West /
-      ?
+      Blessed with a Cursed Statue
     </aspect>
     <aspect phase-num="2">&#160;</aspect>
     <aspect phase-num="3">&#160;</aspect>
@@ -48,7 +41,7 @@
     <skill rating="1" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="Stone Crane 武術" notes="Careful, Clever:
+    <gadget cost="1" name="Stone Crane 武術" notes="Careful, Clever:
       One of the most defensively solid styles, Stone
       Crane relies on solid stances and limiting an opponent’s
       ability to attack. Practitioners use blocks, circular
@@ -67,18 +60,7 @@
           less free invocation is granted though the
           advantage is still created.
         </benefit>
-        <benefit name="Ripples in the Earth">
-          The ground speaks to the
-          sorcerer through her feet. She can sense when others
-          are approaching as she feels their footsteps, even while
-          asleep. The sorcerer can Carefully notice in those situations
-          even if others could not and gets a +2 to her Careful
-          roll when others could attempt to notice as normal.
-          Additionally, by concentrating she can use Clever
-          to uncover more information—how many people are
-          approaching, what rooms or caverns exist nearby, any
-          underground streams, and similar feats of perception.
-        </benefit>
+        <!--
         <benefit name="Stone Weathers the Storm">
           If you defend with style, you may remove your 1 stress box or
           convert another stress box to 1 lower instead of taking a boost.
@@ -101,7 +83,8 @@
           being executes the task to the letter, but cannot harm
           or act against the exorcist. Once it completes the task
           or is released from service, it is banished.
-        </benefit>
+          </benefit>
+        -->
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -137,6 +120,18 @@
     -->
   </extras>
   <stunts>
+    <stunt name="Ripples in the Earth">
+      The ground speaks to the
+      sorcerer through her feet. She can sense when others
+      are approaching as she feels their footsteps, even while
+      asleep. The sorcerer can Carefully notice in those situations
+      even if others could not and gets a +2 to her Careful
+      roll when others could attempt to notice as normal.
+      Additionally, by concentrating she can use Clever
+      to uncover more information—how many people are
+      approaching, what rooms or caverns exist nearby, any
+      underground streams, and similar feats of perception.
+    </stunt>
     <stunt name="&#160;">
       Because I [describe some way that you are exceptional, have a cool bit
       of gear, or are otherwise awesome], I get a +2 when I
@@ -177,4 +172,10 @@
       <events>Some events</events>
     </phase>
   </phase-trio>
+  <notes>
+    周's dad was a mason, ancestors were Earth Sorcerors, but that has been purged from history.
+    When 周 got the statue, it registered as mystical and triggered his woo-woo sight.
+    This allowed 周 to also notice that his abacus family heirloom is also magical. Details TBD.
+    Some anonymous benefactor paid for 周's tuition to become an accountant.
+  </notes>
 </character>
