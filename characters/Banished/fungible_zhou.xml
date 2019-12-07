@@ -48,18 +48,60 @@
     <skill rating="1" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="Stone Tiger 武術" notes="Careful, Forceful:
-      Stone Tiger practitioners meld solid defenses and aggressive attacks
-      into an erratic but effective style. There are few movements in
-      Stone Tiger that are not designed to block a blow or crush an opponent,
-      making it a disconcerting mix of stillness and savagery. Stone Tigers
-      favor strikes that can be easily and effectively delivered following a
-      defense, including low kicks, short-ranged punches and open hand claw
-      strikes.">
+    <gadget cost="2" name="Stone Crane 武術" notes="Careful, Clever:
+      One of the most defensively solid styles, Stone
+      Crane relies on solid stances and limiting an opponent’s
+      ability to attack. Practitioners use blocks, circular
+      evasion, locks, and pressure point strikes to avoid
+      attacks and hinder opponents. Weaker on attack, Stone
+      Crane stylists wait until the right opening and put an
+      attacker down hard and fast.">
       <benefits>
-        <benefit name="&#160;">&#160;</benefit>
-        <benefit name="&#160;">&#160;</benefit>
-        <benefit name="&#160;">&#160;</benefit>
+        <benefit name="Mountain Does Not Fall">
+          You get a +2 bonus to defend against attempts to
+          create an advantage based on unbalancing,
+          pushing, tripping, or knocking over the
+          defender. If a technique from an opponent
+          instead allows them to create such an
+          advantage with free invocations, one
+          less free invocation is granted though the
+          advantage is still created.
+        </benefit>
+        <benefit name="Ripples in the Earth">
+          The ground speaks to the
+          sorcerer through her feet. She can sense when others
+          are approaching as she feels their footsteps, even while
+          asleep. The sorcerer can Carefully notice in those situations
+          even if others could not and gets a +2 to her Careful
+          roll when others could attempt to notice as normal.
+          Additionally, by concentrating she can use Clever
+          to uncover more information—how many people are
+          approaching, what rooms or caverns exist nearby, any
+          underground streams, and similar feats of perception.
+        </benefit>
+        <benefit name="Stone Weathers the Storm">
+          If you defend with style, you may remove your 1 stress box or
+          convert another stress box to 1 lower instead of taking a boost.
+        </benefit>
+        <benefit name="Poisoned Mirror">
+          The exorcist can redirect the
+          energies sorcerers throw back to them. Success with
+          style on a Defend against a mystical Attack lets the
+          character describe turning the Attack back at the
+          foe. Instead of generating a boost, inflict 1 stress on
+          the attacker which cannot be blocked by any armor.
+          Even though sorcerers are immune to Attacks of their
+          element, the deflection infuses disruptive energies that
+          they cannot ignore.
+        </benefit>
+        <benefit name="Spirit Commander">
+          If the exorcist takes a spirit
+          out, instead of banishing it outright, he can force it
+          to perform a task before it departs. The supernatural
+          being executes the task to the letter, but cannot harm
+          or act against the exorcist. Once it completes the task
+          or is released from service, it is banished.
+        </benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -80,6 +122,19 @@
         -->
       </benefits>
     </gadget>
+    <!--
+    <gadget name="Tiny Abacus">
+      <function>Drastically speeds up math operations</function>
+      <flaws>
+        <flaw>Egghead likes his booky-wook</flaw>
+      </flaws>
+      <benefits>
+        <benefit name="It's a Kind of Magic">
+          Can notice and defend against magic as if it were mundane
+        </benefit>
+      </benefits>
+    </gadget>
+    -->
   </extras>
   <stunts>
     <stunt name="&#160;">
@@ -89,6 +144,7 @@
       [pick one: attack, defend, create advantages, overcome] when
       [describe a circumstance].
     </stunt>
+    <!--
     <stunt name="Ally's Shield">
       You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack.
       When you do, redirect that attack to yourself. Your defense is
@@ -106,6 +162,7 @@
     <stunt name="The Lessons of Master Zhao">
       Use [new Approach] instead of [usual Approach] with [specific style of] Kung Fu
     </stunt>
+    -->
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="3"/>
