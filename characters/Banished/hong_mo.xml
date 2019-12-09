@@ -11,7 +11,7 @@
     </description>
     <unique>On a quest to learn the Secret Technique of 气/Qì Blocking</unique>
   </id>
-  <refresh base="4" free-stunts="1"/>
+  <refresh base="4" free-stunts="3"/>
   <aspects>
     <aspect type="High-Concept">Runaway Orphan</aspect>
     <aspect type="Trouble">Mostly Reformed Pickpocket</aspect>
@@ -39,13 +39,6 @@ the Ghost styles, many underestimate the inner power of the capering, mocking Gh
           You may use Clever instead of Sneaky to Create an Advantage based on stealth or concealment. If
           Sneaky is greater or equal to a character's Clever approach, gain a +2 bonus to such rolls instead.
         </benefit>
-        <benefit name="Ghost Strikes the Spirit">
-          Gain +1 Weapon Rating and ignore 1 Armor Rating when physically attacking a target who is either
-          Jianghu Rank 0, part of a mob, or has a consequence based around weakened 气/Qì energies.
-        </benefit>
-        <benefit name="Monkey Rolls Away">
-          When invoking an aspect or advantage during a defense roll, gain 2 Armor Rating against the attack if it succeeds.
-        </benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
           1 Free Invocation of Chi Armor per conflict.
@@ -68,26 +61,18 @@ the Ghost styles, many underestimate the inner power of the capering, mocking Gh
     </gadget>
   </extras>
   <stunts>
+    <stunt name="Ghost Strikes the Spirit">
+      Gain +1 Weapon Rating and ignore 1 Armor Rating when physically attacking a target who is either
+      Jianghu Rank 0, part of a mob, or has a consequence based around weakened 气/Qì energies.
+    </stunt>
+    <stunt name="Monkey Rolls Away">
+      When invoking an aspect or advantage during a defense roll, gain 2 Armor Rating against the attack if it succeeds.
+    </stunt>
     <stunt name="&#160;">
       Because I [describe some way that you are exceptional, have a cool bit of gear, or are otherwise awesome],
       I get a +2 when I [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily]
       [pick one: attack, defend, create advantages, overcome] when [describe a circumstance].
     </stunt>
-    <!--
-    <stunt name="Qì (气) Blocking: ☐">
-      Because I have access to forbidden lore, once per session and at the cost of spending a Fate Point,
-      I may automatically Create an Advantage "Paralyzed" on the target.
-    </stunt>
-    <stunt name="Ally's Shield">
-      You can invoke Dwarven Shield-Maiden when a nearby ally suffers an attack. When you do, redirect that attack to yourself. Your defense is Average (+1) against that attack.
-    </stunt>
-    <stunt name="Ritualist II: ☐">
-      Once per session, when facing a challenge, you may perform a magic ritual to automatically succeed with style at any one component task of the challenge.
-    </stunt>
-    <stunt name="The Lessons of Master Zhao">
-      Use [new Approach] instead of [usual Approach] with [specific style of] Kung Fu
-    </stunt>
-    -->
   </stunts>
   <consequences/>
   <hacks single-stress-track="true" stress-base-count="3"/>

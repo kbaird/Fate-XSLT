@@ -41,7 +41,7 @@
     <skill rating="2" name="Sneaky"/>
   </skills>
   <extras>
-    <gadget cost="2" name="Ghost Serpent 武術" notes="Clever, Quick:
+    <gadget cost="1" name="Ghost Serpent 武術" notes="Clever, Quick:
       Ghost Serpent practitioners are some of the most elusive, graceful, and
       unpredictable fighters. Their swift, smooth strikes slide past defenses
       to find vital points in an opponent and their subtle shifting dodges and
@@ -55,16 +55,6 @@
           +2 bonus to Sneaky rolls to create an advantage based on
           disorientation, distraction, or unbalancing against opponents
           you have already inflicted stress on this combat.
-        </benefit>
-        <benefit name="Serpent Bites the Hand">
-          If you gain shifts on a defense, you can sacrifice your action next
-          turn to immediately inflict an attack on your opponent using the
-          shift value of your defense as your attack result.
-        </benefit>
-        <benefit name="Ghost Haunts the Shadow">
-          You may use Clever instead of Sneaky to Create an Advantage based on
-          stealth or concealment. If Sneaky is greater or equal to a character's
-          Clever approach, gain a +2 bonus to such rolls instead.
         </benefit>
         <!--
         <benefit name="江湖 (jiānghú) Rank 1: ☐">
@@ -91,11 +81,15 @@
     <stunt name="Jujubee">
       Enchanted Chain Whip (九節鞭/Jiǔjiébiān), Weapon 2
     </stunt>
-    <stunt name="&#160;">
-      &#160;
+    <stunt name="Serpent Bites the Hand">
+      If you gain shifts on a defense, you can sacrifice your action next
+      turn to immediately inflict an attack on your opponent using the
+      shift value of your defense as your attack result.
     </stunt>
-    <stunt name="&#160;">
-      &#160;
+    <stunt name="Ghost Haunts the Shadow">
+      You may use Clever instead of Sneaky to Create an Advantage based on
+      stealth or concealment. If Sneaky is greater or equal to a character's
+      Clever approach, gain a +2 bonus to such rolls instead.
     </stunt>
     <!--
     <stunt name="Ally's Shield">
