@@ -34,6 +34,20 @@ Jenn's PC's Mother-in-Law, now long deceased and in **鬼界/Guǐ Jiè** /
 
 ## Specific Threads
 
+### PC-specific Threads
+
+#### Fungible 周/Zhōu
+- Who paid for his tuition to become an accountant?
+
+#### 刘丽华/Liú Lí Huá
+- Confront **Madam 刘/Liú**
+
+#### 洪謨/Hóng Mó
+- Silken Shadow Triad comes looking for her
+
+#### 陈达玉/Chén Dá Yù
+- Mostly compels on _Has an insatiable need to punish the corrupt_
+
 ### 饱江/Băo Jiāng
 Think about a guest appearance from **Detective Dishi**
 
@@ -57,7 +71,6 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - could be a prep to _Saltmarsh_
 
 ### The various Hells
-- Confront **Madam 刘/Liú**
 - Consult with **Geomancer 风/Fēng** to establish innocence
 - Retrieve a dead master
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
