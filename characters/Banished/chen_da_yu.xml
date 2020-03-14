@@ -30,7 +30,9 @@
     <aspect phase-num="2">
       Theft: The cause of and solution to all of life's problems
     </aspect>
-    <aspect phase-num="3">&#160;</aspect>
+    <aspect phase-num="3">
+      I am not messing around
+    </aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
     <skill rating="1" name="Careful"/>
