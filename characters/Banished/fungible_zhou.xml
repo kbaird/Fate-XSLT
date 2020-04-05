@@ -18,7 +18,7 @@
     </description>
     <unique>刘丽华/Liú Lí Huá's statue is always within 12 feet of me</unique>
   </id>
-  <refresh base="4"/>
+  <refresh base="5"/>
   <aspects>
     <aspect type="High-Concept">
       Brick Accountant [Descending from Earth Sorcerors]
@@ -29,7 +29,9 @@
     <aspect phase-num="1">
       Blessed with a Cursed Statue
     </aspect>
-    <aspect phase-num="2">&#160;</aspect>
+    <aspect phase-num="2">
+      Mysterious Leverage
+    </aspect>
     <aspect phase-num="3">&#160;</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
@@ -131,6 +133,9 @@
       to uncover more information—how many people are
       approaching, what rooms or caverns exist nearby, any
       underground streams, and similar feats of perception.
+    </stunt>
+    <stunt name="Detect Magic">
+      Hand-wavey ability to detect magic as is convenient for the story.
     </stunt>
     <stunt name="&#160;">
       Because I [describe some way that you are exceptional, have a cool bit
