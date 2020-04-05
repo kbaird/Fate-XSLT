@@ -4,6 +4,8 @@
 ## Various Evil GM Plans
 - Start with _12 Golden Butchers_
   - [~"Bearclaw Bandits"~](http://www.vigilancepress.com/uncategorized/running-demo-games-of-tianxia-my-approach-part-1/)
+- "Falsely Accused" (_Eureka_ 1)
+  - Find an old friend of one of the PCs
 - "The Prince" _GURPS Fantasy_ (pg 183)
   - combine with other scenario, maybe _Saltmarsh_ or _Blood of the Masters_ (T:BS&J pg171)
   - **Prince 小龙/Xiǎolóng** can observe the PCs being awesome and possibly save his life
