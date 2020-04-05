@@ -1,7 +1,7 @@
 # Cthulhu Missionaries
 for _Banished_ Campaign
-- "Children of the Forgiving God"
-- "Followers of the Iron God of Eternal Mercy"
+
+[The Children of Xarrat](the_children_of_xarrat.xml)
 
 New foreign religion from "the West" (or elsewhere, anyway)
 Lovecraftian secrets behind a smile
