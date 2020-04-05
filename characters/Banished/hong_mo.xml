@@ -11,13 +11,13 @@
     </description>
     <unique>On a quest to learn the Secret Technique of 气/Qì Blocking</unique>
   </id>
-  <refresh base="4" free-stunts="3"/>
+  <refresh base="5" free-stunts="3"/>
   <aspects>
     <aspect type="High-Concept">Runaway Orphan</aspect>
     <aspect type="Trouble">Mostly Reformed Pickpocket</aspect>
     <aspect phase-num="1">Raised by the Silken Shadow Triad</aspect>
     <aspect phase-num="2">包/Bāo, Hóng Mó's Pet Monkey</aspect>
-    <aspect phase-num="3">&#160;</aspect>
+    <aspect phase-num="3">I Am Not Alone</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
     <skill rating="1" name="Careful"/>

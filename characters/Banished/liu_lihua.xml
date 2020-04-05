@@ -21,13 +21,13 @@
     </description>
     <unique>Bound to a statue made from the rocks onto which she was mortally impaled</unique>
   </id>
-  <refresh base="4"/>
+  <refresh base="5"/>
   <aspects>
     <aspect type="High-Concept">Grieved Ghost and Earth Sorceress</aspect>
     <aspect type="Trouble">The Statue Was the Murder Weapon</aspect>
     <aspect phase-num="1">I've Been a Tchotcke On a Shelf For Years</aspect>
-    <aspect phase-num="2">&#160;</aspect>
-    <aspect phase-num="3">&#160;</aspect>
+    <aspect phase-num="2">Won't Get Fooled Again</aspect>
+    <aspect phase-num="3">Sticks and Stones</aspect>
   </aspects>
   <skills name="Approaches" shape="flat">
     <skill rating="1" name="Careful"/>
@@ -101,13 +101,8 @@
     <stunt name="I'm a Freaking Ghost!">
       Use Forceful instead of Flashy to look scary
     </stunt>
-    <stunt name="&#160;">
-      Because I [describe some way that you are exceptional,
-        have a cool bit of gear, or are otherwise awesome],
-      I get a +2 when I
-      [pick one: Carefully, Cleverly, Flashily, Forcefully, Quickly, Sneakily]
-      [pick one: attack, defend, create advantages, overcome]
-      when [describe a circumstance].
+    <stunt name="Graveyard Gossip">
+      I can communicate with the recently dead.
     </stunt>
     <!--
     <stunt name="&#160;">&#160;</stunt>
