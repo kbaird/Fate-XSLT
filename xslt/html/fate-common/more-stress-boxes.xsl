@@ -8,17 +8,47 @@
     <xsl:variable name="numericSkillRating" select="translate($skillRating, translate($skillRating,'0123456789',''), '')"/>
     <xsl:if test="$baseCount &lt; $maxCount">
       <xsl:if test="$numericSkillRating &gt; 0">
-        <td><xsl:value-of select="$baseCount + 1"/></td>
+        <td>
+          <xsl:choose>
+            <xsl:when test="/character/hacks/@one-point-stress='true'">
+              <xsl:value-of select="1"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$baseCount + 1"/>
+            </xsl:otherwise>
+          </xsl:choose>
+      </td>
       </xsl:if>
     </xsl:if>
     <xsl:if test="$baseCount + 1 &lt; $maxCount">
       <xsl:if test="$numericSkillRating &gt; 2">
-        <td><xsl:value-of select="$baseCount + 2"/></td>
+        <td>
+          <xsl:choose>
+            <xsl:when test="/character/hacks/@one-point-stress='true'">
+              <xsl:value-of select="1"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$baseCount + 2"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </td>
+        <xsl:if test="/character/hacks/@one-point-stress='true'">
+          <td><xsl:value-of select="1"/></td>
+        </xsl:if>
       </xsl:if>
     </xsl:if>
     <xsl:if test="$baseCount + 2 &lt; $maxCount">
       <xsl:if test="$numericSkillRating &gt; 4">
-        <td><xsl:value-of select="$baseCount + 3"/></td>
+        <td>
+          <xsl:choose>
+            <xsl:when test="/character/hacks/@one-point-stress='true'">
+              <xsl:value-of select="1"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$baseCount + 3"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </td>
       </xsl:if>
     </xsl:if>
   </xsl:template>
