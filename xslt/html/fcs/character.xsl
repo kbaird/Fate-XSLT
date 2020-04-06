@@ -10,12 +10,6 @@
         <xsl:otherwise>false</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="useCorruption">
-      <xsl:choose>
-        <xsl:when test="hacks/@corruption='true'">true</xsl:when>
-        <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
     <xsl:variable name="useCreditStress">
       <xsl:choose>
         <xsl:when test="hacks/@credit-stress='true'">true</xsl:when>
@@ -82,9 +76,6 @@
         <wbr/>
         <section id="stress">
           <xsl:call-template name="stress">
-            <xsl:with-param name="useCorruption">
-              <xsl:value-of select="$useCorruption"/>
-            </xsl:with-param>
             <xsl:with-param name="useCreditStress">
               <xsl:value-of select="$useCreditStress"/>
             </xsl:with-param>

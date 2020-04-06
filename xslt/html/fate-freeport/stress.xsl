@@ -17,7 +17,7 @@
         <xsl:with-param name="headerName">Mental Stress</xsl:with-param>
         <xsl:with-param name="skillName">Wisdom</xsl:with-param>
       </xsl:call-template>
-      <xsl:if test="$useCorruption='true'">
+      <xsl:if test="/character/hacks/@corruption='true'">
         <xsl:call-template name="corruption-stress"/>
       </xsl:if>
     </table>
