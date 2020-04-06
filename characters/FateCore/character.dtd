@@ -76,8 +76,9 @@
     <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit     -->
     <!ATTLIST hacks corruption          (true|false)     "false"> <!-- Fate Freeport Companion -->
     <!ATTLIST hacks credit-stress       (true|false)     "false"> <!-- Mostly for Mindjammer   -->
-    <!ATTLIST hacks skill-modes         (true|false)     "false"> <!-- Fate System Toolkit     -->
+    <!ATTLIST hacks one-point-stress    (true|false)     "false"> <!-- Fate Condensed          -->
     <!ATTLIST hacks single-stress-track (true|false)     "false">
+    <!ATTLIST hacks skill-modes         (true|false)     "false"> <!-- Fate System Toolkit     -->
     <!ATTLIST hacks stress-base-count   CDATA #IMPLIED>
     <!ATTLIST hacks systems-stress      (true|false)     "false"> <!-- Mostly for Mindjammer   -->
 
