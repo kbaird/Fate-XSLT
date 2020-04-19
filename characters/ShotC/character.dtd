@@ -15,8 +15,8 @@
 
     <!ELEMENT aspects (aspect*)>
       <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect gonzo     (true|false)     "false">
-      <!ATTLIST aspect type (High-Concept|Spirit|Trouble|Call-To-Action|War-Story|Team-Up) #REQUIRED>
+      <!ATTLIST aspect gonzo (true|false) "false">
+      <!ATTLIST aspect type  (High-Concept|Spirit|Trouble|Call-To-Action|War-Story|Team-Up) #REQUIRED>
       <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
     <!ELEMENT skills (role*, skill*)>
