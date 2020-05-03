@@ -95,7 +95,7 @@ but currently stubborn & overconfident (trainers were reluctant to challenge him
 - could reveal that the Emperor has grown more erratic in the past several years
 
 ### Silk River
-- **The Children of the Xarrat** building up sympathy
+- The [**Children of the Xarrat**](../cthulhu_missionaries.md) building up sympathy
 - **Riverton** from _Fate Worlds Volume One: Worlds on Fire_ (first scenario)
 
 ### 天橋山/Tiānqiáo Mountains
