@@ -39,13 +39,16 @@ Jenn's PC's Mother-in-Law, now long deceased and in **鬼界/Guǐ Jiè** /
 ### PC-specific Threads
 
 #### Fungible 周/Zhōu
-- Who paid for his tuition to become an accountant?
+His _Mysterious Leverage_ Aspect represents the
+[Children of the Xarrat](../cthulhu_missionaries.md)
+being the ones who paid for his accountant education.
 
 #### 刘丽华/Liú Lí Huá
 - Confront **Madam 刘/Liú**
 
 #### 洪謨/Hóng Mó
 - Silken Shadow Triad comes looking for her
+  - Tipped off during _Falsely Accused_ via the Forest Bandits
 
 #### 陈达玉/Chén Dá Yù
 - Mostly compels on _Has an insatiable need to punish the corrupt_
@@ -58,7 +61,7 @@ _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
   **Forger Bai** wants to copy it
 
 ### Culty Goodness
-Moved to [Cthulhu Missionaries](cthulhu_missionaries.md)
+Moved to the [Children of the Xarrat](../cthulhu_missionaries.md)
 
 ### Detective Dee & The Four Heavenly Kings (四天王)
 **"Wind Warriors"** assisted the rise of the current Dynasty and were then betrayed.
@@ -82,7 +85,7 @@ _GURPS Fantasy_ (pg 183)
 - Use **Ma Wei Sheng**
   - High Concept becomes _Heir Apparent to the Imperial Throne_
   - _Son of the Great General Ma_ becomes
-    _Overconfident and Unchallenged (so far)_
+  _Overconfident and Unchallenged (so far)_
 
 A decent young man who will probably become a good emperor,
 but currently stubborn & overconfident (trainers were reluctant to challenge him).
@@ -92,7 +95,7 @@ but currently stubborn & overconfident (trainers were reluctant to challenge him
 - could reveal that the Emperor has grown more erratic in the past several years
 
 ### Silk River
-- **Children of Xarrat** building up sympathy
+- **The Children of the Xarrat** building up sympathy
 - **Riverton** from _Fate Worlds Volume One: Worlds on Fire_ (first scenario)
 
 ### 天橋山/Tiānqiáo Mountains
