@@ -7,8 +7,6 @@
 - "Falsely Accused" (_Eureka_ 1)
   - Find an old friend of one of the PCs
 - "The Prince" _GURPS Fantasy_ (pg 183)
-  - combine with other scenario, maybe _Saltmarsh_ or _Blood of the Masters_ (T:BS&J pg171)
-  - **Prince 小龙/Xiǎolóng** can observe the PCs being awesome and possibly save his life
 - various _Eureka_ Fantasy plots
 - Various adventure seeds: _GURPS Fantasy_ (pg 175)
 - Doppleganger, like John Rogers' D&D comics
@@ -80,33 +78,9 @@ Conan's _Pit of Kutallu_ (fishmen, cultists)
 - Retrieve a dead master
 - What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
-### "The Prince", 小龙/Xiǎolóng
-_GURPS Fantasy_ (pg 183)
-- Use **Ma Wei Sheng**
-  - High Concept becomes _Heir Apparent to the Imperial Throne_
-  - _Son of the Great General Ma_ becomes
-  _Overconfident and Unchallenged (so far)_
-
-A decent young man who will probably become a good emperor,
-but currently stubborn & overconfident (trainers were reluctant to challenge him).
-- Sent to do military service at a frontier garrison in **江州/Jiāngzhōu**
-- doesn't make sense for **Xuvutruobacaoly** to attempt assassination
-  - better to do it at court where he can do illusions more smoothly
-- could reveal that the Emperor has grown more erratic in the past several years
-
 ### Silk River
 - The [**Children of the Xarrat**](../cthulhu_missionaries.md) building up sympathy
 - **Riverton** from _Fate Worlds Volume One: Worlds on Fire_ (first scenario)
-
-### 天橋山/Tiānqiáo Mountains
-- **Red Orcs** from _GURPS Fantasy_ (pg 62),
-  **Mines of the Mountain King** (pg 178)
-  - High tech Orcs on the border. Classic LE society as written: Cardassia,
-    Darguun, etc.
-    - Could be Muslim metaphor, deconstructions of various sorts, etc.
-- _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
-- _Ravenloft_
-- Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
 
 ### Xuvutruobacaoly
 16 years ago, a demon attacked the Emperor and was killed by the Imperial
