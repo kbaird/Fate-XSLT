@@ -23,6 +23,12 @@ class Roll
 
   }.freeze
 
+  FORMAT_DF = {
+    -1 => "-",
+     0 => " ",
+     1 => "+"
+  }
+
   def initialize(set)
     @results_h = DESCRIPTIONS[set].inject({}, &method(:get_results))
     @total     = @results_h.map(&:last).inject(:+)
@@ -39,8 +45,8 @@ class Roll
   end
 
   def format(memo, pair)
-    head, tail = *pair
-    new_pair   = { head => tail }
+    concern, result = *pair
+    new_pair        = { concern => FORMAT_DF[result] }
     memo.merge(new_pair)
   end
 
