@@ -61,22 +61,9 @@ _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
 ### Culty Goodness
 Moved to the [Children of the Xarrat](../cthulhu_missionaries.md)
 
-### Detective Dee & The Four Heavenly Kings (四天王)
-**"Wind Warriors"** assisted the rise of the current Dynasty and were then betrayed.
-
-**Empress Wu** imagines the (actually dead) **"Faceless Lord"** is directing her
-plot to frame **Detective Dee**.
-- Might overlap with _Banestorm_ plot, but could also be a good prep.
-- Also has some Doppleganger stuff
-
 ### Fragrant Harbor
 Conan's _Pit of Kutallu_ (fishmen, cultists)
 - could be a prep to _Saltmarsh_
-
-### The various Hells
-- Consult with **Geomancer 风/Fēng** to establish innocence
-- Retrieve a dead master
-- What Angel tried to do in _Reprise_ (2.15): go kill the Senior Partners at home
 
 ### Silk River
 - The [**Children of the Xarrat**](../cthulhu_missionaries.md) building up sympathy
@@ -92,28 +79,3 @@ _Citadel by the Sea_ as a mountain keep/guardpost instead of coastal
     Could be Muslim metaphor, deconstructions of various sorts, etc.
 - _Ravenloft_
 - Maybe _Tsojcanth_ and _Forgotten Temple of Tharizdun_
-
-### Xuvutruobacaoly
-16 years ago, a demon attacked the Emperor and was killed by the Imperial
-Guard and Peerless Master "Jordan Siegebreaker" (**Siegebreaker 经/Jīng**).
-
-The "Court Wizard Phocas" (**Geomancer 风/Fēng**) was found to be in
-league with the demon, and was executed.
-
-#### What really happened:
-**Jīng** summoned the demon **Xuvutruobacaoly**,
-intending to rule as Regent after the Emperor was killed
-- The demon used an illusion to trick **经/Jīng** into killing the Emperor
-  when he thought he was killing the demon
-- The demon now masquerades as the Emperor, and is only a slightly worse ruler
-- **经/Jīng** had **Geomancer 风/Fēng** framed for the plot and executed
-  (since **风/Fēng** would have discovered it) - consult in the Spirit World
-  - **冥界/Míng Jiè** / "Dark/Gloomy Region" / **Meido**, the Realm of Waiting
-    - _Fortune & Winds_, pg 51
-
-If combined with _四天王_, maybe the Emperor's replacing has driven
-**Empress Wu** insane from _GURPS Banestorm_ (pg 92)
-
-### 中州/Zhōngzhōu and the Imperial Capital
-**Regency Romance** from _Fate Adversary Toolkit_ (pg 106)
-
