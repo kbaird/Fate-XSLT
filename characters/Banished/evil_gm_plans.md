@@ -61,6 +61,14 @@ _To Live and Die in Băo Jiāng_ (T:BS&J, pg 164)
 ### Culty Goodness
 Moved to the [Children of the Xarrat](../cthulhu_missionaries.md)
 
+### Detective Dee & The Four Heavenly Kings (四天王)
+**"Wind Warriors"** assisted the rise of the current Dynasty and were then betrayed.
+
+**Empress Wu** imagines the (actually dead) **"Faceless Lord"** is directing her
+plot to frame **Detective Dee**.
+- Might overlap with _Banestorm_ plot, but could also be a good prep.
+- Also has some Doppleganger stuff
+
 ### Fragrant Harbor
 Conan's _Pit of Kutallu_ (fishmen, cultists)
 - could be a prep to _Saltmarsh_
