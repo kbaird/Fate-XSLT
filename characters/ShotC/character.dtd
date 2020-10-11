@@ -35,8 +35,8 @@
         <!ATTLIST extra name CDATA #IMPLIED>
       <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
       <!-- benefits instead of stunts for ease of integration with ARRPG -->
-      <!ATTLIST gadget name CDATA #REQUIRED>
-      <!ATTLIST gadget notes CDATA #IMPLIED>
+      <!ATTLIST gadget name          CDATA #REQUIRED>
+      <!ATTLIST gadget notes         CDATA #IMPLIED>
       <!ATTLIST gadget override-name CDATA #IMPLIED>
         <!ELEMENT function (#PCDATA)>
           <!ELEMENT flaws (flaw*)>
