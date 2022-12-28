@@ -20,6 +20,11 @@
             <span><xsl:value-of select="$modeName"/> Mode</span>
           </legend>
       </xsl:when>
+      <xsl:when test="$type = 'Relationship'">
+        <legend class="label">
+          <span>Relationship</span>
+        </legend>
+      </xsl:when>
       <xsl:otherwise>
         <legend class="label">
           <span><xsl:value-of select="$type"/></span>
