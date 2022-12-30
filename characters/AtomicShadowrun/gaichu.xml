@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Gaichu</charname>
+    <playername>Kevin C. Baird</playername>
+    <affiliation>Renraku (former), The Bolthole</affiliation>
+    <description>From Shadowrun: Hong Kong</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Ghoul Ex-Renraku Red Samurai</aspect>
+    <aspect type="Mode" mode-name="Soldier">My Old Unit Betrayed Me</aspect>
+    <aspect type="Mode" mode-name="Action"></aspect>
+    <aspect type="Mode" mode-name="Beast">Inhuman Killing Machine</aspect>
+    <aspect type="&#937;"></aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Soldier" stress-type="split"> <!-- ARRPG pg91 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2" add="1"/>
+     <skill name="Contacts"  cost="1"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1" add="1"/>
+     <skill name="Tactics"   cost="0" add="1"/>
+     <skill name="Vehicles"  cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="2" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+    <mode rating="1" name="Beast" stress-type="split"> <!-- ARRPG pg87 -->
+     <skill name="Athletics"        cost="2"/>
+     <skill name="Notice"           cost="1"/>
+     <skill name="Physique"         cost="1"/>
+     <skill name="Provoke"          cost="1"/>
+     <skill name="Tooth &amp; Claw" cost="1"/> <!-- ARRPG pg87 -->
+     <!-- Also Specialize 1 Trained Skill -->
+     <!-- Combat & Tactics in Soldier Mode -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>

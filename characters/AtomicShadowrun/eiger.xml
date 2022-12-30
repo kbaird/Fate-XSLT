@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Eiger</charname>
+    <playername>Kevin C. Baird</playername>
+    <affiliation>Monika's Former Team</affiliation>
+    <description>From Shadowrun: Dragonfall</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">No-Nonsense Troll Ex-Soldier</aspect>
+    <aspect type="Mode" mode-name="Soldier">I have training that the rest of you lack</aspect>
+    <aspect type="Mode" mode-name="Action">I Hit Hard</aspect>
+    <aspect type="Mode" mode-name="She-Devil">I Will Not Be Disrespected</aspect>
+    <aspect type="&#937;">Sick Of This Flux-State Nonsense</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Soldier" stress-type="split"> <!-- ARRPG pg91 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2"/>
+     <skill name="Contacts"  cost="1"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1" add="1"/>
+     <skill name="Tactics"   cost="0"/>
+     <skill name="Vehicles"  cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="2" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+    <mode rating="1" name="She-Devil" stress-type="split"> <!-- ARRPG pg280 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2"/>
+     <skill name="Contacts"  cost="1"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Vehicles"  cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
+    <!-- 1 pt of Improvements -->
+    <!-- Physique in Soldier mode -->
+  </skills>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Uwe</charname>
+    <playername>Kevin C. Baird</playername>
+    <description>From Shadowrun: Dragonfall</description>
+  </id>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Ork Physical Adept</aspect>
+    <aspect type="Mode" mode-name="Athlete">Move Fast and Subtle</aspect>
+    <aspect type="Mode" mode-name="Martial&#160;Artist">I Punch Hard</aspect>
+    <aspect type="Mode" mode-name="Action"></aspect>
+    <aspect type="&#937;"></aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Athlete" stress-type="split">
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1"/>
+     <skill name="Provoke"   cost="1"/>
+     <skill name="Stealth"   cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="2" name="Martial&#160;Artist" stress-type="split"> <!-- ARRPG pg88 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2"/>
+     <skill name="Notice"    cost="1"/>
+     <skill name="Physique"  cost="1"/>
+     <skill name="Stealth"   cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="1" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+  </skills>
+  <languages>
+    Speaks German.
+  </languages>
+  <stunts>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>

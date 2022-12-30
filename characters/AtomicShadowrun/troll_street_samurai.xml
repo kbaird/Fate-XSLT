@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Street Samurai</charname>
+    <playername>SR5 Quick-Start Rules</playername>
+    <description>&#160;</description>
+  </id>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Troll Street Samurai</aspect>
+    <aspect type="Mode" mode-name="Action"></aspect>
+    <aspect type="Mode" mode-name="Commando"></aspect>
+    <aspect type="Mode" mode-name="Troll"></aspect>
+    <aspect type="&#937;">Japanese Culture Buff</aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Action" stress-type="physical"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2" add="1"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1" add="2"/>
+      <skill name="Provoke"   cost="1" add="2"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+    <mode rating="2" name="Commando" stress-type="split"> <!-- ARRPG pg274 -->
+     <skill name="Athletics" cost="2"/>
+     <skill name="Combat"    cost="2"/>
+     <skill name="Contacts"  cost="1" add="1"/>
+     <skill name="Stealth"   cost="2"/>
+     <skill name="Vehicles"  cost="2"/>
+     <skill name="Will"      cost="1"/>
+    </mode>
+    <mode rating="1" name="Troll"> <!-- ARRPG pg88 -->
+     <!--
+          Specialize 2 Trained Skills Physique, Provoke
+          Specialize 1 Focused Skill  Combat
+          Focus      1 Trained Skill  Contacts
+     -->
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name="Wired Reflexes">
+      Lightning Reflexes reskin
+    </stunt>
+    <gadget name="Dermal Plating">
+      <function>Takes a Beating</function>
+      <flaws>
+        <flaw>Illegal and Obvious</flaw>
+      </flaws>
+      <benefits>
+        <benefit cost="1" name="Armor">2</benefit>
+      </benefits>
+    </gadget>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>

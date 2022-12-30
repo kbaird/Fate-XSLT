@@ -27,4 +27,5 @@ for file in $@; do
   perl -pi -e 's#Tír Tairngirenes#<em>Tír Tairngirenes</em>#g' $file
   perl -pi -e 's#Tír Tairngire#<em>Tír Tairngire</em>#g' $file
   perl -pi -e "s#<title>Martin <em>Imiritish ke'Tolosa</em> Liú</title>#<title>Martin Imiritish ke'Tolosa Liú</title>#g" $file
+  perl -pi -e 's#<span><span class="中文">巫人</span> Mode</span>#<span>巫人 Mode</span>#g' $file
 done

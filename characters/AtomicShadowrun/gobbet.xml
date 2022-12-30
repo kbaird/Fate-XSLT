@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Gobbet</charname>
+    <playername>Kevin C. Baird</playername>
+    <affiliation>The Bolthole</affiliation>
+    <description>From Shadowrun: Hong Kong</description>
+  </id>
+  <current-fate-points>0</current-fate-points>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Teenaged Rat Shaman</aspect>
+    <aspect type="Mode" mode-name="Magic">Spirits and Buffs</aspect>
+    <aspect type="Mode" mode-name="Banter">Let Me Give You Some Advice</aspect>
+    <aspect type="Mode" mode-name="Action">Keep Your Head Down</aspect>
+    <aspect type="&#937;"></aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Magic" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Conjuring"                cost="0" add="2"/>
+      <skill name="Sorcery"                  cost="0" add="1"/>
+      <skill name="Notice"                   cost="1"/>
+      <skill name="Will"                     cost="1"/>
+      <skill name="(all other Magic Skills)" cost="1"/>
+    </mode>
+    <!--
+         Specialize one trained skill: Conjuring
+         Focus one trained skill: Astral Perception
+         Specialize one focused skill: Provoke
+    -->
+    <mode rating="2" name="Banter" stress-type="mental"> <!-- ARRPG pg83 -->
+      <skill name="Contacts" cost="1"/>
+      <skill name="Deceive"  cost="2"/>
+      <skill name="Empathy"  cost="3"/>
+      <skill name="Provoke"  cost="1" add="1"/>
+      <skill name="Rapport"  cost="1"/>
+      <skill name="Will"     cost="1"/>
+    </mode>
+    <mode rating="1" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2" add="2"/> <!-- Free standard modes bonus -->
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+  </skills>
+  <stunts>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+    <stunt name=" ">&#160;</stunt>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>

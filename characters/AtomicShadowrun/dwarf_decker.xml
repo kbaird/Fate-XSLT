@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/atomic-robo_html.xsl"?>
+<!DOCTYPE character SYSTEM "../AtomicRobo/character.dtd">
+<character>
+  <id>
+    <charname>Decker</charname>
+    <playername>SR5 Quick-Start Rules</playername>
+    <description>&#160;</description>
+  </id>
+  <experience-points>0</experience-points>
+  <aspects>
+    <aspect type="Concept">Dwarf Decker</aspect>
+    <aspect type="Mode" mode-name="Science"></aspect>
+    <aspect type="Mode" mode-name="Intrigue"></aspect>
+    <aspect type="Mode" mode-name="Action">Tough &amp; Decent with a Pistol</aspect>
+    <aspect type="&#937;"></aspect>
+  </aspects>
+  <skills>
+    <mode rating="3" name="Science" stress-type="mental"> <!-- ARRPG pg85 -->
+      <skill name="Hacking"               add="2"/>
+      <skill name="Notice"               cost="1"/>
+      <skill name="Will"                 cost="1"/>
+      <skill name="(all other Sciences)" cost="1"/>
+    </mode>
+    <!--
+         Specialize one trained skill. Hacking
+         Focus one trained skill.
+         Specialize one focused skill.
+    -->
+    <mode rating="2" name="Intrigue" stress-type="physical"> <!-- ARRPG pg84 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Burglary"  cost="1"/>
+      <skill name="Contacts"  cost="1"/>
+      <skill name="Deceive"   cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Stealth"   cost="2"/>
+    </mode>
+    <mode rating="1" name="Action" stress-type="split"> <!-- ARRPG pg82 -->
+      <skill name="Athletics" cost="2"/>
+      <skill name="Combat"    cost="2"/>
+      <skill name="Notice"    cost="1"/>
+      <skill name="Physique"  cost="1"/>
+      <skill name="Provoke"   cost="1"/>
+      <skill name="Vehicles"  cost="2"/>
+    </mode>
+  </skills>
+  <languages>
+    Speaks English and Aztlaner Spanish.
+  </languages>
+  <stunts>
+    <gadget name="Shiawase Cyber-5">
+      <function>Cyberdeck</function>
+      <flaws>
+        <flaw>Illegal and not very concealable</flaw>
+      </flaws>
+    </gadget>
+  </stunts>
+  <consequences/>
+  <experiences>
+    <experience/>
+    <experience/>
+    <experience/>
+  </experiences>
+  <notes/>
+</character>
