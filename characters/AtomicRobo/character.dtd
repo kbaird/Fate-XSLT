@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, current-fate-points, experience-points, aspects, skills,
-                     stunts, consequences?, experiences?, notes?)>
+                     languages?, stunts, consequences?, experiences?, notes?)>
 
   <!ELEMENT id (charname, playername, affiliation?, description?)>
     <!ELEMENT charname (#PCDATA)>
@@ -27,6 +27,8 @@
         <!ATTLIST skill name   CDATA #REQUIRED>
         <!ATTLIST skill add    CDATA #IMPLIED>
         <!ATTLIST skill cost   CDATA #IMPLIED> <!-- For Weird calculations -->
+
+    <!ELEMENT languages (#PCDATA)>
 
     <!ELEMENT stunts (stunt*, gadget*)>
       <!ELEMENT stunt (#PCDATA)>
