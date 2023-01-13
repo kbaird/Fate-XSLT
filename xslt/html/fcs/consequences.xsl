@@ -21,7 +21,7 @@
             <xsl:with-param name="label">Severe (6)</xsl:with-param>
             <xsl:with-param name="severity">Severe</xsl:with-param>
           </xsl:call-template>
-          <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 4">
+          <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 4 or /character/stunts/stunt[@name='Dwarven Toughness']">
             <xsl:call-template name="consequence">
               <xsl:with-param name="label">Mild Physical (2)</xsl:with-param>
               <xsl:with-param name="severity">mild-physical</xsl:with-param>

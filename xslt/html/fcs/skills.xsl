@@ -31,8 +31,10 @@
           </table>
         </xsl:otherwise>
       </xsl:choose>
-      <section id="languages">
-        <xsl:value-of select="../languages"/>
-      </section>
+      <xsl:if test="../languages">
+        <section id="languages">
+          Languages: <xsl:value-of select="../languages"/>
+        </section>
+      </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
