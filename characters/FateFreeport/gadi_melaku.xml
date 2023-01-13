@@ -30,18 +30,18 @@
   <extras>
     <gadget cost="1" name="War Wizard">
       <function>
-        2 Abjuration or Evocation spells. Uses Int for casting.
+        2 Abjuration or Evocation spells. Uses Intellignce instead of Charisma for casting.
       </function>
       <benefits>
         <benefit cost="0" name="Arcane Shield">
           (Abjuration, Cost, Persistent): Add your Intelligence to your Dexterity when
-defending against attacks that cause physical stress.
+          defending against attacks that cause physical stress.
           FFC pg33
         </benefit>
         <benefit cost="0" name="Magic Missile">
           (Evocation): Launch a bolt of pure arcane energy at a single target in your current
-or an adjacent zone. You must be able to see the target. Attack action, caster’s Charisma
-vs. target’s Dexterity, attack does physical stress.
+          or an adjacent zone. You must be able to see the target. Attack action, caster’s Charisma
+          vs. target’s Dexterity, attack does physical stress.
           FFC pg38
         </benefit>
       </benefits>
@@ -53,21 +53,21 @@ vs. target’s Dexterity, attack does physical stress.
       <benefits>
         <benefit cost="0" name="Alter Surface">
           (Transmutation, Cost, Persistent): You change the surface of a solid object in your
-zone (such as the ground, a sword handle, etc.), applying a new aspect that you or your
-allies gain two free invocations on. Choose one of the following: Slippery Footing, Razor
-Sharp Corners, Weakened By Dry Rot, or invent your own. You can’t apply this to
-objects being worn by an unwilling creature (such as armor).
+          zone (such as the ground, a sword handle, etc.), applying a new aspect that you or your
+          allies gain two free invocations on. Choose one of the following: Slippery Footing, Razor
+          Sharp Corners, Weakened By Dry Rot, or invent your own. You can’t apply this to
+          objects being worn by an unwilling creature (such as armor).
           FFC pg42
         </benefit>
         <benefit cost="0" name="Grace">
           (Transmutation, Prayer, Cost, Persistent): You or a willing ally in your zone gains +1 to
-Dexterity. Multiple castings of Grace on the same target in the same scene do not stack.
+          Dexterity. Multiple castings of Grace on the same target in the same scene do not stack.
           FFC pg42
         </benefit>
         <benefit cost="0" name="Knock">
           (Transmutation, Trickster, Cost): You can attempt to open a lock. The overcome roll is your
-charisma +2 vs. the standard difficulty to pick the lock, or the caster’s charisma +2 roll if
-it’s magically sealed (see spell “Seal” below).
+          Charisma +2 vs. the standard difficulty to pick the lock, or the caster’s charisma +2 roll if
+          it’s magically sealed (see spell “Seal” below).
           FFC pg42
         </benefit>
       </benefits>
@@ -79,21 +79,21 @@ it’s magically sealed (see spell “Seal” below).
       <benefits>
         <benefit cost="0" name="Detect Magic">
           (Divination, Trickster): When you cast Detect Magic, you become aware of all
-magically-generated situation aspects in your zone.
+          magically-generated situation aspects in your zone.
           FFC pg35
         </benefit>
         <benefit cost="0" name="Fortune">
           (Divination, Cost, Per Session): You may perform a prediction ritual (describe yours -
-runecasting, reading tea leaves, crystal gazing, divination cards, etc.) You glean some insight
-into the future represented by three boosts you or allies may spend; these boosts persist
-until they are spent, or you cast this spell again. This spell requires several minutes to cast,
-usually an entire scene, rather than just one action.
+          runecasting, reading tea leaves, crystal gazing, divination cards, etc.) You glean some insight
+          into the future represented by three boosts you or allies may spend; these boosts persist
+          until they are spent, or you cast this spell again. This spell requires several minutes to cast,
+          usually an entire scene, rather than just one action.
           FFC pg35
         </benefit>
         <benefit cost="0" name="Locate Object">
           (Divination, Trickster, Cost, Persistent, Requires Detect Magic or Detect Impurity):
-This spell allows you to sense the direction to a well-known object. It can be general (find
-the nearest fresh water) or specific (find the treasure map those thieves stole from me).
+          This spell allows you to sense the direction to a well-known object. It can be general (find
+          the nearest fresh water) or specific (find the treasure map those thieves stole from me).
           FFC pg35
         </benefit>
       </benefits>
@@ -101,7 +101,8 @@ the nearest fresh water) or specific (find the treasure map those thieves stole 
   </extras>
   <stunts>
     <stunt name="Dwarven Toughness">
-      You gain an extra mild consequence slot, and you gain a +2 to Constitution-based rolls to resist the effects of poison.
+      You gain an extra mild consequence slot, and you gain a +2 to Constitution-based rolls to resist
+      the effects of poison.
     </stunt>
   </stunts>
   <consequences/>
