@@ -85,10 +85,24 @@
                   </xsl:with-param>
                 </xsl:call-template>
               </xsl:if>
+              <xsl:if test="/character/hacks/@corruption='true'">
+                <xsl:call-template name="corruption-stress"/>
+              </xsl:if>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:otherwise>
       </xsl:choose>
     </table>
+  </xsl:template>
+  <xsl:template name="corruption-stress">
+    <tr>
+      <th class="sectionheader" colspan="4">Corruption</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
   </xsl:template>
 </xsl:stylesheet>
