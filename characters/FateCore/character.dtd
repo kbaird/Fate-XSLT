@@ -4,8 +4,8 @@
 
   <!ELEMENT id (charname, playername, description, unique?)>
     <!ELEMENT charname (#PCDATA)>
-    <!ELEMENT playername (#PCDATA)>
       <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ELEMENT playername (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
     <!-- One Unique Thing, inspired by 13th Age -->
     <!ELEMENT unique (#PCDATA)>
