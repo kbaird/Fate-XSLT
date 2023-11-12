@@ -9,6 +9,7 @@
       &#160;
     </description>
   </id>
+  <refresh base="6" free-stunts="0"/>
   <aspects>
     <aspect type="High-Concept">Gold Dwarf Wizard from the Great Rift</aspect>
     <aspect type="Trouble">Must Prove Myself Worthy to my Prospective In-Laws</aspect>
@@ -46,7 +47,7 @@
         </benefit>
       </benefits>
     </gadget>
-    <gadget cost="0" name="Manipulator">
+    <gadget cost="1" name="Manipulator">
       <function>
         3 Transmutation spells.
       </function>
@@ -72,7 +73,7 @@
         </benefit>
       </benefits>
     </gadget>
-    <gadget cost="0" name="Seer">
+    <gadget cost="1" name="Seer">
       <function>
         3 divination spells.
       </function>
