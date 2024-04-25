@@ -46,7 +46,7 @@
   <!ELEMENT extras (extra*, gadget*)>
     <!ELEMENT extra (#PCDATA)>
       <!ATTLIST extra name CDATA #IMPLIED>
-    <!ELEMENT gadget (function?, flaws?, aspects?, benefits?)>
+    <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
     <!--
       benefits instead of stunts for ease of integration with ARRPG
       making each item optional to allow for Tianxia Kung Fu and other variants
