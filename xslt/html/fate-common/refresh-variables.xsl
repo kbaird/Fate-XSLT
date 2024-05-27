@@ -28,6 +28,23 @@
         <xsl:when test="/character/extras/extra/@cost">
           <xsl:value-of select="sum(/character/extras/extra/@cost)"/>
         </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="0"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="$rawExtraCost &lt; 0">
+        <xsl:value-of select="0"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$rawExtraCost"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+  <xsl:variable name="gadgetCost">
+    <xsl:variable name="rawGadgetCost">
+      <xsl:choose>
         <xsl:when test="/character/extras/gadget/@cost">
           <xsl:value-of select="sum(/character/extras/gadget/@cost)"/>
         </xsl:when>
@@ -42,11 +59,11 @@
       </xsl:choose>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="$rawExtraCost &lt; 0">
+      <xsl:when test="$rawGadgetCost &lt; 0">
         <xsl:value-of select="0"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="$rawExtraCost"/>
+        <xsl:value-of select="$rawGadgetCost"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
@@ -66,7 +83,7 @@
         <xsl:value-of select="/character/refresh/@current"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="$baseRefresh - $stuntCost - $extraCost"/>
+        <xsl:value-of select="$baseRefresh - $stuntCost - $extraCost - $gadgetCost"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>

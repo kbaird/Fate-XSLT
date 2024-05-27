@@ -45,6 +45,7 @@
 
   <!ELEMENT extras (extra*, gadget*)>
     <!ELEMENT extra (#PCDATA)>
+      <!ATTLIST extra cost CDATA #IMPLIED>
       <!ATTLIST extra name CDATA #IMPLIED>
     <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
     <!--
