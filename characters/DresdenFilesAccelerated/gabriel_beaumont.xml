@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/dfa_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Gabriel Beaumont</charname>
+    <playername>sample DFA character</playername>
+    <description>
+      See DFA, pg. 243
+    </description>
+  </id>
+  <aspects>
+    <aspect type="High-Concept">Retired Knight of the Cross</aspect>
+    <aspect type="Trouble">These Tired Old Bones</aspect>
+    <aspect>Love For All Living Things</aspect>
+    <aspect>Worked All Over This City</aspect>
+    <aspect>Can Stare Down a Denarian</aspect>
+  </aspects>
+  <approaches>
+    <approach rating="1" name="Flair"/>
+    <approach rating="3" name="Focus"/>
+    <approach rating="2" name="Force"/>
+    <approach rating="2" name="Guile"/>
+    <approach rating="0" name="Haste"/>
+    <approach rating="1" name="Intellect"/>
+  </approaches>
+  <mantles>
+    <mantle name="Leader of the People" ref="126"/>
+  </mantles>
+  <stunts>
+    <stunt name="Ready and Willing">pg127</stunt>
+    <stunt name="Patronage">pg127</stunt>
+    <stunt name="Specialist">pg127</stunt>
+    <stunt name="Safehouse">pg127</stunt>
+    <stunt name="Miraculous Chance">pg243</stunt>
+  </stunts>
+  <conditions>
+    <condition name="In&#160;Peril" boxes="1" box-value="4" duration="sticky"  ref="117"/>
+    <condition name="Doomed"        boxes="1" box-value="6" duration="lasting" ref="117"/>
+    <condition name="Indebted"      boxes="5"               duration="sticky"  ref="117"/>
+    <condition name="Followers"     boxes="5"               duration="sticky"  ref="126"/>
+    <condition name="Disfavored"    boxes="1"               duration="sticky"  ref="126"/>
+  </conditions>
+</character>
