@@ -66,6 +66,7 @@
 
   <!ELEMENT stunts (stunt*)>
     <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt consequence (Mild) #IMPLIED>
     <!ATTLIST stunt name CDATA #REQUIRED>
 
   <!ELEMENT consequences (consequence*)>

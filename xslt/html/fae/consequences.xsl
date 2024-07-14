@@ -12,6 +12,12 @@
             <xsl:with-param name="label">Mild (2)</xsl:with-param>
             <xsl:with-param name="severity">Mild</xsl:with-param>
           </xsl:call-template>
+          <xsl:if test="/character/stunts/stunt[@consequence='Mild']">
+            <xsl:call-template name="consequence">
+              <xsl:with-param name="label">Mild (2)</xsl:with-param>
+              <xsl:with-param name="severity">Mild</xsl:with-param>
+            </xsl:call-template>
+          </xsl:if>
           <xsl:call-template name="consequence">
             <xsl:with-param name="label">Moderate (4)</xsl:with-param>
             <xsl:with-param name="severity">Moderate</xsl:with-param>
