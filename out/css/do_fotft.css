@@ -1,12 +1,12 @@
-#do_fotft { font-family: Padauk, Montserrat; font-size: 1.8em; font-style: oblique; font-variant: small-caps; font-weight: 900; }
+#do_fotft { font-family: Cabin, Montserrat; font-size: 1.8em; font-style: oblique; font-variant: small-caps; font-weight: 900; }
 
 .favored { color: red; }
 
-section#skills p { font-family: Padauk, Montserrat; font-size: 0.7em; }
+section#skills p { font-family: Cabin, Montserrat; font-size: 0.7em; }
 
 fieldset#species { padding-left: 11em; padding-top: 0.7em; position: relative; text-align: left; }
 fieldset#species { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
-fieldset#species legend.label { color: #666; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
+fieldset#species legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Montserrat; }
 
 @media print { table#approaches { font-size: 1.7em; }
   table#approaches tbody tr td dl.approaches { clear: all; float: right; margin-bottom: 0; padding-bottom: 0; width: 100%; }

@@ -1,7 +1,7 @@
 section#aspects { width: 60%; }
 section#skills { width: 40%; }
 
-dl.approaches dt { border: 0px; font: oblique small-caps 1.3em bolder Padauk, Montserrat; font-size: 1.2em; font-weight: 600; line-height: 75%; text-align: left; text-transform: uppercase; }
+dl.approaches dt { border: 0px; font: oblique small-caps 1.3em bolder Cabin, Montserrat; font-size: 1.2em; font-weight: 600; line-height: 75%; text-align: left; text-transform: uppercase; }
 dl.approaches dt span.explanation { color: #999; font-size: 0.7em; font-style: oblique; text-transform: none; }
 dl.approaches dd { width: 2.4em; }
 
@@ -12,7 +12,7 @@ fieldset legend span { top: 0.2em; }
 table#stress_table td { padding: 1.8em; }
 
 table#approaches { margin-right: -4em; }
-table#approaches tbody tr td dl.approaches dt, table#approaches tbody tr td dl.approaches dd { font-size: 1em; font: oblique small-caps 1.3em bolder Padauk, Montserrat; }
+table#approaches tbody tr td dl.approaches dt, table#approaches tbody tr td dl.approaches dd { font-size: 1em; font: oblique small-caps 1.3em bolder Cabin, Montserrat; }
 
 @media print and (-webkit-min-device-pixel-ratio: 0) { section#fate-logo { margin-bottom: 2.5em; }
   section#id { margin-bottom: 2.5em; }
