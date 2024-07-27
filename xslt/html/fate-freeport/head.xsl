@@ -9,7 +9,7 @@
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
       <title><xsl:value-of select="id/charname"/></title>
       <style type="text/css" media="all">
-      @import url("http://fonts.googleapis.com/css?family=Montserrat|Kalam");
+      @import url("http://fonts.googleapis.com/css?family=Cabin|Montserrat|Sriracha");
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);<xsl:if test="$moreCSS">
       @import url(./css/<xsl:value-of select="$moreCSS"/>.css);</xsl:if><xsl:if test="$useConditions='true'">  @import url(./css/conditions.css);</xsl:if>
