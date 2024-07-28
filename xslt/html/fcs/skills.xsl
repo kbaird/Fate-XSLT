@@ -9,32 +9,30 @@
   <xsl:include href="../shotc/skills-with-roles.xsl"/>
   <xsl:template match="skills">
     <xsl:param name="useSkillModes"/>
-      <xsl:choose>
-        <xsl:when test="/character/hacks/@skill-roles='true'">
-          <table id="skills_table">
-            <xsl:call-template name="skills-with-roles"/>
-          </table>
-        </xsl:when>
-        <xsl:when test="$useSkillModes='true'">
-          <table id="skills_table">
-            <xsl:call-template name="skills-with-modes"/>
-          </table>
-        </xsl:when>
-        <xsl:when test="@shape='flat'">
-          <table id="professions">
-            <xsl:call-template name="flat-skills"/>
-          </table>
-        </xsl:when>
-        <xsl:otherwise>
-          <table id="skills_table">
-            <xsl:call-template name="skills-without-modes"/>
-          </table>
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:if test="../languages">
-        <section id="languages">
-          Languages: <xsl:value-of select="../languages"/>
-        </section>
-      </xsl:if>
+    <xsl:choose>
+      <xsl:when test="/character/hacks/@skill-roles='true'">
+        <table id="skills_table">
+          <xsl:call-template name="skills-with-roles"/>
+        </table>
+      </xsl:when>
+      <xsl:when test="$useSkillModes='true'">
+        <table id="skills_table">
+          <xsl:call-template name="skills-with-modes"/>
+        </table>
+      </xsl:when>
+      <xsl:when test="@shape='flat'">
+        <table id="professions">
+          <xsl:call-template name="flat-skills"/>
+        </table>
+      </xsl:when>
+      <xsl:otherwise>
+        <table id="skills_table">
+          <xsl:call-template name="skills-without-modes"/>
+        </table>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:if test="../languages and @shape!='flat'">
+      <section id="languages">Languages: <xsl:value-of select="../languages"/></section>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>

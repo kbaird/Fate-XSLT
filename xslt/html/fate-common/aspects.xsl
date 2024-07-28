@@ -9,5 +9,8 @@
       </tr>
       <xsl:apply-templates select="aspect"/>
     </table>
+    <xsl:if test="../languages and /character/skills/@shape='flat'">
+      <section id="languages">Languages: <xsl:value-of select="../languages"/></section>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
