@@ -29,7 +29,7 @@ fieldset.mega legend span { font: oblique small-caps 1.3em bolder Cabin, Montser
 fieldset#homeworld, fieldset#name, fieldset#arc, fieldset#unique { height: 1.1em; padding-top: 0.5em; vertical-align: text-bottom; }
 fieldset#unique { padding-left: 12em; }
 fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#homeworld legend.label, fieldset#name legend.label, fieldset#arc legend.label, fieldset#unique legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Montserrat; }
-fieldset#arc legend.label { margin-right: 1em; }
+fieldset#arc { padding-left: 17em; }
 fieldset.consequence { font-style: oblique; padding-left: 8.6em; text-align: right; height: 1.1em; }
 fieldset.consequence legend { color: #444; font: small-caps 1.3em bolder "Sriracha"; font-family: Cabin, Montserrat; float: right; }
 fieldset.consequence legend span { float: left; font: oblique small-caps 1.3em bolder Cabin, Montserrat; letter-spacing: 0.16em; padding-bottom: 3em; top: 0.1em; }

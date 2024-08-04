@@ -22,8 +22,7 @@
           <xsl:if test="arc">
             <fieldset id="arc">
               <legend class="label">
-                <span>Arc</span>
-                <xsl:value-of select="arc/@name"/>
+                <span>Arc: <xsl:value-of select="arc/@name"/></span>
               </legend>
               <xsl:value-of select="arc"/>
             </fieldset>
