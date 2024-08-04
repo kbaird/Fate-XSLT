@@ -19,6 +19,15 @@
               <xsl:value-of select="description"/>
             </fieldset>
           </xsl:if>
+          <xsl:if test="arc">
+            <fieldset id="arc">
+              <legend class="label">
+                <span>Arc</span>
+                <xsl:value-of select="arc/@name"/>
+              </legend>
+              <xsl:value-of select="arc"/>
+            </fieldset>
+          </xsl:if>
           <xsl:if test="unique">
             <fieldset id="unique">
               <legend class="label"><span>One Unique Thing</span></legend>

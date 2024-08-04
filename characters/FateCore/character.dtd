@@ -2,11 +2,14 @@
 <!ELEMENT character (id, refresh?, aspects, professions?, skills?, approaches?, languages?,
                      extras?, stunts, consequences?, hacks?, phase-trio?, notes?)>
 
-  <!ELEMENT id (charname, playername, description, unique?)>
+  <!ELEMENT id (charname, playername, description, arc?, unique?)>
     <!ELEMENT charname (#PCDATA)>
       <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT playername (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
+    <!-- Character Arcs, inspired by Cypher System -->
+    <!ELEMENT arc (#PCDATA)>
+    <!ATTLIST arc name CDATA #REQUIRED>
     <!-- One Unique Thing, inspired by 13th Age -->
     <!ELEMENT unique (#PCDATA)>
 
