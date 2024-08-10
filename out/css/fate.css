@@ -13,6 +13,7 @@ section#stress { width: 30%; }
 section#experiences { width: 75%; }
 section#experiences-explanation { width: 25%; }
 section#notes { width: 100%; }
+section#languages { margin-left: 1em; }
 
 dl dt { font-family: "Sriracha"; display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; }
 dl dd { display: inline; padding: 0.35em; padding-left: 0.5em; padding-right: 0.5em; border: 2px solid black; float: right; font-family: "Sriracha"; }
@@ -74,7 +75,7 @@ td, th { border: 0px; vertical-align: top; }
   p#experiences-explanation { float: left; font-size: 0.5em; padding-top: 0.5em; }
   section#aspects { width: 40%; }
   section#consequences { width: 80%; }
-  section#languages { font-size: 0.75em; }
+  section#languages { font-size: 0.75em; margin-left: 1em; }
   section#notes { font-size: 0.5em; }
   section#skills { width: 60%; }
   section#stress { width: 20%; }
