@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!ELEMENT character (id, refresh?, aspects, professions?, skills?, approaches?, languages?,
-                     extras?, stunts, consequences?, hacks?, phase-trio?, notes?)>
+                     extras?, stunts?, consequences?, hacks?, phase-trio?, notes?)>
 
   <!ELEMENT id (charname, playername, description, arc?, unique?)>
     <!ELEMENT charname (#PCDATA)>
