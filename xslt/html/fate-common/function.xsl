@@ -5,6 +5,9 @@
     <!-- TODO: DRY up with gadget mode aspects -->
     <dt class="function">
       <xsl:choose>
+        <xsl:when test="@name">
+          <xsl:value-of select="@name"/>
+        </xsl:when>
         <xsl:when test="../@override-name">
           <xsl:value-of select="../@override-name"/>
         </xsl:when>

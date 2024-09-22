@@ -60,8 +60,10 @@
     <!ATTLIST gadget notes CDATA #IMPLIED>
     <!ATTLIST gadget override-name CDATA #IMPLIED>
       <!ELEMENT function (#PCDATA)>
+      <!ATTLIST function name CDATA #IMPLIED>
         <!ELEMENT flaws (flaw*)>
           <!ELEMENT flaw (#PCDATA)>
+          <!ATTLIST false name CDATA #IMPLIED>
         <!ELEMENT benefits (benefit*)>
           <!ELEMENT benefit (#PCDATA)>
           <!ATTLIST benefit cost CDATA #IMPLIED>
