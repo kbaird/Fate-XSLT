@@ -1,5 +1,5 @@
 fieldset#archetype, fieldset#concept { padding-left: 11em; padding-top: 0.7em; position: relative; text-align: left; }
-fieldset#archetype legend.label, fieldset#concept legend.label { color: #666; font: oblique small-caps 1.3em bolder Cabin, Montserrat; }
+fieldset#archetype legend.label, fieldset#concept legend.label { color: #666; font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat; }
 fieldset.gadget legend.label { font: small-caps 1.3em bolder "Sriracha"; }
 fieldset.phase { padding-top: 4.5em; }
 fieldset.phase legend.label { height: 2.8em; }
