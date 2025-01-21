@@ -28,6 +28,14 @@
         <xsl:otherwise>false</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="wealthStressCount">
+      <xsl:choose>
+        <xsl:when test="hacks/@wealth-stress-count">
+          <xsl:value-of select="hacks/@wealth-stress-count"/>
+        </xsl:when>
+        <xsl:otherwise>0</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <html>
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">fcs</xsl:with-param>
@@ -84,6 +92,9 @@
             </xsl:with-param>
             <xsl:with-param name="useSystemsStress">
               <xsl:value-of select="$useSystemsStress"/>
+            </xsl:with-param>
+            <xsl:with-param name="wealthStressCount">
+              <xsl:value-of select="$wealthStressCount"/>
             </xsl:with-param>
           </xsl:call-template>
         </section>

@@ -6,6 +6,7 @@
     <xsl:param name="useCreditStress"/>
     <xsl:param name="useSkillModes"/>
     <xsl:param name="useSystemsStress"/>
+    <xsl:param name="wealthStressCount"/>
     <xsl:variable name="stressBaseCount">
       <xsl:choose>
         <xsl:when test="/character/hacks/@stress-base-count">
@@ -83,6 +84,14 @@
                   <xsl:with-param name="useSkillModes">
                     <xsl:value-of select="$useSkillModes"/>
                   </xsl:with-param>
+                </xsl:call-template>
+              </xsl:if>
+              <xsl:if test="$wealthStressCount &gt; 0">
+                <xsl:call-template name="generic-stress">
+                  <xsl:with-param name="baseCount">
+                    <xsl:value-of select="$wealthStressCount - 1"/>
+                  </xsl:with-param>
+                  <xsl:with-param name="headerName">Wealth Stress</xsl:with-param>
                 </xsl:call-template>
               </xsl:if>
               <xsl:if test="/character/hacks/@corruption='true'">
