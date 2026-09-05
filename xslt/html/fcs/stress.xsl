@@ -87,12 +87,20 @@
                 </xsl:call-template>
               </xsl:if>
               <xsl:if test="$wealthStressCount &gt; 0">
-                <xsl:call-template name="generic-stress">
-                  <xsl:with-param name="baseCount">
-                    <xsl:value-of select="$wealthStressCount - 1"/>
-                  </xsl:with-param>
+                <xsl:call-template name="stress-header">
                   <xsl:with-param name="headerName">Wealth Stress</xsl:with-param>
+                  <xsl:with-param name="maxCount">
+                    <xsl:value-of select="$wealthStressCount"/>
+                  </xsl:with-param>
                 </xsl:call-template>
+                <tr>
+                  <xsl:call-template name="base-stress-boxes">
+                    <xsl:with-param name="current">1</xsl:with-param>
+                    <xsl:with-param name="max">
+                      <xsl:value-of select="$wealthStressCount"/>
+                    </xsl:with-param>
+                  </xsl:call-template>
+                </tr>
               </xsl:if>
               <xsl:if test="/character/hacks/@corruption='true'">
                 <xsl:call-template name="corruption-stress"/>
