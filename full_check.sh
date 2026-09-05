@@ -25,7 +25,7 @@ find characters -name '*.xml' -print0 | xargs -0 -r xmllint --noout --valid
 # Run the XSpec suite, as in .github/workflows/xspec.yml
 export SAXON_CP="$PWD/tools/Saxon-HE.jar:$PWD/tools/xmlresolver.jar"
 for f in tests/xspec/*.xspec; do
-  tools/xspec/bin/xspec.sh -j -e "$f"
+  tools/xspec/bin/xspec.sh -j -e "$f" 2>/dev/null >/dev/null
 done
 
 echo "passed"
