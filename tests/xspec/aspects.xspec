@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="aspect with a recognized type renders a labeled fieldset">
+    <x:context>
+      <aspect type="High-Concept">Tenacious Underdog</aspect>
+    </x:context>
+    <x:expect label="High Concept legend, name shown, no content span"
+      test="count(//fieldset[@class='aspect']) = 1
+            and string(//legend/span) = 'High Concept'
+            and not(//span[@class='content'])
+            and contains(//fieldset, 'Tenacious Underdog')"/>
+  </x:scenario>
+
+  <x:scenario label="aspect type hyphens are rendered as spaces">
+    <x:context>
+      <aspect type="Inciting-Incident">The Fire</aspect>
+    </x:context>
+    <x:expect label="legend shows 'Inciting Incident'"
+      test="string(//legend/span) = 'Inciting Incident'"/>
+  </x:scenario>
+
+  <x:scenario label="aspect without a type renders text in a content span">
+    <x:context>
+      <aspect>Just a Thought</aspect>
+    </x:context>
+    <x:expect label="no legend, content span holds the text"
+      test="not(//legend) and string(//span[@class='content']) = 'Just a Thought'"/>
+  </x:scenario>
+
+  <x:scenario label="gonzo aspect gets an extra class">
+    <x:context>
+      <aspect type="High-Concept" gonzo="true">Weird</aspect>
+    </x:context>
+    <x:expect label="fieldset class contains gonzo"
+      test="count(//fieldset[contains(@class, 'gonzo')]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="signature aspect appends a star">
+    <x:context>
+      <aspect signature="true">Signed</aspect>
+    </x:context>
+    <x:expect label="content span text is 'Signed*'"
+      test="string(//span[@class='content']) = 'Signed*'"/>
+  </x:scenario>
+
+  <x:scenario label="aspects wrapper renders a table with one fieldset per aspect">
+    <x:context>
+      <aspects>
+        <aspect type="High-Concept">Tenacious Underdog</aspect>
+        <aspect type="Trouble">Hot Temper</aspect>
+      </aspects>
+    </x:context>
+    <x:expect label="aspects table plus two fieldsets"
+      test="count(//table[@id='aspects_table']) = 1
+            and count(//fieldset[@class='aspect']) = 2"/>
+  </x:scenario>
+
+</x:description>

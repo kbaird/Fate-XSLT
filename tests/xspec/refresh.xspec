@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="refresh template renders @base when no stunts or extras">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="two boxed values, both 7" test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '7'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh honors the @current override">
+    <x:context>
+      <character>
+        <refresh base="7" current="9"/>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="both boxed values are 9" test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '9'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh subtracts the cost of stunts beyond the free stunts">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+        <stunts>
+          <stunt/>
+          <stunt/>
+          <stunt/>
+          <stunt/>
+        </stunts>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="3 free stunts, 1 costly stunt => refresh 6"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '6'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh subtracts extra costs">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+        <extras>
+          <extra cost="2"/>
+        </extras>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="refresh 5" test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '5'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh clamps negative extra costs to zero">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+        <extras>
+          <extra cost="-3"/>
+        </extras>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="refresh 7" test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '7'"/>
+  </x:scenario>
+
+</x:description>

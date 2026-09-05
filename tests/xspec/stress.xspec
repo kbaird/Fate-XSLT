@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="stress with no stunts or skills renders physical and mental tracks">
+    <x:context>
+      <character>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="one Physical Stress and one Mental Stress row, two boxes each"
+      test="count(//th[.='Physical Stress']) = 1
+            and count(//th[.='Mental Stress']) = 1
+            and count(//tr[th[.='Physical Stress']]) = 1
+            and count(//table/tr/td[.='1']) = 2
+            and count(//table/tr/td[.='2']) = 2
+            and count(//table/tr/td) = 4"/>
+  </x:scenario>
+
+  <x:scenario label="stress box count is driven by skill rating">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="Physical Stress gains two skill-driven boxes (1,2,3,4), Mental stays at 2"
+      test="count(//th[.='Physical Stress']) = 1
+            and contains(//tr[th[.='Physical Stress']][1]/following-sibling::tr[1], '3')
+            and contains(//tr[th[.='Physical Stress']][1]/following-sibling::tr[1], '4')
+            and count(//table/tr/td) = 6"/>
+  </x:scenario>
+
+  <x:scenario label="single stress track hack collapses to one track">
+    <x:context>
+      <character>
+        <hacks single-stress-track="true"/>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="single Stress header, two boxes"
+      test="count(//th[.='Stress']) = 1
+            and count(//table/tr/td) = 2"/>
+  </x:scenario>
+
+  <x:scenario label="explicit stress box counts are honored">
+    <x:context>
+      <character>
+        <stress physical="3" mental="2"/>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="physical has 3 boxes, mental has 2"
+      test="contains(//tr[th[.='Physical Stress']][1]/following-sibling::tr[1], '3')
+            and count(//table/tr/td) = 5"/>
+  </x:scenario>
+
+  <x:scenario label="stress-base-count hack raises the default">
+    <x:context>
+      <character>
+        <hacks stress-base-count="3"/>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="tracks each show boxes 1,2,3"
+      test="count(//table/tr/td[.='3']) = 2
+            and count(//table/tr/td) = 6"/>
+  </x:scenario>
+
+  <x:scenario label="one-point-stress hack renders unit boxes and wider headers">
+    <x:context>
+      <character>
+        <hacks one-point-stress="true"/>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="all boxes are 1 and headers span base + 3 = 5"
+      test="count(//table/tr/td[.='1']) = 4
+            and count(//table/tr/td) = 4
+            and count(//th[@colspan='5']) = 2"/>
+  </x:scenario>
+
+</x:description>

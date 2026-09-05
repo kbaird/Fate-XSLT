@@ -5,3 +5,9 @@ Patches
 out/*/*.epub
 out/*/*.pdf
 out/*/*.svg
+
+# CI tooling (see .github/workflows/xspec.yml)
+tools/
+
+# XSpec artifacts (tests/xspec/xspec/ holds compiled runners and reports)
+tests/xspec/xspec/
