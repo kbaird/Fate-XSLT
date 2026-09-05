@@ -17,8 +17,8 @@ mkdir -p tools
 [ -f tools/Saxon-HE.jar ] || curl -fsSLo tools/Saxon-HE.jar $SAXON_JAR
 [ -f tools/xmlresolver.jar ] || curl -fsSLo tools/xmlresolver.jar $XMLRESOLVER_JAR
 
-# Check character XML well-formedness, as in .github/workflows/xmllint.yml
-find characters -name '*.xml' -print0 | xargs -0 -r xmllint --noout
+# Check character XML validity, as in .github/workflows/xmllint.yml
+find characters -name '*.xml' -print0 | xargs -0 -r xmllint --valid
 
 # Run the XSpec suite, as in .github/workflows/xspec.yml
 export SAXON_CP="$PWD/tools/Saxon-HE.jar:$PWD/tools/xmlresolver.jar"

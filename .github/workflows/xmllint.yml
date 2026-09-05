@@ -15,5 +15,5 @@ jobs:
       - name: Install libxml2-utils
         run: sudo apt-get update && sudo apt-get install -y libxml2-utils
 
-      - name: Check character XML well-formedness
-        run: find characters -name '*.xml' -print0 | xargs -0 -r xmllint --noout
+      - name: Check character XML validity
+        run: find characters -name '*.xml' -print0 | xargs -0 -r xmllint --valid

@@ -37,9 +37,9 @@
   <extras>
   </extras>
   <stunts>
-    <stunt>&#160;</stunt>
-    <stunt>&#160;</stunt>
-    <stunt>&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
+    <stunt name="&#160;">&#160;</stunt>
   </stunts>
   <consequences/>
   <phase-trio>
