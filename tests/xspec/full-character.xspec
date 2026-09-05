@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a minimal character renders a complete page">
+    <x:context>
+      <character>
+        <id>
+          <charname>Test Subject</charname>
+          <playername>Unit Tester</playername>
+          <story>Rendered by XSpec.</story>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="High-Concept">Test Subject</aspect>
+          <aspect type="Trouble">Cursed Dice</aspect>
+        </aspects>
+        <skills>
+          <skill name="Physique" rating="3"/>
+        </skills>
+        <stunts>
+          <stunt>Brawn</stunt>
+        </stunts>
+      </character>
+    </x:context>
+    <x:expect label="page title, refresh, aspects, skills, and stunts sections render"
+      test="string(/html/head/title) = 'Test Subject'
+            and string(/html/body/h1) = 'Test Subject'
+            and string(/html/body//dl[@id='refresh']/dd[@class='box']) = '7'
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']) = 2
+            and string(/html/body//section[@id='skills']//tr[th[contains(., 'Good')]]//td) = 'Physique'
+            and count(/html/body//section[@id='stunts']) = 1"/>
+  </x:scenario>
+
+</x:description>
