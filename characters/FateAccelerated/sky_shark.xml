@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf8"?>
 <?xml-stylesheet type="text/xsl" href="../../xslt/fae_npc_md.xsl"?>
-<!DOCTYPE character SYSTEM "npc.dtd">
+<!DOCTYPE npc SYSTEM "npc.dtd">
 <npc>
   <id>
     <name>Sky Shark</name>
