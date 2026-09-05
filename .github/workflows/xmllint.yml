@@ -1,0 +1,19 @@
+name: xmllint
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  xmllint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install libxml2-utils
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: Check character XML well-formedness
+        run: find characters -name '*.xml' -print0 | xargs -0 -r xmllint --noout
