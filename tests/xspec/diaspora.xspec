@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/diaspora_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a full character page renders every section and asset like the real Benny character">
+    <x:context>
+      <character>
+        <id>
+          <charname>Benny</charname>
+          <playername>sample Diaspora character</playername>
+          <homeworld>Old Copenhagen</homeworld>
+          <cluster>TBD</cluster>
+        </id>
+        <refresh base="5"/>
+        <aspects>
+          <aspect>I hate the outdoors</aspect>
+          <aspect>Natural mechanic</aspect>
+          <aspect>Radiation Sickness</aspect>
+          <aspect>Solution oriented</aspect>
+          <aspect>Only part man</aspect>
+          <aspect>Plug and play software</aspect>
+          <aspect>Internal strife</aspect>
+          <aspect>Sucks to be programmable</aspect>
+          <aspect>Never going to have a master again</aspect>
+          <aspect>Could always use another good program</aspect>
+        </aspects>
+        <skills>
+          <skill rating="5" name="Repair"/>
+          <skill rating="4" name="Bureaucracy"/>
+          <skill rating="4" name="Intimidation"/>
+          <skill rating="3" name="Tactics"/>
+          <skill rating="3" name="Charm"/>
+          <skill rating="3" name="Resolve"/>
+          <skill rating="2" name="Oratory"/>
+          <skill rating="2" name="Survival"/>
+          <skill rating="2" name="Science"/>
+          <skill rating="2" name="Vehicle"/>
+          <skill rating="1" name="Agility"/>
+          <skill rating="1" name="Profession: Farmer"/>
+          <skill rating="1" name="Alertness"/>
+          <skill rating="1" name="Profession: Teacher"/>
+          <skill rating="1" name="Stamina"/>
+        </skills>
+        <stunts>
+          <stunt name="Programmable">&#160;</stunt>
+          <stunt name="Have a thing">&#160;</stunt>
+        </stunts>
+        <consequences>
+          <consequence severity="Mild">mild one</consequence>
+        </consequences>
+        <gear>
+          A little of this, a little of that
+        </gear>
+      </character>
+    </x:context>
+    <x:expect label="page chrome, sections, id, refresh, aspects, pyramid skills, stunts, stress, consequences, gear, and copyright render"
+      test="string(/html/head/title) = 'Benny'
+            and string(/html/body/h1) = string(/html/head/title)
+            and contains(string(/html/head/style), './css/fcs.css')
+            and contains(string(/html/head/style), './css/diaspora.css')
+            and count(/html/body//section[@id='id']) = 1
+            and count(/html/body//section[@id='fate-logo']) = 1
+            and string(/html/body//span[@id='diaspora-logo']) = 'Diaspora'
+            and count(/html/body//section[@id='aspects']) = 1
+            and count(/html/body//section[@id='skills']) = 1
+            and count(/html/body//section[@id='stunts']) = 1
+            and count(/html/body//section[@id='stress']) = 1
+            and count(/html/body//section[@id='consequences']) = 1
+            and contains(string(/html/body//fieldset[@id='name']), 'Benny')
+            and contains(string(/html/body//fieldset[@id='homeworld']), 'Old Copenhagen')
+            and contains(string(/html/body//fieldset[@id='cluster']), 'TBD')
+            and string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '5'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '5'
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']) = 10
+            and contains(string(/html/body//section[@id='aspects']), 'another good program')
+            and count(/html/body//table[@id='skills_table']) = 1
+            and count(/html/body//table[@id='skills_table']//th[@class='rating']) = 5
+            and contains(string((/html/body//table[@id='skills_table']//th[@class='rating'])[1]), 'Superb')
+            and contains(string((/html/body//table[@id='skills_table']//th[@class='rating'])[1]), '+5')
+            and string(/html/body//table[@id='skills_table']//tr[2]/td[1]) = 'Repair'
+            and string(/html/body//table[@id='skills_table']//tr[3]/td[1]) = 'Bureaucracy'
+            and string(/html/body//table[@id='skills_table']//tr[3]/td[2]) = 'Intimidation'
+            and string(/html/body//table[@id='skills_table']//tr[4]/td[1]) = 'Tactics'
+            and string(/html/body//table[@id='skills_table']//tr[4]/td[3]) = 'Resolve'
+            and string(/html/body//table[@id='skills_table']//tr[5]/td[1]) = 'Oratory'
+            and string(/html/body//table[@id='skills_table']//tr[5]/td[4]) = 'Vehicle'
+            and string(/html/body//table[@id='skills_table']//tr[6]/td[1]) = 'Agility'
+            and string(/html/body//table[@id='skills_table']//tr[6]/td[2]) = 'Profession: Farmer'
+            and string(/html/body//table[@id='skills_table']//tr[6]/td[5]) = 'Stamina'
+            and count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 2
+            and contains(string(/html/body//section[@id='stunts']), 'Programmable')
+            and contains(string(/html/body//section[@id='stunts']), 'Have a thing')
+            and count(/html/body//table[@id='stress_table']//tr) = 6
+            and string((/html/body//table[@id='stress_table']//th)[1]) = 'Health'
+            and contains((/html/body//table[@id='stress_table']//th)[1]/@colspan, '5')
+            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 4
+            and string((/html/body//table[@id='stress_table']//tr)[2]/td[4]) = '4'
+            and string((/html/body//table[@id='stress_table']//th)[2]) = 'Composure'
+            and count((/html/body//table[@id='stress_table']//tr)[4]/td) = 5
+            and string((/html/body//table[@id='stress_table']//tr)[4]/td[5]) = '5'
+            and string((/html/body//table[@id='stress_table']//th)[3]) = 'Wealth'
+            and count((/html/body//table[@id='stress_table']//tr)[6]/td) = 3
+            and string((/html/body//table[@id='stress_table']//tr)[6]/td[3]) = '3'
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 3
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][1]), 'mild one')
+            and not(contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][2]), 'mild one'))
+            and contains(string(/html/body//section[@id='consequences']//tfoot), 'F = Free, R? = Recovering?')
+            and count(/html/body//th[@class='sectionheader'][.='Gear']) = 1
+            and contains(string(/html/body//table[.//th[.='Gear']]/tr[2]/td), 'A little of this, a little of that')
+            and contains(string(/html/body//p[@id='copyright']), '2009 VSCA Publishing')"/>
+  </x:scenario>
+
+  <x:scenario label="diaspora-stress drives Health from Stamina, Composure from Resolve, and Wealth from Assets over a base of three boxes">
+    <x:context>
+      <character>
+        <id>
+          <charname>Tracked</charname>
+          <playername>Nobody</playername>
+          <homeworld>Home</homeworld>
+          <cluster>Cluster</cluster>
+        </id>
+        <refresh base="5"/>
+        <aspects/>
+        <skills>
+          <skill rating="1" name="Stamina"/>
+          <skill rating="3" name="Resolve"/>
+          <skill rating="2" name="Assets"/>
+        </skills>
+        <stunts/>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="each track counts its base-three plus skill-driven boxes"
+      test="count(/html/body//table[@id='stress_table']//tr) = 6
+            and string((/html/body//table[@id='stress_table']//th)[1]) = 'Health'
+            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 4
+            and string((/html/body//table[@id='stress_table']//th)[2]) = 'Composure'
+            and count((/html/body//table[@id='stress_table']//tr)[4]/td) = 5
+            and string((/html/body//table[@id='stress_table']//th)[3]) = 'Wealth'
+            and count((/html/body//table[@id='stress_table']//tr)[6]/td) = 4
+            and contains((/html/body//table[@id='stress_table']//th)[1]/@colspan, '5')
+            and contains((/html/body//table[@id='stress_table']//th)[3]/@colspan, '5')"/>
+  </x:scenario>
+
+  <x:scenario label="an absent stress skill leaves the track at its base three boxes">
+    <x:context>
+      <character>
+        <id>
+          <charname>Bare</charname>
+          <playername>Nobody</playername>
+          <homeworld>Home</homeworld>
+          <cluster>Cluster</cluster>
+        </id>
+        <refresh base="5"/>
+        <aspects/>
+        <skills>
+          <skill rating="0" name="Stamina"/>
+          <skill rating="0" name="Resolve"/>
+          <skill rating="0" name="Assets"/>
+        </skills>
+        <stunts/>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="all three tracks render the base three boxes each"
+      test="count(/html/body//table[@id='stress_table']//tr) = 6
+            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 3
+            and count((/html/body//table[@id='stress_table']//tr)[4]/td) = 3
+            and count((/html/body//table[@id='stress_table']//tr)[6]/td) = 3
+            and string((/html/body//table[@id='stress_table']//tr)[2]/td[3]) = '3'"/>
+  </x:scenario>
+
+  <x:scenario label="absence of the gear and notes elements renders nothing for those blocks">
+    <x:context>
+      <character>
+        <id>
+          <charname>Minimal</charname>
+          <playername>Nobody</playername>
+          <homeworld>Home</homeworld>
+          <cluster>Cluster</cluster>
+        </id>
+        <refresh base="5"/>
+        <aspects/>
+        <skills>
+          <skill rating="0" name="Stamina"/>
+          <skill rating="0" name="Resolve"/>
+          <skill rating="0" name="Assets"/>
+        </skills>
+        <stunts/>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="no Gear header and no notes section appear"
+      test="count(/html/body//th[@class='sectionheader'][.='Gear']) = 0
+            and count(/html/body//section[@id='notes']) = 0"/>
+  </x:scenario>
+
+</x:description>
