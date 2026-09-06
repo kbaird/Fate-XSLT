@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/sotc_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a full character page renders every section and asset like the real Jet Black character">
+    <x:context>
+      <character>
+        <id>
+          <charname>Jet Black</charname>
+          <concept>Gadget Guy</concept>
+          <playername>sample SotC character</playername>
+          <archetype>Spirit Centurion</archetype>
+        </id>
+        <refresh base="10"/>
+        <aspects>
+          <aspect phase-num="1">Motorhead</aspect>
+          <aspect phase-num="1">Unspoken Love (Sally)</aspect>
+          <aspect phase-num="2">Over My Head</aspect>
+          <aspect phase-num="2">Amazing Jet Pack!</aspect>
+          <aspect phase-num="3">Nick of Time</aspect>
+          <aspect phase-num="3">Stop Dr. Methuselah</aspect>
+          <aspect phase-num="4">Seat of my Pants</aspect>
+          <aspect phase-num="4">Rocket Red Rivalry</aspect>
+          <aspect phase-num="5">First on the Scene</aspect>
+          <aspect phase-num="5">&quot;Sally, Save Me!&quot;</aspect>
+        </aspects>
+        <skills>
+          <skill page="xx" rating="5" name="Athletics"/>
+          <skill page="xx" rating="4" name="Engineering"/>
+          <skill page="xx" rating="4" name="Guns"/>
+          <skill page="xx" rating="3" name="Pilot"/>
+          <skill page="xx" rating="3" name="Stealth"/>
+          <skill page="xx" rating="3" name="Fists"/>
+          <skill page="xx" rating="2" name="Drive"/>
+          <skill page="xx" rating="2" name="Endurance"/>
+          <skill page="xx" rating="2" name="Resolve"/>
+          <skill page="xx" rating="2" name="Intimidation"/>
+          <skill page="xx" rating="1" name="Alertness"/>
+          <skill page="xx" rating="1" name="Science"/>
+          <skill page="xx" rating="1" name="Might"/>
+          <skill page="xx" rating="1" name="Rapport"/>
+          <skill page="xx" rating="1" name="Weapons"/>
+        </skills>
+        <stunts>
+          <stunt name="The Amazing Jet Pack (Personal Gadget)" page="xx" skill="Engineering">
+            blah
+          </stunt>
+        </stunts>
+        <gadgets>
+          <gadget page="xx" name="The Amazing Jet Pack">various upgrades, more upgrades, etc.</gadget>
+        </gadgets>
+        <consequences>
+          <consequence severity="Mild">mild one</consequence>
+        </consequences>
+        <phases>
+          <phase num="1" type="background">
+            <events>Jet grew up with Sally Slick in a poor part of town.</events>
+          </phase>
+          <phase num="2" type="the-great-war">
+            <century-club-patron>The Patron</century-club-patron>
+            <events>The events</events>
+          </phase>
+          <phase num="3" type="your-novel" title="Jet Black in ... The Eternity Equation!">
+            <guest-stars>Sally Slick, Grey Ghost</guest-stars>
+            <events>The events</events>
+          </phase>
+          <phase num="4" title="Mack Silver and the Sky-Pirates of Araby">
+            <events>The events</events>
+          </phase>
+          <phase num="5" title="Sally Slick vs. The Giant Robot">
+            <events>The events</events>
+          </phase>
+        </phases>
+      </character>
+    </x:context>
+    <x:expect label="page chrome, sections, id, refresh, aspects, pyramid skills, stunts and gadgets, stress, consequences, phases, and copyright render"
+      test="string(/html/head/title) = 'Jet Black'
+            and string(/html/body/h1) = string(/html/head/title)
+            and contains(string(/html/head/style), './css/fcs.css')
+            and contains(string(/html/head/style), './css/sotc.css')
+            and count(/html/body//section[@id='id']) = 1
+            and count(/html/body//section[@id='fate-logo']) = 1
+            and string(/html/body//span[@id='sotc-logo']) = 'Spirit of the Century'
+            and count(/html/body//section[@id='aspects']) = 1
+            and count(/html/body//section[@id='skills']) = 1
+            and count(/html/body//section[@id='stress']) = 1
+            and count(/html/body//section[@id='consequences']) = 1
+            and contains(string(/html/body//fieldset[@id='name']), 'Jet Black')
+            and contains(string(/html/body//fieldset[@id='concept']), 'Gadget Guy')
+            and contains(string(/html/body//fieldset[@id='archetype']), 'Spirit Centurion')
+            and string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '10'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '10'
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']) = 10
+            and contains(string(/html/body//section[@id='aspects']), 'Sally, Save Me!')
+            and count(/html/body//table[@id='skills_table']) = 1
+            and count(/html/body//table[@id='skills_table']//th[@class='rating']) = 5
+            and contains(string((/html/body//table[@id='skills_table']//th[@class='rating'])[1]), 'Superb')
+            and contains(string((/html/body//table[@id='skills_table']//th[@class='rating'])[1]), '+5')
+            and string(/html/body//table[@id='skills_table']//tr[2]/td[1]) = 'Athletics'
+            and string(/html/body//table[@id='skills_table']//tr[3]/td[1]) = 'Engineering'
+            and string(/html/body//table[@id='skills_table']//tr[3]/td[2]) = 'Guns'
+            and string(/html/body//table[@id='skills_table']//tr[4]/td[1]) = 'Pilot'
+            and string(/html/body//table[@id='skills_table']//tr[4]/td[2]) = 'Stealth'
+            and string(/html/body//table[@id='skills_table']//tr[4]/td[3]) = 'Fists'
+            and string(/html/body//table[@id='skills_table']//tr[5]/td[1]) = 'Drive'
+            and string(/html/body//table[@id='skills_table']//tr[5]/td[4]) = 'Intimidation'
+            and string(/html/body//table[@id='skills_table']//tr[6]/td[1]) = 'Alertness'
+            and string(/html/body//table[@id='skills_table']//tr[6]/td[5]) = 'Weapons'
+            and contains(string(/html/body//section[@id='skills']//fieldset[@class='stunt']), 'The Amazing Jet Pack (Personal Gadget)')
+            and contains(string(/html/body//section[@id='skills']//fieldset[@class='gadget']), 'The Amazing Jet Pack (pgxx)')
+            and contains(string(/html/body//section[@id='skills']//fieldset[@class='gadget']), 'various upgrades')
+            and count(/html/body//table[@id='stress_table']//tr) = 4
+            and string((/html/body//table[@id='stress_table']//th)[1]) = 'Health'
+            and contains((/html/body//table[@id='stress_table']//th)[1]/@colspan, '7')
+            and string((/html/body//table[@id='stress_table']//th)[2]) = 'Composure'
+            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 6
+            and string((/html/body//table[@id='stress_table']//tr)[2]/td[6]) = '6'
+            and count((/html/body//table[@id='stress_table']//tr)[4]/td) = 6
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 3
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][1]), 'mild one')
+            and not(contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][2]), 'mild one'))
+            and count(/html/body//section[@id='consequences']//legend[contains(string(.), 'F = Free, R? = Recovering?')]) = 0
+            and contains(string(/html/body//section[@id='consequences']//tfoot), 'F = Free, R? = Recovering?')
+            and count(/html/body//fieldset[@class='phase']) = 5
+            and contains(string((/html/body//fieldset[@class='phase'])[1]), 'Phase 1: Background')
+            and contains(string((/html/body//fieldset[@class='phase'])[1]), 'Jet grew up')
+            and contains(string((/html/body//fieldset[@class='phase'])[1]), 'Motorhead')
+            and contains(string((/html/body//fieldset[@class='phase'])[1]), 'Unspoken Love')
+            and contains(string((/html/body//fieldset[@class='phase'])[2]), 'Phase 2: The Great War and Entry Into the Club')
+            and string((/html/body//fieldset[@class='phase'])[2]//*[@id='century-club-patron']) = 'Century Club Patron: The Patron'
+            and contains(string((/html/body//fieldset[@class='phase'])[3]), 'Phase 3:')
+            and contains(string((/html/body//fieldset[@class='phase'])[3]), 'The Eternity Equation')
+            and string((/html/body//fieldset[@class='phase'])[3]//*[@id='guest-stars']) = 'Guest-starring Sally Slick, Grey Ghost'
+            and contains(string((/html/body//fieldset[@class='phase'])[4]), 'Phase 4: Other Adventures')
+            and contains(string((/html/body//fieldset[@class='phase'])[4]), 'Mack Silver')
+            and contains(string((/html/body//fieldset[@class='phase'])[5]), 'Phase 5: Other Adventures')
+            and count(/html/body//em[@class='phase-aspect']) = 10
+            and contains(string(/html/body//p[@id='copyright']), 'Spirit of the Century')
+            and contains(string(/html/body//p[@id='copyright']), '2006 Evil Hat')"/>
+  </x:scenario>
+
+  <x:scenario label="gear renders in a Gear table and notes render in a pre block">
+    <x:context>
+      <character>
+        <id>
+          <charname>Kits</charname>
+          <concept>Gearhead</concept>
+          <playername>Nobody</playername>
+          <archetype>Spirit Centurion</archetype>
+        </id>
+        <refresh base="10"/>
+        <aspects/>
+        <skills>
+          <skill page="xx" rating="1" name="Alertness"/>
+        </skills>
+        <stunts/>
+        <gadgets/>
+        <consequences/>
+        <phases>
+          <phase num="1" type="background">
+            <events>Some event.</events>
+          </phase>
+        </phases>
+        <gear>A little of this, a little of that</gear>
+        <notes>Keep the jet pack oiled.</notes>
+      </character>
+    </x:context>
+    <x:expect label="a Gear table header with the character content and the notes section with a pre"
+      test="count(/html/body//th[@class='sectionheader'][.='Gear']) = 1
+            and contains(string(/html/body//table[.//th[.='Gear']]/tr[2]/td), 'A little of this, a little of that')
+            and count(/html/body//section[@id='notes']) = 1
+            and string(/html/body//section[@id='notes']//pre) = 'Keep the jet pack oiled.'"/>
+  </x:scenario>
+
+  <x:scenario label="sotc-stress drives Health from Endurance and Composure from Resolve over a base of five boxes">
+    <x:context>
+      <character>
+        <id>
+          <charname>Tough</charname>
+          <concept>Hardy</concept>
+          <playername>Nobody</playername>
+          <archetype>Spirit Centurion</archetype>
+        </id>
+        <refresh base="10"/>
+        <aspects/>
+        <skills>
+          <skill page="xx" rating="5" name="Endurance"/>
+          <skill page="xx" rating="1" name="Resolve"/>
+        </skills>
+        <stunts/>
+        <gadgets/>
+        <consequences/>
+        <phases>
+          <phase num="1" type="background">
+            <events>Some event.</events>
+          </phase>
+        </phases>
+      </character>
+    </x:context>
+    <x:expect label="the high Endurance fills the Health track more than the low Resolve leaves Composure"
+      test="count(/html/body//table[@id='stress_table']//tr) = 4
+            and string((/html/body//table[@id='stress_table']//th)[1]) = 'Health'
+            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 7
+            and string((/html/body//table[@id='stress_table']//tr)[2]/td[7]) = '7'
+            and string((/html/body//table[@id='stress_table']//th)[2]) = 'Composure'
+            and count((/html/body//table[@id='stress_table']//tr)[4]/td) = 6
+            and string((/html/body//table[@id='stress_table']//tr)[4]/td[6]) = '6'"/>
+  </x:scenario>
+
+  <x:scenario label="absence of the gear and notes elements renders nothing for those blocks">
+    <x:context>
+      <character>
+        <id>
+          <charname>Bare</charname>
+          <concept>Minimal</concept>
+          <playername>Nobody</playername>
+          <archetype>Spirit Centurion</archetype>
+        </id>
+        <refresh base="10"/>
+        <aspects/>
+        <skills>
+          <skill page="xx" rating="1" name="Alertness"/>
+        </skills>
+        <stunts/>
+        <gadgets/>
+        <consequences/>
+        <phases>
+          <phase num="1" type="background">
+            <events>Some event.</events>
+          </phase>
+        </phases>
+      </character>
+    </x:context>
+    <x:expect label="no Gear header and no notes section appear"
+      test="count(/html/body//th[@class='sectionheader'][string(.)='Gear']) = 0
+            and count(/html/body//section[@id='notes']) = 0"/>
+  </x:scenario>
+
+</x:description>
