@@ -27,7 +27,7 @@
           </span>
           <table>
             <tr>
-              <xsl:call-template name="fate-points" mode="atomic-robo"/>
+              <xsl:call-template name="fate-points"/>
               <xsl:call-template name="experience-points"/>
             </tr>
           </table>
@@ -71,6 +71,7 @@
             <wbr/>
           </xsl:otherwise>
         </xsl:choose>
+        <xsl:call-template name="atomic-robo-copyright"/>
         <xsl:apply-templates select="notes"/>
       </body>
     </html>
