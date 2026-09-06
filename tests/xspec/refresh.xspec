@@ -67,4 +67,153 @@
     <x:expect label="refresh 7" test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '7'"/>
   </x:scenario>
 
+  <x:scenario label="refresh falls back to the default base of 3">
+    <x:context>
+      <character>
+        <refresh/>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="refresh 3" test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '3'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh charges for stunts when the free stunt budget is zero">
+    <x:context>
+      <character>
+        <refresh base="7" free-stunts="0"/>
+        <stunts>
+          <stunt/>
+        </stunts>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="1 costly stunt => refresh 6"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '6'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh gives more free stunts than stunts and charges nothing">
+    <x:context>
+      <character>
+        <refresh base="7" free-stunts="10"/>
+        <stunts>
+          <stunt/>
+          <stunt/>
+          <stunt/>
+        </stunts>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="all stunts free => refresh 7"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '7'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh derives gadget cost from benefits, functions, and flaws">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+        <extras>
+          <gadget>
+            <benefits>
+              <benefit cost="2"/>
+            </benefits>
+            <function/>
+            <flaws>
+              <flaw/>
+            </flaws>
+          </gadget>
+        </extras>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="gadget cost 2 + 1 - 1 = 2 => refresh 5"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '5'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh honors an explicit gadget cost over derived figures">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+        <extras>
+          <gadget cost="1">
+            <benefits>
+              <benefit cost="5"/>
+            </benefits>
+            <function/>
+            <flaws>
+              <flaw/>
+            </flaws>
+          </gadget>
+        </extras>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="gadget cost 1 => refresh 6"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '6'"/>
+  </x:scenario>
+
+  <x:scenario label="a gadget with balanced functions and flaws costs nothing">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+        <extras>
+          <gadget>
+            <function/>
+            <flaws>
+              <flaw/>
+            </flaws>
+          </gadget>
+        </extras>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="gadget cost 0 => refresh 7"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '7'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh combines stunt, extra, and gadget costs">
+    <x:context>
+      <character>
+        <refresh base="7"/>
+        <stunts>
+          <stunt/>
+          <stunt/>
+          <stunt/>
+          <stunt/>
+        </stunts>
+        <extras>
+          <extra cost="2"/>
+          <gadget>
+            <benefits>
+              <benefit cost="2"/>
+            </benefits>
+            <function/>
+          </gadget>
+        </extras>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="7 - 1 stunt - 2 extra - 3 gadget = 1"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '1'"/>
+  </x:scenario>
+
+  <x:scenario label="a current refresh override beats any computed costs">
+    <x:context>
+      <character>
+        <refresh base="7" current="9"/>
+        <stunts>
+          <stunt/>
+          <stunt/>
+          <stunt/>
+          <stunt/>
+        </stunts>
+        <extras>
+          <extra cost="6"/>
+        </extras>
+      </character>
+    </x:context>
+    <x:call template="refresh"/>
+    <x:expect label="both boxed values are 9"
+      test="count(//dd[@class='box']) = 2 and //dd[@class='box'] = '9'"/>
+  </x:scenario>
+
 </x:description>

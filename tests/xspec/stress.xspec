@@ -84,4 +84,115 @@
             and count(//th[@colspan='5']) = 2"/>
   </x:scenario>
 
+  <x:scenario label="a wealth stress count adds a wealth track">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="stress">
+      <x:param name="wealthStressCount">3</x:param>
+    </x:call>
+    <x:expect label="Wealth Stress header with boxes 1,2,3 alongside the defaults"
+      test="count(//th[.='Wealth Stress']) = 1
+            and string(//tr[th[.='Wealth Stress']]/following-sibling::tr[1]) = '123'
+            and count(//table/tr/td) = 7"/>
+  </x:scenario>
+
+  <x:scenario label="credit stress uses the Resources skill for box count">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Resources" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="stress">
+      <x:param name="useCreditStress">true</x:param>
+    </x:call>
+    <x:expect label="Credit Stress header with skill-driven boxes 1,2,3,4"
+      test="count(//th[.='Credit Stress']) = 1
+            and contains(//tr[th[.='Credit Stress']][1]/following-sibling::tr[1], '3')
+            and contains(//tr[th[.='Credit Stress']][1]/following-sibling::tr[1], '4')
+            and count(//table/tr/td) = 8"/>
+  </x:scenario>
+
+  <x:scenario label="systems stress uses the Systems skill for box count">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Systems" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="stress">
+      <x:param name="useSystemsStress">true</x:param>
+    </x:call>
+    <x:expect label="Systems Stress header with skill-driven boxes 1,2,3,4"
+      test="count(//th[.='Systems Stress']) = 1
+            and contains(//tr[th[.='Systems Stress']][1]/following-sibling::tr[1], '3')
+            and contains(//tr[th[.='Systems Stress']][1]/following-sibling::tr[1], '4')
+            and count(//table/tr/td) = 8"/>
+  </x:scenario>
+
+  <x:scenario label="the corruption hack appends a four-box corruption track">
+    <x:context>
+      <character>
+        <hacks corruption="true"/>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="Corruption header spanning four unit boxes"
+      test="count(//th[@class='sectionheader' and .='Corruption']) = 1
+            and count(//tr[th[.='Corruption']]/following-sibling::tr[1]/td) = 4
+            and count(//tr[th[.='Corruption']]/following-sibling::tr[1]/td[.='1']) = 4
+            and count(//table/tr/td) = 8"/>
+  </x:scenario>
+
+  <x:scenario label="one-point-stress with a top Physique rating fills the physical track">
+    <x:context>
+      <character>
+        <hacks one-point-stress="true"/>
+        <skills>
+          <skill name="Physique" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="physical track gains 4 skill boxes past its 2 base boxes, all unit values"
+      test="count(//tr[th[.='Physical Stress']][1]/following-sibling::tr[1]/td) = 6
+            and count(//tr[th[.='Physical Stress']][1]/following-sibling::tr[1]/td[.='1']) = 6
+            and count(//table/tr/td) = 8
+            and count(//th[@colspan='5']) = 2"/>
+  </x:scenario>
+
+  <x:scenario label="one-point-stress renders explicit stress sets as unit boxes">
+    <x:context>
+      <character>
+        <hacks one-point-stress="true"/>
+        <stress physical="3" mental="2"/>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="all five boxes are 1 and headers span base + 3"
+      test="count(//table/tr/td[.='1']) = 5
+            and count(//table/tr/td) = 5
+            and count(//th[@colspan='6']) = 1
+            and count(//th[@colspan='5']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="a high Will rating grows the mental stress track">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Will" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="Mental Stress gains skill-driven boxes 3 and 4"
+      test="contains(//tr[th[.='Mental Stress']][1]/following-sibling::tr[1], '3')
+            and contains(//tr[th[.='Mental Stress']][1]/following-sibling::tr[1], '4')
+            and count(//table/tr/td) = 6
+            and not(contains(//tr[th[.='Physical Stress']][1]/following-sibling::tr[1], '3'))"/>
+  </x:scenario>
+
 </x:description>

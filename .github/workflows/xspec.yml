@@ -36,8 +36,16 @@ jobs:
         run: |
           set -e
           for f in tests/xspec/*.xspec; do
-            tools/xspec/bin/xspec.sh -j -e "$f"
+            tools/xspec/bin/xspec.sh -j -c -e "$f"
           done
+
+      - name: Upload XSpec coverage reports
+        if: success() || failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xspec-coverage
+          path: tests/xspec/xspec/*-coverage.*
+          if-no-files-found: error
 
       - name: Report XSpec results
         if: success() || failure()

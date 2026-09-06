@@ -34,4 +34,103 @@
             and count(/html/body//section[@id='stunts']) = 1"/>
   </x:scenario>
 
+  <x:scenario label="a character with skill modes renders the mode ratings through the skill table">
+    <x:context>
+      <character>
+        <id>
+          <charname>Mode Swift</charname>
+          <playername>Unit Tester</playername>
+        </id>
+        <hacks skill-modes="true"/>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="High-Concept">Mode Swift</aspect>
+        </aspects>
+        <skills>
+          <mode name="Combat" rating="3">
+            <skill name="Shoot"/>
+            <skill name="Fight" add="1"/>
+          </mode>
+          <mode name="Social" rating="2">
+            <skill name="Rapport"/>
+          </mode>
+          <mode name="Technical" rating="1">
+            <skill name="Hack"/>
+          </mode>
+        </skills>
+        <stunts>
+          <stunt>Quick on the Draw</stunt>
+        </stunts>
+      </character>
+    </x:context>
+    <x:expect label="a Modes and Skills table with five rating rows and mode-placed skills"
+      test="string(/html/body/h1) = 'Mode Swift'
+            and count(/html/body//table[@id='skills_table']) = 1
+            and count(/html/body//tr[th[contains(.,'Modes and Skills')]]) = 1
+            and count(/html/body//tr[th[contains(@class,'mode-rating')]]) = 5
+            and count(/html/body//th[contains(.,'Good') and contains(.,'Combat')]) = 1
+            and count(/html/body//th[contains(.,'Fair') and contains(.,'Social')]) = 1
+            and count(/html/body//th[contains(.,'Average') and contains(.,'Technical')]) = 1
+            and count(/html/body//li[.='Shoot']) = 1
+            and count(/html/body//li[contains(@class,'trained')]) = 3"/>
+  </x:scenario>
+
+  <x:scenario label="a character with the conditions hack renders the conditions table as consequences">
+    <x:context>
+      <character>
+        <id>
+          <charname>Conditioned</charname>
+          <playername>Unit Tester</playername>
+        </id>
+        <hacks conditions="true"/>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="High-Concept">Conditioned</aspect>
+        </aspects>
+        <skills>
+          <skill name="Physique" rating="3"/>
+        </skills>
+        <stunts>
+          <stunt>Iron Constitution</stunt>
+        </stunts>
+      </character>
+    </x:context>
+    <x:expect label="the consequences section becomes the standard conditions table"
+      test="count(/html/body//section[@id='consequences']//table[@id='conditions']) = 1
+            and count(/html/body//section[@id='consequences']//th[contains(@class,'condition-type')]) = 3
+            and count(/html/body//section[@id='consequences']//dl[@class='conditions']/dt) = 6
+            and count(/html/body//section[@id='consequences']//dt[contains(@class,'severe')]) = 2
+            and count(/html/body//section[@id='consequences']//fieldset) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="flat-shaped skills render as a professions-style table of approach dls">
+    <x:context>
+      <character>
+        <id>
+          <charname>Flat Shaped</charname>
+          <playername>Unit Tester</playername>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="High-Concept">Flat Shaped</aspect>
+        </aspects>
+        <skills shape="flat">
+          <skill name="Physique" rating="3"/>
+          <skill name="Will" rating="2"/>
+        </skills>
+        <stunts>
+          <stunt>Backbone</stunt>
+        </stunts>
+      </character>
+    </x:context>
+    <x:expect label="a single professions-style table with one dl per flat skill"
+      test="count(/html/body//table[@id='professions']) = 1
+            and count(/html/body//table[@id='professions']//dl[contains(@class,'approaches')]) = 2
+            and count(/html/body//dl[@class='approaches']/dt[.='Physique']) = 1
+            and count(/html/body//dl[@class='approaches']/dd[.='+3']) = 1
+            and count(/html/body//dl[@class='approaches']/dt[.='Will']) = 1
+            and count(/html/body//dl[@class='approaches']/dd[.='+2']) = 1
+            and count(/html/body//table[@id='skills_table']) = 0"/>
+  </x:scenario>
+
 </x:description>

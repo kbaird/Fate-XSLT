@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="the extras table renders freestanding extras and gadget mega-stunts">
+    <x:context>
+      <extras>
+        <extra name="Airship">Fly it around.</extra>
+        <gadget name="Thunder Greaves" override-name="Kick Aspect" notes="Prototype">
+          <function>Kick</function>
+          <flaws>
+            <flaw name="Loud">Always heard.</flaw>
+          </flaws>
+          <benefits>
+            <benefit name="Shock" cost="2">Zap.</benefit>
+          </benefits>
+          <aspects>
+            <aspect>Wing</aspect>
+          </aspects>
+        </gadget>
+      </extras>
+    </x:context>
+    <x:expect label="one Extras table with an extra and one gadget"
+      test="count(//table) = 1
+            and string(//th[contains(@class,'sectionheader')]) = 'Extras'
+            and count(//fieldset[contains(@class,'mega stunt')]) = 1
+            and count(//fieldset[contains(@class,'mega stunt')]/legend/span[.='Thunder Greaves']) = 1
+            and string(//fieldset[contains(@class,'mega stunt')]/legend/p) = 'Prototype'
+            and count(//fieldset[not(contains(@class,'mega stunt'))]/legend[.='Airship']) = 1
+            and contains(string(//legend[.='Airship']/following-sibling::text()), 'Fly it around.')"/>
+  </x:scenario>
+
+  <x:scenario label="gadget functions, flaws, and benefits render their own terms and details">
+    <x:context>
+      <extras>
+        <gadget name="Thunder Greaves" override-name="Kick Aspect">
+          <function>Kick</function>
+          <flaws>
+            <flaw name="Loud">Always heard.</flaw>
+          </flaws>
+          <benefits>
+            <benefit name="Shock" cost="2">Zap.</benefit>
+          </benefits>
+        </gadget>
+      </extras>
+    </x:context>
+    <x:expect label="function uses the override-name, flaw keeps its name, benefit tags its cost"
+      test="count(//dt[contains(@class,'function') and .='Kick Aspect']) = 1
+            and count(//dd[.='Kick']) = 1
+            and count(//dt[contains(@class,'flaw') and .='Loud']) = 1
+            and count(//dd[.='Always heard.']) = 1
+            and count(//dt[contains(@class,'benefit') and .='Shock [2]']) = 1
+            and count(//dd[.='Zap.']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="gadget aspect terms use the gadget override-name as the aspect label">
+    <x:context>
+      <extras>
+        <gadget name="Thunder Greaves" override-name="Kick Aspect">
+          <aspects>
+            <aspect>Wing</aspect>
+          </aspects>
+        </gadget>
+      </extras>
+    </x:context>
+    <x:expect label="aspect term shows the override-name"
+      test="count(//dt[contains(@class,'function') and .='Kick Aspect']) = 1
+            and string(//dt[contains(@class,'function')]/following-sibling::dd) = 'Wing'"/>
+  </x:scenario>
+
+  <x:scenario label="unnamed functions and flaws fall back to Aspect labels">
+    <x:context>
+      <extras>
+        <gadget name="Reinforced Exoskeleton Cartridges">
+          <function>Fist</function>
+          <flaws>
+            <flaw>Clumsy</flaw>
+          </flaws>
+        </gadget>
+      </extras>
+    </x:context>
+    <x:expect label="Function Aspect and Flaw Aspect defaults"
+      test="count(//dt[contains(@class,'function') and normalize-space(.)='Function Aspect:']) = 1
+            and count(//dd[.='Fist']) = 1
+            and count(//dt[contains(@class,'flaw') and normalize-space(.)='Flaw Aspect:']) = 1
+            and count(//dd[.='Clumsy']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="a gadget aspect without an override-name uses the plain Aspect label">
+    <x:context>
+      <extras>
+        <gadget name="Reinforced Exoskeleton Cartridges">
+          <aspects>
+            <aspect>Reinforced</aspect>
+          </aspects>
+        </gadget>
+      </extras>
+    </x:context>
+    <x:expect label="Aspect default term"
+      test="count(//dt[contains(@class,'function') and normalize-space(.)='Aspect:']) = 1
+            and string(//dt[contains(@class,'function')]/following-sibling::dd) = 'Reinforced'"/>
+  </x:scenario>
+
+  <x:scenario label="long gadget names without notes pad the gadget details">
+    <x:context>
+      <extras>
+        <gadget name="Reinforced Exoskeleton Cartridges">
+          <function>Fist</function>
+        </gadget>
+      </extras>
+    </x:context>
+    <x:expect label="a style-bearing gadget dl"
+      test="count(//dl[@class='gadget' and @style]) = 1
+            and contains(string(//dl[@class='gadget']/@style), 'padding-left:')"/>
+  </x:scenario>
+
+  <x:scenario label="gadgets with notes do not need padding for long names">
+    <x:context>
+      <extras>
+        <gadget name="Reinforced Exoskeleton Cartridges" notes="Special">
+          <function>Fist</function>
+        </gadget>
+      </extras>
+    </x:context>
+    <x:expect label="no style on the gadget dl"
+      test="count(//dl[@class='gadget' and @style]) = 0
+            and count(//dl[@class='gadget']) = 1"/>
+  </x:scenario>
+
+</x:description>
