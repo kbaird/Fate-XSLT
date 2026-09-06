@@ -22,10 +22,18 @@ mkdir -p tools
 # Check character XML validity, as in .github/workflows/xmllint.yml
 find characters -name '*.xml' -print0 | xargs -0 -r xmllint --noout --valid
 
-# Run the XSpec suite, as in .github/workflows/xspec.yml
+# Run the XSpec suite and report coverage, as in .github/workflows/xspec.yml
 export SAXON_CP="$PWD/tools/Saxon-HE.jar:$PWD/tools/xmlresolver.jar"
 for f in tests/xspec/*.xspec; do
-  tools/xspec/bin/xspec.sh -j -c -e "$f" 2>/dev/null >/dev/null
+  tools/xspec/bin/xspec.sh -c -e "$f" 2>/dev/null >/dev/null
+done
+
+# Generate JUnit reports from the results; xspec.sh omits them when -c is used
+for f in tests/xspec/xspec/*-result.xml; do
+  name=$(basename "$f" -result.xml)
+  java -cp "$SAXON_CP" net.sf.saxon.Transform \
+    -s:"$f" -xsl:"$PWD/tools/xspec/src/reporter/junit-report.xsl" \
+    -o:"$PWD/tests/xspec/xspec/${name}-junit.xml"
 done
 
 echo "passed"
