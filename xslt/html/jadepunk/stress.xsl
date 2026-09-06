@@ -7,7 +7,7 @@
   <xsl:include href="./generic-stress.xsl"/>
   <xsl:template name="stress">
     <table id="stress_table">
-      <xsl:call-template name="generic-stress" mode="jadepunk">
+      <xsl:call-template name="generic-stress">
         <xsl:with-param name="baseCount">3</xsl:with-param>
         <xsl:with-param name="maxCount">3</xsl:with-param>
         <xsl:with-param name="headerName">Stress</xsl:with-param>
