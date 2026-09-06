@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/dfa_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a full character page renders every section like the real Gabriel Beaumont character">
+    <x:context>
+      <character>
+        <id>
+          <charname>Gabriel Beaumont</charname>
+          <playername>sample DFA character</playername>
+          <description>
+            See DFA, pg. 243
+          </description>
+        </id>
+        <aspects>
+          <aspect type="High-Concept">Retired Knight of the Cross</aspect>
+          <aspect type="Trouble">These Tired Old Bones</aspect>
+          <aspect>Love For All Living Things</aspect>
+          <aspect>Worked All Over This City</aspect>
+          <aspect>Can Stare Down a Denarian</aspect>
+        </aspects>
+        <approaches>
+          <approach rating="1" name="Flair"/>
+          <approach rating="3" name="Focus"/>
+          <approach rating="2" name="Force"/>
+          <approach rating="2" name="Guile"/>
+          <approach rating="0" name="Haste"/>
+          <approach rating="1" name="Intellect"/>
+        </approaches>
+        <mantles>
+          <mantle name="Leader of the People" ref="126"/>
+        </mantles>
+        <stunts>
+          <stunt name="Ready and Willing">pg127</stunt>
+          <stunt name="Patronage">pg127</stunt>
+          <stunt name="Specialist">pg127</stunt>
+          <stunt name="Safehouse">pg127</stunt>
+          <stunt name="Miraculous Chance">pg243</stunt>
+        </stunts>
+        <conditions>
+          <condition name="In Peril" boxes="1" box-value="4" duration="sticky" ref="117"/>
+          <condition name="Doomed" boxes="1" box-value="6" duration="lasting" ref="117"/>
+          <condition name="Indebted" boxes="5" duration="sticky" ref="117"/>
+          <condition name="Followers" boxes="5" duration="sticky" ref="126"/>
+          <condition name="Disfavored" boxes="1" duration="sticky" ref="126"/>
+        </conditions>
+      </character>
+    </x:context>
+    <x:expect label="page chrome, sections, fae id, subtitle, aspects, approaches, stunts, stress, conditions, and no refresh block render"
+      test="string(/html/head/title) = 'Gabriel Beaumont'
+            and string(/html/body/h1) = string(/html/head/title)
+            and contains(string(/html/head/style), './css/fae.css')
+            and not(contains(string(/html/head/style), './css/conditions.css'))
+            and count(/html/body//section[@id='id']) = 1
+            and count(/html/body//section[@id='fate-logo']) = 1
+            and string(/html/body//span[@id='fate-subtitle']) = 'Dresden Files Accelerated'
+            and count(/html/body//section[@id='aspects']) = 1
+            and count(/html/body//section[@id='skills']) = 1
+            and count(/html/body//section[@id='stunts']) = 1
+            and count(/html/body//section[@id='stress']) = 1
+            and count(/html/body//section[@id='consequences']) = 1
+            and count(/html/body//section[@id='fate-logo']//dl[@id='refresh']) = 0
+            and contains(string(/html/body//fieldset[@id='name']), 'Gabriel Beaumont')
+            and contains(string(/html/body//fieldset[@id='description']), 'See DFA, pg. 243')
+            and contains(string(/html/body//fieldset[@id='affiliation']), 'Leader of the People')
+            and contains(string(/html/body//fieldset[@id='affiliation']), 'pg126')
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']) = 5
+            and count(/html/body//section[@id='aspects']//legend[contains(string(.), 'High Concept')]) = 1
+            and contains(string(/html/body//section[@id='aspects']), 'Retired Knight of the Cross')
+            and contains(string(/html/body//section[@id='aspects']), 'These Tired Old Bones')
+            and count(/html/body//table[@id='approaches']) = 1
+            and count(/html/body//dl[@class='approaches']) = 6
+            and string(/html/body//dl[@class='approaches'][dt='Flair']/dd) = '+1'
+            and string(/html/body//dl[@class='approaches'][dt='Focus']/dd) = '+3'
+            and string(/html/body//dl[@class='approaches'][dt='Force']/dd) = '+2'
+            and string(/html/body//dl[@class='approaches'][dt='Guile']/dd) = '+2'
+            and string(/html/body//dl[@class='approaches'][dt='Haste']/dd) = '+0'
+            and string(/html/body//dl[@class='approaches'][dt='Intellect']/dd) = '+1'
+            and count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 5
+            and contains(string(/html/body//section[@id='stunts']), 'Ready and Willing')
+            and contains(string(/html/body//section[@id='stunts']), 'Miraculous Chance')
+            and string(/html/body//table[@id='stress_table']//th[@class='sectionheader']) = 'Stress'
+            and contains(/html/body//table[@id='stress_table']//th[@class='sectionheader']/@colspan, '6')
+            and count(/html/body//table[@id='stress_table']//tr) = 3
+            and count(/html/body//table[@id='stress_table']//tr/td[.='1']) = 6
+            and count(/html/body//table[@id='conditions']) = 1
+            and count(/html/body//table[@id='conditions']//dl[@class='conditions']) = 5
+            and contains(string(/html/body//table[@id='conditions']//tr[2]/td/dl//dt), 'In Peril (sticky, pg117)')
+            and contains(string(/html/body//table[@id='conditions']//tr[3]/td/dl//dt), 'Doomed (lasting, pg117)')
+            and string(/html/body//table[@id='conditions']//tr[2]/td/dl//dd) = '4'
+            and string(/html/body//table[@id='conditions']//tr[3]/td/dl//dd) = '6'
+            and count(/html/body//table[@id='conditions']//tr[4]/td/dl//dd) = 5
+            and count(/html/body//table[@id='conditions']//tr[5]/td/dl//dd) = 5
+            and count(/html/body//table[@id='conditions']//tr[6]/td/dl//dd) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="the id in fae mode renders the name with a nickname quote and omits absent affiliation and description fieldsets">
+    <x:context>
+      <character>
+        <id>
+          <charname nickname="Gabe">Gabriel Beaumont</charname>
+          <playername>Nobody</playername>
+        </id>
+        <aspects/>
+        <approaches/>
+        <stunts/>
+        <conditions/>
+      </character>
+    </x:context>
+    <x:expect label="the name fieldset carries the quoted nickname and no description or affiliation appears"
+      test="count(/html/body//fieldset[@id='name']//q) = 1
+            and contains(string(/html/body//fieldset[@id='name']), 'Gabe')
+            and count(/html/body//fieldset[@id='description']) = 0
+            and count(/html/body//fieldset[@id='affiliation']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="each mantle renders an affiliation fieldset with its name and page reference">
+    <x:context>
+      <character>
+        <id>
+          <charname>Multi</charname>
+          <playername>Nobody</playername>
+          <description>A description</description>
+        </id>
+        <aspects/>
+        <approaches/>
+        <mantles>
+          <mantle name="Warden" ref="200"/>
+          <mantle name="Summer Knight" ref="201"/>
+        </mantles>
+        <stunts/>
+        <conditions/>
+      </character>
+    </x:context>
+    <x:expect label="two affiliation fieldsets carry each mantle name and page reference"
+      test="count(/html/body//fieldset[@id='affiliation']) = 2
+            and contains(string((/html/body//fieldset[@id='affiliation'])[1]), 'Warden')
+            and contains(string((/html/body//fieldset[@id='affiliation'])[1]), 'pg200')
+            and contains(string((/html/body//fieldset[@id='affiliation'])[2]), 'Summer Knight')
+            and contains(string((/html/body//fieldset[@id='affiliation'])[2]), 'pg201')"/>
+  </x:scenario>
+
+  <x:scenario label="dfa-stress renders a fixed six unit boxes in two rows of three">
+    <x:context>
+      <character>
+        <id>
+          <charname>Stressed</charname>
+          <playername>Nobody</playername>
+        </id>
+        <aspects/>
+        <approaches/>
+        <stunts/>
+        <conditions/>
+      </character>
+    </x:context>
+    <x:expect label="a Stress header spanning six and two rows of three unit boxes"
+      test="count(/html/body//table[@id='stress_table']//tr) = 3
+            and contains(/html/body//table[@id='stress_table']//th[@class='sectionheader']/@colspan, '6')
+            and count(/html/body//table[@id='stress_table']//tr/td) = 6
+            and count(/html/body//table[@id='stress_table']//tr/td[.='1']) = 6
+            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 3
+            and count((/html/body//table[@id='stress_table']//tr)[3]/td) = 3
+            and string((/html/body//table[@id='stress_table']//tr)[2]/td[1]) = '1'
+            and string((/html/body//table[@id='stress_table']//tr)[3]/td[3]) = '1'"/>
+  </x:scenario>
+
+  <x:scenario label="condition boxes count from the boxes attribute and show the box value when present">
+    <x:context>
+      <character>
+        <id>
+          <charname>Conditions</charname>
+          <playername>Nobody</playername>
+        </id>
+        <aspects/>
+        <approaches/>
+        <stunts/>
+        <conditions>
+          <condition name="In Peril" boxes="2" box-value="3" duration="sticky" ref="117"/>
+          <condition name="Indebted" boxes="3" duration="lasting" ref="117"/>
+        </conditions>
+      </character>
+    </x:context>
+    <x:expect label="the boxed condition repeats its value and the plain condition renders empty boxes"
+      test="count(/html/body//table[@id='conditions']//dl[@class='conditions']) = 2
+            and contains(string(/html/body//table[@id='conditions']//tr[2]/td/dl//dt), 'In Peril (sticky, pg117)')
+            and count(/html/body//table[@id='conditions']//tr[2]/td/dl//dd) = 2
+            and string((/html/body//table[@id='conditions']//tr[2]/td/dl//dd)[1]) = '3'
+            and string((/html/body//table[@id='conditions']//tr[2]/td/dl//dd)[2]) = '3'
+            and contains(string(/html/body//table[@id='conditions']//tr[3]/td/dl//dt), 'Indebted (lasting, pg117)')
+            and count(/html/body//table[@id='conditions']//tr[3]/td/dl//dd) = 3
+            and string((/html/body//table[@id='conditions']//tr[3]/td/dl//dd)[1]) = ''"/>
+  </x:scenario>
+
+  <x:scenario label="notes render as bare body text rather than a notes section">
+    <x:context>
+      <character>
+        <id>
+          <charname>Notes</charname>
+          <playername>Nobody</playername>
+        </id>
+        <aspects/>
+        <approaches/>
+        <stunts/>
+        <conditions/>
+        <notes>Some free-form notes text</notes>
+      </character>
+    </x:context>
+    <x:expect label="no notes section appears but the notes text renders as body text"
+      test="count(/html/body//section[@id='notes']) = 0
+            and contains(string(/html/body), 'Some free-form notes text')"/>
+  </x:scenario>
+
+</x:description>
