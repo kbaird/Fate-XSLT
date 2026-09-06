@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
-  xmlns:math="http://exslt.org/math" extension-element-prefixes="math">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:template name="power-of-two">
+    <xsl:param name="exponent"/>
+    <xsl:choose>
+      <xsl:when test="$exponent &gt; 0">
+        <xsl:variable name="half">
+          <xsl:call-template name="power-of-two">
+            <xsl:with-param name="exponent">
+              <xsl:value-of select="$exponent - 1"/>
+            </xsl:with-param>
+          </xsl:call-template>
+        </xsl:variable>
+        <xsl:value-of select="2 * $half"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="1"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   <xsl:template match="feature">
     <dt class="feature"><xsl:value-of select="@type"/>:</dt>
     <dd><xsl:choose>
@@ -23,7 +40,11 @@
         <xsl:text>Can act independently w/o the expenditure of a Fate Point</xsl:text>
       </xsl:when>
       <xsl:when test="@type='Numerous'">
-        <xsl:value-of select="math:power(2, @bonus)"/>
+        <xsl:call-template name="power-of-two">
+          <xsl:with-param name="exponent">
+            <xsl:value-of select="@bonus"/>
+          </xsl:with-param>
+        </xsl:call-template>
       </xsl:when>
       <xsl:when test="@type='Professional'">
         <xsl:value-of select="@main-profession"/>

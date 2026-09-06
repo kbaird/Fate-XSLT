@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/jadepunk_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a full character page renders every section and asset like the real Tran Van Duc character">
+    <x:context>
+      <character custom-css="tran_van_duc">
+        <id>
+          <charname nickname="Đúc">Trần Văn Đúc / 陈文德 / "Ancient Culture Virtue"</charname>
+          <playername>Kevin Baird</playername>
+          <story>
+            Đúc was part of the unsuccessful resistance against the Túyàngan invaders in the neighboring nation of Đại Nam.
+            He has since relocated, along with a sizeable Đạinamese community.
+          </story>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="Portrayal">Đạinamese Browncoat</aspect>
+          <aspect type="Background">Advance Scout in the 101st Partisans</aspect>
+          <aspect type="Inciting-Incident">We Lost Because We Lacked Knowledge</aspect>
+          <aspect type="Belief">Everyone Deserves Freedom</aspect>
+          <aspect type="Trouble">Ha'la'tha - Always Faithful to the Soil</aspect>
+        </aspects>
+        <professions>
+          <profession rating="1" name="Aristocrat"/>
+          <profession rating="0" name="Engineer"/>
+          <profession rating="3" name="Explorer"/>
+          <profession rating="2" name="Fighter"/>
+          <profession rating="2" name="Scholar"/>
+          <profession rating="1" name="Scoundrel"/>
+        </professions>
+        <assets>
+          <asset name="Expatriate Đạinamese Community" function="Eyes, Ears, General Favors" type="Ally">
+            <features>
+              <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Scholar"/>
+              <feature type="Numerous"     bonus="2"/>
+              <feature type="Resilient"    bonus="1"/>
+              <feature type="Sturdy"       bonus="1"/>
+              <feature type="Independent"/>
+            </features>
+            <flaws>
+              <flaw type="Troubling"   effect="Expects Đúc to be a Community Leader"/>
+              <flaw type="Situational" effect="Only in or near Đạinamtown"/>
+              <flaw type="Situational" effect="Nothing Too Dangerous"/>
+            </flaws>
+            <notes>I figure it's quite large.</notes>
+          </asset>
+          <asset name="Jade Tattoo" function="Blue Jade Tattoo of Detection" type="Device">
+            <features>
+              <feature bonus="3" type="Focus" profession="Scholar"/>
+            </features>
+            <flaws>
+              <flaw type="Troubling"   effect="Easily Identifiable"/>
+              <flaw type="Situational" effect="Scholar can only be used for sensing surroundings"/>
+            </flaws>
+            <notes>Obvious, like Mike Tyson's face tattoo.</notes>
+          </asset>
+          <asset name="Knowledge is Power" guiding-aspect="Inciting-Incident" type="Technique">
+            <features>
+              <feature type="Focus" profession="Scholar" bonus="2"/>
+            </features>
+            <flaws>
+              <flaw type="Situational" effect="Only About Đạinamese History"/>
+            </flaws>
+          </asset>
+          <asset name="A Leaf in the Wind" guiding-aspect="Background" type="Technique">
+            <features>
+              <feature type="Focus" bonus="4" profession="Scoundrel"/>
+            </features>
+            <flaws>
+              <flaw type="Situational" effect="Only to Avoid Detection"/>
+            </flaws>
+          </asset>
+          <asset name="The Slow Blade Penetrates the Shield" guiding-aspect="Background" type="Technique">
+            <features>
+              <feature type="Focus" bonus="4" profession="Fighter"/>
+            </features>
+            <flaws>
+              <flaw type="Situational" effect="Only to Attack"/>
+              <flaw type="Situational" effect="Only with a bladed weapon"/>
+              <flaw type="Situational" effect="Only vs. a Jade-enhanced defense"/>
+            </flaws>
+            <notes>Yes, I stole this from Dune.</notes>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="page chrome, sections, finances, professions, assets, stress, and consequences render"
+      test="string(/html/head/title) = 'Trần Văn Đúc / 陈文德 / &quot;Ancient Culture Virtue&quot;'
+            and contains(string(/html/head/style), './css/jadepunk.css')
+            and contains(string(/html/head/style), './css/professions.css')
+            and contains(string(/html/head/style), './css/tran_van_duc.css')
+            and string(/html/body/h1) = string(/html/head/title)
+            and count(/html/body//section[@id='id']) = 1
+            and count(/html/body//section[@id='fate-logo']) = 1
+            and count(/html/body//section[@id='aspects']) = 1
+            and count(/html/body//section[@id='skills']) = 1
+            and count(/html/body//section[@id='assets']) = 1
+            and count(/html/body//section[@id='stress']) = 1
+            and count(/html/body//section[@id='consequences']) = 1
+            and count(/html/body//img[@id='jadepunk-logo']) = 1
+            and contains(string(/html/body//fieldset[@id='name']), 'Trần Văn Đúc')
+            and contains(string(/html/body//fieldset[@id='name']), 'Đúc')
+            and contains(string(/html/body//fieldset[@id='description']), 'resistance against the Túyàngan invaders')
+            and contains(string(/html/body//section[@id='aspects']), 'Đạinamese Browncoat')
+            and count(/html/body//section[@id='skills']//dl[@class='approaches']) = 6
+            and contains(string(/html/body//section[@id='skills']), 'Attacks and manuevers')
+            and count(/html/body//section[@id='assets']//fieldset[@class='asset']) = 5
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Ally) [1]')]) = 1
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Device) [1]')]) = 1
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Technique) [2]')]) = 1
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Technique) [1]')]) = 2
+            and contains(string(/html/body//section[@id='assets']), 'Eyes, Ears, General Favors')
+            and contains(string(/html/body//section[@id='assets']), 'Scholar +2')
+            and contains(string(/html/body//section[@id='assets']), 'Scholar +3')
+            and count(/html/body//section[@id='assets']//dt[.='Guiding Aspect:']) = 3
+            and count(/html/body//section[@id='assets']//dt[@class='feature']) = 9
+            and count(/html/body//section[@id='assets']//dt[@class='flaw']) = 10
+            and count(/html/body//section[@id='assets']//dd[@class='notes']) = 3
+            and contains(string(/html/body//section[@id='assets']), 'stole this from Dune.')
+            and string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '1/7'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '1'
+            and count(/html/body//section[@id='stress']//tr) = 2
+            and count(/html/body//section[@id='stress']//tr[@colspan]) = 0
+            and count(/html/body//section[@id='consequences']) = 1
+            and contains(string(/html/body//section[@id='consequences']), 'Moderate (4)')"/>
+  </x:scenario>
+
+  <x:scenario label="professions render their rating and a known explanation, unknown names get an empty one">
+    <x:context>
+      <character>
+        <id>
+          <charname>Roamer</charname>
+          <playername>Nobody</playername>
+          <story>The road calls.</story>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="Portrayal">Wanderer</aspect>
+        </aspects>
+        <professions>
+          <profession rating="1" name="Aristocrat"/>
+          <profession rating="0" name="Engineer"/>
+          <profession rating="3" name="Explorer"/>
+          <profession rating="2" name="Fighter"/>
+          <profession rating="2" name="Scholar"/>
+          <profession rating="1" name="Scoundrel"/>
+          <profession rating="0" name="Medic"/>
+        </professions>
+        <assets/>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="six known explanations and an empty one for the unknown profession"
+      test="count(/html/body//dl[@class='approaches']) = 7
+            and contains(string(/html/body//section[@id='skills']), '+3')
+            and contains(string(/html/body//section[@id='skills']), 'Influences and socializes')
+            and contains(string(/html/body//section[@id='skills']), 'Builds and sabotages')
+            and contains(string(/html/body//section[@id='skills']), 'Evades and navigates')
+            and contains(string(/html/body//section[@id='skills']), 'Attacks and manuevers')
+            and contains(string(/html/body//section[@id='skills']), 'Thinks and discovers')
+            and contains(string(/html/body//section[@id='skills']), 'Sneaks and deceives')
+            and count(/html/body//dl[@class='approaches']/dt[starts-with(string(.), 'Medic')]
+                       /span[@class='explanation'][string(.)='']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="asset cost: an empty asset costs one and cost clamps below the one-refresh minimum">
+    <x:context>
+      <character>
+        <id>
+          <charname>Solo</charname>
+          <playername>Nobody</playername>
+          <story>Alone.</story>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="Portrayal">Solo Artist</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Solo" type="Technique">
+            <features/>
+            <flaws/>
+          </asset>
+          <asset name="Generous" type="Technique">
+            <features/>
+            <flaws>
+              <flaw type="Consuming"/>
+              <flaw type="Success-With-Style"/>
+            </flaws>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="each asset still costs one refresh even with a negative cost formula"
+      test="count(/html/body//section[@id='assets']//fieldset[@class='asset']) = 2
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Technique) [1]')]) = 2
+            and string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '5/7'"/>
+  </x:scenario>
+
+  <x:scenario label="asset cost: special features count extra and allies get one free towards their cost">
+    <x:context>
+      <character>
+        <id>
+          <charname>Points</charname>
+          <playername>Nobody</playername>
+          <story>Counting.</story>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="Portrayal">Calculator</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Arete" type="Device">
+            <features>
+              <feature type="Exceptional"/>
+              <feature type="Flexible"/>
+            </features>
+            <flaws/>
+          </asset>
+          <asset name="Shield" type="Device">
+            <features>
+              <feature type="Protective"/>
+              <feature type="Protective"/>
+            </features>
+            <flaws/>
+          </asset>
+          <asset name="Ally" type="Ally">
+            <features>
+              <feature type="Professional" bonus="3" main-profession="Scholar"/>
+              <feature type="Resilient"/>
+              <feature type="Sturdy" bonus="1"/>
+            </features>
+            <flaws/>
+          </asset>
+          <asset name="Same" type="Device">
+            <features>
+              <feature type="Professional" bonus="3" main-profession="Scholar"/>
+              <feature type="Resilient"/>
+            </features>
+            <flaws/>
+          </asset>
+          <asset name="Zero" type="Device">
+            <features>
+              <feature type="Focus" profession="Scholar"/>
+            </features>
+            <flaws/>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="double-counted exceptional/flexible/protective, ally credit, and a worthless bonus-less focus"
+      test="count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Device) [3]')]) = 3
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Ally) [2]')]) = 1
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), '(Device) [1]')]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="asset features render each type-specific display">
+    <x:context>
+      <character>
+        <id>
+          <charname>Menagerie</charname>
+          <playername>Nobody</playername>
+          <story>Various.</story>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="Portrayal">Collector</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Menagerie" type="Device">
+            <features>
+              <feature type="Independent"/>
+              <feature type="Numerous" bonus="3"/>
+              <feature type="Focus" bonus="3" profession="Scholar"/>
+              <feature type="Harmful" bonus="2"/>
+              <feature type="Protective" bonus="1"/>
+              <feature type="Resilient"/>
+              <feature type="Sturdy" bonus="2"/>
+              <feature type="Professional" bonus="2" main-profession="Aristocrat" other-professions="Explorer"/>
+              <feature type="Exceptional" effect="Test effect"/>
+              <feature type="Exceptional" effect="Failed"/>
+            </features>
+            <flaws/>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="every feature branch renders its display text"
+      test="count(/html/body//section[@id='assets']//dt[@class='feature']) = 10
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), 'Can act independently w/o the expenditure of a Fate Point')]) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Numerous:']/following-sibling::dd[1][string(.)='8']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Focus:']/following-sibling::dd[1][string(.)='Scholar +3']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Harmful:']/following-sibling::dd[1][string(.)='2']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Protective:']/following-sibling::dd[1][string(.)='1']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Sturdy:']/following-sibling::dd[1][string(.)='2']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Professional:']/following-sibling::dd[1][string(.)='Aristocrat +2; Explorer +1']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Resilient:']/following-sibling::dd[1][contains(string(.), 'Mild Consequence')]) = 1
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), 'Test effect')]) = 1
+            and count(/html/body//section[@id='assets']//fieldset[contains(string(.), 'Failed (pg57)')]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="asset flaws render each type-specific display">
+    <x:context>
+      <character>
+        <id>
+          <charname>Flawed</charname>
+          <playername>Nobody</playername>
+          <story>Flawed.</story>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="Portrayal">Scatterbrain</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Flawed" type="Device">
+            <features/>
+            <flaws>
+              <flaw type="Consuming"/>
+              <flaw type="Limited" bonus="1"/>
+              <flaw type="Limited" bonus="2"/>
+              <flaw type="Situational" effect="Some effect text"/>
+              <flaw type="Troubling" effect="Success-With-Style"/>
+              <flaw type="Demanding"/>
+            </flaws>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="every flaw branch renders its display text and a no-effect flaw renders nothing"
+      test="count(/html/body//section[@id='assets']//dt[@class='flaw']) = 6
+            and count(/html/body//section[@id='assets']//dt[.='Consuming:']/following-sibling::dd[1][string(.)='Costs 1 Fate Point to use']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Limited:']/following-sibling::dd[1][string(.)='☐ Once per Scene']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Limited:']/following-sibling::dd[2][string(.)='☐ Once per Session']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Situational:']/following-sibling::dd[1][string(.)='Some effect text']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Troubling:']/following-sibling::dd[1][string(.)='Succeeded w/Style (pg57)']) = 1
+            and count(/html/body//section[@id='assets']//dt[.='Demanding:']/following-sibling::dd[1][string(.)='']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="refresh shows base minus total asset cost and current fate points fall back to that">
+    <x:context>
+      <character>
+        <id>
+          <charname>Computable</charname>
+          <playername>Nobody</playername>
+          <story>Counting down.</story>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="Portrayal">Calculator</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Focuser" type="Device">
+            <features>
+              <feature type="Focus" bonus="3" profession="Scholar"/>
+            </features>
+            <flaws/>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="refresh reads five of seven and fate points match"
+      test="string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '5/7'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '5'"/>
+  </x:scenario>
+
+  <x:scenario label="refresh with an explicit current overrides the computed fate points">
+    <x:context>
+      <character>
+        <id>
+          <charname>Current</charname>
+          <playername>Nobody</playername>
+          <story>Spending.</story>
+        </id>
+        <refresh base="7" current="9"/>
+        <aspects>
+          <aspect type="Portrayal">Spender</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Focuser" type="Device">
+            <features>
+              <feature type="Focus" bonus="3" profession="Scholar"/>
+            </features>
+            <flaws/>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="refresh keeps the computed value while fate points show the override"
+      test="string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '5/7'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '9'"/>
+  </x:scenario>
+
+  <x:scenario label="stress renders three base boxes and no extension row for ally-only sturdy features">
+    <x:context>
+      <character>
+        <id>
+          <charname>Calm</charname>
+          <playername>Nobody</playername>
+          <story>Calm.</story>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="Portrayal">Stoic</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Company" type="Ally">
+            <features/>
+            <flaws/>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="header plus three boxes and no extra row"
+      test="count(/html/body//section[@id='stress']//tr) = 2
+            and count(/html/body//section[@id='stress']//tr[@colspan]) = 0
+            and count(/html/body//section[@id='stress']//th[@colspan='3']) = 1
+            and string(/html/body//section[@id='stress']//tr[2]/td[1]) = '1'
+            and string(/html/body//section[@id='stress']//tr[2]/td[2]) = '2'
+            and string(/html/body//section[@id='stress']//tr[2]/td[3]) = '3'"/>
+  </x:scenario>
+
+  <x:scenario label="stress extends the track for the highest non-ally sturdy bonus">
+    <x:context>
+      <character>
+        <id>
+          <charname>Guarded</charname>
+          <playername>Nobody</playername>
+          <story>Guarded.</story>
+        </id>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="Portrayal">Defended</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="Guard" type="Device">
+            <features>
+              <feature type="Sturdy" bonus="3"/>
+            </features>
+            <flaws/>
+          </asset>
+        </assets>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="an extra row spans three boxes built from the bonus"
+      test="count(/html/body//section[@id='stress']//tr[@colspan]) = 1
+            and string(/html/body//section[@id='stress']//tr[@colspan]/td[1]) = '1'
+            and string(/html/body//section[@id='stress']//tr[@colspan]/td[2]) = '2'
+            and string(/html/body//section[@id='stress']//tr[@colspan]/td[3]) = '3'
+            and count(/html/body//section[@id='stress']//td) = 6"/>
+  </x:scenario>
+
+  <x:scenario label="id, consequences, and absence of optional css or nicknames render plainly">
+    <x:context>
+      <character>
+        <id>
+          <charname>Plain</charname>
+          <playername>Nobody</playername>
+          <story>Short story.</story>
+        </id>
+        <refresh base="5"/>
+        <aspects>
+          <aspect type="Portrayal">Unassuming</aspect>
+        </aspects>
+        <professions/>
+        <assets>
+          <asset name="A" type="Device">
+            <features/>
+            <flaws/>
+          </asset>
+        </assets>
+        <consequences>
+          <consequence severity="Mild">Stiff Neck</consequence>
+          <consequence severity="Moderate">Lost an Eye</consequence>
+        </consequences>
+      </character>
+    </x:context>
+    <x:expect label="no nickname quote, no custom css import, and filled consequences in the right fieldsets"
+      test="count(/html/body//q) = 0
+            and not(contains(string(/html/head/style), 'tran_van_duc'))
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 3
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][1]), 'Stiff Neck')
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][2]), 'Lost an Eye')
+            and not(contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][1]), 'R?'))
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][2]), 'R?')"/>
+  </x:scenario>
+
+</x:description>

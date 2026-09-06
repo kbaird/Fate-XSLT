@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
-  <xsl:template name="generic-stress" mode="jadepunk">
+  <xsl:template name="generic-stress">
     <xsl:param name="baseCount"/>
     <xsl:param name="maxCount" select="$baseCount + 2"/>
     <xsl:param name="headerName"/>
