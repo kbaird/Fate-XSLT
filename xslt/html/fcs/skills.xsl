@@ -31,7 +31,7 @@
         </table>
       </xsl:otherwise>
     </xsl:choose>
-    <xsl:if test="../languages and @shape!='flat'">
+    <xsl:if test="../languages and not(@shape='flat')">
       <section id="languages">Languages: <xsl:value-of select="../languages"/></section>
     </xsl:if>
   </xsl:template>

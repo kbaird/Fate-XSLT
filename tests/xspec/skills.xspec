@@ -149,7 +149,7 @@
             and contains(string(//section[@id='languages']), 'English, Elvish')"/>
   </x:scenario>
 
-  <x:scenario label="pyramid skills without an explicit shape suppress the languages section">
+  <x:scenario label="pyramid skills without an explicit shape render the languages section">
     <x:context select="character/skills">
       <character>
         <languages>English</languages>
@@ -158,9 +158,10 @@
         </skills>
       </character>
     </x:context>
-    <x:expect label="no languages section next to the skills table"
+    <x:expect label="skills table plus languages section"
       test="count(//table[@id='skills_table']) = 1
-            and count(//section[@id='languages']) = 0"/>
+            and count(//section[@id='languages']) = 1
+            and contains(string(//section[@id='languages']), 'English')"/>
   </x:scenario>
 
   <x:scenario label="flat skills render a professions table of approach lists">
