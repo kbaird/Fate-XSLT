@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/atomic-robo_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a full character page renders every section and asset like the real Sherlock Holmes character">
+    <x:context>
+      <character>
+        <id>
+          <charname>Sherlock Holmes</charname>
+          <playername>From the 2012-9 CBS series</playername>
+          <affiliation>Dr. Joan Watson; Major Crimes Unit</affiliation>
+          <description>Kind of looks like Jonny Lee Miller</description>
+        </id>
+        <current-fate-points>5</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept" signature="true">Consulting Detective</aspect>
+          <aspect type="Mode" mode-name="Consulting&#160;Detective">My Work Helps Me Stay Sober</aspect>
+          <aspect type="Mode" mode-name="Action">I Need an Outlet</aspect>
+          <aspect type="Mode" mode-name="Science">Detectives Need to be Polymaths</aspect>
+          <aspect type="&#937;">Abrasive but Ethical</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Consulting&#160;Detective" stress-type="mental">
+            <skill name="Athletics" cost="1"/>
+            <skill name="Burglary" cost="1"/>
+            <skill name="Contacts" cost="1"/>
+            <skill name="Deceive" cost="2"/>
+            <skill name="Forensics" cost="0" add="2"/>
+            <skill name="Notice" cost="1"/>
+            <skill name="Will" cost="1"/>
+          </mode>
+          <mode rating="2" name="Action" stress-type="physical">
+            <skill name="Athletics" cost="2" add="1"/>
+            <skill name="Combat" cost="2" add="1"/>
+            <skill name="Notice" cost="1"/>
+            <skill name="Physique" cost="1"/>
+            <skill name="Provoke" cost="1"/>
+            <skill name="Vehicles" cost="2"/>
+          </mode>
+          <mode rating="1" name="Science">
+            <skill name="Notice" cost="1"/>
+            <skill name="Will" cost="1"/>
+            <skill name="(All Other Sciences)"/>
+          </mode>
+        </skills>
+        <stunts>
+          <stunt name="Mind Palace">
+            Spend a Fate Point to make a suitable declaration predicated on eidetic memory.
+          </stunt>
+          <stunt name="The Science of Deduction">
+            Use Notice instead of Empathy to discover a person's aspects via Create an Advantage,
+              but only when doing so would further an investigation.
+          </stunt>
+          <stunt name="&#160;">&#160;</stunt>
+          <stunt name="&#160;">&#160;</stunt>
+        </stunts>
+        <consequences/>
+        <experiences>
+          <experience/>
+          <experience/>
+          <experience/>
+        </experiences>
+        <notes>If one of your modes is Science, however, apply all of the following improvements:
+* Specialize one trained skill. (Forensics w/in Science).
+</notes>
+      </character>
+    </x:context>
+    <x:expect label="page chrome, sections, id, fate and experience points, aspects, skill modes, stunts, stress, consequences, experiences, and copyright render"
+      test="string(/html/head/title) = 'Sherlock Holmes'
+            and string(/html/body/h1) = string(/html/head/title)
+            and contains(string(/html/head/style), './css/fcs.css')
+            and contains(string(/html/head/style), './css/atomic-robo.css')
+            and count(/html/body//section[@id='id']) = 1
+            and count(/html/body//section[@id='fate-logo']) = 1
+            and count(/html/body//section[@id='aspects']) = 1
+            and count(/html/body//section[@id='skills']) = 1
+            and count(/html/body//section[@id='stunts']) = 1
+            and count(/html/body//section[@id='stress']) = 1
+            and count(/html/body//section[@id='consequences']) = 1
+            and count(/html/body//span[@id='atomic-robo-logo']/img[@alt='Atomic Robo']) = 1
+            and contains(string(/html/body//fieldset[@id='name']), 'Sherlock Holmes')
+            and contains(string(/html/body//fieldset[@id='affiliation']), 'Major Crimes Unit')
+            and contains(string(/html/body//fieldset[@id='description']), 'Jonny Lee Miller')
+            and string(/html/body//dl[@id='current-fate-points']/dd) = '5'
+            and string(/html/body//dl[@id='experience-points']/dd) = '0'
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']) = 5
+            and contains(string(/html/body//section[@id='aspects']), 'Abrasive but Ethical')
+            and count(/html/body//table[@id='skills_table']) = 1
+            and contains(string(/html/body//table[@id='skills_table']//th[@class='sectionheader']), 'Modes and Skills')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[2]), 'Good')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[2]), 'Consulting')
+            and count(/html/body//table[@id='skills_table']//th[@class='mode-rating']) = 5
+            and string((/html/body//table[@id='skills_table']//th[@class='mode-rating'])[1]) = '+5'
+            and count(/html/body//table[@id='skills_table']//ul[@id='skill-explanation']) = 1
+            and count(/html/body//table[@id='skills_table']//li[@class='specialized']) = 3
+            and count(/html/body//table[@id='skills_table']//li[@class='focused']) = 4
+            and count(/html/body//table[@id='skills_table']//li[@class='trained']) = 7
+            and contains(string(/html/body//section[@id='stunts']//th[@class='sectionheader']), 'Stunts &amp; Mega-Stunts')
+            and not(contains(string(/html/body//section[@id='stunts']), 'Total Benefits'))
+            and count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 5
+            and contains(string(/html/body//section[@id='stunts']), 'Signature Aspect: Consulting Detective')
+            and contains(string(/html/body//section[@id='stunts']), 'Mind Palace')
+            and count(/html/body//table[@id='stress_table']//tr) = 4
+            and count(/html/body//table[@id='stress_table']//th[@colspan='4']) = 2
+            and contains(string((/html/body//table[@id='stress_table']//th)[1]), 'Physical Stress')
+            and contains(string((/html/body//table[@id='stress_table']//th)[2]), 'Mental Stress')
+            and string(/html/body//table[@id='stress_table']//tr[2]/td[1]) = '1'
+            and string(/html/body//table[@id='stress_table']//tr[2]/td[3]) = '3'
+            and string(/html/body//table[@id='stress_table']//tr[4]/td[4]) = '4'
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 3
+            and contains(string(/html/body//section[@id='consequences']), 'Mild (2)')
+            and contains(string(/html/body//section[@id='consequences']), 'F = Free, R? = Recovering?')
+            and count(/html/body//table[@id='experiences']//fieldset[@class='experience']) = 3
+            and contains(string(/html/body//p[@id='experiences-explanation']), 'Major Milestone')
+            and contains(string(/html/body//p[@id='copyright']), 'Atomic Robo RPG Character Sheet')
+            and contains(string(/html/body//p[@id='copyright']), '2014 Evil Hat')
+            and contains(string(/html/body//section[@id='notes']), 'Specialize one trained skill')"/>
+  </x:scenario>
+
+  <x:scenario label="the id block renders a nickname quote and omits absent affiliation and description fieldsets">
+    <x:context>
+      <character>
+        <id>
+          <charname nickname="Sparky">Sherlock Holmes</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept">Consulting Detective</aspect>
+          <aspect type="Mode">My Work</aspect>
+          <aspect type="Mode">I Need an Outlet</aspect>
+          <aspect type="Mode">Detectives Need to be Polymaths</aspect>
+          <aspect type="&#937;">Abrasive but Ethical</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Consulting Detective">
+            <skill name="Forensics"/>
+          </mode>
+          <mode rating="2" name="Action">
+            <skill name="Combat"/>
+          </mode>
+          <mode rating="1" name="Science">
+            <skill name="(All Other Sciences)"/>
+          </mode>
+        </skills>
+        <stunts/>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="the name fieldset carries the quoted nickname and no affiliation or description appears"
+      test="count(/html/body//fieldset[@id='name']//q) = 1
+            and contains(string(/html/body//fieldset[@id='name']), 'Sparky')
+            and count(/html/body//fieldset[@id='affiliation']) = 0
+            and count(/html/body//fieldset[@id='description']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="fate points count only non-empty aspects and ignore the current-fate-points element while experience points show their value">
+    <x:context>
+      <character>
+        <id>
+          <charname>Counter</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>99</current-fate-points>
+        <experience-points>7</experience-points>
+        <aspects>
+          <aspect type="Concept">Primary</aspect>
+          <aspect type="Mode">Secondary</aspect>
+          <aspect type="&#937;">Omega</aspect>
+          <aspect type="Mode">&#160;</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts/>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="three text aspects are counted despite the stored value of ninety-nine and the nbsp placeholder"
+      test="string(/html/body//dl[@id='current-fate-points']/dd) = '3'
+            and string(/html/body//dl[@id='experience-points']/dd) = '7'"/>
+  </x:scenario>
+
+  <x:scenario label="skill modes render the header, rows from the maximum skill rating down, and trained, focused, and specialized classes">
+    <x:context>
+      <character>
+        <id>
+          <charname>Modes</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept">Mode User</aspect>
+          <aspect type="Mode">Alpha Mind</aspect>
+          <aspect type="Mode">Beta Body</aspect>
+          <aspect type="Mode">Gamma Soul</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <languages>English</languages>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+            <skill name="AlphaBoost" add="2"/>
+            <skill name="BetaBoost"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+            <skill name="BetaBoost"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts/>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="the modes header, five rating rows, specialized and focused rows, and the explanation list render"
+      test="count(/html/body//table[@id='skills_table']) = 1
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[2]), 'Good')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[2]), 'Alpha')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[2]), '+3')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[3]), 'Fair')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[3]), 'Beta')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[4]), 'Average')
+            and contains(string(/html/body//table[@id='skills_table']//tr[2]/th[4]), 'Gamma')
+            and count(/html/body//table[@id='skills_table']//th[@class='mode-rating']) = 5
+            and string((/html/body//table[@id='skills_table']//th[@class='mode-rating'])[1]) = '+5'
+            and string((/html/body//table[@id='skills_table']//th[@class='mode-rating'])[5]) = '+1'
+            and count(/html/body//table[@id='skills_table']//li[@class='specialized']) = 2
+            and count(/html/body//table[@id='skills_table']//li[@class='focused']) = 2
+            and count(/html/body//table[@id='skills_table']//li[@class='trained']) = 3
+            and contains(string(/html/body//table[@id='skills_table']), 'AlphaBoost')
+            and contains(string(/html/body//table[@id='skills_table']), 'BetaBoost')
+            and contains(string(/html/body//table[@id='skills_table']), 'GammaSkill')
+            and count(/html/body//table[@id='skills_table']//td[@class='unused']) = 6
+            and count(/html/body//table[@id='skills_table']//ul[@id='skill-explanation']) = 1
+            and contains(string(/html/body//section[@id='skills']//section[@id='languages']), 'English')"/>
+  </x:scenario>
+
+  <x:scenario label="stress boxes count two plus mode additions, a split mode at the highest rating contributes to both tracks, and the headers align to the longer track">
+    <x:context>
+      <character>
+        <id>
+          <charname>Stressed</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept">Under Pressure</aspect>
+          <aspect type="Mode">Fight</aspect>
+          <aspect type="Mode">Flight</aspect>
+          <aspect type="Mode">Freeze</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Fight" stress-type="split">
+            <skill name="Smooth"/>
+          </mode>
+          <mode rating="2" name="Flight" stress-type="mental">
+            <skill name="Fast"/>
+          </mode>
+          <mode rating="1" name="Freeze" stress-type="physical">
+            <skill name="Frozen"/>
+          </mode>
+        </skills>
+        <stunts/>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="three physical boxes, four mental boxes, and both headers span the maximum count"
+      test="count(/html/body//table[@id='stress_table']//tr) = 4
+            and count(/html/body//table[@id='stress_table']//th[@colspan='4']) = 2
+            and contains(string((/html/body//table[@id='stress_table']//th)[1]), 'Physical Stress')
+            and contains(string((/html/body//table[@id='stress_table']//th)[2]), 'Mental Stress')
+            and string(/html/body//table[@id='stress_table']//tr[2]/td[1]) = '1'
+            and string(/html/body//table[@id='stress_table']//tr[2]/td[2]) = '2'
+            and string(/html/body//table[@id='stress_table']//tr[2]/td[3]) = '3'
+            and count(/html/body//table[@id='stress_table']//tr[2]/td) = 3
+            and string(/html/body//table[@id='stress_table']//tr[4]/td[1]) = '1'
+            and string(/html/body//table[@id='stress_table']//tr[4]/td[2]) = '2'
+            and string(/html/body//table[@id='stress_table']//tr[4]/td[3]) = '3'
+            and string(/html/body//table[@id='stress_table']//tr[4]/td[4]) = '4'
+            and count(/html/body//table[@id='stress_table']//tr[4]/td) = 4"/>
+  </x:scenario>
+
+  <x:scenario label="experiences render blank and used fieldsets with the milestone explanation">
+    <x:context>
+      <character>
+        <id>
+          <charname>Recorder</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept">Chronicler</aspect>
+          <aspect type="Mode">Remember</aspect>
+          <aspect type="Mode">Relive</aspect>
+          <aspect type="Mode">Record</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts/>
+        <consequences/>
+        <experiences>
+          <experience/>
+          <experience used="true">Helped a bystander</experience>
+          <experience/>
+        </experiences>
+      </character>
+    </x:context>
+    <x:expect label="a used experience renders in a struck class and the explanation names a Major Milestone"
+      test="count(/html/body//table[@id='experiences']//fieldset[@class='experience']) = 2
+            and count(/html/body//table[@id='experiences']//fieldset[@class='experience used']) = 1
+            and contains(string(/html/body//table[@id='experiences']//fieldset[@class='experience used']), 'Helped a bystander')
+            and contains(string(/html/body//p[@id='experiences-explanation']), 'Major Milestone')"/>
+  </x:scenario>
+
+  <x:scenario label="a suppressed experiences block renders no table and no explanation">
+    <x:context>
+      <character>
+        <id>
+          <charname>Silent</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept">Secretive</aspect>
+          <aspect type="Mode">Hide</aspect>
+          <aspect type="Mode">Lie</aspect>
+          <aspect type="Mode">Deny</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts/>
+        <consequences/>
+        <experiences suppress="true">
+          <experience/>
+        </experiences>
+      </character>
+    </x:context>
+    <x:expect label="no experiences table and no explanation paragraph appear"
+      test="count(/html/body//*[@id='experiences']) = 0
+            and count(/html/body//p[@id='experiences-explanation']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="stunts render padded normal, mega, and gadget fieldsets, a signature aspect row, and total benefits over the GM reserve">
+    <x:context>
+      <character>
+        <id>
+          <charname>Gadgeteer</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept" signature="true">Mad Scientist</aspect>
+          <aspect type="Mode">Build</aspect>
+          <aspect type="Mode">Test</aspect>
+          <aspect type="Mode">Explode</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts>
+          <stunt name="Mind Palace">
+            Spend a Fate Point to make a suitable declaration.
+          </stunt>
+          <stunt name="The Science of Deduction">
+            Use Notice instead of Empathy to learn a person's aspects.
+          </stunt>
+          <stunt name="Big Explosion" mega="true">
+            Blow things up with style.
+          </stunt>
+          <gadget name="Aspect Radar">
+            <function>Detect any aspect within line of sight</function>
+            <flaws>
+              <flaw>Only while charged</flaw>
+            </flaws>
+            <benefits>
+              <benefit name="Range" cost="3">Reaches through walls</benefit>
+            </benefits>
+          </gadget>
+        </stunts>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="four stunt-like fieldsets plus the signature row render, with a mega class, gadget structure, and the GM reserve line for a total of nine"
+      test="count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 3
+            and count(/html/body//section[@id='stunts']//fieldset[@class='mega stunt']) = 2
+            and contains(string(/html/body//section[@id='stunts']), 'Signature Aspect: Mad Scientist')
+            and contains(string(/html/body//section[@id='stunts']), 'Invoke once for free')
+            and contains(string(/html/body//section[@id='stunts']), 'Big Explosion')
+            and contains(string(/html/body//section[@id='stunts']), 'Aspect Radar')
+            and contains(string(/html/body//section[@id='stunts']), 'Detect any aspect')
+            and contains(string(/html/body//section[@id='stunts']), 'Function Aspect')
+            and contains(string(/html/body//section[@id='stunts']), 'Flaw Aspect')
+            and contains(string(/html/body//section[@id='stunts']), 'Range [3]')
+            and contains(string(/html/body//section[@id='stunts']), 'Total Benefits: 9 - 5 = +4 Fate Points to the GM''s reserve')"/>
+  </x:scenario>
+
+  <x:scenario label="stunts cost exactly six renders the single-point GM reserve line">
+    <x:context>
+      <character>
+        <id>
+          <charname>Balanced</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept" signature="true">Steady Hand</aspect>
+          <aspect type="Mode">Alpha</aspect>
+          <aspect type="Mode">Beta</aspect>
+          <aspect type="Mode">Gamma</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts>
+          <stunt name="First">One.</stunt>
+          <stunt name="Second">Two.</stunt>
+          <stunt name="Third">Three.</stunt>
+          <stunt name="Fourth">Four.</stunt>
+          <gadget name="Helper">
+            <function>Assists</function>
+            <flaws/>
+            <benefits/>
+          </gadget>
+        </stunts>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="four stunts plus a no-benefit gadget plus the signature aspect reach exactly six"
+      test="contains(string(/html/body//section[@id='stunts']), 'Total Benefits: 6 - 5 = +1 Fate Point to the GM''s reserve')"/>
+  </x:scenario>
+
+  <x:scenario label="stunts cost fewer than six renders no total-benefits line at all">
+    <x:context>
+      <character>
+        <id>
+          <charname>Lean</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept" signature="true">Lone Wolf</aspect>
+          <aspect type="Mode">Alpha</aspect>
+          <aspect type="Mode">Beta</aspect>
+          <aspect type="Mode">Gamma</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts>
+          <stunt name="One">One.</stunt>
+          <stunt name="Two">Two.</stunt>
+          <stunt name="Three">Three.</stunt>
+        </stunts>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="three stunts plus the signature aspect stay under six, changing nothing"
+      test="contains(string(/html/body//section[@id='stunts']//th[@class='sectionheader']), 'Stunts &amp; Mega-Stunts')
+            and not(contains(string(/html/body//section[@id='stunts']), 'Total Benefits'))"/>
+  </x:scenario>
+
+  <x:scenario label="consequences render the standard boxes plus a second mild when a stunt grants one">
+    <x:context>
+      <character>
+        <id>
+          <charname>Battle-Scarred</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept">Hardened</aspect>
+          <aspect type="Mode">Alpha</aspect>
+          <aspect type="Mode">Beta</aspect>
+          <aspect type="Mode">Gamma</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <stunts>
+          <stunt name="Hardy" consequence="Mild">Shrug off a hit.</stunt>
+        </stunts>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="four consequence boxes appear with the mild, moderate, and severe labels plus a second mild"
+      test="count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 4
+            and count(/html/body//section[@id='consequences']//legend[@class='severity'][contains(string(.), 'Mild (2)')]) = 2
+            and contains(string(/html/body//section[@id='consequences']), 'Moderate (4)')
+            and contains(string(/html/body//section[@id='consequences']), 'Severe (6)')
+            and contains(string(/html/body//section[@id='consequences']), 'F = Free, R? = Recovering?')"/>
+  </x:scenario>
+
+  <x:scenario label="the conditions gate swaps consequences for a conditions table">
+    <x:context>
+      <character>
+        <id>
+          <charname>Zealot</charname>
+          <playername>Nobody</playername>
+        </id>
+        <current-fate-points>1</current-fate-points>
+        <experience-points>0</experience-points>
+        <aspects>
+          <aspect type="Concept">Zealot</aspect>
+          <aspect type="Mode">Alpha</aspect>
+          <aspect type="Mode">Beta</aspect>
+          <aspect type="Mode">Gamma</aspect>
+          <aspect type="&#937;">Omega</aspect>
+        </aspects>
+        <skills>
+          <mode rating="3" name="Alpha">
+            <skill name="AlphaSkill"/>
+          </mode>
+          <mode rating="2" name="Beta">
+            <skill name="BetaSkill"/>
+          </mode>
+          <mode rating="1" name="Gamma">
+            <skill name="GammaSkill"/>
+          </mode>
+        </skills>
+        <hacks conditions="true"/>
+        <stunts/>
+        <consequences/>
+        <experiences/>
+      </character>
+    </x:context>
+    <x:expect label="the conditions table with severity-one, two, and severe-four labels replaces the consequence boxes"
+      test="count(/html/body//table[@id='conditions']) = 1
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 0
+            and count(/html/body//table[@id='conditions']//dt[@class='severe']) = 2
+            and contains(string(/html/body//table[@id='conditions']), 'Angry')
+            and contains(string(/html/body//table[@id='conditions']), 'Frightened')
+            and contains(string(/html/body//table[@id='conditions']), 'Exhausted')
+            and contains(string(/html/body//table[@id='conditions']), 'Hungry')
+            and contains(string(/html/body//table[@id='conditions']), 'Injured')
+            and contains(string(/html/body//table[@id='conditions']), 'Broken')
+            and contains(string(/html/body//table[@id='conditions']), 'Fleeting')
+            and contains(string(/html/body//table[@id='conditions']), 'Sticky')
+            and contains(string(/html/body//table[@id='conditions']), 'Lasting')"/>
+  </x:scenario>
+
+</x:description>
