@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="default character renders the three core consequences">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="Mild, Moderate, and Severe fieldsets with severity legend and free/recovering hint"
+      test="count(//fieldset[contains(@class,'consequence')]) = 3
+            and count(//legend[contains(@class,'severity')]) = 3
+            and count(//legend/span[.='Mild (2)']) = 1
+            and count(//legend/span[.='Moderate (4)']) = 1
+            and count(//legend/span[.='Severe (6)']) = 1
+            and string(//tfoot) = 'F = Free, R? = Recovering?'"/>
+  </x:scenario>
+
+  <x:scenario label="Mild consequences offer a free slot without a recovering slot">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="the Mild legend has F but no / R?"
+      test="contains(string(//legend/span[.='Mild (2)']/following-sibling::text()[1]), 'F')
+            and contains(string(//legend/span[.='Mild (2)']/following-sibling::text()[1]), '☐')
+            and not(contains(string(//legend/span[.='Mild (2)']/following-sibling::text()[1]), 'R?'))"/>
+  </x:scenario>
+
+  <x:scenario label="Moderate and Severe consequences offer free and recovering slots">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="both Moderate and Severe legends contain F and R?"
+      test="string(//legend/span[.='Moderate (4)']/following-sibling::text()[1]) = 'F ☐ / R? ☐'
+            and string(//legend/span[.='Severe (6)']/following-sibling::text()[1]) = 'F ☐ / R? ☐'"/>
+  </x:scenario>
+
+  <x:scenario label="filled consequences render their text inside the matching fieldset">
+    <x:context>
+      <character>
+        <consequences>
+          <consequence severity="Mild">Gashed Arm</consequence>
+          <consequence severity="Severe">Broken Pelvis</consequence>
+        </consequences>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="Gashed Arm under Mild and Broken Pelvis under Severe"
+      test="count(//fieldset[contains(.,'Gashed Arm')]) = 1
+            and count(//fieldset[contains(.,'Broken Pelvis')]) = 1
+            and count(//fieldset[contains(.,'Broken Pelvis')][not(contains(.,'Mild (2)'))]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="an extra Mild consequence slot follows a stunt declaring consequence Mild">
+    <x:context>
+      <character>
+        <stunts>
+          <stunt name="Tough as Nails" consequence="Mild"/>
+        </stunts>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequences (two Mild slots)"
+      test="count(//fieldset[contains(@class,'consequence')]) = 4
+            and count(//legend/span[.='Mild (2)']) = 2"/>
+  </x:scenario>
+
+  <x:scenario label="Physique above 4 adds a mild physical consequence">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequences including Mild Physical (2)"
+      test="count(//fieldset[contains(@class,'consequence')]) = 4
+            and count(//legend/span[.='Mild Physical (2)']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="Will above 4 adds a mild mental consequence">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Will" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequences including Mild Mental (2)"
+      test="count(//fieldset[contains(@class,'consequence')]) = 4
+            and count(//legend/span[.='Mild Mental (2)']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="Dwarven Toughness adds a mild physical consequence without high Physique">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="2"/>
+        </skills>
+        <stunts>
+          <stunt name="Dwarven Toughness"/>
+        </stunts>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequences including Mild Physical (2)"
+      test="count(//fieldset[contains(@class,'consequence')]) = 4
+            and count(//legend/span[.='Mild Physical (2)']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="high Physique and Will together add both physical and mental consequences">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="5"/>
+          <skill name="Will" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="five consequences"
+      test="count(//fieldset[contains(@class,'consequence')]) = 5
+            and count(//legend/span[.='Mild Physical (2)']) = 1
+            and count(//legend/span[.='Mild Mental (2)']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="consequence template renders a lone severity detail inline using call params">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="consequence">
+      <x:param name="label">Severe (6)</x:param>
+      <x:param name="severity">Severe</x:param>
+    </x:call>
+    <x:expect label="a Severe fieldset with both slots"
+      test="count(//fieldset[contains(@class,'consequence')]) = 1
+            and string(//legend/span) = 'Severe (6)'
+            and contains(string(//legend), '☐')"/>
+  </x:scenario>
+
+  <x:scenario label="consequence template leaves out the recovering slot for a mild severity via call params">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="consequence">
+      <x:param name="label">Mild (2)</x:param>
+      <x:param name="severity">Mild</x:param>
+    </x:call>
+    <x:expect label="a Mild fieldset without the R? hint"
+      test="string(//legend/span) = 'Mild (2)'
+            and contains(string(//legend), 'F')
+            and not(contains(string(//legend), 'R?'))"/>
+  </x:scenario>
+
+</x:description>

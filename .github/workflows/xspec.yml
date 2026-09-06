@@ -36,8 +36,28 @@ jobs:
         run: |
           set -e
           for f in tests/xspec/*.xspec; do
-            tools/xspec/bin/xspec.sh -j -e "$f"
+            tools/xspec/bin/xspec.sh -j -c -e "$f"
           done
+
+      - name: Generate JUnit reports
+        env:
+          SAXON_CP: ${{ github.workspace }}/tools/Saxon-HE.jar:${{ github.workspace }}/tools/xmlresolver.jar
+        run: |
+          set -e
+          for f in tests/xspec/xspec/*-result.xml; do
+            name=$(basename "$f" -result.xml)
+            java -cp "$SAXON_CP" net.sf.saxon.Transform \
+              -s:"$f" -xsl:"${{ github.workspace }}/tools/xspec/src/reporter/junit-report.xsl" \
+              -o:"tests/xspec/xspec/${name}-junit.xml"
+          done
+
+      - name: Upload XSpec coverage reports
+        if: success() || failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xspec-coverage
+          path: tests/xspec/xspec/*-coverage.*
+          if-no-files-found: error
 
       - name: Report XSpec results
         if: success() || failure()

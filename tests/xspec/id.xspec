@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a minimal id element renders just the name fieldset">
+    <x:context>
+      <id>
+        <charname>Zird</charname>
+      </id>
+    </x:context>
+    <x:expect label="name only, no q, no optional fieldsets"
+      test="count(//table) = 1
+            and count(//fieldset[@id='name']) = 1
+            and contains(string(//fieldset[@id='name']), 'Zird')
+            and count(//q) = 0
+            and count(//fieldset[@id='description']) = 0
+            and count(//fieldset[@id='arc']) = 0
+            and count(//fieldset[@id='unique']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="a complete id element renders name, description, arc, and unique fieldsets">
+    <x:context>
+      <id>
+        <charname nickname="The Swordsman">Zird the Arcane</charname>
+        <description>First man to get a technical achievement on Arcanum.</description>
+        <arc name="Redemption">Shut down the war machine he built.</arc>
+        <unique>Only person who can use the Reroll Crystal.</unique>
+      </id>
+    </x:context>
+    <x:expect label="all fieldsets present with nicknamed q"
+      test="count(//fieldset[@id='name']) = 1
+            and contains(string(//fieldset[@id='name']), 'Zird the Arcane')
+            and string(//q) = 'The Swordsman'
+            and count(//fieldset[@id='description']) = 1
+            and contains(string(//fieldset[@id='description']), 'technical achievement')
+            and count(//fieldset[@id='arc']) = 1
+            and string(//fieldset[@id='arc']/legend/span) = 'Arc: Redemption'
+            and count(//fieldset[@id='unique']) = 1
+            and string(//fieldset[@id='unique']/legend/span) = 'One Unique Thing'
+            and contains(string(//fieldset[@id='unique']), 'Reroll Crystal')"/>
+  </x:scenario>
+
+  <x:scenario label="name template renders the character name and quoted nickname">
+    <x:context>
+      <id>
+        <charname nickname="Stretch">Elongated Man</charname>
+      </id>
+    </x:context>
+    <x:call template="name"/>
+    <x:expect label="name fieldset with nicknamed q"
+      test="count(//fieldset[@id='name']) = 1
+            and contains(string(//fieldset[@id='name']), 'Elongated Man')
+            and count(//q) = 1
+            and string(//q) = 'Stretch'"/>
+  </x:scenario>
+
+  <x:scenario label="name template omits the quoted nickname when charname has none">
+    <x:context>
+      <id>
+        <charname>Plain Name</charname>
+      </id>
+    </x:context>
+    <x:call template="name"/>
+    <x:expect label="no q element"
+      test="contains(string(//fieldset[@id='name']), 'Plain Name')
+            and count(//q) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="head template renders the page title from the character name">
+    <x:context>
+      <character>
+        <id>
+          <charname>Elongated Man</charname>
+        </id>
+      </character>
+    </x:context>
+    <x:call template="head">
+      <x:param name="baseCSS">fcs</x:param>
+      <x:param name="moreCSS">condensed</x:param>
+      <x:param name="useConditions">true</x:param>
+    </x:call>
+    <x:expect label="title with charname and the expected CSS imports"
+      test="count(//head) = 1
+            and string(//title) = 'Elongated Man'
+            and contains(string(//style), './css/fcs.css')
+            and contains(string(//style), './css/conditions.css')
+            and contains(string(//style), './css/condensed.css')"/>
+  </x:scenario>
+
+</x:description>

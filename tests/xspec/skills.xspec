@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="skill rating 5 renders a Superb row">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Athletics" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skill">
+      <x:param name="rating">5</x:param>
+    </x:call>
+    <x:expect label="Superb (+5) header and one cell"
+      test="count(//tr) = 1
+            and contains(string(//th), 'Superb')
+            and contains(string(//th), '(+5)')
+            and string(//td) = 'Athletics'"/>
+  </x:scenario>
+
+  <x:scenario label="skill rating 4 renders a Great row">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="4"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skill">
+      <x:param name="rating">4</x:param>
+    </x:call>
+    <x:expect label="Great (+4) header"
+      test="contains(string(//th), 'Great') and contains(string(//th), '(+4)')"/>
+  </x:scenario>
+
+  <x:scenario label="skill rating 3 renders a Good row">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Burglary" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skill">
+      <x:param name="rating">3</x:param>
+    </x:call>
+    <x:expect label="Good (+3) header"
+      test="contains(string(//th), 'Good') and contains(string(//th), '(+3)')"/>
+  </x:scenario>
+
+  <x:scenario label="skill rating 2 renders a Fair row">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Contacts" rating="2"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skill">
+      <x:param name="rating">2</x:param>
+    </x:call>
+    <x:expect label="Fair (+2) header"
+      test="contains(string(//th), 'Fair') and contains(string(//th), '(+2)')"/>
+  </x:scenario>
+
+  <x:scenario label="skill rating 1 renders an Average row">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Drive" rating="1"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skill">
+      <x:param name="rating">1</x:param>
+    </x:call>
+    <x:expect label="Average (+1) header"
+      test="contains(string(//th), 'Average') and contains(string(//th), '(+1)')"/>
+  </x:scenario>
+
+  <x:scenario label="skills sharing a rating share one row">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="3"/>
+          <skill name="Will" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skill">
+      <x:param name="rating">3</x:param>
+    </x:call>
+    <x:expect label="one row, two cells, both names present"
+      test="count(//tr) = 1 and count(//td) = 2
+            and string((//td)[1]) = 'Physique'
+            and string((//td)[2]) = 'Will'"/>
+  </x:scenario>
+
+  <x:scenario label="skill template emits nothing for an absent rating">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Burglary" rating="1"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skill">
+      <x:param name="rating">4</x:param>
+    </x:call>
+    <x:expect label="no elements in the result"
+      test="empty($x:result)"/>
+  </x:scenario>
+
+  <x:scenario label="pyramid skills render a header row plus one row per present rating">
+    <x:context select="character/skills">
+      <character>
+        <skills name="Skills">
+          <skill name="Physique" rating="3"/>
+          <skill name="Will" rating="3"/>
+          <skill name="Burglary" rating="1"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:expect label="skills_table with the custom name and two rating rows"
+      test="count(//table[@id='skills_table']) = 1
+            and string(//th[contains(@class,'sectionheader')]) = 'Skills'
+            and count(//tr[th[contains(.,'Good') and contains(.,'(+3)')]]) = 1
+            and count(//tr[th[contains(.,'Average') and contains(.,'(+1)')]]) = 1
+            and count(//tr[th[contains(@class,'rating')]]) = 2
+            and count(//td) = 3"/>
+  </x:scenario>
+
+  <x:scenario label="languages render in a section beneath pyramid skills that declare a non-flat shape">
+    <x:context select="character/skills">
+      <character>
+        <languages>English, Elvish</languages>
+        <skills name="Skills" shape="pyramid">
+          <skill name="Burglary" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:expect label="skills table plus languages section"
+      test="count(//table[@id='skills_table']) = 1
+            and count(//section[@id='languages']) = 1
+            and contains(string(//section[@id='languages']), 'English, Elvish')"/>
+  </x:scenario>
+
+  <x:scenario label="pyramid skills without an explicit shape suppress the languages section">
+    <x:context select="character/skills">
+      <character>
+        <languages>English</languages>
+        <skills name="Skills">
+          <skill name="Burglary" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:expect label="no languages section next to the skills table"
+      test="count(//table[@id='skills_table']) = 1
+            and count(//section[@id='languages']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="flat skills render a professions table of approach lists">
+    <x:context select="character/skills">
+      <character>
+        <skills name="Skills" shape="flat">
+          <skill name="Physique" rating="3"/>
+          <skill name="Will" rating="2"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:expect label="professions table with two approach dl entries"
+      test="count(//table[@id='professions']) = 1
+            and count(//dl[@class='approaches']) = 2
+            and contains(string((//dl)[1]/dt), 'Physique')
+            and string((//dl)[1]/dd) = '+3'
+            and string((//dl)[2]/dd) = '+2'"/>
+  </x:scenario>
+
+  <x:scenario label="flat skills suppress the languages section">
+    <x:context select="character/skills">
+      <character>
+        <languages>English</languages>
+        <skills name="Skills" shape="flat">
+          <skill name="Physique" rating="3"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:expect label="no languages section for flat skills"
+      test="count(//section[@id='languages']) = 0
+            and count(//table[@id='professions']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="skill modes render headers, placement, unused cells, and the skill explanation">
+    <x:context>
+      <character>
+        <skills>
+          <mode name="Combat" rating="3">
+            <skill name="Shoot"/>
+            <skill name="Fight" add="1"/>
+          </mode>
+          <mode name="Social" rating="2">
+            <skill name="Rapport"/>
+          </mode>
+          <mode name="Technical" rating="1">
+            <skill name="Hack"/>
+          </mode>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skills-with-modes"/>
+    <x:expect label="one row per rating from 5 down to 1, with all four skills placed"
+      test="count(//tr[th[contains(.,'Modes and Skills')]]) = 1
+            and count(//tr[th[contains(@class,'mode-rating')]]) = 5
+            and count(//th[contains(.,'Good') and contains(.,'Combat')]) = 1
+            and count(//th[contains(.,'Fair') and contains(.,'Social')]) = 1
+            and count(//th[contains(.,'Average') and contains(.,'Technical')]) = 1
+            and count(//li[.='Shoot']) = 1
+            and count(//li[.='Fight']) = 1
+            and count(//li[.='Rapport']) = 1
+            and count(//li[.='Hack']) = 1
+            and count(//li[contains(@class,'trained')]) = 3"/>
+  </x:scenario>
+
+  <x:scenario label="skill modes mark empty tiers as unused and explain specializing">
+    <x:context>
+      <character>
+        <skills>
+          <mode name="Combat" rating="3">
+            <skill name="Shoot"/>
+            <skill name="Fight" add="1"/>
+          </mode>
+          <mode name="Social" rating="2">
+            <skill name="Rapport"/>
+          </mode>
+          <mode name="Technical" rating="1">
+            <skill name="Hack"/>
+          </mode>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skills-with-modes"/>
+    <x:expect label="unused tier cells and specialized/focused/trained explanation"
+      test="count(//td[@class='unused']) = 6
+            and count(//ul[@id='skill-explanation']) = 1
+            and count(//ul[@id='skill-explanation']/li[contains(@class,'specialized')]) = 1
+            and count(//ul[@id='skill-explanation']/li[contains(@class,'focused')]) = 1
+            and string(//ul[@id='skill-explanation']/li[3]) = 'trained'
+            and count(//li[contains(@class,'focused') and .='Fight']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="skill roles render a roles list and skills at derived ratings">
+    <x:context>
+      <character>
+        <skills>
+          <role name="The Cop" gonzo="true">
+            <skill name="Athletics" add="1"/>
+            <skill name="Shoot" add="3"/>
+          </role>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="skills-with-roles"/>
+    <x:expect label="roles header, gonzo role listed, and skills placed by derived rating"
+      test="count(//th[contains(.,'Roles and Skills')]) = 1
+            and count(//li[.='The Cop']) = 1
+            and count(//li[contains(@class,'gonzo')]) = 1
+            and count(//td[.='Athletics']) = 1
+            and count(//td[.='Shoot']) = 1"/>
+  </x:scenario>
+
+</x:description>

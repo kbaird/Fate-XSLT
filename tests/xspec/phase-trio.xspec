@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="phase title template uses the default titles for phases 1 through 3">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="phase-title">
+      <x:param name="phase">1</x:param>
+    </x:call>
+    <x:expect label="Phase 1: Your Adventure"
+      test="string(.) = 'Phase 1: Your Adventure'"/>
+  </x:scenario>
+
+  <x:scenario label="phase 2 uses the default crossing paths title">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="phase-title">
+      <x:param name="phase">2</x:param>
+    </x:call>
+    <x:expect label="Phase 2: Crossing Paths"
+      test="string(.) = 'Phase 2: Crossing Paths'"/>
+  </x:scenario>
+
+  <x:scenario label="phase 3 uses the default crossing paths again title">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="phase-title">
+      <x:param name="phase">3</x:param>
+    </x:call>
+    <x:expect label="Phase 3: Crossing Paths Again"
+      test="string(.) = 'Phase 3: Crossing Paths Again'"/>
+  </x:scenario>
+
+  <x:scenario label="a custom phase title overrides the default">
+    <x:context>
+      <character>
+        <phase-trio>
+          <phase num="2" title="Two Fisted Action"/>
+        </phase-trio>
+      </character>
+    </x:context>
+    <x:call template="phase-title">
+      <x:param name="phase">2</x:param>
+    </x:call>
+    <x:expect label="Phase 2: Two Fisted Action"
+      test="string(.) = 'Phase 2: Two Fisted Action'"/>
+  </x:scenario>
+
+  <x:scenario label="an unknown phase number falls back to Unknown Title">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="phase-title">
+      <x:param name="phase">9</x:param>
+    </x:call>
+    <x:expect label="Phase 9: Unknown Title"
+      test="string(.) = 'Phase 9: Unknown Title'"/>
+  </x:scenario>
+
+  <x:scenario label="phase aspects use the singular Aspect label for a single aspect">
+    <x:context>
+      <character>
+        <aspects>
+          <aspect type="High-Concept" phase-num="1">Always Carries a Torch</aspect>
+        </aspects>
+      </character>
+    </x:context>
+    <x:call template="phase-aspects">
+      <x:param name="phase">1</x:param>
+    </x:call>
+    <x:expect label="Aspect with one emphasized aspect"
+      test="string(//span[contains(@class,'aspects')]) = 'Aspect:Always Carries a Torch'
+            and count(//em[contains(@class,'phase-aspect')]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="phase aspects use the plural Aspects label and comma separation">
+    <x:context>
+      <character>
+        <aspects>
+          <aspect type="High-Concept" phase-num="2">First Tie</aspect>
+          <aspect type="Trouble" phase-num="2">Second Tie</aspect>
+        </aspects>
+      </character>
+    </x:context>
+    <x:call template="phase-aspects">
+      <x:param name="phase">2</x:param>
+    </x:call>
+    <x:expect label="Aspects with two emphasized aspects"
+      test="contains(string(//span[contains(@class,'aspects')]), 'Aspects:')
+            and count(//em[contains(@class,'phase-aspect')]) = 2
+            and string((//em)[1]) = 'First Tie'
+            and string((//em)[2]) = 'Second Tie'"/>
+  </x:scenario>
+
+  <x:scenario label="phase-with-num renders only the legend and events for its matching phase">
+    <x:context select="character/phase-trio/phase">
+      <character>
+        <aspects>
+          <aspect type="High-Concept" phase-num="1">Torchbearer</aspect>
+        </aspects>
+        <phase-trio>
+          <phase num="1" title="Ignition">
+            <events>The adventure begins.</events>
+          </phase>
+        </phase-trio>
+      </character>
+    </x:context>
+    <x:call template="phase-with-num">
+      <x:param name="num">1</x:param>
+    </x:call>
+    <x:expect label="custom title, single aspect, and events text"
+      test="string(//span[contains(@class,'phase-title')]) = 'Phase 1: Ignition'
+            and count(//em[contains(@class,'phase-aspect')]) = 1
+            and string(//em[contains(@class,'phase-aspect')]) = 'Torchbearer'
+            and normalize-space(string(./text()[last()])) = 'The adventure begins.'"/>
+  </x:scenario>
+
+  <x:scenario label="phase-with-num omits the phase block for a different num">
+    <x:context select="character/phase-trio/phase">
+      <character>
+        <phase-trio>
+          <phase num="1">
+            <events>The adventure begins.</events>
+          </phase>
+        </phase-trio>
+      </character>
+    </x:context>
+    <x:call template="phase-with-num">
+      <x:param name="num">2</x:param>
+    </x:call>
+    <x:expect label="nothing for phase 2"
+      test="empty($x:result)"/>
+  </x:scenario>
+
+  <x:scenario label="the phase trio table renders a block per phase with numbered titles">
+    <x:context select="character/phase-trio">
+      <character>
+        <aspects>
+          <aspect type="High-Concept" phase-num="1">Torchbearer</aspect>
+          <aspect type="Trouble" phase-num="2">Featherweight</aspect>
+        </aspects>
+        <phase-trio>
+          <phase num="1">
+            <events>First adventure.</events>
+          </phase>
+          <phase num="2">
+            <events>Meeting the crew.</events>
+          </phase>
+        </phase-trio>
+      </character>
+    </x:context>
+    <x:expect label="Phases table with default titles in each fieldset"
+      test="count(//table) = 1
+            and string(//th[contains(@class,'sectionheader')]) = 'Phases'
+            and count(//fieldset[contains(@class,'phase')]) = 2
+            and count(//span[contains(@class,'phase-title') and .='Phase 1: Your Adventure']) = 1
+            and count(//span[contains(@class,'phase-title') and .='Phase 2: Crossing Paths']) = 1
+            and count(//span[contains(@class,'phase-title') and .='Phase 3: Crossing Paths Again']) = 0
+            and contains(string(//fieldset[contains(.,'Phase 1: Your Adventure')]), 'First adventure.')
+            and contains(string(//fieldset[contains(.,'Phase 2: Crossing Paths')]), 'Meeting the crew.')"/>
+  </x:scenario>
+
+  <x:scenario label="an aspect on phase three pulls phase three into the trio table">
+    <x:context select="character/phase-trio">
+      <character>
+        <aspects>
+          <aspect type="High-Concept" phase-num="3">Phantom of the Boardwalk</aspect>
+        </aspects>
+        <phase-trio>
+          <phase num="3">
+            <events>The third phase.</events>
+          </phase>
+        </phase-trio>
+      </character>
+    </x:context>
+    <x:expect label="Phase 3 fieldset with the phase aspect"
+      test="count(//fieldset[contains(@class,'phase')]) = 1
+            and count(//span[contains(@class,'phase-title') and .='Phase 3: Crossing Paths Again']) = 1
+            and count(//em[contains(@class,'phase-aspect') and .='Phantom of the Boardwalk']) = 1"/>
+  </x:scenario>
+
+</x:description>

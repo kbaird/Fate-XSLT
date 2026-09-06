@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fcs_html.xsl"
+  run-as="external">
+
+  <x:scenario label="the full conditions table lists the standard conditions by type">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="conditions"/>
+    <x:expect label="three type columns, six conditions, and severity details"
+      test="count(//table[@id='conditions']) = 1
+            and string(//th[contains(@class,'sectionheader')]) = 'Conditions'
+            and count(//th[contains(@class,'condition-type')]) = 3
+            and count(//th[contains(.,'Fleeting')]) = 1
+            and count(//th[contains(.,'Sticky')]) = 1
+            and count(//th[contains(.,'Lasting')]) = 1
+            and count(//dl[contains(@class,'conditions')]) = 3
+            and count(//dl[contains(@class,'conditions')]/dt) = 6
+            and count(//dt[.='Angry']) = 1
+            and count(//dt[.='Frightened']) = 1
+            and count(//dt[.='Exhausted']) = 1
+            and count(//dt[.='Hungry']) = 1
+            and count(//dt[.='Injured']) = 1
+            and count(//dt[.='Broken']) = 1
+            and count(//dd[contains(@class,'box') and not(contains(@class,'additional'))]) = 6
+            and count(//dt[contains(@class,'severe')]) = 2
+            and count(//dd[contains(@class,'box additional')]) = 2"/>
+  </x:scenario>
+
+  <x:scenario label="each conditions column has an explanation paragraph">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="conditions"/>
+    <x:expect label="three paragraphs describing recovery and removal"
+      test="count(//p) = 3
+            and contains(string((//p)[1]), 'catch your breath')
+            and contains(string((//p)[2]), 'specific event occurs')
+            and contains(string((//p)[3]), 'recovery action')"/>
+  </x:scenario>
+
+  <x:scenario label="the WWN variant lists only Fleeting and Sticky conditions">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="conditions-wwn"/>
+    <x:expect label="two type columns and four WWN conditions, no Lasting"
+      test="count(//table[@id='conditions']) = 1
+            and count(//th[contains(@class,'condition-type')]) = 2
+            and count(//th[contains(.,'Lasting')]) = 0
+            and count(//dt) = 4
+            and count(//dt[.='Growling Stomach']) = 1
+            and count(//dt[.='Shivering']) = 1
+            and count(//dt[.='Hungry']) = 1
+            and count(//dt[.='Panicked']) = 1
+            and count(//dd[contains(@class,'box') and not(contains(@class,'additional'))]) = 4
+            and count(//dd[contains(@class,'box additional')]) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="non-severe condition renders a single detail box">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="condition">
+      <x:param name="label">Angry</x:param>
+      <x:param name="severity">1</x:param>
+    </x:call>
+    <x:expect label="one dt and one box, no severe styling"
+      test="count(//dt) = 1
+            and string(//dt) = 'Angry'
+            and count(//dt[contains(@class,'severe')]) = 0
+            and count(//dd[contains(@class,'box')]) = 1
+            and string(//dd[contains(@class,'box')]) = '1'"/>
+  </x:scenario>
+
+  <x:scenario label="severe condition renders an extra box and severe styling">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="condition">
+      <x:param name="label">Injured</x:param>
+      <x:param name="severity">4</x:param>
+    </x:call>
+    <x:expect label="severe dt plus base and additional boxes"
+      test="count(//dt) = 1
+            and string(//dt) = 'Injured'
+            and count(//dt[contains(@class,'severe')]) = 1
+            and count(//dd[contains(@class,'box')]) = 2
+            and count(//dd[contains(@class,'box additional')]) = 1
+            and count(//dd[contains(@class,'box') and string(.) = '4']) = 2"/>
+  </x:scenario>
+
+</x:description>
