@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fae_npc_md.xsl"
+  run-as="external">
+
+  <x:scenario label="a sky shark NPC renders exactly the checked-in markdown">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description/>
+        </id>
+        <aspects>
+          <aspect>I'm a Shark</aspect>
+          <aspect>Vulnerable Belly</aspect>
+        </aspects>
+        <skilled-at>Flying, Biting</skilled-at>
+        <bad-at>Everything Else</bad-at>
+        <stress>2</stress>
+      </npc>
+    </x:context>
+    <x:expect label="YAML front matter, heading, aspects, lists, stress, and no HTML"
+      test="contains(string-join($x:result, ''), 'text: Sky Shark')
+            and contains(string-join($x:result, ''), 'Kevin C. Baird')
+            and contains(string-join($x:result, ''), '## Sky Shark')
+            and contains(string-join($x:result, ''), '### Aspects')
+            and contains(string-join($x:result, ''), '- _I''m a Shark_')
+            and contains(string-join($x:result, ''), '- _Vulnerable Belly_')
+            and contains(string-join($x:result, ''), 'Flying, Biting')
+            and contains(string-join($x:result, ''), 'Everything Else')
+            and contains(string-join($x:result, ''), '[ 1 ] [ 2 ]')
+            and not(contains(string-join($x:result, ''), '&lt;'))"/>
+  </x:scenario>
+
+  <x:scenario label="the metadata header writes name, YAML title, and author">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description/>
+        </id>
+        <aspects/>
+        <skilled-at>Flying, Biting</skilled-at>
+        <bad-at>Everything Else</bad-at>
+        <stress>0</stress>
+      </npc>
+    </x:context>
+    <x:expect label="YAML front matter carries the name and fixed author"
+      test="contains(string-join($x:result, ''), '---')
+            and contains(string-join($x:result, ''), 'title:')
+            and contains(string-join($x:result, ''), '- type: main')
+            and contains(string-join($x:result, ''), '  text: Sky Shark')
+            and contains(string-join($x:result, ''), 'creator:')
+            and contains(string-join($x:result, ''), '  text: Kevin C. Baird')
+            and contains(string-join($x:result, ''), '...')
+            and contains(string-join($x:result, ''), '## Sky Shark')"/>
+  </x:scenario>
+
+  <x:scenario label="the metadata header renders an empty description as nothing">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description/>
+        </id>
+        <aspects>
+          <aspect>I'm a Shark</aspect>
+        </aspects>
+        <skilled-at>Flying</skilled-at>
+        <bad-at>Land</bad-at>
+        <stress>1</stress>
+      </npc>
+    </x:context>
+    <x:expect label="no description text appears and the next section follows"
+      test="contains(string-join($x:result, ''), '## Sky Shark')
+            and contains(string-join($x:result, ''), '### Aspects')
+            and not(contains(string-join($x:result, ''), 'A giant flying shark.'))"/>
+  </x:scenario>
+
+  <x:scenario label="a non-empty description renders as plain text beneath the heading">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description>A giant flying shark.</description>
+        </id>
+        <aspects/>
+        <skilled-at>Flying</skilled-at>
+        <bad-at>Land</bad-at>
+        <stress>0</stress>
+      </npc>
+    </x:context>
+    <x:expect label="description text appears as bare text in the output"
+      test="contains(string-join($x:result, ''), 'A giant flying shark.')"/>
+  </x:scenario>
+
+  <x:scenario label="aspects render high-concept and free bullets for typed and untyped aspects">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description/>
+        </id>
+        <aspects>
+          <aspect type="High-Concept">A Great White with Wings</aspect>
+          <aspect type="Trouble">Vulnerable Belly</aspect>
+          <aspect>I'm a Shark</aspect>
+        </aspects>
+        <skilled-at>Flying, Biting</skilled-at>
+        <bad-at>Everything Else</bad-at>
+        <stress>0</stress>
+      </npc>
+    </x:context>
+    <x:expect label="high-concept uses the named block and every other aspect a free bullet"
+      test="contains(string-join($x:result, ''), '**High Concept**')
+            and contains(string-join($x:result, ''), ': _A Great White with Wings_')
+            and contains(string-join($x:result, ''), '- _Vulnerable Belly_')
+            and contains(string-join($x:result, ''), '- _I''m a Shark_')
+            and not(contains(string-join($x:result, ''), '**High Concept**\n: _Vulnerable Belly_'))"/>
+  </x:scenario>
+
+  <x:scenario label="stress with rating zero renders no boxes">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description/>
+        </id>
+        <aspects/>
+        <skilled-at>Flying</skilled-at>
+        <bad-at>Land</bad-at>
+        <stress>0</stress>
+      </npc>
+    </x:context>
+    <x:expect label="no box markers under stress"
+      test="contains(string-join($x:result, ''), '**Stress**')
+            and not(contains(string-join($x:result, ''), '['))"/>
+  </x:scenario>
+
+  <x:scenario label="stress with rating one renders a single box">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description/>
+        </id>
+        <aspects/>
+        <skilled-at>Flying</skilled-at>
+        <bad-at>Land</bad-at>
+        <stress>1</stress>
+      </npc>
+    </x:context>
+    <x:expect label="only the first box"
+      test="contains(string-join($x:result, ''), '[ 1 ]')
+            and not(contains(string-join($x:result, ''), '[ 2 ]'))
+            and not(contains(string-join($x:result, ''), '[ 3 ]'))"/>
+  </x:scenario>
+
+  <x:scenario label="stress with rating three renders three boxes">
+    <x:context>
+      <npc>
+        <id>
+          <name>Sky Shark</name>
+          <description/>
+        </id>
+        <aspects/>
+        <skilled-at>Flying</skilled-at>
+        <bad-at>Land</bad-at>
+        <stress>3</stress>
+      </npc>
+    </x:context>
+    <x:expect label="all three stress boxes render"
+      test="contains(string-join($x:result, ''), '[ 1 ] [ 2 ] [ 3 ]')"/>
+  </x:scenario>
+
+</x:description>
