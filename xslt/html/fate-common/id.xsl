@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:include href="./name.xsl"/>
-  <xsl:include href="../mindjammer/homeworld.xsl"/>
+  <xsl:include href="./homeworld.xsl"/>
   <xsl:template match="id">
     <table>
       <tr>

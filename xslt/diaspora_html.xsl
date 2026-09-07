@@ -13,7 +13,7 @@
   <xsl:include href="html/fate-common/stunts.xsl"/>
   <xsl:include href="html/diaspora/character.xsl"/>
   <xsl:include href="html/diaspora/copyright.xsl"/>
-  <xsl:include href="html/diaspora/gear.xsl"/>
+  <xsl:include href="html/fate-common/gear.xsl"/>
   <xsl:include href="html/diaspora/id.xsl"/>
   <xsl:include href="html/diaspora/stress.xsl"/>
   <xsl:template match="/">
