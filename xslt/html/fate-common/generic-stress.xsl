@@ -5,7 +5,6 @@
     <xsl:param name="baseCount"/>
     <xsl:param name="headerName"/>
     <xsl:param name="skillName"/>
-    <xsl:param name="useSkillModes"/>
     <xsl:param name="maxCount"/>
     <xsl:variable name="effectiveMaxCount">
       <xsl:choose>

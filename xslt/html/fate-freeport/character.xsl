@@ -56,11 +56,7 @@
         </section>
         <wbr/>
         <section id="stress">
-          <xsl:call-template name="stress">
-            <xsl:with-param name="useSkillModes">
-              <xsl:value-of select="$useSkillModes"/>
-            </xsl:with-param>
-          </xsl:call-template>
+          <xsl:call-template name="stress"/>
         </section>
         <section id="consequences">
           <xsl:choose>
@@ -74,7 +70,7 @@
         </section>
         <xsl:apply-templates select="phase-trio"/>
         <xsl:apply-templates select="notes"/>
-        <xsl:call-template name="copyright"/>
+        <xsl:call-template name="fcs-copyright"/>
       </body>
     </html>
   </xsl:template>

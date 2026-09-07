@@ -87,9 +87,6 @@
             <xsl:with-param name="useCreditStress">
               <xsl:value-of select="$useCreditStress"/>
             </xsl:with-param>
-            <xsl:with-param name="useSkillModes">
-              <xsl:value-of select="$useSkillModes"/>
-            </xsl:with-param>
             <xsl:with-param name="useSystemsStress">
               <xsl:value-of select="$useSystemsStress"/>
             </xsl:with-param>

@@ -224,7 +224,7 @@
     <x:context>
       <character/>
     </x:context>
-    <x:call template="copyright"/>
+    <x:call template="fae-copyright"/>
     <x:expect label="a copyright paragraph with the FAE acronym"
       test="count(//p[@id='copyright']) = 1
             and string(//acronym[@title='Fate Accelerated']) = 'FAE'

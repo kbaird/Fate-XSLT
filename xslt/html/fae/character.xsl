@@ -42,7 +42,7 @@
           <xsl:call-template name="consequences"/>
         </section>
         <xsl:apply-templates select="notes"/>
-        <xsl:call-template name="copyright"/>
+        <xsl:call-template name="fae-copyright"/>
       </body>
     </html>
   </xsl:template>
