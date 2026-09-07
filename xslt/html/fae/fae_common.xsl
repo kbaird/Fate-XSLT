@@ -3,4 +3,5 @@
   <xsl:output method="html"/>
   <xsl:include href="./fae_common_base.xsl"/>
   <xsl:include href="character.xsl"/>
+  <xsl:include href="id.xsl"/>
 </xsl:stylesheet>

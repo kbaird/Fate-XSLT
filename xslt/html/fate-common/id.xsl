@@ -4,38 +4,53 @@
   <xsl:include href="./name.xsl"/>
   <xsl:include href="./homeworld.xsl"/>
   <xsl:template match="id">
+    <xsl:call-template name="id-frame"/>
+  </xsl:template>
+  <xsl:template name="id-frame">
+    <xsl:param name="section-header" select="'ID'"/>
+    <xsl:param name="name-colspan" select="1"/>
     <table>
-      <tr>
-        <th colspan="2" class="sectionheader">ID</th>
-      </tr>
-      <tr>
-        <td><xsl:call-template name="name"/></td>
-      </tr>
+      <xsl:if test="string-length($section-header) > 0">
+        <tr>
+          <th colspan="2" class="sectionheader"><xsl:value-of select="$section-header"/></th>
+        </tr>
+      </xsl:if>
       <tr>
         <td>
-          <xsl:if test="description">
-            <fieldset id="description">
-              <legend class="label"><span>Description</span></legend>
-              <xsl:value-of select="description"/>
-            </fieldset>
+          <xsl:if test="$name-colspan = 2">
+            <xsl:attribute name="colspan">2</xsl:attribute>
           </xsl:if>
-          <xsl:if test="arc">
-            <fieldset id="arc">
-              <legend class="label">
-                <span>Arc: <xsl:value-of select="arc/@name"/></span>
-              </legend>
-              <xsl:value-of select="arc"/>
-            </fieldset>
-          </xsl:if>
-          <xsl:if test="unique">
-            <fieldset id="unique">
-              <legend class="label"><span>One Unique Thing</span></legend>
-              <xsl:value-of select="unique"/>
-            </fieldset>
-          </xsl:if>
-          <xsl:apply-templates select="homeworld"/>
+          <xsl:call-template name="name"/>
         </td>
       </tr>
+      <xsl:call-template name="id-extra"/>
     </table>
+  </xsl:template>
+  <xsl:template name="id-extra">
+    <tr>
+      <td>
+        <xsl:if test="description">
+          <fieldset id="description">
+            <legend class="label"><span>Description</span></legend>
+            <xsl:value-of select="description"/>
+          </fieldset>
+        </xsl:if>
+        <xsl:if test="arc">
+          <fieldset id="arc">
+            <legend class="label">
+              <span>Arc: <xsl:value-of select="arc/@name"/></span>
+            </legend>
+            <xsl:value-of select="arc"/>
+          </fieldset>
+        </xsl:if>
+        <xsl:if test="unique">
+          <fieldset id="unique">
+            <legend class="label"><span>One Unique Thing</span></legend>
+            <xsl:value-of select="unique"/>
+          </fieldset>
+        </xsl:if>
+        <xsl:apply-templates select="homeworld"/>
+      </td>
+    </tr>
   </xsl:template>
 </xsl:stylesheet>
