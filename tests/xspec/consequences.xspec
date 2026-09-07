@@ -158,4 +158,22 @@
             and not(contains(string(//legend), 'R?'))"/>
   </x:scenario>
 
+  <x:scenario label="an empty consequence element renders a placeholder span">
+    <x:context>
+      <character>
+        <consequences>
+          <consequence severity="Mild"/>
+        </consequences>
+      </character>
+    </x:context>
+    <x:call template="consequence">
+      <x:param name="label">Mild (2)</x:param>
+      <x:param name="severity">Mild</x:param>
+    </x:call>
+    <x:expect label="the fieldset contains a span with class placeholder"
+      test="count(//span[@class='placeholder']) = 1
+            and count(//fieldset[@class='consequence']/*) = 2
+            and count(//fieldset[@class='consequence']/legend) = 1"/>
+  </x:scenario>
+
 </x:description>
