@@ -103,7 +103,7 @@
             and string(//dt[contains(@class,'function')]/following-sibling::dd) = 'Reinforced'"/>
   </x:scenario>
 
-  <x:scenario label="long gadget names without notes pad the gadget details">
+  <x:scenario label="long gadget names without notes carry no inline padding style">
     <x:context>
       <extras>
         <gadget name="Reinforced Exoskeleton Cartridges">
@@ -111,9 +111,9 @@
         </gadget>
       </extras>
     </x:context>
-    <x:expect label="a style-bearing gadget dl"
-      test="count(//dl[@class='gadget' and @style]) = 1
-            and contains(string(//dl[@class='gadget']/@style), 'padding-left:')"/>
+    <x:expect label="an unstyled gadget dl"
+      test="count(//dl[@class='gadget']) = 1
+            and count(//dl[@class='gadget' and @style]) = 0"/>
   </x:scenario>
 
   <x:scenario label="gadgets with notes do not need padding for long names">
