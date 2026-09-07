@@ -10,7 +10,7 @@
   <xsl:include href="html/fate-common/notes.xsl"/>
   <xsl:include href="html/fate-common/refresh.xsl"/>
   <xsl:include href="html/fate-common/stunts.xsl"/>
-  <xsl:include href="html/diaspora/gear.xsl"/>
+  <xsl:include href="html/fate-common/gear.xsl"/>
   <xsl:include href="html/sotc/character.xsl"/>
   <xsl:include href="html/sotc/copyright.xsl"/>
   <xsl:include href="html/sotc/gadgets.xsl"/>
