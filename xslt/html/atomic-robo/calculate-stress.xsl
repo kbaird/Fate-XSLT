@@ -7,6 +7,9 @@
 
   <xsl:template name="calculate-stress">
     <xsl:param name="stressType"/>
+    <xsl:param name="maxModeRating"/>
+    <xsl:param name="medModeRating"/>
+    <xsl:param name="minModeRating"/>
     <xsl:variable name="stressBoxAdditionsPure">
       <xsl:variable name="stressBoxAdditionsPureMax">
         <xsl:call-template name="calculate-pure-stress-by-rating">
