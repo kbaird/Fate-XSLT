@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/aether-sea-ship_md.xsl"
+  run-as="external">
+
+  <x:scenario label="a fully-populated Aether Sea ship renders every section as plain markdown text">
+    <x:context>
+      <ship size="Ultramassive">
+        <id>
+          <name>Test Galleon</name>
+          <description>A ship used for unit tests.</description>
+        </id>
+        <aspects>
+          <aspect type="High-Concept">Floating Fortress</aspect>
+          <aspect type="Trouble">Slow to Turn</aspect>
+          <aspect>Crowded Decks</aspect>
+        </aspects>
+        <approaches>
+          <approach name="Careful" rating="-1"/>
+          <approach name="Clever" rating="0"/>
+          <approach name="Flashy" rating="1"/>
+          <approach name="Forceful" rating="2"/>
+          <approach name="Quick" rating="0"/>
+          <approach name="Sneaky" rating="-1"/>
+        </approaches>
+        <skilled-at>Ramming, Broadside Gunnery</skilled-at>
+        <bad-at>Dodging Reefs</bad-at>
+        <components>
+          <component name="Two Weapons Stations"/>
+          <component name="Grappling Station">Harpoon and winch.</component>
+        </components>
+        <stunts>
+          <stunt name="Overlapping Fire">Fight through cover.</stunt>
+        </stunts>
+        <consequences>
+          <consequence severity="Mild">Scorched Hull</consequence>
+          <consequence severity="Moderate">Crippled Rudder</consequence>
+          <consequence severity="Severe">Hull Breach</consequence>
+        </consequences>
+        <notes>Hidden cargo hold.</notes>
+      </ship>
+    </x:context>
+    <x:expect label="YAML front matter, H2 title, description, and every ship section render as text"
+      test="contains(string-join($x:result, ''), 'text: Test Galleon')
+            and contains(string-join($x:result, ''), 'Kevin C. Baird')
+            and contains(string-join($x:result, ''), '## Test Galleon')
+            and contains(string-join($x:result, ''), 'A ship used for unit tests.')
+            and contains(string-join($x:result, ''), '**Size**')
+            and contains(string-join($x:result, ''), ': Ultramassive')
+            and contains(string-join($x:result, ''), '### Aspects')
+            and contains(string-join($x:result, ''), '**High Concept**')
+            and contains(string-join($x:result, ''), ': _Floating Fortress_')
+            and contains(string-join($x:result, ''), '- _Slow to Turn_')
+            and contains(string-join($x:result, ''), '- _Crowded Decks_')
+            and contains(string-join($x:result, ''), '### Approaches')
+            and contains(string-join($x:result, ''), ': -1')
+            and contains(string-join($x:result, ''), ': +1')
+            and contains(string-join($x:result, ''), ': +2')
+            and contains(string-join($x:result, ''), '**Skilled At**')
+            and contains(string-join($x:result, ''), ': Ramming, Broadside Gunnery')
+            and contains(string-join($x:result, ''), '**Bad At**')
+            and contains(string-join($x:result, ''), ': Dodging Reefs')
+            and contains(string-join($x:result, ''), '**Components**')
+            and contains(string-join($x:result, ''), '- Two Weapons Stations')
+            and contains(string-join($x:result, ''), '- Grappling Station (Harpoon and winch.)')
+            and contains(string-join($x:result, ''), '**Refresh**')
+            and contains(string-join($x:result, ''), ': 3')
+            and contains(string-join($x:result, ''), '**Resources Stress**')
+            and contains(string-join($x:result, ''), ': [1] [2] [3] [4] [5]')
+            and contains(string-join($x:result, ''), '### Stunts')
+            and contains(string-join($x:result, ''), '**Overlapping Fire**')
+            and contains(string-join($x:result, ''), ': Fight through cover.')
+            and contains(string-join($x:result, ''), 'Starts with 2 Stations, pg 27')
+            and contains(string-join($x:result, ''), '### Consequences')
+            and contains(string-join($x:result, ''), ': Scorched Hull')
+            and contains(string-join($x:result, ''), ': Crippled Rudder')
+            and contains(string-join($x:result, ''), ': Hull Breach')
+            and not(contains(string-join($x:result, ''), 'Hidden cargo hold.'))
+            and not(contains(string-join($x:result, ''), '&amp;lt;'))
+            and not(contains(string-join($x:result, ''), '&amp;gt;'))"/>
+  </x:scenario>
+
+  <x:scenario label="the metadata header emits YAML front matter, H2 title, and fixed author">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Klehnaki Vessel</name>
+          <description/>
+        </id>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="YAML front matter carries the name and fixed author, then the H2 heading"
+      test="contains(string-join($x:result, ''), '---')
+            and contains(string-join($x:result, ''), 'title:')
+            and contains(string-join($x:result, ''), '- type: main')
+            and contains(string-join($x:result, ''), '  text: Klehnaki Vessel')
+            and contains(string-join($x:result, ''), 'creator:')
+            and contains(string-join($x:result, ''), '- role: author')
+            and contains(string-join($x:result, ''), '  text: Kevin C. Baird')
+            and contains(string-join($x:result, ''), '...')
+            and contains(string-join($x:result, ''), '## Klehnaki Vessel')"/>
+  </x:scenario>
+
+  <x:scenario label="the description renders as plain text beneath the H2 heading">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Klehnaki Vessel</name>
+          <description>A raider ship rebuilt from scrap.</description>
+        </id>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="description apppears as bare text with no markup wrapper"
+      test="contains(string-join($x:result, ''), 'A raider ship rebuilt from scrap.')
+            and not(contains(string-join($x:result, ''), '&amp;lt;'))"/>
+  </x:scenario>
+
+  <x:scenario label="size is rendered from the ship's size attribute">
+    <x:context>
+      <ship size="Major">
+        <id>
+          <name>Royal Glory</name>
+          <description/>
+        </id>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="the size block echoes the attribute value"
+      test="contains(string-join($x:result, ''), '**Size**')
+            and contains(string-join($x:result, ''), ': Major')
+            and not(contains(string-join($x:result, ''), ': Working'))"/>
+  </x:scenario>
+
+  <x:scenario label="aspects render a high-concept block and free bullets for typed and untyped aspects">
+    <x:context>
+      <ship size="Major">
+        <id>
+          <name>Royal Glory</name>
+          <description/>
+        </id>
+        <aspects>
+          <aspect type="High-Concept">Well-Used Royal Navy Warship</aspect>
+          <aspect type="Ship">When In Doubt, Smash It</aspect>
+          <aspect>Untyped Aspect</aspect>
+        </aspects>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="high-concept uses the named block and every other aspect a free bullet"
+      test="contains(string-join($x:result, ''), '### Aspects')
+            and contains(string-join($x:result, ''), '**High Concept**')
+            and contains(string-join($x:result, ''), ': _Well-Used Royal Navy Warship_')
+            and contains(string-join($x:result, ''), '- _When In Doubt, Smash It_')
+            and contains(string-join($x:result, ''), '- _Untyped Aspect_')"/>
+  </x:scenario>
+
+  <x:scenario label="approaches render with sign-prefixed ratings">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Test Vessel</name>
+          <description/>
+        </id>
+        <approaches>
+          <approach name="Careful" rating="-1"/>
+          <approach name="Clever" rating="0"/>
+          <approach name="Flashy" rating="1"/>
+          <approach name="Forceful" rating="2"/>
+          <approach name="Quick" rating="0"/>
+          <approach name="Sneaky" rating="-1"/>
+        </approaches>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="a plus sign prefixes positive ratings only"
+      test="contains(string-join($x:result, ''), '### Approaches')
+            and contains(string-join($x:result, ''), '**Careful**')
+            and contains(string-join($x:result, ''), ': -1')
+            and contains(string-join($x:result, ''), '**Clever**')
+            and contains(string-join($x:result, ''), ': 0')
+            and contains(string-join($x:result, ''), '**Flashy**')
+            and contains(string-join($x:result, ''), ': +1')
+            and contains(string-join($x:result, ''), '**Forceful**')
+            and contains(string-join($x:result, ''), ': +2')"/>
+  </x:scenario>
+
+  <x:scenario label="skilled-at and bad-at render as definition lines">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Klehnaki Vessel</name>
+          <description/>
+        </id>
+        <skilled-at>Taking hits</skilled-at>
+        <bad-at>Anything delicate</bad-at>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="both skill-defect labels and values appear verbatim"
+      test="contains(string-join($x:result, ''), '**Skilled At**')
+            and contains(string-join($x:result, ''), ': Taking hits')
+            and contains(string-join($x:result, ''), '**Bad At**')
+            and contains(string-join($x:result, ''), ': Anything delicate')"/>
+  </x:scenario>
+
+  <x:scenario label="components render as bullets with optional parenthetical text">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Test Vessel</name>
+          <description/>
+        </id>
+        <components>
+          <component name="Stone Armor">All stress dealt to this ship is reduced by 1.</component>
+          <component name="Two Weapons Stations"/>
+        </components>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="a bare name bullet and a name-with-text bullet render distinctly"
+      test="contains(string-join($x:result, ''), '**Components**')
+            and contains(string-join($x:result, ''), '- Stone Armor (All stress dealt to this ship is reduced by 1.)')
+            and contains(string-join($x:result, ''), '- Two Weapons Stations')
+            and not(contains(string-join($x:result, ''), 'Two Weapons Stations ('))"/>
+  </x:scenario>
+
+  <x:scenario label="a Shuttle-sized ship has refresh 1 and no resources stress">
+    <x:context>
+      <ship size="Shuttle">
+        <id>
+          <name>Shuttle Craft</name>
+          <description/>
+        </id>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="refresh 1 and stress 'none' derive from size Shuttle"
+      test="contains(string-join($x:result, ''), '**Refresh**')
+            and contains(string-join($x:result, ''), ': 1')
+            and contains(string-join($x:result, ''), '**Resources Stress**')
+            and contains(string-join($x:result, ''), ': none')"/>
+  </x:scenario>
+
+  <x:scenario label="a Working-sized ship has refresh 1 and three stress boxes with a shift">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Mining Vessel</name>
+          <description/>
+        </id>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="refresh 1 and the [1] [2] [3x] stress track"
+      test="contains(string-join($x:result, ''), '**Refresh**')
+            and contains(string-join($x:result, ''), ': 1')
+            and contains(string-join($x:result, ''), '**Resources Stress**')
+            and contains(string-join($x:result, ''), ': [1] [2] [3x]')"/>
+  </x:scenario>
+
+  <x:scenario label="a Major-sized ship has refresh 3 and four stress boxes">
+    <x:context>
+      <ship size="Major">
+        <id>
+          <name>Royal Glory</name>
+          <description/>
+        </id>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="refresh 3 and the [1] [2] [3] [4] stress track"
+      test="contains(string-join($x:result, ''), '**Refresh**')
+            and contains(string-join($x:result, ''), ': 3')
+            and contains(string-join($x:result, ''), '**Resources Stress**')
+            and contains(string-join($x:result, ''), ': [1] [2] [3] [4]')"/>
+  </x:scenario>
+
+  <x:scenario label="an Ultramassive-sized ship has refresh 3 and five stress boxes">
+    <x:context>
+      <ship size="Ultramassive">
+        <id>
+          <name>Leviathan</name>
+          <description/>
+        </id>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="refresh 3 and the [1] [2] [3] [4] [5] stress track"
+      test="contains(string-join($x:result, ''), '**Refresh**')
+            and contains(string-join($x:result, ''), ': 3')
+            and contains(string-join($x:result, ''), '**Resources Stress**')
+            and contains(string-join($x:result, ''), ': [1] [2] [3] [4] [5]')"/>
+  </x:scenario>
+
+  <x:scenario label="stunts render as named definition entries and the addendum line always appears">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Corsair</name>
+          <description/>
+        </id>
+        <stunts>
+          <stunt name="Escape Hatch">Flee any engagement.</stunt>
+        </stunts>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="stunt name and description plus the fixed two-stations addendum"
+      test="contains(string-join($x:result, ''), '### Stunts')
+            and contains(string-join($x:result, ''), '**Escape Hatch**')
+            and contains(string-join($x:result, ''), ': Flee any engagement.')
+            and contains(string-join($x:result, ''), 'Starts with 2 Stations, pg 27')"/>
+  </x:scenario>
+
+  <x:scenario label="consequences render by severity and Extreme is not rendered">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Corsair</name>
+          <description/>
+        </id>
+        <consequences>
+          <consequence severity="Mild">Scorched Hull</consequence>
+          <consequence severity="Moderate">Crippled Rudder</consequence>
+          <consequence severity="Severe">Hull Breach</consequence>
+          <consequence severity="Extreme">Melted Core</consequence>
+        </consequences>
+      </ship>
+    </x:context>
+    <x:expect label="Mild, Moderate, and Severe render; Extreme text never appears"
+      test="contains(string-join($x:result, ''), '### Consequences')
+            and contains(string-join($x:result, ''), '**Mild**')
+            and contains(string-join($x:result, ''), ': Scorched Hull')
+            and contains(string-join($x:result, ''), '**Moderate**')
+            and contains(string-join($x:result, ''), ': Crippled Rudder')
+            and contains(string-join($x:result, ''), '**Severe**')
+            and contains(string-join($x:result, ''), ': Hull Breach')
+            and not(contains(string-join($x:result, ''), 'Melted Core'))"/>
+  </x:scenario>
+
+  <x:scenario label="angle brackets and ampersands are emitted literally, never HTML-escaped">
+    <x:context>
+      <ship size="Working">
+        <id>
+          <name>Escaper</name>
+          <description>Has &lt;angle&gt; brackets &amp; ampersands.</description>
+        </id>
+        <aspects>
+          <aspect type="High-Concept">&lt;Invisible&gt; in XML form</aspect>
+        </aspects>
+        <skilled-at>Flying</skilled-at>
+        <bad-at>Ground</bad-at>
+        <stunts>
+          <stunt name="Escape">Deals &lt;3&gt; damage.</stunt>
+        </stunts>
+        <consequences/>
+      </ship>
+    </x:context>
+    <x:expect label="raw angle brackets and ampersands survive with no entity escaping"
+      test="contains(string-join($x:result, ''), 'Has &lt;angle&gt; brackets')
+            and contains(string-join($x:result, ''), 'brackets &amp; ampersands.')
+            and contains(string-join($x:result, ''), '&lt;Invisible&gt;')
+            and contains(string-join($x:result, ''), 'Deals &lt;3&gt; damage.')
+            and not(contains(string-join($x:result, ''), '&amp;lt;'))
+            and not(contains(string-join($x:result, ''), '&amp;gt;'))
+            and not(contains(string-join($x:result, ''), '&amp;amp;'))"/>
+  </x:scenario>
+
+</x:description>
