@@ -23,6 +23,22 @@
       test="string(//legend/span) = 'Inciting Incident'"/>
   </x:scenario>
 
+  <x:scenario label="Mode aspect displays a translated (hyphen-free) mode name">
+    <x:context>
+      <aspect type="Mode" mode-name="Careful-Steps">Watchful</aspect>
+    </x:context>
+    <x:expect label="legend shows 'Careful Steps Mode' with hyphens removed"
+      test="string(//legend/span) = 'Careful Steps Mode'"/>
+  </x:scenario>
+
+  <x:scenario label="unknown hyphenated aspect type falls back with hyphens translated to spaces">
+    <x:context>
+      <aspect type="Custom-Type">Something</aspect>
+    </x:context>
+    <x:expect label="legend shows 'Custom Type'"
+      test="string(//legend/span) = 'Custom Type'"/>
+  </x:scenario>
+
   <x:scenario label="aspect without a type renders text in a content span">
     <x:context>
       <aspect>Just a Thought</aspect>

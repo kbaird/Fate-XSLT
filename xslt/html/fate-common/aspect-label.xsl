@@ -17,7 +17,7 @@
         </xsl:when>
         <xsl:when test="$type = 'Mode'">
           <legend class="label">
-            <span><xsl:value-of select="$modeName"/> Mode</span>
+            <span><xsl:value-of select="translate($modeName, '-', ' ')"/> Mode</span>
           </legend>
       </xsl:when>
       <xsl:when test="$type = 'Relationship'">
@@ -27,7 +27,7 @@
       </xsl:when>
       <xsl:otherwise>
         <legend class="label">
-          <span><xsl:value-of select="$type"/></span>
+          <span><xsl:value-of select="translate($type, '-', ' ')"/></span>
         </legend>
       </xsl:otherwise>
     </xsl:choose>
