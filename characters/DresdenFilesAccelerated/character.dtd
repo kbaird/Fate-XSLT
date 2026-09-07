@@ -23,9 +23,9 @@
 
   <!ELEMENT mantles (mantle*)>
     <!ELEMENT mantle (stunt*)>
-      <!ATTLIST mantle name  CDATA #REQUIRED>
-      <!ATTLIST mantle ref CDATA #REQUIRED>
-      <!ATTLIST mantle scale CDATA "Mundane">
+    <!ATTLIST mantle name  CDATA #REQUIRED>
+    <!ATTLIST mantle ref CDATA #REQUIRED>
+    <!ATTLIST mantle scale CDATA "Mundane">
 
   <!ELEMENT stunts (stunt*)>
     <!ELEMENT stunt (#PCDATA)>
@@ -33,9 +33,8 @@
 
   <!ELEMENT conditions (condition*)>
     <!ELEMENT condition (#PCDATA)>
-      <!ATTLIST condition name CDATA #REQUIRED>
-      <!ATTLIST condition boxes CDATA #REQUIRED>
-      <!ATTLIST condition box-value CDATA "&#160;">
-      <!ATTLIST condition duration CDATA #REQUIRED>
-      <!ATTLIST condition ref CDATA #REQUIRED>
-
+    <!ATTLIST condition name CDATA #REQUIRED>
+    <!ATTLIST condition boxes CDATA #REQUIRED>
+    <!ATTLIST condition box-value CDATA "&#160;">
+    <!ATTLIST condition duration CDATA #REQUIRED>
+    <!ATTLIST condition ref CDATA #REQUIRED>

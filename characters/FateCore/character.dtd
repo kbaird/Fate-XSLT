@@ -4,7 +4,7 @@
 
   <!ELEMENT id (charname, playername, description, arc?, unique?)>
     <!ELEMENT charname (#PCDATA)>
-      <!ATTLIST charname nickname CDATA #IMPLIED>
+    <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT playername (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
     <!-- Character Arcs, inspired by Cypher System -->
@@ -48,8 +48,8 @@
 
   <!ELEMENT extras (extra*, gadget*)>
     <!ELEMENT extra (#PCDATA)>
-      <!ATTLIST extra cost CDATA #IMPLIED>
-      <!ATTLIST extra name CDATA #IMPLIED>
+    <!ATTLIST extra cost CDATA #IMPLIED>
+    <!ATTLIST extra name CDATA #IMPLIED>
     <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
     <!--
       benefits instead of stunts for ease of integration with ARRPG
@@ -76,8 +76,8 @@
 
   <!ELEMENT consequences (consequence*)>
     <!ELEMENT consequence (#PCDATA)>
-      <!ATTLIST consequence effect CDATA #IMPLIED>
-      <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
+    <!ATTLIST consequence effect CDATA #IMPLIED>
+    <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
   <!ELEMENT hacks (#PCDATA)>
     <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit     -->
@@ -97,8 +97,8 @@
 
   <!ELEMENT phase-trio (phase*)>
     <!ELEMENT phase (events*)>
-      <!ATTLIST phase num   CDATA #REQUIRED>
-      <!ATTLIST phase title CDATA #IMPLIED>
+    <!ATTLIST phase num   CDATA #REQUIRED>
+    <!ATTLIST phase title CDATA #IMPLIED>
       <!ELEMENT events (#PCDATA)>
 
   <!ELEMENT notes (#PCDATA)>

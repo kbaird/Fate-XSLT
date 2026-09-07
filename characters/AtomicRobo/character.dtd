@@ -9,54 +9,54 @@
     <!ELEMENT affiliation (#PCDATA)>
     <!ELEMENT description (#PCDATA)>
 
-    <!ELEMENT current-fate-points (#PCDATA)>
-    <!ELEMENT experience-points (#PCDATA)>
+  <!ELEMENT current-fate-points (#PCDATA)>
+  <!ELEMENT experience-points (#PCDATA)>
 
-    <!ELEMENT aspects (aspect*)>
-      <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect type (Concept|Mode|Ω)  #REQUIRED>
-      <!ATTLIST aspect mode-name CDATA        #IMPLIED>
-      <!ATTLIST aspect signature (true|false) "false">
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect type (Concept|Mode|Ω)  #REQUIRED>
+    <!ATTLIST aspect mode-name CDATA        #IMPLIED>
+    <!ATTLIST aspect signature (true|false) "false">
 
-    <!ELEMENT skills (mode*, skill*)>
-      <!ELEMENT mode (skill*)>
-      <!ATTLIST mode name   CDATA #REQUIRED>
-      <!ATTLIST mode rating CDATA #REQUIRED>
-      <!ATTLIST mode stress-type (mental|physical|split) #IMPLIED>
-        <!ELEMENT skill (#PCDATA)>
-        <!ATTLIST skill name   CDATA #REQUIRED>
-        <!ATTLIST skill add    CDATA #IMPLIED>
-        <!ATTLIST skill cost   CDATA #IMPLIED> <!-- For Weird calculations -->
+  <!ELEMENT skills (mode*, skill*)>
+    <!ELEMENT mode (skill*)>
+    <!ATTLIST mode name   CDATA #REQUIRED>
+    <!ATTLIST mode rating CDATA #REQUIRED>
+    <!ATTLIST mode stress-type (mental|physical|split) #IMPLIED>
+      <!ELEMENT skill (#PCDATA)>
+      <!ATTLIST skill name   CDATA #REQUIRED>
+      <!ATTLIST skill add    CDATA #IMPLIED>
+      <!ATTLIST skill cost   CDATA #IMPLIED> <!-- For Weird calculations -->
 
-    <!ELEMENT languages (#PCDATA)>
+  <!ELEMENT languages (#PCDATA)>
 
-    <!ELEMENT stunts (stunt*, gadget*)>
-      <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt mega (true|false) "false">
-      <!ATTLIST stunt name CDATA #REQUIRED>
-      <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
-      <!ATTLIST gadget cost CDATA #IMPLIED>
-      <!ATTLIST gadget name CDATA #REQUIRED>
-      <!ATTLIST gadget notes CDATA #IMPLIED>
-      <!ATTLIST gadget override-name CDATA #IMPLIED>
-        <!ELEMENT function (#PCDATA)>
-        <!ATTLIST function name CDATA #IMPLIED>
-        <!ELEMENT flaws (flaw*)>
-          <!ELEMENT flaw (#PCDATA)>
-          <!ATTLIST flaw name CDATA #IMPLIED>
-        <!ELEMENT benefits (benefit*)>
-          <!ELEMENT benefit (#PCDATA)>
-          <!ATTLIST benefit cost CDATA #IMPLIED>
-          <!ATTLIST benefit name CDATA #REQUIRED>
+  <!ELEMENT stunts (stunt*, gadget*)>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt mega (true|false) "false">
+    <!ATTLIST stunt name CDATA #REQUIRED>
+    <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
+    <!ATTLIST gadget cost CDATA #IMPLIED>
+    <!ATTLIST gadget name CDATA #REQUIRED>
+    <!ATTLIST gadget notes CDATA #IMPLIED>
+    <!ATTLIST gadget override-name CDATA #IMPLIED>
+      <!ELEMENT function (#PCDATA)>
+      <!ATTLIST function name CDATA #IMPLIED>
+      <!ELEMENT flaws (flaw*)>
+        <!ELEMENT flaw (#PCDATA)>
+        <!ATTLIST flaw name CDATA #IMPLIED>
+      <!ELEMENT benefits (benefit*)>
+        <!ELEMENT benefit (#PCDATA)>
+        <!ATTLIST benefit cost CDATA #IMPLIED>
+        <!ATTLIST benefit name CDATA #REQUIRED>
 
-    <!ELEMENT consequences (consequence*)>
-      <!ELEMENT consequence (#PCDATA)>
-        <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
+  <!ELEMENT consequences (consequence*)>
+    <!ELEMENT consequence (#PCDATA)>
+    <!ATTLIST consequence effect CDATA #IMPLIED>
+    <!ATTLIST consequence severity (Mild|Moderate|Severe) #REQUIRED>
 
-    <!ELEMENT experiences (experience*)>
-      <!ATTLIST experiences suppress (true|false) "false">
-      <!ELEMENT experience (#PCDATA)>
-      <!ATTLIST experience used (true|false) "false">
+  <!ELEMENT experiences (experience*)>
+    <!ATTLIST experiences suppress (true|false) "false">
+    <!ELEMENT experience (#PCDATA)>
+    <!ATTLIST experience used (true|false) "false">
 
-    <!ELEMENT notes (#PCDATA)>
+  <!ELEMENT notes (#PCDATA)>
