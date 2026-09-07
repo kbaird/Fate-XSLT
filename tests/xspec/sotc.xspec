@@ -113,7 +113,7 @@
             and contains(string(/html/body//section[@id='skills']//fieldset[@class='gadget']), 'various upgrades')
             and count(/html/body//table[@id='stress_table']//tr) = 4
             and string((/html/body//table[@id='stress_table']//th)[1]) = 'Health'
-            and contains((/html/body//table[@id='stress_table']//th)[1]/@colspan, '7')
+            and contains((/html/body//table[@id='stress_table']//th)[1]/@colspan, '9')
             and string((/html/body//table[@id='stress_table']//th)[2]) = 'Composure'
             and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 6
             and string((/html/body//table[@id='stress_table']//tr)[2]/td[6]) = '6'
@@ -202,8 +202,8 @@
     <x:expect label="the high Endurance fills the Health track more than the low Resolve leaves Composure"
       test="count(/html/body//table[@id='stress_table']//tr) = 4
             and string((/html/body//table[@id='stress_table']//th)[1]) = 'Health'
-            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 7
-            and string((/html/body//table[@id='stress_table']//tr)[2]/td[7]) = '7'
+            and count((/html/body//table[@id='stress_table']//tr)[2]/td) = 8
+            and string((/html/body//table[@id='stress_table']//tr)[2]/td[8]) = '8'
             and string((/html/body//table[@id='stress_table']//th)[2]) = 'Composure'
             and count((/html/body//table[@id='stress_table']//tr)[4]/td) = 6
             and string((/html/body//table[@id='stress_table']//tr)[4]/td[6]) = '6'"/>
