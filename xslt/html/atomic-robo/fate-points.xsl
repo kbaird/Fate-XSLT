@@ -5,7 +5,7 @@
     <td>
       <dl id="current-fate-points">
         <dt>Current Fate Points:</dt>
-        <dd class="box"><xsl:value-of select="count(/character/aspects/aspect[text() != '&#160;'])"/></dd>
+        <dd class="box"><xsl:value-of select="count(/character/aspects/aspect[normalize-space(text()) != '' and text() != '&#160;'])"/></dd>
       </dl>
     </td>
   </xsl:template>
