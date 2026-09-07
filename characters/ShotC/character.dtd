@@ -4,69 +4,69 @@
 
   <!ELEMENT id (charname, playername, description)>
     <!ELEMENT charname (#PCDATA)>
+    <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT playername (#PCDATA)>
-      <!ATTLIST charname nickname CDATA #IMPLIED>
     <!ELEMENT description (#PCDATA)>
 
-    <!ELEMENT refresh (#PCDATA)>
-      <!ATTLIST refresh base        CDATA #IMPLIED>
-      <!ATTLIST refresh current     CDATA #IMPLIED>
-      <!ATTLIST refresh free-stunts CDATA #IMPLIED>
+  <!ELEMENT refresh (#PCDATA)>
+    <!ATTLIST refresh base        CDATA #IMPLIED>
+    <!ATTLIST refresh current     CDATA #IMPLIED>
+    <!ATTLIST refresh free-stunts CDATA #IMPLIED>
 
-    <!ELEMENT aspects (aspect*)>
-      <!ELEMENT aspect (#PCDATA)>
-      <!ATTLIST aspect gonzo (true|false) "false">
-      <!ATTLIST aspect type  (High-Concept|Spirit|Trouble|Call-To-Action|War-Story|Team-Up) #REQUIRED>
-      <!ATTLIST aspect phase-num CDATA #IMPLIED>
+  <!ELEMENT aspects (aspect*)>
+    <!ELEMENT aspect (#PCDATA)>
+    <!ATTLIST aspect gonzo (true|false) "false">
+    <!ATTLIST aspect type  (High-Concept|Spirit|Trouble|Call-To-Action|War-Story|Team-Up) #REQUIRED>
+    <!ATTLIST aspect phase-num CDATA #IMPLIED>
 
-    <!ELEMENT skills (role*, skill*)>
-    <!ATTLIST skills name CDATA "Skills">
-      <!ELEMENT role (skill*)>
-      <!ATTLIST role gonzo  (true|false) "false">
-      <!ATTLIST role name   CDATA #REQUIRED>
-        <!ELEMENT skill (#PCDATA)>
-        <!ATTLIST skill name   CDATA #REQUIRED>
-        <!ATTLIST skill add    CDATA #IMPLIED>
+  <!ELEMENT skills (role*, skill*)>
+  <!ATTLIST skills name CDATA "Skills">
+    <!ELEMENT role (skill*)>
+    <!ATTLIST role gonzo  (true|false) "false">
+    <!ATTLIST role name   CDATA #REQUIRED>
+      <!ELEMENT skill (#PCDATA)>
+      <!ATTLIST skill name   CDATA #REQUIRED>
+      <!ATTLIST skill add    CDATA #IMPLIED>
 
-    <!ELEMENT languages (#PCDATA)>
+  <!ELEMENT languages (#PCDATA)>
 
-    <!ELEMENT extras (extra*, gadget*)>
-      <!ELEMENT extra (#PCDATA)>
-        <!ATTLIST extra cost CDATA #IMPLIED>
-        <!ATTLIST extra name CDATA #IMPLIED>
-      <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
-      <!-- benefits instead of stunts for ease of integration with ARRPG -->
-      <!ATTLIST gadget name          CDATA #REQUIRED>
-      <!ATTLIST gadget notes         CDATA #IMPLIED>
-      <!ATTLIST gadget override-name CDATA #IMPLIED>
-        <!ELEMENT function (#PCDATA)>
-        <!ATTLIST function name CDATA #IMPLIED>
-          <!ELEMENT flaws (flaw*)>
-            <!ELEMENT flaw (#PCDATA)>
-            <!ATTLIST flaw name CDATA #IMPLIED>
-          <!ELEMENT benefits (benefit*)>
-            <!ELEMENT benefit (#PCDATA)>
-            <!ATTLIST benefit cost CDATA #IMPLIED>
-            <!ATTLIST benefit name CDATA #REQUIRED>
+  <!ELEMENT extras (extra*, gadget*)>
+    <!ELEMENT extra (#PCDATA)>
+    <!ATTLIST extra cost CDATA #IMPLIED>
+    <!ATTLIST extra name CDATA #IMPLIED>
+    <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
+    <!-- benefits instead of stunts for ease of integration with ARRPG -->
+    <!ATTLIST gadget name          CDATA #REQUIRED>
+    <!ATTLIST gadget notes         CDATA #IMPLIED>
+    <!ATTLIST gadget override-name CDATA #IMPLIED>
+      <!ELEMENT function (#PCDATA)>
+      <!ATTLIST function name CDATA #IMPLIED>
+        <!ELEMENT flaws (flaw*)>
+          <!ELEMENT flaw (#PCDATA)>
+          <!ATTLIST flaw name CDATA #IMPLIED>
+        <!ELEMENT benefits (benefit*)>
+          <!ELEMENT benefit (#PCDATA)>
+          <!ATTLIST benefit cost CDATA #IMPLIED>
+          <!ATTLIST benefit name CDATA #REQUIRED>
 
-    <!ELEMENT stunts (stunt*)>
-      <!ELEMENT stunt (#PCDATA)>
-      <!ATTLIST stunt gonzo-level (0|1|2|3) "0"> <!-- default zero level means "non-gonzo" -->
-      <!ATTLIST stunt name  CDATA #REQUIRED>
+  <!ELEMENT stunts (stunt*)>
+    <!ELEMENT stunt (#PCDATA)>
+    <!ATTLIST stunt gonzo-level (0|1|2|3) "0"> <!-- default zero level means "non-gonzo" -->
+    <!ATTLIST stunt name  CDATA #REQUIRED>
 
-    <!ELEMENT stress (#PCDATA)>
-      <!ATTLIST stress mental   (2|3|4) "3">
-      <!ATTLIST stress physical (2|3|4) "3">
+  <!ELEMENT stress (#PCDATA)>
+    <!ATTLIST stress mental   (2|3|4) "3">
+    <!ATTLIST stress physical (2|3|4) "3">
 
-    <!ELEMENT consequences (consequence*)>
-      <!ELEMENT consequence (#PCDATA)>
-        <!ATTLIST consequence effect CDATA #IMPLIED>
-        <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
+  <!ELEMENT consequences (consequence*)>
+    <!ELEMENT consequence (#PCDATA)>
+    <!ATTLIST consequence effect CDATA #IMPLIED>
+    <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
-    <!ELEMENT hacks (#PCDATA)>
-      <!ATTLIST hacks skill-roles (true|false) "true">
-      <!ATTLIST hacks physical-consequence-skill CDATA #IMPLIED>  <!-- Consequences: skill granting an extra mild physical slot -->
-      <!ATTLIST hacks mental-consequence-skill   CDATA #IMPLIED>  <!-- Consequences: skill granting an extra mild mental slot -->
-      <!ATTLIST hacks physical-consequence-stunt CDATA #IMPLIED>  <!-- Consequences: stunt granting an extra mild physical slot -->
+  <!ELEMENT hacks (#PCDATA)>
+    <!ATTLIST hacks skill-roles (true|false) "true">
+    <!ATTLIST hacks physical-consequence-skill CDATA #IMPLIED>  <!-- Consequences: skill granting an extra mild physical slot -->
+    <!ATTLIST hacks mental-consequence-skill   CDATA #IMPLIED>  <!-- Consequences: skill granting an extra mild mental slot -->
+    <!ATTLIST hacks physical-consequence-stunt CDATA #IMPLIED>  <!-- Consequences: stunt granting an extra mild physical slot -->
 
-    <!ELEMENT notes (#PCDATA)>
+  <!ELEMENT notes (#PCDATA)>
