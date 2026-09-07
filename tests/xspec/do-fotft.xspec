@@ -76,7 +76,7 @@
             and contains(string(/html/body//section[@id='stunts']), 'Cheshire Catting')
             and count(/html/body//table[@id='stress_table']) = 1
             and count(/html/body//table[@id='stress_table']//th[contains(@class,'sectionheader') and .='Stress']) = 1
-            and count(/html/body//table[@id='stress_table']//th[@colspan='5']) = 1
+            and count(/html/body//table[@id='stress_table']//th[@colspan='3']) = 1
             and string(/html/body//table[@id='stress_table']//tr[th[.='Stress']]/following-sibling::tr[1]) = '123'
             and count(/html/body//fieldset[contains(@class,'consequence')]) = 3
             and count(/html/body//legend[contains(.,'Mild (2)')]) = 1
@@ -193,10 +193,10 @@
     <x:context>
       <character/>
     </x:context>
-    <x:expect label="Stress header spanning five columns and a row of boxes 1, 2, 3"
+    <x:expect label="Stress header spanning three columns and a row of boxes 1, 2, 3"
       test="count(/html/body//table[@id='stress_table']) = 1
             and count(/html/body//table[@id='stress_table']//th[contains(@class,'sectionheader') and .='Stress']) = 1
-            and count(/html/body//table[@id='stress_table']//th[@colspan='5']) = 1
+            and count(/html/body//table[@id='stress_table']//th[@colspan='3']) = 1
             and count(/html/body//table[@id='stress_table']//tr[th[.='Stress']]/following-sibling::tr[1]/td) = 3
             and string(/html/body//table[@id='stress_table']//tr[th[.='Stress']]/following-sibling::tr[1]) = '123'"/>
   </x:scenario>

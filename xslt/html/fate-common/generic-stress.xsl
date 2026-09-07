@@ -6,18 +6,23 @@
     <xsl:param name="headerName"/>
     <xsl:param name="skillName"/>
     <xsl:param name="useSkillModes"/>
+    <xsl:param name="maxCount"/>
+    <xsl:variable name="effectiveMaxCount">
+      <xsl:choose>
+        <xsl:when test="$maxCount">
+          <xsl:value-of select="$maxCount"/>
+        </xsl:when>
+        <xsl:when test="/character/hacks/@one-point-stress='true'">
+          <xsl:value-of select="$baseCount + 3"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$baseCount + 2"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:call-template name="stress-header">
       <xsl:with-param name="headerName" select="$headerName"/>
-      <xsl:with-param name="maxCount">
-        <xsl:choose>
-          <xsl:when test="/character/hacks/@one-point-stress='true'">
-            <xsl:value-of select="$baseCount + 3"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$baseCount + 2"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:with-param>
+      <xsl:with-param name="maxCount" select="$effectiveMaxCount"/>
     </xsl:call-template>
     <tr>
       <xsl:call-template name="base-stress-boxes">
@@ -31,14 +36,7 @@
           <xsl:value-of select="$baseCount"/>
         </xsl:with-param>
         <xsl:with-param name="maxCount">
-          <xsl:choose>
-            <xsl:when test="/character/hacks/@one-point-stress='true'">
-              <xsl:value-of select="$baseCount + 3"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="$baseCount + 2"/>
-            </xsl:otherwise>
-          </xsl:choose>
+          <xsl:value-of select="$effectiveMaxCount"/>
         </xsl:with-param>
         <xsl:with-param name="skillRating">
           <xsl:value-of select="/character/skills/skill[@name=$skillName]/@rating"/>
