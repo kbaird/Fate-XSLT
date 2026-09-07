@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/aether-sea_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a full Aether Sea character page renders every core section">
+    <x:context>
+      <character>
+        <id>
+          <charname>Lararion of Verdanteye</charname>
+          <playername>sample Aether Sea character</playername>
+          <species>Elf</species>
+          <description>
+            Lararion is in her sixties, which is late-middle age for an elf.
+            She grew up on Verdanteye.
+          </description>
+        </id>
+        <refresh>3</refresh>
+        <aspects>
+          <aspect type="High-Concept">Habiforming Engineer</aspect>
+          <aspect type="Trouble">Keep My Planet Safe</aspect>
+          <aspect type="Background">Born and Raised on a Developing World</aspect>
+          <aspect>Passionate About Her Beliefs</aspect>
+          <aspect>Rich Elvish Traditions</aspect>
+        </aspects>
+        <approaches>
+          <approach rating="2" name="Careful"/>
+          <approach rating="3" name="Clever"/>
+          <approach rating="1" name="Flashy"/>
+          <approach rating="2" name="Forceful"/>
+          <approach rating="1" name="Quick"/>
+          <approach rating="0" name="Sneaky"/>
+        </approaches>
+        <stunts>
+          <magic>
+            <dabbles-in>Alteration</dabbles-in>
+            <focuses-on within="Alteration">habiforming</focuses-on>
+            <permanent-magic name="Trusty Old Wand of Fireball">
+              Toss a ball of flame at a single target in your zone,
+              dealing a Good (+3) attack.
+            </permanent-magic>
+          </magic>
+          <stunt name="Green Thumb">
+            Because of my Background, I get +2 to Cleverly Create an Advantage
+            about plants.
+          </stunt>
+        </stunts>
+        <consequences/>
+        <notes>Carries a walking stick carved from Verdanteye ironwood.</notes>
+      </character>
+    </x:context>
+    <x:expect label="title, sections, aether sea logo, Elf favored approach, magic stunts, stress, consequences, notes, and no copyright render"
+      test="string(/html/head/title) = 'Lararion of Verdanteye'
+            and string(/html/body/h1) = string(/html/head/title)
+            and contains(string(/html/head/style), './css/fate.css')
+            and contains(string(/html/head/style), './css/fae.css')
+            and contains(string(/html/head/style), './css/aether-sea.css')
+            and count(/html/body//section[@id='id']) = 1
+            and count(/html/body//section[@id='fate-logo']) = 1
+            and count(/html/body//section[@id='aspects']) = 1
+            and count(/html/body//section[@id='skills']) = 1
+            and count(/html/body//section[@id='stunts']) = 1
+            and count(/html/body//section[@id='stress']) = 1
+            and count(/html/body//section[@id='consequences']) = 1
+            and string(/html/body//span[@id='aether-sea']) = 'Aether Sea'
+            and string(/html/body//dl[@id='refresh']/dd) = '3'
+            and string(/html/body//dl[@id='current-fate-points']/dd) = '3'
+            and contains(string(/html/body//fieldset[@id='name']), 'Lararion of Verdanteye')
+            and string(/html/body//fieldset[@id='species']) = 'SpeciesElf'
+            and contains(string(/html/body//fieldset[@id='description']), 'late-middle age')
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']) = 5
+            and count(/html/body//section[@id='aspects']//legend[contains(., 'High Concept')]) = 1
+            and count(/html/body//table[@id='approaches']) = 1
+            and count(/html/body//dl[@class='approaches']) = 5
+            and count(/html/body//dl[contains(@class, 'favored')]) = 1
+            and string(/html/body//dl[contains(@class, 'favored')]/dt) = 'Clever'
+            and string(/html/body//dl[contains(@class, 'favored')]/dd) = '+3'
+            and contains(string(/html/body//section[@id='skills']/p),
+              'The Favored Approach treats all final results &lt; 0 as 0.')
+            and count(/html/body//span[@class='favored']) = 1
+            and count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 4
+            and string(/html/body//section[@id='stunts']//th[@class='sectionheader']) = 'Stunts'
+            and string((/html/body//section[@id='stunts']//dt)[1]) = 'Dabbles in'
+            and string((/html/body//section[@id='stunts']//dt)[2]) = 'Focuses within Alteration on'
+            and string(/html/body//section[@id='stunts']//cite) = 'Alteration'
+            and string((/html/body//section[@id='stunts']//dt)[3]) = 'Trusty Old Wand of Fireball [2]'
+            and string((/html/body//section[@id='stunts']//dt)[4]) = 'Green Thumb'
+            and contains(string(/html/body//section[@id='stunts']), 'habiforming')
+            and count(/html/body//table[@id='stress_table']) = 1
+            and string(/html/body//table[@id='stress_table']//tr[th[.='Stress']]/following-sibling::tr[1]) = '123'
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 3
+            and contains(string(/html/body), 'Carries a walking stick')
+            and count(/html/body//p[@id='copyright']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="the id block renders name, species, and description fieldsets">
+    <x:context>
+      <character>
+        <id>
+          <charname>Lararion of Verdanteye</charname>
+          <playername>sample Aether Sea character</playername>
+          <species>Elf</species>
+          <description>
+            Lararion is in her sixties, which is late-middle age for an elf.
+          </description>
+        </id>
+      </character>
+    </x:context>
+    <x:expect label="ID table with name, species, and description fieldsets only"
+      test="count(/html/body//section[@id='id']//table) = 1
+            and string(/html/body//section[@id='id']//th[contains(@class, 'sectionheader')]) = 'ID'
+            and string(/html/body//fieldset[@id='name']) = 'NameLararion of Verdanteye'
+            and string(/html/body//fieldset[@id='species']) = 'SpeciesElf'
+            and normalize-space(string(/html/body//fieldset[@id='description'])) =
+              'Description Lararion is in her sixties, which is late-middle age for an elf.'
+            and count(/html/body//section[@id='id']//legend[contains(@class, 'label')]) = 3
+            and not(contains(string(/html/body//section[@id='id']), 'sample Aether Sea character'))"/>
+  </x:scenario>
+
+  <x:scenario label="the name fieldset renders a quoted nickname when one is present">
+    <x:context>
+      <character>
+        <id>
+          <charname nickname="Sparky">Sherlock Holmes</charname>
+          <playername>Nobody</playername>
+          <species>Human</species>
+          <description>Kind of looks like Jonny Lee Miller</description>
+        </id>
+      </character>
+    </x:context>
+    <x:expect label="the name fieldset carries the quoted nickname"
+      test="count(/html/body//fieldset[@id='name']//q) = 1
+            and string(/html/body//fieldset[@id='name']) = 'NameSherlock Holmes (Sparky)'"/>
+  </x:scenario>
+
+  <x:scenario label="a Dwarf marks Careful as the favored approach">
+    <x:context>
+      <character>
+        <id><charname>Dori</charname><playername>Nobody</playername><species>Dwarf</species><description>desc</description></id>
+        <approaches>
+          <approach rating="2" name="Careful"/>
+          <approach rating="3" name="Clever"/>
+          <approach rating="1" name="Flashy"/>
+          <approach rating="2" name="Forceful"/>
+          <approach rating="1" name="Quick"/>
+          <approach rating="0" name="Sneaky"/>
+        </approaches>
+      </character>
+    </x:context>
+    <x:expect label="exactly one favored dl and it names Careful"
+      test="count(//dl[contains(@class, 'approaches favored')]) = 1
+            and string(//dl[contains(@class, 'approaches favored')]/dt) = 'Careful'
+            and count(//dl[@class='approaches']) = 5"/>
+  </x:scenario>
+
+  <x:scenario label="an Elf marks Clever as the favored approach">
+    <x:context>
+      <character>
+        <id><charname>Lararion</charname><playername>Nobody</playername><species>Elf</species><description>desc</description></id>
+        <approaches>
+          <approach rating="2" name="Careful"/>
+          <approach rating="3" name="Clever"/>
+          <approach rating="1" name="Flashy"/>
+          <approach rating="2" name="Forceful"/>
+          <approach rating="1" name="Quick"/>
+          <approach rating="0" name="Sneaky"/>
+        </approaches>
+      </character>
+    </x:context>
+    <x:expect label="exactly one favored dl and it names Clever"
+      test="count(//dl[contains(@class, 'approaches favored')]) = 1
+            and string(//dl[contains(@class, 'approaches favored')]/dt) = 'Clever'
+            and count(//dl[@class='approaches']) = 5"/>
+  </x:scenario>
+
+  <x:scenario label="a Goblin marks Sneaky as the favored approach">
+    <x:context>
+      <character>
+        <id><charname>Gribble</charname><playername>Nobody</playername><species>Goblin</species><description>desc</description></id>
+        <approaches>
+          <approach rating="2" name="Careful"/>
+          <approach rating="3" name="Clever"/>
+          <approach rating="1" name="Flashy"/>
+          <approach rating="2" name="Forceful"/>
+          <approach rating="1" name="Quick"/>
+          <approach rating="0" name="Sneaky"/>
+        </approaches>
+      </character>
+    </x:context>
+    <x:expect label="exactly one favored dl and it names Sneaky"
+      test="count(//dl[contains(@class, 'approaches favored')]) = 1
+            and string(//dl[contains(@class, 'approaches favored')]/dt) = 'Sneaky'
+            and count(//dl[@class='approaches']) = 5"/>
+  </x:scenario>
+
+  <x:scenario label="a Human marks Flashy as the favored approach">
+    <x:context>
+      <character>
+        <id><charname>Hank</charname><playername>Nobody</playername><species>Human</species><description>desc</description></id>
+        <approaches>
+          <approach rating="2" name="Careful"/>
+          <approach rating="3" name="Clever"/>
+          <approach rating="1" name="Flashy"/>
+          <approach rating="2" name="Forceful"/>
+          <approach rating="1" name="Quick"/>
+          <approach rating="0" name="Sneaky"/>
+        </approaches>
+      </character>
+    </x:context>
+    <x:expect label="exactly one favored dl and it names Flashy"
+      test="count(//dl[contains(@class, 'approaches favored')]) = 1
+            and string(//dl[contains(@class, 'approaches favored')]/dt) = 'Flashy'
+            and count(//dl[@class='approaches']) = 5"/>
+  </x:scenario>
+
+  <x:scenario label="an Orc marks Quick as the favored approach">
+    <x:context>
+      <character>
+        <id><charname>Urg</charname><playername>Nobody</playername><species>Orc</species><description>desc</description></id>
+        <approaches>
+          <approach rating="2" name="Careful"/>
+          <approach rating="3" name="Clever"/>
+          <approach rating="1" name="Flashy"/>
+          <approach rating="2" name="Forceful"/>
+          <approach rating="1" name="Quick"/>
+          <approach rating="0" name="Sneaky"/>
+        </approaches>
+      </character>
+    </x:context>
+    <x:expect label="exactly one favored dl and it names Quick"
+      test="count(//dl[contains(@class, 'approaches favored')]) = 1
+            and string(//dl[contains(@class, 'approaches favored')]/dt) = 'Quick'
+            and count(//dl[@class='approaches']) = 5"/>
+  </x:scenario>
+
+  <x:scenario label="a Troll marks Forceful as the favored approach">
+    <x:context>
+      <character>
+        <id><charname>Shüikrü</charname><playername>Nobody</playername><species>Troll</species><description>desc</description></id>
+        <approaches>
+          <approach rating="2" name="Careful"/>
+          <approach rating="3" name="Clever"/>
+          <approach rating="1" name="Flashy"/>
+          <approach rating="2" name="Forceful"/>
+          <approach rating="1" name="Quick"/>
+          <approach rating="0" name="Sneaky"/>
+        </approaches>
+      </character>
+    </x:context>
+    <x:expect label="exactly one favored dl and it names Forceful"
+      test="count(//dl[contains(@class, 'approaches favored')]) = 1
+            and string(//dl[contains(@class, 'approaches favored')]/dt) = 'Forceful'
+            and count(//dl[@class='approaches']) = 5"/>
+  </x:scenario>
+
+  <x:scenario label="a single non-favored approach renders without the favored class">
+    <x:context>
+      <character>
+        <id><charname>Hank</charname><playername>Nobody</playername><species>Human</species><description>desc</description></id>
+        <approaches>
+          <approach rating="2" name="Clever"/>
+        </approaches>
+      </character>
+    </x:context>
+    <x:expect label="one dl.approaches with a +2 rating and no favored class"
+      test="count(//dl[contains(@class, 'approaches')]) = 1
+            and string(//dl[contains(@class, 'approaches')]/dt) = 'Clever'
+            and string(//dl[contains(@class, 'approaches')]/dd) = '+2'
+            and count(//dl[contains(@class, 'favored')]) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="the magic stunts render dabbles-in, focuses-on within, and permanent-magic with the two-point cost">
+    <x:context>
+      <character>
+        <id><charname>Wizard</charname><playername>Nobody</playername><species>Elf</species><description>desc</description></id>
+        <stunts>
+          <magic>
+            <dabbles-in>Alteration</dabbles-in>
+            <focuses-on within="Evocation">Wild Magic</focuses-on>
+            <permanent-magic name="Trusty Old Wand of Fireball">
+              Toss a ball of flame at a single target in your zone,
+              dealing a Good (+3) attack.
+            </permanent-magic>
+          </magic>
+        </stunts>
+      </character>
+    </x:context>
+    <x:expect label="three stunt fieldsets with the magic labels, cite, and two-point cost"
+      test="count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 3
+            and count(/html/body//section[@id='stunts']//th[contains(@class, 'sectionheader') and .='Stunts']) = 1
+            and string((/html/body//section[@id='stunts']//dt)[1]) = 'Dabbles in'
+            and string((/html/body//section[@id='stunts']//dt)[1]/following-sibling::dd) = 'Alteration'
+            and string((/html/body//section[@id='stunts']//dt)[2]) = 'Focuses within Evocation on'
+            and string(/html/body//section[@id='stunts']//cite) = 'Evocation'
+            and string((/html/body//section[@id='stunts']//dt)[2]/following-sibling::dd) = 'Wild Magic'
+            and string((/html/body//section[@id='stunts']//dt)[3]) = 'Trusty Old Wand of Fireball [2]'
+            and contains(string((/html/body//section[@id='stunts']//dt)[3]/following-sibling::dd), 'Good (+3) attack')"/>
+  </x:scenario>
+
+  <x:scenario label="the default consequences table marks only moderate and severe as recoverable">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="three consequence fieldsets with the recovery marker on two"
+      test="count(//th[contains(@class, 'sectionheader') and .='Consequences']) = 1
+            and count(//fieldset[contains(@class, 'consequence')]) = 3
+            and count(//fieldset[contains(@class, 'consequence') and contains(.,'F&#9744;')]) = 3
+            and count(//fieldset[contains(@class, 'consequence') and contains(.,'R?&#9744;')]) = 2
+            and string(//tfoot//th) = 'F = Free, R? = Recovering?'
+            and count(//legend[contains(.,'Mild (2)')]) = 1
+            and count(//legend[contains(.,'Moderate (4)')]) = 1
+            and count(//legend[contains(.,'Severe (6)')]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="a stunt consequence adds a second mild consequence track">
+    <x:context>
+      <character>
+        <stunts>
+          <stunt consequence="Mild">Tough as Nails</stunt>
+        </stunts>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequence fieldsets with two mild tracks"
+      test="count(//fieldset[contains(@class, 'consequence')]) = 4
+            and count(//legend[contains(.,'Mild (2)')]) = 2
+            and count(//legend[contains(.,'Moderate (4)')]) = 1
+            and count(//legend[contains(.,'Severe (6)')]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="the refresh block renders the Aether Sea logo and both fate boxes at the base value">
+    <x:context>
+      <character>
+        <id><charname>Rook</charname><playername>Nobody</playername><species>Human</species><description>desc</description></id>
+        <refresh>3</refresh>
+      </character>
+    </x:context>
+    <x:expect label="the fate-logo section holds the aether-sea span and two boxed values of three"
+      test="string(/html/body//span[@id='aether-sea']) = 'Aether Sea'
+            and count(/html/body//section[@id='fate-logo']//dl[@id='refresh']) = 1
+            and count(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']) = 1
+            and string(/html/body//dl[@id='refresh']/dt) = 'Refresh:'
+            and string(/html/body//dl[@id='refresh']/dd) = '3'
+            and string(/html/body//dl[@id='current-fate-points']/dt) = 'Current Fate Points:'
+            and string(/html/body//dl[@id='current-fate-points']/dd) = '3'"/>
+  </x:scenario>
+
+  <x:scenario label="the refresh block honors an explicit current value">
+    <x:context>
+      <character>
+        <id><charname>Rook</charname><playername>Nobody</playername><species>Human</species><description>desc</description></id>
+        <refresh current="2">2</refresh>
+      </character>
+    </x:context>
+    <x:expect label="both boxed values reflect the current attribute"
+      test="string(/html/body//dl[@id='refresh']/dd) = '2'
+            and string(/html/body//dl[@id='current-fate-points']/dd) = '2'"/>
+  </x:scenario>
+
+  <x:scenario label="the stress table has a single track of three boxes">
+    <x:context>
+      <character/>
+    </x:context>
+    <x:call template="stress"/>
+    <x:expect label="stress section spanning base plus two, boxes 1, 2, 3"
+      test="count(//table[@id='stress_table']) = 1
+            and count(//th[contains(@class, 'sectionheader') and .='Stress']) = 1
+            and count(//th[@colspan='5']) = 1
+            and string(//tr[th[.='Stress']]/following-sibling::tr[1]) = '123'"/>
+  </x:scenario>
+
+  <x:scenario label="notes render as plain text at the end of the body without a wrapper section">
+    <x:context>
+      <character>
+        <id><charname>Shüikrü</charname><playername>Kevin baird</playername><species>Troll</species><description>&#160;</description></id>
+        <notes>
+          Spirit Summoning justified by Trollish Loremaster (Revisionist) for
+          interviews of the recently deceased
+        </notes>
+      </character>
+    </x:context>
+    <x:expect label="notes text appears in the body and no notes section wraps it"
+      test="contains(string(/html/body), 'Spirit Summoning justified by Trollish Loremaster')
+            and count(/html/body//section[@id='notes']) = 0"/>
+  </x:scenario>
+
+</x:description>

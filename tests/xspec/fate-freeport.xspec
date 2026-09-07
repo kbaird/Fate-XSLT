@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  stylesheet="../../xslt/fate-freeport_html.xsl"
+  run-as="external">
+
+  <x:scenario label="a full Freeport character page renders every section like the real Gadi Melaku character">
+    <x:context>
+      <character>
+        <id>
+          <charname>Gadi Melaku of the Ayhudi clan</charname>
+          <playername>Kevin C. Baird</playername>
+          <description>A Gold Dwarf wizard from the Great Rift.</description>
+        </id>
+        <refresh base="6" free-stunts="0"/>
+        <aspects>
+          <aspect type="High-Concept">Gold Dwarf Wizard from the Great Rift</aspect>
+          <aspect type="Trouble">Must Prove Myself Worthy</aspect>
+          <aspect phase-num="1">Close to the Family in Calimport</aspect>
+          <aspect phase-num="2">M.M.S. from the Academy Arcane</aspect>
+          <aspect phase-num="3">Border Patrol in the Steel Shields</aspect>
+        </aspects>
+        <skills shape="flat">
+          <skill rating="1" name="Strength"/>
+          <skill rating="2" name="Dexterity"/>
+          <skill rating="2" name="Constitution"/>
+          <skill rating="3" name="Intelligence"/>
+          <skill rating="1" name="Wisdom"/>
+          <skill rating="0" name="Charisma"/>
+        </skills>
+        <languages>Common, Draconic, Dwarvish, Elvish</languages>
+        <extras>
+          <gadget cost="1" name="War Wizard">
+            <function>Two abjuration or evocation spells.</function>
+            <flaws>
+              <flaw>Loud and Unreliable</flaw>
+            </flaws>
+            <benefits>
+              <benefit cost="0" name="Arcane Shield">Add Intelligence to Dexterity to defend.</benefit>
+              <benefit cost="0" name="Magic Missile">Launch a bolt of arcane energy.</benefit>
+            </benefits>
+          </gadget>
+        </extras>
+        <stunts>
+          <stunt name="Dwarven Toughness">You gain an extra mild consequence slot.</stunt>
+        </stunts>
+        <consequences/>
+        <hacks corruption="true"/>
+        <phase-trio>
+          <phase num="1"><events>First adventure in Calimport.</events></phase>
+          <phase num="2"><events>Studied at the Academy Arcane.</events></phase>
+          <phase num="3"><events>Patrolled the border in the Steel Shields.</events></phase>
+        </phase-trio>
+        <notes>Still trying to learn Halruaan.</notes>
+      </character>
+    </x:context>
+    <x:expect label="page chrome, base css, sections, skills, extras, stress, consequences, phases, and notes render"
+      test="string(/html/head/title) = 'Gadi Melaku of the Ayhudi clan'
+            and string(/html/body/h1) = string(/html/head/title)
+            and contains(string(/html/head/style), './css/fate.css')
+            and contains(string(/html/head/style), './css/fcs.css')
+            and count(/html/body//section[@id='id']) = 1
+            and count(/html/body//section[@id='fate-logo']) = 1
+            and count(/html/body//section[@id='aspects']) = 1
+            and count(/html/body//section[@id='skills']) = 1
+            and count(/html/body//section[@id='extras']) = 1
+            and count(/html/body//section[@id='stunts']) = 1
+            and count(/html/body//section[@id='stress']) = 1
+            and count(/html/body//section[@id='consequences']) = 1
+            and count(/html/body//section[@id='notes']) = 1
+            and contains(string(/html/body//fieldset[@id='name']), 'Gadi Melaku')
+            and count(/html/body//fieldset[@id='description']) = 1
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']) = 5
+            and count(/html/body//section[@id='aspects']//legend[.='High Concept']) = 1
+            and count(/html/body//section[@id='aspects']//legend[.='Trouble']) = 1
+            and count(/html/body//section[@id='aspects']//fieldset[@class='aspect']//span[@class='content']) = 3
+            and contains(string(/html/body//section[@id='aspects']//section[@id='languages']), 'Common, Draconic')
+            and count(/html/body//table[@id='professions']) = 1
+            and count(/html/body//table[@id='professions']//dl[@class='approaches']) = 6
+            and count(/html/body//dl[@class='approaches']/dt[.='Constitution']/following-sibling::dd[1][.='+2']) = 1
+            and count(/html/body//dl[@class='approaches']/dt[.='Wisdom']/following-sibling::dd[1][.='+1']) = 1
+            and contains(string(/html/body//section[@id='extras']//th[@class='sectionheader']), 'Extras')
+            and count(/html/body//section[@id='extras']//fieldset[@class='mega stunt']) = 1
+            and count(/html/body//section[@id='extras']//dt[contains(@class,'function')][normalize-space(.)='Function Aspect:']) = 1
+            and count(/html/body//section[@id='extras']//dt[@class='benefit'][.='Arcane Shield [0]']) = 1
+            and count(/html/body//section[@id='extras']//dt[@class='benefit'][.='Magic Missile [0]']) = 1
+            and count(/html/body//section[@id='extras']//dt[@class='flaw']) = 1
+            and contains(string(/html/body//section[@id='stunts']//th[@class='sectionheader']), 'Stunts')
+            and count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 1
+            and count(/html/body//section[@id='stunts']//dt[.='Dwarven Toughness']) = 1
+            and count(/html/body//table[@id='stress_table']) = 1
+            and count(/html/body//table[@id='stress_table']//tr) = 6
+            and count(/html/body//table[@id='stress_table']//th[@class='sectionheader'][@colspan='4']) = 3
+            and string((/html/body//table[@id='stress_table']//th)[1]) = 'Physical Stress'
+            and string((/html/body//table[@id='stress_table']//th)[2]) = 'Mental Stress'
+            and string((/html/body//table[@id='stress_table']//th)[3]) = 'Corruption'
+            and string(/html/body//table[@id='stress_table']//tr[2]) = '123'
+            and string(/html/body//table[@id='stress_table']//tr[4]) = '123'
+            and count(/html/body//table[@id='stress_table']//tr[6]/td) = 4
+            and count(/html/body//table[@id='stress_table']//tr[6]/td[.='1']) = 4
+            and string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '4'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '4'
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 4
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][1]), 'Mild (2)')
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][4]), 'Mild Physical (2)')
+            and contains(string(/html/body//section[@id='consequences']), 'F = Free, R? = Recovering?')
+            and count(/html/body//th[@class='sectionheader' and .='Phases']) = 1
+            and count(/html/body//fieldset[@class='phase']) = 3
+            and count(/html/body//span[@class='phase-title' and .='Phase 1: Your Adventure']) = 1
+            and count(/html/body//span[@class='phase-title' and .='Phase 2: Crossing Paths']) = 1
+            and count(/html/body//span[@class='phase-title' and .='Phase 3: Crossing Paths Again']) = 1
+            and count(/html/body//em[@class='phase-aspect' and .='Close to the Family in Calimport']) = 1
+            and count(/html/body//em[@class='phase-aspect' and .='Border Patrol in the Steel Shields']) = 1
+            and contains(string(/html/body//fieldset[contains(.,'Phase 1: Your Adventure')]), 'First adventure in Calimport.')
+            and contains(string(/html/body//section[@id='notes']), 'Still trying to learn Halruaan.')"/>
+  </x:scenario>
+
+  <x:scenario label="the head template emits the base fcs sheet and the freeport moreCSS sheet">
+    <x:context>
+      <character>
+        <id>
+          <charname>Freeport Sampler</charname>
+        </id>
+      </character>
+    </x:context>
+    <x:call template="head">
+      <x:param name="baseCSS">fcs</x:param>
+      <x:param name="moreCSS">freeport</x:param>
+    </x:call>
+    <x:expect label="fate, fcs, and freeport css imports with no conditions css"
+      test="string(//head/title) = 'Freeport Sampler'
+            and contains(string(//head/style), './css/fate.css')
+            and contains(string(//head/style), './css/fcs.css')
+            and contains(string(//head/style), './css/freeport.css')
+            and not(contains(string(//head/style), 'conditions.css'))"/>
+  </x:scenario>
+
+  <x:scenario label="stress tracks start at two base boxes and grow with Constitution and Wisdom">
+    <x:context>
+      <character>
+        <id>
+          <charname>Stressed</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="High-Concept">Under Pressure</aspect>
+        </aspects>
+        <skills shape="flat">
+          <skill name="Constitution" rating="0"/>
+          <skill name="Wisdom" rating="2"/>
+        </skills>
+        <stunts/>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="Constitution zero leaves two physical boxes while Wisdom two adds a third mental box"
+      test="count(/html/body//table[@id='stress_table']//th[@class='sectionheader'][@colspan='4']) = 2
+            and string((/html/body//table[@id='stress_table']//th)[1]) = 'Physical Stress'
+            and string((/html/body//table[@id='stress_table']//th)[2]) = 'Mental Stress'
+            and count(/html/body//table[@id='stress_table']//tr) = 4
+            and count(/html/body//table[@id='stress_table']//tr[th[.='Physical Stress']]/following-sibling::tr[1]/td) = 2
+            and string(/html/body//table[@id='stress_table']//tr[th[.='Physical Stress']]/following-sibling::tr[1]) = '12'
+            and count(/html/body//table[@id='stress_table']//tr[th[.='Mental Stress']]/following-sibling::tr[1]/td) = 3
+            and string(/html/body//table[@id='stress_table']//tr[th[.='Mental Stress']]/following-sibling::tr[1]) = '123'
+            and count(/html/body//table[@id='stress_table']//th[.='Corruption']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="stress tracks clamp at four boxes even for legendary skill ratings">
+    <x:context>
+      <character>
+        <id>
+          <charname>Superhuman</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="High-Concept">Peak Condition</aspect>
+        </aspects>
+        <skills shape="flat">
+          <skill name="Constitution" rating="5"/>
+          <skill name="Wisdom" rating="4"/>
+        </skills>
+        <stunts/>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="both tracks show exactly the boxes one through four"
+      test="count(/html/body//table[@id='stress_table']//tr[th[.='Physical Stress']]/following-sibling::tr[1]/td) = 4
+            and string(/html/body//table[@id='stress_table']//tr[th[.='Physical Stress']]/following-sibling::tr[1]) = '1234'
+            and count(/html/body//table[@id='stress_table']//tr[th[.='Mental Stress']]/following-sibling::tr[1]/td) = 4
+            and string(/html/body//table[@id='stress_table']//tr[th[.='Mental Stress']]/following-sibling::tr[1]) = '1234'"/>
+  </x:scenario>
+
+  <x:scenario label="the corruption hack appends its four-box track when enabled">
+    <x:context>
+      <character>
+        <id>
+          <charname>Corrupted</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="High-Concept">Tainted</aspect>
+        </aspects>
+        <skills shape="flat">
+          <skill name="Constitution" rating="0"/>
+          <skill name="Wisdom" rating="0"/>
+        </skills>
+        <stunts/>
+        <consequences/>
+        <hacks corruption="true"/>
+      </character>
+    </x:context>
+    <x:expect label="a Corruption header and a four-box track follow the mental track"
+      test="count(/html/body//table[@id='stress_table']//tr) = 6
+            and count(/html/body//table[@id='stress_table']//th[@class='sectionheader'][@colspan='4']) = 3
+            and string((/html/body//table[@id='stress_table']//th)[3]) = 'Corruption'
+            and count(/html/body//table[@id='stress_table']//tr[th[.='Corruption']]/following-sibling::tr[1]/td) = 4
+            and count(/html/body//table[@id='stress_table']//tr[th[.='Corruption']]/following-sibling::tr[1]/td[.='1']) = 4
+            and count(/html/body//table[@id='stress_table']//td) = 8"/>
+  </x:scenario>
+
+  <x:scenario label="the phase trio renders numbered titles, aspect callouts, and events">
+    <x:context>
+      <character>
+        <id>
+          <charname>Phase Trio</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="High-Concept">Torchbearer</aspect>
+          <aspect phase-num="1">First Tie</aspect>
+          <aspect phase-num="1">Second Tie</aspect>
+          <aspect phase-num="2">Featherweight</aspect>
+          <aspect phase-num="3">Phantom of the Boardwalk</aspect>
+        </aspects>
+        <stunts/>
+        <consequences/>
+        <phase-trio>
+          <phase num="1"><events>First adventure.</events></phase>
+          <phase num="2" title="A Deal With Ogres"><events>Meeting the crew.</events></phase>
+          <phase num="3"><events>The third phase.</events></phase>
+        </phase-trio>
+      </character>
+    </x:context>
+    <x:expect label="a Phases table with default and custom titles, plural and singular aspect callouts, and events"
+      test="count(/html/body//th[@class='sectionheader' and .='Phases']) = 1
+            and count(/html/body//fieldset[@class='phase']) = 3
+            and count(/html/body//span[@class='phase-title' and .='Phase 1: Your Adventure']) = 1
+            and count(/html/body//span[@class='phase-title' and .='Phase 2: A Deal With Ogres']) = 1
+            and count(/html/body//span[@class='phase-title' and .='Phase 3: Crossing Paths Again']) = 1
+            and contains(string(/html/body//fieldset[contains(.,'Phase 1: Your Adventure')]//span[contains(@class,'aspects')]), 'Aspects:')
+            and count(/html/body//fieldset[contains(.,'Phase 1: Your Adventure')]//em[@class='phase-aspect']) = 2
+            and count(/html/body//fieldset[contains(.,'Phase 1: Your Adventure')]//em[@class='phase-aspect' and .='Second Tie']) = 1
+            and string(/html/body//fieldset[contains(.,'Phase 2: A Deal With Ogres')]//em[@class='phase-aspect']) = 'Featherweight'
+            and count(/html/body//fieldset[contains(.,'Phase 3: Crossing Paths Again')]//em[@class='phase-aspect' and .='Phantom of the Boardwalk']) = 1
+            and contains(string(/html/body//fieldset[contains(.,'Phase 1: Your Adventure')]), 'First adventure.')
+            and contains(string(/html/body//fieldset[contains(.,'Phase 2: A Deal With Ogres')]), 'Meeting the crew.')
+            and contains(string(/html/body//fieldset[contains(.,'Phase 3: Crossing Paths Again')]), 'The third phase.')"/>
+  </x:scenario>
+
+  <x:scenario label="refresh subtracts stunt and gadget costs from the base">
+    <x:context>
+      <character>
+        <id>
+          <charname>Computable</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="7" free-stunts="1"/>
+        <aspects>
+          <aspect type="High-Concept">Calculator</aspect>
+        </aspects>
+        <extras>
+          <gadget cost="1" name="Alpha">
+            <function>A function.</function>
+            <benefits>
+              <benefit cost="0" name="B1">B1 text.</benefit>
+            </benefits>
+          </gadget>
+          <gadget cost="1" name="Beta">
+            <function>A function.</function>
+            <benefits>
+              <benefit cost="0" name="B2">B2 text.</benefit>
+            </benefits>
+          </gadget>
+        </extras>
+        <stunts>
+          <stunt name="One">One.</stunt>
+          <stunt name="Two">Two.</stunt>
+          <stunt name="Three">Three.</stunt>
+        </stunts>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="seven minus two stunt costs minus two gadget costs leaves three for both boxes"
+      test="string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '3'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '3'"/>
+  </x:scenario>
+
+  <x:scenario label="an explicit current refresh overrides the computed values">
+    <x:context>
+      <character>
+        <id>
+          <charname>Current</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="7" current="9"/>
+        <aspects>
+          <aspect type="High-Concept">Spender</aspect>
+        </aspects>
+        <extras>
+          <gadget cost="1" name="Alpha">
+            <function>A function.</function>
+            <benefits>
+              <benefit cost="0" name="B1">B1 text.</benefit>
+            </benefits>
+          </gadget>
+        </extras>
+        <stunts/>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="both the refresh and the fate point boxes show the explicit current value"
+      test="string(/html/body//section[@id='fate-logo']//dl[@id='refresh']/dd) = '9'
+            and string(/html/body//section[@id='fate-logo']//dl[@id='current-fate-points']/dd) = '9'"/>
+  </x:scenario>
+
+  <x:scenario label="consequences render filled slots, an extra mild box from a stunt, and the footer">
+    <x:context>
+      <character>
+        <id>
+          <charname>Battle-Scarred</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="High-Concept">Hardened</aspect>
+        </aspects>
+        <stunts>
+          <stunt name="Extra Mild" consequence="Mild">Shrug off a hit.</stunt>
+        </stunts>
+        <consequences>
+          <consequence severity="Mild">Stiff Neck</consequence>
+          <consequence severity="Moderate">Lost an Eye</consequence>
+        </consequences>
+      </character>
+    </x:context>
+    <x:expect label="four boxes carry the mild text twice, the moderate text, and the recovery legend"
+      test="count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 4
+            and count(/html/body//section[@id='consequences']//legend[contains(string(.),'Mild (2)')]) = 2
+            and count(/html/body//section[@id='consequences']//fieldset[@class='consequence'][contains(string(.),'Stiff Neck')]) = 2
+            and not(contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][1]), 'R?'))
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][3]), 'Lost an Eye')
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][3]), 'Moderate (4)')
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][3]), 'R?')
+            and contains(string(/html/body//section[@id='consequences']//fieldset[@class='consequence'][4]), 'Severe (6)')
+            and contains(string(/html/body//section[@id='consequences']), 'F = Free, R? = Recovering?')"/>
+  </x:scenario>
+
+  <x:scenario label="stunts render their names and descriptions in a dedicated section">
+    <x:context>
+      <character>
+        <id>
+          <charname>Talker</charname>
+          <playername>Nobody</playername>
+        </id>
+        <refresh base="3"/>
+        <aspects>
+          <aspect type="High-Concept">Silver Tongue</aspect>
+        </aspects>
+        <stunts>
+          <stunt name="Persuasion">Gain a +2 to Charisma-based overcome attempts.</stunt>
+          <stunt name="Pistol Panache">Use Charisma rather than Dexterity with firearms.</stunt>
+        </stunts>
+        <consequences/>
+      </character>
+    </x:context>
+    <x:expect label="a Stunts header and two named stunt fieldsets"
+      test="count(/html/body//section[@id='stunts']//th[@class='sectionheader' and .='Stunts']) = 1
+            and count(/html/body//section[@id='stunts']//fieldset[@class='stunt']) = 2
+            and count(/html/body//section[@id='stunts']//dt[.='Persuasion']) = 1
+            and count(/html/body//section[@id='stunts']//dt[.='Pistol Panache']) = 1
+            and contains(string(/html/body//section[@id='stunts']//fieldset[contains(.,'Persuasion')]), 'Charisma-based overcome')
+            and contains(string(/html/body//section[@id='stunts']//fieldset[contains(.,'Pistol Panache')]), 'Charisma rather than Dexterity')"/>
+  </x:scenario>
+
+</x:description>
