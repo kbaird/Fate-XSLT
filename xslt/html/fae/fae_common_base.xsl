@@ -9,6 +9,5 @@
   <xsl:include href="approaches.xsl"/>
   <xsl:include href="consequences.xsl"/>
   <xsl:include href="copyright.xsl"/>
-  <xsl:include href="id.xsl"/>
   <xsl:include href="stress.xsl"/>
 </xsl:stylesheet>
