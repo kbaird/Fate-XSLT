@@ -43,15 +43,18 @@
 
   <!ELEMENT extras (extra*, gadget*)>
     <!ELEMENT extra (#PCDATA)>
+      <!ATTLIST extra cost CDATA #IMPLIED>
       <!ATTLIST extra name CDATA #IMPLIED>
-    <!ELEMENT gadget (function, flaws, aspects*, benefits*)>
+    <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
     <!-- benefits instead of stunts for ease of integration with ARRPG -->
     <!ATTLIST gadget name CDATA #REQUIRED>
     <!ATTLIST gadget notes CDATA #IMPLIED>
     <!ATTLIST gadget override-name CDATA #IMPLIED>
       <!ELEMENT function (#PCDATA)>
+      <!ATTLIST function name CDATA #IMPLIED>
         <!ELEMENT flaws (flaw*)>
           <!ELEMENT flaw (#PCDATA)>
+          <!ATTLIST flaw name CDATA #IMPLIED>
         <!ELEMENT benefits (benefit*)>
           <!ELEMENT benefit (#PCDATA)>
           <!ATTLIST benefit cost CDATA #IMPLIED>

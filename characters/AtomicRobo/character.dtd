@@ -34,14 +34,19 @@
       <!ELEMENT stunt (#PCDATA)>
       <!ATTLIST stunt mega (true|false) "false">
       <!ATTLIST stunt name CDATA #REQUIRED>
-      <!ELEMENT gadget (function, flaws, benefits*)>
+      <!ELEMENT gadget (function+, flaws?, aspects?, benefits?)>
+      <!ATTLIST gadget cost CDATA #IMPLIED>
       <!ATTLIST gadget name CDATA #REQUIRED>
+      <!ATTLIST gadget notes CDATA #IMPLIED>
+      <!ATTLIST gadget override-name CDATA #IMPLIED>
         <!ELEMENT function (#PCDATA)>
+        <!ATTLIST function name CDATA #IMPLIED>
         <!ELEMENT flaws (flaw*)>
           <!ELEMENT flaw (#PCDATA)>
+          <!ATTLIST flaw name CDATA #IMPLIED>
         <!ELEMENT benefits (benefit*)>
           <!ELEMENT benefit (#PCDATA)>
-          <!ATTLIST benefit cost CDATA #REQUIRED>
+          <!ATTLIST benefit cost CDATA #IMPLIED>
           <!ATTLIST benefit name CDATA #REQUIRED>
 
     <!ELEMENT consequences (consequence*)>
