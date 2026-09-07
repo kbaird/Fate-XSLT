@@ -195,4 +195,43 @@
             and not(contains(//tr[th[.='Physical Stress']][1]/following-sibling::tr[1], '3'))"/>
   </x:scenario>
 
+  <x:scenario label="a fixed maxCount caps the header colspan and total stress boxes">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="generic-stress">
+      <x:param name="baseCount">3</x:param>
+      <x:param name="maxCount">4</x:param>
+      <x:param name="headerName">Health</x:param>
+      <x:param name="skillName">Physique</x:param>
+    </x:call>
+    <x:expect label="header colspan is 4, not 5, and only 4 data cells appear"
+      test="count(//th[@colspan='4']) = 1
+            and count(//th[@colspan='5']) = 0
+            and count(//td) = 4"/>
+  </x:scenario>
+
+  <x:scenario label="a fixed maxCount equal to baseCount produces no skill-driven extras">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="generic-stress">
+      <x:param name="baseCount">3</x:param>
+      <x:param name="maxCount">3</x:param>
+      <x:param name="headerName">Health</x:param>
+      <x:param name="skillName">Physique</x:param>
+    </x:call>
+    <x:expect label="header colspan is 3 and only 3 data cells appear"
+      test="count(//th[@colspan='3']) = 1
+            and count(//td) = 3"/>
+  </x:scenario>
+
 </x:description>
