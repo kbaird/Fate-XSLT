@@ -14,7 +14,7 @@
       </legend>
       <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
         <xsl:choose>
-          <xsl:when test=".">
+          <xsl:when test="text()">
             <xsl:value-of select="."/>
           </xsl:when>
           <xsl:otherwise>
