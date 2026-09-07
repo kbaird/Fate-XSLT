@@ -130,6 +130,98 @@
             and count(//legend/span[.='Mild Mental (2)']) = 1"/>
   </x:scenario>
 
+  <x:scenario label="a configured physical-consequence-skill name drives the extra physical slot">
+    <x:context>
+      <character>
+        <hacks physical-consequence-skill="Brawn"/>
+        <skills>
+          <skill name="Brawn" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequences including Mild Physical (2) via the renamed skill"
+      test="count(//fieldset[contains(@class,'consequence')]) = 4
+            and count(//legend/span[.='Mild Physical (2)']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="a configured physical-consequence-skill name stops the default Physique literal from triggering">
+    <x:context>
+      <character>
+        <hacks physical-consequence-skill="Brawn"/>
+        <skills>
+          <skill name="Physique" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="only the three core consequences, no Mild Physical (2)"
+      test="count(//fieldset[contains(@class,'consequence')]) = 3
+            and count(//legend/span[.='Mild Physical (2)']) = 0"/>
+  </x:scenario>
+
+  <x:scenario label="a configured mental-consequence-skill name drives the extra mental slot">
+    <x:context>
+      <character>
+        <hacks mental-consequence-skill="Composure"/>
+        <skills>
+          <skill name="Composure" rating="5"/>
+        </skills>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequences including Mild Mental (2) via the renamed skill"
+      test="count(//fieldset[contains(@class,'consequence')]) = 4
+            and count(//legend/span[.='Mild Mental (2)']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="a configured physical-consequence-stunt name drives the extra physical slot">
+    <x:context>
+      <character>
+        <hacks physical-consequence-stunt="Tough as Nails"/>
+        <stunts>
+          <stunt name="Tough as Nails"/>
+        </stunts>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="four consequences including Mild Physical (2) via the renamed stunt"
+      test="count(//fieldset[contains(@class,'consequence')]) = 4
+            and count(//legend/span[.='Mild Physical (2)']) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="a filled Mild-Physical consequence binds to the extra physical slot">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Physique" rating="5"/>
+        </skills>
+        <consequences>
+          <consequence severity="Mild-Physical">Cracked Rib</consequence>
+        </consequences>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="Cracked Rib renders inside the Mild Physical (2) fieldset"
+      test="count(//fieldset[contains(.,'Cracked Rib')][contains(.,'Mild Physical (2)')]) = 1"/>
+  </x:scenario>
+
+  <x:scenario label="a filled Mild-Mental consequence binds to the extra mental slot">
+    <x:context>
+      <character>
+        <skills>
+          <skill name="Will" rating="5"/>
+        </skills>
+        <consequences>
+          <consequence severity="Mild-Mental">Shattered Resolve</consequence>
+        </consequences>
+      </character>
+    </x:context>
+    <x:call template="consequences"/>
+    <x:expect label="Shattered Resolve renders inside the Mild Mental (2) fieldset"
+      test="count(//fieldset[contains(.,'Shattered Resolve')][contains(.,'Mild Mental (2)')]) = 1"/>
+  </x:scenario>
+
   <x:scenario label="consequence template renders a lone severity detail inline using call params">
     <x:context>
       <character/>

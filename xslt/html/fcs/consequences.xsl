@@ -27,16 +27,40 @@
             <xsl:with-param name="label">Severe (6)</xsl:with-param>
             <xsl:with-param name="severity">Severe</xsl:with-param>
           </xsl:call-template>
-          <xsl:if test="/character/skills/skill[@name='Physique']/@rating &gt; 4 or /character/stunts/stunt[@name='Dwarven Toughness']">
+          <xsl:variable name="physical-consequence-skill">
+            <xsl:choose>
+              <xsl:when test="/character/hacks/@physical-consequence-skill">
+                <xsl:value-of select="/character/hacks/@physical-consequence-skill"/>
+              </xsl:when>
+              <xsl:otherwise>Physique</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="mental-consequence-skill">
+            <xsl:choose>
+              <xsl:when test="/character/hacks/@mental-consequence-skill">
+                <xsl:value-of select="/character/hacks/@mental-consequence-skill"/>
+              </xsl:when>
+              <xsl:otherwise>Will</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="physical-consequence-stunt">
+            <xsl:choose>
+              <xsl:when test="/character/hacks/@physical-consequence-stunt">
+                <xsl:value-of select="/character/hacks/@physical-consequence-stunt"/>
+              </xsl:when>
+              <xsl:otherwise>Dwarven Toughness</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:if test="/character/skills/skill[@name=$physical-consequence-skill]/@rating &gt; 4 or /character/stunts/stunt[@name=$physical-consequence-stunt]">
             <xsl:call-template name="consequence">
               <xsl:with-param name="label">Mild Physical (2)</xsl:with-param>
-              <xsl:with-param name="severity">mild-physical</xsl:with-param>
+              <xsl:with-param name="severity">Mild-Physical</xsl:with-param>
             </xsl:call-template>
           </xsl:if>
-          <xsl:if test="/character/skills/skill[@name='Will']/@rating &gt; 4">
+          <xsl:if test="/character/skills/skill[@name=$mental-consequence-skill]/@rating &gt; 4">
             <xsl:call-template name="consequence">
               <xsl:with-param name="label">Mild Mental (2)</xsl:with-param>
-              <xsl:with-param name="severity">mild-mental</xsl:with-param>
+              <xsl:with-param name="severity">Mild-Mental</xsl:with-param>
             </xsl:call-template>
           </xsl:if>
         </td>
