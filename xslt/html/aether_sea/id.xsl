@@ -3,7 +3,6 @@
   <xsl:import href="../fate-common/id.xsl"/>
   <xsl:output method="html"/>
   <xsl:include href="./species.xsl"/>
-  <xsl:include href="../fate-common/description.xsl"/>
   <xsl:template match="id">
     <xsl:call-template name="id-frame"/>
   </xsl:template>

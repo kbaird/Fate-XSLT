@@ -193,7 +193,7 @@
             and string((/html/body//table[@id='conditions']//tr[3]/td/dl//dd)[1]) = ''"/>
   </x:scenario>
 
-  <x:scenario label="notes render as bare body text rather than a notes section">
+  <x:scenario label="notes render in a notes section like the other systems">
     <x:context>
       <character>
         <id>
@@ -207,9 +207,9 @@
         <notes>Some free-form notes text</notes>
       </character>
     </x:context>
-    <x:expect label="no notes section appears but the notes text renders as body text"
-      test="count(/html/body//section[@id='notes']) = 0
-            and contains(string(/html/body), 'Some free-form notes text')"/>
+    <x:expect label="a notes section appears with the notes text"
+      test="count(/html/body//section[@id='notes']) = 1
+            and string(/html/body//section[@id='notes']//pre) = 'Some free-form notes text'"/>
   </x:scenario>
 
 </x:description>

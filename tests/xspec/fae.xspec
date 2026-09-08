@@ -231,4 +231,15 @@
             and contains(string(.), '©2013 Evil Hat Productions, LLC.')"/>
   </x:scenario>
 
+<x:scenario label="notes render in a notes section like the other systems">
+    <x:context>
+      <character>
+        <notes>Space Cowboy. Same costume as 5 years ago.</notes>
+      </character>
+    </x:context>
+    <x:expect label="a notes section appears with the notes text"
+      test="count(/html/body//section[@id='notes']) = 1
+            and string(/html/body//section[@id='notes']//pre) = 'Space Cowboy. Same costume as 5 years ago.'"/>
+  </x:scenario>
+
 </x:description>

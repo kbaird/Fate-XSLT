@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:import href="../fate-common/id.xsl"/>
   <xsl:output method="html"/>
-  <xsl:include href="../fate-common/description.xsl"/>
   <xsl:template match="id">
     <xsl:call-template name="id-frame"/>
   </xsl:template>
