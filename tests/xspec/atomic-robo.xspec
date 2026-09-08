@@ -613,6 +613,7 @@
     </x:context>
     <x:expect label="the conditions table with severity-one, two, and severe-four labels replaces the consequence boxes"
       test="count(/html/body//table[@id='conditions']) = 1
+            and contains(string(/html/head/style), './css/conditions.css')
             and count(/html/body//section[@id='consequences']//fieldset[@class='consequence']) = 0
             and count(/html/body//table[@id='conditions']//dt[@class='severe']) = 2
             and contains(string(/html/body//table[@id='conditions']), 'Angry')

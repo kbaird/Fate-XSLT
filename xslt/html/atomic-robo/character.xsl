@@ -13,6 +13,9 @@
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">fcs</xsl:with-param>
         <xsl:with-param name="moreCSS">atomic-robo</xsl:with-param>
+        <xsl:with-param name="useConditions">
+          <xsl:value-of select="$useConditions"/>
+        </xsl:with-param>
       </xsl:call-template>
       <body>
         <h1>
