@@ -224,15 +224,15 @@
             and contains(string(/html/body//section[@id='consequences']//tfoot//th), 'F = Free, R? = Recovering?')"/>
   </x:scenario>
 
-  <x:scenario label="notes text renders in the body">
+  <x:scenario label="notes render in a notes section like the other systems">
     <x:context>
       <character>
         <notes>Wants to escape by being nimble and cartwheeling in the air. Carries a spyglass.</notes>
       </character>
     </x:context>
-    <x:expect label="the notes text appears raw in the body without a notes section wrapper"
-      test="contains(string(/html/body), 'Carries a spyglass')
-            and count(/html/body//section[@id='notes']) = 0"/>
+    <x:expect label="a notes section appears with the notes text"
+      test="count(/html/body//section[@id='notes']) = 1
+            and string(/html/body//section[@id='notes']//pre) = 'Wants to escape by being nimble and cartwheeling in the air. Carries a spyglass.'"/>
   </x:scenario>
 
   <x:scenario label="aspects render Avatar, Banner-Trouble, and Dragon labels plus content-only aspects">

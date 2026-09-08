@@ -371,19 +371,16 @@
             and string(//tr[th[.='Stress']]/following-sibling::tr[1]) = '123'"/>
   </x:scenario>
 
-  <x:scenario label="notes render as plain text at the end of the body without a wrapper section">
+  <x:scenario label="notes render in a notes section like the other systems">
     <x:context>
       <character>
         <id><charname>Shüikrü</charname><playername>Kevin baird</playername><species>Troll</species><description>&#160;</description></id>
-        <notes>
-          Spirit Summoning justified by Trollish Loremaster (Revisionist) for
-          interviews of the recently deceased
-        </notes>
+        <notes>Spirit Summoning justified by Trollish Loremaster (Revisionist) for interviews of the recently deceased.</notes>
       </character>
     </x:context>
-    <x:expect label="notes text appears in the body and no notes section wraps it"
-      test="contains(string(/html/body), 'Spirit Summoning justified by Trollish Loremaster')
-            and count(/html/body//section[@id='notes']) = 0"/>
+    <x:expect label="a notes section appears with the notes text"
+      test="count(/html/body//section[@id='notes']) = 1
+            and string(/html/body//section[@id='notes']//pre) = 'Spirit Summoning justified by Trollish Loremaster (Revisionist) for interviews of the recently deceased.'"/>
   </x:scenario>
 
 </x:description>

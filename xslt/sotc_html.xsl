@@ -3,14 +3,7 @@
   <xsl:output method="html"/>
   <xsl:include href="html/fcs/skills.xsl"/>
   <xsl:include href="html/fcs/consequences.xsl"/>
-  <xsl:include href="html/fate-common/aspects.xsl"/>
-  <xsl:include href="html/fate-common/head.xsl"/>
-  <xsl:include href="html/fate-common/name.xsl"/>
-  <xsl:include href="html/fate-common/name-of-rating.xsl"/>
-  <xsl:include href="html/fate-common/notes.xsl"/>
-  <xsl:include href="html/fate-common/refresh.xsl"/>
-  <xsl:include href="html/fate-common/stunts.xsl"/>
-  <xsl:include href="html/fate-common/gear.xsl"/>
+  <xsl:include href="html/fate-common/fate-common.xsl"/>
   <xsl:include href="html/sotc/character.xsl"/>
   <xsl:include href="html/sotc/copyright.xsl"/>
   <xsl:include href="html/sotc/gadgets.xsl"/>
