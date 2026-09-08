@@ -70,7 +70,7 @@
     <!ATTLIST consequence severity (Mild|Moderate|Severe|Mild-Physical|Mild-Mental) #REQUIRED>
 
   <!ELEMENT hacks (#PCDATA)>
-    <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit     -->
+    <!ATTLIST hacks conditions          (true|false|wwn) "false"> <!-- Fate System Toolkit; wwn = Weird World News World of Adventure -->
     <!ATTLIST hacks corruption          (true|false)     "false"> <!-- Fate Freeport Companion -->
     <!ATTLIST hacks credit-stress       (true|false)     "false"> <!-- Mostly for Mindjammer   -->
     <!ATTLIST hacks skill-modes         (true|false)     "false"> <!-- Fate System Toolkit     -->

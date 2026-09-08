@@ -103,6 +103,38 @@
             and count(/html/body//section[@id='consequences']//fieldset) = 0"/>
   </x:scenario>
 
+  <x:scenario label="a character with the wwn hack renders the Weird World News conditions table as consequences">
+    <x:context>
+      <character>
+        <id>
+          <charname>WWNicked</charname>
+          <playername>Unit Tester</playername>
+        </id>
+        <hacks conditions="wwn"/>
+        <refresh base="7"/>
+        <aspects>
+          <aspect type="High-Concept">WWNicked</aspect>
+        </aspects>
+        <skills>
+          <skill name="Physique" rating="3"/>
+        </skills>
+        <stunts>
+          <stunt>Iron Constitution</stunt>
+        </stunts>
+      </character>
+    </x:context>
+    <x:expect label="the consequences section becomes the wwn conditions table and conditions.css is imported"
+      test="count(/html/body//section[@id='consequences']//table[@id='conditions']) = 1
+            and count(/html/body//section[@id='consequences']//th[contains(@class,'condition-type')]) = 2
+            and count(/html/body//section[@id='consequences']//th[contains(.,'Lasting')]) = 0
+            and count(/html/body//section[@id='consequences']//dt[.='Growling Stomach']) = 1
+            and count(/html/body//section[@id='consequences']//dt[.='Shivering']) = 1
+            and count(/html/body//section[@id='consequences']//dt[.='Hungry']) = 1
+            and count(/html/body//section[@id='consequences']//dt[.='Panicked']) = 1
+            and count(/html/body//section[@id='consequences']//fieldset) = 0
+            and contains(string(/html/head/style), './css/conditions.css')"/>
+  </x:scenario>
+
   <x:scenario label="flat-shaped skills render as a professions-style table of approach dls">
     <x:context>
       <character>

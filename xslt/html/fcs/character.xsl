@@ -5,8 +5,7 @@
     <xsl:param name="moreCSS"/>
     <xsl:variable name="useConditions">
       <xsl:choose>
-        <xsl:when test="hacks/@conditions='true'">true</xsl:when>
-        <xsl:when test="hacks/@conditions='wwn'">wwn</xsl:when>
+        <xsl:when test="hacks/@conditions='true' or hacks/@conditions='wwn'">true</xsl:when>
         <xsl:otherwise>false</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -97,11 +96,12 @@
         </section>
         <section id="consequences">
           <xsl:choose>
+            <xsl:when test="hacks/@conditions='wwn'">
+              <!-- 'wwn' = the Weird World News World of Adventure conditions set -->
+              <xsl:call-template name="conditions-wwn"/>
+            </xsl:when>
             <xsl:when test="$useConditions='true'">
               <xsl:call-template name="conditions"/>
-            </xsl:when>
-            <xsl:when test="$useConditions='wwn'">
-              <xsl:call-template name="conditions-wwn"/>
             </xsl:when>
             <xsl:otherwise>
               <xsl:call-template name="consequences"/>
