@@ -16,7 +16,6 @@
       not(/character/skills/mode[@rating=$modeRating+2]/skill[@name=$skillName])">
       <xsl:element name="li">
         <xsl:call-template name="add-skill-focusing">
-          <xsl:with-param name="skillName" select="$skillName"/>
           <xsl:with-param name="skillRating" select="$skillRating"/>
           <xsl:with-param name="modeRating" select="$modeRating"/>
         </xsl:call-template>
