@@ -4,32 +4,36 @@
   <xsl:include href="skills-with-modes-header-row.xsl"/>
   <xsl:include href="skills-with-modes-loop.xsl"/>
 
-  <xsl:variable name="maxModeRating">
-    <xsl:for-each select="/character/skills/mode/@rating">
-      <xsl:sort data-type="number" order="descending"/>
-      <xsl:if test="position()=1"><xsl:value-of select="."/></xsl:if>
-    </xsl:for-each>
-  </xsl:variable>
-  <xsl:variable name="medModeRating">
-    <xsl:for-each select="/character/skills/mode/@rating">
-      <xsl:sort data-type="number" order="descending"/>
-      <xsl:if test="position()=2"><xsl:value-of select="."/></xsl:if>
-    </xsl:for-each>
-  </xsl:variable>
-  <xsl:variable name="minModeRating">
-    <xsl:for-each select="/character/skills/mode/@rating">
-      <xsl:sort data-type="number" order="descending"/>
-      <xsl:if test="position()=3"><xsl:value-of select="."/></xsl:if>
-    </xsl:for-each>
-  </xsl:variable>
-  <xsl:variable name="maxSkillRating">
-    <xsl:value-of select="$maxModeRating + 2"/>
-  </xsl:variable>
-
   <xsl:template name="skills-with-modes">
-    <xsl:call-template name="skills-with-modes-header-row"/>
+    <xsl:param name="maxModeRating">
+      <xsl:for-each select="/character/skills/mode/@rating">
+        <xsl:sort data-type="number" order="descending"/>
+        <xsl:if test="position()=1"><xsl:value-of select="."/></xsl:if>
+      </xsl:for-each>
+    </xsl:param>
+    <xsl:param name="medModeRating">
+      <xsl:for-each select="/character/skills/mode/@rating">
+        <xsl:sort data-type="number" order="descending"/>
+        <xsl:if test="position()=2"><xsl:value-of select="."/></xsl:if>
+      </xsl:for-each>
+    </xsl:param>
+    <xsl:param name="minModeRating">
+      <xsl:for-each select="/character/skills/mode/@rating">
+        <xsl:sort data-type="number" order="descending"/>
+        <xsl:if test="position()=3"><xsl:value-of select="."/></xsl:if>
+      </xsl:for-each>
+    </xsl:param>
+    <xsl:variable name="maxSkillRating" select="$maxModeRating + 2"/>
+    <xsl:call-template name="skills-with-modes-header-row">
+      <xsl:with-param name="maxModeRating" select="$maxModeRating"/>
+      <xsl:with-param name="medModeRating" select="$medModeRating"/>
+      <xsl:with-param name="minModeRating" select="$minModeRating"/>
+    </xsl:call-template>
     <xsl:call-template name="skills-with-modes-loop">
       <xsl:with-param name="skillRating" select="$maxSkillRating"/>
+      <xsl:with-param name="maxModeRating" select="$maxModeRating"/>
+      <xsl:with-param name="medModeRating" select="$medModeRating"/>
+      <xsl:with-param name="minModeRating" select="$minModeRating"/>
     </xsl:call-template>
   </xsl:template>
 

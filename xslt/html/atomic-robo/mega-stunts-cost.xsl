@@ -2,30 +2,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:template name="mega-stunts-cost">
-    <xsl:variable name="gadgetsCount">
-      <xsl:value-of select="count(/character/stunts/gadget)"/>
-    </xsl:variable>
-    <xsl:variable name="gadgetsBenefitsCost">
-      <xsl:value-of select="sum(/character/stunts/gadget/benefits/benefit/@cost)"/>
-    </xsl:variable>
-    <xsl:variable name="gadgetsCost">
-      <xsl:value-of select="$gadgetsCount + $gadgetsBenefitsCost"/>
-    </xsl:variable>
-    <xsl:variable name="signatureAspectCount">
-      <xsl:value-of select="count(/character/aspects/aspect[@signature='true'])"/>
-    </xsl:variable>
-    <xsl:variable name="stuntsCount">
-      <xsl:value-of select="count(/character/stunts/stunt)"/>
-    </xsl:variable>
-    <xsl:variable name="stuntsMegaCount">
-      <xsl:value-of select="count(/character/stunts/stunt[@mega='true'])"/>
-    </xsl:variable>
-    <xsl:variable name="stuntsCost">
-      <xsl:value-of select="$stuntsCount + $stuntsMegaCount + $gadgetsCost + $signatureAspectCount"/>
-    </xsl:variable>
-    <xsl:variable name="fatePointsToGm">
-      <xsl:value-of select="$stuntsCost - 5"/>
-    </xsl:variable>
+    <xsl:param name="gadgetsCount" select="count(/character/stunts/gadget)"/>
+    <xsl:param name="gadgetsBenefitsCost" select="sum(/character/stunts/gadget/benefits/benefit/@cost)"/>
+    <xsl:param name="signatureAspectCount" select="count(/character/aspects/aspect[@signature='true'])"/>
+    <xsl:param name="stuntsCount" select="count(/character/stunts/stunt)"/>
+    <xsl:param name="stuntsMegaCount" select="count(/character/stunts/stunt[@mega='true'])"/>
+    <xsl:variable name="gadgetsCost" select="$gadgetsCount + $gadgetsBenefitsCost"/>
+    <xsl:variable name="stuntsCost" select="$stuntsCount + $stuntsMegaCount + $gadgetsCost + $signatureAspectCount"/>
+    <xsl:variable name="fatePointsToGm" select="$stuntsCost - 5"/>
     <xsl:choose>
       <xsl:when test="$stuntsCost &lt; 6"/> <!-- no op -->
       <xsl:when test="$stuntsCost = 6">
