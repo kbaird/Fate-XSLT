@@ -2,21 +2,24 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:include href="benefit.xsl"/>
+  <xsl:include href="dl-entry.xsl"/>
   <xsl:include href="function.xsl"/>
   <xsl:include href="flaw.xsl"/>
   <xsl:template match="aspect" mode="gadget">
-    <!-- TODO: DRY up with function.xsl -->
-    <dt class="function">
+    <xsl:variable name="label">
       <xsl:choose>
         <xsl:when test="../../@override-name">
           <xsl:value-of select="../../@override-name"/>
         </xsl:when>
         <xsl:otherwise>
-          Aspect:
+          <xsl:text>Aspect:</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
-    </dt>
-    <dd><xsl:value-of select="."/></dd>
+    </xsl:variable>
+    <xsl:call-template name="dl-entry">
+      <xsl:with-param name="label" select="$label"/>
+      <xsl:with-param name="value" select="."/>
+    </xsl:call-template>
   </xsl:template>
   <xsl:template match="gadget">
     <tr>
@@ -42,3 +45,4 @@
     </tr>
   </xsl:template>
 </xsl:stylesheet>
+
