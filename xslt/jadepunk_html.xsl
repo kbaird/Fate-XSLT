@@ -7,6 +7,7 @@
   <xsl:include href="html/fate-common/notes.xsl"/>
   <xsl:include href="html/fcs/conditions.xsl"/>
   <xsl:include href="html/fcs/consequences.xsl"/>
+  <xsl:include href="html/jadepunk/asset-cost.xsl"/>
   <xsl:include href="html/jadepunk/assets.xsl"/>
   <xsl:include href="html/jadepunk/character.xsl"/>
   <xsl:include href="html/jadepunk/id.xsl"/>
