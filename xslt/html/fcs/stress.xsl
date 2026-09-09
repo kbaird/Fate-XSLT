@@ -55,7 +55,7 @@
                 <xsl:with-param name="headerName">Mental Stress</xsl:with-param>
                 <xsl:with-param name="skillName">Will</xsl:with-param>
               </xsl:call-template>
-              <xsl:if test="$useCreditStress='true'">
+              <xsl:if test="$useCreditStress">
                 <xsl:call-template name="generic-stress">
                   <xsl:with-param name="baseCount">
                     <xsl:value-of select="$stressBaseCount"/>
@@ -64,7 +64,7 @@
                   <xsl:with-param name="skillName">Resources</xsl:with-param>
                 </xsl:call-template>
               </xsl:if>
-              <xsl:if test="$useSystemsStress='true'">
+              <xsl:if test="$useSystemsStress">
                 <xsl:call-template name="generic-stress">
                   <xsl:with-param name="baseCount">
                     <xsl:value-of select="$stressBaseCount"/>
