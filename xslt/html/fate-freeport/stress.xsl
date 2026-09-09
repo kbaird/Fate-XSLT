@@ -3,7 +3,6 @@
   <xsl:output method="html"/>
   <xsl:include href="../fate-common/stress.xsl"/>
   <xsl:template name="stress">
-    <xsl:param name="useCorruption"/>
     <table id="stress_table">
       <xsl:call-template name="generic-stress">
         <xsl:with-param name="baseCount">2</xsl:with-param>

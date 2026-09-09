@@ -2,7 +2,6 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:template name="add-skill-focusing">
-    <xsl:param name="skillName"/>
     <xsl:param name="modeRating"/>
     <xsl:param name="skillRating"/>
     <xsl:choose>
