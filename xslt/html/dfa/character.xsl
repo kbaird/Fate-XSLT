@@ -32,9 +32,6 @@
         <section id="consequences">
           <xsl:apply-templates select="conditions"/>
         </section>
-        <!--
-        <xsl:call-template name="refresh"/>
-        -->
         <xsl:apply-templates select="notes"/>
       </body>
     </html>
