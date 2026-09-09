@@ -4,24 +4,12 @@
   <xsl:template name="consequence">
     <xsl:param name="label"/>
     <xsl:param name="severity"/>
-    <fieldset class="consequence">
-      <legend class="severity">
-        <span><xsl:value-of select="$label"/></span>
-        <xsl:text>F ☐</xsl:text>
-        <xsl:if test="$severity != 'Mild'">
-          <xsl:text> / R? ☐</xsl:text>
-        </xsl:if>
-      </legend>
-      <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
-        <xsl:choose>
-          <xsl:when test="text()">
-            <xsl:value-of select="."/>
-          </xsl:when>
-          <xsl:otherwise>
-            <span class="placeholder"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:for-each>
-    </fieldset>
+    <xsl:call-template name="render-consequence">
+      <xsl:with-param name="label" select="$label"/>
+      <xsl:with-param name="severity" select="$severity"/>
+      <xsl:with-param name="spaced" select="'true'"/>
+      <xsl:with-param name="placeholder" select="'true'"/>
+    </xsl:call-template>
   </xsl:template>
 </xsl:stylesheet>
+
