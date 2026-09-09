@@ -15,7 +15,7 @@
           <xsl:call-template name="skills-with-roles"/>
         </table>
       </xsl:when>
-      <xsl:when test="$useSkillModes='true'">
+      <xsl:when test="$useSkillModes">
         <table id="skills_table">
           <xsl:call-template name="skills-with-modes"/>
         </table>

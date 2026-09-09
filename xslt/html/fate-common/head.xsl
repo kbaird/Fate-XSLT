@@ -14,7 +14,7 @@
       @import url(./css/fate.css);
       @import url(./css/<xsl:value-of select="$baseCSS"/>.css);<xsl:if test="string-length($moreCSS) &gt; 0">
       @import url(./css/<xsl:value-of select="$moreCSS"/>.css);</xsl:if>
-    <xsl:if test="$useConditions='true'">  @import url(./css/conditions.css);</xsl:if><xsl:if test="string-length($customCSS) &gt; 0">
+    <xsl:if test="$useConditions">  @import url(./css/conditions.css);</xsl:if><xsl:if test="string-length($customCSS) &gt; 0">
       @import url(./css/<xsl:value-of select="$customCSS"/>.css);</xsl:if>
    </style>
     </head>

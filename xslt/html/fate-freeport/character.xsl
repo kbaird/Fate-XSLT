@@ -2,24 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:template match="character">
-    <xsl:variable name="useConditions">
-      <xsl:choose>
-        <xsl:when test="hacks/@conditions='true'">true</xsl:when>
-        <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="useSkillModes">
-      <xsl:choose>
-        <xsl:when test="hacks/@skill-modes='true'">true</xsl:when>
-        <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
+    <xsl:variable name="useConditions" select="hacks/@conditions='true'"/>
+    <xsl:variable name="useSkillModes" select="hacks/@skill-modes='true'"/>
     <html>
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">fcs</xsl:with-param>
-        <xsl:with-param name="useConditions">
-          <xsl:value-of select="$useConditions"/>
-        </xsl:with-param>
+        <xsl:with-param name="useConditions" select="$useConditions"/>
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
@@ -42,9 +30,7 @@
         </section>
         <section id="skills">
           <xsl:apply-templates select="skills">
-            <xsl:with-param name="useSkillModes">
-              <xsl:value-of select="$useSkillModes"/>
-            </xsl:with-param>
+            <xsl:with-param name="useSkillModes" select="$useSkillModes"/>
           </xsl:apply-templates>
         </section>
         <wbr/>
@@ -60,7 +46,7 @@
         </section>
         <section id="consequences">
           <xsl:choose>
-            <xsl:when test="$useConditions='true'">
+            <xsl:when test="$useConditions">
               <xsl:call-template name="conditions"/>
             </xsl:when>
             <xsl:otherwise>

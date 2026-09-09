@@ -26,9 +26,7 @@
         </section>
         <section id="skills">
           <xsl:apply-templates select="skills">
-            <xsl:with-param name="useSkillModes">
-              <xsl:value-of select="false"/>
-            </xsl:with-param>
+            <xsl:with-param name="useSkillModes" select="false()"/>
           </xsl:apply-templates>
           <xsl:apply-templates select="stunts"/>
           <xsl:apply-templates select="gadgets"/>

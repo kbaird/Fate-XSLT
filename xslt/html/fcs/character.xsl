@@ -3,47 +3,18 @@
   <xsl:output method="html"/>
   <xsl:template match="character">
     <xsl:param name="moreCSS"/>
-    <xsl:variable name="useConditions">
-      <xsl:choose>
-        <xsl:when test="hacks/@conditions='true' or hacks/@conditions='wwn'">true</xsl:when>
-        <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="useCreditStress">
-      <xsl:choose>
-        <xsl:when test="hacks/@credit-stress='true'">true</xsl:when>
-        <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="useSkillModes">
-      <xsl:choose>
-        <xsl:when test="hacks/@skill-modes='true'">true</xsl:when>
-        <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="useSystemsStress">
-      <xsl:choose>
-        <xsl:when test="hacks/@systems-stress='true'">true</xsl:when>
-        <xsl:otherwise>false</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="wealthStressCount">
-      <xsl:choose>
-        <xsl:when test="hacks/@wealth-stress-count">
-          <xsl:value-of select="hacks/@wealth-stress-count"/>
-        </xsl:when>
-        <xsl:otherwise>0</xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
+    <xsl:variable name="useConditions" select="hacks/@conditions='true' or hacks/@conditions='wwn'"/>
+    <xsl:variable name="useCreditStress" select="hacks/@credit-stress='true'"/>
+    <xsl:variable name="useSkillModes" select="hacks/@skill-modes='true'"/>
+    <xsl:variable name="useSystemsStress" select="hacks/@systems-stress='true'"/>
+    <xsl:variable name="wealthStressCount" select="number(hacks/@wealth-stress-count)"/>
     <html>
       <xsl:call-template name="head">
         <xsl:with-param name="baseCSS">fcs</xsl:with-param>
         <xsl:with-param name="moreCSS">
           <xsl:value-of select="$moreCSS"/>
         </xsl:with-param>
-        <xsl:with-param name="useConditions">
-          <xsl:value-of select="$useConditions"/>
-        </xsl:with-param>
+        <xsl:with-param name="useConditions" select="$useConditions"/>
       </xsl:call-template>
       <body>
         <h1><xsl:value-of select="id/charname"/></h1>
@@ -66,9 +37,7 @@
         </section>
         <section id="skills">
           <xsl:apply-templates select="skills">
-            <xsl:with-param name="useSkillModes">
-              <xsl:value-of select="$useSkillModes"/>
-            </xsl:with-param>
+            <xsl:with-param name="useSkillModes" select="$useSkillModes"/>
           </xsl:apply-templates>
           <xsl:apply-templates select="professions"/>
           <xsl:apply-templates select="approaches"/>
@@ -83,15 +52,9 @@
         <wbr/>
         <section id="stress">
           <xsl:call-template name="stress">
-            <xsl:with-param name="useCreditStress">
-              <xsl:value-of select="$useCreditStress"/>
-            </xsl:with-param>
-            <xsl:with-param name="useSystemsStress">
-              <xsl:value-of select="$useSystemsStress"/>
-            </xsl:with-param>
-            <xsl:with-param name="wealthStressCount">
-              <xsl:value-of select="$wealthStressCount"/>
-            </xsl:with-param>
+            <xsl:with-param name="useCreditStress" select="$useCreditStress"/>
+            <xsl:with-param name="useSystemsStress" select="$useSystemsStress"/>
+            <xsl:with-param name="wealthStressCount" select="$wealthStressCount"/>
           </xsl:call-template>
         </section>
         <section id="consequences">
@@ -100,7 +63,7 @@
               <!-- 'wwn' = the Weird World News World of Adventure conditions set -->
               <xsl:call-template name="conditions-wwn"/>
             </xsl:when>
-            <xsl:when test="$useConditions='true'">
+            <xsl:when test="$useConditions">
               <xsl:call-template name="conditions"/>
             </xsl:when>
             <xsl:otherwise>
