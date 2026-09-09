@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:include href="../fate-common/character-fragments.xsl"/>
   <xsl:include href="./approaches.xsl"/>
   <xsl:include href="./stunts.xsl"/>
   <xsl:template match="character">
@@ -10,7 +11,7 @@
         <xsl:with-param name="moreCSS">aether-sea</xsl:with-param>
       </xsl:call-template>
       <body>
-        <h1><xsl:value-of select="id/charname"/></h1>
+        <xsl:call-template name="character-title"/>
         <section id="id"><xsl:apply-templates select="id"/></section>
         <section id="fate-logo">
           <span id="aether-sea">Aether Sea</span>
@@ -21,9 +22,7 @@
           </table>
         </section>
         <wbr/>
-        <section id="aspects">
-          <xsl:apply-templates select="aspects"/>
-        </section>
+        <xsl:call-template name="aspects-section"/>
         <section id="skills">
           <xsl:apply-templates select="approaches" mode="aether-sea"/>
           <p>The <span class="favored">Favored</span> Approach treats all final results &lt; 0 as 0.</p>
@@ -39,7 +38,7 @@
         <section id="consequences">
           <xsl:call-template name="consequences"/>
         </section>
-        <xsl:apply-templates select="notes"/>
+        <xsl:call-template name="notes-section"/>
       </body>
     </html>
   </xsl:template>

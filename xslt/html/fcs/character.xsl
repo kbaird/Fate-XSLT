@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:include href="../fate-common/character-fragments.xsl"/>
   <xsl:template match="character">
     <xsl:param name="moreCSS"/>
     <xsl:variable name="useConditions" select="hacks/@conditions='true' or hacks/@conditions='wwn'"/>
@@ -17,7 +18,7 @@
         <xsl:with-param name="useConditions" select="$useConditions"/>
       </xsl:call-template>
       <body>
-        <h1><xsl:value-of select="id/charname"/></h1>
+        <xsl:call-template name="character-title"/>
         <section id="id">
           <xsl:apply-templates select="id"/>
         </section>
@@ -32,9 +33,7 @@
           </table>
         </section>
         <wbr/>
-        <section id="aspects">
-          <xsl:apply-templates select="aspects"/>
-        </section>
+        <xsl:call-template name="aspects-section"/>
         <section id="skills">
           <xsl:apply-templates select="skills">
             <xsl:with-param name="useSkillModes" select="$useSkillModes"/>
@@ -72,7 +71,7 @@
           </xsl:choose>
         </section>
         <xsl:apply-templates select="phase-trio"/>
-        <xsl:apply-templates select="notes"/>
+        <xsl:call-template name="notes-section"/>
       </body>
     </html>
   </xsl:template>
