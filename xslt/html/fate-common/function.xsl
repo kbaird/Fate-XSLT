@@ -2,8 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:template match="function">
-    <!-- TODO: DRY up with gadget mode aspects -->
-    <dt class="function">
+    <xsl:variable name="label">
       <xsl:choose>
         <xsl:when test="@name">
           <xsl:value-of select="@name"/>
@@ -12,10 +11,13 @@
           <xsl:value-of select="../@override-name"/>
         </xsl:when>
         <xsl:otherwise>
-          Function Aspect:
+          <xsl:text>Function Aspect:</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
-    </dt>
-    <dd><xsl:value-of select="."/></dd>
+    </xsl:variable>
+    <xsl:call-template name="dl-entry">
+      <xsl:with-param name="label" select="$label"/>
+      <xsl:with-param name="value" select="."/>
+    </xsl:call-template>
   </xsl:template>
 </xsl:stylesheet>
