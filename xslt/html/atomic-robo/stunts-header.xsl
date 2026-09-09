@@ -7,7 +7,13 @@
     <tr>
       <th colspan="2" class="sectionheader">
         <xsl:value-of select="$label"/>
-        <xsl:call-template name="mega-stunts-cost"/>
+        <xsl:call-template name="mega-stunts-cost">
+          <xsl:with-param name="gadgetsCount" select="count(/character/stunts/gadget)"/>
+          <xsl:with-param name="gadgetsBenefitsCost" select="sum(/character/stunts/gadget/benefits/benefit/@cost)"/>
+          <xsl:with-param name="signatureAspectCount" select="count(/character/aspects/aspect[@signature='true'])"/>
+          <xsl:with-param name="stuntsCount" select="count(/character/stunts/stunt)"/>
+          <xsl:with-param name="stuntsMegaCount" select="count(/character/stunts/stunt[@mega='true'])"/>
+        </xsl:call-template>
       </th>
     </tr>
   </xsl:template>

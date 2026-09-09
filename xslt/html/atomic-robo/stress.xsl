@@ -5,24 +5,24 @@
   <xsl:include href="calculate-stress.xsl"/>
   <xsl:include href="simple-stress.xsl"/>
   <xsl:template name="atomic-robo-stress">
-    <xsl:variable name="maxModeRating">
+    <xsl:param name="maxModeRating">
       <xsl:for-each select="/character/skills/mode/@rating">
         <xsl:sort data-type="number" order="descending"/>
         <xsl:if test="position()=1"><xsl:value-of select="."/></xsl:if>
       </xsl:for-each>
-    </xsl:variable>
-    <xsl:variable name="medModeRating">
+    </xsl:param>
+    <xsl:param name="medModeRating">
       <xsl:for-each select="/character/skills/mode/@rating">
         <xsl:sort data-type="number" order="descending"/>
         <xsl:if test="position()=2"><xsl:value-of select="."/></xsl:if>
       </xsl:for-each>
-    </xsl:variable>
-    <xsl:variable name="minModeRating">
+    </xsl:param>
+    <xsl:param name="minModeRating">
       <xsl:for-each select="/character/skills/mode/@rating">
         <xsl:sort data-type="number" order="descending"/>
         <xsl:if test="position()=3"><xsl:value-of select="."/></xsl:if>
       </xsl:for-each>
-    </xsl:variable>
+    </xsl:param>
     <xsl:variable name="mentalStress">
       <xsl:call-template name="calculate-stress">
         <xsl:with-param name="stressType">mental</xsl:with-param>
