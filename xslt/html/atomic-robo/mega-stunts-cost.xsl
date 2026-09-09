@@ -38,11 +38,6 @@
         <xsl:value-of select="$fatePointsToGm"/>
         <xsl:text> Fate Points to the GM's reserve)</xsl:text>
       </xsl:when>
-      <xsl:otherwise>
-        <xsl:text> (Total Benefits: </xsl:text>
-        <xsl:value-of select="$fatePointsToGm"/>
-        <xsl:text>)</xsl:text>
-      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 </xsl:stylesheet>
