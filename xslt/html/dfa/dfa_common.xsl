@@ -7,4 +7,13 @@
   <xsl:include href="conditions.xsl"/>
   <xsl:include href="id.xsl"/>
   <xsl:include href="stress.xsl"/>
+  <xsl:include href="condition-boxes.xsl"/>
+  <xsl:include href="../fate-common/base-stress-boxes.xsl"/>
+  <xsl:include href="../fate-common/character-fragments.xsl"/>
+  <xsl:include href="../fate-common/generic-stress.xsl"/>
+  <xsl:include href="../fate-common/homeworld.xsl"/>
+  <xsl:include href="../fate-common/more-stress-boxes.xsl"/>
+  <xsl:include href="../fate-common/name.xsl"/>
+  <xsl:include href="../fate-common/stress-header.xsl"/>
+  <xsl:include href="../fate-common/stress.xsl"/>
 </xsl:stylesheet>

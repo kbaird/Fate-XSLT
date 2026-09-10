@@ -11,4 +11,27 @@
   <xsl:include href="copyright.xsl"/>
   <xsl:include href="extras.xsl"/>
   <xsl:include href="skills.xsl"/>
+  <xsl:include href="../fate-common/benefit.xsl"/>
+  <xsl:include href="../fate-common/character-fragments.xsl"/>
+  <xsl:include href="../fate-common/dl-entry.xsl"/>
+  <xsl:include href="../fate-common/flaw.xsl"/>
+  <xsl:include href="../fate-common/function.xsl"/>
+  <xsl:include href="../fate-common/gadgets.xsl"/>
+  <xsl:include href="../fate-common/homeworld.xsl"/>
+  <xsl:include href="../fate-common/name.xsl"/>
+  <xsl:include href="condition.xsl"/>
+  <xsl:include href="consequence.xsl"/>
+  <xsl:include href="flat-skills.xsl"/>
+  <xsl:include href="skill-modes.xsl"/>
+  <xsl:include href="skill.xsl"/>
+  <xsl:include href="skills-with-modes-header-row.xsl"/>
+  <xsl:include href="skills-with-modes-loop.xsl"/>
+  <xsl:include href="skills-with-modes-row.xsl"/>
+  <xsl:include href="skills-with-modes.xsl"/>
+  <xsl:include href="skills-without-modes.xsl"/>
+  <xsl:include href="../shotc/skill-role-tds.xsl"/>
+  <xsl:include href="../shotc/skills-with-roles-header-row.xsl"/>
+  <xsl:include href="../shotc/skills-with-roles-loop.xsl"/>
+  <xsl:include href="../shotc/skills-with-roles-row.xsl"/>
+  <xsl:include href="../shotc/skills-with-roles.xsl"/>
 </xsl:stylesheet>

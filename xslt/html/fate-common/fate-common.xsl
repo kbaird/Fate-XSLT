@@ -9,4 +9,9 @@
   <xsl:include href="notes.xsl"/>
   <xsl:include href="refresh.xsl"/>
   <xsl:include href="stunts.xsl"/>
+  <xsl:include href="aspect-label.xsl"/>
+  <xsl:include href="aspect-name.xsl"/>
+  <xsl:include href="aspect.xsl"/>
+  <xsl:include href="pad-aspect.xsl"/>
+  <xsl:include href="pad-stunt.xsl"/>
 </xsl:stylesheet>
