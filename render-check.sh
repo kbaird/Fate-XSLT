@@ -19,13 +19,13 @@ assert_fixture() {
   local char=$1 expected_order=$2 css=$3 name_text=$4
   local out order
   out=$(xsltproc "$char" 2>/dev/null) || { fail "fixture render failed: $char"; return; }
-  printf '%s' "$out" | rg -q '<html' || fail "$char missing <html>"
-  printf '%s' "$out" | rg -q '<body' || fail "$char missing <body>"
-  order=$(printf '%s' "$out" | rg -o '<section id="[^"]+"' | cut -d'"' -f2 | paste -sd, -)
+  printf '%s' "$out" | grep -Eq '<html' || fail "$char missing <html>"
+  printf '%s' "$out" | grep -Eq '<body' || fail "$char missing <body>"
+  order=$(printf '%s' "$out" | grep -Eo '<section id="[^"]+"' | cut -d'"' -f2 | paste -sd, -)
   [ "$order" = "$expected_order" ] \
     || fail "$char section order got '$order' want '$expected_order'"
-  printf '%s' "$out" | rg -q "$css" || fail "$char missing css hook: $css"
-  printf '%s' "$out" | rg -q "$name_text" || fail "$char missing name text: $name_text"
+  printf '%s' "$out" | grep -Eq "$css" || fail "$char missing css hook: $css"
+  printf '%s' "$out" | grep -Eq "$name_text" || fail "$char missing name text: $name_text"
 }
 
 assert_fixture characters/FateCore/zird_the_arcane.xml \
