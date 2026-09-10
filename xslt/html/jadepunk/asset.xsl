@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
-  <xsl:include href="feature.xsl"/>
-  <xsl:include href="flaw.xsl"/>
-  <xsl:include href="guiding-aspect.xsl"/>
-  <xsl:include href="notes.xsl"/>
 
   <xsl:template match="asset">
     <xsl:variable name="assetCost">

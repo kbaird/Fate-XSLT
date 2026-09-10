@@ -4,7 +4,6 @@
   xmlns:exsl="http://exslt.org/common"
   exclude-result-prefixes="exsl">
   <xsl:output method="html"/>
-  <xsl:include href="asset-wrapped-cost.xsl"/>
 
   <xsl:template match="refresh">
     <xsl:variable name="assetTotalCost">

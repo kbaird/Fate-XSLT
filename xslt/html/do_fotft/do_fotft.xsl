@@ -4,4 +4,6 @@
   <xsl:include href="../fae/fae_common_base.xsl"/>
   <xsl:include href="character.xsl"/>
   <xsl:include href="id.xsl"/>
+  <xsl:include href="../fate-common/homeworld.xsl"/>
+  <xsl:include href="../fate-common/name.xsl"/>
 </xsl:stylesheet>

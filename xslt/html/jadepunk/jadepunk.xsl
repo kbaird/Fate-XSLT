@@ -14,4 +14,27 @@
   <xsl:include href="professions.xsl"/>
   <xsl:include href="refresh.xsl"/>
   <xsl:include href="stress.xsl"/>
+  <xsl:include href="../fate-common/aspect-label.xsl"/>
+  <xsl:include href="../fate-common/aspect-name.xsl"/>
+  <xsl:include href="../fate-common/aspect.xsl"/>
+  <xsl:include href="../fate-common/base-stress-boxes.xsl"/>
+  <xsl:include href="../fate-common/character-fragments.xsl"/>
+  <xsl:include href="../fate-common/homeworld.xsl"/>
+  <xsl:include href="../fate-common/name.xsl"/>
+  <xsl:include href="../fate-common/pad-aspect.xsl"/>
+  <xsl:include href="../fate-common/stress-header.xsl"/>
+  <xsl:include href="../fcs/condition.xsl"/>
+  <xsl:include href="../fcs/consequence.xsl"/>
+  <xsl:include href="asset-features-count.xsl"/>
+  <xsl:include href="asset-flaws-count.xsl"/>
+  <xsl:include href="asset-one-free-for-ally.xsl"/>
+  <xsl:include href="asset-stress-boxes.xsl"/>
+  <xsl:include href="asset-wrapped-cost.xsl"/>
+  <xsl:include href="asset.xsl"/>
+  <xsl:include href="assets-header.xsl"/>
+  <xsl:include href="feature.xsl"/>
+  <xsl:include href="flaw.xsl"/>
+  <xsl:include href="generic-stress.xsl"/>
+  <xsl:include href="guiding-aspect.xsl"/>
+  <xsl:include href="notes.xsl"/>
 </xsl:stylesheet>

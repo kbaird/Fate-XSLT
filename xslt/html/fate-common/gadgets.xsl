@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
-  <xsl:include href="benefit.xsl"/>
-  <xsl:include href="dl-entry.xsl"/>
-  <xsl:include href="function.xsl"/>
-  <xsl:include href="flaw.xsl"/>
   <xsl:template match="aspect" mode="gadget">
     <xsl:variable name="label">
       <xsl:choose>
