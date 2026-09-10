@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
+  <xsl:template name="render-consequence">
+    <xsl:param name="label"/>
+    <xsl:param name="severity"/>
+    <xsl:param name="spaced" select="'false'"/>
+    <xsl:param name="placeholder" select="'false'"/>
+    <fieldset class="consequence">
+      <legend class="severity">
+        <span><xsl:value-of select="$label"/></span>
+        <xsl:if test="$spaced = 'true'">F ☐</xsl:if>
+        <xsl:if test="$spaced != 'true'">F☐</xsl:if>
+        <xsl:if test="$severity != 'Mild'">
+          <xsl:if test="$spaced = 'true'"> / R? ☐</xsl:if>
+          <xsl:if test="$spaced != 'true'"> / R?☐</xsl:if>
+        </xsl:if>
+      </legend>
+      <xsl:for-each select="/character/consequences/consequence[@severity=$severity]">
+        <xsl:choose>
+          <xsl:when test="$placeholder = 'true' and not(text())">
+            <span class="placeholder"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="."/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </fieldset>
+  </xsl:template>
   <xsl:template name="consequences">
     <table>
       <tr>
