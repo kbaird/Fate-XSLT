@@ -6,6 +6,14 @@
   <xsl:template match="id">
     <xsl:call-template name="id-frame"/>
   </xsl:template>
+  <!--
+    id-frame renders the ID table skeleton (section header, name, id-extra).
+    Game stylesheets import this module and re-declare the id-extra template
+    (or the id match) with their own extra content; import precedence makes
+    the importing game's same-named template win over this module's defaults.
+    Do not override id-frame: call it from a game-local id match and pass the
+    section-header / name-colspan parameters instead.
+  -->
   <xsl:template name="id-frame">
     <xsl:param name="section-header" select="'ID'"/>
     <xsl:param name="name-colspan" select="1"/>
