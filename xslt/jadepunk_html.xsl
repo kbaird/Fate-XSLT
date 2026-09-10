@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
-  <xsl:include href="html/fate-common/aspects.xsl"/>
-  <xsl:include href="html/fate-common/head.xsl"/>
-  <xsl:include href="html/fate-common/name-of-rating.xsl"/>
-  <xsl:include href="html/fate-common/notes.xsl"/>
-  <xsl:include href="html/fcs/conditions.xsl"/>
-  <xsl:include href="html/fcs/consequences.xsl"/>
-  <xsl:include href="html/jadepunk/asset-cost.xsl"/>
-  <xsl:include href="html/jadepunk/assets.xsl"/>
-  <xsl:include href="html/jadepunk/character.xsl"/>
-  <xsl:include href="html/jadepunk/id.xsl"/>
-  <xsl:include href="html/jadepunk/professions.xsl"/>
-  <xsl:include href="html/jadepunk/refresh.xsl"/>
-  <xsl:include href="html/jadepunk/stress.xsl"/>
+  <xsl:include href="html/jadepunk/jadepunk.xsl"/>
   <xsl:template match="/">
     <xsl:apply-templates select="character"/>
   </xsl:template>

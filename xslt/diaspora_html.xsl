@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
-  <xsl:include href="html/fcs/skills.xsl"/>
-  <xsl:include href="html/fcs/consequences.xsl"/>
-  <xsl:include href="html/fate-common/fate-common.xsl"/>
-  <xsl:include href="html/diaspora/character.xsl"/>
-  <xsl:include href="html/diaspora/copyright.xsl"/>
-  <xsl:include href="html/diaspora/id.xsl"/>
-  <xsl:include href="html/diaspora/stress.xsl"/>
+  <xsl:include href="html/diaspora/diaspora.xsl"/>
   <xsl:template match="/">
     <xsl:apply-templates select="character"/>
   </xsl:template>
