@@ -4,9 +4,7 @@
   <xsl:template name="pad-stunt">
     <xsl:param name="name"/>
     <xsl:if test="string-length($name) &gt; 8 and string-length(@notes) &lt; 1">
-      <xsl:variable name="customPadding">
-        <xsl:value-of select="8 + (string-length($name) div 8)"/>
-      </xsl:variable>
+      <xsl:variable name="customPadding" select="8 + (string-length($name) div 8)"/>
       <xsl:attribute name="style">padding-left: <xsl:value-of select="$customPadding"/>em</xsl:attribute>
     </xsl:if>
   </xsl:template>

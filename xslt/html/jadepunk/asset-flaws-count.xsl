@@ -3,16 +3,10 @@
   <xsl:output method="html"/>
 
   <xsl:template match="asset" mode="flaws-count">
-    <xsl:variable name="baseFlawsCount">
-      <xsl:value-of select="count(flaws/flaw[@type!='Consuming'][@type!='Success-With-Style'])"/>
-    </xsl:variable>
+    <xsl:variable name="baseFlawsCount" select="count(flaws/flaw[@type!='Consuming'][@type!='Success-With-Style'])"/>
     <xsl:variable name="specialFlawsCount">
-      <xsl:variable name="consumingCount">
-        <xsl:value-of select="2 * count(flaws/flaw[@type='Consuming'])"/>
-      </xsl:variable>
-      <xsl:variable name="successWithStyleCount">
-        <xsl:value-of select="2 * count(flaws/flaw[@type='Success-With-Style'])"/>
-      </xsl:variable>
+      <xsl:variable name="consumingCount" select="2 * count(flaws/flaw[@type='Consuming'])"/>
+      <xsl:variable name="successWithStyleCount" select="2 * count(flaws/flaw[@type='Success-With-Style'])"/>
       <xsl:value-of select="$consumingCount + $successWithStyleCount"/>
     </xsl:variable>
     <xsl:value-of select="$baseFlawsCount + $specialFlawsCount"/>
