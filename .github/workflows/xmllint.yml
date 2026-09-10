@@ -11,8 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install libxml2-utils
-        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - name: Install libxml2-utils and xsltproc
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils xsltproc
 
       - name: Check character XML validity
         run: find characters -name '*.xml' -print0 | xargs -0 -r xmllint --valid
+
+      - name: Check stylesheet well-formedness
+        run: find xslt -name '*.xsl' -print0 | xargs -0 -r xmllint --noout
+
+      - name: Check stylesheet graph and character stylesheet targets
+        run: python3 check-stylesheets.py
+
+      - name: Render every character through xsltproc and check fixtures
+        run: ./render-check.sh

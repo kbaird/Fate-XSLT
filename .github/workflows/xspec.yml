@@ -30,6 +30,17 @@ jobs:
           curl -fsSLo tools/xmlresolver.jar \
             https://repo1.maven.org/maven2/org/xmlresolver/xmlresolver/6.1.0/xmlresolver-6.1.0.jar
 
+      - name: Check every entry point compiles
+        env:
+          SAXON_CP: ${{ github.workspace }}/tools/Saxon-HE.jar:${{ github.workspace }}/tools/xmlresolver.jar
+        run: |
+          set -e
+          printf '<root/>' > empty.xml
+          for f in xslt/*.xsl; do
+            java -cp "$SAXON_CP" net.sf.saxon.Transform \
+              -xsl:"$f" -s:empty.xml -o:/dev/null
+          done
+
       - name: Run XSpec tests
         env:
           SAXON_CP: ${{ github.workspace }}/tools/Saxon-HE.jar:${{ github.workspace }}/tools/xmlresolver.jar
