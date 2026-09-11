@@ -11,12 +11,7 @@
         <xsl:call-template name="character-title"/>
         <section id="id"><xsl:apply-templates select="id"/></section>
         <section id="fate-logo">
-          <span id="aether-sea">Aether Sea</span>
-          <table>
-            <tr>
-              <xsl:call-template name="refresh"/>
-            </tr>
-          </table>
+          <span id="aether-sea">Aether Sea</span><xsl:call-template name="refresh-table"/>
         </section>
         <wbr/>
         <xsl:call-template name="aspects-section"/>

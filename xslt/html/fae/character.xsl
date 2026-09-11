@@ -16,12 +16,7 @@
             <img alt="Powered By Fate" src="./powered_by_fate.svg" style="height: 2em; width: 5.15em"/>
           </span>
           <br/>
-          <span id="fate-subtitle">Accelerated</span>
-          <table>
-            <tr>
-              <xsl:call-template name="refresh"/>
-            </tr>
-          </table>
+          <span id="fate-subtitle">Accelerated</span><xsl:call-template name="refresh-table"/>
         </section>
         <wbr/>
         <xsl:call-template name="aspects-section"/>

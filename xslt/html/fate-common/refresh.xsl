@@ -2,6 +2,13 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
 
+  <xsl:template name="refresh-table">
+          <table>
+            <tr>
+              <xsl:call-template name="refresh"/>
+            </tr>
+          </table></xsl:template>
+
   <xsl:template name="refresh">
     <xsl:variable name="baseRefresh">
       <xsl:choose>
