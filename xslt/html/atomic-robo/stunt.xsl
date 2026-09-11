@@ -7,11 +7,14 @@
           <xsl:if test="@mega='true'">
             <xsl:attribute name="class">mega stunt</xsl:attribute>
           </xsl:if>
-          <xsl:call-template name="pad-stunt">
-            <xsl:with-param name="name">
-              <xsl:value-of select="@name"/>
-            </xsl:with-param>
-          </xsl:call-template>
+          <xsl:if test="string-length(@notes) &lt; 1">
+            <xsl:call-template name="dynamic-padding">
+              <xsl:with-param name="name" select="@name"/>
+              <xsl:with-param name="threshold" select="8"/>
+              <xsl:with-param name="base" select="8"/>
+              <xsl:with-param name="scale" select="8"/>
+            </xsl:call-template>
+          </xsl:if>
           <legend><span><xsl:value-of select="@name"/></span></legend>
           <xsl:value-of select="."/>
         </fieldset>

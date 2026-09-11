@@ -25,11 +25,14 @@
             <p><xsl:value-of select="@notes"/></p>
           </legend>
           <dl class="gadget">
-            <xsl:call-template name="pad-stunt">
-              <xsl:with-param name="name">
-                <xsl:value-of select="@name"/>
-              </xsl:with-param>
-            </xsl:call-template>
+            <xsl:if test="string-length(@notes) &lt; 1">
+              <xsl:call-template name="dynamic-padding">
+                <xsl:with-param name="name" select="@name"/>
+                <xsl:with-param name="threshold" select="8"/>
+                <xsl:with-param name="base" select="8"/>
+                <xsl:with-param name="scale" select="8"/>
+              </xsl:call-template>
+            </xsl:if>
             <xsl:apply-templates select="function"/>
             <xsl:apply-templates select="flaws/flaw"/>
             <xsl:apply-templates select="benefits/benefit"/>

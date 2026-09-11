@@ -38,8 +38,7 @@
   <xsl:include href="../fate-common/homeworld.xsl"/>
   <xsl:include href="../fate-common/more-stress-boxes.xsl"/>
   <xsl:include href="../fate-common/name.xsl"/>
-  <xsl:include href="../fate-common/pad-aspect.xsl"/>
-  <xsl:include href="../fate-common/pad-stunt.xsl"/>
+  <xsl:include href="../fate-common/dynamic-padding.xsl"/>
   <xsl:include href="../fate-common/stress-header.xsl"/>
   <xsl:include href="../fate-common/stress.xsl"/>
   <xsl:include href="../fcs/condition.xsl"/>
