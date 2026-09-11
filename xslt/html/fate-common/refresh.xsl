@@ -23,16 +23,7 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="rawExtraCost">
-      <xsl:choose>
-        <xsl:when test="/character/extras/extra/@cost">
-          <xsl:value-of select="sum(/character/extras/extra/@cost)"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="0"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
+    <xsl:variable name="rawExtraCost" select="sum(/character/extras/extra/@cost)"/>
     <xsl:variable name="extraCost">
       <xsl:choose>
         <xsl:when test="$rawExtraCost &lt; 0">

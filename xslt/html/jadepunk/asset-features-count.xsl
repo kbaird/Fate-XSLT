@@ -3,31 +3,19 @@
   <xsl:output method="html"/>
 
   <xsl:template match="asset" mode="features-count">
-    <xsl:variable name="baseFeaturesCount">
-      <xsl:value-of select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Professional'][@type!='Protective'][@type!='Resilient'][@type!='Sturdy'])"/>
-    </xsl:variable>
+    <xsl:variable name="baseFeaturesCount" select="count(features/feature[@type!='Focus'][@type!='Harmful'][@type!='Numerous'][@type!='Professional'][@type!='Protective'][@type!='Resilient'][@type!='Sturdy'])"/>
 
     <xsl:variable name="specialFeaturesCount">
       <!-- Exceptional and Flexible count double, so count them again -->
-      <xsl:variable name="exceptionalCount">
-        <xsl:value-of select="count(features/feature[@type='Exceptional'])"/>
-      </xsl:variable>
+      <xsl:variable name="exceptionalCount" select="count(features/feature[@type='Exceptional'])"/>
 
-      <xsl:variable name="flexibleCount">
-        <xsl:value-of select="count(features/feature[@type='Flexible'])"/>
-      </xsl:variable>
+      <xsl:variable name="flexibleCount" select="count(features/feature[@type='Flexible'])"/>
 
-      <xsl:variable name="focusCount">
-        <xsl:value-of select="sum(features/feature[@type='Focus']/@bonus)"/>
-      </xsl:variable>
+      <xsl:variable name="focusCount" select="sum(features/feature[@type='Focus']/@bonus)"/>
 
-      <xsl:variable name="harmfulCount">
-        <xsl:value-of select="sum(features/feature[@type='Harmful']/@bonus)"/>
-      </xsl:variable>
+      <xsl:variable name="harmfulCount" select="sum(features/feature[@type='Harmful']/@bonus)"/>
 
-      <xsl:variable name="numerousCount">
-        <xsl:value-of select="sum(features/feature[@type='Numerous']/@bonus)"/>
-      </xsl:variable>
+      <xsl:variable name="numerousCount" select="sum(features/feature[@type='Numerous']/@bonus)"/>
 
       <xsl:variable name="professionalCount">
         <xsl:variable name="oneFreeForAlly">

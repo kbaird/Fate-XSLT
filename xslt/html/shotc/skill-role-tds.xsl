@@ -7,13 +7,9 @@
     <xsl:for-each select="/character/skills/role/skill">
       <xsl:sort select="@name"/>
       <xsl:if test="generate-id() = generate-id(key('skill-name', normalize-space(@name)))">
-        <xsl:variable name="skillName">
-          <xsl:value-of select="@name"/>
-        </xsl:variable>
-        <xsl:variable name="localSkillRating">
-          <xsl:value-of select="count(/character/skills/role/skill[@name = $skillName]) +
+        <xsl:variable name="skillName" select="@name"/>
+        <xsl:variable name="localSkillRating" select="count(/character/skills/role/skill[@name = $skillName]) +
                                 sum(/character/skills/role/skill[@name = $skillName]/@add)"/>
-                            </xsl:variable>
         <xsl:if test="$localSkillRating = $skillRating">
           <xsl:element name="td">
             <xsl:value-of select="$skillName"/>
