@@ -7,7 +7,7 @@
         <xsl:with-param name="moreCSS">do_fotft</xsl:with-param>
       </xsl:call-template>
       <body>
-        <h1><xsl:value-of select="id/charname"/></h1>
+        <xsl:call-template name="character-title"/>
         <section id="id"><xsl:apply-templates select="id"/></section>
         <section id="fate-logo">
           <span id="do_fotft">Do: Fate of the Flying&#160;Temple</span>
@@ -18,9 +18,7 @@
           </table>
         </section>
         <wbr/>
-        <section id="aspects">
-          <xsl:apply-templates select="aspects"/>
-        </section>
+        <xsl:call-template name="aspects-section"/>
         <section id="skills">
           <xsl:apply-templates select="approaches"/>
         </section>
@@ -35,7 +33,7 @@
         <section id="consequences">
           <xsl:call-template name="consequences"/>
         </section>
-        <xsl:apply-templates select="notes"/>
+        <xsl:call-template name="notes-section"/>
       </body>
     </html>
   </xsl:template>
