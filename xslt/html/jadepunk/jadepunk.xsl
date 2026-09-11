@@ -20,7 +20,7 @@
   <xsl:include href="../fate-common/character-fragments.xsl"/>
   <xsl:include href="../fate-common/homeworld.xsl"/>
   <xsl:include href="../fate-common/name.xsl"/>
-  <xsl:include href="../fate-common/pad-aspect.xsl"/>
+  <xsl:include href="../fate-common/dynamic-padding.xsl"/>
   <xsl:include href="../fate-common/stress-header.xsl"/>
   <xsl:include href="../fcs/condition.xsl"/>
   <xsl:include href="../fcs/consequence.xsl"/>

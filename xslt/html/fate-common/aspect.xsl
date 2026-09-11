@@ -7,10 +7,11 @@
           <xsl:if test="@gonzo='true'">
             <xsl:attribute name="class">aspect gonzo</xsl:attribute>
           </xsl:if>
-          <xsl:call-template name="pad-aspect">
-            <xsl:with-param name="name">
-              <xsl:value-of select="@type"/>
-            </xsl:with-param>
+          <xsl:call-template name="dynamic-padding">
+            <xsl:with-param name="name" select="@type"/>
+            <xsl:with-param name="threshold" select="17"/>
+            <xsl:with-param name="base" select="10"/>
+            <xsl:with-param name="scale" select="6"/>
           </xsl:call-template>
           <xsl:choose>
             <xsl:when test="@type">
