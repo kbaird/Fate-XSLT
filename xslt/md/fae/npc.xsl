@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-  <xsl:include href="./aspects.xsl"/>
-  <xsl:include href="./bad-at.xsl"/>
-  <xsl:include href="./metadata_header.xsl"/>
-  <xsl:include href="./skilled-at.xsl"/>
-  <xsl:include href="./stress.xsl"/>
-
   <xsl:template match="npc">
     <xsl:call-template name="metadata_header"/>
     <xsl:value-of select="id/description"/>
