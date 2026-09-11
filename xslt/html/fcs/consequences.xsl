@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:import href="../fate-common/consequences.xsl"/>
-  <xsl:output method="html"/>
   <xsl:template name="consequences-extra">
     <xsl:variable name="physical-consequence-skill">
       <xsl:choose>

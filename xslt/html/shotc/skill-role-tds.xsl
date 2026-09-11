@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:key name="skill-name" match="/character/skills/role/skill" use="@name"/>
-  <xsl:output method="html"/>
   <xsl:template name="skill-role-tds">
     <xsl:param name="skillRating"/>
     <xsl:for-each select="/character/skills/role/skill">

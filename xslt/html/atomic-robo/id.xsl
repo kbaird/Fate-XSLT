@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:import href="../fate-common/id.xsl"/>
-  <xsl:output method="html"/>
   <xsl:template match="id" mode="atomic-robo">
     <xsl:call-template name="id-frame">
       <xsl:with-param name="section-header" select="''"/>
