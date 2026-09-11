@@ -28,12 +28,49 @@ assert_fixture() {
   printf '%s' "$out" | grep -Eq "$name_text" || fail "$char missing name text: $name_text"
 }
 
+# Markdown fixtures preserve the front-matter opener, title, and main header.
+assert_md_fixture() {
+  local char=$1 name_text=$2
+  local out
+  out=$(xsltproc "$char" 2>/dev/null) || { fail "fixture render failed: $char"; return; }
+  printf '%s' "$out" | grep -Eq '^---' || fail "$char missing front-matter opener"
+  printf '%s' "$out" | grep -Eq "text: $name_text" || fail "$char missing title text: $name_text"
+  printf '%s' "$out" | grep -Eq "^## $name_text" || fail "$char missing header: $name_text"
+}
+
 assert_fixture characters/FateCore/zird_the_arcane.xml \
   'id,fate-logo,aspects,skills,extras,stunts,stress,consequences' \
   './css/fcs.css' 'Zird the Arcane'
 assert_fixture characters/FateAccelerated/bethesda_flushing_phd.xml \
   'id,fate-logo,aspects,skills,stunts,stress,consequences' \
   './css/fae.css' 'Bethesda Flushing, Ph.D.'
+assert_fixture characters/AtomicRobo/barry_allen-police_scientist.xml \
+  'id,fate-logo,aspects,skills,stunts,stress,consequences,notes' \
+  './css/atomic-robo.css' 'Barry Allen'
+assert_fixture characters/AetherSea/lararion.xml \
+  'id,fate-logo,aspects,skills,stunts,stress,consequences' \
+  './css/aether-sea.css' 'Lararion of Verdanteye'
+assert_fixture characters/DresdenFilesAccelerated/gabriel_beaumont.xml \
+  'id,fate-logo,aspects,skills,stunts,stress,consequences' \
+  './css/fae.css' 'Gabriel Beaumont'
+assert_fixture characters/Diaspora/benny.xml \
+  'id,fate-logo,aspects,skills,stunts,stress,consequences' \
+  './css/diaspora.css' 'Benny'
+assert_fixture characters/Do_FotFT/blithe_buffalo.xml \
+  'id,fate-logo,aspects,skills,stunts,stress,consequences,notes' \
+  './css/do_fotft.css' 'Blithe Buffalo'
+assert_fixture characters/FateFreeport/kaerlen_freeport.xml \
+  'id,fate-logo,aspects,skills,extras,stunts,stress,consequences,notes' \
+  './css/freeport.css' 'Kaerlen Santor d'"'"'Sivis'
+assert_fixture characters/Jadepunk/gerard_cutting.xml \
+  'id,fate-logo,aspects,skills,assets,stress,consequences' \
+  './css/jadepunk.css' 'Gerard Cutting'
+assert_fixture characters/SotC/jet_black.xml \
+  'id,fate-logo,aspects,skills,stress,consequences' \
+  './css/sotc.css' 'Jet Black'
+
+assert_md_fixture characters/AetherSea/klehnaki_vessel.xml 'Klehnaki Vessel'
+assert_md_fixture characters/FateAccelerated/sky_shark.xml 'Sky Shark'
 
 if [ "$failures" -ne 0 ]; then
   exit 1
