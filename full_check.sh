@@ -45,11 +45,18 @@ done
 [ "$failures" -ne 0 ] || report "entry point compilation"
 
 # 2-5. Static stylesheet graph and character processing-instruction checks.
-if ! STATIC=$(python3 check-stylesheets.py "$PWD"); then
+if STATIC=$(python3 check-stylesheets.py "$PWD"); then
+  report "stylesheet graph and character processing-instruction checks"
+else
   echo "$STATIC"
   fail "stylesheet graph and character processing-instruction checks"
+fi
+
+# Negative tests for the static checks: each error path must be caught.
+if ./check-stylesheets-negative.sh; then
+  report "stylesheet negative tests"
 else
-  report "stylesheet graph and character processing-instruction checks"
+  fail "stylesheet negative tests"
 fi
 
 # 6-7. Cross-processor publishing and full-page fixture checks.
