@@ -2,11 +2,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="html"/>
   <xsl:template name="mega-stunts-cost">
-    <xsl:param name="gadgetsCount" select="count(/character/stunts/gadget)"/>
-    <xsl:param name="gadgetsBenefitsCost" select="sum(/character/stunts/gadget/benefits/benefit/@cost)"/>
-    <xsl:param name="signatureAspectCount" select="count(/character/aspects/aspect[@signature='true'])"/>
-    <xsl:param name="stuntsCount" select="count(/character/stunts/stunt)"/>
-    <xsl:param name="stuntsMegaCount" select="count(/character/stunts/stunt[@mega='true'])"/>
+    <xsl:param name="gadgetsCount"/>
+    <xsl:param name="gadgetsBenefitsCost"/>
+    <xsl:param name="signatureAspectCount"/>
+    <xsl:param name="stuntsCount"/>
+    <xsl:param name="stuntsMegaCount"/>
     <xsl:variable name="gadgetsCost" select="$gadgetsCount + $gadgetsBenefitsCost"/>
     <xsl:variable name="stuntsCost" select="$stuntsCount + $stuntsMegaCount + $gadgetsCost + $signatureAspectCount"/>
     <xsl:variable name="fatePointsToGm" select="$stuntsCost - 5"/>
