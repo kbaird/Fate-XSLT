@@ -65,6 +65,7 @@
 
   <!ELEMENT hacks (#PCDATA)>
     <!ATTLIST hacks skill-roles (true|false) "true">
+    <!ATTLIST hacks cyberpunk-style (true|false) "false"> <!-- Bold gadget name / Orbitron title font -->
     <!ATTLIST hacks physical-consequence-skill CDATA #IMPLIED>  <!-- Consequences: skill granting an extra mild physical slot -->
     <!ATTLIST hacks mental-consequence-skill   CDATA #IMPLIED>  <!-- Consequences: skill granting an extra mild mental slot -->
     <!ATTLIST hacks physical-consequence-stunt CDATA #IMPLIED>  <!-- Consequences: stunt granting an extra mild physical slot -->

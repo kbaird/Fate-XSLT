@@ -1,0 +1,193 @@
+@charset "UTF-8"
+
+// Cyberpunk-style: bold gadget name / Orbitron title font.
+// Supplemental override sheet imported last (see xslt/html/fate-common/head.xsl)
+// when <character><hacks cyberpunk-style="true"/></character>. Reproduces the
+// compiled CSS delta from the BoldGadgetNameNotBoldAspectsOrStunts branch:
+//   - Orbitron becomes the display font everywhere Cabin, Montserrat was used
+//   - gadget/stunt/asset definition-list labels use the 1.3em oblique label font
+//   - benefit entries align tighter (dd.benefit -1em, stunt/asset dt.benefit -11.5em)
+//   - mega legend spans keep an explicit font-weight
+
+// fate.css
+em.phase-aspect
+  font: oblique small-caps 1.2em 900 Orbitron, Cabin, Montserrat
+
+fieldset.mega legend span
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+  font-weight: bolder
+
+fieldset.aspect legend.label, fieldset#affiliation legend.label, fieldset#description legend.label, fieldset#homeworld legend.label, fieldset#name legend.label, fieldset#arc legend.label, fieldset#unique legend.label
+  color: #666
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+
+fieldset.consequence legend
+  color: #444
+  font: small-caps 1.3em bolder "Sriracha"
+  font-family: Orbitron, Cabin, Montserrat
+  float: right
+
+fieldset.consequence legend span
+  float: left
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+  letter-spacing: 0.16em
+  padding-bottom: 3em
+  top: 0.1em
+
+fieldset.stunt dl dt
+  display: table-row
+  float: left
+  margin: 0
+  padding: 0
+  padding-left: 0.2em
+  padding-right: 0.2em
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+  font-variant: small-caps
+  padding-top: 0.1em
+
+fieldset.stunt dl dt.benefit
+  margin-left: -11.5em
+
+fieldset.stunt dl dd.benefit
+  margin-left: -1em
+
+p#copyright
+  font-family: Orbitron, Cabin, Montserrat
+  font-size: 0.8em
+  text-align: center
+
+section#stunts table tbody tr td fieldset.stunt dl dt
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+  // margin-left comes from the game base sheet (fate.css: -8em; atomic-robo.css: 0)
+
+table#stress_table td
+  border: 4px solid black
+  font-family: Orbitron, Cabin, Montserrat
+  font-size: 1.4em
+  font-weight: 900
+
+table tfoot tr th
+  font-family: Orbitron, Cabin, Montserrat
+  font-size: 0.7em
+  font-weight: 100
+  letter-spacing: 0.4em
+  line-height: 0.7em
+  margin: 0
+  padding: 0
+
+.sectionheader
+  background-color: #000
+  border-bottom-right-radius: 0.9em
+  border-top-left-radius: 0.9em
+  color: #fff
+  font-family: Orbitron, Cabin, Montserrat
+  padding: 0.2em
+  text-transform: uppercase
+  vertical-align: text-top
+
+// fcs.css
+dl.gadget dt
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+  font-variant: small-caps
+  padding-top: 0.1em
+  display: table-row
+  float: left
+  margin: 0
+  padding: 0
+  padding-left: 0.2em
+  padding-right: 0.2em
+  clear: both
+
+dl.gadget dd.benefit
+  margin-left: -1em
+
+fieldset.phase legend.label span.phase-title
+  color: #000
+  font: normal small-caps 1.15em bolder Orbitron, Cabin, Montserrat
+
+table td p
+  font-family: Orbitron, Cabin, Montserrat
+
+// jadepunk.css
+fieldset.asset dl dt
+  display: table-row
+  float: left
+  margin: 0
+  padding: 0
+  padding-left: 0.2em
+  padding-right: 0.2em
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+  font-variant: small-caps
+  padding-top: 0.1em
+
+fieldset.asset dl dt.benefit
+  margin-left: -11.5em
+
+fieldset.asset dl dd.benefit
+  margin-left: -1em
+
+// atomic-robo.css
+fieldset.experience legend.label
+  color: #666
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+
+p
+  font-family: Orbitron, Cabin, Montserrat
+
+table#skills_table tbody tr th
+  font-family: Orbitron, Cabin, Montserrat
+
+// aether-sea.css
+#aether-sea
+  font-family: Orbitron, Cabin, Montserrat
+  font-size: 2.8em
+  font-style: oblique
+  font-variant: small-caps
+  font-weight: 900
+
+fieldset#species legend.label
+  color: #666
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+
+// diaspora.css
+fieldset#cluster legend.label, fieldset#homeworld legend.label
+  color: #666
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+
+#diaspora-logo
+  font: oblique small-caps 5em bolder Orbitron, Cabin, Montserrat
+
+// do_fotft.css
+#do_fotft
+  font-family: Orbitron, Cabin, Montserrat
+  font-size: 1.8em
+  font-style: oblique
+  font-variant: small-caps
+  font-weight: 900
+
+section#skills p
+  font-family: Orbitron, Cabin, Montserrat
+  font-size: 0.7em
+
+// fae.css, freeport.css, professions.css
+dl.approaches dt
+  border: 0px
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+  font-size: 1.2em
+  font-weight: 600
+  line-height: 75%
+  text-align: left
+  text-transform: uppercase
+
+table#approaches tbody tr td dl.approaches dt, table#approaches tbody tr td dl.approaches dd
+  font-size: 1em
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+
+table #professions tbody tr td dl.approaches dt, table #professions tbody tr td dl.approaches dd
+  font-size: 1em
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
+
+// sotc.css
+fieldset#archetype legend.label, fieldset#concept legend.label
+  color: #666
+  font: oblique small-caps 1.3em bolder Orbitron, Cabin, Montserrat
