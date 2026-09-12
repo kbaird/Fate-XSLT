@@ -1,6 +1,9 @@
 FateLogo.eps
 Patches
 *.pdf
+
+# Ruby Sass cache
+.sass-cache/
 *.txt
 out/*/*.epub
 out/*/*.pdf

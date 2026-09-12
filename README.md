@@ -53,6 +53,8 @@ Currently supported variants include
 - Credit Stress and Systems Stress (as in [Mindjammer](https://mindjammerpress.com/mindjammer/))
 - Single Stress Track and Stress Base Count
 - Arbitrary box count for Mental and Physical Stress for _Shadow of the Century_
+- Cyberpunk-style (bold gadget name, Orbitron title font; no padding)
+  (`<hacks cyberpunk-style="true"/>`)
 
 ### Other useful URLs
 - http://www.faterpg.com/

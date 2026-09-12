@@ -25,7 +25,7 @@
             <p><xsl:value-of select="@notes"/></p>
           </legend>
           <dl class="gadget">
-            <xsl:if test="string-length(@notes) &lt; 1">
+            <xsl:if test="string-length(@notes) &lt; 1 and not(/character/hacks/@cyberpunk-style = 'true')">
               <xsl:call-template name="dynamic-padding">
                 <xsl:with-param name="name" select="@name"/>
                 <xsl:with-param name="threshold" select="8"/>
