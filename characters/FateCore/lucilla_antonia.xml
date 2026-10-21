@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/fcs_html.xsl"?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character>
+  <id>
+    <charname>Lucilla Antonia</charname>
+    <playername>sample Hunters of Alexandria character</playername>
+    <description>
+      Lucilla is a respectable Roman woman from a well-off family, and a natural schemer and
+      political operator -- at least she was until her family became rivals of House Tarquitius,
+      and they were destroyed. Lucilla’s father took his own life, his career in tatters. But Lucilla
+      knew there was something unnatural about the Tarquitius family, something unnatural
+      about the influence they wield, and the way people are brought to dark emotions around them.
+
+      As a strong and stoic Roman woman, Lucilla didn’t feel despair. Not only that, but she
+      could instinctively bring in ritual prayers to
+      protect herself. She didn’t even feel any desire for immediate revenge- she knew
+      that was beyond her current resources. Lucilla investigated, discovering some
+      of the nature of the supernatural world, along with the nature of her instinctive
+      magical defences -- and decided to use her resources to help those oppressed by
+      the monsters in Alexandria, so they will not suffer her family’s fate.
+    </description>
+  </id>
+  <refresh base="5"/>
+  <aspects>
+    <aspect type="Portrayal">Political operator</aspect>
+    <aspect type="Background">Rich Roman citizen</aspect>
+    <aspect type="Awakening">I know the nature of House Tarquitius</aspect>
+    <aspect type="Belief">Stoicism and patience</aspect>
+    <aspect type="Trouble">Disgraced family</aspect>
+  </aspects>
+  <professions>
+    <profession rating="2" name="Merchant"/>
+    <profession rating="3" name="Politician"/>
+    <profession rating="2" name="Scholar"/>
+  </professions>
+  <extras>
+    <extra name="Defensive Rituals" cost="1" />
+    <extra name="Information Broker" cost="1" />
+  </extras>
+  <stunts>
+  </stunts>
+  <consequences/>
+  <hacks one-point-stress="true" single-stress-track="true" stress-base-count="3"/>
+</character>
