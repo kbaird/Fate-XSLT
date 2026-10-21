@@ -35,8 +35,29 @@
     <profession rating="2" name="Scholar"/>
   </professions>
   <extras>
-    <extra name="Defensive Rituals" cost="1" />
-    <extra name="Information Broker" cost="1" />
+    <gadget cost="1" name="Defensive Rituals">
+      <function>
+        You can spend a Fate Point to have the tools and rituals at hand to use the Scholar profession to defend against a particular type of magical attacks for
+        a scene. You can even use this stunt to defend against physical attacks from a highly supernatural being.
+      </function>
+      <flaws>
+        <flaw name="Fate Point Cost"/>
+      </flaws>
+      <benefits>
+        <benefit name="New Action"/>
+      </benefits>
+    </gadget>
+    <gadget cost="1" name="Information Broker">
+      <function>
+        Once per session, you get a +2 bonus on a Merchant or Rogue roll you make to gather information.
+      </function>
+      <flaws>
+        <flaw name="Limited"/>
+      </flaws>
+      <benefits>
+        <benefit name="Focus (x2)"/>
+      </benefits>
+    </gadget>
   </extras>
   <stunts>
   </stunts>
